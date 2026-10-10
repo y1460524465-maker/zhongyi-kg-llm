@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "乌梢蛇",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乌蛇、乌花蛇、剑脊蛇、黑风蛇、黄风蛇、剑脊乌梢蛇",
+        "effect": "祛风湿，通经络。治风湿顽痹，肌肤不仁，骨、关节结核，风疹疥癣，麻风，破伤风，小儿麻痹症。",
+        "indication": "风湿顽痹，肌肤不仁，骨、关节结核，风疹疥癣，麻风，破伤风，小儿麻痹症",
+        "origin": "游蛇科动物乌梢蛇除去内脏的全体",
+        "place": "产于浙江、江苏、湖北、安徽、四川等地",
+        "processing": "乌梢蛇肉：去头及鳞片后，用黄酒闷透，除去皮骨，干燥。\n酒（炙）乌梢蛇：取净乌梢蛇段，照酒炙法炒干。每100kg乌梢蛇 ，用黄洒20kg。",
+        "property_flavor": "气腥，味淡",
+        "taboo": "忌鸡、鹅、鱼、肉、发物",
+        "dosage": "内服：煎汤，9～12克；酒浸或焙干研末为丸、散。"
+      }
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《全展选编·外科》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《食物中药与便方》",
+      "type": "Source"
+    },
+    {
+      "name": "《秘传大麻风方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿，通经络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿顽痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨、关节结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风疹疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿麻痹症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肌肤不仁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌梢蛇",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林纂要》",
+      "object_type": "Source"
+    }
+  ]
+}

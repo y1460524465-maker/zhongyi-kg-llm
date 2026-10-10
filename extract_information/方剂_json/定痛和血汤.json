@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "定痛和血汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "活血化瘀、止痛",
+        "indication": "损伤瘀血疼痛，痛处固定，刺痛，拒按，局部多有青紫瘀斑或瘀肿，舌质紫暗，脉细而涩"
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "秦艽",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "川断",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "蒲黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "五灵脂",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "定痛和血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痛和血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痛和血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痛和血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痛和血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秦艽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痛和血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川断",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痛和血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痛和血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五灵脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痛和血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    }
+  ]
+}

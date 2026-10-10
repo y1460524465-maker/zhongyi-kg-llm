@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "红石耳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "理气健胃，利水消食",
+        "indication": "消化不良，腹痛，痢疾，疳积",
+        "usage": "内服：煎汤，9-15g",
+        "processing": "夏季雨后或细雨天采收，晒干",
+        "place": "分布于山西、陕西、西藏",
+        "dosage": "9-15g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "红石耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消化不良",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红石耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红石耳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红石耳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳积",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "entities": [
+    {
+      "name": "椒目",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，2~5g；研末，1.5g；或制成丸、片、胶囊剂。外用：适量，研末，醋调敷。",
+        "effect": "利水消肿，祛痰平喘。治水肿胀满，痰饮喘逆。",
+        "indication": "水肿胀满，痰饮喘逆。",
+        "property_flavor": "味辛辣",
+        "origin": "为芸香科植物花椒的种子。"
+      }
+    },
+    {
+      "name": "水肿胀满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰饮喘逆",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "己椒苈黄丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "腹满口舌干燥，肠间有水气",
+        "usage": "蜜丸如梧子大。先食饮服一丸，日三服，稍增，口中有津液渴者，加芒硝半两。"
+      }
+    },
+    {
+      "name": "防己",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "椒目",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "葶苈子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "椒目散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "水泛于肺，肺得水而浮，故喘不得卧",
+        "usage": "川椒目(沉水者，略炒)为末，每一钱，姜汤调下。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "椒目",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "椒目",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰饮喘逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "椒目",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿，祛痰平喘。治水肿胀满，痰饮喘逆。",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "椒目",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "椒目",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草衍义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "椒目",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "椒目",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "己椒苈黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防己",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "己椒苈黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "椒目",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "己椒苈黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葶苈子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "己椒苈黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "己椒苈黄丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "椒目散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《赤水玄珠》",
+      "object_type": "Source"
+    }
+  ]
+}

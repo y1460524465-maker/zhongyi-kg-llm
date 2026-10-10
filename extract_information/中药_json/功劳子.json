@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "功劳子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清虚热，补肾，燥湿",
+        "indication": "骨蒸潮热，腰膝酸软，头晕耳鸣，湿热腹泻，带下，淋浊",
+        "property_flavor": "苦、涩，微温",
+        "meridian": "肝、肾经",
+        "dosage": "煎汤，5~9 g，或泡茶",
+        "origin": "小檗科植物阔叶十大功劳、细叶十大功劳或华南十大功劳的果实"
+      }
+    }
+  ],
+  "relations": []
+}

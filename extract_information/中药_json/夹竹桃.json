@@ -1,0 +1,113 @@
+{
+  "entities": [
+    {
+      "name": "夹竹桃",
+      "type": "Herb",
+      "attributes": {
+        "effect": "强心利尿，祛痰定喘，镇痛，去瘀",
+        "indication": "心脏病心力衰竭，喘咳，癫痫，跌打肿痛，血瘀经闭",
+        "dosage": "内服：煎汤，0.3-0.9g；研末，0.05-0.1g",
+        "taboo": "孕妇忌服。不宜多服久服，过量则中毒",
+        "alias": "拘那夷、拘孥儿、棋那卫、柳叶桃、叫出冬、水甘草、九节肿、大节肿、白羊桃",
+        "origin": "为夹竹桃科植物夹竹桃的叶及枝皮",
+        "processing": "对2～3年生以上的植株，结合整枝修剪，采集叶片及枝皮，晒干或炕干"
+      }
+    },
+    {
+      "name": "心脏病心力衰竭",
+      "type": "Disease"
+    },
+    {
+      "name": "喘咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "癫痫",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "血瘀经闭",
+      "type": "Symptom"
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "头晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶心",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "烦躁",
+      "type": "Symptom"
+    },
+    {
+      "name": "说胡话",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "夹竹桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心脏病心力衰竭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夹竹桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夹竹桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喘咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "夹竹桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "夹竹桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血瘀经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "夹竹桃",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "强心利尿，祛痰定喘，镇痛，去瘀",
+      "object_type": "Effect"
+    }
+  ]
+}

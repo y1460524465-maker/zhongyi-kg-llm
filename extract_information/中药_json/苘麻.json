@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "name": "苘麻",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白麻，青麻，野棉花，叶生毛，磨盘单，车轮草，点圆子单，馒头姆，孔麻，磨仔盾，毛盾草，野火麻，野芝麻，紫青，绿箐，野苘，野麻，鬼馒头草，金盘银盏",
+        "effect": "清热利湿，解毒开窍",
+        "indication": "痢疾，中耳炎，耳鸣，耳聋，睾丸炎，化脓性扁桃体炎，痈疽肿毒",
+        "usage": "内服，煎汤，9～30g",
+        "processing": "干燥全草或叶"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苘麻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苘麻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒开窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苘麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苘麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中耳炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苘麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "耳鸣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苘麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "耳聋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苘麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "睾丸炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苘麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "化脓性扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苘麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

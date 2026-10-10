@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "菥蓂",
+      "type": "Herb",
+      "attributes": {
+        "alias": "大荠，蔑菥，大蕺，马辛，析目，荣目，马驹，老荠，郭璞注，遏蓝菜，花叶荠，水荠，老鼓草，瓜子草，苏败酱",
+        "property_flavor": "辛，微寒",
+        "meridian": "归肝、胃、大肠经",
+        "effect": "清肝明目，和中利湿，解毒消肿",
+        "indication": "目赤肿痛，脘腹胀痛，胁痛，肠痈，水肿，带下，疮疖痈肿",
+        "dosage": "内服：煎汤，10-30g，鲜品加倍",
+        "processing": "除去杂质，稍润，切段，干燥",
+        "origin": "十字花科植物菥蓂的干燥地上部分",
+        "place": "主产江苏、浙江、湖北、安徽",
+        "traits": "本品茎呈圆柱形，长20～40cm，直径O.2～O.5cm；表面黄绿色或灰黄色，有细纵棱线；质脆，易折断，断面髓部白色。叶互生，披针形，基部叶多为倒披针形，多脱落。总状果序生于茎枝顶端和叶腋，果实卵圆形而扁平，直径O.5～1.3cm；表面灰黄色或灰绿色，中心略隆起，边缘有翅，宽约0.2cm，两面中间各有1条纵棱线，先端凹陷，基部有细果梗，长约1cm；果实内分2室，中间有纵隔膜，每室种子5～7粒。种子扁卵圆形。气微，味淡。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "菥蓂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肝明目，和中利湿，解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菥蓂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菥蓂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菥蓂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胁痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菥蓂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菥蓂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菥蓂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菥蓂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菥蓂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菥蓂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后子宫内膜炎",
+      "object_type": "Disease"
+    }
+  ]
+}

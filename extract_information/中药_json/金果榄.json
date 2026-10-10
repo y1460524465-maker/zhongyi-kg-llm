@@ -1,0 +1,706 @@
+{
+  "entities": [
+    {
+      "name": "金果榄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~9g；研末，每次1~2g。外用：适量，捣敷或研末吹喉。",
+        "effect": "清热解毒。",
+        "indication": "治急慢性扁桃体炎，急性咽喉炎，口腔炎，腮腺炎，乳腺炎，阑尾炎，痈疽疔疮，急慢性肠炎，菌痢，胃痛，热嗽失音。"
+      }
+    },
+    {
+      "name": "咽喉痹急",
+      "type": "Symptom"
+    },
+    {
+      "name": "口烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "疽痈发背",
+      "type": "Symptom"
+    },
+    {
+      "name": "焮赤疔瘯",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛇蝎虫伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "目痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "耳胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "热嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "岚瘴",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐衄",
+      "type": "Symptom"
+    },
+    {
+      "name": "内外结热",
+      "type": "Symptom"
+    },
+    {
+      "name": "遍身恶毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘴疠",
+      "type": "Symptom"
+    },
+    {
+      "name": "双单喉蛾",
+      "type": "Symptom"
+    },
+    {
+      "name": "齿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疔疮肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "胎毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "白喉",
+      "type": "Disease"
+    },
+    {
+      "name": "急性咽喉炎",
+      "type": "Disease"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "热咳失音",
+      "type": "Symptom"
+    },
+    {
+      "name": "菌痢",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛇伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "急性胃肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "口腔炎",
+      "type": "Disease"
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "外感高热症",
+      "type": "Symptom"
+    },
+    {
+      "name": "接触性皮炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉一切症",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉中疼烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "肿毒初起",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽疔毒恶疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "阑尾炎",
+      "type": "Disease"
+    },
+    {
+      "name": "疔疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "急性及慢性扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "腮腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "急性菌痢",
+      "type": "Disease"
+    },
+    {
+      "name": "口腔溃疡",
+      "type": "Symptom"
+    },
+    {
+      "name": "血管瘤",
+      "type": "Disease"
+    },
+    {
+      "name": "脂肪瘤",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "鱼口便毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛇咬",
+      "type": "Symptom"
+    },
+    {
+      "name": "急慢性肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿喘息型支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "地胆",
+      "type": "Herb"
+    },
+    {
+      "name": "苍耳草",
+      "type": "Herb"
+    },
+    {
+      "name": "山茨菇",
+      "type": "Herb"
+    },
+    {
+      "name": "冰片",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉痹急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疽痈发背",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "焮赤疔瘯",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇蝎虫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "耳胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "岚瘴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "内外结热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遍身恶毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘴疠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "双单喉蛾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "齿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胎毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白喉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性咽喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热咳失音",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "菌痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胃肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外感高热症",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "接触性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉一切症",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉中疼烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿毒初起",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疔毒恶疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阑尾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性及慢性扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性菌痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔溃疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血管瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脂肪瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鱼口便毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇咬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急慢性肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿喘息型支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地胆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疔毒恶疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苍耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疔毒恶疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山茨菇",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血管瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山茨菇",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脂肪瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉中疼烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《柑园小识》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陆川本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西实用中草药新选》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《百草镜》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《全展选编·外科》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《新医药资料》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《全展选编·肿瘤》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《湖南药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中草药新医疗法处方集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金果榄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《全展选编·内科》",
+      "object_type": "Source"
+    }
+  ]
+}

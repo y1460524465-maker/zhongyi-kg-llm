@@ -1,0 +1,219 @@
+{
+  "entities": [
+    {
+      "name": "羊肾",
+      "type": "Herb",
+      "attributes": {
+        "alias": "羊肾子, 羊腰子",
+        "origin": "牛科动物山羊或绵羊的肾",
+        "effect": "补肾气，益精",
+        "indication": "肾虚劳损，腰脊疼痛，足膝痿弱，耳聋，消渴，阳萎，尿频，遗尿",
+        "dosage": "内服：1~2枚，煮食或煎汤，或入丸、散",
+        "processing": "炮羊肾一双，去脂，细切，于豉汁中以五味、米糅如常法作羹食，作粥亦得"
+      }
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《食医心镜》",
+      "type": "Source"
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source"
+    },
+    {
+      "name": "《鸡峰普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "肾虚劳损",
+      "type": "Disease"
+    },
+    {
+      "name": "腰脊疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "足膝痿弱",
+      "type": "Symptom"
+    },
+    {
+      "name": "耳聋",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "阳萎",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿频",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗尿",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚劳损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰脊疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "足膝痿弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳聋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳萎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿频",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗尿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《食医心镜》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《千金方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "羊肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《鸡峰普济方》",
+      "object_type": "Source"
+    }
+  ]
+}

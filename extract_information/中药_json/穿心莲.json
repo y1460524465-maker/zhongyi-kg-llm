@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "穿心莲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9~15g",
+        "effect": "清热解毒，凉血消肿",
+        "indication": "急性菌痢，胃肠炎，感冒，流脑，气管炎，肺炎，百日咳，肺结核，肺脓疡，胆囊炎，高血压，鼻衄，口咽肿痛，疮疖痈肿，水火烫伤，毒蛇咬伤",
+        "meridian": "心经；肺经；大肠经；膀胱经",
+        "property_flavor": "味极苦",
+        "taboo": "阳虚证及脾胃弱者慎服"
+      }
+    }
+  ],
+  "relations": []
+}

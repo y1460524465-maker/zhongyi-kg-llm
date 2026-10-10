@@ -1,0 +1,177 @@
+{
+  "entities": [
+    {
+      "name": "尖耳贯众",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒，活血，利水",
+        "indication": "颈淋巴结核，疮毒，水肿，崩漏，跌打损伤",
+        "dosage": "内服：煎汤，0.3～1两；或浸酒",
+        "property_flavor": "苦，微寒",
+        "taboo": "有毒",
+        "origin": "鳞毛蕨科植物尖耳贯众的根茎",
+        "place": "山谷、林下阴湿处。分布西南及广东、广西、江西等地",
+        "processing": "全年可采"
+      }
+    },
+    {
+      "name": "颈淋巴结核",
+      "type": "Disease"
+    },
+    {
+      "name": "疮毒",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "崩漏",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "预防流感",
+      "type": "Effect"
+    },
+    {
+      "name": "麻疹",
+      "type": "Disease"
+    },
+    {
+      "name": "蛇伤后局部溃烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "妇女血崩",
+      "type": "Disease"
+    },
+    {
+      "name": "活血散瘀",
+      "type": "Effect"
+    },
+    {
+      "name": "利水通淋",
+      "type": "Effect"
+    },
+    {
+      "name": "杀虫",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "颈淋巴结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "预防流感",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇伤后局部溃烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女血崩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "尖耳贯众",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水通淋",
+      "object_type": "Effect"
+    }
+  ]
+}

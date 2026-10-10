@@ -1,0 +1,114 @@
+{
+  "entities": [
+    {
+      "name": "桂枝加厚朴杏子汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "宿有喘病，又感风寒而见桂枝汤证者；或风寒表证误用下剂后，表证未解而微喘者",
+        "usage": "上七味，以水七升，微火煮取三升，去滓。温服一升，覆取微似汗"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3枚"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝加厚朴杏子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加厚朴杏子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加厚朴杏子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加厚朴杏子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加厚朴杏子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加厚朴杏子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加厚朴杏子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    }
+  ]
+}

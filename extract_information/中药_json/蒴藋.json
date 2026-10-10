@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "name": "蒴藋",
+      "type": "Herb",
+      "attributes": {
+        "alias": "接骨草、接骨木、真珠花、珊瑚花、排风藤、铁篱笆、吴草、英雄草、苛草、走马箭、赤苓叶、公道老、排风草、鸡罅风、扫地风、八棱麻、葛辣、五甲皮、龙州三七、大臭草、七叶麻、马鞭三七、落得打、珍珠连、秧心草、八里麻、臭黄金、乌鸡腿、水马桑、小接骨丹、走马风、血满草、大血草、珍珠麻、小臭牡丹",
+        "effect": "祛风除湿，活血散瘀",
+        "indication": "风湿疼痛，肾炎水肿，脚气浮肿，痢疾，黄疸，慢性气管炎，风疹瘙痒，丹毒，疮肿，跌打损伤、骨折",
+        "meridian": "足厥阴肝经",
+        "processing": "内服：煎汤，2～4钱（鲜者3～4两）；捣汁或浸酒。外用：煎水洗浴或捣敷。",
+        "property_flavor": null,
+        "traits": null,
+        "taboo": null,
+        "dosage": null,
+        "origin": "《别录》、《日华子本草》、《长沙药解》、《分类草药性》、《贵州民间方药集》、《四川中药志》、《上海常用中草药》",
+        "place": "山东、河南、江西、湖北、湖南、江苏、浙江、福建、广东、广西、云南、贵州、四川"
+      }
+    },
+    {
+      "name": "风湿疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肾炎水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脚气浮肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "风疹瘙痒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疮肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "骨折",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "祛风除湿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "活血散瘀",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风疹瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒴藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    }
+  ]
+}

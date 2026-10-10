@@ -1,0 +1,260 @@
+{
+  "entities": [
+    {
+      "name": "佛手参",
+      "type": "Herb",
+      "attributes": {
+        "alias": "手掌参",
+        "indication": "肝炎、布鲁氏菌病"
+      }
+    },
+    {
+      "name": "百合",
+      "type": "Herb"
+    },
+    {
+      "name": "大枣",
+      "type": "Herb"
+    },
+    {
+      "name": "黄精",
+      "type": "Herb"
+    },
+    {
+      "name": "粉苞苣",
+      "type": "Herb"
+    },
+    {
+      "name": "苦参",
+      "type": "Herb"
+    },
+    {
+      "name": "地丁",
+      "type": "Herb"
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb"
+    },
+    {
+      "name": "当归",
+      "type": "Herb"
+    },
+    {
+      "name": "漏芦",
+      "type": "Herb"
+    },
+    {
+      "name": "玉竹",
+      "type": "Herb"
+    },
+    {
+      "name": "《河北中药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《陕西中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《宁夏中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《全展选编•传染病》",
+      "type": "Source"
+    },
+    {
+      "name": "内蒙古《中草药新医疗法资料选编》",
+      "type": "Source"
+    },
+    {
+      "name": "《高原中草药治疗手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘，益肾健脾，补益气血，止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺虚咳喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳消瘦",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "神经衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚腰腿酸软",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "滑精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿频",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "失血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳少",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽气喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "病后身体虚弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久泻失血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白带",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "佛手参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "佛手参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "布鲁氏菌病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血虚乳汁缺少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "漏芦",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "手掌参",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "玉竹",
+      "object_type": "Herb"
+    }
+  ]
+}

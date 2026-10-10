@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "脏头丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": "口服，每服60～70丸，米饮下"
+      }
+    },
+    {
+      "name": "槐子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "牙皂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.1克"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克"
+      }
+    },
+    {
+      "name": "糯米",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "750克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "脏头丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槐子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏头丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牙皂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏头丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏头丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "糯米",
+      "object_type": "Herb"
+    }
+  ]
+}

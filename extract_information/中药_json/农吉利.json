@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "name": "农吉利",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，利湿，解毒，滋阴益肾",
+        "indication": "用于皮肤癌，疮疖，虫蛇咬伤，耳鸣耳聋，头昏眩晕",
+        "processing": "将原药除去杂质，快洗，润透，切短段，干燥，筛去灰屑",
+        "property_flavor": "甘、淡，平；有毒",
+        "meridian": "入肺，肝，大肠三经",
+        "dosage": "内服，煎汤，15～30g"
+      }
+    },
+    {
+      "name": "野百合",
+      "type": "Herb",
+      "attributes": {
+        "indication": "用于皮肤癌，疮疖，虫蛇咬伤，耳鸣耳聋，头昏眩晕",
+        "effect": "清热，利湿，解毒，滋阴益肾"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "农吉利",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热，利湿，解毒，滋阴益肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "农吉利",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "农吉利",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "农吉利",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虫蛇咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "农吉利",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳鸣耳聋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "农吉利",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头昏眩晕",
+      "object_type": "Symptom"
+    }
+  ]
+}

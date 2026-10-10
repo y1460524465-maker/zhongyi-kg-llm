@@ -1,0 +1,203 @@
+{
+  "entities": [
+    {
+      "name": "逍遥散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "疏肝养血，健脾和中",
+        "indication": "肝郁血虚，五心烦热，或往来寒热，肢体疼痛，头目昏重，心悸颊赤，口燥咽干，胸闷胁痛，减食嗜卧，月经不调，乳房作胀，脉弦而虚者",
+        "usage": "每服6克，用水300毫升，加烧生姜1块切破，薄荷少许，同煎至210毫升，去滓热服，不拘时候"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝郁血虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "五心烦热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "往来寒热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头目昏重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸颊赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口燥咽干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷胁痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "减食嗜卧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳房作胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "疏肝养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "健脾和中",
+      "object_type": "Effect"
+    }
+  ]
+}

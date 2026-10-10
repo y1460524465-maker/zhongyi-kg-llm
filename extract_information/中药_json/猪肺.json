@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "name": "猪肺",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肺止咳，止血",
+        "indication": "肺虚咳嗽，咯血",
+        "usage": "内服：煮食、煎汤或入丸剂",
+        "taboo": "不与白花菜合食，令人气滞，发霍乱"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪肺",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肺止咳，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪肺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺虚咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪肺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咯血",
+      "object_type": "Symptom"
+    }
+  ]
+}

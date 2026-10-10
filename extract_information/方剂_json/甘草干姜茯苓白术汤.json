@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "甘草干姜茯苓白术汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "肾著病。身重腰下冷痛，腰重如带五千钱，如坐冷水中，饮食如故，口不渴，小便自利，舌淡苔白，脉沉迟或沉缓。",
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "补气和中，调和诸药",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "健脾利水",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "温里散寒",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "辛热",
+        "taboo": null,
+        "traits": "为君药"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "健脾利水",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甘草干姜茯苓白术汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘草干姜茯苓白术汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘草干姜茯苓白术汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘草干姜茯苓白术汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘草干姜茯苓白术汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾著病",
+      "object_type": "Disease"
+    }
+  ]
+}

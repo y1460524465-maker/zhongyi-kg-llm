@@ -1,0 +1,147 @@
+{
+  "entities": [
+    {
+      "name": "针头散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "腐肉",
+        "indication": "一切顽疮瘀肉不尽，及疬核不化，疮口不合",
+        "taboo": null,
+        "usage": "搽瘀肉上，其肉自化。若疮口小，或痔疮，用糊和作条子，阴干纴之。凡疮久不合者，内有脓管，须用此药腐之，兼服托里之剂"
+      }
+    },
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "白丁香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "砒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "黄丹",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "轻粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "蜈蚣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1条"
+      }
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/针头散",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "针头散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/针头散",
+      "object_type": "Source"
+    },
+    {
+      "subject": "针头散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "针头散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "针头散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "针头散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "针头散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄丹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "针头散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "轻粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "针头散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "针头散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜈蚣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "针头散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "一切顽疮瘀肉不尽，及疬核不化，疮口不合",
+      "object_type": "Disease"
+    }
+  ]
+}

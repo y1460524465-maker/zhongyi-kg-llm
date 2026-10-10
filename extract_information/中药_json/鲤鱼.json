@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "鲤鱼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "赤鲤鱼,赪鲤",
+        "effect": "利水消肿，下气通乳",
+        "indication": "水肿胀满，脚气，黄疸，咳嗽气逆，乳汁不通",
+        "origin": "为鲤科动物鲤鱼的肉或全体",
+        "place": "除西藏以外，各省市、自治区均有分布"
+      }
+    }
+  ],
+  "relations": []
+}

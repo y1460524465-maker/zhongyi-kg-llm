@@ -1,0 +1,320 @@
+{
+  "entities": [
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15~30g，先煎；或入丸、散。外用：适量，研末干撒或调敷。",
+        "effect": "敛阴潜阳，止汗涩精，化痰软坚。煅牡蛎收敛固涩。",
+        "indication": "主治惊痫，眩晕，自汗，盗汗，遗精，淋浊，崩漏，带下，瘰疬，瘿瘤。",
+        "property_flavor": "味微咸",
+        "taboo": "本品多服久服，易引起便秘和消化不良。虚而有寒者忌之，肾虚无火，精寒自出者非宜。",
+        "traits": "长牡蛎：呈长片状...大连湾牡蛎：呈类三角形...近江牡蛎：呈圆形、卵圆形或三角形等。",
+        "origin": "本品为牡蛎科动物长牡蛎Ostrea gigas Thunberg、大连湾牡蛎Ostrea talienwhanensis Crosse 或近江牡蛎Ostrea rivularis Gould的贝壳。",
+        "processing": "1.生牡蛎：洗净、晒干，碾碎用。2.煅牡蛎：将洗净的牡蛎，置无烟炉火上煅至灰白色，取出放凉，碾碎。"
+      }
+    },
+    {
+      "name": "眩晕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "惊痫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "自汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "淋浊",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "崩漏",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "带下",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "瘿瘤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃痛泛酸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烦躁失眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "多汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃酸过多",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "乌贼骨",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "栝蒌牡蛎散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "牡蛎散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "来自《千金方》"
+      }
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《局方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《温病条辨》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《山东中草药手册》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《经验方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛泛酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦躁失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "多汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃酸过多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛阴潜阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止汗涩精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰软坚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛固涩",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "栝蒌牡蛎散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栝蒌牡蛎散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡蛎散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牡蛎散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《千金方》",
+      "object_type": "Source"
+    }
+  ]
+}

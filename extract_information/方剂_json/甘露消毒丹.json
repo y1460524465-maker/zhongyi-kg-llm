@@ -1,0 +1,338 @@
+{
+  "entities": [
+    {
+      "name": "甘露消毒丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": "普济解毒丹|甘露消毒丸",
+        "effect": "清热解毒，利湿化浊",
+        "indication": "湿温时疫，邪在气分。症见发热困倦，胸闷腹胀，肢酸，咽肿，颐肿口渴，身黄，小便短赤，淋浊，吐泻，舌苔淡白或腻或干黄者",
+        "usage": "每服三钱，开水调下，或神曲糊丸，如弹子大，开水化服"
+      }
+    },
+    {
+      "name": "普济解毒丹",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "甘露消毒丸",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "飞滑石",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "绵茵陈",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "淡黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "石菖蒲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川贝母",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "藿香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "射干",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白豆蔻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "湿温时疫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "困倦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹胀",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肢酸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "颐肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便短赤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "淋浊",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《温热经纬》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《中药制剂手册》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿温时疫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "困倦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "颐肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便短赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "飞滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "绵茵陈",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淡黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石菖蒲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藿香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "射干",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘露消毒丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济解毒丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《温热经纬》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "甘露消毒丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《中药制剂手册》",
+      "object_type": "Source"
+    }
+  ]
+}

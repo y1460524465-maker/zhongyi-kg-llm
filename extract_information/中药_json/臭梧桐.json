@@ -1,0 +1,331 @@
+{
+  "entities": [
+    {
+      "name": "臭梧桐",
+      "type": "Herb",
+      "attributes": {
+        "alias": "臭桐、臭芙蓉、地梧桐、八角梧桐、楸叶常山、矮桐子、楸茶叶、百日红、臭桐柴",
+        "effect": "祛风除湿，平肝降压，解毒杀虫",
+        "indication": "风湿痹痛，半身不遂，高血压病，偏头痛，疟疾，痢疾，痔疮，痈疽疮疥",
+        "dosage": "内服：煎汤，10~15g，鲜品30~60g；或浸酒；或入丸、散。外用：适量，煎水洗；或捣敷；研末掺或调敷",
+        "taboo": "臭梧桐经高热煎煮后，降压作用减弱",
+        "processing": "拣去杂草，用清水略浸，润透，切成 lcm长的小段，晒干，生用",
+        "origin": "为马鞭草科植物臭梧桐的嫩枝及叶",
+        "place": "分布于华北、华东、中南、西南等地"
+      }
+    },
+    {
+      "name": "豨莶草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "川椒",
+      "type": "Herb",
+      "attributes": {
+        "alias": "花椒"
+      }
+    },
+    {
+      "name": "瓦松",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "皮硝",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "荠菜",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "夏枯草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "野菊花",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白鲜皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "蛇床子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《上海常用中草药》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《万县中草药》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《万县中药志》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《青岛中草药手册》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "半身不遂",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "高血压病",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "偏头痛",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "痈疽疮疥",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "鹅掌风",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "痱子",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "痈疽疮毒",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "脐风",
+      "type": "Symptom",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿，平肝降压，解毒杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "半身不遂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "偏头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮疥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鹅掌风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痱子",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "臭梧桐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "《本草图经》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "臭梧桐",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《纲目拾遗》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "臭梧桐",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《岭南采药录》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "臭梧桐",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《现代实用中药》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "臭梧桐",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《上海常用中草药》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "臭梧桐",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《湖南药物志》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "臭梧桐",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《万县中草药》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "臭梧桐",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《万县中药志》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "臭梧桐",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《青岛中草药手册》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "臭梧桐",
+      "object_type": "Herb"
+    }
+  ]
+}

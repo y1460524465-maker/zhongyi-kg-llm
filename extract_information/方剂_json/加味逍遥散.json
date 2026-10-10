@@ -1,0 +1,174 @@
+{
+  "entities": [
+    {
+      "name": "加味逍遥散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "八味逍遥散、丹栀逍遥散",
+        "indication": "肝脾血虚发热，或潮热晡热，或自汗盗汗，或头痛目涩，或怔忡不宁，或颊赤口干，或月经不调，或肚腹作痛，或小腹重坠，水道涩痛，或肿痛出脓，内热作渴。"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "山栀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "八味逍遥散",
+      "type": "Source"
+    },
+    {
+      "name": "丹栀逍遥散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "《医学入门》",
+      "type": "Source"
+    },
+    {
+      "name": "《中医内科学》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "八味逍遥散",
+      "object_type": "Source"
+    },
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医学入门》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "丹栀逍遥散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《中医内科学》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    }
+  ]
+}

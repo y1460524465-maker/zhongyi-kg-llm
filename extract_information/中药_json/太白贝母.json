@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "太白贝母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1～3钱",
+        "effect": "润肺，化痰，止咳",
+        "indication": "肺热咳嗽，支气管炎，咳痰不利",
+        "property_flavor": "苦",
+        "processing": "6月采挖置麦麸中阴干，再用硫黄熏制",
+        "origin": "为百合科植物太白贝母的鳞茎"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "支气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳痰不利",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "太白贝母",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺，化痰，止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "太白贝母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太白贝母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "太白贝母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳痰不利",
+      "object_type": "Symptom"
+    }
+  ]
+}

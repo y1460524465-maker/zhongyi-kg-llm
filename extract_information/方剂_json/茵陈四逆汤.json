@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "茵陈四逆汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "茵陈附子干姜甘草汤",
+        "effect": "温里助阳，利湿退黄",
+        "indication": "治黄疸阴证。黄色晦暗，神倦食少，肢体逆冷，脉沉细无力者",
+        "usage": "上锉。每服酌量多少，水煎，凉服"
+      }
+    },
+    {
+      "name": "白通汤",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "茵陈",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "炮附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9 g",
+        "processing": "炮"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "黄疸阴证",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "《医门法律》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《类证治裁》",
+      "type": "Source",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医门法律》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《类证治裁》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸阴证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茵陈",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炮附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温里助阳，利湿退黄",
+      "object_type": "Effect"
+    }
+  ]
+}

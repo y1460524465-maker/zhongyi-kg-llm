@@ -1,0 +1,157 @@
+{
+  "entities": [
+    {
+      "name": "大羌活汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "主肢节疼痛，屈伸不利，心下痞满，身体沉重，不欲饮食，食即欲吐，面色萎黄，精神减少，脉沉而缓",
+        "taboo": "服药期间，忌酒、面、生冷、硬物",
+        "usage": "用水300毫升，煎至150毫升，去滓温服，食前后各一服"
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "升麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.1克"
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "威灵仙",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "威灵仙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "entities": [
+    {
+      "name": "归脾汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "加味归脾汤、归脾养营汤、归脾丸",
+        "effect": "健脾养心，益气补血",
+        "indication": "心脾两虚，气血不足，心悸健忘，失眠多梦，发热，体倦食少，面色萎黄，舌质淡，苔薄白，脉细弱；以及脾不统血所致便血，妇女月经超前，量多色淡，或淋漓不止者。现用于心脏病，神经衰弱，贫血，功能性子宫出血，血小板减少性紫癜等属心脾气血两虚者",
+        "usage": "加生姜、大枣，水煎服"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "黄耆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "龙眼肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "远志",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "酸枣仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.9克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "心脾两虚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气血不足",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "心悸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "健忘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "多梦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "体倦食少",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "面色萎黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "便血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "月经超前",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "量多色淡",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "淋漓不止",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心脏病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "神经衰弱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "贫血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "功能性子宫出血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血小板减少性紫癜",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "古今医鉴",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "疡科心得集",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "中国医学大辞典",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "济生方",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄耆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙眼肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "酸枣仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "健脾养心，益气补血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心脾两虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气血不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "健忘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "多梦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体倦食少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面色萎黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心脏病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "神经衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "贫血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "功能性子宫出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血小板减少性紫癜",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "归脾汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "济生方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "加味归脾汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "古今医鉴",
+      "object_type": "Source"
+    },
+    {
+      "subject": "归脾养营汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "疡科心得集",
+      "object_type": "Source"
+    },
+    {
+      "subject": "归脾丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "中国医学大辞典",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "大马蓼",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，除湿，活血",
+        "indication": "疮疡肿痛，瘰疬，腹泻，痢疾，湿疹，疳积，风湿痹痛，跌打损伤，月经不调",
+        "dosage": "内服：煎汤，3-10g。外用：适量，捣敷；或煎水洗"
+      }
+    },
+    {
+      "name": "白辣蓼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "大马蓼"
+      }
+    },
+    {
+      "name": "酸模叶蓼",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白辣蓼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南大学校园植物名录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大马蓼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《常用中草药彩色图谱》",
+      "object_type": "Source"
+    }
+  ]
+}

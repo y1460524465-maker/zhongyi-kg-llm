@@ -1,0 +1,217 @@
+{
+  "entities": [
+    {
+      "name": "燕窝",
+      "type": "Herb",
+      "attributes": {
+        "alias": "燕窝菜, 燕蔬菜, 燕菜, 燕根",
+        "effect": "养阴润燥，益气补中，化痰止咳",
+        "indication": "虚损，痨瘵，咳嗽痰喘，咯血，吐血，久痢，久疟，噎膈反胃",
+        "property_flavor": "甘，平，无毒；甘淡，平；味甘咸，性平，有微毒",
+        "taboo": "肺胃虚寒，湿痰停滞及有表邪者忌用",
+        "traits": "呈不整齐的半月形，长约6.5～10厘米，宽约3～5厘米，凹陷成兜状。附着于岩石的一面较平，外面微隆起，附着面粘液凝成层排列较整齐，较隆起面细致，呈波状，窝的内部粗糙，呈丝瓜络样。质硬而脆，断面微似角质。入水则柔软而膨大。商品有白燕、毛燕、血燕之分。以白燕的品质为最佳。",
+        "dosage": "内服：绢包，煎汤或蒸服，5-10g；或入膏剂"
+      }
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草从新》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《物理小识》",
+      "type": "Source"
+    },
+    {
+      "name": "《闽小记》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南杂记》",
+      "type": "Source"
+    },
+    {
+      "name": "《食物宜忌》",
+      "type": "Source"
+    },
+    {
+      "name": "《文堂集验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《救生苦海》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《内经类编试效方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痨瘵",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久疟",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噎膈反胃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽痰喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气补中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草从新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《物理小识》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《闽小记》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南杂记》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《食物宜忌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《文堂集验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《救生苦海》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "燕窝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《内经类编试效方》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "name": "槲寄生",
+      "type": "Herb",
+      "attributes": {
+        "alias": "北寄生，柳寄生，寄生子",
+        "dosage": "内服：煎汤，10-15g；或入丸、散；浸酒或捣汁。",
+        "effect": "祛风湿，补肝肾，强筋骨，安胎元",
+        "indication": "用于风湿痹痛，腰膝酸软，筋骨无力，崩漏经多，妊娠漏血，胎动不安，头晕目眩",
+        "property_flavor": "味微苦",
+        "origin": "本品为桑寄生科植物槲寄生的干燥带叶茎枝。冬季至次春采割，除去粗茎，切段，干燥，或蒸后干燥。",
+        "traits": "茎外皮黄绿色、黄棕色或棕褐色。切面皮部黄色，木部浅黄色，有放射状纹理，髓部常偏向一边。叶片黄绿色或黄棕色，全缘，有细皱纹；革质。气微，味微苦，嚼之有黏性。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "槲寄生",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槲寄生",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槲寄生",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "强筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槲寄生",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安胎元",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槲寄生",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槲寄生",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槲寄生",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槲寄生",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏经多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槲寄生",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妊娠漏血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槲寄生",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎动不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槲寄生",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕目眩",
+      "object_type": "Symptom"
+    }
+  ]
+}

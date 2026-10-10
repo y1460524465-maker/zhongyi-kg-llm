@@ -1,0 +1,186 @@
+{
+  "entities": [
+    {
+      "name": "山豆根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清火，解毒，消肿，止痛",
+        "indication": "喉痈，喉风，喉痹，牙龈肿痛，喘满热咳，黄疸，下痢，痔疾，热肿，秃疮，疥癣，蛇、虫、犬咬伤",
+        "meridian": "入心经，肺经、大肠经三经",
+        "origin": "《要药分剂》",
+        "property_flavor": "味极苦",
+        "taboo": "虚寒者勿服；脾虚食少而泻者，切勿沾唇；虚火炎肺、咽喉肿痛者禁用",
+        "dosage": "内服：煎汤，3～5克；或磨汁",
+        "traits": "干燥根呈不规则的结节状，顶端常残留茎基或茎痕，其下着生数条根。根为长圆柱形，有时分枝，略弯曲，长10～36厘米，直径0.3～1厘米；表面棕色至黑棕色，有纵皱纹及横长略突起的皮孔。质硬难折断，断面略平坦、浅棕色，并可见环状形成层，中心无髓。气微弱，味极苦。以粗壮块大、粉多者为佳",
+        "place": "主要为豆科植物广豆根的根"
+      }
+    },
+    {
+      "name": "喉痈",
+      "type": "Disease"
+    },
+    {
+      "name": "喉风",
+      "type": "Disease"
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease"
+    },
+    {
+      "name": "牙龈肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "喘满热咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "下痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔疾",
+      "type": "Disease"
+    },
+    {
+      "name": "热肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "秃疮",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "清火",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "消肿",
+      "type": "Effect"
+    },
+    {
+      "name": "止痛",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙龈肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喘满热咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "秃疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山豆根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "鲨鱼肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煮食，100-200g",
+        "effect": "补虚健脾，利水，祛瘀消肿",
+        "indication": "久病体虚，脾虚浮肿，创口久不愈合，痔疮",
+        "place": "皱唇鲨科白斑星鲨、灰星鲨、白斑角鲨等的肉"
+      }
+    }
+  ],
+  "relations": []
+}

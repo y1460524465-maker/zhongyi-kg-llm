@@ -1,0 +1,188 @@
+{
+  "entities": [
+    {
+      "name": "猪仔笠",
+      "type": "Herb",
+      "attributes": {
+        "alias": "山葛, 大力牛, 鸡头薯, 雀脷珠, 鸡心薯, 鸡头子, 凉薯, 山莨薯",
+        "effect": "清肺化痰止咳，生津止渴，消肿",
+        "indication": "肺热咳嗽，肺痈，发热烦渴，痢疾，睾丸鞘膜积液，食积不消，跌打肿痛",
+        "dosage": "内服：煎汤，9~15克；外用：鲜品适量，捣烂敷患处",
+        "taboo": "《广西中药志》：虚寒忌用",
+        "origin": "为豆科植物猪仔笠的块根",
+        "place": "广东、广西"
+      }
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease"
+    },
+    {
+      "name": "发热烦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "睾丸鞘膜积液",
+      "type": "Disease"
+    },
+    {
+      "name": "食积不消",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "清肺化痰止咳",
+      "type": "Effect"
+    },
+    {
+      "name": "生津止渴",
+      "type": "Effect"
+    },
+    {
+      "name": "消肿",
+      "type": "Effect"
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "《广州植物志》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "广州部队《常用中草药手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺化痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "睾丸鞘膜积液",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积不消",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药性备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广州植物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪仔笠",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

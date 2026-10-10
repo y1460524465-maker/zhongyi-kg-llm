@@ -1,0 +1,267 @@
+{
+  "entities": [
+    {
+      "name": "八正散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热泻火，利尿通淋",
+        "indication": "湿热下注所致的淋证，尿频涩痛、淋沥不畅、舌红苔黄、脉数；急性泌尿系感染"
+      }
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "瞿麦",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "扁蓄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "车前子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "甘草梢",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "灯芯",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2克"
+      }
+    },
+    {
+      "name": "淋证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "尿频涩痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "淋沥不畅",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红苔黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉数",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "急性泌尿系感染",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "热淋",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "石淋",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "湿热下注膀胱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "金匮要略",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瞿麦",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "扁蓄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "车前子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草梢",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "灯芯",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热泻火，利尿通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "淋证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿频涩痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋沥不畅",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌红苔黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性泌尿系感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "石淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热下注膀胱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八正散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "金匮要略",
+      "object_type": "Source"
+    }
+  ]
+}

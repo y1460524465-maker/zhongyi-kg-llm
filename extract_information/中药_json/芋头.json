@@ -1,0 +1,170 @@
+{
+  "entities": [
+    {
+      "name": "芋头",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蹲鸱、芋魁、芋根、土芝、芋奶、芋艿",
+        "effect": "健脾补虚，散结解毒",
+        "indication": "脾胃虚弱，纳少乏力，消渴，瘰疬，腹中癖块，肿毒，赘疣，鸡眼，疥癣，烫火伤",
+        "taboo": "生则有毒，莶不可食；不可多食，动宿冷；多食滞气困脾",
+        "usage": "内服：煎汤，60-120g；或入丸、散。外用：适量，捣敷或醋磨涂",
+        "origin": "天南星科植物芋的块茎",
+        "property_flavor": "味甘微涩",
+        "processing": "8～9月间采挖，去净须根及地上部分，洗净，晒干"
+      }
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "脾胃虚弱",
+      "type": "Disease"
+    },
+    {
+      "name": "纳少乏力",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "腹中癖块",
+      "type": "Symptom"
+    },
+    {
+      "name": "肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "赘疣",
+      "type": "Symptom"
+    },
+    {
+      "name": "鸡眼",
+      "type": "Symptom"
+    },
+    {
+      "name": "疥癣",
+      "type": "Symptom"
+    },
+    {
+      "name": "烫火伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "健脾补虚",
+      "type": "Effect"
+    },
+    {
+      "name": "散结解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "芋艿丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治瘰疬不论已溃未溃",
+        "taboo": null,
+        "usage": "每服三钱，陈海蜇皮、荸荠煎汤送下"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "纳少乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹中癖块",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赘疣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鸡眼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疥癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烫火伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾补虚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芋头",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散结解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芋艿丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    }
+  ]
+}

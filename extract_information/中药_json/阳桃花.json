@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "阳桃花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "截疟，止痛，解毒，杀虫",
+        "indication": "疟疾，胃痛，漆疮，疥癣",
+        "usage": "内服：煎汤，9-30g"
+      }
+    }
+  ],
+  "relations": []
+}

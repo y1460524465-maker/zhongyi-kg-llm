@@ -1,0 +1,187 @@
+{
+  "entities": [
+    {
+      "name": "大补阴丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴降火",
+        "indication": "阴虚火旺，潮热盗汗，咳嗽咯血，耳鸣遗精",
+        "taboo": null,
+        "usage": "口服，一次6g，一日2～3次"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "粉碎成粗粉",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "盐炒，粉碎成粗粉",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "盐炒，粉碎成粗粉",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "龟甲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "制，粉碎成粗粉",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "猪脊髓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "160g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "置沸水中略煮，除去外皮",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "阴虚火旺",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "潮热盗汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽咯血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "耳鸣遗精",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大补阴丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大补阴丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大补阴丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大补阴丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大补阴丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪脊髓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大补阴丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴降火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大补阴丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚火旺",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阴虚火旺",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "潮热盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴虚火旺",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴虚火旺",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "耳鸣遗精",
+      "object_type": "Symptom"
+    }
+  ]
+}

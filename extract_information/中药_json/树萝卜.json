@@ -1,0 +1,136 @@
+{
+  "entities": [
+    {
+      "name": "树萝卜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "煎汤9～30g；或泡酒；外用适量",
+        "effect": "舒肝，祛风利湿，散瘀消肿",
+        "indication": "黄疸型肝炎，水肿，月经不调，风湿骨痛，腰膝痹痛，小儿惊风，麻风",
+        "processing": "切片晒干或鲜用",
+        "origin": "杜鹃花科植物小叶爱楠",
+        "place": "云南"
+      }
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "骨折",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打伤肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "无名肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸型肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿骨痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰膝痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打伤肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "树萝卜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无名肿毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

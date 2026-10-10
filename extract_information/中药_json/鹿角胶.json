@@ -1,0 +1,137 @@
+{
+  "entities": [
+    {
+      "name": "鹿角胶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温补肝肾，益精养血",
+        "indication": "阳痿滑精，腰膝酸冷，虚劳羸瘦，崩漏下血，便血尿血，阴疽肿痛，肾气不足，妇女子宫虚冷，带下",
+        "taboo": "阴虚阳亢及火热内蕴之出血、咳嗽、疮疡、疟痢者禁服",
+        "usage": "内服：开水或黄酒烊化，每次3g，每日9g；或入丸、散、膏剂"
+      }
+    },
+    {
+      "name": "阳痿滑精",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰膝酸冷",
+      "type": "Symptom"
+    },
+    {
+      "name": "虚劳羸瘦",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏下血",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴疽肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾气不足",
+      "type": "Disease"
+    },
+    {
+      "name": "妇女子宫虚冷",
+      "type": "Disease"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "温补肝肾",
+      "type": "Effect"
+    },
+    {
+      "name": "益精养血",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹿角胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温补肝肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹿角胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益精养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹿角胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿滑精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿角胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿角胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳羸瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿角胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿角胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿角胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴疽肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿角胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾气不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿角胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女子宫虚冷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿角胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    }
+  ]
+}

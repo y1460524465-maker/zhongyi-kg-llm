@@ -1,0 +1,144 @@
+{
+  "entities": [
+    {
+      "name": "豆腐浆",
+      "type": "Herb",
+      "attributes": {
+        "alias": "腐浆、豆浆",
+        "effect": "补虚润燥，清肺化痰",
+        "indication": "虚劳咳嗽，痰火哮喘，便秘，淋浊",
+        "usage": "内服：50-250ml",
+        "origin": "为豆科植物大豆Glycine max(L.)Merr.种子制成的浆汁"
+      }
+    },
+    {
+      "name": "虚劳咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰火哮喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "便秘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "淋浊",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《药性考》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "甜浆粥",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "《经验广集》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《秘方集验》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "豆腐浆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆腐浆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰火哮喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆腐浆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆腐浆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆腐浆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "豆腐浆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "豆腐浆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《随息居饮食谱》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "甜浆粥",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "甜浆粥",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "豆腐浆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "豆腐浆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《经验广集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "豆腐浆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《秘方集验》",
+      "object_type": "Source"
+    }
+  ]
+}

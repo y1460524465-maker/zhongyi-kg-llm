@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "name": "长肉生肌散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": "用时以少许掺膏药上贴之"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "长肉生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨（煅）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "长肉生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "血竭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "长肉生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "象皮（炒）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "长肉生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "儿茶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "长肉生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘石（煅）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "长肉生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "长肉生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药（去油）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "长肉生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "长肉生肌散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/长肉生肌散",
+      "object_type": "Source"
+    }
+  ]
+}

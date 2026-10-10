@@ -1,0 +1,13 @@
+{
+  "entities": [
+    {
+      "name": "大烟锅草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "凉血，散淤，止血",
+        "indication": "跌打损伤，外伤出血"
+      }
+    }
+  ],
+  "relations": []
+}

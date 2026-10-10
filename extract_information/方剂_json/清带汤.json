@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "name": "清带汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "《医学衷中参西录》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清带汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医学衷中参西录》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "启宫丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "去痰燥湿，开郁化气，活血，助生气",
+        "indication": "妇人体肥痰盛，子宫脂满，不能孕育",
+        "usage": "每次用白开水冲服10克"
+      }
+    },
+    {
+      "name": "芎藭",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "半夏曲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "神曲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "橘红",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "启宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芎藭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "启宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "启宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "启宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "启宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "启宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "启宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘红",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "启宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "启宫丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人体肥痰盛，子宫脂满，不能孕育",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "entities": [
+    {
+      "name": "石萝藦",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散风清热，解毒消肿",
+        "indication": "风热感冒，咳嗽，咽痛，目赤，肝炎，毒蛇咬伤",
+        "usage": "内服：煎汤,9-15g",
+        "origin": "为双子叶植物药萝藦科石萝摩的全草"
+      }
+    },
+    {
+      "name": "风热感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目赤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "散风清热",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "解毒消肿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《新华本草纲要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "风火眼痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石萝藦",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散风清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石萝藦",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石萝藦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石萝藦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石萝藦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石萝藦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石萝藦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石萝藦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石萝藦",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《新华本草纲要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石萝藦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石萝藦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风火眼痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

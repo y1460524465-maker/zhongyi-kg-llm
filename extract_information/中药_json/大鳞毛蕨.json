@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {
+      "name": "大鳞毛蕨",
+      "type": "Herb",
+      "attributes": {
+        "effect": "驱虫",
+        "indication": "绦虫病",
+        "dosage": "5-12g",
+        "processing": "鲜用或晒干",
+        "origin": "鳞毛蕨科植物广布鳞毛蕨的根茎"
+      }
+    },
+    {
+      "name": "绦虫病",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大鳞毛蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "绦虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大鳞毛蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "驱虫",
+      "object_type": "Effect"
+    }
+  ]
+}

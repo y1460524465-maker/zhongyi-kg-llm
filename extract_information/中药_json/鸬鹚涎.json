@@ -1,0 +1,48 @@
+{
+  "entities": [
+    {
+      "name": "鸬鹚涎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化痰镇咳",
+        "indication": "久咳，百日咳",
+        "usage": "内服：开水冲，10ml"
+      }
+    },
+    {
+      "name": "肾咳",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸬鹚涎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰镇咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸬鹚涎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸬鹚涎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸬鹚涎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "百日咳",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "entities": [
+    {
+      "name": "通乳丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补气血，通乳汁",
+        "indication": "产后气血两虚，乳汁不下",
+        "usage": "水煎服。二剂乳如泉涌"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "生黄耆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克(酒洗)"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克(去心)"
+      }
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.9克"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.9克"
+      }
+    },
+    {
+      "name": "七孔猪蹄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2个(去爪壳)"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "通乳丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/通乳丹",
+      "object_type": "Source"
+    },
+    {
+      "subject": "通乳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补气血，通乳汁",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "通乳丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "产后气血两虚，乳汁不下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通乳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通乳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生黄耆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通乳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通乳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通乳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通乳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通乳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "七孔猪蹄",
+      "object_type": "Herb"
+    }
+  ]
+}

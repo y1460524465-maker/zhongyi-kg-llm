@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "荔枝核",
+      "type": "Herb",
+      "attributes": {
+        "alias": "Lychee Seed, 荔仁, 枝核, 荔核, 大荔核",
+        "effect": "温中，理气，散寒止痛",
+        "indication": "治胃脘痛，疝气痛，睾丸肿痛，妇女血气刺痛",
+        "usage": "内服：煎汤，6~10g；研末，1.5~3g；或入丸、散。外用：适量，研末调敷",
+        "taboo": "无寒湿滞气者勿服"
+      }
+    }
+  ],
+  "relations": []
+}

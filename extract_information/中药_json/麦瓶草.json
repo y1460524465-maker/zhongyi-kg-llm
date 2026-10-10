@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "麦瓶草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "净瓶、米瓦罐（《中国种子植物分类学》），香炉草（《四川中药志》），梅花瓶（《陕西中草药》）",
+        "effect": "养阴，清热，止血调经",
+        "indication": "吐血，衄血，虚痨咳嗽，咯血，尿血，月经不调",
+        "usage": "内服：煎汤，9~15克；或浸酒"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麦瓶草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麦瓶草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麦瓶草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血调经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麦瓶草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麦瓶草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麦瓶草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚痨咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麦瓶草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麦瓶草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麦瓶草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经不调",
+      "object_type": "Symptom"
+    }
+  ]
+}

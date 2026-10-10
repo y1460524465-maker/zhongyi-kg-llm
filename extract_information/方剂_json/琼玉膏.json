@@ -1,0 +1,155 @@
+{
+  "entities": [
+    {
+      "name": "琼玉膏",
+      "type": "Formula",
+      "attributes": {
+        "alias": "生地黄膏",
+        "effect": "滋阴润肺，益气补脾",
+        "indication": "肺阴亏损，虚劳干咳，咽燥咯血，肌肉消瘦，气短乏力",
+        "usage": "每晨以10克温酒化服，不饮酒者，用白汤化下"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "750克",
+        "effect": "补脾益气"
+      }
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "8千克",
+        "effect": "滋阴壮水"
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5千克",
+        "effect": "补脾益气，化痰"
+      }
+    },
+    {
+      "name": "蜂蜜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5千克",
+        "effect": "养肺润燥"
+      }
+    },
+    {
+      "name": "肺阴亏损",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "虚劳干咳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽燥咯血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肌肉消瘦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "气短乏力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《洪氏集验方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "琼玉膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《洪氏集验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "琼玉膏",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴润肺，益气补脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "琼玉膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺阴亏损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "琼玉膏",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳干咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "琼玉膏",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽燥咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "琼玉膏",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肌肉消瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "琼玉膏",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气短乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "琼玉膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "琼玉膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "琼玉膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "琼玉膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜂蜜",
+      "object_type": "Herb"
+    }
+  ]
+}

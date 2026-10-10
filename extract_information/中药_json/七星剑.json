@@ -1,0 +1,189 @@
+{
+  "entities": [
+    {
+      "name": "七星剑",
+      "type": "Herb",
+      "attributes": {
+        "alias": "小叶不红、假芥兰、星色草、独行千里、野香薷、小叶荠薴",
+        "origin": "唇形科植物细叶七星剑的全草",
+        "property_flavor": "辛，温",
+        "effect": "发汗解暑，利湿解毒",
+        "indication": "感冒，中暑，呕吐，泄泻，水肿，湿疹，疮疡肿毒，带状疱疹，阴疽瘰疬，跌打伤痛，毒蛇咬伤",
+        "usage": "内服：煎汤，9-15g；或鲜品捣汁饮。外用：适量，鲜品捣敷；或干品煎水洗。",
+        "dosage": "9-15g"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "中暑",
+      "type": "Disease"
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疡肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "带状疱疹",
+      "type": "Disease"
+    },
+    {
+      "name": "阴疽瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打伤痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "发汗解暑",
+      "type": "Effect"
+    },
+    {
+      "name": "利湿解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南草药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西植物名录》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带状疱疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴疽瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打伤痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "发汗解暑",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "七星剑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求原》",
+      "object_type": "Source"
+    }
+  ]
+}

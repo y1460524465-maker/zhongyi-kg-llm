@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "通光散",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乌骨藤、黄木香、下奶藤、大苦藤、地甘草、扁藤、癞藤子、白暗消",
+        "effect": "清热解毒，止咳平喘",
+        "indication": "肺炎，支气管炎，支气管哮喘，咽喉炎，扁桃体炎，膀胱炎，疗疮肿毒",
+        "property_flavor": "苦，微寒",
+        "usage": "内服：煎汤9-15g；或研末"
+      }
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "支气管哮喘",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉炎",
+      "type": "Disease"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "膀胱炎",
+      "type": "Disease"
+    },
+    {
+      "name": "疗疮肿毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "通光散",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通光散",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通光散",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通光散",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通光散",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通光散",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "膀胱炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通光散",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疗疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通光散",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，止咳平喘",
+      "object_type": "Effect"
+    }
+  ]
+}

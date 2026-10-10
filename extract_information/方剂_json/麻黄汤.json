@@ -1,0 +1,186 @@
+{
+  "entities": [
+    {
+      "name": "麻黄汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "发汗解表，宣肺平喘",
+        "indication": "外感风寒，恶寒发热，头痛身疼，无汗而喘，舌苔薄白，脉浮紧",
+        "usage": "上四味，以水九升，先煮麻黄，减二升，去上沫，内诸药，煮取二升半，去滓，温服八合。覆取微似汗，不须啜粥，余如桂枝法将息",
+        "taboo": "有咽痛者不能使用麻黄汤"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "流行性感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "急性支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "支气管哮喘",
+      "type": "Disease"
+    },
+    {
+      "name": "恶寒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "头痛身疼",
+      "type": "Symptom"
+    },
+    {
+      "name": "无汗而喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌苔薄白",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉浮紧",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶寒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛身疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无汗而喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔薄白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉浮紧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻黄汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    }
+  ]
+}

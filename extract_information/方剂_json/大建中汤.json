@@ -1,0 +1,123 @@
+{
+  "entities": [
+    {
+      "name": "大建中汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温建中阳，补虚散寒，降逆止呕",
+        "indication": "中阳衰弱，阴寒内盛之脘腹剧痛证。腹痛连及胸脘，痛势剧烈，其痛上下走窜无定处，或腹部时见块状物上下攻撑作痛，呕吐剧烈，不能饮食，手足厥冷，舌质淡，苔白滑，脉沉伏而迟",
+        "usage": "上三味，以水四升，煮取二升，去渣，内饴糖（30克），微火煮取一升半，分温再服，如一炊顷，可饮粥二升，后更服，当一日食糜，温覆之"
+      }
+    },
+    {
+      "name": "蜀椒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "中阳衰弱",
+      "type": "Disease"
+    },
+    {
+      "name": "阴寒内盛",
+      "type": "Disease"
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕逆",
+      "type": "Symptom"
+    },
+    {
+      "name": "脘腹剧痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜀椒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大建中汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中阳衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大建中汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴寒内盛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹剧痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大建中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    }
+  ]
+}

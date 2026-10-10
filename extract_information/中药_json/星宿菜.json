@@ -1,0 +1,270 @@
+{
+  "entities": [
+    {
+      "name": "星宿菜",
+      "type": "Herb",
+      "attributes": {
+        "alias": "假辣蓼、泥鳅菜、红根草、红气根、红七草、金鸡脚、百煎草、蛙霓草、黄鳅窜、红头绳、血丝草、红灯心、红筋仔、大田基黄、麻雀利、红筋草、地木回、拔血红、红香子、红梗草、田岸柴、定经草、水柯、红根仔、矮荷子",
+        "property_flavor": "微苦涩，平（《福建民间草药》）；味酸苦，性微温（《闽东本草》）",
+        "effect": "活血，散瘀，利水，化湿",
+        "indication": "跌打损伤，关节风湿痛，妇女经闭，乳痈，瘰疬，目赤肿痛，水肿，黄疸，疟疾，痢疾",
+        "dosage": "内服：煎汤，3～5钱（鲜者1～3两）；外用：捣敷或煎水熏洗",
+        "origin": "为报春花科植物星宿菜的全草或带根全草"
+      }
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "关节风湿痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "妇女经闭",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "活血",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "散瘀",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "利水",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "化湿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《福建民间草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《江西民间草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《浙江中药资源名录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《闽东本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《广西民间常用草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "江西《草药手册》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《福建中草药》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "关节风湿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目赤肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江西民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江中药资源名录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《闽东本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西民间常用草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "江西《草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "星宿菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

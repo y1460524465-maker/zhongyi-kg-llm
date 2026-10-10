@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "name": "黄矾",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒杀虫，敛疮",
+        "indication": "痔瘘，恶疮，疥癣，聤耳出脓",
+        "usage": "外用：适量，研末撒或调敷。内服：研末，每次0.5g；入丸、散。",
+        "taboo": "本品多作外用，内服宜慎，不可多服久服",
+        "origin": "硫酸盐类矿物黄矾的矿石"
+      }
+    },
+    {
+      "name": "《海药本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source"
+    },
+    {
+      "name": "痔瘘",
+      "type": "Disease"
+    },
+    {
+      "name": "恶疮",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "聤耳出脓",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄矾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔瘘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄矾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄矾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄矾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "聤耳出脓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄矾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《海药本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄矾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    }
+  ]
+}

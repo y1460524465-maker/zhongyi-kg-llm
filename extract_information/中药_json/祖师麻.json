@@ -1,0 +1,48 @@
+{
+  "entities": [
+    {
+      "name": "祖师麻",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风通络，祛瘀止痛",
+        "indication": "头痛，牙痛，风湿关节痛，跌打损伤，胃痛，肝区痛",
+        "dosage": "内服：煎汤，3~6克；或煅研为散",
+        "origin": "瑞香科植物黄瑞香Daphne giraldii Nitsche.的根皮及茎皮。春、秋季剥取茎、根皮",
+        "traits": "落叶或半常绿灌木。根红黄色，纤维性。茎灰褐色，平滑，无毛，树皮富含纤维，不易折断。叶互生，纸质，常集于小枝顶部，叶片倒披针形，长3～6cm，宽7～12cm，先端尖或钝，基部楔形，全缘，下面有白粉；近无柄。花黄色，微香，3～8花丛生小枝顶端，略呈头状花序；花被管状，上部4裂，裂片长三角状披针形，先端渐窄尖；雄蕊8，成2轮，生于花被管上部；子房无花柱，柱头圆。核果卵圆形，鲜红色。花期4～6月。",
+        "place": "生于山坡林边或疏林中。主产陕西、甘肃。",
+        "property_flavor": "气微，味微苦，具持久的麻舌感。"
+      }
+    },
+    {
+      "name": "大救驾",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "金腰带",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄瑞香",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "祖师麻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "祖师麻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛瘀止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

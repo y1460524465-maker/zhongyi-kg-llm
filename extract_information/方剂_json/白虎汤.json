@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "白虎汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热生津",
+        "indication": "伤寒阳明热盛，或温病热在气分证。壮热面赤，烦渴引饮，口舌干燥，大汗出，脉洪大有力，现用于流行性乙型脑炎、流行性脑脊髓膜炎、大叶性肺炎，夏季热等属于热在气分者。",
+        "taboo": null,
+        "usage": "上四味，以水1升，煮米熟汤成，去滓。每次温服200毫升，一日三次。"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30～45克(碎)"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克(炙)"
+      }
+    },
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "流行性乙型脑炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "流行性脑脊髓膜炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "大叶性肺炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "夏季热",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性乙型脑炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性脑脊髓膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "大叶性肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "夏季热",
+      "object_type": "Disease"
+    }
+  ]
+}

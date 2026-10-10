@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "黄大豆",
+      "type": "Herb",
+      "attributes": {
+        "effect": "健脾利水，宽中导滞，解毒消肿",
+        "indication": "食积泻痢，腹胀食呆，脾虚水肿，妊娠中毒，疮痈肿毒，外伤出血",
+        "dosage": "内服：煎汤，30-90g；或研末。外用：捣敷；或炒焦研末调敷。",
+        "taboo": "多食塞气、生痰、动嗽，令人身重，发面黄疮疥",
+        "origin": "《日用本草》",
+        "alias": "黄豆",
+        "traits": "种子黄色，黄绿色。种皮薄，除去种皮，可见2片子叶。黄绿色，肥厚。质坚硬。气微，具豆腥味。",
+        "processing": "8-10月果实成熟后采收，取其种子晒干",
+        "place": "豆科植物大豆的种皮黄色的种子"
+      }
+    },
+    {
+      "name": "《日用本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《贵州民间方药集》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "食积泻痢",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹胀食呆",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脾虚水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "妊娠中毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疮痈肿毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "单纯性消化不良",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痘后生疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "诸拥疮",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄大豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾利水，宽中导滞，解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄大豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄大豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠中毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄大豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮痈肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄大豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄大豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胀食呆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄大豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄大豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "单纯性消化不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄大豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痘后生疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄大豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "诸拥疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄大豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日用本草》",
+      "object_type": "Source"
+    }
+  ]
+}

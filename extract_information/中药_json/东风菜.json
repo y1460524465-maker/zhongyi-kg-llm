@@ -1,0 +1,150 @@
+{
+  "entities": [
+    {
+      "name": "东风菜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15-30g。外用：适量，鲜全草捣敷。",
+        "effect": "清热解毒，明目，利咽",
+        "indication": "风热感冒，头痛目眩，目赤肿痛，咽喉红肿，急性肾火，肺病吐血，跌打损伤，痈肿疔疮，蛇咬伤",
+        "origin": "菊科植物东风菜的根茎及全草",
+        "processing": "秋季采挖根茎，夏、秋季采收全草，洗净，鲜用或晒干",
+        "property_flavor": "甘，寒，无毒"
+      }
+    },
+    {
+      "name": "风热感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "头痛目眩",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉红肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "急性肾火",
+      "type": "Disease"
+    },
+    {
+      "name": "肺病吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "明目",
+      "type": "Effect"
+    },
+    {
+      "name": "利咽",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利咽",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛目眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉红肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性肾火",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺病吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "东风菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇咬伤",
+      "object_type": "Disease"
+    }
+  ]
+}

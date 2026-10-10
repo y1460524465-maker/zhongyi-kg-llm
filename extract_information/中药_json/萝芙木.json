@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "name": "萝芙木",
+      "type": "Herb",
+      "attributes": {
+        "origin": "夹竹桃科植物萝芙木的根",
+        "effect": "清热，降压，宁神",
+        "indication": "感冒发热，头痛身疼，咽喉肿痛，高血压，眩晕，失眠",
+        "dosage": "内服：煎汤，10-30g；外用：鲜品适量，捣敷",
+        "taboo": "有胃病及气血虚寒者忌用",
+        "processing": "净制：除去杂质，洗净，润透，切片、干燥",
+        "place": "分布于台湾、广东、海南、广西、贵州、云南等地",
+        "property_flavor": "皮部极苦，木部微苦"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "萝芙木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒发热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝芙木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝芙木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "眩晕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝芙木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "失眠",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝芙木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头痛身疼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝芙木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝芙木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "萝芙木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降压",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "萝芙木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宁神",
+      "object_type": "Effect"
+    }
+  ]
+}

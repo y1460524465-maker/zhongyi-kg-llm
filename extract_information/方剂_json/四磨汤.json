@@ -1,0 +1,138 @@
+{
+  "entities": [
+    {
+      "name": "四磨汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "四磨饮",
+        "effect": "行气降逆，宽胸散结",
+        "indication": "七情伤感而致的上气喘息，胸膈不舒，烦闷不食",
+        "usage": "分别磨汁，和作七分盏，煎三、五沸，放温服"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "益气扶正"
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "行气化滞"
+      }
+    },
+    {
+      "name": "沉香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "顺气降逆以平喘"
+      }
+    },
+    {
+      "name": "天台乌药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "顺气舒肝"
+      }
+    },
+    {
+      "name": "上气喘息",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸膈不舒",
+      "type": "Symptom"
+    },
+    {
+      "name": "烦闷不食",
+      "type": "Symptom"
+    },
+    {
+      "name": "七情伤感",
+      "type": "Disease"
+    },
+    {
+      "name": "《兰台轨范》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四磨汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四磨汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四磨汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四磨汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天台乌药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四磨汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气降逆，宽胸散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四磨汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "七情伤感",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四磨汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "上气喘息",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四磨汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸膈不舒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四磨汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦闷不食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四磨汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《兰台轨范》",
+      "object_type": "Source"
+    }
+  ]
+}

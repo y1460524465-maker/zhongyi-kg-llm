@@ -1,0 +1,227 @@
+{
+  "entities": [
+    {
+      "name": "风引汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "紫石煮散、癫痫汤",
+        "indication": "突然仆卧倒地，筋脉拘急，两目上视，喉中痰鸣，神志不清，舌红苔黄腻，脉滑者",
+        "usage": "上十二味，杵末粗筛，以韦囊盛之。每服6～9克，用井花水300毫升，煮三沸，温服100毫升。"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "56克"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "56克"
+      }
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "56克"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "42克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "28克"
+      }
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "28克"
+      }
+    },
+    {
+      "name": "寒水石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "84克"
+      }
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "84克"
+      }
+    },
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "84克"
+      }
+    },
+    {
+      "name": "白石脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "84克"
+      }
+    },
+    {
+      "name": "紫石英",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "84克"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "84克"
+      }
+    },
+    {
+      "name": "癫痫",
+      "type": "Disease"
+    },
+    {
+      "name": "风瘫",
+      "type": "Disease"
+    },
+    {
+      "name": "《备急千金要方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风瘫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "寒水石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫石英",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《备急千金要方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "风引汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    }
+  ]
+}

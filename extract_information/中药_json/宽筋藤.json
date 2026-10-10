@@ -1,0 +1,180 @@
+{
+  "entities": [
+    {
+      "name": "宽筋藤",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，10-30g。外用：鲜品适量，捣敷。",
+        "effect": "祛风止痛，舒筋活络",
+        "indication": "风湿痹痛；腰肌劳损；跌打损伤",
+        "processing": "全年均可采，洗净，切厚片，晒干或鲜用",
+        "origin": "为防已科植物中华青牛胆的茎"
+      }
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "腰肌劳损",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "坐骨神经痛",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "黄水病",
+      "type": "Disease"
+    },
+    {
+      "name": "风寒感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "热病初起",
+      "type": "Disease"
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "流感",
+      "type": "Disease"
+    },
+    {
+      "name": "蒂达",
+      "type": "Herb"
+    },
+    {
+      "name": "诃子肉",
+      "type": "Herb"
+    },
+    {
+      "name": "余甘子",
+      "type": "Herb"
+    },
+    {
+      "name": "毛诃子",
+      "type": "Herb"
+    },
+    {
+      "name": "藏木香",
+      "type": "Herb"
+    },
+    {
+      "name": "悬钩子茎",
+      "type": "Herb"
+    },
+    {
+      "name": "尕架",
+      "type": "Herb"
+    },
+    {
+      "name": "降香",
+      "type": "Herb"
+    },
+    {
+      "name": "藏紫草",
+      "type": "Herb"
+    },
+    {
+      "name": "紫草茸",
+      "type": "Herb"
+    },
+    {
+      "name": "茜草",
+      "type": "Herb"
+    },
+    {
+      "name": "洪连",
+      "type": "Herb"
+    },
+    {
+      "name": "巴夏嘎",
+      "type": "Herb"
+    },
+    {
+      "name": "悬钩木",
+      "type": "Herb"
+    },
+    {
+      "name": "山柰",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "宽筋藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "宽筋藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰肌劳损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "宽筋藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "宽筋藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风止痛，舒筋活络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "宽筋藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "宽筋藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄水病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "宽筋藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "宽筋藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热病初起",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "宽筋藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    }
+  ]
+}

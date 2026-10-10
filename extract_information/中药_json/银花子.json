@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "name": "金银花子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "银花子",
+        "effect": "解毒止痢",
+        "indication": "热疮肿毒，痢疾",
+        "usage": "内服，煎汤，3～9g",
+        "taboo": "形寒痢下腹痛者忌用",
+        "origin": "忍冬科植物忍冬的果实"
+      }
+    },
+    {
+      "name": "热疮肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金银花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒止痢",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金银花子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热疮肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金银花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金银花子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮片新参》",
+      "object_type": "Source"
+    }
+  ]
+}

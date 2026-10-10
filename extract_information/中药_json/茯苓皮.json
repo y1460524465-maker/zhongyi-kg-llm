@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "茯苓皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利水，消肿",
+        "indication": "水肿腹胀，小便不利",
+        "dosage": "内服:煎汤，3～5克",
+        "origin": "《纲目》《医林纂要》"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茯苓皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茯苓皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茯苓皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茯苓皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

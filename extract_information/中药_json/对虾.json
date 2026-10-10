@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "对虾",
+      "type": "Herb",
+      "attributes": {
+        "processing": "春季捕捞后，洗净去壳，取肉，鲜用或煮熟晒干",
+        "effect": "补肾壮阳，滋阴熄风",
+        "indication": "肾虚阳痿，阴虚风动，手足搐搦，中风半身不遂，乳疮，溃疡日久不敛",
+        "dosage": "内服：煎汤，15-30g；煮食或浸酒"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "对虾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾壮阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "对虾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴熄风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "对虾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "对虾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚风动",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "对虾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足搐搦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "对虾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风半身不遂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "对虾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "对虾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "溃疡日久不敛",
+      "object_type": "Disease"
+    }
+  ]
+}

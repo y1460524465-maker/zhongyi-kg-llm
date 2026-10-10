@@ -1,0 +1,232 @@
+{
+  "entities": [
+    {
+      "name": "蜣螂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "破瘀，定惊，通便，散结，拔毒去腐",
+        "indication": "症瘕，惊痫，噎膈反胃，腹胀便秘，痔漏，疔肿，恶疮",
+        "property_flavor": "咸，寒；有小毒",
+        "meridian": "归肝、大肠经",
+        "usage": "内服：煎汤，1～3g。外用：适量，研末调敷",
+        "origin": "鞘翅目金龟子科昆虫屎壳螂的干燥全虫",
+        "place": "广泛分布于全国各地",
+        "processing": "一般6～8月间捕捉，捉回后置沸水中烫死，烘干即得",
+        "traits": "全体宽卵圆形，黑色，略有光泽。胸下密被纤长绒毛。雄虫头部前方呈扇面形，表面密被鱼鳞状皱纹，头上有一基部粗大向上收尖的角突。触角4节，前胸背板表面均匀分布细圆疣状刻纹，在中部稍后高高突出成锐形横脊。鞘翅密布细皱纹，各有7条易辨之纵线。足短壮。雌虫头顶无角突，而呈横脊状隆起",
+        "alias": "推粪虫，推屎爬，屎蛒螂，粪球虫，铁甲将军，牛屎虫，推车虫，屎壳螂，黑牛儿"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊痫癫狂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "膈气吐食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大小便闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤白痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噤口痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔漏出水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "一切疔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻中息肉",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿重舌",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大肠脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "附骨疽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鱼眼疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疬疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "针灸疮血出不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大小便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无名恶疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "定惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜣螂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "拔毒去腐",
+      "object_type": "Effect"
+    }
+  ]
+}

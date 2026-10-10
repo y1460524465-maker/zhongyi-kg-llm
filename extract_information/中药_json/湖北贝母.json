@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "湖北贝母",
+      "type": "Herb",
+      "attributes": {
+        "origin": "百合科植物湖北贝母的干燥鳞茎",
+        "property_flavor": "微苦，凉",
+        "meridian": "肺、心经",
+        "effect": "清热化痰，止咳，散结",
+        "indication": "热痰咳嗽，痰核瘰疬，痈肿疮毒",
+        "taboo": "不宜与川乌、草乌、附子同用",
+        "place": "湖北、四川、湖南"
+      }
+    },
+    {
+      "name": "热痰咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰核瘰疬",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痈肿疮毒",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "湖北贝母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热痰咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湖北贝母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰核瘰疬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湖北贝母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疮毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

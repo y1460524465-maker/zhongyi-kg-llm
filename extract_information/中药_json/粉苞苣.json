@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "粉苞苣",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，止痛",
+        "indication": "黄疸型肝炎，结膜炎，疖肿",
+        "dosage": "内服：煎汤，6-12g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "粉苞苣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "粉苞苣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "粉苞苣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸型肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粉苞苣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "结膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粉苞苣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疖肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粉苞苣",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "西藏常用中草药",
+      "object_type": "Source"
+    },
+    {
+      "subject": "粉苞苣",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广西植物名录",
+      "object_type": "Source"
+    }
+  ]
+}

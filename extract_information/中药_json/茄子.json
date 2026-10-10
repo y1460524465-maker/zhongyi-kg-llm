@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "茄子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，活血，止痛，消肿",
+        "indication": "肠风下血，热毒疮痈，皮肤溃疡",
+        "dosage": "15-30g",
+        "property_flavor": "苦"
+      }
+    },
+    {
+      "name": "肠风下血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "热毒疮痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "皮肤溃疡",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茄子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热，活血，止痛，消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茄子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风下血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茄子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热毒疮痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茄子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤溃疡",
+      "object_type": "Disease"
+    }
+  ]
+}

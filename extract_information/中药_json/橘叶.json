@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "橘叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，6~15g，鲜品可用60~120g；或捣汁服。外用：适量，捣烂外敷。",
+        "effect": "疏肝，行气，化痰，消肿毒",
+        "indication": "胁痛，乳痈，肺痈，咳嗽，胸膈痞满，疝气",
+        "meridian": "足厥阴肝经",
+        "origin": "为芸香科植物福橘或朱橘等多种橘类的叶。全年可采，以12月至翌年2月间采者为佳，采后阴干或晒干",
+        "processing": "干燥叶多卷缩，平展后呈菱状长椭圆形或椭圆形，长5～8厘米，宽2～4厘米，表面灰绿色或黄绿色，光滑，对光可照见众多的透明小腺点。质厚，硬而脆，易碎裂",
+        "property_flavor": "气香，味苦",
+        "traits": "为芸香科植物福橘或朱橘等多种橘类的叶。橘，常绿小乔木或灌木，高3-4m。枝细，多有刺。叶互生；叶柄长0.5-1.5cm，有窄翼，顶端有关节；叶片披针形或椭圆形，长4-llcm，宽1.5-4cm，先端渐尖微凹，基部楔形，全缘或为波状，具不明显的钝锯齿，有半透明油点。花单生或数朵丛生于枝端或叶腋；花萼杯状，5裂；花瓣5，白色或带淡红色，开时向上反卷；雄蕊15-30，长短不一，花丝常3-5个连合成组；雌蕊1，子房圆形，柱头头状。柑果近圆形或扁圆形，横径4-7cm，果皮薄而宽，容易剥离，囊瓣7-12，汁胞柔软多汁。种子卵圆形，白色，一端尖，数粒至数十粒或无。花期3-4月，果期10-12月。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "橘叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胁痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸膈痞满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "橘叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "橘叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "橘叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "橘叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳痈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    }
+  ]
+}

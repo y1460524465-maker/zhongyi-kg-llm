@@ -1,0 +1,136 @@
+{
+  "entities": [
+    {
+      "name": "黄蜀葵花",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "甘、寒",
+        "meridian": "肾、膀胱经",
+        "effect": "清利湿热，消肿解毒",
+        "indication": "湿热壅遏，淋浊水肿；外治痈疽肿毒，水火烫伤",
+        "usage": "内服，煎汤，10～30g；研末内服，3～5g"
+      }
+    },
+    {
+      "name": "独圣散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "砂石淋",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "蜀葵膏",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "痈疽仲毒恶疮",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《仁斋直指方》",
+      "type": "Source"
+    },
+    {
+      "name": "《经验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄蜀葵花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清利湿热，消肿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄蜀葵花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热壅遏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄蜀葵花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋浊水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄蜀葵花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疽肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄蜀葵花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水火烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "独圣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄蜀葵花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独圣散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "独圣散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "砂石淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜀葵膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄蜀葵花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蜀葵膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《仁斋直指方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蜀葵膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽仲毒恶疮",
+      "object_type": "Disease"
+    }
+  ]
+}

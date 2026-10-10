@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "name": "苓甘五味姜辛汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温阳化饮",
+        "indication": "寒痰咳嗽",
+        "taboo": "中气不足，脾肾阳虚、孕妇等，皆应慎用",
+        "usage": "上五味，以水八升，煮取三升，去滓，温服半升，日三"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "四两"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两"
+      }
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两"
+      }
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半升"
+      }
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰稀色白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔白滑",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "寒痰",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性支气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肺气肿",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苓甘五味姜辛汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苓甘五味姜辛汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苓甘五味姜辛汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苓甘五味姜辛汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苓甘五味姜辛汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苓甘五味姜辛汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温阳化饮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苓甘五味姜辛汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒痰",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苓甘五味姜辛汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苓甘五味姜辛汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺气肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寒痰",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "寒痰",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "痰稀色白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "寒痰",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌苔白滑",
+      "object_type": "Symptom"
+    }
+  ]
+}

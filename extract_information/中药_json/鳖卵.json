@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "name": "鳖卵",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补阴，止痢",
+        "indication": "小儿久泻久痢",
+        "usage": "内服：煮食，2-6个"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鳖卵",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补阴，止痢",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖卵",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿久泻久痢",
+      "object_type": "Disease"
+    }
+  ]
+}

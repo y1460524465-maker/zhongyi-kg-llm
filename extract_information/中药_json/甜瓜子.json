@@ -1,0 +1,202 @@
+{
+  "entities": [
+    {
+      "name": "甜瓜子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "香瓜子，甘瓜子，甜瓜仁，甜瓜瓣",
+        "effect": "清肺润肠，化瘀排脓，疗伤止痛",
+        "indication": "用于肺热咳嗽，便秘，肺痈，肠痈，跌打损伤，筋骨折伤",
+        "meridian": "归肺、胃、大肠经",
+        "origin": "葫芦科植物甜瓜的干燥成熟种子",
+        "place": "主产山东、河北、陕西、河南、江苏等地",
+        "processing": "除去杂质，洗净，晒干，用时捣碎",
+        "property_flavor": "甘，寒",
+        "taboo": "脾胃虚寒，腹泻者忌服",
+        "traits": "本品呈扁平长卵形，长5～9mm，宽2～4mm。表面黄白色、浅棕红色或棕黄色，平滑，微有光泽。一端稍尖，另端钝圆。种皮较硬而脆，内有膜质胚乳和子叶2片。气微，味淡"
+      }
+    },
+    {
+      "name": "清肺润肠",
+      "type": "Effect"
+    },
+    {
+      "name": "化瘀排脓",
+      "type": "Effect"
+    },
+    {
+      "name": "疗伤止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease"
+    },
+    {
+      "name": "肠痈",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "筋骨折伤",
+      "type": "Disease"
+    },
+    {
+      "name": "肠痈已成",
+      "type": "Disease"
+    },
+    {
+      "name": "小腹肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便似淋",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便艰涩",
+      "type": "Symptom"
+    },
+    {
+      "name": "下脓",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠痈",
+      "type": "Disease"
+    },
+    {
+      "name": "口臭",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰腿疼痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺润肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化瘀排脓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疗伤止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋骨折伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈已成",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小腹肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便似淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便艰涩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下脓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口臭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甜瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰腿疼痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

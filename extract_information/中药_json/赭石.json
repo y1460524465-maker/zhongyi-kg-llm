@@ -1,0 +1,351 @@
+{
+  "entities": [
+    {
+      "name": "赭石",
+      "type": "Herb",
+      "attributes": {
+        "alias": "须丸、赤土、丁头代赭、血师、紫朱、赭石、土朱、铁朱、钉头赭石、钉赭石、赤赭石、红石头、代赭",
+        "effect": "平肝潜阳，重镇降逆，凉血止血",
+        "indication": "噫气呕逆，噎膈反胃，哮喘，惊痫，吐血，鼻衄，肠风，痔瘘，崩漏带下",
+        "taboo": "下部虚寒者不宜用；阳虚阴萎者忌之；气不足、津液燥者禁用",
+        "processing": "1.代赭石：除去杂质，砸碎，过筛。2.煅代赭石：取刷净的代赭石，砸碎，入坩埚内，在无烟的炉火上煅红透，取出，立即倾入醋盆中淬酥，捣碎，再煅淬一次，取出，晒干，碾成粗末。(每代赭石100斤，用醋两次共50~60斤)"
+      }
+    },
+    {
+      "name": "旋覆代赭汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以水一斗，煮取六升，去滓，再煎取三升。温服二升，日三服"
+      }
+    },
+    {
+      "name": "荡痰汤",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "加味磁朱丸",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "赭遂攻结汤",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "荡胸汤",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "秘红丹",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "大顺汤",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "紫金丹",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "小朱散",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "朱黛散",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "代赭石",
+      "type": "Herb",
+      "attributes": {
+        "effect": "平肝潜阳，重镇降逆，凉血止血",
+        "indication": "噫气呕逆，噎膈反胃，哮喘，惊痫，吐血，鼻衄，肠风，痔瘘，崩漏带下"
+      }
+    },
+    {
+      "name": "血师",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "土朱",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "紫朱",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "赤土",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source"
+    },
+    {
+      "name": "《衷中参西录》",
+      "type": "Source"
+    },
+    {
+      "name": "《古今医统》",
+      "type": "Source"
+    },
+    {
+      "name": "《小儿卫生总微论方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《直指方》",
+      "type": "Source"
+    },
+    {
+      "name": "《百一选方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《朱氏集验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《扁鹊心书》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "赭石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝潜阳，重镇降逆，凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噫气呕逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噎膈反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "哮喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔瘘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "旋覆代赭汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "荡痰汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "加味磁朱丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "赭遂攻结汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "荡胸汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秘红丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大顺汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫金丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《扁鹊心书》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小朱散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "朱黛散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《直指方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "代赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噫气呕逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "代赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噎膈反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "代赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "哮喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "代赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "代赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "代赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "代赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "代赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔瘘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "代赭石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赭石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

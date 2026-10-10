@@ -1,0 +1,45 @@
+{
+  "entities": [
+    {
+      "name": "大沙叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，活血祛瘀",
+        "indication": "暑热痧胀，跌打损伤，风毒疮疥",
+        "usage": "内服：煎汤，15-30g",
+        "alias": "大叶满天星、满天星、山铁尺、青风木、港大沙叶、香港大沙叶、茜木、巴佛他树",
+        "origin": "双子叶植物药茜草科植物大沙叶的茎叶"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大沙叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，活血祛瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大沙叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "暑热痧胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大沙叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大沙叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风毒疮疥",
+      "object_type": "Disease"
+    }
+  ]
+}

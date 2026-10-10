@@ -1,0 +1,178 @@
+{
+  "entities": [
+    {
+      "name": "羌活胜湿汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "风湿在表，肩背疼痛不可回顾，头痛身重，或腰脊疼痛难以转侧，苔白脉浮者",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "藁本",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草炙",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "蔓荆子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "羌活胜湿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羌活胜湿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羌活胜湿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藁本",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羌活胜湿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羌活胜湿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草炙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羌活胜湿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羌活胜湿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蔓荆子",
+      "object_type": "Herb"
+    }
+  ]
+}

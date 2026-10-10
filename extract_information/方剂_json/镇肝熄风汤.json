@@ -1,0 +1,182 @@
+{
+  "entities": [
+    {
+      "name": "镇肝熄风汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "镇肝熄风，滋阴潜阳",
+        "indication": "类中风。头目眩晕，目胀耳鸣，脑部热痛，心中烦热，面色如醉，或时常噫气，或肢体渐觉不利，口角渐行歪斜；甚或眩晕颠仆，昏不知人，移时始醒；或醒后不能复原，脉弦长有力者为肝阳亢盛之象",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "怀牛膝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "代赭石",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生龙骨",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生牡蛎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生龟版",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生白芍",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "天冬",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川楝子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生麦芽",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茵陈",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "怀牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "代赭石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生龟版",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川楝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生麦芽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茵陈",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "类中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "镇肝熄风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "镇肝熄风汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴潜阳",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "name": "柿饼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "火柿, 乌柿, 干柿, 白柿, 柿花, 柿干",
+        "effect": "润肺, 涩肠, 止血",
+        "indication": "吐血, 咯血, 血淋, 肠风, 痔漏, 痢疾",
+        "usage": "内服：适量，嚼食或煎汤；或烧存性入散剂。",
+        "taboo": "脾胃虚寒，痰湿内盛者不宜食。"
+      }
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血淋",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠风",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔漏",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柿饼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柿饼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柿饼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柿饼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柿饼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柿饼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柿饼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柿饼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "涩肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柿饼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    }
+  ]
+}

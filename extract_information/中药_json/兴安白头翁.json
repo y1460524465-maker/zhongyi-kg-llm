@@ -1,0 +1,13 @@
+{
+  "entities": [
+    {
+      "name": "兴安白头翁",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热凉血，解毒",
+        "indication": "热毒血痢，温疟寒热，鼻衄，血痔"
+      }
+    }
+  ],
+  "relations": []
+}

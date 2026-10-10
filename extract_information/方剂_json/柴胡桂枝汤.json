@@ -1,0 +1,404 @@
+{
+  "entities": [
+    {
+      "name": "柴胡桂枝汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "解太阳未尽之邪，解少阳之微结，双解两阳之轻剂",
+        "indication": "外感风寒，发热自汗，微恶寒，或寒热往来，鼻鸣干呕，头痛项强，胸胁痛满，脉弦或浮大",
+        "taboo": "口不渴，身有微热者，当去人参",
+        "usage": "以水7升，煮取3升，去滓，温服1升"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去皮",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炙",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2合半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "洗",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "擘",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "切",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "癫痫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "流行性出血热",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "外感风寒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "发热自汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "微恶寒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "寒热往来",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "鼻鸣干呕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头痛项强",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸胁痛满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉弦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉浮大",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《伤寒来苏集》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《古方选注》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医门棒喝》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性出血热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外感风寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "微恶寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒热往来",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻鸣干呕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛项强",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁痛满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉弦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉浮大",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒来苏集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《古方选注》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柴胡桂枝汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医门棒喝》",
+      "object_type": "Source"
+    }
+  ]
+}

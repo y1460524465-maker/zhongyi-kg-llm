@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "铁皮石斛",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "甘，微寒",
+        "meridian": "胃、肾经",
+        "effect": "益胃生津，滋阴清热",
+        "indication": "热病津伤，口干烦渴，胃阴不足，食少干呕，病后虚热不退，阴虚火旺，骨蒸劳热，目暗不明，筋骨痿软"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "铁皮石斛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益胃生津，滋阴清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁皮石斛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口干烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁皮石斛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食少干呕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁皮石斛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目暗不明",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁皮石斛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨痿软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁皮石斛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热病津伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁皮石斛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃阴不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁皮石斛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "病后虚热不退",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁皮石斛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚火旺",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁皮石斛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨蒸劳热",
+      "object_type": "Disease"
+    }
+  ]
+}

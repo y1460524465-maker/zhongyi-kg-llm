@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "金缕梅",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15-30g；鲜品60-90g",
+        "effect": null,
+        "indication": "劳伤乏力",
+        "meridian": null,
+        "origin": "金缕梅科植物金缕梅的根",
+        "place": "四川、安徽、浙江、江西、湖北、湖南、广西等地",
+        "processing": "秋季采挖，洗净，晒干",
+        "property_flavor": null,
+        "taboo": "忌酸、辣、芥菜、萝卜等",
+        "traits": null
+      }
+    },
+    {
+      "name": "《新华本草纲要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "劳伤乏力",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金缕梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳伤乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金缕梅",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《新华本草纲要》",
+      "object_type": "Source"
+    }
+  ]
+}

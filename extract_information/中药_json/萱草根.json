@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "萱草根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "漏芦果，漏芦根果，地人参，黄花菜根",
+        "effect": "清热利尿，凉血止血",
+        "indication": "水肿，小便不利，淋浊，带下，黄疸，衄血，便血，崩漏，乳痈",
+        "dosage": "煎汤，6~9 g，或捣汁",
+        "property_flavor": "甘，凉",
+        "meridian": "归脾、肺、心经",
+        "taboo": "多量服用可能损害视力"
+      }
+    }
+  ],
+  "relations": []
+}

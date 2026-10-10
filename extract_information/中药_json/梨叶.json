@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "梨叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "舒肝和胃，利水解毒",
+        "indication": "用于霍乱吐泻腹痛，水肿，小便不利，小儿疝气，菌菇中毒",
+        "property_flavor": "味淡、微涩",
+        "processing": "夏、秋季采叶，鲜用或晒干",
+        "usage": "内服：煎汤，9-15g；或鲜用捣汁服。外用：适量，捣敷或捣汁涂"
+      }
+    },
+    {
+      "name": "霍乱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "吐泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿疝气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "菌菇中毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "舒肝和胃",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "利水解毒",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "梨叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "霍乱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梨叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梨叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梨叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梨叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梨叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梨叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "菌菇中毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梨叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒肝和胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "梨叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

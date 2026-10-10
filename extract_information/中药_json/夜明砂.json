@@ -1,0 +1,126 @@
+{
+  "entities": [
+    {
+      "name": "夜明砂",
+      "type": "Herb",
+      "attributes": {
+        "alias": "天鼠屎、鼠法、石肝、黑砂星、檐老鼠屎",
+        "effect": "清热明目，散血消积",
+        "indication": "主治青盲雀目，内外障翳，瘰疬，小儿疳积，疟疾",
+        "taboo": "目疾无瘀滞者及孕妇慎服",
+        "usage": "内服：煎汤，布包，3~10g；或研末，每次1~3g。外用：适量，研末调涂",
+        "origin": "为蝙蝠科动物蝙蝠、大管鼻蝠、普通伏翼、大耳蝠、华南大棕蝠、蹄蝠科动物大马蹄蝠及菊头蝠科动物马铁菊头蝠等的粪便"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热明目，散血消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "青盲雀目",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "内外障翳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草衍义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "夜明砂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

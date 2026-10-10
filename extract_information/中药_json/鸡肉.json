@@ -1,0 +1,106 @@
+{
+  "entities": [
+    {
+      "name": "鸡肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温中益气，补精添髓",
+        "indication": "虚劳羸瘦，中虚胃呆食少，泄泻，卞痢，消渴，水肿，小便频数，崩漏，带下，产后乳少，病后虚弱",
+        "taboo": "凡实证、邪毒未清者不宜食。肥腻壅滞，有外邪者皆忌食之。多食生热动风。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补精添髓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳羸瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中虚胃呆食少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "卞痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后乳少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "病后虚弱",
+      "object_type": "Symptom"
+    }
+  ]
+}

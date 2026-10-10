@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {
+        "effect": "泻热，润燥，软坚",
+        "indication": "实热积滞，腹胀便秘，停痰积聚，口赤障翳，丹毒，痈肿",
+        "property_flavor": "味苦咸",
+        "taboo": "脾胃虚寒、孕妇及哺乳期妇女忌用或慎用",
+        "dosage": "6～12g，一般不入煎剂，待汤剂煎得后，溶入汤剂中服用。外用适量"
+      }
+    }
+  ],
+  "relations": []
+}

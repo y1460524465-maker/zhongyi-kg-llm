@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "水稻清",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15-30g",
+        "effect": "祛痰止咳，祛风除湿，活血消肿，安胎，通乳",
+        "indication": "咳嗽胸痛，风湿骨痛，胎动不安，肾炎，乳痈，疮疖肿毒，跌打损伤",
+        "origin": "桑科植物竹叶榕的全株",
+        "taboo": null,
+        "processing": "春、秋采集。洗净晒干"
+      }
+    },
+    {
+      "name": "竹叶牛奶树",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "水边柳",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "百了草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "假槟榔",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "细叶水榕树",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "狭叶榕",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "何首乌",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安胎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通乳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽胸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿骨痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎动不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妊娠斑久不退",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水稻清",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "何首乌",
+      "object_type": "Herb"
+    }
+  ]
+}

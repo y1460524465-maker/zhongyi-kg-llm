@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "扁豆花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解暑化湿，和中健脾",
+        "indication": "夏伤暑湿，发热，泄泻，痢疾，赤白带下，跌打伤肿",
+        "property_flavor": "甘，平",
+        "meridian": "脾、胃、大肠经",
+        "dosage": "内服：煎汤，3-9g；或研末；或捣汁"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "扁豆花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解暑化湿，和中健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "扁豆花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "夏伤暑湿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "扁豆花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "扁豆花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "扁豆花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "扁豆花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "扁豆花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打伤肿",
+      "object_type": "Disease"
+    }
+  ]
+}

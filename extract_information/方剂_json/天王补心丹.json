@@ -1,0 +1,252 @@
+{
+  "entities": [
+    {
+      "name": "天王补心丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴养血，补心安神",
+        "indication": "心肾不足，阴亏血少，失眠、心悸、梦遗、健忘",
+        "taboo": null,
+        "usage": "每服20～30丸，临卧时用竹叶汤服"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "丹参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "远志",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麦门冬",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "柏子仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "酸枣仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心悸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "梦遗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "健忘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心肾不足",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阴亏血少",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦门冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柏子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "酸枣仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴养血，补心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心肾不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴亏血少",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "梦遗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天王补心丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "健忘",
+      "object_type": "Symptom"
+    }
+  ]
+}

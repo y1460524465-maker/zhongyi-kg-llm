@@ -1,0 +1,139 @@
+{
+  "entities": [
+    {
+      "name": "青蒿鳖甲汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "养阴透热",
+        "indication": "温病后期，余热未尽而阴液不足之虚热证；阴虚内热，低热不退",
+        "taboo": "阴虚欲作动风者不宜使用",
+        "usage": "水五杯，煮取二杯，日再服(现代用法：水煎服)"
+      }
+    },
+    {
+      "name": "鳖甲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "青蒿",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "细生地",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "夜热早凉",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热退无汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红少苔",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉细数",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "青蒿鳖甲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青蒿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青蒿鳖甲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鳖甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青蒿鳖甲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青蒿鳖甲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青蒿鳖甲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青蒿鳖甲汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "温病后期",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青蒿鳖甲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夜热早凉",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青蒿鳖甲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热退无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青蒿鳖甲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌红少苔",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青蒿鳖甲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉细数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青蒿鳖甲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养阴透热",
+      "object_type": "Effect"
+    }
+  ]
+}

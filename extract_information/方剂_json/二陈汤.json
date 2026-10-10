@@ -1,0 +1,347 @@
+{
+  "entities": [
+    {
+      "name": "二陈汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "燥湿化痰，理气和中",
+        "indication": "痰湿内阻，脾胃不和，胸膈痞闷，呕吐恶心，或头眩心悸，或咳嗽痰多",
+        "usage": "每服12克，用水150毫升，生姜7片，乌梅1个，同煎至90毫升，去滓热服，不拘时侯",
+        "alias": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "乌梅",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "杏苏散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "宣肺止咳化痰",
+        "indication": "外感风寒，咳嗽痰多",
+        "alias": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "紫苏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "前胡",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "温胆汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "痰热内扰，虚烦不得眠",
+        "alias": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "竹茹",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "导痰汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "痰多喘急、时发晕厥、头痛眩晕，或咯痰粘稠、坐卧不安",
+        "alias": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "胆星",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "半夏白术天麻汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "痰湿中阻，头痛眩晕、恶心呕吐、胸脘痞闷，苔白滑腻，脉滑",
+        "alias": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "天麻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《太平惠民和剂局方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "二陈汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平惠民和剂局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "二陈汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二陈汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二陈汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二陈汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二陈汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二陈汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌梅",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二陈汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿化痰，理气和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杏苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "二陈汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "杏苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杏苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杏苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "前胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杏苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杏苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杏苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杏苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杏苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "宣肺止咳化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杏苏散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "二陈汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹茹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温胆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痰热内扰",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "导痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "二陈汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "导痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "导痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胆星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏白术天麻汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "二陈汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "半夏白术天麻汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏白术天麻汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天麻",
+      "object_type": "Herb"
+    }
+  ]
+}

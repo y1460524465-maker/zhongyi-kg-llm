@@ -1,0 +1,273 @@
+{
+  "entities": [
+    {
+      "name": "蘘荷",
+      "type": "Herb",
+      "attributes": {
+        "alias": "嘉草、猼月、蒚蒩、芋渠、覆葅、阳藿、阳荷、山姜、观音花、野老姜、土里开花、野生姜、野姜、莲花姜",
+        "effect": "活血调经，镇咳祛痰，消肿解毒",
+        "indication": "妇女月经不调，老年咳嗽，疮肿，瘰疬，目赤，喉痹，痛经，跌打损伤，痈疽肿毒",
+        "processing": "夏、秋季采收，鲜用或切片晒干；或以铜刀刮去粗皮，细切，研膏，取汁炼煎",
+        "dosage": "内服：煎汤，6-15g；或研末；或鲜品绞汁。外用：适量，捣敷；捣汁含漱或点眼",
+        "property_flavor": "味淡微辛",
+        "origin": "姜科植物蘘荷的根茎",
+        "place": "江苏、安徽、浙江、江西、湖北、湖南等地",
+        "traits": "根茎肥厚，圆柱形，淡黄色，茎呈不规则长条形，结节状，弯曲，表面灰棕黄色，有纵皱纹，气香"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "老年咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目赤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "指头炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "颈淋巴结结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉口中及舌生疮烂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "卒失声",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "杂物眯目",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "大叶性肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月信滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "盐吼咳累",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血调经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇咳祛痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通经活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "拔毒消疮肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤眼涩痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "壮热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《雷公炮炙论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《肘后方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《补缺肘后方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《经验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江民间常用草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蘘荷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵州民间方药集》",
+      "object_type": "Source"
+    }
+  ]
+}

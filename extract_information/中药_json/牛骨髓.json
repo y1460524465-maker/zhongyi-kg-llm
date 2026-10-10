@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "牛骨髓",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "甘，温，无毒",
+        "effect": "润肺止血，补血益精，补肾填髓",
+        "indication": "虚痨羸瘦，精血亏损，泄利，消渴，跌扑损伤，手足皴裂",
+        "origin": "为牛科动物黄牛或水牛的骨髓",
+        "usage": "内服：煎汤、熬膏，适量。补虚宜酒冲，治吐血崩带宜烧灰"
+      }
+    }
+  ],
+  "relations": []
+}

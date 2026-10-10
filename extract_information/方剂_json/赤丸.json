@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "赤丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "温经散寒，回阳降逆，化饮止痛",
+        "indication": "寒饮腹痛，肢体厥冷，伴有寒饮上逆之恶心呕吐心下悸动，舌淡齿痕。苔白腻，脉沉细而迟",
+        "usage": "空腹时用酒饮下3丸，日二次，夜一次，不知，稍增之，以知为度"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "56克"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "56克",
+        "processing": "洗"
+      }
+    },
+    {
+      "name": "乌头",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "28克",
+        "processing": "炮"
+      }
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "14克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "赤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌头",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温经散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温经散寒，回阳降逆，化饮止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒饮腹痛",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "name": "桂枝二麻黄一汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "解散营卫之邪。小发营卫之汗。",
+        "indication": "太阳病，服桂枝汤，大汗出，脉洪大，形似疟，1日再发者。",
+        "taboo": null,
+        "usage": "以水5升，先煮麻黄1-2沸，去上沫，纳诸药，煮取2升，去滓，温服1升，1日2次。本云：桂枝汤2分，麻黄汤1分，合为2升，分再服，今合为1方。将息如前法。"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两17铢26g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去皮",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两6铢19g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "16铢10g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去节",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两6铢19g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "切",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "16个",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去皮尖",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两2铢16g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炙",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "擘",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝二麻黄一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解散营卫之邪。小发营卫之汗。",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂枝二麻黄一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二麻黄一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二麻黄一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二麻黄一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二麻黄一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二麻黄一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二麻黄一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二麻黄一汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "太阳病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "太阳病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "大汗出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太阳病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉洪大",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太阳病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "形似疟",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太阳病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "1日再发",
+      "object_type": "Symptom"
+    }
+  ]
+}

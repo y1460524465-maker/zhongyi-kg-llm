@@ -1,0 +1,571 @@
+{
+  "entities": [
+    {
+      "name": "鹅掌金星草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "辟瘟草,鸭脚金星草,独脚金鸡,猪蹄叉,鸡脚叉,乌毛丁,鸭脚珠,鸭脚掌,三叉剑,双风尾草,七星箭,鹅脚伸筋,三叉风,盐挑草,鸭掌香,鸭掌星,鸭胶掌,鸭胶草,二叉曲,三叉虎,三滴血,鸭脚草",
+        "effect": "清热,凉血,利尿,解毒",
+        "indication": "伤寒热病,烦渴,惊风,扁桃体炎,细菌性痢疾,慢性肝炎,血淋,便血,痈肿疔疮",
+        "dosage": "内服：煎汤，15-30g，大剂量可用至60g，鲜品加倍。外用：适量，研末撒；或鲜品捣敷",
+        "origin": "水龙骨科植物金鸡脚的全草或带根全草",
+        "processing": "秋季采收。晒干",
+        "property_flavor": null,
+        "meridian": null,
+        "traits": null,
+        "taboo": null,
+        "place": "生于阴湿山沟旁或树林下。分布我国西南、中南、华东，北至陕西南部、山东半岛及旅顺等地。产江苏、四川、福建、江西、陕西等地"
+      }
+    },
+    {
+      "name": "金鸡脚",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鹅掌金星草",
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "origin": null,
+        "processing": null,
+        "property_flavor": null,
+        "meridian": null,
+        "traits": null,
+        "taboo": null,
+        "place": null
+      }
+    },
+    {
+      "name": "虎耳草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "金荞麦",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "阴行草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "车前草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "冰糖",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈干姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红糖",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "鸡蛋",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "风热感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿惊风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿呕吐",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "吐乳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "白喉",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "中暑腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "慢性肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小便淋痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热毒下血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "大便出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热痢",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "细菌性痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痧胀",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肿毒疮疡",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疔肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "蛇咬伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《百草镜》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《贵州民间方药集》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《江西民间草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《陕西植药调查》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《闽东本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《广西药植名录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《江苏植药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《福州草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《峨嵋药植》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《泉州本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《福建中草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《贵州草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《福建民间草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《单方验方调查资料选编》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "伤寒热病",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "细菌性痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿呕吐",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐乳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白喉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中暑腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便淋痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热毒下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痧胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿毒疮疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福州草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《峨嵋药植》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《泉州本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陕西植药调查》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《闽东本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵州草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江西民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《单方验方调查资料选编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹅掌金星草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《百草镜》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "鹅蛋壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "拔毒排脓，理气止痛",
+        "indication": "痈疽脓成难溃，疝气，难产",
+        "usage": "内服：研末，1-3g，开水或酒送服。外用：适量，研末调敷。",
+        "origin": "鸭科动物家鹅的卵壳",
+        "property_flavor": "气微，味淡"
+      }
+    },
+    {
+      "name": "痈疽脓成难溃",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疝气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "难产",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "拔毒排脓",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "理气止痛",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹅蛋壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "拔毒排脓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅蛋壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅蛋壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽脓成难溃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅蛋壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅蛋壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "难产",
+      "object_type": "Disease"
+    }
+  ]
+}

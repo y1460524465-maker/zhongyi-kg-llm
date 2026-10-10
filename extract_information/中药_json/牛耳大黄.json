@@ -1,0 +1,232 @@
+{
+  "entities": [
+    {
+      "name": "牛耳大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10-15g",
+        "effect": "清热解毒，凉血止血，通便杀虫",
+        "indication": "急慢性肝炎，肠炎，痢疾，慢性气管炎，吐血，衄血，便血，崩漏，热结便秘，痈疽肿毒，疥癣，秃疮",
+        "taboo": "脾虚泄泻者忌用",
+        "origin": "蓼科植物皱叶酸模的根",
+        "processing": "4～5月采其根，洗净，晒干或鲜用",
+        "property_flavor": null,
+        "meridian": null,
+        "place": "东北、华北及陕西、甘肃、青海、福建、台湾、广西、贵州等地",
+        "traits": null
+      }
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "慢性气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疥疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "秃疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "便血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热结便秘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痈疽肿毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《草木便方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《重庆草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《闽东本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《齐齐哈尔中草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《高原中草药治疗手册》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《陕甘宁青中草药选》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热结便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "秃疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛耳大黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通便杀虫",
+      "object_type": "Effect"
+    }
+  ]
+}

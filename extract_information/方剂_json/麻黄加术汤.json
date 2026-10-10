@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "name": "麻黄加术汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "风寒湿痹，身体烦疼，无汗等",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麻黄加术汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄加术汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "风寒湿痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身体烦疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风寒湿痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "无汗",
+      "object_type": "Symptom"
+    }
+  ]
+}

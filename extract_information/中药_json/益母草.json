@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "益母草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10~15g",
+        "effect": "活血调经，祛瘀，利水消肿",
+        "indication": "月经不调，胎漏难产，胞衣不下，产后血晕，瘀血腹痛，崩中漏下，尿血，泻血，痈肿疮疡",
+        "property_flavor": "味甘微苦",
+        "taboo": "阴虚血少者忌服；孕妇禁用；忌铁器"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "栀子花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，6-10g；或焙研吹鼻",
+        "effect": "清肺止咳，凉血止血",
+        "indication": "主肺热咳嗽，鼻衄",
+        "processing": "6-7月采摘，鲜用或晾干",
+        "alias": "薝卜花、山栀花、野桂花、白蟾花、雀舌花、玉瓯花、玉荷花",
+        "origin": "为双子叶植物药茜草科植物山栀的花"
+      }
+    }
+  ],
+  "relations": []
+}

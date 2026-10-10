@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "name": "望月砂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "去翳明目，解毒杀虫",
+        "indication": "目暗生翳，疳疾，痔瘘",
+        "usage": "内服：煎汤，5-10g；或入丸、散。外用：适量，烧灰调敷",
+        "origin": "《雷公炮炙论》",
+        "property_flavor": "味微苦而辛",
+        "traits": "燥品呈圆球形而略扁，长9～12毫米，直径6～9毫米。表面粗糙，有草质纤维，内外均呈浅棕色或灰黄色。质轻松易破碎，手搓之即碎成乱草状。鲜者有恶臭，干者无臭。味微苦而辛。以干燥、色黄、不碎、无泥沙杂质者为佳",
+        "place": "主产河北、安徽、湖北、江苏、浙江、广西、新疆、福建等地"
+      }
+    },
+    {
+      "name": "《雷公炮炙论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《补缺肘后方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《姚僧坦集验方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《苏沈良方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草求真》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "目暗生翳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疳疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痔瘘",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "望月砂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《雷公炮炙论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "望月砂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "去翳明目，解毒杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "望月砂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目暗生翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "望月砂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "望月砂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔瘘",
+      "object_type": "Disease"
+    }
+  ]
+}

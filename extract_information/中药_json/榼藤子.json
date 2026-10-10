@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "name": "榼藤子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "象豆,合子,榼子,眼镜豆,眼睛豆,牛眼睛,老鸦肾，过岗龙子，木腰子",
+        "property_flavor": "微苦，凉；有小毒。入肝、脾、胃、肾经。",
+        "effect": "行气止痛，利湿消肿。",
+        "indication": "主脘腹胀痛，黄疸，脚气水肿，痢疾，痔疮，脱肛，喉痹。",
+        "dosage": "内服：烧存性研末，1-3g；或煎服。外用：适量，捣敷或研末调敷。"
+      }
+    },
+    {
+      "name": "脘腹胀痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "黄疸",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "脱肛",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉痹",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "榼藤子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "榼藤子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "榼藤子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚气水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "榼藤子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "榼藤子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "榼藤子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "榼藤子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "榼藤子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "榼藤子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

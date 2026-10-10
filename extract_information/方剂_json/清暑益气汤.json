@@ -1,0 +1,169 @@
+{
+  "entities": [
+    {
+      "name": "清暑益气汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "王氏清暑益气汤",
+        "effect": "清热解暑，益气生津",
+        "indication": "暑热气津两伤。身热汗多，口渴心烦，小便短赤，体倦少气，精神不振，脉虚数"
+      }
+    },
+    {
+      "name": "西洋参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气生津，养阴清热"
+      }
+    },
+    {
+      "name": "石斛",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养阴生津"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养阴生津"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "effect": "泻火"
+      }
+    },
+    {
+      "name": "竹叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热除烦"
+      }
+    },
+    {
+      "name": "荷梗",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解暑清热，理气宽胸"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "effect": "滋阴泻火"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益胃和中"
+      }
+    },
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益胃和中"
+      }
+    },
+    {
+      "name": "西瓜翠衣",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解暑"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "西洋参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石斛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荷梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "西瓜翠衣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解暑，益气生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "清暑益气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "暑热气津两伤",
+      "object_type": "Disease"
+    }
+  ]
+}

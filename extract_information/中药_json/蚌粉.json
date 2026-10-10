@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "蚌粉",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蚌蛤灰、蜃灰、蚌壳粉、蚌壳灰",
+        "effect": "化痰消积，清热燥湿",
+        "indication": "痰饮咳嗽，胃痛，呕逆，白带，痈肿，湿疮",
+        "dosage": "内服：入丸、散，3-6g。外用：适量，干糁；或调敷。"
+      }
+    }
+  ],
+  "relations": []
+}

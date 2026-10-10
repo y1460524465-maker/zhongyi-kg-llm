@@ -1,0 +1,282 @@
+{
+  "entities": [
+    {
+      "name": "十全大补汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "温补气血",
+        "indication": "五劳七伤汽血不足，饮食减少；久病虚损，面色萎黄，肢膝无力，精神倦怠，以及疮疡不敛，妇女崩漏等",
+        "taboo": null,
+        "usage": "上药为细末。每服9克，用水150毫升，加生姜3片，红枣2枚，同煎至100毫升，不拘时候温服。现今有多种剂型。"
+      }
+    },
+    {
+      "name": "《太平惠民和剂局方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "四君子汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补气",
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "四物汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补血",
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "八珍汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补气",
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补阳",
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "川当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "白芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平惠民和剂局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "五劳七伤汽血不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "饮食减少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "久病虚损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面色萎黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢膝无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "精神倦怠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡不敛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八珍汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "四君子汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "八珍汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "四物汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "八珍汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "十全大补汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温补气血",
+      "object_type": "Effect"
+    }
+  ]
+}

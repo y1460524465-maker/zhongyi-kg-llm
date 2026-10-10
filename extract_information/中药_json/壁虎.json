@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {
+      "name": "壁虎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风，定惊，散结，解毒",
+        "indication": "中风瘫痪，历节风痛，风痰惊痫，瘰疬，恶疮",
+        "usage": "内服：煎汤，2~5g；研末，每次1~2g；亦可浸酒或入丸、散。",
+        "property_flavor": null,
+        "origin": "《纲目》《四川中药志》《本草汇言》",
+        "traits": null,
+        "dosage": null,
+        "meridian": null,
+        "place": "分布于河北、山西、陕西、山东、江苏、浙江、河南等地",
+        "processing": "净制：除去灰土，勿使尾部脱落。切制：竹片插在嘴巴下方提起，用文火烤干即可。",
+        "taboo": "《本草汇言》：病后血虚气弱，非关风痰风毒所感者，宜斟酌用之。"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "name": "绿豆叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "和胃，解毒",
+        "indication": "霍乱吐泻，斑疹，疔疮，疥癣，药毒，火毒",
+        "usage": "内服：捣汁，15-30g。外用：适理，捣烂布包擦。"
+      }
+    },
+    {
+      "name": "霍乱",
+      "type": "Disease"
+    },
+    {
+      "name": "吐泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "斑疹",
+      "type": "Symptom"
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "药毒",
+      "type": "Disease"
+    },
+    {
+      "name": "火毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "绿豆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "霍乱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绿豆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "斑疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绿豆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绿豆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "药毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绿豆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "火毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绿豆叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和胃，解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

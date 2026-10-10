@@ -1,0 +1,178 @@
+{
+  "entities": [
+    {
+      "name": "蚯蚓泥",
+      "type": "Herb",
+      "attributes": {
+        "alias": "六一泥, 地龙粪",
+        "traits": "黑色、均一、有自然泥土味，细碎",
+        "indication": "咽喉骨鲠，蛇虫咬伤，刀伤，吐血，耳内诸疮，丹毒，小便不通",
+        "usage": "内服：研末服，或者制成丸剂",
+        "origin": "蚯蚓的排泄物"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热疟",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒谵语",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿吐乳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿阴囊肿大",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女吹乳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚心肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "漏耳诸疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "耳内诸疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牙龈露出",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉骨鲠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蜈蚣咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "刀伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "解射网毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "反胃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿头热、鼻塞不能",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "臁疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "处肾生疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚯蚓泥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇犬咬伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

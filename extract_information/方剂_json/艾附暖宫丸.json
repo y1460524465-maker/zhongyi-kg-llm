@@ -1,0 +1,302 @@
+{
+  "entities": [
+    {
+      "name": "艾附暖宫丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "理气补血，暖宫调经",
+        "indication": "子宫虚寒，月经不调，经来腹痛，腰酸带下",
+        "taboo": null,
+        "usage": "口服，小蜜丸一次9g，大蜜丸一次1丸，一日2～3次"
+      }
+    },
+    {
+      "name": "艾叶（炭）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "香附（醋制）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "240g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "吴茱萸（制）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白芍（酒炒）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芪（蜜炙）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "续断",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "经来腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腰酸带下",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "子宫虚寒",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "艾叶（炭）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附（醋制）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴茱萸（制）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍（酒炒）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪（蜜炙）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "续断",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "理气补血，暖宫调经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫虚寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "艾附暖宫丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "子宫虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "经来腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "子宫虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腰酸带下",
+      "object_type": "Symptom"
+    }
+  ]
+}

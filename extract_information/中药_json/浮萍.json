@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "浮萍",
+      "type": "Herb",
+      "attributes": {
+        "alias": "水萍、水花、藻、萍子草、小萍子、浮萍草、水藓、水帘、九子萍、田萍",
+        "effect": "发汗，祛风，行水，清热，解毒",
+        "indication": "时行热病，斑疹不透，风热瘾疹，皮肤瘙痒，水肿，癃闭，疮癣，丹毒，烫伤",
+        "taboo": "表气虚而自汗看匆用；非大实大热，不可轻试；血虚肤燥，气虚风痛，二者禁用",
+        "origin": "浮萍科植物紫萍 Spirodela polyrrhiza （L.） Schleid. 的干燥全草",
+        "property_flavor": "气微，味淡"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "发汗",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "时行热病",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "斑疹不透",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风热瘾疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癃闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "丹毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "浮萍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烫伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

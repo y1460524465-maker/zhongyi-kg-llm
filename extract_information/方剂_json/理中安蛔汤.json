@@ -1,0 +1,112 @@
+{
+  "entities": [
+    {
+      "name": "理中安蛔汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温扶脾土，去虫",
+        "indication": "蛔厥，手足冷而吐蛔"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "七分"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "乌梅",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一个"
+      }
+    },
+    {
+      "name": "花椒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一分"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五分"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "理中安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温扶脾土，去虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "理中安蛔汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔厥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "理中安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理中安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理中安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理中安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌梅",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理中安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "花椒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理中安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "体外培育牛黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清心豁痰，开窍凉肝，息风解毒",
+        "indication": "热病神昏，中风痰迷，惊痫抽搐，癫痫发狂，咽喉肿痛，口舌生疮，痈肿疗疮",
+        "dosage": "0.15～0.35g，多入丸散用",
+        "taboo": "孕妇慎用；偶有轻度消化道不适",
+        "property_flavor": "味苦而后甘，有清凉感"
+      }
+    }
+  ],
+  "relations": []
+}

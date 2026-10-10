@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "岩节连",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，消肿止痛",
+        "indication": "痈疮肿毒，外伤肿痛，跌打肿痛",
+        "usage": "外用：适量捣烂敷患处"
+      }
+    }
+  ],
+  "relations": []
+}

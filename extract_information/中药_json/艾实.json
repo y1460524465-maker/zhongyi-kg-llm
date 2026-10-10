@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "name": "艾实",
+      "type": "Herb",
+      "attributes": {
+        "alias": "艾子",
+        "origin": "菊科植物艾的果实",
+        "effect": "温肾壮阳",
+        "indication": "肾虚腰酸，阳虚内寒",
+        "usage": "内服：研末，1.5-4.5g。或为丸。",
+        "place": null,
+        "property_flavor": null,
+        "meridian": null,
+        "traits": null,
+        "processing": null,
+        "dosage": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肾虚腰酸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "阳虚内寒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "一切冷气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《孟诜方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "艾实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温肾壮阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "艾实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚腰酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳虚内寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "一切冷气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "艾实",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "孟诜方",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "艾实",
+      "object_type": "Herb"
+    }
+  ]
+}

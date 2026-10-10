@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "name": "葱叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风发汗，解毒消肿",
+        "indication": "感冒风寒，头痛鼻塞，身热无汗；中风，面目浮肿；疮痈肿痛；跌打创伤",
+        "dosage": "内服：煎汤，9~15 g",
+        "processing": "外用：捣敷、热罨或煎水洗",
+        "property_flavor": "温，辛",
+        "origin": "《千金•食治》"
+      }
+    },
+    {
+      "name": "《千金•食治》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《食疗本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《独行方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葱叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《千金•食治》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "葱叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风发汗，解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葱叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛鼻塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身热无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面目浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮痈肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打创伤",
+      "object_type": "Disease"
+    }
+  ]
+}

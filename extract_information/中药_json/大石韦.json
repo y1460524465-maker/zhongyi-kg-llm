@@ -1,0 +1,137 @@
+{
+  "entities": [
+    {
+      "name": "大石韦",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15-30g；鲜品30-120g",
+        "effect": "凉血止血，利湿解毒",
+        "indication": "用于肺热咳血，尿血，小便淋浊，痈疮肿毒，毒蛇咬伤，风湿痹痛",
+        "processing": "全年均可采收，洗净，晒干或鲜用"
+      }
+    },
+    {
+      "name": "肺热咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便淋浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疮肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "凉血止血",
+      "type": "Effect"
+    },
+    {
+      "name": "利湿解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "小便不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺病咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便出血",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大石韦",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大石韦",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大石韦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大石韦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大石韦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大石韦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大石韦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大石韦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大石韦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺病咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大石韦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大石韦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不通",
+      "object_type": "Symptom"
+    }
+  ]
+}

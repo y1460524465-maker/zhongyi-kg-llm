@@ -1,0 +1,175 @@
+{
+  "entities": [
+    {
+      "name": "八月札",
+      "type": "Herb",
+      "attributes": {
+        "alias": "畜葍子、拿子、桴棪子、覆子、八月楂、木通子、压惊子、八月瓜、预知子、八月炸、八月果、百日瓜、牵藤瓜、冷饭包、拉拉果、野香交、羊开口、腊瓜",
+        "effect": "舒肝理气，活血止痛，除烦利尿",
+        "indication": "肝胃气痛，胃热食呆，烦渴，赤白痢疾，腰痛，胁痛，疝气，痛经，子宫下坠",
+        "taboo": "凡病人脾虚作泄泻者勿服。孕妇慎服。",
+        "dosage": "内服：煎汤，9~15g；大剂量可用30~60g；或浸酒。",
+        "origin": "木通科植物木通、三叶木通或白木通的种子"
+      }
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《局方》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "苏州医学院《中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《常用抗癌药物手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "苏州医学院《中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《常用抗癌药物手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒肝理气，活血止痛，除烦利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝胃气痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃热食呆",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫下坠",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胁痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫脱垂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八月札",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "输尿管结石",
+      "object_type": "Disease"
+    }
+  ]
+}

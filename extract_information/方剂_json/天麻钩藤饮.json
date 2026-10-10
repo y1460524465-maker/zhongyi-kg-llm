@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "name": "天麻钩藤饮",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热平肝，潜阳熄风",
+        "indication": "肝经有热，肝阳偏亢，头痛头胀，耳鸣目眩，少寐多梦；或半身不遂，口眼喎斜，舌红，脉弦数。现用于高血压病"
+      }
+    },
+    {
+      "name": "天麻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "钩藤",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生石决明",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "山栀",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川牛膝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "杜仲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "益母草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桑寄生",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "夜交藤",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "朱茯神",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "钩藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生石决明",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜仲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "益母草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑寄生",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "夜交藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱茯神",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天麻钩藤饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压病",
+      "object_type": "Disease"
+    }
+  ]
+}

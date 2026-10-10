@@ -1,0 +1,201 @@
+{
+  "entities": [
+    {
+      "name": "猴枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.3-1g",
+        "effect": "清热镇惊，豁痰定喘，解毒消肿",
+        "indication": "痰热喘咳，咽痛喉痹，惊痫，小儿急惊，瘰疬痰核",
+        "origin": "为猴科动物猕猴等的肠胃结石",
+        "place": "印度、马来半岛及南洋群岛等地",
+        "processing": "打碎，拣去核，研极细用",
+        "property_flavor": "味微苦涩",
+        "traits": "呈椭圆形，表面青铜色或绿黑色，平滑而有光泽，质硬而脆，断面灰黄色，有层次，中央有核"
+      }
+    },
+    {
+      "name": "猴枣散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每次服一至二分，日服一至二次，用温开水送服"
+      }
+    },
+    {
+      "name": "痰热喘咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽痛喉痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "惊痫",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿急惊",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疬痰核",
+      "type": "Symptom"
+    },
+    {
+      "name": "羚羊角",
+      "type": "Herb"
+    },
+    {
+      "name": "麝香",
+      "type": "Herb"
+    },
+    {
+      "name": "煅月石",
+      "type": "Herb"
+    },
+    {
+      "name": "伽南香",
+      "type": "Herb"
+    },
+    {
+      "name": "川贝母",
+      "type": "Herb"
+    },
+    {
+      "name": "青礞石",
+      "type": "Herb"
+    },
+    {
+      "name": "天竹黄",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猴枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰热喘咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猴枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猴枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猴枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿急惊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猴枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘰疬痰核",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猴枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热镇惊，豁痰定喘，解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猴枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羚羊角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "煅月石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "伽南香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青礞石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天竹黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰多气急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喘声如锯",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猴枣散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦躁不宁",
+      "object_type": "Symptom"
+    }
+  ]
+}

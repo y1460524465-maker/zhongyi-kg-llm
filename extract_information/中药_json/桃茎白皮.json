@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {
+      "name": "桃茎白皮",
+      "type": "Herb",
+      "attributes": {
+        "alias": "桃皮、桃树皮、桃白皮",
+        "property_flavor": "苦，平，无毒",
+        "effect": "清热利水，解毒，杀虫",
+        "indication": "水肿，痧气腹痛，肺热喘闷，痈疽，瘰疬，湿疮，风湿关节痛，牙痛，疮痈肿毒，湿癣",
+        "dosage": "内服：煎汤，9-15g。外用：研末调敷、煎水洗或含漱。"
+      }
+    },
+    {
+      "name": "别录",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "纲目",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桃茎白皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "别录",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃茎白皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "纲目",
+      "object_type": "Source"
+    }
+  ]
+}

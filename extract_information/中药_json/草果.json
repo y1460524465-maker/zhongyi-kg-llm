@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "草果",
+      "type": "Herb",
+      "attributes": {
+        "effect": "燥湿除寒，祛痰截疟，消食化乱",
+        "indication": "主治疟疾，痰饮痞满，脘腹冷痛，反胃，呕吐，泻痢，食积",
+        "taboo": "气虚或血亏，无寒湿实邪者忌服",
+        "dosage": "内服：煎汤，3~6g；或入丸、散",
+        "property_flavor": "味辛辣",
+        "processing": "草果仁：拣净杂质，置锅内文火炒至外壳焦黄色并微鼓起，取出稍凉，碾去壳，过筛取仁。姜草果仁：取草果仁，加姜汁与水少许，拌匀，微炒，取出，放凉。（每草果仁100斤，用鲜姜10斤取汁）"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "草果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "草果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "草果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "草果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "草果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "草果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿除寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "草果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛痰截疟",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "草果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食化乱",
+      "object_type": "Effect"
+    }
+  ]
+}

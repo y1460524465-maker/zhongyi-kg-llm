@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "name": "中华蹄盖蕨",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，驱虫",
+        "indication": "流感，麻疹，乙脑，流脑，钩虫病，蛔虫病",
+        "usage": "内服：煎汤，10-15g",
+        "property_flavor": "味微苦，性凉",
+        "origin": "《新华本草纲要》"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "中华蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "中华蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "驱虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "中华蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流感",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "中华蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "中华蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乙脑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "中华蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流脑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "中华蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "钩虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "中华蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "中华蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "新华本草纲要",
+      "object_type": "Source"
+    }
+  ]
+}

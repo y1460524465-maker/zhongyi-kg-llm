@@ -1,0 +1,396 @@
+{
+  "entities": [
+    {
+      "name": "香砂养胃丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "健脾祛湿，行气和胃，温中和胃",
+        "indication": "不思饮食，呕吐酸水，胃脘满闷，四肢倦怠，慢性胃炎、胃神经官能症、消化性溃疡",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "210g",
+        "effect": "理气解郁、和胃止痛",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "210g",
+        "effect": "化湿行气，和中止呕",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "300g",
+        "effect": "补气健脾，燥湿利水",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "300g",
+        "effect": "行气和中，燥湿除积",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "300g",
+        "effect": "健脾利湿",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "300g",
+        "effect": "降逆止呕，消痞散结",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "210g",
+        "effect": "理气解郁、和胃止痛",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "醋制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "210g",
+        "effect": "破气消积，散结除痞",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "豆蔻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "210g",
+        "effect": "化湿行气，和中止呕",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "210g",
+        "effect": "行气和中，燥湿除积",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "姜制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "广藿香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "210g",
+        "effect": "化湿行气，和中止呕",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90g",
+        "effect": "调和药性",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "不思饮食",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕吐酸水",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃脘满闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢倦怠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "慢性胃炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃神经官能症",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "消化性溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/香砂养胃丸",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "广藿香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "健脾祛湿，行气和胃，温中和胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不思饮食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐酸水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃脘满闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢倦怠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃神经官能症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "消化性溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "香砂养胃丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/香砂养胃丸",
+      "object_type": "Source"
+    }
+  ]
+}

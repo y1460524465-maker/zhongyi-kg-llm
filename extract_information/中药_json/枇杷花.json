@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "name": "枇杷花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "疏风止咳，通鼻窍",
+        "indication": "感冒咳嗽，鼻塞流涕，虚劳久嗽，痰中带血",
+        "property_flavor": "微甘、涩",
+        "traits": "气微清香",
+        "usage": "内服：煎汤，6~12g；或研末，每次3~6g，吞服；或入丸、散。"
+      }
+    },
+    {
+      "name": "感冒咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "鼻塞流涕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "虚劳久嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰中带血",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枇杷花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻塞流涕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳久嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰中带血",
+      "object_type": "Symptom"
+    }
+  ]
+}

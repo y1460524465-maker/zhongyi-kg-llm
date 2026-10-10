@@ -1,0 +1,259 @@
+{
+  "entities": [
+    {
+      "name": "黄土汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "温阳健脾，摄血止血",
+        "indication": "脾阳不足所致的大便下血、妇女崩漏；阳虚便血，大便下血，先便后血，或吐血、衄血，及妇人崩漏，血色暗淡，四肢不温，面色萎黄，舌淡苔白，脉沉细无力者",
+        "taboo": null,
+        "usage": "上七味，以水八升，煮取三升，分温二服"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "干地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "灶心黄土",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "脾阳不足",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "大便下血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇女崩漏",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "阳虚便血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢不温",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "面色萎黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌淡苔白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉沉细无力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "慢性胃肠道出血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "功能性子宫出血",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "灶心黄土",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾阳不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳虚便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢不温",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面色萎黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌淡苔白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉沉细无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性胃肠道出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "功能性子宫出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温阳健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄土汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "摄血止血",
+      "object_type": "Effect"
+    }
+  ]
+}

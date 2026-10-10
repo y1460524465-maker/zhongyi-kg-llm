@@ -1,0 +1,350 @@
+{
+  "entities": [
+    {
+      "name": "升阳益胃汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "升举清阳，祛风除湿，除湿清热，补气养胃，养血和营",
+        "usage": "上为末，每服三钱至五钱（15克），加生姜五片，大枣二枚，用水三盏，煎至一盏，去滓，早饭后温服"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "橘皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "脾胃气虚",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "清阳不升",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "湿郁生热",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "脾胃虚弱，湿热滞留中焦",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "怠惰嗜卧",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "四肢不收",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "肢体重痛",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "口苦舌干",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "饮食无味",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "食不消化",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "大便不调",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/升阳益胃汤",
+      "type": "Source",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃气虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "清阳不升",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿郁生热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚弱，湿热滞留中焦",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "怠惰嗜卧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢不收",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体重痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口苦舌干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "饮食无味",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食不消化",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升阳益胃汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/升阳益胃汤",
+      "object_type": "Source"
+    }
+  ]
+}

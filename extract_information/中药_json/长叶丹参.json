@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "长叶丹参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，18-30g",
+        "effect": "活血通络",
+        "indication": "用于月经不调，关节酸痛"
+      }
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "关节酸痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "长叶丹参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "长叶丹参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶丹参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节酸痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

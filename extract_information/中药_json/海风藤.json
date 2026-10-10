@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "name": "海风藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "满坑香、老藤、大风藤、岩胡椒",
+        "effect": "祛风湿，通经络，理气",
+        "indication": "风寒湿痹，关节疼痛，筋脉拘挛，跌打损伤，哮喘，久咳",
+        "usage": "内服：煎汤，6~15g；或浸酒",
+        "property_flavor": "气香，味苦、辛"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海风藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海风藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海风藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋脉拘挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海风藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海风藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "哮喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海风藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海风藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海风藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通经络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海风藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气",
+      "object_type": "Effect"
+    }
+  ]
+}

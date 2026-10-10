@@ -1,0 +1,241 @@
+{
+  "entities": [
+    {
+      "name": "海藻玉壶汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "海藻玉壶带昆布，青陈半夏草贝母，川芎独活当归翘，化痰散结瘿瘤除",
+        "effect": "化痰软坚，理气散结，滋阴泻火",
+        "indication": "瘿瘤初起，或肿或硬，或赤或不赤，但未破者，甲状腺机能亢进，脂膜炎，乳腺增生，淋巴结核，结核性腹膜炎，多发性疖病等",
+        "taboo": "服药期间，先断厚味荤腥，次宜绝欲虚心",
+        "usage": "水400毫升，煎至320毫升，量病上下，食前后服之"
+      }
+    },
+    {
+      "name": "海藻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "贝母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "昆布",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "甘草节",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "海带",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海藻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "昆布",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草节",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海带",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "化痰软坚，理气散结，滋阴泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "甲状腺机能亢进",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脂膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "乳腺增生",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "结核性腹膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻玉壶汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "多发性疖病",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "name": "野苋菜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9-30g",
+        "effect": "清热解毒，利尿",
+        "indication": "痢疾，腹泻，疔疮肿毒，毒蛇咬伤，蜂螫伤，小便不利，水肿",
+        "origin": "苋科植物凹头苋和反枝苋的全草或根",
+        "processing": "春、夏、秋季采收，洗净，鲜用；内服：煎汤，9-30g;捣汁"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "野苋菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野苋菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蜂螫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便不利",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    }
+  ]
+}

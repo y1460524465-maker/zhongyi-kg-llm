@@ -1,0 +1,157 @@
+{
+  "entities": [
+    {
+      "name": "栀子根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，凉血止血",
+        "indication": "感冒高热，黄疸型肝炎，吐血，鼻衄，菌痢，淋病，肾炎水肿，疮痈肿毒",
+        "dosage": "内服：煎汤，15-30g",
+        "origin": "为茜草科植物山栀的根",
+        "place": "广东、广西、四川等地",
+        "traits": "本品呈圆柱形，有分枝，多已切成短段，长2-5cm。表面灰黄色或灰褐色，具有瘤状突起的须根痕。质坚硬，断面白色或灰白色，具放射状纹理。气微，味淡。以根肥大、短段大小均匀、不带茎枝者为佳"
+      }
+    },
+    {
+      "name": "感冒高热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "黄疸型肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "鼻衄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "菌痢",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "淋病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肾炎水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疮痈肿毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "赤白痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "米汤样尿",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿，凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒高热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸型肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "菌痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮痈肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栀子根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "米汤样尿",
+      "object_type": "Symptom"
+    }
+  ]
+}

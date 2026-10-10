@@ -1,0 +1,181 @@
+{
+  "entities": [
+    {
+      "name": "六神丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热解毒，消肿止痛",
+        "indication": "咽喉肿痛或溃疡，白喉，扁桃体炎，口疮，痈疽，疔疮",
+        "taboo": "孕妇忌服。运动员慎用。",
+        "usage": "各研细末，用酒化蟾酥，与前药末调匀为丸，如芥子大，百草霜为衣。每服5～10丸，每日二至三次。亦可外用。"
+      }
+    },
+    {
+      "name": "珍珠粉",
+      "type": "Herb"
+    },
+    {
+      "name": "犀牛黄",
+      "type": "Herb"
+    },
+    {
+      "name": "麝香",
+      "type": "Herb"
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb"
+    },
+    {
+      "name": "蟾酥",
+      "type": "Herb"
+    },
+    {
+      "name": "冰片",
+      "type": "Herb"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "溃疡",
+      "type": "Symptom"
+    },
+    {
+      "name": "白喉",
+      "type": "Disease"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "口疮",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease"
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "消肿止痛",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "珍珠粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蟾酥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "溃疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "白喉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "口疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "六神丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    }
+  ]
+}

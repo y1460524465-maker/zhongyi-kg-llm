@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "name": "矮地茶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "镇咳祛痰，活血，利尿，解毒。",
+        "indication": "慢性气管炎，肺结核咳嗽咯血，吐血，脱力劳伤，筋骨酸痛，肝炎，痢疾，急慢性肾炎，高血压，疝气，肿毒。",
+        "origin": "为紫金牛科植物紫金牛Ardisia japonica （Hornst.） B1.的全株。",
+        "place": "福建、江西、湖南、四川、江苏、浙江、贵州、广西、云南等地。",
+        "processing": "夏、秋季茎、叶茂盛时采挖，除去泥沙，干燥。",
+        "dosage": "内服：煎汤，10~30克；或捣汁。",
+        "alias": "紫金牛、矮地菜、矮茶风、矮脚樟、平地木、地青杠、四叶茶、五托香、火炭酸、老勿大、千年不大、千年矮、不出林"
+      }
+    },
+    {
+      "name": "慢性气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肺结核咳嗽咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "脱力劳伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "筋骨酸痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "急慢性肾炎",
+      "type": "Disease"
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "疝气",
+      "type": "Disease"
+    },
+    {
+      "name": "肿毒",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "矮地茶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "矮地茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺结核咳嗽咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "矮地茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "矮地茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱力劳伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "矮地茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "矮地茶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "矮地茶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "矮地茶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急慢性肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "矮地茶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "矮地茶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "矮地茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

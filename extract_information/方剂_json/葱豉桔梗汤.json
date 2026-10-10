@@ -1,0 +1,352 @@
+{
+  "entities": [
+    {
+      "name": "葱豉桔梗汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "辛凉解表，疏风清热",
+        "indication": "风温初期。证见头痛身热，微寒无汗，或有汗不多，咳嗽咽干，心烦口渴，舌尖红赤，苔薄白，脉浮数的患者。现用于感冒、流行性感冒见上述症状者。",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "葱白",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "苦桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "淡豆豉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "焦山栀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "薄荷叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "鲜淡竹叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "风温",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "流行性感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "微寒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "无汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "汗不多",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽干",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心烦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口渴",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葱白",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淡豆豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "焦山栀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜淡竹叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风温",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱豉桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "辛凉解表，疏风清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "微寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "汗不多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    }
+  ]
+}

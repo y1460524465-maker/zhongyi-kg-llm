@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "name": "了哥王根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "毒除根、地棉根、定元根、鱼胆根、地谷根、红赤七、七麻根、别南根、独薯根、狗信蔃",
+        "effect": "清热，利尿，解毒，杀虫，破积",
+        "place": "浙江、江西、福建、台湾、湖南、广东、广西、贵州、云南",
+        "processing": "全年均可采挖，切去地上部分，洗净，晒干或烘干",
+        "taboo": "孕妇及体质虚寒者忌服",
+        "dosage": "内服：煎汤（宜煎4小时以上），10-15g；外用：适量，捣敷；或研末调敷"
+      }
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "腮腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿臌胀",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疡肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "了哥王根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "了哥王根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "了哥王根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿臌胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "了哥王根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "了哥王根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "了哥王根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    }
+  ]
+}

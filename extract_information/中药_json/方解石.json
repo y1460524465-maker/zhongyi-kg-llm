@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "name": "方解石",
+      "type": "Herb",
+      "attributes": {
+        "origin": "碳酸盐类矿物方解石的矿石",
+        "place": "河南、河北、四川、湖南、安徽、江西等地",
+        "property_flavor": "无色或乳白色",
+        "traits": "多呈不规则的块状结晶，常呈斜方柱状，有棱角，无色或黄白色，透明至不透明，表面平滑，有玻璃样光泽。质坚硬，易砸碎，碎块为方形或长方形。气微，味淡。以色白、透明、易碎者为佳。用吹管焰烧时，分解为氧化钙及二氧化碳气体，使火焰光亮增强，并染成橘红色。加盐酸则发生二氧化碳气泡。",
+        "effect": "清热利湿，通脉解毒",
+        "indication": "胸中留热结气，黄疸，通血脉",
+        "dosage": "内服：煎汤，3-5钱；或入散剂",
+        "taboo": "恶巴豆"
+      }
+    },
+    {
+      "name": "别录",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "方解石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿，通脉解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "方解石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "方解石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中留热结气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "方解石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "别录",
+      "object_type": "Source"
+    }
+  ]
+}

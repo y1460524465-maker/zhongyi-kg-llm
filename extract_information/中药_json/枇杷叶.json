@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "枇杷叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "巴叶、蜜枇杷叶、炙枇杷叶、芦桔叶",
+        "effect": "清肺和胃，降气化痰",
+        "indication": "治肺热痰嗽，咳血，衄血，胃热呕哕",
+        "meridian": null,
+        "origin": null,
+        "place": "主产广东、江苏、浙江、福建、湖北等地",
+        "processing": "1.枇杷叶：刷去绒毛，用水洗净，稍润，切丝，晒干。\n2.蜜炙枇杷叶：取枇杷叶丝，加炼熟的蜂蜜和适量开水，拌匀，稍闷，置锅内用文火炒至不粘手为度，取出，放凉（每枇杷叶丝100斤，用炼熟蜂蜜25斤）。",
+        "property_flavor": "气微，味微苦",
+        "taboo": "《本草经疏》：胃寒呕吐及肺感风寒咳嗽者，法并忌之。",
+        "traits": "叶呈长椭圆形或倒卵形，长12~30cm，宽3~9cm。先端尖，基部楔形，边缘上部有疏锯齿，基部全缘。上表面灰绿色、黄棕色或红棕色，有光泽，下表面淡灰色或棕绿色，密被黄色茸毛。主脉于下表面显着突起，侧脉羽状。叶柄极短，被棕黄色茸毛。革质而脆，易折断。"
+      }
+    },
+    {
+      "name": "肺热痰嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃热呕哕",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枇杷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热痰嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃热呕哕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺和胃，降气化痰",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "entities": [
+    {
+      "name": "算盘子根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，行气活血，解毒消肿",
+        "indication": "痢疾，疟疾，黄疸，白浊，劳伤咳嗽，风湿痹痛，崩漏，带下，喉痛，牙痛，痈肿，瘰疬，跌打损伤",
+        "usage": "内服：煎汤，15-30g。外用：适量，煎水熏洗",
+        "taboo": "孕妇忌服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "劳伤咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牙痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "算盘子根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疼痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

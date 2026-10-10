@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "柳枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15-30g。外用：适量，煎水含漱；或熏洗。",
+        "effect": "祛风利湿，解毒消肿。主风湿痹痛；小便淋浊；黄疸；风疹瘙痒；疔疮；丹毒，龋齿；龈肿。",
+        "indication": "主治风湿痹痛，小便淋浊，黄疸，风疹瘙痒，疔疮，丹毒，龋齿，龈肿。",
+        "origin": "杨柳科植物垂柳",
+        "place": "分布于长江及黄河流域，其他各地均有栽培。",
+        "processing": "春季摘取嫩树枝条，鲜用或晒干。",
+        "property_flavor": "味微苦、涩",
+        "traits": "嫩枝圆柱形，直径5-10mm，表面微有纵皱纹，黄色。节间长0.5-5cm，上有交叉排列的芽或残留的三角形瘢痕。质脆易断，断面不平坦，皮部薄而浅棕色，木部宽而黄白色，中央有黄白色髓部。气微。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柳枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风疹瘙痒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "龋齿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "龈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳枝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柳枝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

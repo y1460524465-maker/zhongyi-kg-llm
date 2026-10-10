@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "温中，下气，燥湿，消痰",
+        "indication": "胸腹痞满胀痛，反胃，呕吐，宿食不消，痰饮喘咳，寒湿泻痢",
+        "meridian": null,
+        "origin": "木兰科植物厚朴Magnolia officinalis Rehd. et Wils.或凹叶厚朴Magnolia officinalis Rehd. et Wils. var. biloba Rehd. et Wils.",
+        "place": null,
+        "processing": "4～6月剥取，根皮及枝皮直接阴干；干皮置沸水中微煮后，堆置阴湿处，发汗至内表面变紫褐色或棕褐色时，蒸软，取出，卷成筒状，干燥",
+        "property_flavor": "味辛辣，微苦",
+        "taboo": "妊娠不可服",
+        "traits": "气香"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "下气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸腹痞满胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "宿食不消",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰饮喘咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒湿泻痢",
+      "object_type": "Symptom"
+    }
+  ]
+}

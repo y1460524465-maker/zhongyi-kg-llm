@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "name": "莽草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "芒草、葞、春草、石佳、红桂、鼠莽、菵草、红茴香、骨底搜、山木蟹、山大茴",
+        "effect": "祛风止痛，消肿散结，杀虫止痒",
+        "indication": "头风，皮肤麻痹，痈肿，乳痈，瘰疬，喉痹，疝瘕，癣疥，秃疮，风虫牙痛，狐臭",
+        "processing": "春、夏两季采摘，鲜用或晒干用",
+        "property_flavor": "辛，有毒",
+        "usage": "外用：研末调敷、煎水洗或含漱。不可内服"
+      }
+    },
+    {
+      "name": "《雷公炮炙论》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《补缺肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "《经效产宝》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《外台》",
+      "type": "Source"
+    },
+    {
+      "name": "《便民图纂》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "莽草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《雷公炮炙论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "莽草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风止痛，消肿散结，杀虫止痒",
+      "object_type": "Effect"
+    }
+  ]
+}

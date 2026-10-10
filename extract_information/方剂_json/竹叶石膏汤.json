@@ -1,0 +1,221 @@
+{
+  "entities": [
+    {
+      "name": "竹叶石膏汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "竹叶汤,人参竹叶汤",
+        "effect": "清热除烦，益气养阴，降逆止呕，调养胃气",
+        "indication": "伤寒、温病、暑病余热未清，气津两伤证。身热多汗，心胸烦闷，气逆欲呕，口干喜饮，或虚烦不寐，舌红苔少，脉虚数",
+        "taboo": "内有痰湿，或阳虚发热，均应忌用",
+        "usage": "上七味，以水一斗，煮取六升，去滓，内粳米，煮米熟，汤成去米，温服一升，日三服"
+      }
+    },
+    {
+      "name": "竹叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50克"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "麦门冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "《外台秘要》",
+      "type": "Source"
+    },
+    {
+      "name": "《三因极一病证方论》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外台秘要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《三因极一病证方论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦门冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热除烦",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益气养阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "降逆止呕",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "调养胃气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "温病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "暑病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身热多汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胸烦闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气逆欲呕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口干喜饮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹叶石膏汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚烦不寐",
+      "object_type": "Symptom"
+    }
+  ]
+}

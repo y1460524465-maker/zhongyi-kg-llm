@@ -1,0 +1,284 @@
+{
+  "entities": [
+    {
+      "name": "松花粉",
+      "type": "Herb",
+      "attributes": {
+        "alias": "松花、松黄（《唐本草》）",
+        "effect": "收敛止血，燥湿敛疮",
+        "indication": "用于外伤出血，湿疹，黄水疮，皮肤糜烂，脓水淋漓，外伤出血，尿布性皮炎",
+        "dosage": "内服，煎汤，3~6 g；浸酒或调服",
+        "origin": "本品为松科植物马尾松、油松或同属数种植物的干燥花粉"
+      }
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《元和纪用经》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "广州部队《常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《健康报》",
+      "type": "Source"
+    },
+    {
+      "name": "《浙江民间常用草药》",
+      "type": "Source"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疹",
+      "type": "Symptom"
+    },
+    {
+      "name": "黄水疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤糜烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "脓水淋漓",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿布性皮炎",
+      "type": "Disease"
+    },
+    {
+      "name": "风眩头旋肿痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤顽急",
+      "type": "Symptom"
+    },
+    {
+      "name": "酒毒发作",
+      "type": "Symptom"
+    },
+    {
+      "name": "头痛目眩",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉闭闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "下利清水",
+      "type": "Symptom"
+    },
+    {
+      "name": "形神萎顿",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃及十二指肠溃疡",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "久痢不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "婴儿湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "松花酒",
+      "type": "Formula",
+      "attributes": {
+        "usage": "空腹饮三合，再服大妙"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛止血，燥湿敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄水疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤糜烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脓水淋漓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿布性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风眩头旋肿痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤顽急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "酒毒发作",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头痛目眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉闭闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下利清水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "形神萎顿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃及十二指肠溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "慢性便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久痢不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "婴儿湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿布性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花酒",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风眩头旋肿痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花酒",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤顽急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松花酒",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《元和纪用经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "松花粉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    }
+  ]
+}

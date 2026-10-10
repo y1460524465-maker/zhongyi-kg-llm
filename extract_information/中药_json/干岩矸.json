@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "name": "干岩矸",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，凉血散瘀",
+        "indication": "流行性感冒，咽喉肿痛，目赤疼痛，咳血，吐血，胃热脘痛，肝郁胁痛，湿热泻痢，痈肿疮毒，跌打肿痛",
+        "dosage": "煎汤，3-9g；或泡茶饮；研末，1.5g，每日3次",
+        "origin": "罂粟科植物毛黄堇的全草"
+      }
+    },
+    {
+      "name": "流行性感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃热脘痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肝郁胁痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿热泻痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿疮毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "凉血散瘀",
+      "type": "Effect"
+    },
+    {
+      "name": "南川《常用中草药手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃热脘痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肝郁胁痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疮毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干岩矸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "南川《常用中草药手册》",
+      "object_type": "Source"
+    }
+  ]
+}

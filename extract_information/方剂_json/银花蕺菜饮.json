@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "name": "银花蕺菜饮",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热解毒，利湿排脓；清热凉血，活血化瘀；行气破瘀，消瘕散结",
+        "indication": "小腹包块疼痛，兼带下量多，色黄稠如脓，或五色带杂下，臭秽难闻，疑为恶性肿瘤",
+        "alias": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb"
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb"
+    },
+    {
+      "name": "丹参",
+      "type": "Herb"
+    },
+    {
+      "name": "三棱",
+      "type": "Herb"
+    },
+    {
+      "name": "莪术",
+      "type": "Herb"
+    },
+    {
+      "name": "皂角刺",
+      "type": "Herb"
+    },
+    {
+      "name": "银花",
+      "type": "Herb"
+    },
+    {
+      "name": "蕺菜",
+      "type": "Herb"
+    },
+    {
+      "name": "土茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "炒荆芥",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "半枝莲",
+      "type": "Herb"
+    },
+    {
+      "name": "穿心莲",
+      "type": "Herb"
+    },
+    {
+      "name": "白花蛇舌草",
+      "type": "Herb"
+    },
+    {
+      "name": "七叶一枝花",
+      "type": "Herb"
+    },
+    {
+      "name": "《中医妇科治疗学》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "三棱",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莪术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "皂角刺",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蕺菜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "土茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炒荆芥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花蕺菜饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《中医妇科治疗学》",
+      "object_type": "Source"
+    }
+  ]
+}

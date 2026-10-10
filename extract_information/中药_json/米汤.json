@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "米汤",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30-50ml",
+        "effect": "补肾健脾，利水通淋",
+        "indication": "脾虚赢瘦，肾亏不育，小便淋浊"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "米汤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾健脾，利水通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "米汤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚赢瘦",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "米汤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾亏不育",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "米汤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "米汤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "精清不孕",
+      "object_type": "Disease"
+    }
+  ]
+}

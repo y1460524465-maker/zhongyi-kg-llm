@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "苍附导痰丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "形盛多痰，气虚，至数月而经始行；形肥痰盛经闭；肥人气虚生痰多下白带。",
+        "taboo": null,
+        "usage": "淡姜汤送下。数月行经宜服苍附六君汤，兼服本方；肥人白带。多痰，直兼服柴术六君汤，兼服本方。"
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两5钱"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两5钱"
+      }
+    },
+    {
+      "name": "胆星",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苍附导痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍附导痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍附导痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍附导痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍附导痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍附导痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胆星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍附导痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    }
+  ]
+}

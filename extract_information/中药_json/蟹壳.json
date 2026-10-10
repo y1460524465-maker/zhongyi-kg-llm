@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "蟹壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散淤止血，解毒消肿",
+        "indication": "蓄血发黄，血瘀崩漏，痈疮肿毒，走马牙疳，毒虫螫伤",
+        "usage": "内服：煅存性，研末，5-10g。外用：适量，研末擦牙或调敷",
+        "origin": "为方蟹科动物中华绒螯蟹和日本绒螯蟹的甲壳",
+        "processing": "砂锅内焙焦，研细末。现行，取原药材，用时捣碎"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蟹壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蓄血发黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蟹壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血瘀崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蟹壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疮肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蟹壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "走马牙疳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蟹壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒虫螫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蟹壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散淤止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蟹壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

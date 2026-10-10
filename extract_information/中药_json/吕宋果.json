@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "吕宋果",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒;消肿;杀虫;止痛",
+        "indication": "腹痛泻痢；疟疾；小儿蛔虫；刀伤出血；头疮；痔疮；蛇虫咬伤",
+        "dosage": "内服：磨汁，每次0.06～0.09g，每日2～3次。外用：适量，刮末撒；或调敷",
+        "origin": "马钱科植物吕宋果Strychnos ignatii Berg.的干燥成熟种子"
+      }
+    }
+  ],
+  "relations": []
+}

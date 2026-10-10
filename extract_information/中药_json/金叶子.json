@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "name": "金叶子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "马虱子草、云南克擂木、补骨灵、劳伤叶",
+        "effect": "祛风活血，通络止痛；发表温经，活络止痛；舒筋活络",
+        "indication": "主治风湿痹痛，半身不遂，跌打损伤；治跌打损伤，风湿麻木，外感风寒；治骨折，风湿，跌打，瘫痪",
+        "property_flavor": "涩微辛，温，剧毒",
+        "taboo": "孕妇及体弱者忌服；金叶子中毒，用酸汤解",
+        "usage": "内服：研末0.3g；或煎汤，每次用叶1片"
+      }
+    },
+    {
+      "name": "《云南中草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《云南中草药选》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金叶子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风活血，通络止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金叶子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金叶子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金叶子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《云南中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金叶子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《云南中草药选》",
+      "object_type": "Source"
+    }
+  ]
+}

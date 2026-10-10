@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "樱桃",
+      "type": "Herb",
+      "attributes": {
+        "alias": "含桃、荆桃、山朱樱、朱果、樱珠、家樱桃、楔、楔桃、朱樱、朱桃、麦英、朱茱、麦甘酣、牛桃、英桃、朱樱桃、樱、李桃、奈桃、紫樱、蜡樱、紫桃、莺桃",
+        "effect": "补血益肾",
+        "indication": "脾虚泄泻，肾虚遗精，腰腿疼痛，四肢不仁，瘫痪",
+        "usage": "内服：煎汤，30-150g；或浸酒。外用：浸酒涂擦或捣敷。",
+        "taboo": "1.孟诜：不可多食，令人发暗风。2.《日华子本草》：多食令人吐。3.《本草图经》：虽多(食)无损，但发虚热耳。4.《日用本草》：其性属火，能发虚热喘嗽之疾。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "樱桃",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补血益肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "樱桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樱桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樱桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰腿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "樱桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢不仁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "樱桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘫痪",
+      "object_type": "Symptom"
+    }
+  ]
+}

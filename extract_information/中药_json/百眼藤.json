@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "name": "百眼藤",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，散瘀止痛，和胃化湿",
+        "indication": "感冒咳嗽，百日咳，消化不良，湿疹，跌打损伤，腰肌劳损",
+        "dosage": "内服：煎汤，15-60g",
+        "alias": "五眼子、泥藤草、鸡眼藤、猪糠藤、爬山虎、咸鱼头、大甘草、小叶羊角藤"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "百眼藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百眼藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百眼藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消化不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百眼藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百眼藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百眼藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰肌劳损",
+      "object_type": "Disease"
+    }
+  ]
+}

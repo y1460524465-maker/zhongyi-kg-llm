@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "九倒生",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血消肿，止血生肌",
+        "indication": "刀伤，骨折，疮疡溃烂，烧烫伤",
+        "dosage": "内服：煎汤，10-20g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "九倒生",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血消肿，止血生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "九倒生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "刀伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九倒生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九倒生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡溃烂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九倒生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    }
+  ]
+}

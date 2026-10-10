@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "name": "水牛角",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热凉血，解毒，定惊",
+        "indication": "治热病头痛，壮热神昏，斑疹，吐衄，小儿惊风，喉痹咽肿",
+        "taboo": "中虚胃寒者慎服",
+        "usage": "内服：煎汤，15~30g，大剂量60~120g，先煎3小时以上；研末，每次3~9g；水牛角浓缩粉，每次1.5~3g。外用：适量，研末掺或调敷"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "大青叶",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水牛角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水牛角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水牛角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "定惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水牛角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水牛角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "壮热神昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水牛角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "斑疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水牛角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水牛角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水牛角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹咽肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

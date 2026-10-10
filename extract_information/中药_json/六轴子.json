@@ -1,0 +1,67 @@
+{
+  "entities": [
+    {
+      "name": "六轴子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "闹羊花子，天芝麻，羊踯躅果，闹羊花头，八厘麻子",
+        "effect": "祛风，止痛，散瘀消肿",
+        "indication": "治风寒湿痹，历节疼痛，跌打损伤，痈疽疔毒",
+        "dosage": "内服：研末，0.1-0.3g；煎汤，0.3-0.9g；或入丸、散；或浸酒。外用：适量，研末调敷",
+        "taboo": "有毒，不宜多服、久服，孕妇、体虚及无瘀者忌服",
+        "origin": "杜鹃花科植物羊踯躅Rhododendron molle  G. Don的干燥成熟果序"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "六轴子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "六轴子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "六轴子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "六轴子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "六轴子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "历节疼痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "六轴子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "六轴子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疔毒",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "name": "毛车藤",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6-9g",
+        "effect": "下乳",
+        "indication": "产后乳汁不下，乳汁稀少",
+        "processing": "全年均可采，挖根，洗净，切片，晒干"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "毛车藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "下乳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛车藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后乳汁不下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛车藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳汁稀少",
+      "object_type": "Disease"
+    }
+  ]
+}

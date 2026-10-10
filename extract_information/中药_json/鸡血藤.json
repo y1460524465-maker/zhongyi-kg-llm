@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "鸡血藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "马鹿藤、紫梗藤、猪血藤、九层风、血龙藤、过岗龙、五层血",
+        "effect": "活血舒筋，养血调经",
+        "indication": "手足麻木，肢体瘫痪，风湿痹痛，妇女月经不调，痛经，闭经",
+        "dosage": "10~15g，大剂量可用至30g",
+        "property_flavor": "涩",
+        "origin": "豆科植物密花豆的藤茎",
+        "place": "广东、广西、云南等地"
+      }
+    },
+    {
+      "name": "手足麻木",
+      "type": "Symptom"
+    },
+    {
+      "name": "肢体瘫痪",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "妇女月经不调",
+      "type": "Symptom"
+    },
+    {
+      "name": "痛经",
+      "type": "Symptom"
+    },
+    {
+      "name": "闭经",
+      "type": "Symptom"
+    },
+    {
+      "name": "活血舒筋",
+      "type": "Effect"
+    },
+    {
+      "name": "养血调经",
+      "type": "Effect"
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体瘫痪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女月经不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "闭经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血舒筋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血调经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮片新参》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡血藤",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    }
+  ]
+}

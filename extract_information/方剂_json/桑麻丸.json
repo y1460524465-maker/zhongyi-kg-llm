@@ -1,0 +1,144 @@
+{
+  "entities": [
+    {
+      "name": "桑麻丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋养肝肾，祛风明目",
+        "indication": "肝肾不足引起的头晕眼花，视物不清，迎风流泪",
+        "taboo": null,
+        "usage": "将芝麻擂碎熬浓汁，和蜜炼至滴水成珠，入桑叶末为丸。早盐汤下，晚酒下。"
+      }
+    },
+    {
+      "name": "桑叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风清热，凉血明目",
+        "property_flavor": "味苦甘，性寒",
+        "meridian": "入肺、肝二经"
+      }
+    },
+    {
+      "name": "黑芝麻",
+      "type": "Herb",
+      "attributes": {
+        "effect": "滋补肝肾，补益精血",
+        "property_flavor": null,
+        "meridian": null
+      }
+    },
+    {
+      "name": "肝肾不足",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头晕眼花",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "视物不清",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "迎风流泪",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《寿世保元》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桑麻丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑麻丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黑芝麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑麻丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蜜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑麻丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋养肝肾，祛风明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑麻丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑麻丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕眼花",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑麻丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "视物不清",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑麻丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "迎风流泪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑麻丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《寿世保元》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肝肾不足",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头晕眼花",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝肾不足",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "视物不清",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝肾不足",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "迎风流泪",
+      "object_type": "Symptom"
+    }
+  ]
+}

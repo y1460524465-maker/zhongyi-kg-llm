@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "川贝母",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热润肺，散结，化痰止咳",
+        "indication": "虚劳咳嗽，吐痰咯血，心胸郁结，肺痿，肺痈，瘿瘤，廉疬，喉痹，乳痈",
+        "property_flavor": "味微苦",
+        "dosage": "内服：煎汤，3~9g；研末，1~1.5g；或入丸、散",
+        "taboo": "脾胃虚寒及寒痰、湿痰者慎服。反乌头",
+        "processing": "拣去杂质，用水稍泡，捞出，闷润，剥去心，晒干"
+      }
+    }
+  ],
+  "relations": []
+}

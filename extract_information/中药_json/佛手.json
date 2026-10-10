@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {
+      "name": "佛手",
+      "type": "Herb",
+      "attributes": {
+        "alias": "佛手柑、佛手香橼、蜜筩柑、蜜罗柑、福寿柑、五指柑、手柑",
+        "effect": "疏肝理气，和胃，化痰",
+        "indication": "胃痛，胁胀，呕吐，噎膈，痰饮咳喘，并能解酒",
+        "taboo": "阴虚有火，无气滞症状者慎服",
+        "usage": "内服：煎汤，3~10g；或泡茶饮",
+        "property_flavor": "味酸苦",
+        "traits": "气芳香",
+        "origin": "本品为芸香科柑橘属植物佛手Citrus medica L. var. sarcodactylis Swingle 的干燥果实",
+        "place": "栽培于广东、广西、福建、云南、四川、浙扛、安徽等地"
+      }
+    }
+  ],
+  "relations": []
+}

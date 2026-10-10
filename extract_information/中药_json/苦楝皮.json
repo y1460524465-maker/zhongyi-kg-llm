@@ -1,0 +1,114 @@
+{
+  "entities": [
+    {
+      "name": "苦楝皮",
+      "type": "Herb",
+      "attributes": {
+        "alias": "楝木皮、楝树枝皮、苦楝树白皮、东行楝根白皮、楝皮、楝根皮、楝根木皮、苦楝树皮、苦楝根皮",
+        "effect": "清热，燥湿，杀虫",
+        "indication": "蛔虫，蛲虫，风疹，疥癣",
+        "dosage": "内服：煎汤，6~15g，鲜品15~30g；或入丸、散。外用：适量，煎水洗：或研末调敷",
+        "property_flavor": "味极苦",
+        "taboo": "体弱及肝肾功能障碍者、孕妇及脾胃虚寒者均慎服。亦不宜持续和过量服用。服药中毒后可有头痛、头晕、恶心、吐吐、腹痛等症状。严重中毒，可出现内脏出血、中毒性肝炎、精神失常、呼吸中枢麻痹，甚至休克、昏迷死亡",
+        "traits": "外表面灰褐色或灰棕色，皮孔大而明显，有不规则的纵裂深沟纹，木栓层常作鳞片状，衰老的栓皮常剥落。露出砖红色的内皮；内表面淡黄色，有细纵纹。质坚韧，不易折断。断面纤维成层，可层层剥离，剥下的薄片，有极细的网纹。气微弱，味极苦。以干燥、皮 厚、条大、无槽朽、去栓皮者为佳。",
+        "origin": "为楝科植物楝和川楝的树皮及根皮",
+        "processing": "全年或春、秋季采收，剥取干皮或根皮，除去泥沙，晒干"
+      }
+    },
+    {
+      "name": "蛔虫",
+      "type": "Disease"
+    },
+    {
+      "name": "蛲虫",
+      "type": "Disease"
+    },
+    {
+      "name": "风疹",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛲虫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶心",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

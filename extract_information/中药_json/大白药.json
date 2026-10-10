@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "大白药",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血通络，止血接骨，解毒消肿",
+        "indication": "跌打损伤，骨折，外伤出血，痈肿疔毒",
+        "usage": "外用：适量研末撒；或捣敷"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大白药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大白药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血接骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大白药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大白药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大白药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大白药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大白药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疔毒",
+      "object_type": "Disease"
+    }
+  ]
+}

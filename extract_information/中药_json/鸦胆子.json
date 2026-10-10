@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "鸦胆子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "老鸦胆、鸦胆、苦榛子、苦参子、鸦蛋子、鸭蛋子、鸭旦子、解苦楝、小苦楝",
+        "origin": "苦木科植物鸦胆子的果实",
+        "effect": "清热，燥湿，杀虫，解毒",
+        "indication": "痢疾，久泻，疟疾，痔疮，疔毒，赘疣，鸡眼",
+        "taboo": "脾胃虚弱，呕吐者忌服。孕妇和小儿慎用",
+        "usage": "内服：多去壳取仁，用胶囊或龙眼肉包裹吞服，治疟疾第次10-15粒，治痢疾第次10-30粒。外用：适量，捣敷；或制成鸦胆子油局部涂敷；或煎水洗"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "久泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "疔毒",
+      "type": "Disease"
+    },
+    {
+      "name": "赘疣",
+      "type": "Symptom"
+    },
+    {
+      "name": "鸡眼",
+      "type": "Symptom"
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学衷中参西录》",
+      "type": "Source"
+    },
+    {
+      "name": "《科学的民间药草》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸦胆子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸦胆子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸦胆子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸦胆子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸦胆子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸦胆子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赘疣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸦胆子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鸡眼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸦胆子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸦胆子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸦胆子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸦胆子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

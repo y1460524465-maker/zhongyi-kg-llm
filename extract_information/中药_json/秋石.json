@@ -1,0 +1,270 @@
+{
+  "entities": [
+    {
+      "name": "秋石",
+      "type": "Herb",
+      "attributes": {
+        "alias": "秋丹石、秋冰、淡秋石、秋石丹",
+        "effect": "滋阴降火",
+        "indication": "骨蒸劳热，咳嗽，咳血，咽喉肿痛，噎食反胃，遗精，白浊，膏淋，妇女赤白带下",
+        "origin": "为人中白和食盐的加工品",
+        "dosage": "内服：入丸、散，4.5～9克"
+      }
+    },
+    {
+      "name": "骨蒸劳热",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "噎食反胃",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "白浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "膏淋",
+      "type": "Symptom"
+    },
+    {
+      "name": "妇女赤白带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "滋阴降火",
+      "type": "Effect"
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学入门》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    },
+    {
+      "name": "《永类钤方》",
+      "type": "Source"
+    },
+    {
+      "name": "《郑氏家传方》",
+      "type": "Source"
+    },
+    {
+      "name": "《仁斋直指方》",
+      "type": "Source"
+    },
+    {
+      "name": "《摘元方》",
+      "type": "Source"
+    },
+    {
+      "name": "《医方摘要》",
+      "type": "Source"
+    },
+    {
+      "name": "《洪氏集验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《何氏济生论》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸劳热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噎食反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "膏淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女赤白带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴降火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学入门》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《永类钤方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《郑氏家传方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《仁斋直指方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《摘元方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医方摘要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《洪氏集验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "秋石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《何氏济生论》",
+      "object_type": "Source"
+    }
+  ]
+}

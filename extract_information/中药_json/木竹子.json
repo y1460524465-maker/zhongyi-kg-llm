@@ -1,0 +1,196 @@
+{
+  "entities": [
+    {
+      "name": "木竹子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "岭南倒捻子、岭南山竹子、木竹果、冬竹子、龙檬果、罗楝子、黄牙果、染牙果、竹橘",
+        "origin": "藤黄科植物岭南山竹子的果实、果核、树皮",
+        "place": "广西、广东",
+        "property_flavor": "甘、平",
+        "effect": "清热，利百脉，通调水脏，止渴生津，解暑，消酒；消炎止痛，收敛生肌",
+        "indication": "治吐逆不食，关格闭拒不通，脾虚下陷，肛门坠脱不敛；清热，凉大肠，去积血，利耳目，治咳逆上气；烧伤，烫伤，湿疹，口腔炎，牙周炎，痈疮溃烂；铁砂入肉不出；小儿消化不良；拔子弹"
+      }
+    },
+    {
+      "name": "姚可成《食物本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《广西中草药》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "姚可成《食物本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利百脉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通调水脏",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止渴生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解暑",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消酒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消炎止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐逆不食",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "关格闭拒不通",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚下陷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肛门坠脱不敛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咳逆上气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牙周炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疮溃烂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "铁砂入肉不出",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿消化不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木竹子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子弹入肉",
+      "object_type": "Disease"
+    }
+  ]
+}

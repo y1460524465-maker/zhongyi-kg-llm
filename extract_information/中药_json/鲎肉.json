@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "鲎肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热明目，解毒消肿",
+        "indication": "目赤肿痛，翳膜遮睛，痔疮，脓疱疮",
+        "dosage": "内服：煮食，5-10g",
+        "origin": "为鲎科动物东方鲎的肉",
+        "traits": "全体深褐色，头胸及腹部各有1坚硬的甲壳被覆；头胸部背甲广阔如马蹄形，背面有3条纵脊；腹部背甲呈六角形，两侧有缺刻及短刺，腹部下面有1条强直的剑状物，称为剑尾",
+        "place": "分布福建、广东一带海中"
+      }
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "翳膜遮睛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脓疱疮",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鲎肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热明目，解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鲎肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲎肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脓疱疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲎肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鲎肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "翳膜遮睛",
+      "object_type": "Symptom"
+    }
+  ]
+}

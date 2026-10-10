@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "坎离砂",
+      "type": "Formula",
+      "attributes": {
+        "effect": "祛风散寒，活血止痛",
+        "indication": "风寒湿痹，四肢麻木，关节疼痛，脘腹冷痛",
+        "usage": "每250g加米醋15g（不可过量），立即拌匀，装入布袋。外包棉垫（或毛巾），待发热后，烫患处，药凉后取下。再用时仍用前法拌醋，可反复使用数次。每日烫患处1～3次。",
+        "taboo": "局部皮肤有破损、关节红肿热痛者忌用，孕妇禁用。使用时最好用毛巾包裹后再敷于患部，以免烫伤皮肤。"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "37.5g"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "透骨草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "铁屑",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "坎离砂",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "坎离砂",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "坎离砂",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "坎离砂",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "透骨草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "坎离砂",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "铁屑",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "坎离砂",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛风散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "坎离砂",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "坎离砂",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "风寒湿痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "四肢麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风寒湿痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "关节疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风寒湿痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脘腹冷痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "name": "四逆散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "疏肝解郁，调和肝脾",
+        "indication": "少阴病，阳郁于里，致患热厥；以及肝失条达，气郁致厥，手足厥冷，或咳，或悸，或小便不利，或腹中痛，或泄痢下重，脉弦细。"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "枳实",
+      "type": "Herb"
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "effect": "疏解肝郁，升清阳以使郁热外透"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养血敛阴"
+      }
+    },
+    {
+      "name": "疏肝解郁",
+      "type": "Effect"
+    },
+    {
+      "name": "调和肝脾",
+      "type": "Effect"
+    },
+    {
+      "name": "解郁透热",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四逆散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四逆散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四逆散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四逆散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四逆散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "疏肝解郁",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四逆散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "调和肝脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四逆散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解郁透热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四逆散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "少阴病",
+      "object_type": "Disease"
+    }
+  ]
+}

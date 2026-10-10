@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "天胡荽",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利尿，消肿解毒",
+        "indication": "黄疸，赤白痢疾，淋病，小便不利，目翳，喉肿，痈疽疔疮，跌打瘀肿",
+        "dosage": "9～15g",
+        "traits": "味淡",
+        "processing": "除去杂质，喷潮，切短段，干燥，筛去灰屑",
+        "property_flavor": "清香气",
+        "origin": "伞形科植物天胡荽Hydrocotyle sibthorpiodes Lam."
+      }
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "赤白痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "淋病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目翳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喉肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痈疽疔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "跌打瘀肿",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天胡荽",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利尿，消肿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天胡荽",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天胡荽",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天胡荽",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天胡荽",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天胡荽",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天胡荽",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天胡荽",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天胡荽",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打瘀肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

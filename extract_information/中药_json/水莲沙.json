@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "水莲沙",
+      "type": "Herb",
+      "attributes": {
+        "alias": "栒刺木、岩楞子、高山带子白马骨",
+        "effect": "清热利湿，化痰止咳，止血止痛",
+        "indication": "痢疾，泄泻，腹痛，咳嗽，吐血，痛经，白带",
+        "usage": "内服：煎汤，10-15g",
+        "origin": "平枝栒子",
+        "processing": "全年均可采收"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "泄泻",
+      "type": "Disease"
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "痛经",
+      "type": "Symptom"
+    },
+    {
+      "name": "白带",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水莲沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水莲沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水莲沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水莲沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水莲沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水莲沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水莲沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水莲沙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水莲沙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水莲沙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

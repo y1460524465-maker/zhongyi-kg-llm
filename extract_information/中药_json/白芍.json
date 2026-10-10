@@ -1,0 +1,127 @@
+{
+  "entities": [
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养血柔肝，缓中止痛，敛阴收汗",
+        "indication": "胸腹胁肋疼痛，泻痢腹痛，自汗盗汗，阴虚发热，月经不调，崩漏，带下",
+        "taboo": "不宜与藜芦同用。虚寒腹痛泄泻者慎服。",
+        "dosage": "内服：煎汤，5~12g；或入丸、散。大剂量可用15~30g。",
+        "origin": "《本经》"
+      }
+    },
+    {
+      "name": "养血柔肝",
+      "type": "Effect"
+    },
+    {
+      "name": "缓中止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "敛阴收汗",
+      "type": "Effect"
+    },
+    {
+      "name": "胸腹胁肋疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "泻痢腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "自汗盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴虚发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "月经不调",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白芍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血柔肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白芍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "缓中止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白芍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛阴收汗",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白芍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸腹胁肋疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻痢腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "自汗盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴虚发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芍",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    }
+  ]
+}

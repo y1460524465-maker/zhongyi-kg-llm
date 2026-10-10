@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "长叶实蕨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9-15g",
+        "effect": "清热止咳，凉血止血",
+        "indication": "肺热咳嗽，咯血，痢疾，烧烫伤，毒蛇咬伤",
+        "property_flavor": "味淡，性凉",
+        "traits": null,
+        "origin": "《新华本草纲要》",
+        "place": "华南、西南及福建、台湾等地",
+        "processing": "秋、冬季采收，去须奶，洗净，晒干",
+        "taboo": null,
+        "meridian": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "长叶实蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "长叶实蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "长叶实蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶实蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咯血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶实蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶实蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶实蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶实蕨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《新华本草纲要》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "entities": [
+    {
+      "name": "天台乌药散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "行气疏肝，散寒止痛",
+        "indication": "小肠疝气。少腹引控睾丸而痛，偏坠肿胀，或少腹疼痛，苔白，脉弦",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "天台乌药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "行气疏肝，散寒止痛",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "辛温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "行气止痛",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "小茴香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "暖肝散寒",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "疏肝理气",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "高良姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "散寒止痛",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "下气导滞，直达下焦而破坚",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川楝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "行气散结",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "与巴豆同炒，去巴豆而用",
+        "property_flavor": "苦寒",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "巴豆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "与川楝子同炒，后去",
+        "property_flavor": "辛热",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "小肠疝气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "少腹引控睾丸而痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "偏坠肿胀",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "少腹疼痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小肠疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "少腹引控睾丸而痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏坠肿胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "少腹疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气疏肝，散寒止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天台乌药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "高良姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川楝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天台乌药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    }
+  ]
+}

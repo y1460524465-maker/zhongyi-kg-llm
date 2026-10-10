@@ -1,0 +1,138 @@
+{
+  "entities": [
+    {
+      "name": "桃核承气汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "破血祛瘀，攻下瘀积",
+        "indication": "下焦蓄血证。少腹急结，小便自利，甚则谵语烦躁，其人如狂，至夜发热。以及血瘀经闭，痛经，脉沉实而涩者。",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "调胃承气汤",
+      "type": "Formula",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "少腹急结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "谵语烦躁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "如狂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "至夜发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血瘀经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/桃核承气汤",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃核承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "调胃承气汤",
+      "object_type": "Formula"
+    }
+  ]
+}

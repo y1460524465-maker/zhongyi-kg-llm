@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "name": "九香虫",
+      "type": "Herb",
+      "attributes": {
+        "effect": "理气止痛，温中助阳",
+        "indication": "胃寒胀痛，肝胃气痛，肾虚阳痿，腰膝酸痛",
+        "processing": "放入罐内，加酒，盖紧将其闷死，或置沸水中烫死，晒干或烘干",
+        "dosage": "内服：煎汤，3~9g；或入丸、散，0.6~1.2g",
+        "property_flavor": "味微咸",
+        "traits": "本品略呈六角状扁椭圆形，长1.6~2cm，宽约1cm。表面棕褐色或棕黑色，略有光泽。头部小，与胸部略呈三角形，复眼突出，卵圆状，单眼1对，触角1对各5节，多已脱落。腹部棕红色至棕黑色，每节近边缘外有突起的小点。质脆，折断后腹面有浅棕色的内含物。气特异",
+        "origin": "为蝽科昆虫九香虫的干燥全虫",
+        "place": "分布安徽、江苏、浙江、福建、台湾、广东、广西、江西、湖北、湖南、四川、贵州、云南等地。主产云南、四川、贵州、广西等地"
+      }
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草新编》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "九香虫",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气止痛，温中助阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "九香虫",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃寒胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九香虫",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肝胃气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九香虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九香虫",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九香虫",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "九香虫",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草新编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "九香虫",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    }
+  ]
+}

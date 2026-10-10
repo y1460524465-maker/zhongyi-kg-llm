@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "佛手花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "疏肝理气，和胃快隔",
+        "indication": "肝胃气痛，食欲不振",
+        "dosage": "内服：煎汤，3~6g",
+        "property_flavor": "气香，味微苦"
+      }
+    },
+    {
+      "name": "丁香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄酒",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肝胃气痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "食欲不振",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "佛手花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏肝理气，和胃快隔",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "佛手花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝胃气痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "佛手花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "佛手花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "佛手花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    }
+  ]
+}

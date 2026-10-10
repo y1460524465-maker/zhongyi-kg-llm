@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "滋阴润燥，补血，止血，安胎",
+        "indication": "血虚，虚劳咳嗽，吐血，衄血、便血，妇女月经不调，崩中，胎漏",
+        "property_flavor": "气微弱，味微甜",
+        "dosage": "内服：烊化兑服，5~10g；炒阿胶可入汤剂或丸、散",
+        "taboo": "脾胃虚弱、消化不良者慎服"
+      }
+    }
+  ],
+  "relations": []
+}

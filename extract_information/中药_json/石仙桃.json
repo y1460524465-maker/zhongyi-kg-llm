@@ -1,0 +1,365 @@
+{
+  "entities": [
+    {
+      "name": "石仙桃",
+      "type": "Herb",
+      "attributes": {
+        "alias": "石山莲、石橄榄、果上叶、千年矮、麦斛、小扣子兰、大吊兰、浮石斛、上石仙桃、川甲草、马榴根、上石蒜、麦斛兰、石萸肉、箴兰、上树蛤蟆、石川盘、石三棱",
+        "effect": "清热滋阴，润肺解毒",
+        "indication": "感冒，肺热咳嗽，咳血，急性胃肠炎，慢性骨髓炎，关节肿痛，跌打损伤",
+        "usage": "内服，煎汤，9～15g；鲜品30～60g。外用适量，捣烂敷患处。",
+        "dosage": "9～15g（干品）；鲜品30～60g",
+        "processing": "秋季采收，鲜用，或以开水烫过晒干用",
+        "property_flavor": "甘淡",
+        "traits": "根茎短粗，被膜质鳞片，每隔1～2厘米有一假鳞茎，下侧有须根。假鳞茎短圆柱形或长卵形，长2～4厘米，径3～8毫米，外表皱缩，污黄色或黄棕色，光滑，顶端有叶痕中央常有锥尖状干枯的芽，基部有鞘状鳞叶。质坚稍韧，断面白色。气微，味甘淡。以须根少、假鳞茎大者为佳。"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "急性胃肠炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性骨髓炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "关节肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "清热滋阴",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "润肺解毒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "肺结核咳血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性咳嗽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性肠胃炎及慢性胃炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性胃炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿热浮肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃及十二指肠溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "热痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腰酸痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热淋",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "梦遗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃火牙痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "虚火喉痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "石上莲",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胃肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性骨髓炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热滋阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核咳血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性肠胃炎及慢性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃及十二指肠溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "梦遗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃火牙痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚火喉痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石仙桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性骨髓炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性骨髓炎",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "entities": [
+    {
+      "name": "雪莲花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "除寒，补肾壮阳，调经，止血",
+        "indication": "阳萎，腰膝软弱，妇女崩带，月经不调，风湿性关节炎，外伤出血",
+        "property_flavor": "甘苦，温（大苞雪莲花有毒）",
+        "dosage": "内服：煎汤，6~12g，或浸酒",
+        "taboo": "孕妇忌服。过量可致大汗淋漓"
+      }
+    },
+    {
+      "name": "阳萎",
+      "type": "Disease"
+    },
+    {
+      "name": "腰膝软弱",
+      "type": "Symptom"
+    },
+    {
+      "name": "妇女崩带",
+      "type": "Symptom"
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "肝经",
+      "type": "Effect"
+    },
+    {
+      "name": "脾经",
+      "type": "Effect"
+    },
+    {
+      "name": "肾经",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "雪莲花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳萎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雪莲花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝软弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "雪莲花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女崩带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "雪莲花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雪莲花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雪莲花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "雪莲花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雪莲花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾壮阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雪莲花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雪莲花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雪莲花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《高原中草药治疗手册》",
+      "object_type": "Source"
+    }
+  ]
+}

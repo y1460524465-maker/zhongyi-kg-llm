@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "柠檬皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "行气，和胃止痛。主脾气滞，脘腹胀痛，食欲不振。",
+        "indication": "脾气滞，脘腹胀痛，食欲不振。",
+        "dosage": "9-15g",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "芸香科植物黎檬或洋柠檬的果皮",
+        "place": "原产亚洲，现我国南部多有栽培",
+        "processing": "果实成熟时采摘，剥取外果皮，晒干",
+        "traits": "干燥成熟的外果皮，削成2～3厘米的螺旋状，有时呈带状及不规则的片状，厚1.5～2.5毫米。外表面黄色或棕黄色，有无数小窝点；内表面淡黄色乃至类白色，往往带有线形脉络。易折断，断面颗粒性。",
+        "taboo": null
+      }
+    },
+    {
+      "name": "脾气滞",
+      "type": "Disease"
+    },
+    {
+      "name": "脘腹胀痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "食欲不振",
+      "type": "Symptom"
+    },
+    {
+      "name": "《陆川本草》",
+      "type": "Source"
+    },
+    {
+      "name": "郁滞腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "不思饮食",
+      "type": "Symptom"
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柠檬皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气，和胃止痛。主脾气滞，脘腹胀痛，食欲不振。",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柠檬皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾气滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柠檬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柠檬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柠檬皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陆川本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柠檬皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    }
+  ]
+}

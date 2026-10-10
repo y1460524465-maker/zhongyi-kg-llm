@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "name": "野马追",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白鼓钉、化食草、毛泽兰",
+        "effect": "化痰，止咳平喘",
+        "indication": "痰多咳嗽气喘，慢性气管炎，支气管炎，高血压病",
+        "processing": "除去杂质，喷淋清水，稍润，切段，干燥",
+        "property_flavor": "味苦、涩",
+        "usage": "内服，煎汤，30～60g",
+        "origin": "菊科植物轮叶泽兰的干燥地上部分"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "野马追",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野马追",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野马追",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野马追",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野马追",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野马追",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰多咳嗽气喘",
+      "object_type": "Symptom"
+    }
+  ]
+}

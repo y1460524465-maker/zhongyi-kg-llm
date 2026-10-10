@@ -1,0 +1,202 @@
+{
+  "entities": [
+    {
+      "name": "五仁丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "润肠通便",
+        "indication": "津枯肠燥证。大便艰难，以及年老和产后血虚便秘，舌燥少津，脉细涩",
+        "usage": "口服"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "润燥滑肠"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "滋肠燥，降肺气，利大肠传导"
+      }
+    },
+    {
+      "name": "松子仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": "润五脏，治虚秘"
+      }
+    },
+    {
+      "name": "柏子仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": "润肺治燥，治虚秘"
+      }
+    },
+    {
+      "name": "郁李仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "润滑肠道，专治胃肠燥热，大便秘结"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克",
+        "effect": "理气行滞"
+      }
+    },
+    {
+      "name": "津枯肠燥证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "大便艰难",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌燥少津",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉细涩",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "松子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柏子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "郁李仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "津枯肠燥证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五仁丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便艰难",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五仁丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌燥少津",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五仁丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉细涩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "润肠通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润燥滑肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杏仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋肠燥，降肺气，利大肠传导",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润五脏，治虚秘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柏子仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺治燥，治虚秘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "郁李仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润滑肠道，专治胃肠燥热，大便秘结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "陈皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气行滞",
+      "object_type": "Effect"
+    }
+  ]
+}

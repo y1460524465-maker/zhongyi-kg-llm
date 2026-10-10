@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "甘麦大枣汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "养心安神，甘缓和中",
+        "indication": "脏躁，时而悲伤欲哭、精神恍惚，不能自主者；目前常以本方加减治疗神经官能症(如癔病)",
+        "taboo": null,
+        "usage": "以水六升，煮取三升，分三次温服"
+      }
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甘麦大枣汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "甘麦大枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养心安神，甘缓和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘麦大枣汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脏躁",
+      "object_type": "Disease"
+    }
+  ]
+}

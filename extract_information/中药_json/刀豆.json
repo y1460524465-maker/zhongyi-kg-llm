@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "刀豆",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温中下气，益肾补元。治虚寒呃逆，呕吐，腹胀，肾虚腰痛，痰喘。",
+        "indication": "主治虚寒呃逆，呕吐，腹胀，肾虚腰痛，痰喘。",
+        "meridian": "脾经；胃经；大肠经；肾经",
+        "alias": "SworkJackbean Seed, Jack Bean, Sword Bean;挟剑豆、刀豆子、大戈豆、大刀豆、刀鞘豆、刀凤豆、刀板仁豆、刀巴豆、马刀豆、刀培豆、卡肖",
+        "dosage": "内服：煎汤，9~15g；或烧存性研末。",
+        "taboo": "胃热盛者慎服。",
+        "origin": "豆科植物刀豆的种子",
+        "processing": "秋季种子成熟时，采收果实，晒干剥取种子。或先剥取种子然后晒干。",
+        "property_flavor": null,
+        "traits": null,
+        "place": null
+      }
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《中药材手册》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中下气，益肾补元",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚寒呃逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中下气，利肠胃，止呃逆，益肾补元",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中药材手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾，散寒，下气，利肠胃，止呕吐",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "刀豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "治胸中痞满及腹痛，疗肾气不归元及痢疾",
+      "object_type": "Effect"
+    }
+  ]
+}

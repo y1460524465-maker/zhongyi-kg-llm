@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "通脉四逆汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "少阴病。下利清谷，里寒外热，手足厥逆，脉微欲绝，身反不恶寒，其人面色赤，或利止。脉不出等。",
+        "usage": "炙甘草6g，附子20g，干姜12g。"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "通脉四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通脉四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通脉四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    }
+  ]
+}

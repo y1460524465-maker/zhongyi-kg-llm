@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "酒瓶花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解表，利尿",
+        "indication": "感冒，急、慢性肾炎，肾盂肾炎，小儿惊风",
+        "dosage": "内服：煎汤，15~30 克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "酒瓶花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酒瓶花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酒瓶花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "酒瓶花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "急、慢性肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "酒瓶花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾盂肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "酒瓶花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    }
+  ]
+}

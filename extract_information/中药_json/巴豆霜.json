@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "巴豆霜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "峻下积滞，逐水消肿，豁痰利咽",
+        "indication": "寒积便秘，乳食停滞，下腹水肿，二便不通，喉风，喉痹",
+        "dosage": "0.1～0.3g，多入丸散用",
+        "taboo": "孕妇禁用；不宜与牵牛子同用",
+        "origin": "巴豆的炮制加工品"
+      }
+    }
+  ],
+  "relations": []
+}

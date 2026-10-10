@@ -1,0 +1,217 @@
+{
+  "entities": [
+    {
+      "name": "山柰",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~6克；或入丸、散。外用：捣敷，研末调敷或吹鼻。",
+        "effect": "温中，消食，止痛。",
+        "indication": "心腹冷痛，停食不化，跌打损伤，牙痛。用于胸隔胀满，脘腹冷痛。饮食不消。",
+        "origin": "为姜科植物山柰的根茎。",
+        "place": "分布于福建、台湾、广东、海南、广西、云南等地。",
+        "processing": "12月至次年3月间，地上茎枯萎时，挖取二年生的根茎，洗去泥土，横切成片。用硫黄烟熏1天后，铺在竹席上晒干。切忌火烘，否则变成黑色，缺乏香气。",
+        "property_flavor": "气芳香，味辛辣（但与姜味不同）。",
+        "taboo": "阴虚血亏，胃有郁火者忌服。"
+      }
+    },
+    {
+      "name": "心腹冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "停食不化",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸隔胀满",
+      "type": "Symptom"
+    },
+    {
+      "name": "脘腹冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "饮食不消",
+      "type": "Symptom"
+    },
+    {
+      "name": "心腹冷气痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "寒湿霍乱",
+      "type": "Symptom"
+    },
+    {
+      "name": "风虫牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "寒中诸证",
+      "type": "Disease"
+    },
+    {
+      "name": "辟秽气",
+      "type": "Effect"
+    },
+    {
+      "name": "祛风止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "暖中",
+      "type": "Effect"
+    },
+    {
+      "name": "辟瘴疠恶气",
+      "type": "Effect"
+    },
+    {
+      "name": "消肿",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "停食不化",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸隔胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "饮食不消",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹冷气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒湿霍乱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风虫牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒中诸证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "辟秽气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "暖中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "辟瘴疠恶气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山柰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

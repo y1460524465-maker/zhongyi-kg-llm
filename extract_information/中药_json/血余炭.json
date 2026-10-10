@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "血余炭",
+      "type": "Herb",
+      "attributes": {
+        "alias": "发髲、乱发、发灰子、头发、血余炭、人发灰",
+        "effect": "消瘀，止血",
+        "indication": "主治吐血，鼻衄，齿龈出血，血痢，血淋，崩漏",
+        "dosage": "内服，煎汤，5-9g，研末服，每次1.5-3g",
+        "property_flavor": "味苦"
+      }
+    }
+  ],
+  "relations": []
+}

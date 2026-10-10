@@ -1,0 +1,149 @@
+{
+  "entities": [
+    {
+      "name": "韭菜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：捣汁饮，60-120g；或煮粥、炒熟、作羹。外用：适量，捣敷；煎水熏洗；热熨。",
+        "effect": "补肾，温中行气，散瘀解毒",
+        "indication": "肾虚阳痿，里寒腹痛，噎膈反胃，胸痹疼痛，衄血，吐血，尿血，痢疾，痔疮，痈疮肿毒，漆疮，跌打损伤",
+        "taboo": "阴虚内热及疮疡、目疾患者均忌食",
+        "origin": "百合科葱属植物韭菜的叶子。四季可采，鲜用。"
+      }
+    },
+    {
+      "name": "肾虚阳痿",
+      "type": "Disease"
+    },
+    {
+      "name": "里寒腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "噎膈反胃",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸痹疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疮肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "漆疮",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "里寒腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噎膈反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胸痹疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "漆疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "韭菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    }
+  ]
+}

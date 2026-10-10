@@ -1,0 +1,168 @@
+{
+  "entities": [
+    {
+      "name": "凤眼草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "椿荚、樗荚、凤眼子、樗树凸凸、樗树子、臭椿子、春铃子",
+        "effect": "清热燥湿，涩肠止泻，止带，止血",
+        "indication": "痢疾，白浊，带下，便血，尿血，崩漏",
+        "dosage": "内服：煎汤，3~9g；或研末",
+        "processing": "将原药除去残留果柄等杂质，筛去灰屑",
+        "origin": "苦木科植物臭椿Ailanthus altissima（Mill.）Swingle的干燥成熟果实",
+        "place": "分布几遍及全国各地",
+        "traits": "本品为翅果,呈纺锤状,扁平,长3～5cm,宽0.8～1.5cm。表面淡黄棕色至黄棕色，微有光泽，可见纵向脉纹，中央呈扁球形突起，内有种子1粒。种子扁平，类心形，种皮黄褐色，子叶2片，黄绿色，富油性。质脆。气微，种子味苦。"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "白浊",
+      "type": "Disease"
+    },
+    {
+      "name": "带下",
+      "type": "Disease"
+    },
+    {
+      "name": "便血",
+      "type": "Disease"
+    },
+    {
+      "name": "尿血",
+      "type": "Disease"
+    },
+    {
+      "name": "崩漏",
+      "type": "Disease"
+    },
+    {
+      "name": "肠风泻血",
+      "type": "Disease"
+    },
+    {
+      "name": "白带",
+      "type": "Disease"
+    },
+    {
+      "name": "尿道炎",
+      "type": "Disease"
+    },
+    {
+      "name": "椿荚散",
+      "type": "Formula",
+      "attributes": {
+        "source": "《圣济总录》"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热燥湿，涩肠止泻，止带，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风泻血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白带",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿道炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风泻血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤眼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿道炎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "椿荚散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "凤眼草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "椿荚散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    }
+  ]
+}

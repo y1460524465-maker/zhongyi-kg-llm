@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "name": "冬凌草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "山香草、破血丹、雪花草、野藿香、六月令、山荏、冰凌草",
+        "effect": "清热解毒，活血止痛",
+        "indication": "咽喉肿痛，感冒头痛，气管炎，慢性肝炎，风湿关节痛，蛇虫咬伤",
+        "usage": "内服：煎汤，30~60g，或制成各种剂型内服；或泡酒"
+      }
+    },
+    {
+      "name": "碎米桠",
+      "type": "Herb",
+      "attributes": {
+        "origin": "冬凌草为唇形科香茶菜属植物碎米桠的全草"
+      }
+    },
+    {
+      "name": "冬凌草糖浆",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热解毒",
+        "indication": "用于慢性扁桃体炎，咽炎，喉炎，口腔炎",
+        "usage": "口服，一次10～20ml，一日2次"
+      }
+    },
+    {
+      "name": "慢性扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咽炎",
+      "type": "Disease"
+    },
+    {
+      "name": "喉炎",
+      "type": "Disease"
+    },
+    {
+      "name": "口腔炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "冬凌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冬凌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冬凌草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冬凌草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冬凌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冬凌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇虫咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冬凌草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冬凌草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冬凌草糖浆",
+      "subject_type": "Formula",
+      "relation": "FOM_SOURCE",
+      "object": "冬凌草糖浆",
+      "object_type": "Source"
+    },
+    {
+      "subject": "冬凌草糖浆",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冬凌草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冬凌草糖浆",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冬凌草糖浆",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冬凌草糖浆",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "咽炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冬凌草糖浆",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冬凌草糖浆",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔炎",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "咳血方",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清肝宁肺，凉血止血",
+        "indication": "肝火犯肺之咳血证。咳嗽痰稠带血，咯吐不爽，心烦易怒，胸胁作痛，咽干口苦，颊赤便秘，舌红苔黄，脉弦数。",
+        "taboo": "肺肾阴虚及脾虚便溏者，不宜使用。",
+        "usage": "上为末，以蜜同姜汁为丸，噙化。"
+      }
+    },
+    {
+      "name": "青黛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "瓜蒌仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "海浮石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "山栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "诃子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "肝火犯肺",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "支气管扩张",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "咳血方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青黛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "咳血方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "咳血方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海浮石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "咳血方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "咳血方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "诃子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "咳血方",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝火犯肺",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "咳血方",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管扩张",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "咳血方",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "咳血方",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝火犯肺",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    }
+  ]
+}

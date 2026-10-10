@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "血见愁",
+      "type": "Herb",
+      "attributes": {
+        "alias": "大叶藜、杂配藜、杂灰藜、大叶灰菜、八角灰菜",
+        "effect": "止血，活血调经",
+        "indication": "月经不调，崩漏，咯血，衄血，尿血，疮痈肿毒",
+        "dosage": "3~9克",
+        "property_flavor": "甘、平"
+      }
+    }
+  ],
+  "relations": []
+}

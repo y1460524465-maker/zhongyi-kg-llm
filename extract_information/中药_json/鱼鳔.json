@@ -1,0 +1,194 @@
+{
+  "entities": [
+    {
+      "name": "鱼鳔",
+      "type": "Herb",
+      "attributes": {
+        "alias": "Swimming Bladder;鱁鮧;鱁鳀;鱼白;鳔;鱼胶;白鳔;鱼脬;縼胶;鱼肚",
+        "effect": "补肾益精，滋养筋脉，止血，散瘀，消肿",
+        "indication": "肾虚滑精，产后风痉，破伤风，吐血，血崩，创伤出血，痔疮",
+        "origin": "为石首鱼科动物大黄鱼、小黄鱼、黄姑鱼或鲟科动物中华鲟、鳇鱼等的鱼鳔",
+        "place": "浙江，福建、上海等地",
+        "processing": "1.鱼鳔：烘软、切段，晾干。2.蛤粉炒鱼胶：先用蛤粉放锅内炒热，再将切断的鱼胶倒入，文火拌炒至松泡为度，取出筛去蛤粉即成。（每鱼胶10斤，用蛤粉2.5斤）",
+        "property_flavor": "气微腥，味淡",
+        "dosage": "内服：煎汤，10~30g；研末，3~6g。外用：适量，深化或烧灰涂敷"
+      }
+    },
+    {
+      "name": "肾虚滑精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "产后风痉",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "破伤风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "血崩",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "创伤出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "补肾益精",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "滋养筋脉",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "止血",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "散瘀",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "消肿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《海药本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《饮膳正要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草新编》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚滑精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后风痉",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "创伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾益精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋养筋脉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鱼鳔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

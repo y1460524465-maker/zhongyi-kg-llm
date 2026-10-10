@@ -1,0 +1,198 @@
+{
+  "entities": [
+    {
+      "name": "桂枝新加汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "新加汤",
+        "effect": "解肌祛风，通营补津液而调和营卫",
+        "indication": "发汗后，身疼痛，脉沉迟者。脉沉迟，或痹，或四肢拘挛、心下痞塞者",
+        "usage": "上六味，以水一斗二升，煮取三升，去滓，温服一升",
+        "taboo": "假如另有厥逆、下利等证，本方则不能再用，应按先救其里后救其表的定法治之"
+      }
+    },
+    {
+      "name": "桂枝汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "桂枝汤证身痛明显，胃气虚、脉沉迟者",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9 g",
+        "processing": "去皮"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12 g"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6 g",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12 g",
+        "processing": "切"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "十二枚",
+        "processing": "擘"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9 g"
+      }
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/桂枝新加汤",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/桂枝新加汤",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "发汗后",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉沉迟",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢拘挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心下痞塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解肌祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂枝新加汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "通营补津液而调和营卫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_SYMPTOM",
+      "object": "身痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉沉迟",
+      "object_type": "Symptom"
+    }
+  ]
+}

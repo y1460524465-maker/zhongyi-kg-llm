@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "桂枝去芍药汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "发汗解肌祛风，去阴通阳",
+        "indication": "太阳病，下之后，脉促胸满者",
+        "usage": "以水7升，煮取3升，去滓，温服1升"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两",
+        "processing": "去皮"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两",
+        "processing": "切"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12枚",
+        "processing": "擘"
+      }
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/桂枝去芍药汤",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝去芍药汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝去芍药汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝去芍药汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝去芍药汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝去芍药汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "发汗解肌祛风，去阴通阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂枝去芍药汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "太阳病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝去芍药汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉促胸满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝去芍药汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/桂枝去芍药汤",
+      "object_type": "Source"
+    }
+  ]
+}

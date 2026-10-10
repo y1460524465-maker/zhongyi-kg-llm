@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "name": "樱桃叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温胃健脾，止血解毒",
+        "indication": "胃寒食积，腹泻，吐血，疮毒",
+        "meridian": "肝、脾二经",
+        "usage": "内服：煎汤15-30g；或捣汁。外用：捣敷；或煎水熏洗。"
+      }
+    },
+    {
+      "name": "胃寒食积",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腹泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疮毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "蛇毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阴道滴虫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《滇南本草图说》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《仝展选编•妇科》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温胃健脾，止血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃寒食积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴道滴虫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草图说》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《湖南药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樱桃叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《仝展选编•妇科》",
+      "object_type": "Source"
+    }
+  ]
+}

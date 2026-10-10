@@ -1,0 +1,239 @@
+{
+  "entities": [
+    {
+      "name": "六味地黄丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴补肾",
+        "indication": "肾阴亏损，头晕耳鸣，腰膝酸软，骨蒸潮热，盗汗遗精，五心烦热，咽干颧红",
+        "taboo": null,
+        "usage": "上药共为细末，炼蜜为丸，如梧桐子大。每次6～9克，每日3次，空腹淡盐汤送下。"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "山萸肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "肾阴亏损",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头晕耳鸣",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腰膝酸软",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "骨蒸潮热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "盗汗遗精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "五心烦热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽干颧红",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山萸肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阴亏损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肾阴亏损",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头晕耳鸣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾阴亏损",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾阴亏损",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "骨蒸潮热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾阴亏损",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "盗汗遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾阴亏损",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "五心烦热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾阴亏损",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽干颧红",
+      "object_type": "Symptom"
+    }
+  ]
+}

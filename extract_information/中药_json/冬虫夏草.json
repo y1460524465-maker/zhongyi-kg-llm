@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "name": "冬虫夏草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "夏草冬虫、虫草、冬虫草",
+        "effect": "补虚损，补肺益肾，止咳化痰",
+        "indication": "主治痰饮喘嗽，虚喘，痨嗽，咯血，自汗盗汗，阳痿遗精，腰膝酸痛，病后久虚不复",
+        "taboo": "有表邪者慎用",
+        "usage": "内服：煎汤，5~10g；或入丸、散；或与鸡鸭炖服",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "麦角菌科真菌冬虫夏草菌的子座及其寄主蝙蝠蛾科昆虫虫草蝙蝠蛾等的幼虫体(菌核)的复合体",
+        "place": "分布于甘肃、青海、湖北、四川、云南、西藏",
+        "processing": null,
+        "dosage": "5~10g",
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "冬虫夏草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补虚损",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冬虫夏草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肺益肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冬虫夏草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冬虫夏草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰饮喘嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冬虫夏草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冬虫夏草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痨嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冬虫夏草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冬虫夏草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "自汗盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冬虫夏草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冬虫夏草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

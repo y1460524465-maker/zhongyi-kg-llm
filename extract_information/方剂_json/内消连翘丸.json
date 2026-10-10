@@ -1,0 +1,143 @@
+{
+  "entities": [
+    {
+      "name": "内消连翘丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": "每服30-50丸，空心、食前盐酒送下。"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "漏芦",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半"
+      }
+    },
+    {
+      "name": "胡桃肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半"
+      }
+    },
+    {
+      "name": "夏枯草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半"
+      }
+    },
+    {
+      "name": "土瓜根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半"
+      }
+    },
+    {
+      "name": "射干",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半"
+      }
+    },
+    {
+      "name": "泽兰",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半"
+      }
+    },
+    {
+      "name": "沙参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半"
+      }
+    },
+    {
+      "name": "白及",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "内消连翘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消连翘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "漏芦",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消连翘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡桃肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消连翘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "夏枯草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消连翘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "土瓜根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消连翘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "射干",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消连翘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽兰",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消连翘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沙参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消连翘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白及",
+      "object_type": "Herb"
+    }
+  ]
+}

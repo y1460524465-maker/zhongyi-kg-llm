@@ -1,0 +1,189 @@
+{
+  "entities": [
+    {
+      "name": "茺蔚子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "益母子、冲玉子、益母草子、小胡麻",
+        "property_flavor": "苦",
+        "effect": "活血调经，疏风清热",
+        "indication": "妇女月经不调，崩中带下，产后瘀血作痛，肝热头痛，目赤肿痛，或生翳膜",
+        "taboo": "肝血不足，瞳子散大及孕妇忌服",
+        "dosage": "6~9g",
+        "origin": "为唇形科植物益母草的果实",
+        "traits": "干燥果实呈三棱形，一端稍宽，似平截状；另一端渐窄而钝尖，长2～3毫米，宽约1.5毫米。表面灰棕色，具深色斑点，无光泽，或微粗糙。横切面呈三角形。在放大镜下观察，可见外皮棕黑色；胚乳极薄，灰色，附着于种皮上；子叶灰白色，油质。气无，味苦。以粒大饱满、无杂质者为佳。"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日用本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《青岛中草药手册》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血调经，疏风清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩中带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后瘀血作痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝热头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目赤肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "翳膜",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日用本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《湖南药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《青岛中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茺蔚子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    }
+  ]
+}

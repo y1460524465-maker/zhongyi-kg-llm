@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "芥蓝",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒利咽，顺气化痰，平喘",
+        "indication": "风热感冒，咽喉痛，气喘，并能预防白喉",
+        "dosage": "内服：煎汤，9-15g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芥蓝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒利咽，顺气化痰，平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芥蓝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芥蓝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芥蓝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气喘",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "鲳鱼",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气养血,舒筋利骨",
+        "indication": "消化不良，贫血，筋骨酸痛，四肢麻木",
+        "dosage": "内服：煮食或炖服，30-60g"
+      }
+    },
+    {
+      "name": "消化不良",
+      "type": "Disease"
+    },
+    {
+      "name": "贫血",
+      "type": "Disease"
+    },
+    {
+      "name": "筋骨酸痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "四肢麻木",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鲳鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消化不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲳鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "贫血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲳鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鲳鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鲳鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鲳鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒筋利骨",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "两头尖",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风湿，消痈肿",
+        "indication": "风寒湿痹，四肢拘挛，骨节疼痛，痈肿溃烂",
+        "origin": "毛茛科植物多被银莲花的干燥根茎",
+        "property_flavor": "辛，热；有毒。归脾经。",
+        "dosage": "内服：煎汤，1.5~3克；或入丸、散。"
+      }
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "四肢拘挛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "骨节疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痈肿溃烂",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "两头尖",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿，消痈肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "两头尖",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "两头尖",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢拘挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "两头尖",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨节疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "两头尖",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿溃烂",
+      "object_type": "Symptom"
+    }
+  ]
+}

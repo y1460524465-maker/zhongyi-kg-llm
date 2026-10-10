@@ -1,0 +1,174 @@
+{
+  "entities": [
+    {
+      "name": "化虫丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "扶元、化滞、杀虫",
+        "indication": "体弱虫湿不化",
+        "usage": "上为末，炼蜜为丸。量虚实服。"
+      }
+    },
+    {
+      "name": "鹤虱",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "胡粉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白矾",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "芜荑",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "使君子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "苦楝皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "化虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹤虱",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白矾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芜荑",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "使君子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦楝皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "扶元、化滞、杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槟榔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破滞杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹤虱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛湿杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胡粉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "体重坠，防虫之上窜",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白矾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "性却湿，杜虫之生源",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦楝皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻湿热以杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芜荑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中气以杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "使君子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾胃以消虫积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "扶气弱以助药力",
+      "object_type": "Effect"
+    }
+  ]
+}

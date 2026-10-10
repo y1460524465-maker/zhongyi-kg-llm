@@ -1,0 +1,198 @@
+{
+  "entities": [
+    {
+      "name": "安神补心丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "养心安神",
+        "indication": "阴血不足引起的心悸失眠，头晕耳鸣",
+        "usage": "口服，一次15丸，一日3次"
+      }
+    },
+    {
+      "name": "丹参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "300g"
+      }
+    },
+    {
+      "name": "五味子(蒸)",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "150g"
+      }
+    },
+    {
+      "name": "石菖蒲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g"
+      }
+    },
+    {
+      "name": "安神膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "560g"
+      }
+    },
+    {
+      "name": "合欢皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "墨旱莲",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "女贞子（蒸）",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "首乌藤",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "地黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "珍珠母",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "心悸失眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头晕耳鸣",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "阴血不足",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "安神补心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安神补心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子(蒸)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安神补心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石菖蒲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安神补心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "安神膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安神膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "合欢皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安神膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安神膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "墨旱莲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安神膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "女贞子（蒸）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安神膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "首乌藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安神膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安神膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "珍珠母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安神补心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "安神补心丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴血不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阴血不足",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心悸失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴血不足",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头晕耳鸣",
+      "object_type": "Symptom"
+    }
+  ]
+}

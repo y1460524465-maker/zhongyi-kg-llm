@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "马铃薯",
+      "type": "Herb",
+      "attributes": {
+        "alias": "阳芋、山药蛋、洋番薯、土豆、洋芋、山洋芋、地蛋、洋山芋、荷兰薯、薯仔、茨仔",
+        "effect": "和胃健脾，补气，解毒消肿",
+        "indication": "胃痛，腮腺炎，痈肿，湿疹，烫伤",
+        "usage": "内服：适量，煮食或煎汤。外用：适量，磨汁涂患处。"
+      }
+    },
+    {
+      "name": "胃痛",
+      "type": "Disease"
+    },
+    {
+      "name": "腮腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "烫伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马铃薯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马铃薯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马铃薯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马铃薯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马铃薯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫伤",
+      "object_type": "Disease"
+    }
+  ]
+}

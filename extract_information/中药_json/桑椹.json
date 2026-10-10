@@ -1,0 +1,152 @@
+{
+  "entities": [
+    {
+      "name": "桑椹",
+      "type": "Herb",
+      "attributes": {
+        "alias": "桑实、葚、乌椹、文武实、黑椹、桑枣、桑葚子、桑粒、桑果",
+        "effect": "滋阴养血，生津，润肠",
+        "indication": "肝肾不足和血虚精亏的头晕目眩，腰酸耳鸣，须发早白，失眠多梦，津伤口渴，消渴，肠燥便秘",
+        "origin": "桑科植物桑Morus alba L.",
+        "processing": "4～6月果实变红时采收，晒干，或略蒸后晒干",
+        "property_flavor": "味微酸而甜",
+        "taboo": "脾胃虚寒作泄者勿服；多食致衄，孕妇忌之",
+        "dosage": "煎汤，10～15g；或熬膏、浸酒、生啖；或入丸、散"
+      }
+    },
+    {
+      "name": "肝肾不足",
+      "type": "Disease"
+    },
+    {
+      "name": "血虚精亏",
+      "type": "Disease"
+    },
+    {
+      "name": "头晕目眩",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰酸耳鸣",
+      "type": "Symptom"
+    },
+    {
+      "name": "须发早白",
+      "type": "Symptom"
+    },
+    {
+      "name": "失眠多梦",
+      "type": "Symptom"
+    },
+    {
+      "name": "津伤口渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "肠燥便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "滋阴养血",
+      "type": "Effect"
+    },
+    {
+      "name": "生津",
+      "type": "Effect"
+    },
+    {
+      "name": "润肠",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血虚精亏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕目眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰酸耳鸣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "须发早白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠多梦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "津伤口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠燥便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑椹",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肠",
+      "object_type": "Effect"
+    }
+  ]
+}

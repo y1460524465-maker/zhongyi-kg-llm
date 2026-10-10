@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "name": "绿豆衣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，9~30g；或研末。外用：适量，研末和水洗。",
+        "effect": "清暑止渴；利尿解毒；退目翳。",
+        "indication": "暑热烦渴，泄泻，痢疾，水肿，丹毒，目翳。",
+        "traits": "气微，味淡。以身干、色绿、不变红、无霉者为佳。",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "豆科植物绿豆的种皮",
+        "place": null,
+        "processing": "将绿豆用水浸胖，揉搓取种皮。一般取绿豆发芽后残留的皮壳晒干而得。",
+        "taboo": null
+      }
+    },
+    {
+      "name": "暑热烦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease"
+    },
+    {
+      "name": "目翳",
+      "type": "Symptom"
+    },
+    {
+      "name": "麻疹合并肠炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "绿豆衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暑热烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆衣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绿豆衣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绿豆衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆衣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻疹合并肠炎",
+      "object_type": "Disease"
+    }
+  ]
+}

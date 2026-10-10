@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "银柴胡",
+      "type": "Herb",
+      "attributes": {
+        "alias": "银夏柴胡、银胡、牛肚根、沙参儿、白根子、土参",
+        "effect": "清虚热，除疳热",
+        "indication": "虚劳骨蒸，阴虚久疟，小儿疳热羸瘦",
+        "dosage": "内服：煎汤，5~9g；或入丸、散",
+        "taboo": "外感风寒及血虚无热者忌服",
+        "property_flavor": "味甘、微苦",
+        "traits": "气微",
+        "origin": "为石竹科植物银柴胡的根"
+      }
+    }
+  ],
+  "relations": []
+}

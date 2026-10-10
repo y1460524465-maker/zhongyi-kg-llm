@@ -1,0 +1,192 @@
+{
+  "entities": [
+    {
+      "name": "鸡鸣散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "行气降浊，化湿通络",
+        "indication": "治湿脚气。足胫肿重无力，行动不便，麻木冷痛，或挛急上冲，甚则胸闷泛恶",
+        "usage": "上药为粗末，分作八服。隔宿用水750毫升，慢火煎至375毫升，去滓，用水500毫升，煎滓，取200毫升。两次煎汁相和，安顿床头，次日五更分二三次服。只是冷服，冬月略温亦得。服了用饼饵压下。如服不尽，留次日渐渐吃亦可。服此药至天明，大便当下一碗许黑粪水，即是原肾家感寒湿毒气下来。至早饭前后，痛住肿消。等药力过，方吃食物。"
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb"
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb"
+    },
+    {
+      "name": "木瓜",
+      "type": "Herb"
+    },
+    {
+      "name": "吴茱萸",
+      "type": "Herb"
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb"
+    },
+    {
+      "name": "生姜",
+      "type": "Herb"
+    },
+    {
+      "name": "紫苏茎叶",
+      "type": "Herb"
+    },
+    {
+      "name": "湿脚气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "行气降浊",
+      "type": "Effect"
+    },
+    {
+      "name": "化湿通络",
+      "type": "Effect"
+    },
+    {
+      "name": "足胫肿重无力",
+      "type": "Symptom"
+    },
+    {
+      "name": "行动不便",
+      "type": "Symptom"
+    },
+    {
+      "name": "麻木冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "挛急上冲",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸闷泛恶",
+      "type": "Symptom"
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/鸡鸣散",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡鸣散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡鸣散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气降浊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡鸣散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "化湿通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡鸣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡鸣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡鸣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木瓜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡鸣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡鸣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡鸣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡鸣散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏茎叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "湿脚气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "足胫肿重无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿脚气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "行动不便",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿脚气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "麻木冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿脚气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "挛急上冲",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿脚气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸闷泛恶",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡鸣散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/鸡鸣散",
+      "object_type": "Source"
+    }
+  ]
+}

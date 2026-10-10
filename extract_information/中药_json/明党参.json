@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "明党参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，6~12g；或熬膏。",
+        "effect": "清肺化痰，养阴和胃，平肝解毒",
+        "indication": "痰火咳嗽喘逆，头晕，呕吐，目赤，白带，疔毒疮疡",
+        "taboo": "气虚下陷、精关不固及孕妇慎服。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "明党参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "明党参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴和胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "明党参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "明党参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰火咳嗽喘逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "明党参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "明党参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "明党参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "明党参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "明党参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔毒疮疡",
+      "object_type": "Symptom"
+    }
+  ]
+}

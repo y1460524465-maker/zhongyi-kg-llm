@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "红景天",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~9g；外用：适量，捣敷；或研末调敷",
+        "effect": "活血止血，清肺止咳",
+        "indication": "用于咳血，咯血，肺炎咳嗽，妇女白带。外用治跌打损伤，烧伤，烫伤"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "枸杞",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "红枣",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "红景天",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红景天",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红景天",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红景天",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红景天",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "红景天",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "红景天",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "红枣",
+      "object_type": "Herb"
+    }
+  ]
+}

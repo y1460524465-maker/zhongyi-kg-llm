@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "菊苣",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肝利胆，健胃消食，利尿消肿",
+        "indication": "湿热黄疸，胃痛食少，水肿尿少",
+        "usage": "内服：煎汤，3-9g",
+        "dosage": "3-9g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "菊苣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肝利胆，健胃消食，利尿消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菊苣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菊苣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛食少",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菊苣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿尿少",
+      "object_type": "Disease"
+    }
+  ]
+}

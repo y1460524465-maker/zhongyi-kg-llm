@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "越鞠保和丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "行气解郁，消食和胃；舒肝解郁，开胃消食",
+        "indication": "气郁停滞，倒饱嘈杂，胸腹胀痛，消化不良",
+        "taboo": null,
+        "usage": "口服，每次6g，日1-2次"
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "六神曲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "气郁停滞",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "倒饱嘈杂",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸腹胀痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "消化不良",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "六神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气郁停滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "倒饱嘈杂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消化不良",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气解郁，消食和胃；舒肝解郁，开胃消食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "越鞠保和丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/越鞠保和丸",
+      "object_type": "Source"
+    }
+  ]
+}

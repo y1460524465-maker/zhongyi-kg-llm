@@ -1,0 +1,210 @@
+{
+  "entities": [
+    {
+      "name": "鸡子白",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸡卵白,鸡子清,鸡蛋白",
+        "effect": "润肺利咽，清热解毒",
+        "indication": "咽痛，目赤，咳逆，下肉，疟疾，烧伤，热毒肿痛",
+        "taboo": "动心气。不宜多食",
+        "usage": "内服：生服、煮食，或与药汁调服"
+      }
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《食疗本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source"
+    },
+    {
+      "name": "苦酒汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治少阴病，咽中伤生疮，不能言语，声不出"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb"
+    },
+    {
+      "name": "鸡子",
+      "type": "Herb"
+    },
+    {
+      "name": "蕤仁",
+      "type": "Herb"
+    },
+    {
+      "name": "吴黄连",
+      "type": "Herb"
+    },
+    {
+      "name": "胡粉",
+      "type": "Herb"
+    },
+    {
+      "name": "蜡",
+      "type": "Herb"
+    },
+    {
+      "name": "鸡子饼",
+      "type": "Formula"
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb"
+    },
+    {
+      "name": "醋",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺利咽，清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热毒肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《食疗本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡子白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦酒汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苦酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡子饼",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子白",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡子饼",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡子饼",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜡",
+      "object_type": "Herb"
+    }
+  ]
+}

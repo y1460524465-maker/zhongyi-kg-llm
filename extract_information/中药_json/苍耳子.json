@@ -1,0 +1,161 @@
+{
+  "entities": [
+    {
+      "name": "苍耳子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "葈耳实、牛虱子、胡寝子、苍郎种、棉螳螂、苍子、胡苍子、饿虱子、苍棵子、苍耳蒺藜、苍浪子、老苍子",
+        "effect": "散风，止痛，祛湿，杀虫",
+        "indication": "风寒头痛，鼻渊，齿痛，风寒湿痹，四肢挛痛，疥癞，瘙痒",
+        "property_flavor": "苦；甘；辛；性温；小毒",
+        "processing": "拣尽杂质，去刺，筛去灰屑，微炒至黄色，取出放凉。",
+        "dosage": "内服：煎汤，3~10g；或入丸、散。外用：适量，捣敷；或煎水洗。"
+      }
+    },
+    {
+      "name": "风寒头痛",
+      "type": "Disease"
+    },
+    {
+      "name": "鼻渊",
+      "type": "Disease"
+    },
+    {
+      "name": "齿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Disease"
+    },
+    {
+      "name": "四肢挛痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疥癞",
+      "type": "Disease"
+    },
+    {
+      "name": "瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "散风",
+      "type": "Effect"
+    },
+    {
+      "name": "止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "祛湿",
+      "type": "Effect"
+    },
+    {
+      "name": "杀虫",
+      "type": "Effect"
+    },
+    {
+      "name": "鼻炎",
+      "type": "Disease"
+    },
+    {
+      "name": "鼻窦炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻渊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "齿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢挛痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苍耳子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻窦炎",
+      "object_type": "Disease"
+    }
+  ]
+}

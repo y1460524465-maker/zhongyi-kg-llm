@@ -1,0 +1,194 @@
+{
+  "entities": [
+    {
+      "name": "桉叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，6-15g。外用：适量，煎水洗；研末撒或调敷；或捣敷或用桉叶油涂檫。",
+        "effect": "疏风解表，清热解毒，化痰理气，杀虫止痒",
+        "indication": "感冒，高热喘咳，百日咳，脘腹胀痛，腹泻，痢疾，钩，丝虫病，疟疾，风湿痛，湿疹，疥癣，烧烫伤，外伤出血",
+        "origin": "桃金娘科植物蓝桉的叶",
+        "processing": "全年可采，折取老叶，阴干或鲜用",
+        "property_flavor": "味稍苦而凉",
+        "traits": "本品呈镰刀状披针形，长8-30cm，宽2-7cm；革质而厚；叶端尖，叶基不对称，全缘；叶柄较短，长1-3cm，扁平而扭转。表面黄绿色，光滑无毛，有多数红棕色木栓斑点，对光透视，可见无数透明小点（油室）。羽状网脉，侧脉末端于叶缘处连合，形成与叶缘相平行的脉纹。揉之微有香气"
+      }
+    },
+    {
+      "name": "蓝桉",
+      "type": "Herb",
+      "attributes": {
+        "alias": "灰杨柳、玉树、小球核桃、蓝油木、杨草果桃、灰叶桉"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰理气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "高热喘咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "马齿苋",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "地锦草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "茶叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "香通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "松节",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "骨碎补",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "石苇",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桉叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "海金砂",
+      "object_type": "Herb"
+    }
+  ]
+}

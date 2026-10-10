@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "水黾",
+      "type": "Herb",
+      "attributes": {
+        "alias": "水马, 水爬虫, 婆子, 水和尚, 水豆油",
+        "effect": "截疟，疗痔",
+        "indication": "疟疮，痔疮",
+        "origin": "水黾科昆虫水黾的全虫",
+        "usage": "内服：研末，5-10只",
+        "dosage": "5-10只",
+        "place": "台湾、广东、海南、广西等地",
+        "processing": "阴干",
+        "property_flavor": null,
+        "meridian": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "水马散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治痔",
+        "indication": "一切痔，久痔脓血者",
+        "taboo": null,
+        "usage": "研烂，空心温酒调下"
+      }
+    },
+    {
+      "name": "《东医宝鉴》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水黾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "截疟",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水黾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疗痔",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水黾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疟疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水黾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水马散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "治痔",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水马散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痔",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水马散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《东医宝鉴》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "水马散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "婆子",
+      "object_type": "Herb"
+    }
+  ]
+}

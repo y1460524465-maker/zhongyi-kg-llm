@@ -1,0 +1,89 @@
+{
+  "entities": [
+    {
+      "name": "缬草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "穿心排草,鹿子草,猫食菜,潢山香,抓地虎,拔地麻,七里香,潢坡香,五里香",
+        "origin": "败酱科植物缬草、黑水缬草、宽叶缬草的根、根茎",
+        "effect": "安神，理气，止痛",
+        "indication": "心神不安，胃弱，腰痛，月经不调，跌打损伤。用于神经衰弱，失眠，癔病，月经不调，癫痫，胃腹胀痛，腰腿痛，跌打损伤",
+        "taboo": "体弱阴虚者慎用",
+        "usage": "内服：煎汤，3~9g，或研末；或浸酒。外用：适量，研末调敷",
+        "dosage": "3~9g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "缬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "神经衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "缬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "失眠",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "缬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癔病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "缬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "缬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "缬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃腹胀痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "缬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰腿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "缬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "缬草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心神不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "缬草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

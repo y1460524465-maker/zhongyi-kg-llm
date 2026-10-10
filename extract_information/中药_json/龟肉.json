@@ -1,0 +1,178 @@
+{
+  "entities": [
+    {
+      "name": "龟肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煮食，0.5-1只；或入丸、散。",
+        "effect": "益阴补血",
+        "indication": "劳瘵骨蒸，久嗽咯血，久疟，血痢，肠风痔血，筋骨疼痛",
+        "origin": "龟科动物乌龟的肉",
+        "traits": "全年均可捕捉，但以秋、冬为多。杀死后，取肉鲜用或烘干。"
+      }
+    },
+    {
+      "name": "劳瘵骨蒸",
+      "type": "Symptom"
+    },
+    {
+      "name": "久嗽咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "久疟",
+      "type": "Symptom"
+    },
+    {
+      "name": "血痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠风痔血",
+      "type": "Symptom"
+    },
+    {
+      "name": "筋骨疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "虚劳失血咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽寒热",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺痨吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "久咳嗽上气",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢",
+      "type": "Disease"
+    },
+    {
+      "name": "泻血",
+      "type": "Symptom"
+    },
+    {
+      "name": "热气湿痹",
+      "type": "Disease"
+    },
+    {
+      "name": "腹内激热",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益阴补血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳瘵骨蒸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久嗽咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久疟",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风痔血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳失血咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽寒热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺痨吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久咳嗽上气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热气湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龟肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹内激热",
+      "object_type": "Symptom"
+    }
+  ]
+}

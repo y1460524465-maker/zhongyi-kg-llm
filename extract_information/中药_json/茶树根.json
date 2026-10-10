@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "茶树根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "强心利尿，活血调经，清热解毒",
+        "usage": "内服：煎汤，15-30g，大量可用至60g。外用：适量，水煎熏洗，或磨醋涂患处。",
+        "indication": "心脏病，水肿，肝炎，痛经，疮疡肿毒，口疮，汤火灼伤，带状疱疹，牛皮癣",
+        "processing": "将原药除去杂质，分档，洗净，润透，切薄片，干燥，筛去灰屑。"
+      }
+    },
+    {
+      "name": "心脏病",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痛经",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疡肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "口疮",
+      "type": "Disease"
+    },
+    {
+      "name": "汤火灼伤",
+      "type": "Disease"
+    },
+    {
+      "name": "带状疱疹",
+      "type": "Disease"
+    },
+    {
+      "name": "牛皮癣",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茶树根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心脏病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茶树根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茶树根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茶树根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茶树根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茶树根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茶树根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "汤火灼伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茶树根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带状疱疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茶树根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牛皮癣",
+      "object_type": "Disease"
+    }
+  ]
+}

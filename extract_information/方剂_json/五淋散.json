@@ -1,0 +1,252 @@
+{
+  "entities": [
+    {
+      "name": "五淋散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热祛湿，利水通淋",
+        "indication": "肾气不足，膀胱有热，水道不通，淋沥不尽，脐腹急痛，发作有时之五淋症",
+        "taboo": null,
+        "usage": "每服二钱，水一盏，煎至八分，空心，食前服"
+      }
+    },
+    {
+      "name": "赤茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "六两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "赤芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二十两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "山栀子仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二十两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "肾气不足",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "膀胱有热",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "石淋",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气淋",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "膏淋",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "劳淋",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血淋",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "清热祛湿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "利水通淋",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《宋·太平惠民和剂局方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《宋·太平惠民和剂局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热祛湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "利水通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾气不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "膀胱有热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "石淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "膏淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "劳淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五淋散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血淋",
+      "object_type": "Disease"
+    }
+  ]
+}

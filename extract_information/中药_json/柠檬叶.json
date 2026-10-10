@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "name": "柠檬叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化痰止咳，理气和胃，止泻",
+        "indication": "咳喘痰多，气滞腹胀，泄泻",
+        "usage": "内服：煎汤，9-15g",
+        "origin": "芸香科植物黎檬或洋柠檬的叶"
+      }
+    },
+    {
+      "name": "咳喘痰多",
+      "type": "Symptom"
+    },
+    {
+      "name": "气滞腹胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柠檬叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳喘痰多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柠檬叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气滞腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柠檬叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柠檬叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰止咳，理气和胃，止泻",
+      "object_type": "Effect"
+    }
+  ]
+}

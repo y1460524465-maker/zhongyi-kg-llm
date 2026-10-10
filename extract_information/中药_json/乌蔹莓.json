@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "乌蔹莓",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乌蔹草、茏葛、龙尾、虎葛、五叶莓、笼草、乌蔹草、五叶藤、五爪龙、五爪龙草、赤葛、赤泼藤、五龙草、五爪龙藤、母猪藤、五叶茑、血五甲、过山龙、猪婆藤、五爪藤、鸡丝藤、五爪金龙、小母猪藤、地老鼠、铁散仙、酸甲藤、五甲藤、钦称陀、五将草、过江龙、地五加、野葡萄藤、老鸦眼睛藤、老鸦藤、黄眼藤、止血藤、五爪绒",
+        "property_flavor": "苦、酸、寒",
+        "meridian": "心、肝、胃经",
+        "effect": "清热利湿，解毒消肿",
+        "indication": "痈肿，疔疮，痄腮，丹毒，风湿痛，黄疸，痢疾，尿血，白浊",
+        "dosage": "内服：煎汤，15-30g；浸酒或捣汁饮"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乌蔹莓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌蔹莓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌蔹莓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌蔹莓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌蔹莓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痄腮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌蔹莓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌蔹莓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌蔹莓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌蔹莓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌蔹莓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌蔹莓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白浊",
+      "object_type": "Disease"
+    }
+  ]
+}

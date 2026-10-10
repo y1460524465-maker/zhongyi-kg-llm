@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "石莲子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "甜石莲、壳莲子、带皮莲子",
+        "effect": "清湿热，开胃迸食，清心宁神，涩精止泄",
+        "indication": "噤口痢，呕吐不食，心烦失眠，遗精，尿浊，带下",
+        "meridian": "脾经；胃经；心经；肺经",
+        "property_flavor": "味涩檄甘",
+        "usage": "内服：煎汤，9~12g。清湿热生用，清心宁神连心用"
+      }
+    }
+  ],
+  "relations": []
+}

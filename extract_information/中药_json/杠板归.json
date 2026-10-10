@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "name": "杠板归",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蛇倒退，犁头刺，河白草，蚂蚱簕，急解素，老虎脷，猫爪刺，蛇不过，蛇牙草，穿叶蓼",
+        "property_flavor": "酸，微寒",
+        "meridian": "肺、膀胱经",
+        "effect": "清热解毒，利水消肿，止咳",
+        "indication": "咽喉肿痛，肺热咳嗽，小儿顿咳，水肿尿少，湿热泻痢，湿疹，疖肿，蛇虫咬伤",
+        "dosage": "15～30g。外用适量，鲜品捣敷或干品煎汤洗",
+        "origin": "蓼科植物杠板归Polygonum perfoliatum L.的干燥地上部分"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "杠板归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杠板归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杠板归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杠板归",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杠板归",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杠板归",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿顿咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杠板归",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿尿少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杠板归",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杠板归",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疖肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杠板归",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇虫咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杠板归",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热泻痢",
+      "object_type": "Symptom"
+    }
+  ]
+}

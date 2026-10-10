@@ -1,0 +1,295 @@
+{
+  "entities": [
+    {
+      "name": "阑尾清化汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热解毒，行气活血，通便",
+        "indication": "便秘，右少腹拘急疼痛，舌红，苔黄腻，脉滑数"
+      }
+    },
+    {
+      "name": "大黄牡丹汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "肠痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性阑尾炎蕴热期",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "便秘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "右少腹拘急疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔黄腻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉滑数",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "午后热甚",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口干渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "尿黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "蒲公英",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "川楝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "双柏散",
+      "type": "Formula",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，行气活血，通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性阑尾炎蕴热期",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "急性阑尾炎蕴热期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎蕴热期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "午后热甚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎蕴热期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口干渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎蕴热期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎蕴热期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "右少腹拘急疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎蕴热期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "尿黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎蕴热期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎蕴热期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔黄腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎蕴热期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉滑数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲公英",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川楝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/阑尾清化汤",
+      "object_type": "Source"
+    },
+    {
+      "subject": "阑尾清化汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "大黄牡丹汤",
+      "object_type": "Formula"
+    }
+  ]
+}

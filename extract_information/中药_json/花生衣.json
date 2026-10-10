@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {
+      "name": "花生衣",
+      "type": "Herb",
+      "attributes": {
+        "alias": "花生皮，长果衣，落花生衣，红薄皮",
+        "property_flavor": "甘、涩，平",
+        "meridian": "归脾、肺经",
+        "effect": "止血，散瘀，消肿",
+        "indication": "咳血，吐血，衄血，崩漏，外伤性渗血，血小板减少性紫癜，过敏性紫癜",
+        "origin": "豆科植物落花生Arachis hypogaea L．的干燥种皮"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "花生衣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血，散瘀，消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

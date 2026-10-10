@@ -1,0 +1,212 @@
+{
+  "entities": [
+    {
+      "name": "藁本",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散风寒湿邪",
+        "indication": "风寒头痛，巅顶痛，寒湿腹痛，泄泻，疝瘕，疥癣",
+        "dosage": "内服：煎汤， 3~10g；或入丸、散。外用：适量，煎水洗；或研末调涂",
+        "property_flavor": "味辛、苦，微麻",
+        "alias": "藁茇、鬼卿、地新、山茝、蔚香、微茎、藁板",
+        "origin": "伞形科藁本属植物藁本Ligusticum sinense Oliv.或辽藁本Ligusticum jeholense Nakai et Kitag."
+      }
+    },
+    {
+      "name": "风寒头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "巅顶痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "寒湿腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "疝瘕",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿关节痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃痉挛",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "大实心痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "发汗太过",
+      "type": "Symptom"
+    },
+    {
+      "name": "漏",
+      "type": "Disease"
+    },
+    {
+      "name": "疳",
+      "type": "Disease"
+    },
+    {
+      "name": "虫蚀",
+      "type": "Symptom"
+    },
+    {
+      "name": "沙痱子痒痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙疳",
+      "type": "Disease"
+    },
+    {
+      "name": "宣露",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散风寒湿邪",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风寒头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "巅顶痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒湿腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿关节痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痉挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大实心痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发汗太过",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虫蚀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "沙痱子痒痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牙疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藁本",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "宣露",
+      "object_type": "Symptom"
+    }
+  ]
+}

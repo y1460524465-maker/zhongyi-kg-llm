@@ -1,0 +1,53 @@
+{
+  "entities": [
+    {
+      "name": "龙脷叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热化痰，润肺通便",
+        "indication": "肺热咳嗽，咯血，咽痛失音，大便秘结",
+        "property_flavor": "甘、淡，平",
+        "meridian": "归肺、胃经",
+        "dosage": "内服：煎汤，9～15g",
+        "alias": "龙舌叶，龙味叶，牛耳叶，龙利叶"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "龙脷叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热化痰，润肺通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙脷叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙脷叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咯血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙脷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛失音",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙脷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便秘结",
+      "object_type": "Symptom"
+    }
+  ]
+}

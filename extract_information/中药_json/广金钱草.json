@@ -1,0 +1,227 @@
+{
+  "entities": [
+    {
+      "name": "广金钱草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "铜钱草，马蹄香，假花生，广东金钱草",
+        "effect": "清热去湿，退黄，利尿通淋",
+        "indication": "尿路感染，泌尿系结石，胆囊结石，肾炎浮肿，黄疸，疳积，痈肿",
+        "property_flavor": "甘、淡，凉",
+        "meridian": "肝、肾、膀胱经",
+        "dosage": "15～30g",
+        "place": "广东",
+        "processing": "除去杂质，切段，晒干"
+      }
+    },
+    {
+      "name": "膀胱结石",
+      "type": "Disease"
+    },
+    {
+      "name": "海金砂",
+      "type": "Herb"
+    },
+    {
+      "name": "肾结石",
+      "type": "Disease"
+    },
+    {
+      "name": "小茴香",
+      "type": "Herb"
+    },
+    {
+      "name": "大茴香",
+      "type": "Herb"
+    },
+    {
+      "name": "锦纹大黄",
+      "type": "Herb"
+    },
+    {
+      "name": "扁蓄",
+      "type": "Herb"
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "口腔炎",
+      "type": "Disease"
+    },
+    {
+      "name": "喉头炎",
+      "type": "Disease"
+    },
+    {
+      "name": "乳腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "老公根",
+      "type": "Herb"
+    },
+    {
+      "name": "酒槽",
+      "type": "Herb"
+    },
+    {
+      "name": "《岭南草药志》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热去湿，退黄，利尿通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿路感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泌尿系结石",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胆囊结石",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎浮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "海金砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "膀胱结石",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "小茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "大茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "锦纹大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "扁蓄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾结石",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "老公根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "酒槽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉头炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广金钱草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南草药志》",
+      "object_type": "Source"
+    }
+  ]
+}

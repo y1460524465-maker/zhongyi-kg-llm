@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "土党参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "健脾胃，补肺气，祛痰止咳",
+        "indication": "虚劳内伤，肺虚咳嗽，脾虚泄泻，乳汁不多，小儿疳积，小儿遗尿",
+        "dosage": "内服：煎汤，15-30g；干品9-15g",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "桔梗科植物大花金钱豹与金钱豹的根",
+        "place": "广东、广西、贵州、云南、安徽、浙江、江西、福建、台湾、湖北、湖南、四川",
+        "processing": "秋季采挖，洗净，晒干",
+        "traits": "根呈圆柱形，少分枝，扭曲不直，长10-25cm，直径0.5-1.5cm。顶部有密集的点状茎痕。表面灰黄色，全体具纵皱纹，质硬而脆，易折断。断面较平坦，可见明显的形成层。木质部黄色，木化程度度较强，气微，味淡而微甜",
+        "taboo": null
+      }
+    },
+    {
+      "name": "肺虚咳嗽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脾虚泄泻",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿遗尿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "虚劳内伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "乳汁不多",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "土党参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾胃，补肺气，祛痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "土党参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳内伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土党参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺虚咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土党参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土党参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土党参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土党参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿遗尿",
+      "object_type": "Disease"
+    }
+  ]
+}

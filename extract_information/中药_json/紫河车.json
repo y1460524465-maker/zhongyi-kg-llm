@@ -1,0 +1,239 @@
+{
+  "entities": [
+    {
+      "name": "紫河车",
+      "type": "Herb",
+      "attributes": {
+        "alias": "胞衣、人胞、混沌皮、仙人衣、混沌衣、混元丹、佛袈裟、胎衣",
+        "effect": "补气，养血，温肾益精",
+        "indication": "治虚损，羸瘦，劳热骨蒸，咳喘，咯血，盗汗，遗精，阳痿，妇女血气不足，不孕或乳少",
+        "taboo": "凡有表邪及实证者禁服，脾虚湿困纳呆者慎服",
+        "usage": "内服：研末，每次1.5~3g，重症加倍；或入丸剂；新鲜胎盘，半个或1个，水煎服食，每星期2-3次",
+        "origin": "为人科健康产妇的胎盘",
+        "processing": "用新鲜的紫河车，横直割开血管，用水反复洗漂干净。另取花椒装人布袋中加水煎汤，去渣，将洗净之紫河车置花椒汤中煮2~3分钟，及时捞出，沥净水，以黄酒适量拌匀，再置笼屉中蒸透，取出，烘干。(每紫河车100个，用花椒4两，黄酒3斤)"
+      }
+    },
+    {
+      "name": "虚损",
+      "type": "Disease"
+    },
+    {
+      "name": "羸瘦",
+      "type": "Symptom"
+    },
+    {
+      "name": "劳热骨蒸",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "阳痿",
+      "type": "Symptom"
+    },
+    {
+      "name": "妇女血气不足",
+      "type": "Disease"
+    },
+    {
+      "name": "不孕",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳少",
+      "type": "Symptom"
+    },
+    {
+      "name": "补气",
+      "type": "Effect"
+    },
+    {
+      "name": "养血",
+      "type": "Effect"
+    },
+    {
+      "name": "温肾益精",
+      "type": "Effect"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source"
+    },
+    {
+      "name": "《会约医镜》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    },
+    {
+      "name": "《山东中草药手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "羸瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳热骨蒸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女血气不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不孕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温肾益精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《会约医镜》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫河车",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《山东中草药手册》",
+      "object_type": "Source"
+    }
+  ]
+}

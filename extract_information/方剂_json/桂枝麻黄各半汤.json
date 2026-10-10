@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "桂枝麻黄各半汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "小发其汗，以解表邪；小小汗之以和营卫",
+        "indication": "太阳病，得之8-9日，如疟状，发热恶寒，热多寒少，其人不呕，清便欲自可，1日2-3度发，面色反有热色，身痒者。痘疮热气如灼，表郁难以见点，或见点稠密，风疹交出，或痘不起胀，喘咳咽痛者",
+        "taboo": null,
+        "usage": "上七味，以水500毫升，先煮麻黄一二沸，去上沫，纳诸药，煮取210毫升，去滓，每次温服70毫升，半日许服尽。调养如桂枝汤法"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克(去皮)"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克(切)"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克(炙)"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克(去节)"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4枚(擘)"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24枚(汤浸，去皮、尖及两仁者)"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝麻黄各半汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝麻黄各半汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝麻黄各半汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝麻黄各半汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝麻黄各半汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝麻黄各半汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝麻黄各半汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "余甘子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "滇橄榄、橄榄[云南.四川]、庵摩勒、庵摩落迦果、余甘果、余柑子、牛甘、油柑子、油甘、油甘果、油甘子",
+        "property_flavor": "甘，酸、涩，凉",
+        "meridian": "归肺、胃经",
+        "effect": "清热凉血，消食健胃，生津止咳",
+        "indication": "血热血瘀，消化不良，腹胀，咳嗽，喉痛，口干",
+        "dosage": "内服：煎汤，3～9g，多入丸、散服",
+        "origin": "本品系藏族习用药材。为大戟科植物余甘子的干燥成熟果实",
+        "place": "分布于福建、台湾、广东、海南、广西、四川、贵州、云南等地"
+      }
+    },
+    {
+      "name": "感冒发热",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "口干烦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "维生素C缺乏症",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "余甘子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉血，消食健胃，生津止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "余甘子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒发热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "余甘子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "余甘子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "余甘子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口干烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "余甘子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "维生素C缺乏症",
+      "object_type": "Disease"
+    }
+  ]
+}

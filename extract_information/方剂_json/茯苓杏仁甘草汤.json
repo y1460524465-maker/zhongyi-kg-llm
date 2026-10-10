@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "name": "茯苓杏仁甘草汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "降逆除饮，散郁降气",
+        "indication": "胸痹，胸中气塞，短气。湿温，两胫逆冷，胸满头眩重疼，妄言多汗，其脉阳濡而弱，阴小而急"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五十个"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两"
+      }
+    },
+    {
+      "name": "胸痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胸中气塞",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "短气",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿温",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "两胫逆冷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸满头眩重疼",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妄言多汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《沈注金匮要略》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茯苓杏仁甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓杏仁甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓杏仁甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓杏仁甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "降逆除饮，散郁降气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茯苓杏仁甘草汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胸痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸中气塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "短气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茯苓杏仁甘草汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿温",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "湿温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "两胫逆冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸满头眩重疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "妄言多汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茯苓杏仁甘草汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《沈注金匮要略》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "entities": [
+    {
+      "name": "枇杷芋",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温肾除湿,理气活血，消胀，止痛",
+        "indication": "主治腹胀，胃痛，疝气，劳伤咳嗽，血吸虫病",
+        "property_flavor": "辛，微苦，温，有小毒",
+        "dosage": "内服：煎汤，3-6 g；或泡酒；入散剂，0.3-0.6g。外用：适量，研末调敷；或干掺",
+        "taboo": "反芋儿七",
+        "alias": "枇杷玉、千斤重",
+        "origin": "《陕西中草药》"
+      }
+    },
+    {
+      "name": "丁座草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "腹胀",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疝气",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "劳伤咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "血吸虫病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腰酸腿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "阳痿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "威灵仙",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "百部",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "火草根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《全展选编•传染病》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《陕西中草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《西藏常用中草药》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枇杷芋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷芋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷芋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疝气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷芋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳伤咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血吸虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枇杷芋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温肾除湿,理气活血，消胀，止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枇杷芋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陕西中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枇杷芋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《西藏常用中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枇杷芋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰酸腿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枇杷芋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿",
+      "object_type": "Symptom"
+    }
+  ]
+}

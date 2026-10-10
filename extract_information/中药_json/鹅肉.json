@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "name": "鹅肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气补虚，和胃止渴",
+        "indication": "虚羸，消渴",
+        "usage": "适量，煮熟，食肉或汤汁",
+        "origin": "鸭科动物鹅的肉"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹅肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气补虚，和胃止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚羸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    }
+  ]
+}

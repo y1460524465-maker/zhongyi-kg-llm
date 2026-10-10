@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "狗宝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：研末，0.9-1.5g；或入丸、散。",
+        "effect": "降逆气，开郁结，解毒。",
+        "indication": "主治噎膈反胃，痈疽。疔疮。",
+        "property_flavor": "甘咸，平，有小毒",
+        "taboo": "脾胃虚弱、气血衰少者慎服。",
+        "meridian": "归脾；胃；心经",
+        "origin": "为犬科动物狗的胃中结石。将狗杀死后，割腹开胃，如发现有狗宝时，即用刀割取，除净皮膜及肉等，洗净、阴干。"
+      }
+    },
+    {
+      "name": "噎膈反胃",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease"
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "狗宝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噎膈反胃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗宝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗宝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗宝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降逆气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "狗宝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开郁结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "狗宝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

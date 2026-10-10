@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "酥油",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补五脏，益气血",
+        "indication": "肺痿咳喘，吐血，消渴，小便频数，肌肤不泽",
+        "dosage": "0.2～1两，作汤剂、丸剂均可；外用作涂擦剂",
+        "origin": "偶蹄目牛科牦牛Poephagus grunniens （L.）[Bos grunniens L.]，以乳中炼出的脂肪入药"
+      }
+    }
+  ],
+  "relations": []
+}

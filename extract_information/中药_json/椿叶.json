@@ -1,0 +1,168 @@
+{
+  "entities": [
+    {
+      "name": "椿叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "椿木叶, 春尖叶, Leaf of Chinese Toona",
+        "effect": "祛暑化湿，解毒，杀虫",
+        "indication": "暑湿伤中，恶心呕吐，食欲不振，泄泻，痢疾痈疽肿毒，疥疮，白秃疮",
+        "usage": "内服：煎汤，鲜叶30-60g；外用：适量，煎水洗；或捣敷",
+        "taboo": "孟诜：动风，多食令入神昏、血气微。《随息居饮食谱》：多食壅气动风，有宿疾者勿食"
+      }
+    },
+    {
+      "name": "暑湿伤中",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "恶心呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食欲不振",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痈疽肿毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疥疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "白秃疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "赤白痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "唇上生疔",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿头生白秃",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "漆疮",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛暑化湿，解毒，杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "暑湿伤中",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶心呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白秃疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "唇上生疔",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿头生白秃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "椿叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "漆疮",
+      "object_type": "Disease"
+    }
+  ]
+}

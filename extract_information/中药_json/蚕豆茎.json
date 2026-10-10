@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "蚕豆茎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "止血，止泻，解毒敛疮",
+        "indication": "各种内出血，水泻，烫伤",
+        "usage": "内服：煎汤，15-30g；或焙干研末，9g。外用：适量，烧灰调敷。"
+      }
+    },
+    {
+      "name": "各种内出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "水泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "烫伤",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚕豆茎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血，止泻，解毒敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚕豆茎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "各种内出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕豆茎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕豆茎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烫伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

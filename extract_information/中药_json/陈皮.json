@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "理气，调中，燥湿，化痰",
+        "indication": "胸腹胀满，不思饮食，呕吐哕逆，咳嗽痰多。亦解鱼、蟹毒",
+        "dosage": "3～9克",
+        "taboo": "气虚及阴虚燥咳患者不宜。吐血证慎服",
+        "property_flavor": "味苦",
+        "traits": "气芳香",
+        "origin": "芸香科植物橘Citrus reticulata Blanco 及其栽培变种的干燥成熟果皮",
+        "place": "四川、浙江、福建、江西、湖南",
+        "processing": "除去杂质，喷淋水，润透，切丝，阴干"
+      }
+    }
+  ],
+  "relations": []
+}

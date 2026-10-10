@@ -1,0 +1,331 @@
+{
+  "entities": [
+    {
+      "name": "菊花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "节华、日精、女节、女华、女茎、更生、周盈、傅延年、阴成、甘菊、真菊、金精、金蕊、镘头菊、簪头菊、甜菊花、药菊",
+        "effect": "疏风，清热，明目，解毒。治头痛，眩晕，目赤，心胸烦热，疔疮，肿毒。",
+        "indication": "主治头痛，眩晕，目赤，心胸烦热，疔疮，肿毒。",
+        "origin": "为菊科植物菊的头状花序。",
+        "place": "白菊、滁菊、贡菊、杭菊",
+        "processing": "霜降前花正盛开时采收；白菊：割下花枝，捆成小把，倒挂阴干，然后摘取花序；滁菊：摘取花序，经硫黄熏过，晒至六成干时，用筛子筛成球状，晒干；贡菊：摘取花序，烘干；杭菊：杭白菊摘取花序，蒸后晒干；杭黄菊用炭火烘干。",
+        "property_flavor": "气清香，味甘、微苦。",
+        "taboo": "气虚胃寒，食少泄泻之病，宜少用之。凡阳虚或头痛而恶寒者均忌用。",
+        "traits": "头状花序倒圆锥形或圆筒形，有时稍压扁呈房形，直径1.5-3cm。总苞碟状，总苞片3-4层，卵形椭圆形，草质，黄绿色或褐绿色，外被柔毛，边缘膜质，花托半球形，无托片或托毛。舌状花数层，雌性，位于外围，类立色，劲直，上举，纵向折缩，散生金黄色腺点；管状花多数，两性，位于中央，为舌状花所限藏，黄色，先端5齿裂。瘦果不发育，无冠毛。体轻，质柔润，干时松脆。",
+        "dosage": "内服：煎汤，10~15g；或入丸、散；或泡茶。外用：适量，煎水洗；或捣敷。"
+      }
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "眩晕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目赤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心胸烦热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疔疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肿毒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《珍珠囊》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《用药心法》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "风热头痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桑菊饮",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "菊花酒",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "菊花散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "夜光丸",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "杞菊地黄丸",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "菊睛丸",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "菊花甘草汤",
+      "type": "Formula",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胸烦热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《珍珠囊》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《用药心法》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菊花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《温病条辨》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "菊花酒",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "徐嗣伯",
+      "object_type": "Source"
+    },
+    {
+      "subject": "菊花散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "夜光丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "杞菊地黄丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医级》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "菊睛丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "菊花甘草汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外科十法》",
+      "object_type": "Source"
+    }
+  ]
+}

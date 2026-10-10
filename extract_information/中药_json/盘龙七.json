@@ -1,0 +1,30 @@
+{
+  "entities": [
+    {
+      "name": "盘龙七",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补益脾胃，收涩固肠，利水活血",
+        "indication": "急慢性肠胃炎，浮肿，崩漏，白带，淋症，痢疾，黄水疮，秃疮，疥癣",
+        "usage": "内服：煎汤，6-9g。外用：适量，研末调敷",
+        "origin": "为虎耳草科植物秦岭岩白菜的根茎。全年均可采挖，洗净，除去杂质，切片晒干"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "盘龙七",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补益脾胃，收涩固肠，利水活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "盘龙七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "浮肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

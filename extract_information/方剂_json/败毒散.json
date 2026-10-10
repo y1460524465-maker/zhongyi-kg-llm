@@ -1,0 +1,210 @@
+{
+  "entities": [
+    {
+      "name": "败毒散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "用水一盅半，煎至八分，温服。"
+      }
+    },
+    {
+      "name": "荆防败毒散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "解表发散",
+        "indication": "外感风寒湿邪而正气不虚之表证及疮疡、瘾疹"
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "前胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "疮肿初起",
+      "type": "Symptom"
+    },
+    {
+      "name": "红肿疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶寒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "无汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "不渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌苔薄白",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉浮数",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "前胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解表发散",
+      "object_type": "Effect"
+    }
+  ]
+}

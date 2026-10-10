@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "灰藋",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，止痒透疹",
+        "indication": "用于风热感冒，痢疾，腹泻，龋齿痛；外用治皮肤瘙痒，麻疹不透",
+        "usage": "内服：煎汤，9～15g。外用：适量，煎水洗；或捣敷；或烧灰调敷"
+      }
+    },
+    {
+      "name": "小藜",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为藜科植物小藜的全草"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "灰藋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灰藋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痒透疹",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灰藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灰藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灰藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灰藋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "龋齿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灰藋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灰藋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "麻疹不透",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灰藋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灰藋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《上海常用中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

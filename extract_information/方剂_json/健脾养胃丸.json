@@ -1,0 +1,172 @@
+{
+  "entities": [
+    {
+      "name": "健脾养胃丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "益气养血，利滞消积，燥湿健脾",
+        "usage": "每服3钱，食后白汤送下"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "processing": "土炒"
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "广陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "processing": "酒洗"
+      }
+    },
+    {
+      "name": "白芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "麦芽",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "半夏曲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "健脾养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "广陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦芽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾养胃丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    }
+  ]
+}

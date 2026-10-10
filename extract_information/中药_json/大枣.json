@@ -1,0 +1,324 @@
+{
+  "entities": [
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "alias": "壶、木蜜、干枣、美枣、良枣、红枣、干赤枣、胶枣、南枣、白蒲枣、半官枣、刺枣",
+        "effect": "补脾和胃，益气生津，调营卫，解药毒",
+        "indication": "主治胃虚食少，脾弱便溏，气血津液不足，营卫不和，心悸怔忡。妇人赃躁。治胃虚食少，脾弱便溏，气血津液不足，营卫不和，心悸怔忡。妇人脏躁。",
+        "dosage": "内服：煎汤，9-15g",
+        "taboo": "凡有湿痰、积滞、齿病、虫病者，均不相宜。《医学入门》：心下痞，中满呕吐者忌之。多食动风，脾反受病。《本草经疏》：小儿疳病不宜食，患痰热者不宜食。《本草汇言》：胃痛气闭者，蛔结腹痛及一切诸虫为病者，咸忌之。《随息居饮食谱》：多食患胀泄热渴，最不益人。凡小儿、产后及温热、暑湿诸病前后，黄疽、 肿胀长并忌之。"
+      }
+    },
+    {
+      "name": "本经",
+      "type": "Source"
+    },
+    {
+      "name": "本草经集注",
+      "type": "Source"
+    },
+    {
+      "name": "别录",
+      "type": "Source"
+    },
+    {
+      "name": "药对",
+      "type": "Source"
+    },
+    {
+      "name": "日华子本草",
+      "type": "Source"
+    },
+    {
+      "name": "药品化义",
+      "type": "Source"
+    },
+    {
+      "name": "本草再新",
+      "type": "Source"
+    },
+    {
+      "name": "中国药植图鉴",
+      "type": "Source"
+    },
+    {
+      "name": "医学入门",
+      "type": "Source"
+    },
+    {
+      "name": "本草经疏",
+      "type": "Source"
+    },
+    {
+      "name": "本草汇言",
+      "type": "Source"
+    },
+    {
+      "name": "随息居饮食谱",
+      "type": "Source"
+    },
+    {
+      "name": "甘麦大枣汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "上三味，以水六升，煮取三升，温分三服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补脾和胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调营卫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解药毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃虚食少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾弱便溏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气血津液不足",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "营卫不和",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸怔忡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇人脏躁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本经",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草经集注",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "别录",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "药对",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "日华子本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "药品化义",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草再新",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "中国药植图鉴",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安中养脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平胃气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通九窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补少气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补中益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "强力",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除烦闷",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润心肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止嗽",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血补肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋肾暖胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "过敏性紫斑病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "贫血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘麦大枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘麦大枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘麦大枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小麦",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘麦大枣汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人脏躁",
+      "object_type": "Disease"
+    }
+  ]
+}

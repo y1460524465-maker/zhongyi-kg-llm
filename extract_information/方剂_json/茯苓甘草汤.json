@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "茯苓甘草汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "渗水，宁心助阳，散饮，发汗解肌，补气和中",
+        "indication": null,
+        "taboo": null,
+        "usage": "上四味，以水四升，煮取二升，去滓，分温三服"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两",
+        "effect": "淡能渗水，甘能宁心助阳",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "淡，甘",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两",
+        "effect": "辛能散饮，温能发汗解肌",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去皮",
+        "property_flavor": "辛，温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两",
+        "effect": "益土可以制水，甘平能补气和中",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炙",
+        "property_flavor": "甘平",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "切",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茯苓甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓甘草汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/茯苓甘草汤",
+      "object_type": "Source"
+    }
+  ]
+}

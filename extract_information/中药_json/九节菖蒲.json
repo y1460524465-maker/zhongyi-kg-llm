@@ -1,0 +1,229 @@
+{
+  "entities": [
+    {
+      "name": "九节菖蒲",
+      "type": "Herb",
+      "attributes": {
+        "alias": "小菖蒲、外菖蒲、节菖蒲、鸡爪莲、九节离、穿骨七",
+        "effect": "开窍，豁痰，祛风，宣湿，健胃，解毒",
+        "indication": "热病神昏谵语，癫痫痰厥，气闭耳聋，多梦健忘，胸痞呕恶，风湿痹痛，疮疥肿毒",
+        "taboo": "阴虚阳亢、烦躁汗多、精滑者慎服",
+        "usage": "内服：煎汤，1.5~6g；或入丸、散；或鲜品捣汁服。外用：适量，煎水洗；或鲜品捣敷；或研末调敷",
+        "origin": "毛茛科植物阿尔泰银莲花的根茎",
+        "place": "河南、山西、陕西、甘肃、内蒙古等地，主产陕西、河南、山西等地",
+        "processing": "小满前后采挖根茎，洗净晒干，搓去细毛",
+        "property_flavor": "味淡而辛",
+        "traits": "干燥根茎略呈纺锤形，微弯曲，偶有分歧；长l～6厘米，中部直径约3～7毫米。表面黄白色至棕色，上具多数横向半环状突起的鳞叶痕，交互排列成节状，并可见细小根痕。质坚脆，易折断，断面平坦，类白色至浅黄色，粉性，气无"
+      }
+    },
+    {
+      "name": "热病神昏谵语",
+      "type": "Symptom"
+    },
+    {
+      "name": "癫痫痰厥",
+      "type": "Symptom"
+    },
+    {
+      "name": "气闭耳聋",
+      "type": "Symptom"
+    },
+    {
+      "name": "多梦健忘",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸痞呕恶",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮疥肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "神经衰弱",
+      "type": "Disease"
+    },
+    {
+      "name": "消化不良",
+      "type": "Disease"
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿急惊风",
+      "type": "Disease"
+    },
+    {
+      "name": "高热抽搐",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹胀疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽疮疖",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病神昏谵语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癫痫痰厥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气闭耳聋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "多梦健忘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痞呕恶",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疥肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "神经衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消化不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿急惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "高热抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胀疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疽疮疖",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "豁痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宣湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "九节菖蒲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

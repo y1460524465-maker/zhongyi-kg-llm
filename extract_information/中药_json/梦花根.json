@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "梦花根",
+      "type": "Herb",
+      "attributes": {
+        "origin": "瑞香科植物结香的根",
+        "property_flavor": "辛，性温",
+        "effect": "祛风湿，舒筋活络，滋养肝肾",
+        "indication": "风湿痹痛，骨折，跌打损伤，梦遗，早泄，血崩，白带",
+        "dosage": "内服：煎汤，6-15g；或泡酒"
+      }
+    },
+    {
+      "name": "结香",
+      "type": "Herb",
+      "attributes": {
+        "traits": "落叶灌木，高1-2m。小枝粗壮，常呈三叉状分枝，棕红色，具皮孔，被淡黄色或灰色绢状长柔毛。叶互生而簇生于枝顶；椭圆状长圆形至长圆状倒披针形，长6-20cm，宽2-5cm，先端急尖，基部楔形，下延，上面被疏柔毛，下面粉绿色，被长硬毛，全缘。头状花序；总苞片披针形，长可达3cm；总花梗粗，短；花黄色，芳香；花被筒状，长10-12mm，外面有绢状长柔毛，裂片4，花瓣状平展；雄蕊8，2轮；子房椭圆形，先端被毛；花柱细长。核果卵形。花期3-4月，先时开花，果期约8月"
+      }
+    },
+    {
+      "name": "《分类草药性》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "梦花根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "梦花根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒筋活络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "梦花根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋养肝肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "梦花根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梦花根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梦花根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梦花根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梦遗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梦花根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "早泄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梦花根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血崩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梦花根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白带",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梦花根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《分类草药性》",
+      "object_type": "Source"
+    }
+  ]
+}

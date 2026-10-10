@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "name": "紫梢花",
+      "type": "Herb",
+      "attributes": {
+        "origin": "淡水海绵科动物脆弱针骨淡水海绵Spongilla fragilis Lecidy的干燥群体",
+        "place": "山东、江苏、河南",
+        "processing": "取原药材，除去杂质，置纱布袋中洗净，干燥",
+        "property_flavor": null,
+        "effect": "补肾助阳，固精缩尿",
+        "indication": "阳痿，遗精，白浊，虚寒带下，小便不禁，阴囊湿痒",
+        "dosage": "内服：研末，1.5-4.5g；或入丸、散。外用：适量，煎汤温洗局部",
+        "traits": "呈棒状或不规则块状，有的具分枝，长短不一，直径1～4cm。表面灰黄色至灰褐色，有纤维状细丝形成的网络，网眼内可见圆形小颗粒，中心常有残留的草茎或细枝。折断面呈放射形网状。体轻，质松。气微",
+        "taboo": null,
+        "meridian": null
+      }
+    },
+    {
+      "name": "阳痿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "遗精",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "白浊",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "虚寒带下",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小便不禁",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阴囊湿痒",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫梢花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾助阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫梢花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "固精缩尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫梢花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫梢花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫梢花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫梢花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚寒带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫梢花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便不禁",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫梢花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴囊湿痒",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "丹参饮",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "丹参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "檀香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丹参饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "丹参饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "檀香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "丹参饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    }
+  ]
+}

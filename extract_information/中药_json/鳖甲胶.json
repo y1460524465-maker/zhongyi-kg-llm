@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "鳖甲胶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "滋阴，补血，退热，消瘀",
+        "indication": "阴虚潮热，久疟不愈，癥瘕疟母，痔核肿痛",
+        "taboo": "脾胃虚寒，食减便溏者及孕妇慎服",
+        "usage": "内服：开水或黄酒化服，3~9g；或入丸剂",
+        "origin": "中华鳖背甲煎熬而成",
+        "property_flavor": "气腥，味微甜"
+      }
+    }
+  ],
+  "relations": []
+}

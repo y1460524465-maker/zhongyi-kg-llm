@@ -1,0 +1,391 @@
+{
+  "entities": [
+    {
+      "name": "安宫牛黄丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热解毒，豁痰开窍",
+        "indication": "高热、烦躁、神昏、谵语、抽搐；热人心包，神昏谵语，兼有脏实者；温热病，热邪内陷心包，痰热壅闭心窍；中风昏迷、小儿惊厥属邪热内闭者",
+        "taboo": null,
+        "usage": "共为细末，炼密为丸，每丸3克，金箔为衣。每服一丸，大人病重体实者，一日服二次。甚至日三服；小儿服半丸，不知，再服半丸"
+      }
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "清心解毒，豁痰开窍",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "郁金",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "芳香去秽，通窍开闭",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "犀角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "清心，凉血、解毒",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "助牛黄、犀角以泻心包火而清热毒",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "助牛黄、犀角以泻心包火而清热毒",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "助牛黄以豁痰解毒",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "山栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "助牛黄、犀角以泻心包火而清热毒",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "镇心安神",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "梅片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7.5克",
+        "effect": "芳香去秽，通窍开闭",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7.5克",
+        "effect": "开窍醒神",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "珍珠",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": "镇心安神",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "金箔衣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "镇心安神",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "高热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烦躁",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "神昏",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "谵语",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "抽搐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "中风昏迷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿惊厥",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "郁金",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "梅片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "珍珠",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金箔衣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "豁痰开窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "高热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦躁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "谵语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风昏迷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "安宫牛黄丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊厥",
+      "object_type": "Symptom"
+    }
+  ]
+}

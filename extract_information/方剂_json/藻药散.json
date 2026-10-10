@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "name": "藻药散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": "忌食厚味；戒酒、色",
+        "usage": "每用2克，置于掌中，以舌时时舐，以津咽下或水调慢咽.待肿消去三分之二即停药。"
+      }
+    },
+    {
+      "name": "证治准绳·疡医",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "海藻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "酒洗"
+      }
+    },
+    {
+      "name": "黄药子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "藻药散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "证治准绳·疡医",
+      "object_type": "Source"
+    },
+    {
+      "subject": "藻药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海藻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藻药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄药子",
+      "object_type": "Herb"
+    }
+  ]
+}

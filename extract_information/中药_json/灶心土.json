@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "name": "灶心土",
+      "type": "Herb",
+      "attributes": {
+        "alias": "灶中黄土、釜下土、釜月下土、灶中土、灶内黄土、灶心土",
+        "effect": "温中燥湿，止呕止血",
+        "indication": "主治呕吐反胃，腹痛泄泻，吐血、衄血、便血、尿血，妇女妊娠恶阻，崩漏带下，痈肿溃疡",
+        "usage": "内服:煎汤，15~30g；布包煎汤，澄清代水用，60~120g；或入散剂",
+        "taboo": "阴虚失血及热证呕吐反胃忌服",
+        "property_flavor": "味淡",
+        "traits": "为不规则的块状，大小不一。全体红褐色，表面有刀削痕。质较硬，但易砸碎，并有粉末脱落，断面细软，色稍深，常有蜂窝状小孔。具烟熏气"
+      }
+    },
+    {
+      "name": "伏龙肝",
+      "type": "Herb",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "usage": null,
+        "taboo": null,
+        "property_flavor": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妊娠恶阻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿溃疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止呕止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陆川本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灶心土",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草从新》",
+      "object_type": "Source"
+    }
+  ]
+}

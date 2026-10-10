@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "name": "透脓散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补益气血，托毒透脓",
+        "indication": "治痈疽诸毒，内脓已成，不穿破者，服之即破"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": "益气托毒，鼓动血行"
+      }
+    },
+    {
+      "name": "山甲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "processing": "炒末",
+        "effect": "贯彻经络而搜风，治症瘕积聚与周身麻痹"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "活血补血，养新血而破积宿血，畅血中之元气"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "和血补血，除积血内塞"
+      }
+    },
+    {
+      "name": "皂角针",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "effect": "搜风化痰引药上行，助消散穿透，软坚溃脓"
+      }
+    },
+    {
+      "name": "痈疽诸毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "透脓散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽诸毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "透脓散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补益气血，托毒透脓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "透脓散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "透脓散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "透脓散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "透脓散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "透脓散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "皂角针",
+      "object_type": "Herb"
+    }
+  ]
+}

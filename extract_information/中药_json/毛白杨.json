@@ -1,0 +1,62 @@
+{
+  "entities": [
+    {
+      "name": "毛白杨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10-15g",
+        "effect": "清热利湿，止咳化痰",
+        "indication": "肝炎，痢疾，淋浊，咳嗽痰喘",
+        "origin": "杨柳科植物毛白杨的树皮或嫩枝",
+        "place": "辽宁、河北、山西、陕西、甘肃、江苏、安徽、浙江、河南",
+        "processing": "秋、冬季或结合伐木采剥树皮，刮去粗皮，鲜用或晒干",
+        "property_flavor": "气微，味微",
+        "traits": "树皮板片状或卷筒状，厚2-4mm，外表面鲜时暗绿色，干后棕黑色，常残存银灰色的栓皮，皮孔明显，菱形，长2-14.5mm，宽3-13mm；内表面灰棕色，有细纵条纹理。质地坚韧，不易折断。断面显纤维性及颗粒性"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "毛白杨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛白杨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛白杨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛白杨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽痰喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "毛白杨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛白杨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳化痰",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,740 @@
+{
+  "entities": [
+    {
+      "name": "竹沥",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热滑痰，镇惊利窍",
+        "indication": "治中风痰迷，肺热痰壅，惊风，癫痫，壮热烦渴，子烦，破伤风",
+        "usage": "内服：冲服，30~60g；或入丸剂或熬膏。外用：适量，调敷或点眼。",
+        "taboo": "寒嗽及脾虚便溏者忌服。"
+      }
+    },
+    {
+      "name": "中风痰迷",
+      "type": "Disease"
+    },
+    {
+      "name": "肺热痰壅",
+      "type": "Disease"
+    },
+    {
+      "name": "惊风",
+      "type": "Disease"
+    },
+    {
+      "name": "癫痫",
+      "type": "Disease"
+    },
+    {
+      "name": "壮热烦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "子烦",
+      "type": "Disease"
+    },
+    {
+      "name": "破伤风",
+      "type": "Disease"
+    },
+    {
+      "name": "清热滑痰",
+      "type": "Effect"
+    },
+    {
+      "name": "镇惊利窍",
+      "type": "Effect"
+    },
+    {
+      "name": "中风风痹",
+      "type": "Disease"
+    },
+    {
+      "name": "胸中大热",
+      "type": "Symptom"
+    },
+    {
+      "name": "烦闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "卒中风失音不语",
+      "type": "Symptom"
+    },
+    {
+      "name": "久渴心烦",
+      "type": "Symptom"
+    },
+    {
+      "name": "子冒风痉",
+      "type": "Disease"
+    },
+    {
+      "name": "射罔毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "中风口噤",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰迷大热",
+      "type": "Symptom"
+    },
+    {
+      "name": "风痉癫狂",
+      "type": "Symptom"
+    },
+    {
+      "name": "烦闷消渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "血虚自汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "清心火",
+      "type": "Effect"
+    },
+    {
+      "name": "降肝火",
+      "type": "Effect"
+    },
+    {
+      "name": "化痰止渴",
+      "type": "Effect"
+    },
+    {
+      "name": "解热除烦",
+      "type": "Effect"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "明眼目",
+      "type": "Effect"
+    },
+    {
+      "name": "寒嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "脾虚便溏",
+      "type": "Symptom"
+    },
+    {
+      "name": "寒痰湿痰",
+      "type": "Symptom"
+    },
+    {
+      "name": "次食生痰",
+      "type": "Symptom"
+    },
+    {
+      "name": "寒湿",
+      "type": "Symptom"
+    },
+    {
+      "name": "风痱",
+      "type": "Disease"
+    },
+    {
+      "name": "心神恍惚",
+      "type": "Symptom"
+    },
+    {
+      "name": "不能言",
+      "type": "Symptom"
+    },
+    {
+      "name": "卒消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "小便多",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后身或强直",
+      "type": "Symptom"
+    },
+    {
+      "name": "口噤面青",
+      "type": "Symptom"
+    },
+    {
+      "name": "手足强反张",
+      "type": "Symptom"
+    },
+    {
+      "name": "妊娠恒若烦闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿惊风天吊",
+      "type": "Disease"
+    },
+    {
+      "name": "四肢抽搐",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿口噤",
+      "type": "Symptom"
+    },
+    {
+      "name": "体热",
+      "type": "Symptom"
+    },
+    {
+      "name": "乙脑",
+      "type": "Disease"
+    },
+    {
+      "name": "流脑",
+      "type": "Disease"
+    },
+    {
+      "name": "高热",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom"
+    },
+    {
+      "name": "金疮中风",
+      "type": "Disease"
+    },
+    {
+      "name": "口噤欲死",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳逆短气",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸中吸吸",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳出涕唾",
+      "type": "Symptom"
+    },
+    {
+      "name": "嗽出臭脓涕粘",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿吻疮",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿赤目",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿重舌",
+      "type": "Disease"
+    },
+    {
+      "name": "风着人面",
+      "type": "Symptom"
+    },
+    {
+      "name": "引口偏",
+      "type": "Symptom"
+    },
+    {
+      "name": "着牙车急舌不得转",
+      "type": "Symptom"
+    },
+    {
+      "name": "伤寒失音不语",
+      "type": "Symptom"
+    },
+    {
+      "name": "霍乱狂闷烦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐泻无度",
+      "type": "Symptom"
+    },
+    {
+      "name": "气欲绝",
+      "type": "Symptom"
+    },
+    {
+      "name": "妊娠中风痉",
+      "type": "Disease"
+    },
+    {
+      "name": "口噤烦闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿狂语",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "壮热烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风痰迷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热痰壅",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子烦",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热滑痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇惊利窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风风痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中大热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "卒中风失音不语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久渴心烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子冒风痉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "射罔毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风口噤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰迷大热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风痉癫狂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦闷消渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血虚自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清心火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降肝火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解热除烦",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明眼目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心神恍惚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不能言",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "卒消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后身或强直",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口噤面青",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足强反张",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妊娠恒若烦闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风天吊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿口噤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乙脑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流脑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "高热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "金疮中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口噤欲死",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳逆短气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中吸吸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳出涕唾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "嗽出臭脓涕粘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿吻疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿赤目",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿重舌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风着人面",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "引口偏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "着牙车急舌不得转",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "伤寒失音不语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "霍乱狂闷烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐泻无度",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气欲绝",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠中风痉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口噤烦闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "竹沥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿狂语",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "entities": [
+    {
+      "name": "桂枝汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "解肌发表，调和营卫",
+        "indication": "外感风寒表虚证。头痛发热，汗出恶风，鼻鸣干呕，苔白不渴，脉浮缓或浮弱者",
+        "usage": "桂枝9g  芍药9g  甘草6g  生姜9g  大枣3枚"
+      }
+    },
+    {
+      "name": "桂枝加桂汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "温通心阳，平冲降逆",
+        "indication": "太阳病误用温针或发汗过多而发奔豚",
+        "usage": "桂枝汤原方中桂枝加至15g"
+      }
+    },
+    {
+      "name": "桂枝加芍药汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "调和气血，缓急止痛",
+        "indication": "太阳病误下，邪陷太阳，腹满时痛者",
+        "usage": "桂枝汤原方中芍药加至18g"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "effect": "发汗解肌，温经通络，助阳化气"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养血调经，平肝止痛，敛阴止汗"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气补中，清热解毒，祛痰止咳，缓急止痛，调和药性"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "发汗解表，温中止呕，温肺止咳"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补中益气，养血安神，缓和药性"
+      }
+    },
+    {
+      "name": "太阳病",
+      "type": "Disease"
+    },
+    {
+      "name": "奔豚",
+      "type": "Disease"
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风寒表虚证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解肌发表，调和营卫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂枝加桂汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "奔豚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝加桂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温通心阳，平冲降逆",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂枝加芍药汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "太阳病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝加芍药汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "调和气血，缓急止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    }
+  ]
+}

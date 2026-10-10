@@ -1,0 +1,174 @@
+{
+  "entities": [
+    {
+      "name": "蓝布正",
+      "type": "Herb",
+      "attributes": {
+        "alias": "追风七,五气朝阳草,红心草，见肿消[陕西]，水杨梅，地椒（《庚辛玉册》），头晕药，路边香，卜地香，凤凰窝，换骨丹（《贵州民间方药集》），南布正（《贵阳民间药草》），水益母（《湖南药物志》），香鸡归，老蛇骚，路边黄，乌骨鸡（《贵州草药》）",
+        "effect": "益气健脾，补血养阴，润肺化痰",
+        "indication": "气血不足，虚痨咳嗽，脾虚带下",
+        "property_flavor": "甘、微苦，凉",
+        "meridian": "肝、脾、肺经",
+        "dosage": "内服，煎汤，9～30g；外用适量",
+        "processing": "夏、秋二季采收，洗净，晒干",
+        "origin": "蔷薇科植物路边青的干燥全草"
+      }
+    },
+    {
+      "name": "气血不足",
+      "type": "Disease"
+    },
+    {
+      "name": "虚痨咳嗽",
+      "type": "Disease"
+    },
+    {
+      "name": "脾虚带下",
+      "type": "Disease"
+    },
+    {
+      "name": "老年头晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "头晕疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "虚弱",
+      "type": "Symptom"
+    },
+    {
+      "name": "精神不振",
+      "type": "Symptom"
+    },
+    {
+      "name": "骨蒸自汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "虚弱咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾亏体弱阳痿",
+      "type": "Disease"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "妇女小腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease"
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气血不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚痨咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "老年头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "精神不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚弱咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾亏体弱阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女小腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓝布正",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    }
+  ]
+}

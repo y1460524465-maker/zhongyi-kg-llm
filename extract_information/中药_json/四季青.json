@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "name": "四季青",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，消肿祛瘀",
+        "indication": "肺热咳嗽，咽喉肿痛，痢疾，胁痛，热淋；外治烧烫伤，皮肤溃疡",
+        "property_flavor": "苦、涩，凉",
+        "meridian": "肺、大肠、膀胱经",
+        "dosage": "内服：煎汤，15-30g。外用：适量，鲜品捣敷；或水煎洗、涂",
+        "origin": "冬青科植物冬青Ilex chinensis Sims的干燥叶",
+        "processing": "取原药材，除去残枝、枯叶及杂质，略润，切成丝，干燥，筛去灰屑",
+        "traits": "气微清香，味苦、涩"
+      }
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胁痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热淋",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "皮肤溃疡",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四季青",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四季青",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四季青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四季青",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胁痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四季青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四季青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四季青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四季青",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，消肿祛瘀",
+      "object_type": "Effect"
+    }
+  ]
+}

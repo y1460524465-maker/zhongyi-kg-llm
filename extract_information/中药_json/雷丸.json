@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "name": "雷丸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15～21g，不宜入煎剂，一般研粉服。一次5～7g，饭后用温开水调服，一日3次，连服3天。",
+        "effect": "杀虫消积",
+        "indication": "用于绦虫、钩虫、蛔虫病，虫积腹痛，小儿疳积。",
+        "origin": "多孔菌科植物雷丸菌的菌核",
+        "place": "主产四川、贵州、云南、湖北、广西、陕西。此外，浙江、湖南、广东、安徽、福建等省亦产。",
+        "processing": "洗净，晒干，粉碎。不得蒸煮或高温烘烤。",
+        "property_flavor": "味淡",
+        "taboo": "有虫积而脾胃虚寒者慎服。",
+        "traits": "菌核体通常为不规则的坚硬块状，歪球形或歪卵形，直径0.8～2.5厘米，罕达4厘米，表面黑棕色，具细密的纵纹；内面为紧密交织的菌丝体，蜡白色，半透明而略带粘性，具同色的纹理。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "绦虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "钩虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虫积腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《玉楸药解》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陕西中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《经验前方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《杨氏家藏方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《千金方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "雷丸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学心悟》",
+      "object_type": "Source"
+    }
+  ]
+}

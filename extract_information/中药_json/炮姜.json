@@ -1,0 +1,185 @@
+{
+  "entities": [
+    {
+      "name": "炮姜",
+      "type": "Herb",
+      "attributes": {
+        "origin": "姜科植物姜Zingiber officinale Rosc.",
+        "place": "四川、贵州",
+        "effect": "温中散寒，温经止血",
+        "indication": "脾胃虚寒，腹痛吐泻，吐衄崩漏，阳虚失血",
+        "usage": "内服：煎汤，3~6g；或入丸、散。外用：适量，研末调敷。",
+        "taboo": "孕妇及阴虚有热者禁服",
+        "meridian": "脾经、胃经、肾经、心经、肺经"
+      }
+    },
+    {
+      "name": "炮姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "干姜散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治气嗽，呼吸短气，心胸不利，不思饮食"
+      }
+    },
+    {
+      "name": "交泰丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "怠情嗜卧，四肢不收，沉困懒倦"
+      }
+    },
+    {
+      "name": "姜术二仁汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "脾胀善呃逆，肢体疲重，夜卧不安"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "干姜散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炮姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炮姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "姜术二仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炮姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "干姜散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "干姜散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呼吸短气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干姜散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胸不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干姜散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不思饮食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "怠情嗜卧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢不收",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "沉困懒倦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "姜术二仁汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "姜术二仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "善呃逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "姜术二仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体疲重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "姜术二仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夜卧不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "炮姜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "炮姜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温经止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "炮姜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "炮姜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "炮姜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐衄崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "炮姜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳虚失血",
+      "object_type": "Disease"
+    }
+  ]
+}

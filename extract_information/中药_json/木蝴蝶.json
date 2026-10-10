@@ -1,0 +1,325 @@
+{
+  "entities": [
+    {
+      "name": "木蝴蝶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "千张纸、兜铃、磊刀树、三百两银药、玉蝴蝶、云故纸、破布子、白故纸、海船果心、白玉纸、白千层、纸肉、故纸、洋故纸、鸭船层纸、千纸肉、海船皮、满天飞",
+        "origin": "本品为紫葳科植物木蝴蝶Oroxylum indicum （L.）Vent.的干燥成熟种子。秋、冬二季采收成熟果实，曝晒至果实开裂，取出种子，晒干。",
+        "effect": "润肺，舒肝，和胃，生肌",
+        "indication": "主治咳嗽，喉痹，音哑，肝胃气痛，疮口不敛。治干咳不止常配夏枯草。",
+        "dosage": "内服：煎汤，6~9g；研末，1.5~3g。外用：适量，敷贴；或研末撒患处。"
+      }
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "音哑",
+      "type": "Symptom"
+    },
+    {
+      "name": "肝胃气痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮口不敛",
+      "type": "Symptom"
+    },
+    {
+      "name": "夏枯草",
+      "type": "Herb"
+    },
+    {
+      "name": "胖大海",
+      "type": "Herb"
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "桑白皮",
+      "type": "Herb"
+    },
+    {
+      "name": "款冬花",
+      "type": "Herb"
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb"
+    },
+    {
+      "name": "玄参",
+      "type": "Herb"
+    },
+    {
+      "name": "菊花",
+      "type": "Herb"
+    },
+    {
+      "name": "金银花",
+      "type": "Herb"
+    },
+    {
+      "name": "蝉蜕",
+      "type": "Herb"
+    },
+    {
+      "name": "浙贝母",
+      "type": "Herb"
+    },
+    {
+      "name": "南沙参",
+      "type": "Herb"
+    },
+    {
+      "name": "千里光",
+      "type": "Herb"
+    },
+    {
+      "name": "鸭肝",
+      "type": "Herb"
+    },
+    {
+      "name": "冰糖",
+      "type": "Herb"
+    },
+    {
+      "name": "急性气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "百日咳",
+      "type": "Disease"
+    },
+    {
+      "name": "肝气痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽炎",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性咽炎",
+      "type": "Disease"
+    },
+    {
+      "name": "干咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "声音嘶哑",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽痛喉痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "慢性咽喉炎",
+      "type": "Disease"
+    },
+    {
+      "name": "中心视网膜炎",
+      "type": "Disease"
+    },
+    {
+      "name": "急慢性支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肺结核咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "音哑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肝胃气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮口不敛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肝气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性咽炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "干咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "声音嘶哑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛喉痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性咽喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中心视网膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急慢性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺结核咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木蝴蝶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "夏枯草",
+      "object_type": "Herb"
+    }
+  ]
+}

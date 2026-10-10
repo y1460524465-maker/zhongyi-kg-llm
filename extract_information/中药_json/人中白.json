@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "人中白",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，降火，消瘀",
+        "indication": "劳热，肺痿，衄血，吐血，喉痹，牙疳，口舌生疮",
+        "origin": "为人科健康人尿自然沉结的固体物",
+        "property_flavor": "味微咸",
+        "taboo": "《本草从新》：阳虚无火，食不消，肠不实者忌之。",
+        "usage": "内服：研末，3~6g。外用：适量，研末吹、掺或调敷。"
+      }
+    }
+  ],
+  "relations": []
+}

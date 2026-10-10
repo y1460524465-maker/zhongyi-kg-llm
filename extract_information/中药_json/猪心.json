@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "猪心",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养心安神，镇惊",
+        "indication": "惊悸怔忡，自汗失眠，神志恍惚，癫痫",
+        "meridian": "心经",
+        "usage": "内服：煮食，适量；或入丸剂",
+        "origin": "《随息居饮食谱》"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪心",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养心安神，镇惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪心",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊悸怔忡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪心",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "自汗失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪心",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "神志恍惚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪心",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪心",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《随息居饮食谱》",
+      "object_type": "Source"
+    }
+  ]
+}

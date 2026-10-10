@@ -1,0 +1,40 @@
+{
+  "entities": [
+    {
+      "name": "常山",
+      "type": "Herb",
+      "attributes": {
+        "alias": "黄常山、鸡骨常山、鸡骨风、风骨木、白常山、大金刀",
+        "effect": "截疟，涌吐痰涎",
+        "indication": "主治疟疾，胸中痰饮积聚",
+        "origin": "虎耳草科植物常山Dichroa febrifuga Lour. 的干燥根",
+        "processing": "常山：拣去杂质，以水略浸泡后捞出，润透，切片，晒干。酒常山：取常山片用黄酒拌匀，稍闷润，置锅内用文火炒至略呈黄色，取出放凉，（每常山片100斤用黄酒10～20斤）醋常山：取常山片用米醋拌炒如上法。（每常山片100斤用米醋10～20斤）",
+        "dosage": "内服：煎汤，5~10g；或入丸、散",
+        "taboo": "有催吐副作用，用量不宜过大，孕妇慎用。正气虚弱，久病体弱者忌服。①《雷公炮炙论》：勿令老人、久病服之，切忌也。②《本草经集注》：畏玉札。④《本草蒙筌》：忌鸡肉。⑤《本草经疏》：疟非由于瘴气及老痰积饮所致者勿用。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "常山",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "截疟，涌吐痰涎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "常山",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "常山",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中痰饮积聚",
+      "object_type": "Symptom"
+    }
+  ]
+}

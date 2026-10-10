@@ -1,0 +1,200 @@
+{
+  "entities": [
+    {
+      "name": "白虎加苍术汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "湿温病。身热胸痞，汗多，舌红苔白腻等。以及风湿热痹，症见身大热，关节肿痛等。",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《类证活人书》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿温病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿热痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汗多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "苔白腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《类证活人书》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加苍术汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    }
+  ]
+}

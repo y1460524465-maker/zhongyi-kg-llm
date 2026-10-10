@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "秦艽",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，和血舒筋，清热利尿",
+        "indication": "风湿痹痛，筋骨拘挛，黄疸，便血，骨蒸潮热，小儿疳热，小便不利",
+        "dosage": "内服：煎汤，5~10g；或浸酒；或入丸、散",
+        "taboo": "久痛虚羸，溲多、便滑者忌服",
+        "place": "龙胆科植物秦艽Gentiana macrophylla Pall. 、麻花秦艽Gentiana straminea Maxim. 、粗茎秦艽Gentiana crassicaulis Duthie ex Burk.或小秦艽Gentiana dahurica Fisch. 的干燥根",
+        "property_flavor": "气特异，味苦、微涩",
+        "processing": "除去杂质，洗净，润透，切厚片，晒干",
+        "origin": "《本经》"
+      }
+    }
+  ],
+  "relations": []
+}

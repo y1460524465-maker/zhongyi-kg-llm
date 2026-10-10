@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "name": "鬼针草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鬼钗草，鬼黄花，山东老鸦草，婆婆针，鬼骨针，盲肠草，跳虱草，豆渣菜，叉婆子，引线包，针包草，一把针，刺儿鬼，鬼蒺藜，乌藤菜，清胃草，跟人走，粘花衣，鬼菊，擂钻草，山虱母，粘身草，咸丰草，脱力草",
+        "effect": "清热解毒，活血散瘀",
+        "indication": "疟疾，腹泻，痢疾，肝炎，急性肾炎，胃痛，噎膈，肠痈，咽喉肿痛，跌打损伤，蛇虫咬伤",
+        "property_flavor": "苦，平",
+        "meridian": "肝、脾、大肠经",
+        "usage": "内服：煎汤，15-30g，鲜品倍量；或捣汁。\n外用：适量，捣敷或取汁涂；或煎水熏洗。",
+        "taboo": "《泉州本草》：孕妇忌服。",
+        "processing": "将原药除去残根等杂质，快洗，润透，切短段；干燥，筛去灰屑。",
+        "origin": "菊科植物鬼针草Bidens bipinnata L.带花、果的干燥地上部分"
+      }
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "腹泻",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "急性肾炎",
+      "type": "Disease"
+    },
+    {
+      "name": "胃痛",
+      "type": "Disease"
+    },
+    {
+      "name": "噎膈",
+      "type": "Disease"
+    },
+    {
+      "name": "肠痈",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "蛇虫咬伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噎膈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇虫咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鬼针草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "甜杏仁",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "味甘，性平",
+        "effect": "润肺，平喘",
+        "meridian": "入肺经、大肠经",
+        "indication": "虚劳咳喘，肠燥便秘",
+        "dosage": "6～9克",
+        "processing": "拣净杂质，置沸水中略煮，俟皮微皱起捞出，浸入凉水中，脱去种皮，晒干簸净",
+        "place": "主产河北、北京、山东等地；此外，陕西、四川、内蒙古、甘肃、新疆、山西、东北等地亦产"
+      }
+    }
+  ],
+  "relations": []
+}

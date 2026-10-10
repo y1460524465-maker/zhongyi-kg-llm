@@ -1,0 +1,67 @@
+{
+  "entities": [
+    {
+      "name": "木犀花",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "辛，温",
+        "effect": "化痰止咳，散瘀",
+        "indication": "痰饮喘咳，肠风血痢，牙痛，口臭",
+        "meridian": "归肺、脾、肾经",
+        "dosage": "内服：煎汤，3～9g，或泡茶、浸酒。外用：煎水含漱，或蒸热外熨。",
+        "origin": "本品为木犀科植物木犀Osmanthus fragrans Lour.的干燥花。9～10月开花时采收，阴干，拣去杂质，密闭贮藏，防止走失香气及受潮发霉。"
+      }
+    },
+    {
+      "name": "木犀",
+      "type": "Herb",
+      "attributes": {
+        "alias": "九里香、岩桂（《墨庄漫录》），桂（《花镜》）"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "木犀花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木犀花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木犀花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰饮喘咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木犀花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木犀花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木犀花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口臭",
+      "object_type": "Symptom"
+    }
+  ]
+}

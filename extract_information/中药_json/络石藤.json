@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "络石藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "石鲮、明石、悬石、云珠、云丹、石磋、略石、领石、石龙藤、耐冬、石血、白花藤、红对叶肾、对叶藤、石南藤、过墙风、石邦藤、骑墙虎、风藤、折骨草、交脚风、铁线草、藤络、见水生、苦连藤、软筋藤、万字金银、石气柑",
+        "effect": "祛风，通络，止血，消瘀",
+        "indication": "风湿痹痛，筋脉拘挛，痈肿，喉痹，吐血，跌打损伤，产后恶露不行",
+        "taboo": "阴脏人畏寒易泄者勿服",
+        "usage": "内服：煎场，6～15g单味可用至30g；浸酒，30~60g；或入丸、散剂。外用：适量，研末调敷或捣汁涂",
+        "dosage": null,
+        "meridian": null,
+        "origin": "夹竹桃科植物络石Trachelospermum jasminoides （Lindl.）Lem. 的干燥带叶藤茎",
+        "place": "分布于华东、中南、西南及河北、陕西、台湾等地",
+        "processing": "用水洗去泥土，拣净杂质，稍浸泡，润透，切断，晒干",
+        "property_flavor": null,
+        "traits": "干燥的茎枝圆柱形，长短不一，直径1.5～5毫米，多分枝，弯曲，表面赤褐色或棕褐色，有纵细纹，散生攀援根或点状突起的根痕，以节部为多，茎节略膨大。质坚韧，折断面淡黄白色。叶片对生，多数已脱落，呈椭圆形或卵状披针形，有时稍卷折，淡绿色或暗绿色，厚纸质。气弱，味微苦"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "络石藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "络石藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "络石藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "络石藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "络石藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "络石藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋脉拘挛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "络石藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "络石藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "络石藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "络石藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "络石藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后恶露不行",
+      "object_type": "Disease"
+    }
+  ]
+}

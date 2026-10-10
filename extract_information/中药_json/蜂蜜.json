@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "name": "蜂蜜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补中，润燥，止痛，解毒",
+        "indication": "肺燥咳嗽，肠燥便秘，胃脘疼痛，鼻渊，口疮，汤火烫伤，解乌头毒",
+        "meridian": "归肺经、脾经、大肠经",
+        "taboo": "痰湿内蕴、中满痞胀及大便不实者禁服",
+        "usage": "内服：冲调，15~30g；或入丸剂、膏剂"
+      }
+    },
+    {
+      "name": "肺燥咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠燥便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃脘疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "鼻渊",
+      "type": "Symptom"
+    },
+    {
+      "name": "口疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "汤火烫伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "乌头毒",
+      "type": "Disease"
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺燥咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠燥便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃脘疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻渊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汤火烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乌头毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补中，润燥，止痛，解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草衍义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蜂蜜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

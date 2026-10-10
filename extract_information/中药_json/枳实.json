@@ -1,0 +1,216 @@
+{
+  "entities": [
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3~10g",
+        "effect": "破气，散痞，泻痰，消积。治胸腹胀满，胸痹，痞痛，痰癖，水肿，食积，便秘，胃下垂，子宫下垂，脱肛。",
+        "indication": "胸腹胀满，胸痹，痞痛，痰癖，水肿，食积，便秘，胃下垂，子宫下垂，脱肛。",
+        "origin": "本品为芸香科植物酸橙Citrus aurantium L. 及其栽培变种或甜橙Citrus sinensis Osbeck 的干燥幼果。",
+        "processing": "枳实:拣净杂质，用水浸泡至八成透，捞出，润至内无硬心，切片，晾干。炒枳实:先将麸皮撒匀于加热的锅内，俟烟冒出时，加入枳实片，拌炒至微呈焦黄色，取出，筛去麸皮，放凉。（每枳实片100斤，用麸皮10斤）",
+        "property_flavor": "味苦、微酸",
+        "traits": "外果皮绿褐色、果肉厚、色白、瓤小、质坚实、香气浓者为佳。",
+        "taboo": "①《医学入门》:虚而久病，不可惧服。②《本草备要》:孕妇及气虚人忌用。③《得配本草》:大损真元，非邪实者，不可误用。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痞痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰癖",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃下垂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "子宫下垂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散痞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胸痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃下垂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫下垂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本经",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "别录",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "药性论",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "珍珠囊",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "医学启源",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草再新",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枳实",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "现代实用中药",
+      "object_type": "Source"
+    }
+  ]
+}

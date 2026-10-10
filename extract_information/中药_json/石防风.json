@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "石防风",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散风清热，降气祛痰",
+        "indication": "感冒，咳嗽，痰喘，头风眩痛",
+        "dosage": "内服：煎汤，3-9g；或研末",
+        "origin": "为伞形科植物石防风的根"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头风眩痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石防风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散风清热，降气祛痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石防风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石防风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石防风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石防风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风眩痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

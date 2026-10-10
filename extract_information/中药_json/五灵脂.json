@@ -1,0 +1,628 @@
+{
+  "entities": [
+    {
+      "name": "五灵脂",
+      "type": "Herb",
+      "attributes": {
+        "alias": "药本、寒号虫粪、寒雀粪",
+        "effect": "行血止痛、止血",
+        "indication": "心腹血气诸痛，妇女经闭，产后瘀血作痛；妇女血崩，经水过多，赤带不绝；蛇、蝎、蜈蚣咬伤",
+        "dosage": "3~10g",
+        "taboo": "血虚腹痛，血虚经闭，产妇去血过多发晕，心虚有火作痛，病属血虚无瘀滞者，皆所当忌",
+        "processing": "净制、碎制、醋制、酒制",
+        "origin": "鼯鼠科动物橙足鼯鼠和飞鼠等的干燥粪便",
+        "property_flavor": null,
+        "meridian": null,
+        "place": "河北、山西、青海、甘肃、云南等地",
+        "traits": null
+      }
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "蒲黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川乌头",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白矾",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白及",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "小茴香",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "柏子仁",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "核桃仁",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "海螵蛸",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "延胡索",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "莪术",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "高良姜",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "巴豆",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "乌头",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "神曲",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芦荟",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "阿魏",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牵牛子",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黑豆",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "马兜铃",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "苦杏仁",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "铅丹",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "花椒",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "dosage": null,
+        "taboo": null,
+        "processing": null,
+        "origin": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹血气诸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后瘀血作痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经水过多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤带不绝",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇、蝎、蜈蚣咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    }
+  ]
+}

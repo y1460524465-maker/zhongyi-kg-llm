@@ -1,0 +1,139 @@
+{
+  "entities": [
+    {
+      "name": "吴茱萸汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "温中补虚，降逆止呕",
+        "indication": "肝胃虚寒，浊阴上逆证。食后泛泛欲呕，或呕吐酸水，或干呕，或吐清涎冷沫，胸满脘痛，巅顶头痛，畏寒肢凉，甚则伴手足逆冷，大便泄泻，烦躁不宁，舌淡苔白滑，脉沉弦或迟",
+        "taboo": "胃热呕吐，阴虚呕吐，或肝阳上亢之头痛均禁用",
+        "usage": "上四味，以水七升，煮取二升，去滓。温服七合，日三服（现代用法：水煎服）"
+      }
+    },
+    {
+      "name": "吴茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "温胃暖肝祛寒，和胃降逆止呕",
+        "property_flavor": "辛苦而性热",
+        "meridian": "肝、脾、胃、肾经"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4枚"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠呕吐",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "神经性呕吐",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "神经性头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "耳源性眩晕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "巅顶头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸满脘痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "畏寒肢冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "吴茱萸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便泄泻",
+      "object_type": "Symptom"
+    }
+  ]
+}

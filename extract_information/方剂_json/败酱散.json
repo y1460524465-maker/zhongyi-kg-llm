@@ -1,0 +1,127 @@
+{
+  "entities": [
+    {
+      "name": "败酱散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "附子汤、薏苡附子散",
+        "effect": "利湿排脓，破血消肿",
+        "indication": "肠痈内已成脓，身无热，肌肤甲错，腹皮急，如肿状，按之软，脉数。现用于急性阑尾炎脓肿已成，或慢性阑尾炎急性发作，腹部柔软，压痛不明显，并见面色苍白，脉弱等阳虚证候者。",
+        "usage": "上药三味，杵为粗末。用水400毫升，煎至200毫升，顿服。"
+      }
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《校注妇人良方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《证洽准绳·疡医》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "薏苡仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "败酱",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "肠痈",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "败酱散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "败酱散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《校注妇人良方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "败酱散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《证洽准绳·疡医》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "败酱散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败酱散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败酱散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "败酱",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "败酱散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿排脓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "附子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "扶助阳气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "败酱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破瘀排脓",
+      "object_type": "Effect"
+    }
+  ]
+}

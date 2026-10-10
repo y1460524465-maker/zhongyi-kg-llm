@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "伸筋草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "石松，过山龙，火炭葛，金毛狮子草，金腰带，狮子草，狮子毛草，立筋草，舒筋草，铺筋草，抽筋草，分筋草，过筋草，地棚窝草，筋骨草，绿毛伸筋，小伸筋，凤尾伸筋，蜈蚣藤，大地毛公，缠身龙，猫藤草，通伸草，山猫儿，老虎垫坐，盘龙草，烂腰蛇，宽筋草",
+        "effect": "祛风散寒，除湿消肿，舒筋活血。治风寒湿痹，关节酸痛，皮肤麻木，四肢软弱，水肿，跌打损伤。",
+        "indication": "主治风寒湿痹，关节酸痛，皮肤麻木，四肢软弱，水肿，跌打损伤。",
+        "processing": "取原药材，除去杂质，洗净，稍润，切段，干燥。",
+        "taboo": "《四川中药志》：孕妇及出血过多者忌服。",
+        "usage": "内服：煎汤，9~15g；或浸酒。"
+      }
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "关节酸痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "皮肤麻木",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢软弱",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "伸筋草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "伸筋草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "伸筋草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "伸筋草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢软弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "伸筋草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "伸筋草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    }
+  ]
+}

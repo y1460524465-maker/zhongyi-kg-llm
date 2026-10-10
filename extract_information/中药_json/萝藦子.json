@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "萝藦子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补益精气，生肌止血",
+        "indication": "虚劳，阳萎，遗精，金疮出血",
+        "usage": "内服：煎汤，9-18g；或研末"
+      }
+    },
+    {
+      "name": "虚劳",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阳萎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "遗精",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "金疮出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "补益精气",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "生肌止血",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "萝藦子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝藦子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳萎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝藦子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝藦子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "金疮出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "萝藦子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补益精气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "萝藦子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生肌止血",
+      "object_type": "Effect"
+    }
+  ]
+}

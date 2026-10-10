@@ -1,0 +1,214 @@
+{
+  "entities": [
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化湿开胃，温脾止泻，理气安胎",
+        "indication": "湿浊中阻，脘痞不饥，脾胃虚寒，呕吐泄泻，妊娠恶阻，胎动不安",
+        "usage": "内服：煎汤，3~6g（不宜久煎），后下；或入丸、散",
+        "traits": "气芳香而浓烈，味辛凉、微苦",
+        "processing": "砂仁：除去杂质及果壳，捣碎。\\n盐砂仁：取净砂仁，用盐水浸泡拌匀，文火炒至微干，取出放凉。（每砂仁100斤用盐2斤8两，加适量开水溶化澄清）"
+      }
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source"
+    },
+    {
+      "name": "《海药本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "《药品化义》",
+      "type": "Source"
+    },
+    {
+      "name": "《得配本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《活幼心书》",
+      "type": "Source"
+    },
+    {
+      "name": "《古今名医方论》",
+      "type": "Source"
+    },
+    {
+      "name": "《济生方》",
+      "type": "Source"
+    },
+    {
+      "name": "《仁斋直指方》",
+      "type": "Source"
+    },
+    {
+      "name": "《小儿卫生总微论方》",
+      "type": "Source"
+    },
+    {
+      "name": "《事林广记》",
+      "type": "Source"
+    },
+    {
+      "name": "《景岳全书》",
+      "type": "Source"
+    },
+    {
+      "name": "《局方》",
+      "type": "Source"
+    },
+    {
+      "name": "《赤水玄珠》",
+      "type": "Source"
+    },
+    {
+      "name": "《东医宝鉴》",
+      "type": "Source"
+    },
+    {
+      "name": "《（鱼孚）溪单方选》",
+      "type": "Source"
+    },
+    {
+      "name": "《简便单方》",
+      "type": "Source"
+    },
+    {
+      "name": "《直指方》",
+      "type": "Source"
+    },
+    {
+      "name": "《静耘斋集验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《朱氏集验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《苍生司命》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《妇人良方》",
+      "type": "Source"
+    },
+    {
+      "name": "《疡科选粹》",
+      "type": "Source"
+    },
+    {
+      "name": "《疡医大全》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "砂仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化湿开胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "砂仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温脾止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "砂仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气安胎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "砂仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘痞不饥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砂仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砂仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妊娠恶阻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砂仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎动不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砂仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘痞不饥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砂仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砂仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妊娠恶阻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砂仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎动不安",
+      "object_type": "Symptom"
+    }
+  ]
+}

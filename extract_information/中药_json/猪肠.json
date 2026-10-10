@@ -1,0 +1,114 @@
+{
+  "entities": [
+    {
+      "name": "猪肠",
+      "type": "Herb",
+      "attributes": {
+        "alias": "猪脏",
+        "effect": "清热祛风，止血。主肠风便血，血痢，痔漏，脱肛",
+        "indication": "肠风便血，血痢，痔漏，脱肛",
+        "usage": "内服：煮食，适量；或入丸剂",
+        "taboo": "外感不清，脾虚滑泻者均忌",
+        "property_flavor": "入大肠"
+      }
+    },
+    {
+      "name": "《得配本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《千金·食治》",
+      "type": "Source"
+    },
+    {
+      "name": "孟诜",
+      "type": "Source"
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source"
+    },
+    {
+      "name": "肠风便血",
+      "type": "Disease"
+    },
+    {
+      "name": "血痢",
+      "type": "Disease"
+    },
+    {
+      "name": "痔漏",
+      "type": "Disease"
+    },
+    {
+      "name": "脱肛",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪肠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪肠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪肠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪肠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪肠",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《得配本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪肠",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《千金·食治》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪肠",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草图经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪肠",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

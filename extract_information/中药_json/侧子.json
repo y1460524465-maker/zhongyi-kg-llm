@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "侧子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风散寒，除湿，舒筋",
+        "indication": "风寒湿痹，筋骨挛急，脚气，风疹",
+        "dosage": "内服：煎汤，1.5-4.5g；或入丸、散、酒剂"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "侧子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风寒湿痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "侧子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨挛急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "侧子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "侧子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "侧子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "侧子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "侧子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒筋",
+      "object_type": "Effect"
+    }
+  ]
+}

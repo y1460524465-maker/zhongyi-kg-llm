@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "name": "白丁香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "雀苏、雄雀矢、青丹、麻雀粪、雄家雀粪",
+        "effect": "化积，消翳",
+        "indication": "疝瘕，目翳，胬肉，龋齿，痈疽疮疖，扁桃体炎",
+        "meridian": "肝、肾二经",
+        "property_flavor": "苦，温，微毒/辛苦，温",
+        "usage": "内服：研末为丸、散，5～8分。外用：研细调敷或和乳汁点眼"
+      }
+    },
+    {
+      "name": "疝瘕",
+      "type": "Disease"
+    },
+    {
+      "name": "目翳",
+      "type": "Symptom"
+    },
+    {
+      "name": "胬肉",
+      "type": "Symptom"
+    },
+    {
+      "name": "龋齿",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疽疮疖",
+      "type": "Disease"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白丁香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白丁香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白丁香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胬肉",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白丁香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "龋齿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白丁香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮疖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白丁香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白丁香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化积，消翳",
+      "object_type": "Effect"
+    }
+  ]
+}

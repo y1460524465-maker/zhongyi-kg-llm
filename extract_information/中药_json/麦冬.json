@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "alias": "麦门冬",
+        "taste": "甘, 微苦",
+        "property_flavor": "甘, 微苦",
+        "effect": "养阴润肺，清心除烦，益胃生津",
+        "indication": "肺燥干咳，吐血，咯血，肺痿，肺痈，虚劳烦热，消渴，热病津伤，咽干口燥，便秘",
+        "dosage": "内服：煎汤，6~15g；或入丸、散、膏。外用：适量，研末调敷；煎汤涂；或鲜品捣汁搽",
+        "origin": "百合科植物麦冬的块根",
+        "place": "浙江, 四川",
+        "processing": "麦冬：拣净杂质，用水浸泡，捞出，润透后抽去心，再洗净晒干。朱麦冬：取去心麦冬，置盆内喷水少许，微润，加朱砂细粉，撒布均匀，并随时翻动，至麦冬外面匀被朱砂为度，职出，晾干。（每麦门冬10斤，用朱砂3两）",
+        "traits": "本品呈纺锤形，两端略尖，长1.5～3cm，直径0.3～0.6cm。表面黄白色或淡黄色，有细纵纹。质柔韧，断面黄白色，半透明，中柱细小。气微香，味甘、微苦",
+        "taboo": "凡脾胃虚寒泄泻，胃有痰饮湿浊及暴感风寒咳嗽者均忌服"
+      }
+    },
+    {
+      "name": "肺燥",
+      "type": "Disease"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "肺痿",
+      "type": "Disease"
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease"
+    },
+    {
+      "name": "便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽干口燥",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴润肺，清心除烦，益胃生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺燥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽干口燥",
+      "object_type": "Symptom"
+    }
+  ]
+}

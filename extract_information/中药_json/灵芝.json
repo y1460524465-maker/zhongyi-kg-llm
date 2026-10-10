@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "灵芝",
+      "type": "Herb",
+      "attributes": {
+        "alias": "Lucid Ganoderma, 赤芝, 红芝, 木灵芝, 菌灵芝, 万年蕈, 灵芝草",
+        "effect": "益气血，安心神，健脾胃",
+        "indication": "虚劳；心悸；失眠；头晕；神疲乏力；久咳气喘；冠心病；矽肺；肿瘤",
+        "meridian": "肺经；心经；脾经；肾经",
+        "origin": "多孔菌科真菌赤芝Ganoderma lucidum（Leyss.ex Fr.）Karst．或紫芝Ganoderma sinense Zhao，Xu et Zhang的干燥子实体",
+        "processing": "全年采收，除去杂质，剪除附有朽木、泥沙或培养基质的下端菌柄，阴干或在40～50℃烘干",
+        "property_flavor": "气微香，味苦涩",
+        "dosage": "内服：煎汤，10~15g；研末，2~6g；或浸酒",
+        "taboo": "《本草经集注》：恶恒山。畏扁青、茵陈蒿。"
+      }
+    },
+    {
+      "name": "《本草经集注》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心悸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "失眠",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头晕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "神疲乏力",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久咳气喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "冠心病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "矽肺",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安心神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灵芝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经集注》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {
+      "name": "猫油",
+      "type": "Herb",
+      "attributes": {
+        "effect": "主治烧烫伤",
+        "indication": "烧烫伤"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猫油",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    }
+  ]
+}

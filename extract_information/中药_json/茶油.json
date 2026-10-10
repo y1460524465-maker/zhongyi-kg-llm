@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "茶油",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，润肠，杀虫",
+        "indication": "痧气腹痛；便秘；蛔虫腹痛；蛔虫性肠梗阻；疥癣；汤火伤",
+        "usage": "内服：冷开水送服30-60g",
+        "origin": "为山茶科植物油茶Camellia oleifera Abel种子的脂肪油"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茶油",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茶油",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茶油",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茶油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痧气腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茶油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茶油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛔虫腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茶油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛔虫性肠梗阻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茶油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疥癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茶油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汤火伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

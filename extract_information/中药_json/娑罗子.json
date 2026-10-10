@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "娑罗子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "天师栗、娑婆子、武吉、仙栗、开心果、苏罗子、索罗果、梭椤子",
+        "origin": "为七叶树科植物七叶树或天师栗的果实或种子",
+        "effect": "宽中，理气，杀虫，止痛",
+        "indication": "治胃寒作痛，脘腹胀满，疳积虫痛，疟疾，痢疾",
+        "usage": "内服：煎汤，5~10g；或烧灰冲酒",
+        "taboo": "《陕西中药志》：气虚及阴虚者忌用",
+        "processing": "拣去杂质，除去外壳，洗净，晒干，用时捣碎"
+      }
+    },
+    {
+      "name": "《益部方物略记》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《陕西中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《百草镜》",
+      "type": "Source"
+    },
+    {
+      "name": "《杨春涯经验方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "娑罗子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宽中，理气，杀虫，止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "娑罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃寒作痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "娑罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脘腹胀满",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "娑罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳积虫痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "娑罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "娑罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "娑罗子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《百草镜》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "娑罗子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《杨春涯经验方》",
+      "object_type": "Source"
+    }
+  ]
+}

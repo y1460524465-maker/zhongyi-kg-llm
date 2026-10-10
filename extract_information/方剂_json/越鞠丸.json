@@ -1,0 +1,221 @@
+{
+  "entities": [
+    {
+      "name": "越鞠丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "行气解郁",
+        "indication": "郁证。胸膈痞闷，脘腹胀痛，嗳腐吞酸，恶心呕吐，饮食不消等。",
+        "usage": "香附 川芎 苍术 神曲 栀子各6g"
+      }
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "神曲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "气郁",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血郁",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "火郁",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "湿郁",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "食郁",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "郁证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "行气解郁",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "活血祛瘀",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "清热泻火",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "燥湿运脾",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "消食导滞",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "越鞠丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "郁证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "越鞠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气解郁",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "越鞠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越鞠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越鞠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越鞠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越鞠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香附",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气郁",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "香附",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气解郁",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血郁",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血祛瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "栀子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "火郁",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栀子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苍术",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿郁",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苍术",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿运脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "神曲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食郁",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "神曲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食导滞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气解郁",
+      "object_type": "Effect"
+    }
+  ]
+}

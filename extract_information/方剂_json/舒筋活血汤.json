@@ -1,0 +1,158 @@
+{
+  "entities": [
+    {
+      "name": "舒筋活血汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "舒筋活血",
+        "indication": "筋络、筋膜、筋腱损伤。为伤筋中期及脱臼复位后调理之剂。"
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "续断",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五加皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "杜仲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "续断",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五加皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜仲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舒筋活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    }
+  ]
+}

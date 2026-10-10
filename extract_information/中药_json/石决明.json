@@ -1,0 +1,98 @@
+{
+  "entities": [
+    {
+      "name": "石决明",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鳆鱼甲、真海决、海决明、海南决、关海决、鲍鱼壳、九孔石决明、鲍鱼皮、金蛤蜊皮",
+        "effect": "平肝潜阳，除热，明目",
+        "indication": "风阳上扰、头痛眩晕，惊搐，骨蒸芳热，青盲内障",
+        "property_flavor": "味微咸",
+        "usage": "内服：煎汤，10~30g，打碎先煎；或入丸、散。外用：适量，研末水飞点眼"
+      }
+    },
+    {
+      "name": "风阳上扰",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头痛眩晕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "惊搐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "骨蒸芳热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "青盲内障",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石决明",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝潜阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石决明",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石决明",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石决明",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风阳上扰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石决明",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石决明",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石决明",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸芳热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石决明",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "青盲内障",
+      "object_type": "Disease"
+    }
+  ]
+}

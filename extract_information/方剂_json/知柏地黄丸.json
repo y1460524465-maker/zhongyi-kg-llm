@@ -1,0 +1,238 @@
+{
+  "entities": [
+    {
+      "name": "知柏地黄丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴降火",
+        "indication": "阴虚火旺，潮热盗汗，口干咽痛，耳鸣遗精，小便短赤",
+        "taboo": "脾虚便溏、消化不良不宜服用",
+        "usage": "口服，水蜜丸或小蜜丸或大蜜丸"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "160g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "山茱萸（制）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "六味地黄丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/知柏地黄丸",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸（制）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴降火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚火旺",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/知柏地黄丸",
+      "object_type": "Source"
+    }
+  ]
+}

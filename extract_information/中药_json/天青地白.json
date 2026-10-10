@@ -1,0 +1,206 @@
+{
+  "entities": [
+    {
+      "name": "天青地白",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，解毒消肿，明目",
+        "indication": "感冒，咳嗽，头痛，喉痛，目赤翳障，小便热闭，淋浊，白带，痈肿，疔疮，蛇伤，跌打损伤",
+        "property_flavor": "甘，平，无毒；甘淡，微寒，无毒；味涩，性微寒，无毒",
+        "dosage": "内服：煎汤，9-30g",
+        "origin": "菊科植物细叶鼠曲草的全草"
+      }
+    },
+    {
+      "name": "细叶鼠曲草",
+      "type": "Herb",
+      "attributes": {
+        "origin": "菊科植物细叶鼠曲草的全草"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤翳障",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便热闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "质问本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "分类草药性",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "植物学大辞典",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "福建民间草药",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "四川中药志",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "重庆草药",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "湖南药物志",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "闽东本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "福建中草药",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "泉州本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天青地白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广西中药志",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "茅香",
+      "type": "Herb",
+      "attributes": {
+        "effect": "凉血止血，清热利尿",
+        "indication": "吐血，尿血，急、慢性肾炎浮肿，热淋",
+        "dosage": "内服：煎汤，30-60g"
+      }
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "急、慢性肾炎浮肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "热淋",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茅香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血，清热利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茅香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茅香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茅香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "急、慢性肾炎浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茅香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热淋",
+      "object_type": "Symptom"
+    }
+  ]
+}

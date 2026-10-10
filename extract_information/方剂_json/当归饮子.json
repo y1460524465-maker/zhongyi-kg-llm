@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "当归饮子",
+      "type": "Formula",
+      "attributes": {
+        "effect": "滋阴养血，益气托毒",
+        "indication": "心血凝滞，内蕴风热，皮肤疮疥，或肿或痒，或脓水浸淫，或发赤疹瘩瘤；各类皮肤疾患日久，伤及阴血，或肿或痒；脓疮日久，正虚邪恋",
+        "usage": "上药哎咀。每服12克，用水220毫升，加生姜5片，煎至180毫升，去滓温服，不拘时候"
+      }
+    },
+    {
+      "name": "《重订严氏济生方》",
+      "type": "Source"
+    },
+    {
+      "name": "四物汤",
+      "type": "Formula"
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb"
+    },
+    {
+      "name": "防风",
+      "type": "Herb"
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb"
+    },
+    {
+      "name": "白蒺藜",
+      "type": "Herb"
+    },
+    {
+      "name": "何首乌",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "当归饮子",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《重订严氏济生方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "当归饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "四物汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "当归饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蒺藜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "何首乌",
+      "object_type": "Herb"
+    }
+  ]
+}

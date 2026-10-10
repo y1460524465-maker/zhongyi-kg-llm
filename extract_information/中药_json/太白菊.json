@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "太白菊",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，止咳",
+        "indication": "肺热咳嗽，肺炎，肺痈，百日咳",
+        "dosage": "内服：煎汤，5-10g",
+        "origin": "菊科植物萎软紫菀的全草",
+        "place": "分布于华北、西北及四川、云南、西藏等地"
+      }
+    },
+    {
+      "name": "萎软紫菀",
+      "type": "Herb",
+      "attributes": {
+        "origin": "菊科植物萎软紫菀"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "太白菊",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "太白菊",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "太白菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "太白菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "太白菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "太白菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    }
+  ]
+}

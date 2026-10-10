@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "片姜黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "破血行气，通经止痛",
+        "indication": "血滞经闭，行经腹痛，胸胁剌痛，风湿痹痛，肩臂疼痛，跌扑损伤",
+        "dosage": "3～10g",
+        "taboo": "血虚无气滞血瘀者及孕妇慎服"
+      }
+    }
+  ],
+  "relations": []
+}

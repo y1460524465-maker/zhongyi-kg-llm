@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "name": "南鹤虱",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6-9g",
+        "effect": "杀虫消积，止痒",
+        "indication": "蛔虫病，蛲虫病，绦虫病，虫积腹痛，小儿疳积，阴痒",
+        "meridian": "脾、胃经",
+        "origin": "伞形科植物野胡萝卜的干燥成熟果实",
+        "property_flavor": "苦、辛，平；有小毒"
+      }
+    },
+    {
+      "name": "蛔虫病",
+      "type": "Disease"
+    },
+    {
+      "name": "蛲虫病",
+      "type": "Disease"
+    },
+    {
+      "name": "绦虫病",
+      "type": "Disease"
+    },
+    {
+      "name": "虫积腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "阴痒",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "南鹤虱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南鹤虱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛲虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南鹤虱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "绦虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南鹤虱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虫积腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "南鹤虱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南鹤虱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴痒",
+      "object_type": "Symptom"
+    }
+  ]
+}

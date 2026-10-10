@@ -1,0 +1,289 @@
+{
+  "entities": [
+    {
+      "name": "大陷胸汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "泻热逐水",
+        "indication": "水热互结之结胸证。心下疼痛，拒按，按之硬，或从心下至少腹硬满疼痛，手不可近。伴见短气烦躁，大便秘结，舌上燥而渴，日哺小有潮热，舌红，苔黄腻或兼水滑，脉沉紧或沉迟有力。",
+        "taboo": "凡平素虚弱，或病后不任攻伐者，禁用本方。因本方为泻热逐水峻剂，既要防止利下过度，伤及正气，又要及时攻下，以防留邪为患。",
+        "usage": "上三味，以水六升，先煮大黄，取二升，去滓，内芒硝，煮一二沸，内甘遂末，温服一升。得快利，止后服（现代用法：水煎，溶芒硝，冲甘遂末服）。"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "甘遂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1克"
+      }
+    },
+    {
+      "name": "急性胰腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "急性肠梗阻",
+      "type": "Disease"
+    },
+    {
+      "name": "肝脓疡",
+      "type": "Disease"
+    },
+    {
+      "name": "渗出性胸膜炎",
+      "type": "Disease"
+    },
+    {
+      "name": "胆囊炎",
+      "type": "Disease"
+    },
+    {
+      "name": "胆石症",
+      "type": "Disease"
+    },
+    {
+      "name": "结胸证",
+      "type": "Disease"
+    },
+    {
+      "name": "心下疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "拒按",
+      "type": "Symptom"
+    },
+    {
+      "name": "按之硬",
+      "type": "Symptom"
+    },
+    {
+      "name": "心下至少腹硬满疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "手不可近",
+      "type": "Symptom"
+    },
+    {
+      "name": "短气烦躁",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便秘结",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌上燥而渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "日哺小有潮热",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌红",
+      "type": "Symptom"
+    },
+    {
+      "name": "苔黄腻",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉沉紧",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉沉迟有力",
+      "type": "Symptom"
+    },
+    {
+      "name": "水热互结",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘遂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胰腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性肠梗阻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝脓疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "渗出性胸膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胆囊炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胆石症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "结胸证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心下疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "拒按",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "按之硬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心下至少腹硬满疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手不可近",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "短气烦躁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便秘结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌上燥而渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "日哺小有潮热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "苔黄腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉沉紧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉沉迟有力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "水热互结",
+      "object_type": "Effect"
+    }
+  ]
+}

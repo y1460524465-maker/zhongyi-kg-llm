@@ -1,0 +1,350 @@
+{
+  "entities": [
+    {
+      "name": "密陀僧",
+      "type": "Herb",
+      "attributes": {
+        "alias": "陀僧，没多僧，炉底，银池，淡银，金炉底，银炉底，金陀僧，蜜陀僧",
+        "effect": "燥湿杀虫，收敛，防腐，解毒",
+        "indication": "疮疡溃烂久不收敛，口疮，疥癣，狐臭，汗斑，（黑干）黯，酒皶鼻，烧烫伤，湿疹",
+        "dosage": "内服：研末，1-3分；或入丸、散",
+        "taboo": "不宜与狼毒同用。体虚寒者应禁用。"
+      }
+    },
+    {
+      "name": "狼毒",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "疮疡溃烂久不收敛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疥癣",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "狐臭",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "汗斑",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "酒皶鼻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿疹",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "鼠疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "多骨疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血风臁疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "口舌生疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "阴汗湿痒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "赤白痢",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "消渴",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "轻粉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "熟石膏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枯矾",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "蛇床子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "殊砂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄药子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "蒲黄",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿杀虫，收敛，防腐，解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼠疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "多骨疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血风臁疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疡溃烂久不收敛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疥癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "狐臭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汗斑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "酒皶鼻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烧烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴汗湿痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "轻粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "枯矾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "蛇床子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "殊砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄药子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密陀僧",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    }
+  ]
+}

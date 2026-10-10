@@ -1,0 +1,482 @@
+{
+  "entities": [
+    {
+      "name": "建曲",
+      "type": "Herb",
+      "attributes": {
+        "alias": "Medicinal Fermented Mass",
+        "place": "福建泉州",
+        "effect": "健脾消食，理气化湿，解表",
+        "indication": "伤食胸痞，腹煮吐泻，痢疾，感冒头痛，小儿伤饥失饱",
+        "usage": "内服:煎汤，6～10克；或研末入丸、散"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "processing": "麸炒"
+      }
+    },
+    {
+      "name": "香附子",
+      "type": "Herb",
+      "attributes": {
+        "processing": "麸炒"
+      }
+    },
+    {
+      "name": "杭白芍",
+      "type": "Herb",
+      "attributes": {
+        "processing": "洒炒"
+      }
+    },
+    {
+      "name": "莪术",
+      "type": "Herb",
+      "attributes": {
+        "processing": "酒炒"
+      }
+    },
+    {
+      "name": "何首乌片",
+      "type": "Herb",
+      "attributes": {
+        "processing": "微炒"
+      }
+    },
+    {
+      "name": "白扁豆",
+      "type": "Herb",
+      "attributes": {
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "延胡索",
+      "type": "Herb",
+      "attributes": {
+        "processing": "醋炒"
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "高良姜",
+      "type": "Herb",
+      "attributes": {
+        "processing": "赤土炒"
+      }
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": {
+        "processing": "醋炒"
+      }
+    },
+    {
+      "name": "黄栀子",
+      "type": "Herb",
+      "attributes": {
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "光三棱",
+      "type": "Herb",
+      "attributes": {
+        "processing": "醋炒"
+      }
+    },
+    {
+      "name": "川花椒",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "processing": "酒浸一宿"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "processing": "沙炒"
+      }
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": {
+        "processing": "姜汁炒"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "processing": "姜汁炒"
+      }
+    },
+    {
+      "name": "苦杏仁",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "processing": "酒炒"
+      }
+    },
+    {
+      "name": "麦芽",
+      "type": "Herb",
+      "attributes": {
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "姜黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "processing": "去净毛"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "车前子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "芡实",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "山楂皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "茯苓皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白粉刈",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "法白曲",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "使君子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "广藿香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "紫苏全",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白芥子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "香薷",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "泽兰",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": {
+        "processing": "大米糖炒"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "processing": "酒炒"
+      }
+    },
+    {
+      "name": "青蒿草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "赤柱草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "苍耳草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "紫苏叶",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "广藿香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "青蒿",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "青茶",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "六神曲",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "山楂",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "麦芽",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "伤食胸痞",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹煮吐泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "感冒头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿伤饥失饱",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "健脾消食",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "理气化湿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "解表",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "赤小豆",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "小麦",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "麦皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "麦粉",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "米汤",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "松香末",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "建曲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾消食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "建曲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气化湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "建曲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "建曲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "伤食胸痞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "建曲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹煮吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "建曲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "建曲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "建曲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿伤饥失饱",
+      "object_type": "Symptom"
+    }
+  ]
+}

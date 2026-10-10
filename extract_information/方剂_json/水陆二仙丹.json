@@ -1,0 +1,150 @@
+{
+  "entities": [
+    {
+      "name": "水陆二仙丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "益精滋阴,收数固摄",
+        "indication": "肾虚所致之男子遗精白浊、女子带下,以及小便频数、遗尿等症",
+        "taboo": null,
+        "usage": "空心服七十丸。盐汤送服"
+      }
+    },
+    {
+      "name": "金樱子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二斤",
+        "effect": "固精缩尿",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "酸涩",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芡实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一斤",
+        "effect": "固肾涩精",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "熟",
+        "property_flavor": "甘涩",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "肾虚",
+      "type": "Disease"
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "白浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便频数",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗尿",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗尿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益精滋阴,收数固摄",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金樱子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金樱子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "固精缩尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "固肾涩精",
+      "object_type": "Effect"
+    }
+  ]
+}

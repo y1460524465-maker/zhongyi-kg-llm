@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "鲢鱼",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煮食，100-250g",
+        "effect": "温中益气，利水",
+        "indication": "久病体虚，水肿",
+        "origin": "鲤科动物鲢鱼的肉",
+        "processing": "除去鳞片及内脏，洗净，鲜用",
+        "taboo": "患痘疹、疟疾、痢疾、目疾及疮疡者慎服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鲢鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久病体虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲢鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲢鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鲢鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    }
+  ]
+}

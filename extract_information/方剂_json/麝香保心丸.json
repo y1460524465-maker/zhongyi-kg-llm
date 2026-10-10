@@ -1,0 +1,155 @@
+{
+  "entities": [
+    {
+      "name": "麝香保心丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "芳香温通，益气强心",
+        "indication": "心肌缺血引起的心绞痛、胸闷及心肌梗塞",
+        "usage": "口服，一次1～2丸，一日3次；或症状发作时服用",
+        "taboo": "运动员慎用，孕妇及对本品过敏者禁用"
+      }
+    },
+    {
+      "name": "蟾酥",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "人参提取物",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "苏合香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "心肌缺血",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "心绞痛",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "胸闷",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "心肌梗塞",
+      "type": "Disease",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麝香保心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蟾酥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香保心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参提取物",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香保心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香保心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苏合香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香保心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香保心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香保心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香保心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "芳香温通，益气强心",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麝香保心丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心肌缺血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "心肌缺血",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心绞痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "心肌缺血",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麝香保心丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心肌梗塞",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "entities": [
+    {
+      "name": "枸骨根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肝益肾，疏风止痛",
+        "indication": "腰膝痿弱，关节疼痛，头风，赤眼，牙痛，荨麻疹",
+        "dosage": "内服：煎汤，6-15g，鲜品15-60g"
+      }
+    },
+    {
+      "name": "腰膝痿弱",
+      "type": "Symptom"
+    },
+    {
+      "name": "关节疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "头风",
+      "type": "Disease"
+    },
+    {
+      "name": "赤眼",
+      "type": "Disease"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "荨麻疹",
+      "type": "Disease"
+    },
+    {
+      "name": "补肝益肾",
+      "type": "Effect"
+    },
+    {
+      "name": "疏风止痛",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枸骨根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝益肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枸骨根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枸骨根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枸骨根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枸骨根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "荨麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枸骨根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝痿弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枸骨根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枸骨根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

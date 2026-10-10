@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "南沙参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养阴清肺，祛痰止咳",
+        "indication": "肺热燥咳，虚痨久咳，阴伤咽干喉痛",
+        "dosage": "内服:熬汤，9～15g；或入丸、散。",
+        "property_flavor": "味微甘",
+        "taboo": "①《本草经集注》:恶防己，反藜芦。②《本草经疏》:脏腑无实热，肺虚寒客之作泄者，勿服。"
+      }
+    },
+    {
+      "name": "沙参麦冬汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "燥伤肺卫阴分，或热或咳"
+      }
+    },
+    {
+      "name": "益胃汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "阳明温病，下后汗出，胃阴受损，身无熟，日干咽燥，舌干苔少，脉不数者"
+      }
+    },
+    {
+      "name": "肺热燥咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "虚痨久咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴伤咽干喉痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "南沙参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热燥咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "南沙参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚痨久咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "南沙参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴伤咽干喉痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "南沙参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴清肺，祛痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "燥伤肺卫阴分",
+      "object_type": "Disease"
+    }
+  ]
+}

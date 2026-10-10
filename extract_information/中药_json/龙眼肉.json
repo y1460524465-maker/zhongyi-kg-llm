@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "龙眼肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益心脾，补气血，安神",
+        "indication": "虚劳羸弱，失眠，健忘，惊悸，怔忡",
+        "dosage": "内服：煎汤，10~15g，大剂量30~60g；或熬膏；或浸酒；或入丸、散",
+        "taboo": "内有痰火及湿滞停饮者忌服",
+        "property_flavor": "甘温",
+        "traits": "气香，味浓甜而特殊",
+        "origin": "为无患子科植物龙眼的假种皮"
+      }
+    }
+  ],
+  "relations": []
+}

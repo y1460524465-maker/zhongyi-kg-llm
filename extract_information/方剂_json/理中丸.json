@@ -1,0 +1,172 @@
+{
+  "entities": [
+    {
+      "name": "理中丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "温中祛寒，扶阳抑阴",
+        "indication": "脾胃虚寒证。脘腹疼痛，喜得温按，自利不渴，畏寒肢冷，呕吐，不欲饮食，舌淡苔白，脉沉细；或阳虚失血；或小儿慢惊；或病后喜唾涎沫，或霍乱吐泻，以及胸痹等中焦虚寒所致者。",
+        "taboo": null,
+        "usage": "人参、干姜、甘草炙、白术各9g"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "甘温入脾，补中益气，培补后天之本，气旺而阳亦复",
+        "property_flavor": "甘温"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "大辛大热，归经脾胃，温中祛寒，扶阳抑阴",
+        "property_flavor": "大辛大热"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "effect": "甘苦温燥，燥湿健脾，健运中州",
+        "property_flavor": "甘苦温燥"
+      }
+    },
+    {
+      "name": "甘草炙",
+      "type": "Herb",
+      "attributes": {
+        "effect": "性温具补，补脾益气，调和诸药",
+        "property_flavor": "温"
+      }
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom"
+    },
+    {
+      "name": "不欲饮食",
+      "type": "Symptom"
+    },
+    {
+      "name": "自利不渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "畏寒肢冷",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌淡苔白",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉沉细",
+      "type": "Symptom"
+    },
+    {
+      "name": "脾胃虚寒证",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草炙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温中祛寒，扶阳抑阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "理中丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚寒证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "脾胃虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "不欲饮食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "自利不渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "畏寒肢冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌淡苔白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉沉细",
+      "object_type": "Symptom"
+    }
+  ]
+}

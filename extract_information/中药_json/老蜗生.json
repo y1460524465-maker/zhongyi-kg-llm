@@ -1,0 +1,160 @@
+{
+  "entities": [
+    {
+      "name": "老蜗生",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，舒筋活络，止咳平喘，凉血解毒",
+        "indication": "湿热黄疸，热淋，石淋，风湿痹痛，咳喘，痔血，指头疔；毒蛇咬伤",
+        "dosage": "内服：煎汤，9~15 g",
+        "property_flavor": "甘涩，平",
+        "origin": "为豆科植物天蓝苜蓿的全草"
+      }
+    },
+    {
+      "name": "天蓝苜蓿",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，舒筋活络，止咳平喘，凉血解毒",
+        "indication": "湿热黄疸，热淋，石淋，风湿痹痛，咳喘，痔血，指头疔；毒蛇咬伤",
+        "dosage": "内服：煎汤，9~15 g",
+        "property_flavor": "甘涩，平",
+        "origin": "为豆科植物天蓝苜蓿的全草"
+      }
+    },
+    {
+      "name": "清热利湿",
+      "type": "Effect"
+    },
+    {
+      "name": "舒筋活络",
+      "type": "Effect"
+    },
+    {
+      "name": "止咳平喘",
+      "type": "Effect"
+    },
+    {
+      "name": "凉血解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "湿热黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "热淋",
+      "type": "Disease"
+    },
+    {
+      "name": "石淋",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "咳喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔血",
+      "type": "Symptom"
+    },
+    {
+      "name": "指头疔",
+      "type": "Disease"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒筋活络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "石淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "指头疔",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老蜗生",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔血",
+      "object_type": "Symptom"
+    }
+  ]
+}

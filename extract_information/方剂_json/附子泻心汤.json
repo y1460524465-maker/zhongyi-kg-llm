@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "附子泻心汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温经回阳，扶阳固表，泄热消痞",
+        "indication": "阳虚于外，热结于胃。心下痞满，而复恶寒汗出，脉沉者。",
+        "usage": "上四味，切三味。以麻沸汤400毫升渍之，须臾，绞去滓，纳附子汁，分温再服。"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克(炮，别煮取汁)"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "附子泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温经回阳，扶阳固表，泄热消痞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "附子泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    }
+  ]
+}

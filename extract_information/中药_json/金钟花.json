@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "金钟花",
+      "type": "Herb",
+      "attributes": {
+        "processing": "果，夏、秋季采收，洒干；根，全年可挖取，洗净，切段，鲜用或晒干；叶，春、夏、秋季均可采集，鲜用或晒干",
+        "effect": "清热，解毒，散结",
+        "indication": "感冒发热，目赤肿痛",
+        "dosage": "内服：煎汤，10-15克；鲜品加倍",
+        "property_flavor": "味苦、性温",
+        "traits": "气微，味苦"
+      }
+    },
+    {
+      "name": "感冒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "感冒发热",
+      "type": "Disease"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Disease"
+    },
+    {
+      "name": "清热",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "散结",
+      "type": "Effect"
+    },
+    {
+      "name": "祛湿",
+      "type": "Effect"
+    },
+    {
+      "name": "泻火",
+      "type": "Effect"
+    },
+    {
+      "name": "《新华本草纲要》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金钟花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钟花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钟花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒发热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金钟花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目赤肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金钟花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金钟花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金钟花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "《新华本草纲要》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "金钟花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金钟花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金钟花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻火",
+      "object_type": "Effect"
+    }
+  ]
+}

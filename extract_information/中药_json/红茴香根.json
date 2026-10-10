@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "红茴香根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血止痛，祛风除湿",
+        "indication": "主治跌打损伤，风寒湿痹，腰腿痛，痈疽肿毒",
+        "dosage": "内服：煎汤，根3-6g，根皮1.5-4.5g；或研末0.6-0.9g",
+        "taboo": "孕妇忌服；阴虚无瘀滞者慎用",
+        "processing": "洗净，稍浸，取出俟润透，根斜切成片，根皮斜切成丝，晒干即可",
+        "origin": "木兰科植物狭叶茴香的根或根皮",
+        "property_flavor": "气香，味辛涩",
+        "place": "分布长江中、下游以南各省区"
+      }
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Disease"
+    },
+    {
+      "name": "腰腿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽肿毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "红茴香根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红茴香根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红茴香根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰腿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红茴香根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红茴香根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红茴香根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    }
+  ]
+}

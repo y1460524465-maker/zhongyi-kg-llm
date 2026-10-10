@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "长瓣马铃苣苔",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，凉血止血",
+        "indication": "各种出血，湿热带下，痈疽疮疖",
+        "dosage": "煎汤，9-15g",
+        "property_flavor": "淡，性平",
+        "processing": "全年均可采收，鲜用或晒干",
+        "place": "山谷、沟边及林下潮湿岩石上"
+      }
+    }
+  ],
+  "relations": []
+}

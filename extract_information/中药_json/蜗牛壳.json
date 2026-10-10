@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "蜗牛壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "主治脱肛，疳疾；主一切疳；治牙匿，面上赤疮，鼻上酒齄，久利下脱肛",
+        "indication": "脱肛，疳疾"
+      }
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《小儿宫气方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蜗牛壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜗牛壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜗牛壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙匿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜗牛壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面上赤疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜗牛壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻上酒齄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜗牛壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久利下脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜗牛壳",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草图经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蜗牛壳",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

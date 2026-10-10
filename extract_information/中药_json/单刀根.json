@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "单刀根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血散瘀，消肿止痛",
+        "indication": "风湿痹痛，跌打损伤；外用治外伤出血",
+        "processing": "全年可采，洗净鲜用或切碎晒干",
+        "traits": "豆科仪花属植物仪花Lysidice rhodostegia Hance，以根、叶入药"
+      }
+    },
+    {
+      "name": "广檀木",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "麻子木",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "活血散瘀",
+      "type": "Effect",
+      "attributes": {}
+    },
+    {
+      "name": "消肿止痛",
+      "type": "Effect",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "单刀根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "单刀根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "单刀根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "单刀根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "单刀根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

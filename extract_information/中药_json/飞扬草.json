@@ -1,0 +1,364 @@
+{
+  "entities": [
+    {
+      "name": "飞扬草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，利湿止痒，通乳",
+        "indication": "用于肺痈，乳痈，疔疮肿毒，牙疳，痢疾，泄泻，热淋，血尿，湿疹，脚癣，皮肤瘙痒，产后少乳",
+        "property_flavor": "辛、酸，凉",
+        "meridian": "归肺、膀胱、大肠经",
+        "dosage": "内服：煎汤，6-9g；鲜品30-60g。外用：适量，捣敷；或煎水洗",
+        "taboo": "有小毒",
+        "origin": "本品为大戟科植物飞扬草的干燥全草。夏、秋二季采挖，洗净，晒干"
+      }
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease"
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease"
+    },
+    {
+      "name": "疔疮肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "牙疳",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "泄泻",
+      "type": "Disease"
+    },
+    {
+      "name": "热淋",
+      "type": "Disease"
+    },
+    {
+      "name": "血尿",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "脚癣",
+      "type": "Disease"
+    },
+    {
+      "name": "皮肤瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后少乳",
+      "type": "Symptom"
+    },
+    {
+      "name": "赤白痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "小便不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "淋血",
+      "type": "Symptom"
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿烂头疮",
+      "type": "Disease"
+    },
+    {
+      "name": "黄水浸淫",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "带状疱疹",
+      "type": "Disease"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "利湿止痒",
+      "type": "Effect"
+    },
+    {
+      "name": "通乳",
+      "type": "Effect"
+    },
+    {
+      "name": "《福建民间草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《福建民间草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《闽南民间草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《广东中药》",
+      "type": "Source"
+    },
+    {
+      "name": "广州部队《常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《南方主要有毒植物》",
+      "type": "Source"
+    },
+    {
+      "name": "《卫生简报》",
+      "type": "Source"
+    },
+    {
+      "name": "《福建中草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通乳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牙疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血尿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后少乳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿烂头疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄水浸淫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带状疱疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药性备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《闽南民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广东中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广州部队《常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《南方主要有毒植物》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《卫生简报》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "飞扬草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

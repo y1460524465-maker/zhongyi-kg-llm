@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "name": "七角风",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，化瘀通络，健脾",
+        "indication": "风湿痹痛，跌打伤肿，骨折，小儿疳积",
+        "dosage": "9-15克",
+        "processing": "根秋、冬季采挖，洗净泥土。切片，鲜用或晒干；叶夏、秋季采，多鲜用",
+        "place": "生于海拔500-1300m的森林、灌丛和林缘路旁。分布于陕西、甘肃、江西、福建、湖北、湖南、广东、广西、四川、贵州、等地"
+      }
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打伤肿",
+      "type": "Disease"
+    },
+    {
+      "name": "骨折",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "祛风除湿",
+      "type": "Effect"
+    },
+    {
+      "name": "化瘀通络",
+      "type": "Effect"
+    },
+    {
+      "name": "健脾",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "七角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打伤肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七角风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "七角风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化瘀通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "七角风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾",
+      "object_type": "Effect"
+    }
+  ]
+}

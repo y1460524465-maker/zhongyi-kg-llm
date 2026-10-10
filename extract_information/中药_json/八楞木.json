@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "name": "八楞木",
+      "type": "Herb",
+      "attributes": {
+        "alias": "八棱麻（《药材学》），青竹标（《贵州植药调查》），八面风、三棱草（《贵州草药》）",
+        "effect": "祛风活络，散瘀止痛",
+        "indication": "风湿关节痛，腰腿痛，跌打损伤",
+        "usage": "内服：煎汤，9-15g；或浸酒。外用：适量，捣敷；或煎水洗。",
+        "taboo": "《饮片新参》：血虚气弱者忌用。",
+        "processing": "将原药除去杂质，快洗，略润，切长段,干燥，筛去灰屑。",
+        "place": "江苏",
+        "meridian": null,
+        "property_flavor": null,
+        "origin": "菊科植物风毛菊的全草",
+        "traits": "干燥全草，茎类圆柱形，长70～100厘米，粗的直径可达9毫米，外表棕色，有棱线，叶痕突起。质坚而轻，髓部白色，中有一小孔。叶暗绿色或棕色，多已脱落，叶柄长。全体被毛茸。气弱，味苦。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "八楞木",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿关节痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八楞木",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰腿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八楞木",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八楞木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风活络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "八楞木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "八楞木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八楞木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰腿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八楞木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青竹标",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青竹标",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青竹标",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻风",
+      "object_type": "Disease"
+    }
+  ]
+}

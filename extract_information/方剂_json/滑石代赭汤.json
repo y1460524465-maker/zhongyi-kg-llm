@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "name": "滑石代赭汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "百合滑石代赭汤",
+        "effect": "养阴利水，和胃降逆",
+        "indication": "百合病基础上津液更虚，可能出现小便不利短赤等"
+      }
+    },
+    {
+      "name": "百合",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7枚"
+      }
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "代赭石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1枚"
+      }
+    },
+    {
+      "name": "《备急千金要方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "短赤",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "滑石代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "滑石代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "滑石代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "代赭石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "滑石代赭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养阴利水，和胃降逆",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "滑石代赭汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《备急千金要方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "百合病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百合病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "短赤",
+      "object_type": "Symptom"
+    }
+  ]
+}

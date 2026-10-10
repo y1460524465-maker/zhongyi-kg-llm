@@ -1,0 +1,224 @@
+{
+  "entities": [
+    {
+      "name": "牛蒡解肌汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "头面风热，或颊项痰毒，风热牙痛等",
+        "alias": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "牛蒡子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "山栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "石斛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "元参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "夏枯草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛蒡解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛蒡子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛蒡解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛蒡解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛蒡解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛蒡解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛蒡解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛蒡解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石斛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛蒡解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "元参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛蒡解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "夏枯草",
+      "object_type": "Herb"
+    }
+  ]
+}

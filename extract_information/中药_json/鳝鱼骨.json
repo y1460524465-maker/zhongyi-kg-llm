@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "鳝鱼骨",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒",
+        "indication": "流火，风热痘毒，臁疮"
+      }
+    },
+    {
+      "name": "流火",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "风热痘毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "臁疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鳝鱼骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流火",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳝鱼骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热痘毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳝鱼骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "臁疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳝鱼骨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳝鱼骨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鳝鱼骨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    }
+  ]
+}

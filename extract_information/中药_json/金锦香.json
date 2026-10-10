@@ -1,0 +1,310 @@
+{
+  "entities": [
+    {
+      "name": "金锦香",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化痰利湿，祛瘀止血，解毒消肿",
+        "indication": "主治咳嗽，哮喘，痢疾，泄泻，吐血，咯血，便血，经闭，疳积，风湿骨痛，跌打损伤",
+        "dosage": "内服：煎汤，10-30g；捣汁，浸酒或研末。外用：适量，研末调敷、煎汤洗或漱口"
+      }
+    },
+    {
+      "name": "金石榴",
+      "type": "Herb",
+      "attributes": {
+        "alias": "金锦香"
+      }
+    },
+    {
+      "name": "天香炉",
+      "type": "Herb",
+      "attributes": {
+        "alias": "金锦香"
+      }
+    },
+    {
+      "name": "蜂窝草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "金锦香"
+      }
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "哮喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "经闭",
+      "type": "Symptom"
+    },
+    {
+      "name": "疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿骨痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "赤白痢",
+      "type": "Disease"
+    },
+    {
+      "name": "脱肛",
+      "type": "Symptom"
+    },
+    {
+      "name": "月经不调",
+      "type": "Symptom"
+    },
+    {
+      "name": "久伤胸闷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风寒咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "风火牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "当归",
+      "type": "Herb"
+    },
+    {
+      "name": "木槿花",
+      "type": "Herb"
+    },
+    {
+      "name": "冰糖",
+      "type": "Herb"
+    },
+    {
+      "name": "益母草",
+      "type": "Herb"
+    },
+    {
+      "name": "山地粘",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛瘀止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "哮喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿骨痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金石榴",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金石榴",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鲜金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鲜金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久伤胸闷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锦香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风寒咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天香炉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂窝草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风火牙痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

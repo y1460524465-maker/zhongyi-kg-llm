@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "爬山虎",
+      "type": "Herb",
+      "attributes": {
+        "alias": "爬墙虎、飞天蜈蚣、假葡萄糖、捆石龙、枫藤",
+        "effect": "祛风止痛，活血通络",
+        "indication": "风湿痹痛，中风半身不遂，偏正头痛，产后血瘀，腹生结块，跌打损伤，痈肿疮毒，溃疡不敛",
+        "dosage": "内服：煎汤，15-30g；或浸酒。外用：适量，煎水洗；或磨汁涂；或捣烂敷",
+        "origin": "为葡萄科植物爬山虎Parthenocissus tricuspidata （Sieb. Et Zucc.）Planch.的茎及根",
+        "place": "辽宁、河北、陕西、山东、江苏、安徽、浙江、江西、湖南、湖北、广西、广东、四川、贵州、云南"
+      }
+    }
+  ],
+  "relations": []
+}

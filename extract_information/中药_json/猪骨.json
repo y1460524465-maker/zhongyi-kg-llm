@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "猪骨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，60-180g；或烧灰研末，每次6-9g。外用：适量，烧灰调敷；或馏油涂。",
+        "effect": "止渴，解毒，杀虫止痢",
+        "indication": "消褐，肺结核，下痢，疮癣",
+        "origin": "《纲目》",
+        "processing": "宰杀后，除去毛及内及，剔去肉，留取骨骼，洗净，晾干"
+      }
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪骨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止渴，解毒，杀虫止痢",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消褐",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪骨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

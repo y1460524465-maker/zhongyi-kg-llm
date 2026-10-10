@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "name": "牡蒿",
+      "type": "Herb",
+      "attributes": {
+        "alias": "齐头蒿,水辣菜,布菜,土柴胡,猴掌草,流尿蒿,臭艾,克头青,油艾,油蒿,油蓬,奶疳药,花艾草,老鸦,马莲蒿,马根柴,鹅草药,牛尾蒿,白花蒿,熊掌草,菊叶柴胡,脚板蒿,花等草,匙叶艾",
+        "effect": "清热解暑，凉血，退虚热，截疟",
+        "indication": "暑热外感，发热无汗，阴虚发热，疟疾",
+        "taboo": "体弱虚寒者慎用；孕妇慎用",
+        "usage": "内服：煎汤，10-15g；鲜品加倍。外用：适量，煎水洗；或鲜品捣烂敷",
+        "dosage": "10-15g",
+        "processing": "牡蒿：将原药除去残根等杂质，下半段略浸，上半段喷潮，润软后，切短段，晒或低温干燥，筛去灰屑。鳖血拌牡蒿：将牡蒿与鲜鳖血、黄酒混合液拌匀，使之吸尽，干燥。每牡蒿100g, 用鲜鳖血13g, 黄酒25g",
+        "origin": "菊科植物牡蒿 Artemisia japonica Thunb.干燥带花的地上部分",
+        "place": "江苏、四川"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牡蒿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡蒿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蒿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡蒿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人血崩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡蒿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉蛾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡蒿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥疮湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡蒿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解暑",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牡蒿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牡蒿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "退虚热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牡蒿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "截疟",
+      "object_type": "Effect"
+    }
+  ]
+}

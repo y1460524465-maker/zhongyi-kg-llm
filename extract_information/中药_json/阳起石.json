@@ -1,0 +1,251 @@
+{
+  "entities": [
+    {
+      "name": "阳起石",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温肾壮阳",
+        "indication": "下焦虚寒，腰膝冷痹，男子阳痿，女子宫冷，癥瘕崩漏",
+        "dosage": "内服：入丸、散，3～4.5克",
+        "property_flavor": "性脆",
+        "meridian": null,
+        "origin": "为硅酸盐类矿物阳起石或阳起石石棉的矿石",
+        "place": "主产于湖北、河南等地",
+        "processing": "煅阳起石：取洁净的阳起石块，置坩埚内，在无烟的炉火中煅红透，倒入黄酒内淬，取出，晾干，碾细。（每阳起石100斤，用黄酒20斤）",
+        "traits": "为长条形或扁长条形，大小不一。全体乳白色、青白色至青灰色，或形成青白色与青灰色相间的纵花纹，有时带黄棕色，具光泽。体重而质地松软，易剥离，断面呈纤维状，易纵向裂开，捻碎后呈丝状，其丝棉软而光滑。富弹性，粘在皮肤上则发痒，且不易去掉。气味均无。以针束状、灰白色有光泽、易捻碎者为佳。置火焰中烧之变红色而不熔，离火后，烧过的部分略变黄，吹管灼烧时难熔，不导热。不溶于酸。",
+        "taboo": "①《本草经集注》：桑螵蛸为之使。恶泽泻、菌桂、雷丸、蛇蜕皮。畏菟丝。\n②《药性论》：恶石葵。忌羊血。\n③《本草经疏》：阴虚火旺者忌之。阳萎属于失志，以致火气闭密不得发越而然，及崩中带下由于火盛而非虚寒者，并不得服。\n④《本草汇言》：营虚血热者不宜服。"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "王好古",
+      "type": "Source"
+    },
+    {
+      "name": "《医学入门》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《玉楸药解》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经集注》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "《济生方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《儒门事亲》",
+      "type": "Source"
+    },
+    {
+      "name": "《局方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "阳起石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温肾壮阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "阳起石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝冷痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳起石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下焦虚寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阳起石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "男子阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阳起石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "女子宫冷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阳起石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "《本经》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《别录》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《药性论》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《日华子本草》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "王好古",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《医学入门》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《纲目》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《玉楸药解》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《本草经集注》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《本草经疏》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《本草汇言》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《济生方》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《普济方》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《儒门事亲》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《局方》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《圣惠方》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《圣济总录》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "阳起石",
+      "object_type": "Herb"
+    }
+  ]
+}

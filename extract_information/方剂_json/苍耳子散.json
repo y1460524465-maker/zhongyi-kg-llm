@@ -1,0 +1,186 @@
+{
+  "entities": [
+    {
+      "name": "苍耳子散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "散风邪，通鼻窍",
+        "indication": "鼻渊，鼻流浊涕不止；急、慢性鼻炎、鼻窦炎及过敏性鼻炎等风邪所致者",
+        "usage": "文火煎沸后10分钟即可服用。日1剂水煎服，儿童剂量酌减，7剂为1疗程"
+      }
+    },
+    {
+      "name": "苍耳子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "辛夷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "川贝母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "浙贝母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "淡豆豉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "菊花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "鼻渊",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "鼻流浊涕不止",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍耳子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "辛夷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淡豆豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻渊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苍耳子散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻流浊涕不止",
+      "object_type": "Symptom"
+    }
+  ]
+}

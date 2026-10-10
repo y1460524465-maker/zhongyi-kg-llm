@@ -1,0 +1,214 @@
+{
+  "entities": [
+    {
+      "name": "柴胡加龙骨牡蛎汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "和解清热，镇惊安神",
+        "indication": "伤寒往来寒热，胸胁苦满，烦躁惊狂不安，时有谵语，身重难以转侧，现用于癫痫、神经官能症、美尼尔氏综合征以及高血压病等见有胸满烦惊为主证者",
+        "usage": "上药十二味，除大黄外，以水800毫升，煮取400毫升，再纳大黄，更煮一二沸，去滓，每次温服100毫升"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "铅丹",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "癫痫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "神经官能症",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "美尼尔氏综合征",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "高血压病",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "铅丹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "和解清热，镇惊安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "神经官能症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "美尼尔氏综合征",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柴胡加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压病",
+      "object_type": "Disease"
+    }
+  ]
+}

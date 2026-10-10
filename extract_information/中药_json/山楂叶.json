@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "山楂叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血化瘀，理气通脉，化浊降脂",
+        "indication": "气滞血瘀，胸痹心痛，胸闷憋气，心悸健忘，眩晕耳鸣，高脂血症",
+        "dosage": "煎汤，3～10g；或泡茶饮",
+        "origin": "蔷薇科植物山里红或山楂的干燥叶"
+      }
+    }
+  ],
+  "relations": []
+}

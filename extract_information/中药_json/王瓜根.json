@@ -1,0 +1,194 @@
+{
+  "entities": [
+    {
+      "name": "王瓜根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "土瓜根、堵拉、耗子枕头、土花粉、山苦瓜",
+        "effect": "泻热，生津，破血，消瘀",
+        "indication": "热病烦渴，黄疸，热结便秘，或小便不利，经闭，癥癖，痈肿",
+        "origin": "葫芦科植物王瓜的根",
+        "dosage": "内服：煎汤，1.5～3钱（鲜者2～3两）；或捣汁"
+      }
+    },
+    {
+      "name": "土瓜根散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "伤寒烦渴不止",
+        "taboo": null,
+        "usage": "上药捣粗罗为散，每服四钱，以水一中盏，煎至六分，不计时候，去滓温服"
+      }
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "热病烦渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "热结便秘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "经闭",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "癥癖",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "王瓜根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "王瓜根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "王瓜根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "王瓜根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "王瓜根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "王瓜根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "王瓜根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热结便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "王瓜根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "王瓜根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "王瓜根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥癖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "王瓜根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土瓜根散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒烦渴不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土瓜根散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    }
+  ]
+}

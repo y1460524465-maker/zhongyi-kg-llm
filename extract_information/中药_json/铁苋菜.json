@@ -1,0 +1,160 @@
+{
+  "entities": [
+    {
+      "name": "铁苋菜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，消积，止痢，止血",
+        "indication": "肠炎，细菌性痢疾，阿米巴痢疾，小儿疳积，肝炎，疟疾，吐血，衄血，尿血，便血，子宫出血；外用治痈疖疮疡，外伤出血，湿疹，皮炎，毒蛇咬伤",
+        "dosage": "内服：煎汤，10～30g；外用：鲜品适量，捣烂敷患处",
+        "origin": "大戟科铁苋菜属植物铁苋菜Acalypha australis L.",
+        "place": "主产江苏。广东、广西、福建、四川、江西、安徽等地亦产",
+        "traits": "干燥的带根全草，根自根茎处作须状分出，茎表面灰紫色或灰棕色，长约30厘米，密被白色毛。质坚易折断，断面裂片状，黄白色，中心有疏松的白色髓部或巳成空洞。茎上部残留叶片，多破碎皱缩。气微芳香，味淡",
+        "processing": "夏秋采集全草，去泥土，晒干",
+        "alias": "人苋，血见愁，海蚌含珠，撮斗装珍珠，叶里含珠，野麻草，海蚌念珠，叶里藏珠"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痢",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "细菌性痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阿米巴痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疖疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁苋菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    }
+  ]
+}

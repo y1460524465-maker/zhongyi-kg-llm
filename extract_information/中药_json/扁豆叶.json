@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "扁豆叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "消暑利湿，解毒消肿",
+        "indication": "暑湿吐泻，跌打损伤，疮疖肿毒，蛇虫蛟伤",
+        "usage": "内服：煎汤，6-15g；或捣汁。外用：适量，捣敷；或烧存性研末调敷。",
+        "processing": "秋季采收，鲜用或晒干",
+        "origin": "豆科植物扁豆的叶"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "扁豆叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消暑利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "扁豆叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "扁豆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "暑湿吐泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "扁豆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "扁豆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "扁豆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇虫蛟伤",
+      "object_type": "Disease"
+    }
+  ]
+}

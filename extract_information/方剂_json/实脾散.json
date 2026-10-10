@@ -1,0 +1,259 @@
+{
+  "entities": [
+    {
+      "name": "实脾散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补火扶阳，实脾制水，温中散寒，散滞除水",
+        "indication": "命火衰微，不能生脾土而气滞不化，寒水侵浸，泛滥于肌肉之间，肿满如泥，脉沉迟者",
+        "taboo": null,
+        "usage": "每服5钱，空心沸汤调下"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炮",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "猪苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "炙草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "姜皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "zhongyibaike.com",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "实脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "实脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "实脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "实脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "实脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "实脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "实脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "实脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "实脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "实脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "姜皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "实脾散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "zhongyibaike.com",
+      "object_type": "Source"
+    }
+  ]
+}

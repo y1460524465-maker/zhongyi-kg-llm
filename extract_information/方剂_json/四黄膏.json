@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "四黄膏",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热解毒消肿",
+        "indication": "一切肿毒",
+        "taboo": null,
+        "usage": "用纱布块涂药一层，贴肿块上，胶布固定"
+      }
+    },
+    {
+      "name": "朱仁康临床经验集",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "土大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "芙蓉叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "泽兰叶",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四黄膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "朱仁康临床经验集",
+      "object_type": "Source"
+    },
+    {
+      "subject": "四黄膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四黄膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四黄膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "土大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四黄膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四黄膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芙蓉叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四黄膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽兰叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四黄膏",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四黄膏",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

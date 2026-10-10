@@ -1,0 +1,155 @@
+{
+  "entities": [
+    {
+      "name": "清络饮",
+      "type": "Formula",
+      "attributes": {
+        "effect": "甘凉气清走上",
+        "indication": "暑温经发汗后，暑证悉减，但头微胀，目不了了，余邪未解者；或暑伤肺经气分之轻证",
+        "taboo": "暑热挟湿，暑湿下注这不宜使用",
+        "usage": "用水400毫升，煮取200毫升，日二服。或煎汤代茶，预防暑病"
+      }
+    },
+    {
+      "name": "鲜荷叶边",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "鲜银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "西瓜翠衣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "鲜扁豆花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1枝"
+      }
+    },
+    {
+      "name": "丝瓜皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "鲜竹叶心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "暑温",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "暑伤肺经气分之轻证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "中暑",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿夏季热",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清络饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜荷叶边",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清络饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清络饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "西瓜翠衣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清络饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜扁豆花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清络饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丝瓜皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清络饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜竹叶心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清络饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "暑温",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清络饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "暑伤肺经气分之轻证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清络饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清络饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿夏季热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清络饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/清络饮",
+      "object_type": "Source"
+    }
+  ]
+}

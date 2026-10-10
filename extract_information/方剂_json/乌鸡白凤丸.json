@@ -1,0 +1,365 @@
+{
+  "entities": [
+    {
+      "name": "乌鸡白凤丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补气养血，调经止带",
+        "indication": "气血两虚，身体瘦弱，腰膝酸软，月经不调，崩漏带下；妇女经期腹痛，肢体浮肿，产后体弱，虚汗低热；男子气血两虚诸症",
+        "usage": "口服，水蜜丸一次6g，小蜜丸一次9g，大蜜丸一次1丸，一日2次"
+      }
+    },
+    {
+      "name": "乌鸡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "640g"
+      }
+    },
+    {
+      "name": "鹿角胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "128g"
+      }
+    },
+    {
+      "name": "鳖甲（制）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "64g"
+      }
+    },
+    {
+      "name": "牡蛎（煅）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48g"
+      }
+    },
+    {
+      "name": "桑螵蛸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48g"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "128g"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "144g"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "128g"
+      }
+    },
+    {
+      "name": "香附（醋制）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "128g"
+      }
+    },
+    {
+      "name": "天冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "64g"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "256g"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "256g"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "64g"
+      }
+    },
+    {
+      "name": "银柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "26g"
+      }
+    },
+    {
+      "name": "丹参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "128g"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "128g"
+      }
+    },
+    {
+      "name": "芡实（炒）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "64g"
+      }
+    },
+    {
+      "name": "鹿角霜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补气养血，调经止带",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气血两虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身体瘦弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经期腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后体弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚汗低热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌鸡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿角胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鳖甲（制）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎（煅）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑螵蛸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附（醋制）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实（炒）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌鸡白凤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿角霜",
+      "object_type": "Herb"
+    }
+  ]
+}

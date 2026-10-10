@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "缩泉丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温补脾肾，涩精缩尿；温膀胱助气化止小便频数；健脾补肾，肾气健，寒邪去，膀胱功能复常",
+        "indication": "下元虚冷、小便频数、遗尿",
+        "usage": "为末、酒制山药末为糊，制成小丸。每服9克，或作汤剂"
+      }
+    },
+    {
+      "name": "乌药",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温膀胱助气化止小便频数"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "effect": "健脾补肾"
+      }
+    },
+    {
+      "name": "益智仁",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温补脾肾、涩精缩尿"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "缩泉丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "缩泉丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "缩泉丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "益智仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "缩泉丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾气不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "缩泉丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "缩泉丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗尿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾气不足",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾气不足",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "遗尿",
+      "object_type": "Symptom"
+    }
+  ]
+}

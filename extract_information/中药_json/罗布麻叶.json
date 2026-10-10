@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "罗布麻叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "Dogbane Leaf, 红麻, 茶叶花, 红柳子, 野麻, 羊肚拉角, 泽漆麻",
+        "effect": "清热平肝，降压，强心，利水消肿",
+        "indication": "心脏病，高血压，神经衰弱，肝炎腹胀，肾炎浮肿",
+        "dosage": "3～10克",
+        "processing": "夏季采收，除去杂质，干燥",
+        "origin": "夹竹桃科植物罗布麻Apocynum venetum L.的干燥叶",
+        "traits": "本品多皱缩卷曲，有的破碎，完整叶片展平后呈椭圆状披针形或卵圆状披针形，长2～5cm，宽0.5～2cm，淡绿色或灰绿色，先端钝，有小芒尖，基部钝圆或楔形，边缘具细齿，常反卷，两面无毛，叶脉于下表面突起；叶柄细，长约4mm。质脆。气微，味淡。"
+      }
+    },
+    {
+      "name": "心脏病",
+      "type": "Disease"
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "神经衰弱",
+      "type": "Disease"
+    },
+    {
+      "name": "肝炎腹胀",
+      "type": "Disease"
+    },
+    {
+      "name": "肾炎浮肿",
+      "type": "Disease"
+    },
+    {
+      "name": "清热平肝",
+      "type": "Effect"
+    },
+    {
+      "name": "降压",
+      "type": "Effect"
+    },
+    {
+      "name": "强心",
+      "type": "Effect"
+    },
+    {
+      "name": "利水消肿",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "罗布麻叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心脏病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗布麻叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗布麻叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "神经衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗布麻叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎腹胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗布麻叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎浮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗布麻叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热平肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗布麻叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降压",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗布麻叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "强心",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗布麻叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

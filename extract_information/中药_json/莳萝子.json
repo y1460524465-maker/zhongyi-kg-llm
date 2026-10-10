@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "莳萝子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "时美中, 莳萝椒, 瘪谷茴香, 土茴香",
+        "effect": "温脾肾，开胃，散寒，行气，解鱼肉毒",
+        "indication": "痧秽呕逆，腹中冷痛，寒疝，痞满少食",
+        "property_flavor": "味辛、微苦",
+        "dosage": "内服，煎汤，3～5g，或入丸、散剂",
+        "processing": "干燥成熟果实",
+        "origin": "莳萝（《海药本草》），又名：慈谋勒（《开宝本草》）"
+      }
+    }
+  ],
+  "relations": []
+}

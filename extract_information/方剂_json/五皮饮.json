@@ -1,0 +1,147 @@
+{
+  "entities": [
+    {
+      "name": "五皮饮",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "全身水肿，胸腹胀满，小便不利以及妊娠水肿",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "茯苓皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克"
+      }
+    },
+    {
+      "name": "生姜皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "桑白皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "大腹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妊娠水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《证治准绳》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《华氏中藏经》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五皮饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五皮饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五皮饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五皮饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑白皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五皮饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大腹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五皮饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五皮饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五皮饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五皮饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《证治准绳》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五皮饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《华氏中藏经》",
+      "object_type": "Source"
+    }
+  ]
+}

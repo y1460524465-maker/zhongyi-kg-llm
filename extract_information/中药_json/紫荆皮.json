@@ -1,0 +1,207 @@
+{
+  "entities": [
+    {
+      "name": "紫荆皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，6-15g；或浸酒；或入丸、散。外用：适量，研末调敷。",
+        "effect": "活血通经，消肿解毒",
+        "indication": "风寒湿痹，妇女经闭，血气疼痛，喉痹，淋疾，痈肿，癣疥，跌打损伤，蛇虫咬伤",
+        "property_flavor": "苦，平",
+        "meridian": "脾、胃、肝经",
+        "origin": "豆科植物紫荆的树皮",
+        "processing": "将原药除去杂质，过长者折断，快洗，干燥，筛去灰屑",
+        "traits": "本品呈卷筒状、槽状或不规则的块片，长短不一，长者约4cm，直径0.5～1.5cm，皮厚1.5～3mm。外表皮红棕色至暗棕色或表面略带灰黄色，粗糙，具纵横裂纹及须根痕。内表面黄棕色至棕色，具细纵纹。质坚脆，易折断，断面黄棕色至棕色，有呈睫毛状伸出的纤维。气微，味苦、辛。",
+        "taboo": null,
+        "place": null
+      }
+    },
+    {
+      "name": "《本草纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《分类草药性》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《仁斋直指方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《妇人良方补遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《仙传外科集验方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《永类钤方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《分类草药性》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血气疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癣疥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇虫咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《仁斋直指方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《妇人良方补遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《仙传外科集验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫荆皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《永类钤方》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "entities": [
+    {
+      "name": "薏苡仁",
+      "type": "Herb",
+      "attributes": {
+        "alias": "解蠡、起英、赣米、感米、薏珠子、回回米、草珠儿、赣珠、薏米、米仁、薏仁、苡仁、玉秣、六谷米、珠珠米、药玉米、水玉米、沟子米、裕米、益米",
+        "dosage": "内服：煎汤，10~30g；或入丸、散，浸酒，煮粥，作羹。",
+        "effect": "健脾，补肺，清热，利湿。",
+        "indication": "治泄泻，湿痹，筋脉拘挛，屈伸不利，水肿，脚气，肺痿，肺痈，肠痈，淋浊，白带。",
+        "origin": "《本经》",
+        "place": "主产福建、河北、辽宁。",
+        "processing": "炒薏苡仁：取拣净的薏苡仁置锅内用文火炒至微黄色，取出，放凉即可。或用麸皮同炒亦可。（每薏苡仁100斤，用麸皮10斤）",
+        "property_flavor": "味微甜",
+        "taboo": "本品力缓，宜多服久服。脾虚无湿，大便燥结及孕妇慎服。",
+        "traits": "种仁宽卵形或长椭圆形，长4~8mm，宽3~6mm。表面乳白色，光滑，偶有残存的黄褐色种皮。一端钝圆，另端较宽而微凹，有1淡棕色点状种脐。背面圆凸，腹面有1条罗宽而深的纵沟。质坚实，断面白色粉质。气微。"
+      }
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "筋脉拘挛",
+      "type": "Symptom"
+    },
+    {
+      "name": "屈伸不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺痿",
+      "type": "Disease"
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease"
+    },
+    {
+      "name": "肠痈",
+      "type": "Disease"
+    },
+    {
+      "name": "淋浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "白带",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹",
+      "type": "Disease"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "糖尿病",
+      "type": "Disease"
+    },
+    {
+      "name": "胃癌",
+      "type": "Disease"
+    },
+    {
+      "name": "肠癌",
+      "type": "Disease"
+    },
+    {
+      "name": "宫颈癌",
+      "type": "Disease"
+    },
+    {
+      "name": "肝癌",
+      "type": "Disease"
+    },
+    {
+      "name": "薏苡仁酯",
+      "type": "Herb",
+      "attributes": {
+        "effect": "对癌细胞有阻止生长和杀伤作用"
+      }
+    },
+    {
+      "name": "麻黄杏仁薏苡甘草汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "麻杏薏甘汤",
+        "indication": "治病者一身尽疼，发热，日晡所剧者，名风湿"
+      }
+    },
+    {
+      "name": "薏苡附子败酱散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治肠痈，其身甲错，腹皮急，按之濡如肿状，腹无积聚，身无热，脉数，此为肠内有痈脓"
+      }
+    },
+    {
+      "name": "薏苡附子散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治胸痹缓急"
+      }
+    },
+    {
+      "name": "薏苡仁汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治风肿在脾，唇口（月闰）动，或生结核，或为浮肿"
+      }
+    },
+    {
+      "name": "薏苡仁粥",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清补脾肺，甘润益阴",
+        "indication": "主治脾肺气阴亏损引起的饮食懒进，午后低热，甚或骨蒸盗汗，咳嗽夜重，脉虚数兼弦者"
+      }
+    },
+    {
+      "name": "苡仁赤小豆汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治丘疹性荨麻疹"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋脉拘挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "屈伸不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡仁酯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡仁酯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡仁酯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "宫颈癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻黄杏仁薏苡甘草汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻黄杏仁薏苡甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄杏仁薏苡甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄杏仁薏苡甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄杏仁薏苡甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "薏苡附子败酱散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡附子败酱散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "薏苡附子败酱散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "薏苡附子败酱散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "败酱草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "薏苡附子散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胸痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡附子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "薏苡附子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "薏苡仁汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "薏苡仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防己",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "薏苡仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤小豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "薏苡仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "薏苡仁粥",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "饮食懒进",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡仁粥",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "午后低热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡仁粥",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡仁粥",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苡仁赤小豆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "丘疹性荨麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻黄杏仁薏苡甘草汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "金匮要略",
+      "object_type": "Source"
+    },
+    {
+      "subject": "薏苡附子败酱散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "金匮要略",
+      "object_type": "Source"
+    },
+    {
+      "subject": "薏苡附子散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "金匮要略",
+      "object_type": "Source"
+    }
+  ]
+}

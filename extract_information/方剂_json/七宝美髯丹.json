@@ -1,0 +1,248 @@
+{
+  "entities": [
+    {
+      "name": "七宝美髯丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "专益肝肾精血虚",
+        "indication": "肝肾不足证。须发早白，脱发，齿牙动摇，腰膝酸软，梦遗滑精，肾虚不育等。",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "何首乌",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各18g"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各18g"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "枸杞子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "补骨脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "肝肾不足证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "须发早白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脱发",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "齿牙动摇",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腰膝酸软",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "梦遗滑精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肾虚不育",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "何首乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "补骨脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾不足证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "专益肝肾精血虚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "须发早白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱发",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "齿牙动摇",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "梦遗滑精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七宝美髯丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚不育",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肝肾不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "须发早白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝肾不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脱发",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝肾不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "齿牙动摇",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝肾不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝肾不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "梦遗滑精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝肾不足证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "肾虚不育",
+      "object_type": "Disease"
+    }
+  ]
+}

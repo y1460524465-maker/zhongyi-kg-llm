@@ -1,0 +1,27 @@
+{
+  "entities": [
+    {
+      "name": "虻虫",
+      "type": "Herb",
+      "attributes": {
+        "effect": "破血逐瘀，通经消癥",
+        "indication": "用于血滞经闭，癥瘕，积聚，少腹蓄血，扑损瘀痛",
+        "property_flavor": "味苦；微咸；性凉；有毒",
+        "processing": "拣净杂质，除去翅、足；或用文火微炒用",
+        "taboo": "气血虚者、孕妇及月经期均禁服",
+        "dosage": "内服：煎汤，1.5g~3g；研末，0.3~0.6g；或入丸剂。外用：适量，研末敷或调搽"
+      }
+    },
+    {
+      "name": "华虻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "双斑黄虻",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": []
+}

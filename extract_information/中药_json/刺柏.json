@@ -1,0 +1,67 @@
+{
+  "entities": [
+    {
+      "name": "刺柏",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，燥湿止痒",
+        "indication": "麻疹高热，湿疹，癣疮",
+        "dosage": "内服：煎汤，6-15g",
+        "property_flavor": "苦，寒",
+        "origin": "江西《草药手册》"
+      }
+    },
+    {
+      "name": "麻疹高热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿疹",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "癣疮",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "刺柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "麻疹高热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癣疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺柏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "刺柏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿止痒",
+      "object_type": "Effect"
+    }
+  ]
+}

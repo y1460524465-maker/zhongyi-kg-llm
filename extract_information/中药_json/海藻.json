@@ -1,0 +1,144 @@
+{
+  "entities": [
+    {
+      "name": "海藻",
+      "type": "Herb",
+      "attributes": {
+        "alias": "落首、海萝、乌菜、海带花、海藻菜",
+        "effect": "软坚散结，消痰，利水，泄热",
+        "indication": "瘰疬，瘿瘤，积聚，水肿，脚气，睾丸肿痛",
+        "taboo": "反甘草；脾家有湿者勿服；脾虚胃弱，血气两亏者勿用之",
+        "usage": "内服：煎汤，6～12g；浸酒或入丸、散",
+        "origin": "《本经》",
+        "property_flavor": "气腥，味微咸"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "海药本草",
+      "type": "Source"
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经集注》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "《肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "《世医得效方》",
+      "type": "Source"
+    },
+    {
+      "name": "《三因方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "软坚散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泄热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "积聚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "睾丸肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    }
+  ]
+}

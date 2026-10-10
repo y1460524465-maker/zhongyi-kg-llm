@@ -1,0 +1,234 @@
+{
+  "entities": [
+    {
+      "name": "柴胡桂枝干姜汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "伤寒少阳证，往来寒热，寒重热轻，胸胁满微结，小便不利，渴而不呕，但头汗出，心烦；牡疟寒多热少，或但寒不热",
+        "taboo": null,
+        "usage": "以水1.2升，煮取600毫升，去滓，再煎取300毫升，温服150毫升，日二服"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "栝楼根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克(炙)",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柴胡桂枝干姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝干姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝干姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝干姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栝楼根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝干姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝干姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝干姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡桂枝干姜汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒少阳证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柴胡桂枝干姜汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "牡疟",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "伤寒少阳证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "往来寒热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "伤寒少阳证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸胁满微结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "伤寒少阳证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "伤寒少阳证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "渴而不呕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "伤寒少阳证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "但头汗出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "伤寒少阳证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心烦",
+      "object_type": "Symptom"
+    }
+  ]
+}

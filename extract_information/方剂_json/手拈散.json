@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "手拈散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "行气活血，通利血脉，袪瘀止痛，理气散寒",
+        "indication": "气滞血瘀所致的脘腹疼痛"
+      }
+    },
+    {
+      "name": "草果",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "玄胡索",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五灵脂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "脘腹疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "气滞血瘀",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "手拈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "草果",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "手拈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄胡索",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "手拈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五灵脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "手拈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "手拈散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "手拈散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气滞血瘀",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "entities": [
+    {
+      "name": "粉霜",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白雪、水银霜、白灵砂、白粉霜",
+        "effect": "利水，通便，攻毒，蚀恶肉，杀虫",
+        "indication": "牙痛，梅毒恶疮，水肿，臌胀，大小便闭，痈疽溃疡，湿疹，顽癣",
+        "taboo": "内服宜慎，体弱及孕妇忌服",
+        "dosage": "内服宜慎，体弱及孕妇忌服",
+        "processing": "将轻粉纳于烧瓶中，密封瓶口，然后埋置于盛有细砂的瓦锅中，徐徐加热升华。升华终了后，将烧瓶取出，破坏其上部，放置之，稍冷则升华物自然剥离。取升华物入乳钵内研碎，水飞，再于滤纸上，以水、酒精等顺次洗涤，最后，加微温，干燥后即成粉霜。",
+        "place": "产湖北、浙江、河北等地",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": null,
+        "traits": "完整者成馒头形之块状；色白而有光泽，背面较平坦而粗糙，结晶形状不明显；顶部为簇生的针状结晶，质重而脆。研成粉末为白色。"
+      }
+    },
+    {
+      "name": "粉霜散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "小儿走马疳疮",
+        "taboo": null,
+        "usage": "先用盐浆水洗过，以纸拈子揾药，扫在疮上，每日三、四度。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "粉霜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水，通便，攻毒，蚀恶肉，杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "粉霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "粉霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梅毒恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粉霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粉霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "臌胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粉霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "大小便闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粉霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粉霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粉霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "顽癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粉霜散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿走马疳疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粉霜散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粉霜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "粉霜散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "粉霜散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄丹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "粉霜散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "粉霜散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "定粉",
+      "object_type": "Herb"
+    }
+  ]
+}

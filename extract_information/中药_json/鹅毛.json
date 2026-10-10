@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "鹅毛",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒消肿，收湿敛疮",
+        "indication": "痈肿疮毒，风癣疥癞，湿疹湿疮，噎膈，惊痫",
+        "processing": "煅存性",
+        "dosage": "内服：煅存性研末，3-6g；或入丸、散。外用：适量，研开撒或调敷"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹅毛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅毛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收湿敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅毛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅毛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风癣疥癞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅毛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹湿疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅毛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噎膈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅毛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅毛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅毛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

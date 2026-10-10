@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "牛含水",
+      "type": "Herb",
+      "attributes": {
+        "alias": "多德草、紫花草、刺儿草、倒打草、道爪草、牛汉水、牛哈水、野胡麻",
+        "effect": "清热解毒，祛风止痒",
+        "indication": "老年慢性气管炎，小儿肺炎，支气管炎，扁桃体炎，急性乳腺炎，急性结膜炎，急性淋巴腺炎，尿道感染，荨麻疹，皮肤瘙痒",
+        "dosage": "内服：煎汤，15-30g",
+        "origin": "玄参科植物野胡麻",
+        "processing": "夏、秋季采收，切段晒干"
+      }
+    },
+    {
+      "name": "倒打草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "牛含水"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛含水",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，祛风止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛含水",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "老年慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛含水",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛含水",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛含水",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛含水",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性乳腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛含水",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性结膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛含水",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性淋巴腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛含水",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿道感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛含水",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "荨麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛含水",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "倒打草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "神经衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "倒打草",
+      "object_type": "Herb"
+    }
+  ]
+}

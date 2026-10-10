@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "楮树白皮",
+      "type": "Herb",
+      "attributes": {
+        "alias": "穀木皮、楮树皮、穀白皮、楮白皮、构皮",
+        "effect": "利水，止血",
+        "indication": "小便不利，水肿胀痛，气短咳嗽，肠风血痢，崩漏",
+        "usage": "内服：煎汤，6-9g；酿酒或入丸、散。外用：适量，煎水洗；或烧存性，研末点眼",
+        "origin": "桑科植物构树树皮的韧皮部"
+      }
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《世医得效方》",
+      "type": "Source"
+    },
+    {
+      "name": "《外台秘要方》",
+      "type": "Source"
+    },
+    {
+      "name": "《卫生易简方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "楮树白皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "楮树白皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "楮树白皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "楮树白皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气短咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "楮树白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风血痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "楮树白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    }
+  ]
+}

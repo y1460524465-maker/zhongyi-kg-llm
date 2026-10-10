@@ -1,0 +1,429 @@
+{
+  "entities": [
+    {
+      "name": "紫雪丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热解毒、熄风镇痉、开窍安神",
+        "indication": "温热病，邪热内陷心包而致的高热烦躁、神昏谵语、痉厥、口渴唇焦，尿赤便闭，以及小儿热盛惊厥；乙脑、流脑、猩红热等急性热病，见高热神昏、抽搐痉厥、口渴唇焦等证；小儿麻疹，热毒内盛，疹色紫红，或透发不畅，见高热、喘促、昏迷，指纹紫红者",
+        "taboo": null,
+        "usage": "制成散剂，每服0.9～1.5克，每日1－2次，冷开水调下"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1500克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1500克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "寒水石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1500克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "羚羊角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "500克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "犀角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "500克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "38克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "500克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "升麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "500克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "240克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "磁石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1500克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄金",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3000克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "青木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "500克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "丁香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "沉香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "500克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "朴硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5000克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "硝石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "930克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "寒水石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羚羊角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "磁石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄金",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朴硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "硝石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "熄风镇痉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫雪丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "开窍安神",
+      "object_type": "Effect"
+    }
+  ]
+}

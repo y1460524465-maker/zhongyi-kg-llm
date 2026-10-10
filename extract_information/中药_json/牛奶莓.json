@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "name": "牛奶莓",
+      "type": "Herb",
+      "attributes": {
+        "origin": "蔷薇科植物红腺悬钩子的根",
+        "place": "安徽、浙江、江西、福建、台湾、湖北、湖南、广东、广西、四川、贵州、云南、西藏等地",
+        "indication": "产后寒热腹痛，食欲不振，水肿，中耳炎",
+        "effect": "清热解毒，开胃，利水",
+        "dosage": "内服：煎汤，9-18克"
+      }
+    },
+    {
+      "name": "新华本草纲要",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛奶莓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "新华本草纲要",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "name": "尖叶小羽藓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，12-15g",
+        "effect": "清热解毒",
+        "indication": "用于急性扁桃体炎，乳腺炎，丹毒，疖肿，上呼吸道感染，肺炎，中耳炎，膀胱炎，尿道炎，附件炎，产后感染，虫咬高热",
+        "processing": "夏、秋季采收，洗净，晒干或鲜用",
+        "place": "江苏、安徽、浙江、台湾、湖北、四川、云南"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疖肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "上呼吸道感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中耳炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "膀胱炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿道炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "附件炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "尖叶小羽藓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虫咬高热",
+      "object_type": "Disease"
+    }
+  ]
+}

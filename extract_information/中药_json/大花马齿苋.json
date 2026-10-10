@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "大花马齿苋",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，散瘀止血",
+        "indication": "咽喉肿痛，疮疖，湿疹，跌打肿痛，烫火伤，外伤出血",
+        "processing": "夏、秋两季采收，除去残根及杂质，洗净，鲜用，或略蒸烫后晒干",
+        "usage": "内服：煎汤，9-15g，鲜品可用至30g。外用：适量，捣汁含漱；或捣敷",
+        "dosage": "9-15g，鲜品可用至30g",
+        "property_flavor": "味酸"
+      }
+    }
+  ],
+  "relations": []
+}

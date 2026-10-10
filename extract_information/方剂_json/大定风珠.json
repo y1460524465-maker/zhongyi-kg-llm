@@ -1,0 +1,187 @@
+{
+  "entities": [
+    {
+      "name": "大定风珠",
+      "type": "Formula",
+      "attributes": {
+        "effect": "滋阴熄风",
+        "indication": "阴虚动风证。温病后期，神倦瘛疭，脉气虚弱，舌绛苔少，有时时欲脱之势",
+        "alias": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "龟版",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "干地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麻仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "鸡子黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "鳖甲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "神倦瘛疭",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌绛苔少",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴熄风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟版",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鳖甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚动风证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阴虚动风证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "神倦瘛疭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴虚动风证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌绛苔少",
+      "object_type": "Symptom"
+    }
+  ]
+}

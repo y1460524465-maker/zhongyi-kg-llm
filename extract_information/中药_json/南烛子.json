@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {
+      "name": "南烛子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9-15g",
+        "effect": "益肾固精，强筋明目",
+        "indication": "久泄梦遗，久痢久泻，赤白带下",
+        "meridian": "肝、肾、脾经",
+        "property_flavor": "酸、甘，平",
+        "traits": "本品为杜鹃花科植物乌饭树的干燥成熟果实。用于身体虚弱，脾虚久泄，梦遗滑精，赤白带下。",
+        "origin": "https://zhongyibaike.com/wiki/南烛子",
+        "place": "江苏、浙江、安徽、江西、湖北、湖南、广东、台湾等地",
+        "processing": "8～9月间果实成熟后采摘，晒干。置干燥处。"
+      }
+    }
+  ],
+  "relations": []
+}

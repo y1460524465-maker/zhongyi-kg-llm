@@ -1,0 +1,133 @@
+{
+  "entities": [
+    {
+      "name": "墨旱莲",
+      "type": "Herb",
+      "attributes": {
+        "alias": "金陵草、莲子草、旱莲草、旱莲子、白旱莲、猪牙草、旱莲蓬、猢孙头、莲草、墨斗草、墨烟草、墨菜、白花草、白花蟛蜞菊、墨记菜、野水凤仙、黑墨草、黑头草、古城墨、水旱莲、冰冻草、墨汁草、节节乌、白田乌草、墨草、摘落乌、水葵花",
+        "origin": "菊科植物鳢肠的全草",
+        "place": "辽宁、河北、山东、江苏、浙江、安徽、福建、广东、广西、江西、湖南、湖北、四川、贵州、云南等地。主产江苏、江西、浙江、广东等地",
+        "processing": "拣净杂质，除去残根，洗净闷透，切段晒干",
+        "property_flavor": "气微香，味淡微咸",
+        "traits": "干燥全草全体被白色茸毛。茎圆柱形，长约30厘米，直径约3毫米。绿褐色或带紫红色，有纵棱。叶片卷曲，皱缩或破碎，绿褐色。茎顶带有头状花序，多已结实，果实很多，呈黑色颗粒状。浸水后搓其茎叶，则呈黑色。以色绿、无杂质者为佳",
+        "effect": "凉血，止血，补肾，益阴。治吐血，咳血，衄血，尿血，便血，血痢，刀伤出血，须发早白，白喉，淋浊，带下，阴部湿痒",
+        "dosage": "内服：煎汤，9~30g；或熬膏；或捣汁；或入丸、散。外用：适量，捣敷；或捣绒塞鼻；或研末敷",
+        "taboo": "脾肾虚寒者忌服。《得配本草》：胃弱便溏。肾气虚寒者禁用"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "刀伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "须发早白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白喉",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴部湿痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "墨旱莲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益阴",
+      "object_type": "Effect"
+    }
+  ]
+}

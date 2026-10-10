@@ -1,0 +1,325 @@
+{
+  "entities": [
+    {
+      "name": "清营汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热更护阴",
+        "indication": "热入营分证。身热夜甚，神烦少寐，时有谵语，目常喜开或喜闭，口渴或不渴，斑疹隐隐，脉细数，舌绛而干。",
+        "taboo": "舌白滑者，不可与也",
+        "usage": "上药，水八杯，煮取三杯，日三服；现代用法：作汤剂，水牛角镑片先煎，后下余药"
+      }
+    },
+    {
+      "name": "犀角粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2克(另冲)"
+      }
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "元参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "丹参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "竹叶心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克"
+      }
+    },
+    {
+      "name": "犀角",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清营凉血"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清营凉血"
+      }
+    },
+    {
+      "name": "金银花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒"
+      }
+    },
+    {
+      "name": "元参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养阴生津"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养阴生津"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀角粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "元参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹叶心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热入营分证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "乙型脑炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性脑脊髓膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "败血症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身热夜甚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神烦少寐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "时有谵语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "斑疹隐隐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清营汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热更护阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "犀角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清营凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "生地",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清营凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹叶心",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血消瘀以散热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麦冬",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "元参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴生津",
+      "object_type": "Effect"
+    }
+  ]
+}

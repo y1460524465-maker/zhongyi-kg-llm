@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "橄榄核",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒，敛疮，止血，利气",
+        "indication": "咽喉肿痛，口舌生疮，冻疮，疳疮，天疱疮，肠风下血，睾丸肿痛",
+        "place": "福建、台湾、广东、海南、广西、四川、贵州、云南",
+        "usage": "内服：烧存性研末，3-6g；或磨汁。外用：适量，烧存性，研末撒或调敷；或磨汁涂",
+        "processing": "橄榄核  将原药洗净，干燥。除去杂质，筛去灰屑。橄榄核炭  取橄榄核，照炒炭法清炒至外黑内老黄，筛去灰屑"
+      }
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "口舌生疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "冻疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "疳疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "天疱疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠风下血",
+      "type": "Symptom"
+    },
+    {
+      "name": "睾丸肿痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "橄榄核",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橄榄核",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橄榄核",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "冻疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橄榄核",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疳疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橄榄核",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "天疱疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橄榄核",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橄榄核",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "睾丸肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橄榄核",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "橄榄核",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "橄榄核",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "橄榄核",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利气",
+      "object_type": "Effect"
+    }
+  ]
+}

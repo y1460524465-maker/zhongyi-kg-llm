@@ -1,0 +1,31 @@
+{
+  "entities": [
+    {
+      "name": "泥鳅",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补益脾肾，利水，解毒",
+        "indication": "脾虚泻痢，热病口渴，消渴，小儿盗汗，水肿，小便不利，阳事不举，病毒性肝炎，痔疮，疔疮，皮肤瘙痒",
+        "dosage": "内服：煮食，100-250g；或烧存性，入丸、散，每次6-10g",
+        "processing": "鲜用或晒干",
+        "traits": "体细长，长约15厘米，前段略呈圆筒形，后部侧扁，腹部圆"
+      }
+    },
+    {
+      "name": "泥鳅",
+      "type": "Herb",
+      "attributes": {
+        "origin": "鳅科动物泥鳅、花鳅、大鳞泥鳅的全体"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泥鳅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补益脾肾，利水，解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

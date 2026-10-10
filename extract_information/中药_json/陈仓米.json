@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "name": "陈仓米",
+      "type": "Herb",
+      "attributes": {
+        "alias": "陈禀米、陈米、火米、老米、红粟",
+        "effect": "调中和胃，渗湿止泻，除烦",
+        "indication": "脾胃虚弱，食少，泄泻反胃，噤口痢，烦渴",
+        "usage": "内服：适量，煎汤；或入丸、散"
+      }
+    },
+    {
+      "name": "陈米汤",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "仓连煎",
+      "type": "Formula",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "陈仓米",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调中和胃，渗湿止泻，除烦",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "陈仓米",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "陈仓米",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "陈仓米",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "陈仓米",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噤口痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "陈仓米",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "陈米汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈仓米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "陈米汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "仓连煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈仓米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仓连煎",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《古今医鉴》",
+      "object_type": "Source"
+    }
+  ]
+}

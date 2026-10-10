@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "金银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10~20g",
+        "effect": "清热，解毒",
+        "indication": "温病发热，热毒血痢，痈疡，肿毒，瘰疬，痔漏",
+        "property_flavor": "味微苦",
+        "taboo": "脾胃虚寒及气虚疮疡脓清者忌服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金银花",
+      "subject_type": "Herb",
+      "relation": "HAVE_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金银花",
+      "subject_type": "Herb",
+      "relation": "HAVE_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金银花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "温病发热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金银花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热毒血痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金银花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金银花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金银花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金银花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔漏",
+      "object_type": "Disease"
+    }
+  ]
+}

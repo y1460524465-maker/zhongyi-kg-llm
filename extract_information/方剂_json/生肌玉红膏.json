@@ -1,0 +1,251 @@
+{
+  "entities": [
+    {
+      "name": "生肌玉红膏",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "祛腐生肌，消肿止痛活血",
+        "indication": "痈疽发背，诸般溃烂，棒毒等疮",
+        "taboo": null,
+        "usage": "已溃流脓时，先用甘草汤，甚者用猪蹄药汤，淋洗患上，软绢捐净，用抿脚挑膏于掌中捺化，遍搽新腐肉上，外以太乙膏盖之。大疮早、晚洗换2次，内兼服大补脾胃暖药"
+      }
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两2钱",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归身",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "瓜儿血竭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "轻粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "蜂蜡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "紫草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麻油",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1斤",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "痈疽发背",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "诸般溃烂",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "棒毒等疮",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛腐生肌，消肿止痛活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽发背",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "诸般溃烂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "棒毒等疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归身",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜儿血竭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "轻粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜂蜡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻油",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生肌玉红膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/生肌玉红膏",
+      "object_type": "Source"
+    }
+  ]
+}

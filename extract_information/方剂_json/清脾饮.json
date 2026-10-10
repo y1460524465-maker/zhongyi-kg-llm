@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "name": "清脾饮",
+      "type": "Formula",
+      "attributes": {
+        "usage": "上以生姜为引，水煎服。"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4分"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "8分"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5分"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清脾饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清脾饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清脾饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清脾饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清脾饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清脾饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清脾饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清脾饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清脾饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    }
+  ]
+}

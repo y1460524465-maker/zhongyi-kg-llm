@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "name": "四妙勇安汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "金元当草",
+        "effect": null,
+        "indication": "脱疽。热毒炽盛，患肢黯红微肿灼热，溃烂腐臭，疼痛剧烈，或见发热口渴，舌红脉数。减量则无效！",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "金银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各90g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各90g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "脱疽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血管闭塞性脉管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脚趾发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "黯红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "趺阳脉弱",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四妙勇安汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四妙勇安汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四妙勇安汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四妙勇安汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四妙勇安汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脱疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四妙勇安汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血管闭塞性脉管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血管闭塞性脉管炎",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脚趾发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血管闭塞性脉管炎",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "黯红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血管闭塞性脉管炎",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "趺阳脉弱",
+      "object_type": "Symptom"
+    }
+  ]
+}

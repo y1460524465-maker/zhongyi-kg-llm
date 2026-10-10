@@ -1,0 +1,198 @@
+{
+  "entities": [
+    {
+      "name": "人参养荣汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "养血补气，养荣",
+        "indication": "积劳虚损，四肢沉滞，骨肉酸疼，吸吸少气，行动喘啜，小腹拘急，腰背强痛，心虚惊悸，咽干唇燥，饮食无味，阴阳衰弱，悲忧惨戚，多卧少起；肺与大肠俱虚，咳嗽下痢，喘乏少气，呕吐痰涎",
+        "taboo": "阴虚阳旺而致心悸、自汗、失眠、健忘诸症者不可用",
+        "usage": "加生姜三片，大枣二枚，水煎服，早晚各一次，空腹服"
+      }
+    },
+    {
+      "name": "白芍药",
+      "type": "Herb"
+    },
+    {
+      "name": "当归",
+      "type": "Herb"
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb"
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb"
+    },
+    {
+      "name": "桂心",
+      "type": "Herb"
+    },
+    {
+      "name": "人参",
+      "type": "Herb"
+    },
+    {
+      "name": "白术",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb"
+    },
+    {
+      "name": "五味子",
+      "type": "Herb"
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "远志",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "积劳虚损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢沉滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨肉酸疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吸吸少气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人参养荣汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/人参养荣汤",
+      "object_type": "Source"
+    }
+  ]
+}

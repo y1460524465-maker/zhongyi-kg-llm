@@ -1,0 +1,152 @@
+{
+  "entities": [
+    {
+      "name": "白梅",
+      "type": "Herb",
+      "attributes": {
+        "alias": "盐梅、霜梅、白霜梅",
+        "effect": "利咽生津，涩肠止泻，除痰开噤，消疮，止血",
+        "indication": "咽喉肿痛，烦渴呕恶，久泻久痢，便血，崩漏，中风惊痫，痰劂口噤，梅核气，痈疽肿毒，外伤出血",
+        "origin": "《齐民要术》",
+        "taboo": "多食损齿伤筋",
+        "usage": "内服：煎汤、噙咽津液或入丸剂。外用：擦牙、捣敷或煅存性研末调敷",
+        "property_flavor": "酸、咸"
+      }
+    },
+    {
+      "name": "《本草从新》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《如宜方》",
+      "type": "Source"
+    },
+    {
+      "name": "《龚氏经验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《易简方》",
+      "type": "Source"
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利咽生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "涩肠止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除痰开噤",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦渴呕恶",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久泻久痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰劂口噤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "梅核气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疽肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

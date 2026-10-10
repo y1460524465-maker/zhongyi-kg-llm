@@ -1,0 +1,214 @@
+{
+  "entities": [
+    {
+      "name": "马蔺子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，止血解毒",
+        "indication": "用于黄疸，泻痢，吐血，衄血，血崩，白带，喉痹，痈肿",
+        "usage": "内服：煎汤，3～9g；或入丸、散",
+        "taboo": "多服令人溏泄；燥热者禁用",
+        "processing": "8～9月果实成熟时割下果穗，晒干，打取种子，除去杂质，再晒干"
+      }
+    },
+    {
+      "name": "马蔺",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为鸢尾科植物马蔺的种子",
+        "place": "分布于东北、华北、西北及山东、江苏、安徽、浙江、河南、湖北、湖南、四川、西藏等地"
+      }
+    },
+    {
+      "name": "蠡实",
+      "type": "Herb",
+      "attributes": {
+        "alias": "马蔺子"
+      }
+    },
+    {
+      "name": "荔实",
+      "type": "Herb",
+      "attributes": {
+        "alias": "马蔺子"
+      }
+    },
+    {
+      "name": "马楝子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "马蔺子"
+      }
+    },
+    {
+      "name": "马莲子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "马蔺子"
+      }
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "泻痢",
+      "type": "Disease"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血崩",
+      "type": "Symptom"
+    },
+    {
+      "name": "白带",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease"
+    },
+    {
+      "name": "急性黄疸型传染性肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "水痢",
+      "type": "Disease"
+    },
+    {
+      "name": "月经过多",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉痹肿热痛闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "鼻衄",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿，止血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泻痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性黄疸型传染性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经过多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹肿热痛闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马蔺子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "entities": [
+    {
+      "name": "生姜皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利水消肿",
+        "indication": "用于小便不利，水肿胀满。",
+        "dosage": "内服：煎汤，1～3g。"
+      }
+    },
+    {
+      "name": "五皮散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "五皮散",
+        "effect": "治头面虚浮，四肢肿满，心腹膨胀，上气促急，腹胁如鼓，绕脐胀闷，有妨饮食，上攻下庄，来去不定，举动喘乏",
+        "usage": "上为粗末。每胀三钱，水一盏半，煎至八分，去滓稍热服之，不拘时候。切忌生冷油腻坚硬等物。"
+      }
+    },
+    {
+      "name": "《局方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《食疗本草》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "生姜皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "生姜皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生姜皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "生姜皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《食疗本草》",
+      "object_type": "Source"
+    }
+  ]
+}

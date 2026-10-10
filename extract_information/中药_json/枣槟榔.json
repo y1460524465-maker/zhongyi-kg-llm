@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "枣槟榔",
+      "type": "Herb",
+      "attributes": {
+        "effect": "消食，醒酒，宽胸，止呕，消痰止咳",
+        "indication": "胸膈闷滞，呕吐，咳嗽痰多",
+        "usage": "内服：煎汤，5~9克；或研末作散剂"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枣槟榔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枣槟榔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "醒酒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枣槟榔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宽胸",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枣槟榔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止呕",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枣槟榔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枣槟榔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸膈闷滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣槟榔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枣槟榔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽痰多",
+      "object_type": "Symptom"
+    }
+  ]
+}

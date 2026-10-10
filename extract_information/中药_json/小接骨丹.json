@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "name": "小接骨丹",
+      "type": "Herb",
+      "attributes": {
+        "alias": "活血丹、葎叶白蔹",
+        "effect": "活血散瘀，消炎解毒，生肌长骨，祛风除湿",
+        "indication": "跌打损伤，骨折疮疖肿痛，风湿性关节炎",
+        "processing": "秋季挖取根部，洗净泥土，剥取根皮，鲜用或晒干",
+        "dosage": "内服：煎汤，9-15g；或研末",
+        "origin": "葡萄科植物律叶蛇葡萄的根皮"
+      }
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "骨折疮疖肿痛",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小接骨丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小接骨丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折疮疖肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小接骨丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    }
+  ]
+}

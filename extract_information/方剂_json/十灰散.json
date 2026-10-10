@@ -1,0 +1,144 @@
+{
+  "entities": [
+    {
+      "name": "十灰散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "凉血止血，清降，祛瘀",
+        "indication": "血热妄行之呕血、咯血等",
+        "taboo": "虚寒证出血忌用",
+        "usage": "各药烧炭存性，研为细末，藕汁或萝卜汁磨京墨适量，调服9克；也可外敷治外伤出血；也可水煎服，用量按原方比例酌定"
+      }
+    },
+    {
+      "name": "大蓟",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "小蓟",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "荷叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "侧柏叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白茅根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茜草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "棕榈皮",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大蓟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小蓟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荷叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "侧柏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茅根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茜草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血热妄行",
+      "object_type": "Disease"
+    }
+  ]
+}

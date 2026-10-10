@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "四季素馨花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散瘀止痛，止血",
+        "indication": "跌打损伤，外伤出血，骨折，疮，疖",
+        "dosage": "外用：适量，捣烂敷患处，或叶研粉蛋清调油外敷"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四季素馨花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀止痛，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四季素馨花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四季素馨花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四季素馨花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四季素馨花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四季素馨花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

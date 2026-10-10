@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {
+      "name": "足踏丸",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "乌头",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两",
+        "processing": "去皮脐，生，捣末"
+      }
+    },
+    {
+      "name": "樟脑",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两",
+        "processing": "细研"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "足踏丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌头",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足踏丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "樟脑",
+      "object_type": "Herb"
+    }
+  ]
+}

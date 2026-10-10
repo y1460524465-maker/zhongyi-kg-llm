@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "name": "驴肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补血益气",
+        "indication": "劳损，风眩，心烦",
+        "origin": "马科动物驴的肉",
+        "traits": "驴，体型比马小，体重一般200kg左右。驴肉的头型较长，眼圆，其上生有1对显眼的长耳。颈部长而宽厚，颈背鬃毛短而稀少。躯体匀称，四肢短粗，蹄质坚硬。尾尖端处生有长毛。驴的体色主要以黑、栗、灰三种为主。中国着名的品种关中驴，体型高大，繁殖力强。"
+      }
+    },
+    {
+      "name": "劳损",
+      "type": "Disease"
+    },
+    {
+      "name": "风眩",
+      "type": "Disease"
+    },
+    {
+      "name": "心烦",
+      "type": "Symptom"
+    },
+    {
+      "name": "风狂",
+      "type": "Disease"
+    },
+    {
+      "name": "忧愁不乐",
+      "type": "Symptom"
+    },
+    {
+      "name": "安心气",
+      "type": "Effect"
+    },
+    {
+      "name": "驴肉汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "驴肉汤",
+        "usage": "空心食之"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "驴肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "劳损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "驴肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风眩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "驴肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "驴肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补血益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "驴肉汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风狂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "驴肉汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "忧愁不乐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "驴肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "安心气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "驴肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "驴肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "驴肉汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《饮膳正要》",
+      "object_type": "Source"
+    }
+  ]
+}

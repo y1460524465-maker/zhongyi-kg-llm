@@ -1,0 +1,166 @@
+{
+  "entities": [
+    {
+      "name": "地柏枝",
+      "type": "Herb",
+      "attributes": {
+        "alias": "地柏、油面风、铺地金牛、百叶草、烂皮蛇、岩柏草、石柏、岩柏枝、孔雀毛、土黄连、石金花",
+        "effect": "止血，清热，利湿",
+        "indication": "主治吐血，痔血，便血，血崩，创伤出血，黄疸，淋病，小儿惊风",
+        "property_flavor": "辛，平",
+        "usage": "内服：煎汤，15-30g，大剂量可用至60g。外用：研末敷；或鲜品捣敷。"
+      }
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西药植名录》",
+      "type": "Source"
+    },
+    {
+      "name": "《浙江天目山药植志》",
+      "type": "Source"
+    },
+    {
+      "name": "《贵州药植目录》",
+      "type": "Source"
+    },
+    {
+      "name": "《江西草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《草木便方》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《分类草药性》",
+      "type": "Source"
+    },
+    {
+      "name": "《浙江中药资源名录》",
+      "type": "Source"
+    },
+    {
+      "name": "《贵州草药》",
+      "type": "Source"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔血",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血崩",
+      "type": "Symptom"
+    },
+    {
+      "name": "创伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "黄疸",
+      "type": "Symptom"
+    },
+    {
+      "name": "淋病",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿惊风",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "地柏枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地柏枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地柏枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地柏枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地柏枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "创伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地柏枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地柏枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋病",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地柏枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地柏枝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地柏枝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地柏枝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿",
+      "object_type": "Effect"
+    }
+  ]
+}

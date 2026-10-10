@@ -1,0 +1,162 @@
+{
+  "entities": [
+    {
+      "name": "峨参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气健脾，活血止痛",
+        "indication": "脾虚腹胀，乏力食少，肺虚咳嗽，体虚自汗，老人夜尿频数，气虚水肿，劳伤腰痛，头痛，痛经，跌打瘀肿",
+        "property_flavor": "性微温，味甘辛",
+        "usage": "内服：煎汤，9-15g；或泡酒。外用：适量，研末调敷",
+        "taboo": "凡邪实而正气未虚者忌用",
+        "processing": "以水浸湿，闷润4小时，切碎晒干",
+        "origin": "伞形科植物峨参的根"
+      }
+    },
+    {
+      "name": "脾虚腹胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "乏力食少",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺虚咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "体虚自汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "老人夜尿频数",
+      "type": "Symptom"
+    },
+    {
+      "name": "气虚水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "劳伤腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痛经",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打瘀肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "益气健脾",
+      "type": "Effect"
+    },
+    {
+      "name": "活血止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "四川中药志",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾虚腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乏力食少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺虚咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体虚自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "老人夜尿频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气虚水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳伤腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打瘀肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "峨参",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "四川中药志",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,829 @@
+{
+  "entities": [
+    {
+      "name": "徐长卿",
+      "type": "Herb",
+      "attributes": {
+        "alias": "寮刁竹、逍遥竹、遥竹逍、瑶山竹、了刁竹、对节莲、竹叶细辛、铜锣草、一枝香、英雄草",
+        "effect": "镇痛，止咳，利水消肿，活血解毒",
+        "indication": "主治胃痛，牙痛，风湿疼痛，经期腹痛，慢性气管炎，腹水，水肿，痢疾，肠炎，跌打损伤，湿疹，荨麻疹，毒蛇咬伤",
+        "dosage": "内服：煎汤，3~10g；散剂，1.5~3g",
+        "property_flavor": "味微辛凉",
+        "traits": "气香"
+      }
+    },
+    {
+      "name": "安息香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "月季花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "徐长卿汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "小便不通",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "虎杖",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红四块瓦",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "小茴香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生栀子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "马蹄草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "朱砂莲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "海螵蛸",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "鹿衔草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "钩藤",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "墨旱莲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "萹蓄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "石菖蒲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "海金沙",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "苦参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地肤子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白鲜皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "半边莲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桑枝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白茅根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "冬葵子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "瞿麦穗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "朴硝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "石长生",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "车前子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "车下李根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "经期腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "慢性气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "腹水",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "荨麻疹",
+      "type": "Disease"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃癌",
+      "type": "Disease"
+    },
+    {
+      "name": "风疹块",
+      "type": "Symptom"
+    },
+    {
+      "name": "顽癣",
+      "type": "Disease"
+    },
+    {
+      "name": "皮肤瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "带状疱疹",
+      "type": "Disease"
+    },
+    {
+      "name": "接触性皮炎",
+      "type": "Disease"
+    },
+    {
+      "name": "顽固性荨麻疹",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性皮炎",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹部胀满",
+      "type": "Symptom"
+    },
+    {
+      "name": "寒气腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "血虚经闭",
+      "type": "Disease"
+    },
+    {
+      "name": "月经过多",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺热",
+      "type": "Symptom"
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿高热抽搐",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾盂肾炎",
+      "type": "Disease"
+    },
+    {
+      "name": "腿肚生疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "结膜炎",
+      "type": "Disease"
+    },
+    {
+      "name": "支气管哮喘",
+      "type": "Disease"
+    },
+    {
+      "name": "蛇伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "虫螫",
+      "type": "Symptom"
+    },
+    {
+      "name": "精神分裂症",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "晕车晕船",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃寒气痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肝硬化腹水",
+      "type": "Disease"
+    },
+    {
+      "name": "腹胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶庄心痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "脘腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "手术后疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "癌肿疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "荨麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带状疱疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "接触性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "顽固性荨麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血虚经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾盂肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "结膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "精神分裂症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经期腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒蛇咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疹块",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "顽癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒气腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经过多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿高热抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腿肚生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虫螫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "慢性腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "晕车晕船",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃寒气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶庄心痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手术后疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癌肿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "徐长卿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解蛇毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "徐长卿汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "徐长卿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "徐长卿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "徐长卿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茅根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "徐长卿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "徐长卿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冬葵子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "徐长卿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "徐长卿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "徐长卿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瞿麦穗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "徐长卿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朴硝",
+      "object_type": "Herb"
+    }
+  ]
+}

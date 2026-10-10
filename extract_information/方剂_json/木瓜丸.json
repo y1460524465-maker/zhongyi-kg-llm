@@ -1,0 +1,335 @@
+{
+  "entities": [
+    {
+      "name": "木瓜丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "祛风散寒，活络止痛",
+        "indication": "风寒湿痹，四肢麻木，周身疼痛，腰膝无力，步履艰难",
+        "taboo": null,
+        "usage": "口服，一次30丸，一日2次"
+      }
+    },
+    {
+      "name": "木瓜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "威灵仙",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "狗脊（制）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "160g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "鸡血藤",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "海风藤",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "制川乌",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "制草乌",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛风散寒，活络止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "周身疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "步履艰难",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木瓜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "威灵仙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "狗脊（制）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡血藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海风藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "制川乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木瓜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "制草乌",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "entities": [
+    {
+      "name": "茴香橘核丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "散寒行气，消肿止痛",
+        "indication": "寒疝，睾丸肿痛",
+        "usage": "口服，一次6～9g，一日2次"
+      }
+    },
+    {
+      "name": "小茴香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "processing": "盐炒"
+      }
+    },
+    {
+      "name": "八角茴香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g"
+      }
+    },
+    {
+      "name": "橘核",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "processing": "盐炒"
+      }
+    },
+    {
+      "name": "荔枝核",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g"
+      }
+    },
+    {
+      "name": "补骨脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "processing": "盐炒"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "16g"
+      }
+    },
+    {
+      "name": "川楝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g"
+      }
+    },
+    {
+      "name": "延胡索",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "processing": "醋制"
+      }
+    },
+    {
+      "name": "莪术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "processing": "醋制"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "processing": "醋制"
+      }
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "processing": "醋炒"
+      }
+    },
+    {
+      "name": "昆布",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g"
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g"
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "processing": "制"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "16g"
+      }
+    },
+    {
+      "name": "穿山甲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "processing": "制"
+      }
+    },
+    {
+      "name": "寒疝",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "睾丸肿痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "散寒行气，消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "睾丸肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "八角茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘核",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荔枝核",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "补骨脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川楝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "延胡索",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莪术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "昆布",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茴香橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "穿山甲",
+      "object_type": "Herb"
+    }
+  ]
+}

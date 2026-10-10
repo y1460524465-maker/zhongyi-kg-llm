@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "磁朱丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "安神潜阳",
+        "indication": "心肾不交证；视物昏花，耳鸣耳聋，心悸失眠，癫狂痫证",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "磁石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两",
+        "effect": "益阴潜阳，重镇安神",
+        "indication": null,
+        "meridian": "肾",
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "辛寒",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两",
+        "effect": "清心降火，重镇安神",
+        "indication": null,
+        "meridian": "心",
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "甘寒",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "神曲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "四两",
+        "effect": "健脾和胃",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "磁朱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "磁石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "磁朱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "磁朱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "磁朱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "安神潜阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "磁朱丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心肾不交证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "磁朱丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "视物昏花",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "磁朱丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳鸣耳聋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "磁朱丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "磁朱丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "磁石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益阴潜阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "磁石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "重镇安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "朱砂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清心降火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "朱砂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "重镇安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "神曲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾和胃",
+      "object_type": "Effect"
+    }
+  ]
+}

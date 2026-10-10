@@ -1,0 +1,232 @@
+{
+  "entities": [
+    {
+      "name": "麦味地黄丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "滋肾敛肺",
+        "indication": "肺肾阴虚之喘嗽；肺肾阴虚证；虚烦劳热，咳嗽吐血，潮热盗汗；肺结核；喘病；遗精；消渴病"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "160g"
+      }
+    },
+    {
+      "name": "山茱萸(制)",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "肺肾阴虚",
+      "type": "Disease"
+    },
+    {
+      "name": "喘嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "虚烦劳热",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "潮热盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease"
+    },
+    {
+      "name": "喘病",
+      "type": "Disease"
+    },
+    {
+      "name": "遗精",
+      "type": "Disease"
+    },
+    {
+      "name": "消渴病",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸(制)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋肾敛肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺肾阴虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肺肾阴虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "喘嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺肾阴虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "虚烦劳热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺肾阴虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺肾阴虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "潮热盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "喘病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麦味地黄丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴病",
+      "object_type": "Disease"
+    }
+  ]
+}

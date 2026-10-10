@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "name": "腐巴",
+      "type": "Herb",
+      "attributes": {
+        "alias": "锅炙、豆腐锅巴",
+        "effect": "健胃消食，清热通淋",
+        "indication": "反胃，痢疾，肠风下血，带下，淋浊，血风疮",
+        "usage": "内服：研末，3-9g；或入丸、散。外用：适量，研末调敷"
+      }
+    },
+    {
+      "name": "反胃",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "肠风下血",
+      "type": "Disease"
+    },
+    {
+      "name": "带下",
+      "type": "Disease"
+    },
+    {
+      "name": "淋浊",
+      "type": "Disease"
+    },
+    {
+      "name": "血风疮",
+      "type": "Disease"
+    },
+    {
+      "name": "《药性考》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《神方珍记》",
+      "type": "Source"
+    },
+    {
+      "name": "《慈航活人书》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健胃消食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "反胃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风下血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血风疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《神方珍记》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "腐巴",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《慈航活人书》",
+      "object_type": "Source"
+    }
+  ]
+}

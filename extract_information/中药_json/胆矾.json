@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "胆矾",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：入丸、散，0.3~0.6g。外用：研末撒或调敷，或以水溶化洗眼。",
+        "effect": "催吐，祛腐，解毒。",
+        "indication": "风痰壅塞，喉痹，癫痫，牙疳，口疮，烂弦风眼，痔疮，肿毒。",
+        "property_flavor": "寒（由药性论破热毒及清热泻火等推论，但文本未明确给出四气五味，此处可不填），基于文本无直接描述，暂不填",
+        "taboo": "体虚者忌服。①《本草经集注》：水英为之使。畏牡桂，菌桂、芫花、辛夷、白薇。②《药性论》：陆英为使。",
+        "traits": "为不规则的块状结晶体，大小不一。深蓝或浅蓝色，半透明。似玻璃光泽。质脆，易碎，碎块呈棱柱形，断面光亮。无臭，味涩，能令人作呕。以块大、深蓝色、透明、无杂质者为佳。露置干燥空气中，缓缓风化。加热烧之，则失去结晶水，变成白色，遇水则又变蓝色。易溶于水及甘油，不溶于乙醇。水溶液显铜盐及硫酸盐的各种特殊反应。",
+        "place": "主产云南、山西。江西、广东、陕西、甘肃等地亦产。",
+        "origin": "为硫酸盐类矿物胆矾的晶体，或为人工制成的含水硫酸铜。可于铜矿中挖得，选择蓝色透明的结晶，即得。人工制造者，可用硫酸作用于铜片或氧化铜而制得。本品易风化，应密闭贮藏。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "胆矾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风痰壅塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胆矾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胆矾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胆矾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙疳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胆矾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胆矾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烂弦风眼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胆矾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胆矾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胆矾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "催吐",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胆矾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛腐",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胆矾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

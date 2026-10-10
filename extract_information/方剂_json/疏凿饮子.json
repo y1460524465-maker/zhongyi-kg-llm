@@ -1,0 +1,298 @@
+{
+  "entities": [
+    {
+      "name": "疏凿饮子",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "攻里疏表，内消外散",
+        "indication": "水肿。证见遍身浮肿，喘息，口渴，小便不利，大便秘结，脉滑",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "大腹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "椒目",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "商陆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "赤小豆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喘息",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "大便秘结",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "疏凿饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "疏凿饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "疏凿饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大腹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "疏凿饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "疏凿饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "椒目",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "疏凿饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "疏凿饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "疏凿饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "商陆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "疏凿饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤小豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "疏凿饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "攻里疏表，内消外散",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "疏凿饮子",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳水实证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水肿",
+      "subject_type": "Symptom",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疏凿饮子",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "喘息",
+      "subject_type": "Symptom",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疏凿饮子",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "口渴",
+      "subject_type": "Symptom",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疏凿饮子",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "小便不利",
+      "subject_type": "Symptom",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疏凿饮子",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "大便秘结",
+      "subject_type": "Symptom",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疏凿饮子",
+      "object_type": "Formula"
+    }
+  ]
+}

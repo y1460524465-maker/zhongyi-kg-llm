@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "曼陀罗子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风，止痛，定喘",
+        "indication": "胃痛，风湿痹痛，寒哮气喘，跌扑伤痛，惊痫，脱肛，疮疖",
+        "property_flavor": "辛、苦，温",
+        "taboo": "无瘀积、体虚者忌用",
+        "usage": "内服：煎汤，0.1～0.3g。外用：适量，煎水洗或浸酒涂擦。"
+      }
+    },
+    {
+      "name": "白曼陀罗",
+      "type": "Herb",
+      "attributes": {
+        "origin": "茄科"
+      }
+    },
+    {
+      "name": "毛曼陀罗",
+      "type": "Herb",
+      "attributes": {
+        "origin": "茄科"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "曼陀罗子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "曼陀罗子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "曼陀罗子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "定喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "曼陀罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "曼陀罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "曼陀罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒哮气喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "曼陀罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑伤痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "曼陀罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "曼陀罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "曼陀罗子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖",
+      "object_type": "Disease"
+    }
+  ]
+}

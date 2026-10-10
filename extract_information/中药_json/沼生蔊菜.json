@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "沼生蔊菜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6-15g",
+        "effect": "清热解毒，利水消肿",
+        "indication": "风热感冒，咽喉肿痛，黄疸，淋病，水肿，关节炎，痈肿，汤火伤",
+        "origin": "十字花科植物沼生蔊菜的全草",
+        "processing": "7-8月采收全草，洗净，切段，晒干",
+        "property_flavor": "味辛"
+      }
+    }
+  ],
+  "relations": []
+}

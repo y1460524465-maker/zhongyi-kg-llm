@@ -1,0 +1,12 @@
+{
+  "entities": [
+    {
+      "name": "胵黄散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服半钱，以乳汁调下，日3次。"
+      }
+    }
+  ],
+  "relations": []
+}

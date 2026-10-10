@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "钩藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "双钩藤、鹰爪风、吊风根、金钩草、倒挂刺",
+        "effect": "清热平肝，熄风定惊",
+        "indication": "小儿惊痫瘈疭，大人血压偏高，头晕、目眩，妇人子痫",
+        "usage": "内服：煎汤，3～12g，入煎剂宜后下",
+        "taboo": "最能盗气，虚者勿投；无火者勿服",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "茜草科植物钩藤、大叶钩藤、毛钩藤、华钩藤或无柄果钩藤的干燥带钩茎枝",
+        "place": "主产广西、江西、湖南、浙江、广东",
+        "processing": "秋、冬二季采收，去叶，切段，晒干",
+        "traits": "干燥的带钩茎枝，茎枝略呈方柱形，长约2厘米，直径约2毫米，表面红棕色或棕褐色，一端有一环状的茎节，稍突起，节上有对生的两个弯钩，形如船锚，尖端向内卷曲，亦有单钩的，钩大小不一，基部稍圆，径2～3毫米，全体光滑，略可见纵纹理。质轻而坚，不易折断，断面外层呈棕红色，髓部呈淡黄色而疏松如海绵状。气无，味淡。以双钩形如锚状、茎细、钩结实、光滑、色红褐或紫褐者为佳"
+      }
+    },
+    {
+      "name": "小儿惊痫瘈疭",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "大人血压偏高",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头晕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目眩",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇人子痫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《本草新编》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草从新》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "钩藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊痫瘈疭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "钩藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "成人血压偏高",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "钩藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "钩藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "钩藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人子痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "钩藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热平肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "钩藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "熄风定惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "钩藤",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草新编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "钩藤",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草从新》",
+      "object_type": "Source"
+    }
+  ]
+}

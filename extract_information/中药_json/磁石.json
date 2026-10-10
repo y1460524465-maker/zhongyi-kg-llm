@@ -1,0 +1,154 @@
+{
+  "entities": [
+    {
+      "name": "磁石",
+      "type": "Herb",
+      "attributes": {
+        "aliases": "玄石、磁君、处石、延年沙、续未石、拾针、绿秋、伏石母、玄武石、帝流浆、席流浆、瓷石、熁铁石、元武石、吸铁石、吸针石、慈石、灵磁石、活磁石、雄磁石、摄石、铁石、戏铁石",
+        "effect": "潜阳纳气，镇惊安神",
+        "indication": "头目眩晕，耳鸣耳聋，虚喘，惊痫，怔忡",
+        "property_flavor": null,
+        "meridian": null,
+        "dosage": "内服：煎汤，10～30g, 打碎先煎；或入丸剂",
+        "origin": "为氧化物类矿物尖晶石族磁铁矿。主含四氧化三铁",
+        "place": "产江苏、山东，辽宁、广东、安徽、河北等地",
+        "processing": null,
+        "traits": "本品呈不规则块状，多具棱角。大小不一。铁黑色。条痕黑色。不透明。半金属光泽。表面不光滑，粗糙。体重，质坚硬，难砸碎，断面不平坦。具磁性；有土腥气，味淡",
+        "taboo": "重镇伤气，可暂用而不可久。脾胃虚者，不宜多服、久服"
+      }
+    },
+    {
+      "name": "头目眩晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "耳鸣耳聋",
+      "type": "Symptom"
+    },
+    {
+      "name": "虚喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "惊痫",
+      "type": "Symptom"
+    },
+    {
+      "name": "怔忡",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾虚",
+      "type": "Disease"
+    },
+    {
+      "name": "目昏",
+      "type": "Symptom"
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《玉楸药解》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草从新》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草便读》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "磁石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头目眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "磁石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳鸣耳聋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "磁石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "磁石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "磁石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "怔忡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "磁石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "磁石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "磁石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "潜阳纳气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "磁石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇惊安神",
+      "object_type": "Effect"
+    }
+  ]
+}

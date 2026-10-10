@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "name": "金龙胆草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "矮脚苦蒿、熊胆草、鱼胆草、苦蒿、细苦蒿、毛苦蒿、油蒿、苦丁、苦艾、苦龙胆草、龙胆蒿、劲直假蓬",
+        "effect": "清热解毒，泻火止血",
+        "indication": "肺热咳嗽，痰多气喘，咽痛，口疮，湿热黄疸，衄血，便血，崩漏，外伤出血",
+        "dosage": "内服：煎汤，6～9g。外用：适量，鲜草捣烂敷患处，或鲜枝叶绞汁滴耳、滴眼",
+        "origin": "菊科植物苦蒿的干燥地上部分",
+        "place": "云南、四川",
+        "property_flavor": "味极苦"
+      }
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Disease"
+    },
+    {
+      "name": "痰多气喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "口疮",
+      "type": "Disease"
+    },
+    {
+      "name": "湿热黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "中耳炎",
+      "type": "Disease"
+    },
+    {
+      "name": "苦蒿鲜枝叶汁",
+      "type": "Herb"
+    },
+    {
+      "name": "青鱼胆",
+      "type": "Herb"
+    },
+    {
+      "name": "矮脚苦蒿",
+      "type": "Herb"
+    },
+    {
+      "name": "乌贼骨",
+      "type": "Herb"
+    },
+    {
+      "name": "见血飞",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金龙胆草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，泻火止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金龙胆草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金龙胆草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰多气喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金龙胆草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金龙胆草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金龙胆草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金龙胆草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金龙胆草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金龙胆草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金龙胆草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦蒿鲜枝叶汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中耳炎",
+      "object_type": "Disease"
+    }
+  ]
+}

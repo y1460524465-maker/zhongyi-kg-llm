@@ -1,0 +1,198 @@
+{
+  "entities": [
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血行瘀，润燥滑肠",
+        "indication": "主治经闭，癥瘕，热病蓄血，风痹，疟疾，跌打损伤，瘀血肿痛，血燥便秘",
+        "meridian": "入心经、肝经、大肠经",
+        "processing": "除去硬壳杂质，置沸水锅中煮至外皮微皱，捞出，浸入凉水中，搓去种皮，晒干，簸净",
+        "property_flavor": null,
+        "taboo": "血燥虚者慎之；凡经闭不通由于血枯，而不由于瘀滞；产后腹痛由于血虚，而不由于留血结块；大便不通由于津液不足，而不由于血燥秘结，法并忌之",
+        "traits": null,
+        "dosage": "内服：煎汤，4.5～9克；或入丸、散",
+        "origin": "主产四川、云南、陕西、山东、河北、山西、河南等地",
+        "place": null
+      }
+    },
+    {
+      "name": "经闭",
+      "type": "Disease"
+    },
+    {
+      "name": "癥瘕",
+      "type": "Disease"
+    },
+    {
+      "name": "热病蓄血",
+      "type": "Disease"
+    },
+    {
+      "name": "风痹",
+      "type": "Disease"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "瘀血肿痛",
+      "type": "Disease"
+    },
+    {
+      "name": "血燥便秘",
+      "type": "Disease"
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学启源》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    },
+    {
+      "name": "活血行瘀",
+      "type": "Effect"
+    },
+    {
+      "name": "润燥滑肠",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血行瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润燥滑肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热病蓄血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘀血肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血燥便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学启源》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃仁",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "无花果",
+      "type": "Herb",
+      "attributes": {
+        "alias": "阿驲，阿驿，映日果，优昙钵，蜜果，文仙果，奶浆果，品仙果，挣桃，树地瓜",
+        "effect": "清热生津，健脾开胃，解毒消肿",
+        "indication": "咽喉肿痛；燥咳声嘶；乳汁稀少；肠热便秘；食欲不振；消化不良，泄泻痢疾；痈肿；癣疾",
+        "usage": "内服：煎汤，9-15g；大剂量可用至30-60g；或生食鲜果1-2枚。外用：适量，煎水洗；研末调敷或吹喉。",
+        "dosage": "9-15g（大剂量30-60g）",
+        "taboo": "本品易霉蛀，须贮藏干燥处或石灰缸内",
+        "origin": "桑科植物无花果的干燥花托"
+      }
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "燥咳声嘶",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳汁稀少",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠热便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "食欲不振",
+      "type": "Symptom"
+    },
+    {
+      "name": "消化不良",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "癣疾",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "无花果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "无花果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "燥咳声嘶",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "无花果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁稀少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "无花果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠热便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "无花果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "无花果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消化不良",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "无花果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "无花果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "无花果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "无花果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癣疾",
+      "object_type": "Disease"
+    }
+  ]
+}

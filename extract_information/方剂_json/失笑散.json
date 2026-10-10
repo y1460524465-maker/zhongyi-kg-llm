@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "name": "失笑散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "活血祛瘀，散结止痛",
+        "indication": "瘀血阻滞，胸脘疼痛，产后腹痛，痛经",
+        "taboo": "孕妇禁用。血虚者及无瘀血者也不宜应用",
+        "usage": "内服，煎汤，6～9g，包煎"
+      }
+    },
+    {
+      "name": "五灵脂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血祛瘀、通利血脉以止痛"
+      }
+    },
+    {
+      "name": "蒲黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血祛瘀、通利血脉以止痛"
+      }
+    },
+    {
+      "name": "蒲黄炭",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "益母草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "失笑散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五灵脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "失笑散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "失笑散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲黄炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "失笑散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘀血阻滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "失笑散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸脘疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "失笑散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "失笑散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五灵脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血祛瘀、通利血脉以止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血祛瘀、通利血脉以止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "失笑散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "益母草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "失笑散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "失笑散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    }
+  ]
+}

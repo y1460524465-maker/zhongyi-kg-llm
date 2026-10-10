@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "name": "杜衡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1～3g；外用适量，研末撒患处",
+        "effect": "祛风散寒，止痛，祛痰止咳",
+        "indication": "用于风寒头痛，关节疼痛，痰饮咳喘，外治牙痛",
+        "property_flavor": "辛,温；有小毒",
+        "meridian": "归肺、肾经",
+        "origin": "马兜铃科植物杜衡Asarum forbesii Maxim.的干燥全草",
+        "alias": "蘅薇香，土卤，楚蘅，杜蘅，马蹄香，蘹香，杜衡葵，土细辛，钹儿草，杜葵，南细辛，马辛，马蹄细辛，泥里花，土里开花"
+      }
+    },
+    {
+      "name": "风寒头痛",
+      "type": "Disease"
+    },
+    {
+      "name": "关节疼痛",
+      "type": "Disease"
+    },
+    {
+      "name": "痰饮咳喘",
+      "type": "Disease"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "杜衡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杜衡",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "杜衡",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "关节疼痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "杜衡",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰饮咳喘",
+      "object_type": "Disease"
+    }
+  ]
+}

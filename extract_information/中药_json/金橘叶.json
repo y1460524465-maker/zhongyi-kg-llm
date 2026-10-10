@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "name": "金橘叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "舒肝解郁，理气散结",
+        "indication": "噎膈，瘰疬，乳房结块，乳腺炎",
+        "usage": "内服：煎汤，3-9g"
+      }
+    },
+    {
+      "name": "噎膈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "乳房结块",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "乳腺炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金橘叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒肝解郁，理气散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金橘叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噎膈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金橘叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金橘叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳房结块",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金橘叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳腺炎",
+      "object_type": "Disease"
+    }
+  ]
+}

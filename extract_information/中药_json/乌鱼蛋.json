@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {
+      "name": "乌鱼蛋",
+      "type": "Herb",
+      "attributes": {
+        "effect": "主治水肿",
+        "dosage": "内服：煮食，10-30g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乌鱼蛋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    }
+  ]
+}

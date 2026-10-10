@@ -1,0 +1,114 @@
+{
+  "entities": [
+    {
+      "name": "八角莲",
+      "type": "Herb",
+      "attributes": {
+        "alias": "八角连, 金魁莲, 旱八角, 叶下花, 一把伞, 马眼莲, 独叶一枝花, 八角盘, 六角莲, 八角金盘, 山荷叶",
+        "effect": "化痰散结，祛瘀止痛，清热解毒",
+        "indication": "咳嗽，咽喉肿痛，瘰疬，瘿瘤，痈肿疔疮，毒蛇咬伤，跌打损伤，痹证",
+        "property_flavor": "味苦；辛；性凉；有毒",
+        "dosage": "内服：煎汤，3-12g；磨汁，或入丸、散。外用：适量，磨汁或浸醋、酒涂搽；捣烂敷或研末调敷",
+        "taboo": "孕妇禁服，体质虚弱者慎服",
+        "origin": "为小檗科植物八角莲的根茎及根。秋、冬采挖，洗净泥沙，晒干或鲜用"
+      }
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "瘿瘤",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "痹证",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "八角莲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰散结，祛瘀止痛，清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "八角莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八角莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八角莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八角莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八角莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八角莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八角莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八角莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痹证",
+      "object_type": "Disease"
+    }
+  ]
+}

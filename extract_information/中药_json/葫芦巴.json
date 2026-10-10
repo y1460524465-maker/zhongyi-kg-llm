@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "葫芦巴",
+      "type": "Herb",
+      "attributes": {
+        "alias": "芦巴子、香草子、小木夏、芸香草、香草、苦草、苦朵菜、香苜蓿",
+        "dosage": "内服:煎汤，4.5～9g；或入丸、散。",
+        "effect": "补肾阳，祛寒湿，止痛。",
+        "indication": "主治寒疝，腹胁胀满，寒湿脚气，肾虚腰酸，阳痿。",
+        "taboo": "①《品汇精要》:妊妇勿服。②《本草汇言》:肾脏有郁火内热者，宜斟酌。③《本草从新》:相火炽盛，阴血亏少者禁之。",
+        "origin": "本品为豆科植物胡芦巴 Trigonella foenum-graecum L. 的干燥成熟种子。",
+        "processing": "胡芦巴：除去杂质，洗净，干燥。盐胡芦巴：取净胡芦巴，照盐水炙法炒至鼓起，有香气。用时捣碎。",
+        "property_flavor": "气香，味微苦。"
+      }
+    },
+    {
+      "name": "寒疝",
+      "type": "Disease"
+    },
+    {
+      "name": "腹胁胀满",
+      "type": "Symptom"
+    },
+    {
+      "name": "寒湿脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "肾虚",
+      "type": "Disease"
+    },
+    {
+      "name": "腰酸",
+      "type": "Symptom"
+    },
+    {
+      "name": "阳痿",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葫芦巴",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葫芦巴",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胁胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葫芦巴",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒湿脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葫芦巴",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葫芦巴",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葫芦巴",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葫芦巴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葫芦巴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛寒湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葫芦巴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

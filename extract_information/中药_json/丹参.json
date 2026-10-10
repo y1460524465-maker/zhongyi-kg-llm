@@ -1,0 +1,161 @@
+{
+  "entities": [
+    {
+      "name": "丹参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛瘀止痛，活血通经，清心除烦",
+        "indication": "心绞痛，月经不调，痛经，经闭，血崩带下，癥瘕，积聚，瘀血腹痛，骨节疼痛，惊悸不眠，恶疮肿毒",
+        "origin": "《本经》",
+        "property_flavor": "味甘微苦",
+        "dosage": "内服：煎汤，9～15g；或入丸、散",
+        "taboo": "畏咸水。反藜芦。妊娠无故勿服。忌醋。大便不买者忌之",
+        "processing": "拣净杂质，除去根茎，洗净，捞出，润透后切片，晾干。炒丹参：取丹参片放入锅内，以文火炒至微有焦斑为度，取出，放凉"
+      }
+    },
+    {
+      "name": "心绞痛",
+      "type": "Disease"
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease"
+    },
+    {
+      "name": "痛经",
+      "type": "Disease"
+    },
+    {
+      "name": "经闭",
+      "type": "Disease"
+    },
+    {
+      "name": "血崩带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "癥瘕",
+      "type": "Disease"
+    },
+    {
+      "name": "积聚",
+      "type": "Disease"
+    },
+    {
+      "name": "瘀血腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "骨节疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "惊悸不眠",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶疮肿毒",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心绞痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "积聚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘀血腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨节疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊悸不眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶疮肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丹参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清心除烦",
+      "object_type": "Effect"
+    }
+  ]
+}

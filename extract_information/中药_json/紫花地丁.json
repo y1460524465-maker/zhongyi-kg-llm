@@ -1,0 +1,418 @@
+{
+  "entities": [
+    {
+      "name": "紫花地丁",
+      "type": "Herb",
+      "attributes": {
+        "alias": "堇堇菜、箭头草，地丁、角子，独行虎，地丁草，宝剑草，犁头草，紫地丁,免耳草，金前刀，小角子花",
+        "effect": "清热解毒；凉血消肿",
+        "indication": "疔疮肿毒；痈疽发背；丹毒；毒蛇咬伤",
+        "usage": "内服，煎汤，15~30g（鲜者加倍），捣汁或研末；外用：捣敷或敷膏摊贴。",
+        "origin": "本品为堇菜科植物紫花地丁Viola yedoensis Makino 的干燥全草。春、秋二季采收，除去杂质，晒干。",
+        "processing": "除去杂质，洗净，切碎，干燥。"
+      }
+    },
+    {
+      "name": "疔疮肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疽发背",
+      "type": "Disease"
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "乳吹",
+      "type": "Disease"
+    },
+    {
+      "name": "一切毒",
+      "type": "Disease"
+    },
+    {
+      "name": "化脓性感染",
+      "type": "Disease"
+    },
+    {
+      "name": "淋巴结核",
+      "type": "Disease"
+    },
+    {
+      "name": "实热肠痈下血",
+      "type": "Disease"
+    },
+    {
+      "name": "黄疸内热",
+      "type": "Disease"
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "前列腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿走马牙疳",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿肝热鼻衄",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癞",
+      "type": "Disease"
+    },
+    {
+      "name": "稻芒粘咽",
+      "type": "Disease"
+    },
+    {
+      "name": "一切恶疮",
+      "type": "Disease"
+    },
+    {
+      "name": "无名诸肿",
+      "type": "Disease"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "凉血消肿",
+      "type": "Effect"
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source"
+    },
+    {
+      "name": "《孙天仁集效方》",
+      "type": "Source"
+    },
+    {
+      "name": "《卫生易简方》",
+      "type": "Source"
+    },
+    {
+      "name": "《惠直堂经验方》",
+      "type": "Source"
+    },
+    {
+      "name": "苏医《中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《福建民间草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《乾坤生意秘韫》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "湖北《中草药土方土法》",
+      "type": "Source"
+    },
+    {
+      "name": "《河南小草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "地丁膏",
+      "type": "Formula"
+    },
+    {
+      "name": "蒲公英",
+      "type": "Herb"
+    },
+    {
+      "name": "半边莲",
+      "type": "Herb"
+    },
+    {
+      "name": "鲜野菊花",
+      "type": "Herb"
+    },
+    {
+      "name": "鲜芙蓉花",
+      "type": "Herb"
+    },
+    {
+      "name": "红藤(大血藤)",
+      "type": "Herb"
+    },
+    {
+      "name": "蚂蚁草（萹蓄）",
+      "type": "Herb"
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb"
+    },
+    {
+      "name": "紫参",
+      "type": "Herb"
+    },
+    {
+      "name": "车前草",
+      "type": "Herb"
+    },
+    {
+      "name": "海金沙",
+      "type": "Herb"
+    },
+    {
+      "name": "鲜瓜子金",
+      "type": "Herb"
+    },
+    {
+      "name": "大枫子油",
+      "type": "Herb"
+    },
+    {
+      "name": "水银",
+      "type": "Herb"
+    },
+    {
+      "name": "硫黄",
+      "type": "Herb"
+    },
+    {
+      "name": "箭头草",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽发背",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "一切恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳吹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "一切毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "化脓性感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "实热肠痈下血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸内热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "前列腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿走马牙疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿肝热鼻衄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "稻芒粘咽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫花地丁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无名诸肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地丁膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄花地丁（即蒲公英）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地丁膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫花地丁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地丁膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "乳吹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地丁膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "一切毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地丁膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《惠直堂经验方》",
+      "object_type": "Source"
+    }
+  ]
+}

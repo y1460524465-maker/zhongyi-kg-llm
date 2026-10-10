@@ -1,0 +1,318 @@
+{
+  "entities": [
+    {
+      "name": "艾片",
+      "type": "Herb",
+      "attributes": {
+        "effect": "开窍醒神，清热止痛",
+        "indication": "热病神昏、痉厥，中风痰厥，气郁暴厥，中瑟昏迷，目赤，口疮，咽喉肿痛，耳道流脓",
+        "dosage": "0.15～0.3g，入丸散用。外用研粉点敷患处",
+        "property_flavor": "辛、苦，微寒",
+        "meridian": "心、脾、肺经"
+      }
+    },
+    {
+      "name": "艾纳香",
+      "type": "Herb",
+      "attributes": {
+        "origin": "菊科植韧艾纳香Blumea balsami era(L)DC."
+      }
+    },
+    {
+      "name": "艾脑香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "艾脑香"
+      }
+    },
+    {
+      "name": "艾粉",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "结片",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "天竹黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "檀香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "查干泵嘎",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白糖",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "胡黄连",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "地格达",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "三味艾片散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治瘟热，炽热，讧热"
+      }
+    },
+    {
+      "name": "七味艾片散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治讧热，炽热，胸胁刺痛"
+      }
+    },
+    {
+      "name": "《蒙医药选编》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《后续医典》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《药材资料汇编》",
+      "type": "Source",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开窍醒神，清热止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病神昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痉厥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风痰厥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气郁暴厥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中瑟昏迷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳道流脓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "艾粉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药材资料汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "结片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药材资料汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "艾片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药材资料汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "三味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "艾片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天竹黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "檀香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "查干泵嘎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白糖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三味艾片散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《蒙医药选编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "七味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "艾片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天竹黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "檀香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地格达",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味艾片散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白糖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味艾片散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《后续医典》",
+      "object_type": "Source"
+    }
+  ]
+}

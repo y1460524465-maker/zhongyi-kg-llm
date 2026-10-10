@@ -1,0 +1,136 @@
+{
+  "entities": [
+    {
+      "name": "保阴煎",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴清热",
+        "indication": "主妇带浊遗淋，色赤带血，脉滑多热，便血不止，及血崩血淋，或经期太早，一切阴虚内热动血。",
+        "taboo": null,
+        "usage": "水400毫升，煎至280毫升，空腹时温服。"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "熟地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "川续断",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "保阴煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保阴煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保阴煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保阴煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保阴煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川续断",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保阴煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保阴煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保阴煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保阴煎",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴清热",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "entities": [
+    {
+      "name": "菱叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒",
+        "indication": "小儿走马牙疳，疮肿",
+        "usage": "外用：适量，研末搽；或鲜品捣敷。内服：煎汤，6-15g，鲜品加倍。"
+      }
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "小儿走马牙疳",
+      "type": "Disease"
+    },
+    {
+      "name": "疮肿",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "菱叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菱叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿走马牙疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菱叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮肿",
+      "object_type": "Disease"
+    }
+  ]
+}

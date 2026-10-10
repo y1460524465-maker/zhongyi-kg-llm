@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "name": "桂枝甘草汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "辛甘化阳，阳复而阴济",
+        "indication": "发汗过多，其人叉手自冒，心下悸，欲得按者",
+        "taboo": null,
+        "usage": "水煎分三次温服 (成人常用剂量: 10剂)"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": "辛温助阳",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "甘温益气",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "心下悸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/桂枝甘草汤",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝甘草汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "内伤心阳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝甘草汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心下悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝甘草汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/桂枝甘草汤",
+      "object_type": "Source"
+    }
+  ]
+}

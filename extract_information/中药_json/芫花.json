@@ -1,0 +1,265 @@
+{
+  "entities": [
+    {
+      "name": "芫花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "芫、去水、赤芫、败花、毒鱼、杜芫、头痛花、闷头花、老鼠花、闹鱼花、棉花条、大米花、芫条花、地棉花、九龙花、芫花条、癞头花、南芫花、毒老鼠花、紫金花",
+        "effect": "泻水逐饮，祛痰止咳，杀虫疗疮",
+        "indication": "喘咳，痛引胸胁，心下痞硬，水肿胀满，头疮，白秃，顽癣",
+        "taboo": "体质虚弱及孕妇禁服。不宜与甘草同用",
+        "usage": "内服：煎汤，1.5~3g；研末服0.6~1g，每日1次。外用：研末调敷或煎水洗",
+        "processing": "芫花：拣净杂质，筛去泥土。醋芫花：取净芫花，加醋拌匀，润透，置锅内用文火炒至醋吸尽，呈微黄色，取出，晾干。（每芫花100斤，用醋25斤）",
+        "place": "分布于华东及河北、陕西、河南、湖北、湖南、四川、贵州等地",
+        "origin": "瑞香科植物芫花Daphne genkwa Sieb. et Zucc.的干燥花蕾",
+        "property_flavor": "气微香，久嗅能致头痛，味微甘。嚼之有辣感"
+      }
+    },
+    {
+      "name": "十枣汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "太阳中风，下利呕逆，表解，其人絷絷汗出，发作有时，头痛，心下痞鞕满，引胁下痛，干呕短气，汗出不恶寒者",
+        "usage": "上三味，等分，各别捣为散，以水一升半，先煮大枣肥者十枚，取八合，去滓，内药末，强人飘一钱匕。羸人服半钱，温服之，平旦服。若下少病不除者，明日更服，加半钱，得快下利后，糜粥自养"
+      }
+    },
+    {
+      "name": "小消化丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "水病通身微肿，腹大，食饮不消",
+        "usage": "上五味，捣罗为末，炼蜜为丸，如小豆大，每服，饮下三丸，不知，稍增至五丸，以知为度"
+      }
+    },
+    {
+      "name": "枳壳丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "蛊胀",
+        "usage": "上用酽醋浸芫花透，将醋再煮枳壳烂，擂芫花末，和为丸，如梧桐子大。每服数丸，温白汤送下"
+      }
+    },
+    {
+      "name": "凝雪汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "时行毒病七、八日，热积聚胸中，烦乱欲死",
+        "usage": "芫花一升，以水三升，煮取一升半，渍故布薄胸上。不过三薄，热即除，当温暖四肢护厥逆也"
+      }
+    },
+    {
+      "name": "消癖丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "疟母弥年，经吐、汗、下，荣卫亏损，邪气伏藏胁间，结为癥癖，腹胁坚痛",
+        "usage": "为末，炼蜜丸，如小豆。每服十丸，浓煎枣汤下，下后即与养胃汤"
+      }
+    },
+    {
+      "name": "芫花散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "牙痛，诸药不效者",
+        "usage": "芫花碾为末，擦痛处令热"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芫花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻水逐饮，祛痰止咳，杀虫疗疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "太阳中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芫花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘遂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大戟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小消化丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芫花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小消化丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘遂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小消化丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小消化丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葶苈子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小消化丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳壳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳壳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芫花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "凝雪汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芫花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消癖丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芫花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "消癖丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芫花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芫花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芫花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芫花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芫花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芫花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芫花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芫花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草原始》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小消化丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枳壳丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "凝雪汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《千金方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "消癖丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《仁斋直指方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芫花散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《魏氏家藏方》",
+      "object_type": "Source"
+    }
+  ]
+}

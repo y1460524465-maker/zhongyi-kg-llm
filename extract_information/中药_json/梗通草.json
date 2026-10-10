@@ -1,0 +1,177 @@
+{
+  "entities": [
+    {
+      "name": "梗通草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6-15g",
+        "effect": "清热，利湿，通淋，下乳",
+        "indication": "治水肿，热淋，热病烦渴，小便赤涩，乳汁不下",
+        "origin": "豆科植物田皂角茎的木质部",
+        "processing": "去净灰尘及残根，抢水洗净，润4～5小时，切成斜片，晒干",
+        "taboo": "溲多者忌用"
+      }
+    },
+    {
+      "name": "白梗通",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白梗通"
+      }
+    },
+    {
+      "name": "《本草正义》",
+      "type": "Source"
+    },
+    {
+      "name": "野通草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "野通草"
+      }
+    },
+    {
+      "name": "气通草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "气通草"
+      }
+    },
+    {
+      "name": "水通草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "水通草"
+      }
+    },
+    {
+      "name": "《江苏中药名实考》",
+      "type": "Source"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "热淋",
+      "type": "Disease"
+    },
+    {
+      "name": "热病烦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便赤涩",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳汁不下",
+      "type": "Symptom"
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source"
+    },
+    {
+      "name": "《安徽药材》",
+      "type": "Source"
+    },
+    {
+      "name": "《药材资料汇编》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "梗通草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梗通草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梗通草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梗通草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便赤涩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梗通草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梗通草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热，利湿，通淋，下乳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "梗通草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮片新参》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "梗通草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《安徽药材》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "梗通草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药材资料汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白梗通",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草正义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野通草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江苏中药名实考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "气通草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江苏中药名实考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "水通草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江苏中药名实考》",
+      "object_type": "Source"
+    }
+  ]
+}

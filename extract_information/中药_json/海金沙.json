@@ -1,0 +1,272 @@
+{
+  "entities": [
+    {
+      "name": "海金沙",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，利水通淋",
+        "indication": "尿路感染，尿路结石，白浊，白带，肝炎，肾炎水肿，咽喉肿痛，痄腮，肠炎，痢疾，皮肤湿疹，带状疱疹",
+        "dosage": "内服：煎汤，5~9g，包煎；或研末，每次2~3g",
+        "taboo": "小便不利及诸淋由于肾水真阴不足者勿服；肾脏真阳不足者忌用",
+        "origin": "海金沙科植物海金沙的成熟孢子",
+        "processing": "立秋前后孢子成熟时采收，割下茎叶，晒干，搓揉抖动，筛去茎叶"
+      }
+    },
+    {
+      "name": "尿路感染",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "尿路结石",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "白浊",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "白带",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肾炎水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痄腮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "皮肤湿疹",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "带状疱疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《嘉祐本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草正义》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《中国植物志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《常用中草药手册》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《江西草药》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿路感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿路结石",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白带",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痄腮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带状疱疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《嘉祐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草正义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国植物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《湖南药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海金沙",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江西草药》",
+      "object_type": "Source"
+    }
+  ]
+}

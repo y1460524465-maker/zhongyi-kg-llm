@@ -1,0 +1,134 @@
+{
+  "entities": [
+    {
+      "name": "云芝",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "甘，平",
+        "meridian": "归心、脾、肝、肾经",
+        "effect": "健脾利湿，止咳平喘，清热解毒，抗肿瘤",
+        "indication": "慢性活动性肝炎，肝硬变，慢性支气管炎，小儿痉挛性支气管炎，咽喉肿痛，多种肿瘤，类风湿性关节炎，白血病",
+        "usage": "内服：煎汤，15-30g。宜煎24小时以上。或制成片剂、冲剂、注射剂使用",
+        "origin": "多孔菌科真菌彩绒革盖菌Coriolus versicoLor (L.exFr.)Quel的干燥子实体"
+      }
+    },
+    {
+      "name": "慢性活动性肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肝硬变",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿痉挛性支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "多种肿瘤",
+      "type": "Disease"
+    },
+    {
+      "name": "类风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "白血病",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "抗肿瘤",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性活动性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝硬变",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿痉挛性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "多种肿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "类风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "云芝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白血病",
+      "object_type": "Disease"
+    }
+  ]
+}

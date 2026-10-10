@@ -1,0 +1,146 @@
+{
+  "entities": [
+    {
+      "name": "冠心苏合丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "理气，宽胸，温经，止痛",
+        "indication": "胸闷胸痛",
+        "taboo": null,
+        "usage": "口服"
+      }
+    },
+    {
+      "name": "苏合香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g",
+        "effect": "辛温走窜",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "辛温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "105g",
+        "effect": "辛凉走窜、芳香开窍、辟秽化浊，开郁止痛",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "辛凉",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "105g",
+        "effect": "辛温行散，温经活血，行气宽胸，通痹止痛",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "制",
+        "property_flavor": "辛温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "檀香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "210g",
+        "effect": "辛温行散，温经活血，行气宽胸，通痹止痛",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "辛温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "青木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "210g",
+        "effect": "健脾和胃，以资化源，调气解郁，散寒止痛",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "冠心苏合丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苏合香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冠心苏合丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冠心苏合丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冠心苏合丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "檀香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冠心苏合丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冠心苏合丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胸闷胸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冠心苏合丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "理气，宽胸，温经，止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

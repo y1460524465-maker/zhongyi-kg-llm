@@ -1,0 +1,246 @@
+{
+  "entities": [
+    {
+      "name": "天竺黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热豁痰，凉心定惊。治热病神昏谵妄，中风痰迷不语，小儿惊风抽搐，癫痫，痰热咳喘",
+        "indication": "主治热病神昏谵妄，中风痰迷不语，小儿惊风抽搐，癫痫",
+        "property_flavor": "味甘有凉感",
+        "usage": "内服：煎汤，3~9g；或入丸、散；研末，每次0.6~1g。外用：适量，研末敷患处",
+        "taboo": "无湿热痰火者慎服，脾虚胃寒便溏者禁服。《本草汇》：久用亦能寒中",
+        "origin": "为禾本科植物青皮竹、薄竹等竹节间贮积的伤流液，经干涸凝结而成的块状物质"
+      }
+    },
+    {
+      "name": "清热豁痰",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "凉心定惊",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "热病神昏谵妄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "中风痰迷不语",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿惊风抽搐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "癫痫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痰热咳喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "金疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "鼻衄",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性支气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿哮喘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "口疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《蜀本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《玉楸药解》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草汇》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热豁痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉心定惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病神昏谵妄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风痰迷不语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊风抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰热咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "金疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻衄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《蜀本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草衍义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《玉楸药解》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "天竺黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇》",
+      "object_type": "Source"
+    }
+  ]
+}

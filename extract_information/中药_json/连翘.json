@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6~15g",
+        "effect": "清热，解毒，散结，消肿",
+        "indication": "温热，丹毒，斑疹，痈疡肿毒，瘰疬，小便淋闭",
+        "meridian": "肺经、心经、小肠经",
+        "property_flavor": "性凉味苦",
+        "taboo": "脾胃虚弱，气虚发热，痈疽已溃、脓稀色淡者忌服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "温热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "斑疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疡肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便淋闭",
+      "object_type": "Symptom"
+    }
+  ]
+}

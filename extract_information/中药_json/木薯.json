@@ -1,0 +1,76 @@
+{
+  "entities": [
+    {
+      "name": "木薯",
+      "type": "Herb",
+      "attributes": {
+        "alias": "树薯、薯树、臭薯、葛薯、树番薯",
+        "effect": "解毒消肿",
+        "indication": "疮疡肿毒，疥癣",
+        "usage": "外用：适量，鲜品捣敷",
+        "origin": "大戟科植物木薯的叶或根。根全年均可采；叶夏、秋季采收，鲜用",
+        "processing": "鲜用",
+        "traits": "气微，味苦、涩",
+        "property_flavor": "苦、涩"
+      }
+    },
+    {
+      "name": "木薯叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": null,
+        "effect": "拔毒消肿",
+        "indication": "疮癣",
+        "usage": null,
+        "origin": null,
+        "processing": null,
+        "traits": null,
+        "property_flavor": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "木薯",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木薯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木薯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木薯叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "拔毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木薯叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木薯叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "新华本草纲要",
+      "object_type": "Source"
+    }
+  ]
+}

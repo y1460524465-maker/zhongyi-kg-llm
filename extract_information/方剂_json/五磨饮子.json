@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "五磨饮子",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "降气",
+        "indication": "暴怒暴死，名曰气厥者。七情变动，气逆不降，上气喘急，胸腹胀满，突然大怒而致气厥者。",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "沉香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "台乌药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "气厥",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "上气喘急",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸腹胀满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《医方考》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五磨饮子",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医方考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五磨饮子",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气厥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五磨饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五磨饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五磨饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五磨饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五磨饮子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "台乌药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "气厥",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "上气喘急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气厥",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸腹胀满",
+      "object_type": "Symptom"
+    }
+  ]
+}

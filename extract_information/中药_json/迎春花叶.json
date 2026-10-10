@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "迎春花叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，10～20g。外用：适量，煎水洗；或捣敷。",
+        "effect": "清热，利湿，解毒。",
+        "indication": "用于感冒发热，小便淋痛，外阴瘙痒，肿毒恶疮，跌打损伤，刀伤出血。",
+        "meridian": null,
+        "origin": "《卫生易简方》",
+        "place": "陕西、甘肃、四川、云南、西藏。各地有栽培。",
+        "processing": "夏、秋季采收，鲜用或晒干。",
+        "property_flavor": "味微苦、涩",
+        "taboo": null,
+        "traits": "气微香"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "迎春花叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "迎春花叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "迎春花叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "迎春花叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒发热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "迎春花叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便淋痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "迎春花叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外阴瘙痒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "迎春花叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿毒恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "迎春花叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "迎春花叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "刀伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "迎春花叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《卫生易简方》",
+      "object_type": "Source"
+    }
+  ]
+}

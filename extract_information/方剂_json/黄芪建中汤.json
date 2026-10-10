@@ -1,0 +1,147 @@
+{
+  "entities": [
+    {
+      "name": "黄芪建中汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "黄耆汤",
+        "effect": "温中补气，和里缓急",
+        "indication": "虚劳里急，诸不足，小腹急痛，脐下虚满，面色萎黄，唇口干燥，胸中烦悸，少力身重，骨肉酸痛，行动喘乏，食欲不振，病后虚弱，自汗盗汗",
+        "usage": "上七味，以水1.4升，煮取600毫升，入胶饴，更上微火消解。每次温服200毫升，日三服"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "processing": "去皮"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12枚"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "胶饴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "《外台秘要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《古今录验》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄芪建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胶饴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温中补气，和里缓急",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芪建中汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外台秘要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄芪建中汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《古今录验》",
+      "object_type": "Source"
+    }
+  ]
+}

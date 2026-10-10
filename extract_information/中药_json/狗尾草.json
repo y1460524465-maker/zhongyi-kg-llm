@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "name": "狗尾草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肝明目，解热祛湿",
+        "indication": "目赤肿痛，黄疸，痈肿疮癣，小儿疳积",
+        "usage": "内服：煎汤，6~12g，鲜品可用至30~60g。外用：适量，煎水洗或捣敷",
+        "property_flavor": "味淡",
+        "origin": "《分类草药性》",
+        "alias": "莠，莠草子，莠草，光明草，阿罗汉草，狗尾半支，谷莠子，洗草，大尾草，大尾曲，毛娃娃，毛嘟嘟，毛毛草"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "狗尾草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肝明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "狗尾草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解热祛湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "狗尾草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗尾草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗尾草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疮癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗尾草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿疳积",
+      "object_type": "Symptom"
+    }
+  ]
+}

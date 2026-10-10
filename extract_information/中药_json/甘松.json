@@ -1,0 +1,291 @@
+{
+  "entities": [
+    {
+      "name": "甘松",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~6g；或入丸、散。外用：适量，研末敷；或泡水含漱；或煎汤外洗。",
+        "effect": "理气止痛，醒脾健胃。",
+        "indication": "胃痛，胸腹胀满，头痛，癔病，脚气，食欲不振。",
+        "meridian": null,
+        "origin": "为败酱科植物甘松香或宽叶甘松的根茎及根。",
+        "place": "分布我国西南部。分布西藏等地。",
+        "processing": "春、秋皆可采收，以秋季采者为佳。采挖后去净泥砂，除去残茎及须根，不用水洗，直接晒干或阴干。",
+        "property_flavor": "气特异，叶苦、辛，有清凉感。",
+        "taboo": null,
+        "traits": "本品多弯曲，上粗下细，长5~18cm。根茎短，上端有残留茎基，外被多层枯叶殖基，呈膜质片状或纤维状，外层棕黑色，内层棕色或黄色。根单一，有的数条交结，并列或分枝，长6~16cm，直径0.3~1cm；表面皱缩，棕褐色，有细根和须根。质松脆，易折断，断面粗糙，皮部深棕色，常成裂片状，木部黄白色。以条长、根粗、香气浓者为佳。"
+      }
+    },
+    {
+      "name": "甘松香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "理气止痛，醒脾健胃。治胃痛，胸腹胀满，头痛，癔病，脚气，食欲不振。",
+        "indication": "胃痛，胸腹胀满，头痛，癔病，脚气，食欲不振。",
+        "meridian": null,
+        "origin": "为败酱科植物甘松香或宽叶甘松的根茎及根。",
+        "place": "分布我国西南部。分布西藏等地。",
+        "processing": "春、秋皆可采收，以秋季采者为佳。采挖后去净泥砂，除去残茎及须根，不用水洗，直接晒干或阴干。",
+        "property_flavor": "气特异，叶苦、辛，有清凉感。",
+        "taboo": null,
+        "traits": "多年生矮小草本，植物有强烈松节油样香气，高20～35厘米。茎上端略被短毛，靠根处有少数纫线状棕色叶基纤维。根生叶不多，一般每簇具6～9叶，叶片窄线状倒披针形或倒披针形，长7～18厘米，宽0.4～1厘米，先端钝圆，中部以下渐窄，略成叶柄状，基部稍扩展成鞘，全缘，叶脉不清楚，两面光滑无毛；茎生叶3～4对，基部不窄缩成柄状，长2～6厘米，越上越小。花成头状聚伞花序，花序下有叶状长卵形总苞片2。花浅粉红色；基部有卵形全缘苞片3；萼细小，长不及1毫米；花冠阔管状，管基部一侧突缩，先端5裂，略不等大，裂片先端圆；雄蕊4；着生花冠管基部，长于花冠，花丝大部有毛，上端光滑，花药近横着；子房下位，花柱细长略超出花冠，柱头漏斗状。瘦果倒卵形，1室发育；种子1枚，宿存花萼小而不显著。花期8月。生长于高山草原地带。"
+      }
+    },
+    {
+      "name": "宽叶甘松",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": "为败酱科植物甘松香或宽叶甘松的根茎及根。",
+        "place": "分布西藏等地。",
+        "processing": "春、秋皆可采收，以秋季采者为佳。采挖后去净泥砂，除去残茎及须根，不用水洗，直接晒干或阴干。",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": "多年生草本，高15～30厘米。根茎短，基部宿存细线状棕色叶基纤维。叶根出，叶片倒披针形或长匙形，先端钝圆，中部以下渐窄成叶柄状，全缘，具叶脉3条。花为聚伞花序式的头状花序；花茎上有叶状总苞片2，披针形；花茎两侧着生2列对称白色短毛；花冠阔管状，淡粉红色，先端浅粉红色；萼片5齿裂。瘦果倒卵形或扁形。多生于高山草原地带。"
+      }
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《鸡峰普济方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《疡医大全》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "松香丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "痰眩",
+        "taboo": null,
+        "usage": "上为细末，水煮面和为丸，如梧桐子大。每服二十丸，生姜汤下，食后。"
+      }
+    },
+    {
+      "name": "甘松汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "湿脚气，收湿拔毒。",
+        "taboo": null,
+        "usage": "三味煎汤，洗之。"
+      }
+    },
+    {
+      "name": "甘松",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~6g；或入丸、散。外用：适量，研末敷；或泡水含漱；或煎汤外洗。",
+        "effect": "理气止痛，醒脾健胃。",
+        "indication": "胃痛，胸腹胀满，头痛，癔病，脚气，食欲不振。",
+        "meridian": null,
+        "origin": "为败酱科植物甘松香或宽叶甘松的根茎及根。",
+        "place": "分布我国西南部。分布西藏等地。",
+        "processing": "春、秋皆可采收，以秋季采者为佳。采挖后去净泥砂，除去残茎及须根，不用水洗，直接晒干或阴干。",
+        "property_flavor": "气特异，叶苦、辛，有清凉感。",
+        "taboo": null,
+        "traits": "本品多弯曲，上粗下细，长5~18cm。根茎短，上端有残留茎基，外被多层枯叶殖基，呈膜质片状或纤维状，外层棕黑色，内层棕色或黄色。根单一，有的数条交结，并列或分枝，长6~16cm，直径0.3~1cm；表面皱缩，棕褐色，有细根和须根。质松脆，易折断，断面粗糙，皮部深棕色，常成裂片状，木部黄白色。以条长、根粗、香气浓者为佳。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胸腹胀满",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癔病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食欲不振",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "醒脾健胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "甘松",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "松香丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痰眩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘松",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "松香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "松香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "松香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘松汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘松汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘松",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘松汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荷叶心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘松汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藁本",
+      "object_type": "Herb"
+    }
+  ]
+}

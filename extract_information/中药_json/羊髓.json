@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "name": "羊髓",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益阴填髓，润肺泽肤，清热解毒",
+        "indication": "虚劳腰痛，骨蒸劳热，肺痿咳嗽，消渴，皮毛憔悴，目赤障翳，痈疽疮疡",
+        "usage": "内服：熬膏，30-60g；或煮食，适量。"
+      }
+    },
+    {
+      "name": "虚劳腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "骨蒸劳热",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺痿咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "皮毛憔悴",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤障翳",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽疮疡",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "羊髓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益阴填髓，润肺泽肤，清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羊髓",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊髓",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸劳热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊髓",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺痿咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊髓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羊髓",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮毛憔悴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊髓",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤障翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊髓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮疡",
+      "object_type": "Disease"
+    }
+  ]
+}

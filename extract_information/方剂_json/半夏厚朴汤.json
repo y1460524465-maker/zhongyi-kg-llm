@@ -1,0 +1,199 @@
+{
+  "entities": [
+    {
+      "name": "半夏厚朴汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "行气解郁",
+        "indication": "梅核气",
+        "taboo": "津伤较重或阴虚者不宜使用",
+        "usage": "以水七升，煮取四升，分温四服，日三夜一服"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "苏叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "梅核气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咽如物阻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吞吐不得",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔白腻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉弦滑",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "半夏厚朴汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "梅核气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半夏厚朴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏厚朴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏厚朴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏厚朴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏厚朴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏厚朴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气解郁",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "梅核气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽如物阻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梅核气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "吞吐不得",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梅核气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔白腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梅核气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉弦滑",
+      "object_type": "Symptom"
+    }
+  ]
+}

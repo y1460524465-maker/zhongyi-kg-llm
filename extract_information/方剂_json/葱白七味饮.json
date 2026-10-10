@@ -1,0 +1,106 @@
+{
+  "entities": [
+    {
+      "name": "葱白七味饮",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补血,辛温解表",
+        "indication": "血虚外受风寒证",
+        "usage": "劳水八升，以勺扬之一千过。上药用劳水煎之三分减二，去渣，分三次温服，相去行八九里。如觉欲汗，渐渐覆之。"
+      }
+    },
+    {
+      "name": "葱白",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "干葛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "新豆豉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "生麦门冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "干地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葱白七味饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葱白",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱白七味饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干葛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱白七味饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "新豆豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱白七味饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱白七味饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生麦门冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱白七味饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葱白七味饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血虚外感风寒证",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "entities": [
+    {
+      "name": "牛黄抱龙丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热镇惊，祛风化痰",
+        "indication": "小儿风痰壅盛，高热神昏，惊风抽搐",
+        "taboo": null,
+        "usage": "口服，一次1丸，一日1～2次；薄荷汤或温开水送下。周岁以内小儿酌减"
+      }
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb"
+    },
+    {
+      "name": "胆南星",
+      "type": "Herb"
+    },
+    {
+      "name": "天竺黄",
+      "type": "Herb"
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "琥珀",
+      "type": "Herb"
+    },
+    {
+      "name": "麝香",
+      "type": "Herb"
+    },
+    {
+      "name": "全蝎",
+      "type": "Herb"
+    },
+    {
+      "name": "僵蚕",
+      "type": "Herb"
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb"
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胆南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天竺黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "琥珀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "全蝎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "僵蚕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿急惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热镇惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛黄抱龙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛风化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "息风定惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "豁痰开窍",
+      "object_type": "Effect"
+    }
+  ]
+}

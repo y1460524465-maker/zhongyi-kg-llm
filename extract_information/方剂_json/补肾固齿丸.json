@@ -1,0 +1,329 @@
+{
+  "entities": [
+    {
+      "name": "补肾固齿丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补肾固齿，活血解毒",
+        "indication": "用于肾虚血热型牙周病，牙齿酸软，咀嚼无力，松动移位，牙龈出血",
+        "taboo": null,
+        "usage": "口服，一次4g，一日2次"
+      }
+    },
+    {
+      "name": "《中国药典》2005年版",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "鸡血藤",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "紫河车",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "骨碎补",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "漏芦",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "丹参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "郁金",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炙黄芪",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "野菊花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枸杞子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肾虚血热型牙周病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "牙齿酸软",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咀嚼无力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "松动移位",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "牙龈出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "补肾固齿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "活血解毒",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《中国药典》2005年版",
+      "object_type": "Source"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡血藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫河车",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "骨碎补",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "漏芦",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "郁金",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "野菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补肾固齿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "活血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "补肾固齿丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚血热型牙周病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肾虚血热型牙周病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "牙齿酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾虚血热型牙周病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咀嚼无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾虚血热型牙周病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "松动移位",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾虚血热型牙周病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "牙龈出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "name": "香苏散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "理气解表",
+        "indication": "外感风寒，内有气滞，形寒身热，头痛无汗，胸脘痞闷，不思饮食，舌苔薄白",
+        "usage": "每服9克，用水150毫升，煎100毫升，去滓热服，不拘时候，日三服，若作细末，只服6克，入盐点服",
+        "taboo": "戒食荤腥、酒、肉"
+      }
+    },
+    {
+      "name": "《太平惠民和剂局方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "香附子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "紫苏叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香苏散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平惠民和剂局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "理气解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香苏散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫苏叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "辛温解表，温中行气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫苏叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安胎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香附",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安胎",
+      "object_type": "Effect"
+    }
+  ]
+}

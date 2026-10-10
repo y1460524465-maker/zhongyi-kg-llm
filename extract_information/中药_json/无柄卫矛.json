@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "name": "无柄卫矛",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，散瘀续骨",
+        "indication": "主治风湿痹痛，跌打损伤，骨折",
+        "usage": "内服：煎汤，10-30g;或浸酒。外用：适量，研末调敷；或鲜品捣敷",
+        "origin": "卫矛科植物无柄卫矛的根皮及茎皮",
+        "place": "湖北、湖南、四川、贵州、云南"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "无柄卫矛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "无柄卫矛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "无柄卫矛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "无柄卫矛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "无柄卫矛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀续骨",
+      "object_type": "Effect"
+    }
+  ]
+}

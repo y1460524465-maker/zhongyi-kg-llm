@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "细草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "凉血止血，清热利水",
+        "indication": "血热吐血，咳血，热淋涩痛",
+        "usage": "内服：煎汤，3-6g；或入散剂",
+        "taboo": "虚寒性出血，以及大便溏泄者禁服",
+        "origin": "金鱼藻科植物金鱼藻的全草"
+      }
+    },
+    {
+      "name": "血热吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "热淋涩痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "细草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血，清热利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "细草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血热吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "细草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "细草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热淋涩痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

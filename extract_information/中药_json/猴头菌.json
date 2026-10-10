@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "猴头菌",
+      "type": "Herb",
+      "attributes": {
+        "effect": "健脾养胃，安神，抗癌",
+        "indication": "体虚乏力，消化不良，失眠，胃与十二指肠溃疡，慢性胃炎，消化道肿瘤",
+        "usage": "内服：煎汤，10～30g，鲜品30～100g；或与鸡共煮食"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猴头菌",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消化不良",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猴头菌",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猴头菌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃与十二指肠溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猴头菌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猴头菌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消化道肿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猴头菌",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾养胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猴头菌",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猴头菌",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "抗癌",
+      "object_type": "Effect"
+    }
+  ]
+}

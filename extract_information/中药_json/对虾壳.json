@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "name": "对虾壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "安神，止痒",
+        "indication": "神经衰弱，疥癣，秃疮",
+        "dosage": "内服：煎汤，10-15g",
+        "origin": "为对虾科动物中国对虾、长毛对虾、墨吉对虾、斑节对虾等多种对虾的甲壳"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "对虾壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神经衰弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "对虾壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疥癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "对虾壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "秃疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "对虾壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "对虾壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痒",
+      "object_type": "Effect"
+    }
+  ]
+}

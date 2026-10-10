@@ -1,0 +1,232 @@
+{
+  "entities": [
+    {
+      "name": "清骨散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清骨退蒸，滋阴潜阳",
+        "indication": "骨蒸潮热证,表现为午後或夜间潮热,骨蒸心烦,形瘦盗汗,两颊潮红,手足心热,舌红少苔,脉细数;肺结核、其他慢性消耗性疾病等证属阴虚内热、虚劳骨蒸者",
+        "taboo": "本方退热作用较强,而滋阴作用较弱。若阴虚较甚、潮热较轻者,不宜使用。",
+        "usage": "水煎服;或研末,每日3次,每次9克,冲服。"
+      }
+    },
+    {
+      "name": "银柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": "清虚劳骨蒸之热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "胡黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "入阴,退骨热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "秦艽",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "清伏热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "鳖甲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "滋阴潜阳",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "咸寒",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "地骨皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "退骨热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "青蒿",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "清伏热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "入阴,退骨热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2克",
+        "effect": "调和诸药",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《证治准绳·类方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "骨蒸潮热证",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清骨散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《证治准绳·类方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "清骨散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清骨散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清骨散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秦艽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清骨散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鳖甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清骨散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地骨皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清骨散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青蒿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清骨散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清骨散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清骨散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清骨退蒸，滋阴潜阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "清骨散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "骨蒸潮热证",
+      "object_type": "Disease"
+    }
+  ]
+}

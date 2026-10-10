@@ -1,0 +1,210 @@
+{
+  "entities": [
+    {
+      "name": "瓜蒌子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "瓜蒌仁",
+        "effect": "清肺，化痰，滑肠通便",
+        "indication": "痰热咳嗽，燥结便秘，痈肿，乳少",
+        "meridian": "肺经、胃经、大肠经",
+        "dosage": "9～15克",
+        "taboo": "枸杞为之使。恶干姜。畏牛膝。反乌头。脾胃虚冷作泄者勿服"
+      }
+    },
+    {
+      "name": "《食疗本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "《药品化义》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source"
+    },
+    {
+      "name": "《中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经集注》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "《摘元方》",
+      "type": "Source"
+    },
+    {
+      "name": "《丹溪心法》",
+      "type": "Source"
+    },
+    {
+      "name": "《产乳集验方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滑肠通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "燥结便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳少",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《食疗本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药品化义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮片新参》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经集注》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《摘元方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《丹溪心法》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "瓜蒌子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《产乳集验方》",
+      "object_type": "Source"
+    }
+  ]
+}

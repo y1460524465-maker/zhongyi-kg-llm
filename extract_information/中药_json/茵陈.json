@@ -1,0 +1,424 @@
+{
+  "entities": [
+    {
+      "name": "茵陈",
+      "type": "Herb",
+      "attributes": {
+        "alias": "因尘、马先、茵蔯蒿、因陈蒿、绵茵陈、绒蒿、细叶青蒿、臭蒿、安吕草、婆婆蒿、野兰蒿",
+        "effect": "清热利湿，退黄",
+        "indication": "湿热黄疸，小便不利，传染性黄疸型肝炎，风痒疮疥",
+        "meridian": "脾经、胃经、肝经、胆经",
+        "place": "菊科植物滨蒿或茵陈蒿的干燥地上部分",
+        "property_flavor": "气清香，味微苦",
+        "taboo": "非因湿热引起的发黄忌服；蓄血发黄者禁用；热甚发黄，无湿气者禁用",
+        "usage": "内服：煎汤，10~15g；或入丸、散",
+        "origin": "菊科植物滨蒿Artemisia scoparia Waldst. et Kit. 或茵陈蒿Artemisia capillaris Thunb.的干燥地上部分",
+        "processing": "除去残根及杂质，搓碎或切碎。绵茵陈筛去灰屑",
+        "traits": "绵茵陈：多卷曲成团状，灰白色或灰绿色，全体密被白色茸毛，绵软如绒；茵陈蒿：茎呈圆柱形，多分枝，表面淡紫色或紫色，有纵条纹，被短柔毛"
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茵陈蒿汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治阳明病，但头汗出，身无汗，剂颈而还，小便不利，渴引水浆，瘀热在里，身发黄者",
+        "usage": "以水一斗二升，先煮茵陈，减六升，内二味，煮取三升，去滓分三服"
+      }
+    },
+    {
+      "name": "茵陈四逆汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治发黄，脉沉细迟，肢体逆冷，腰以上自汗",
+        "usage": "上为粗末。分作四贴，水煎服"
+      }
+    },
+    {
+      "name": "茵陈汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治病人身如金色，不多语言，四肢无力，好眠卧，口吐粘液",
+        "usage": "上二味粗捣筛。每服三钱匕，水一盏，煎至六分，去滓，食前温服，日三"
+      }
+    },
+    {
+      "name": "茵陈蒿散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治风瘙瘾胗，皮肤肿痒",
+        "usage": "上二味捣罗为散。每服一钱匕，冷蜜水调下，食后服"
+      }
+    },
+    {
+      "name": "茵陈丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治黄疸，遍身悉黄，小便如浓栀子汁",
+        "usage": "四味捣筛蜜丸如梧子大。空腹，以米饮服二十丸，日一服，渐加至二十五丸，微利为度"
+      }
+    },
+    {
+      "name": "茵陈栀子黄连汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治大便自利而灰",
+        "usage": "水二盏，煎至八分，去滓服"
+      }
+    },
+    {
+      "name": "茵陈散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治热病发斑",
+        "usage": "捣筛为散。每服四钱，以水一中盏，煎至六分，去滓，不计时候服"
+      }
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《玉机微义》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《外台》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医学入门》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《得配本草》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茵陈",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿，退黄",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茵陈",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茵陈",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茵陈",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "传染性黄疸型肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茵陈",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风痒疮疥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茵陈蒿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茵陈",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈蒿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈蒿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈蒿汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茵陈",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈四逆汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《玉机微义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茵陈汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茵陈蒿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白鲜皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茵陈蒿散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茵陈蒿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈蒿散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荷叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈蒿散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茵陈丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茵陈",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外台》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茵陈栀子黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茵陈蒿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈栀子黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈栀子黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈栀子黄连汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒活人指掌图》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茵陈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茵陈",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    }
+  ]
+}

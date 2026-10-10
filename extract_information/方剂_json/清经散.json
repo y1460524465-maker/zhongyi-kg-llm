@@ -1,0 +1,204 @@
+{
+  "entities": [
+    {
+      "name": "清经散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热降火，凉血养阴",
+        "indication": "肾中水亏火旺，阳盛血热，经行先期量多者。经期提前，量多，色紫红，质稠，可伴有心胸烦闷，渴喜冷饮，大便燥结，小便短赤，面色红赤，舌红，苔黄脉滑数。",
+        "usage": "丹皮9克 地骨皮15克 白芍9克(酒炒) 大熟地9克(九蒸) 青蒿6克 白茯苓6克 黄柏1.5克(盐水浸炒)"
+      }
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地骨皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大熟地",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "青蒿",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地骨皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大熟地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青蒿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾中水亏火旺",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经期提前",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "量多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "色紫红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "质稠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胸烦闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "渴喜冷饮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便燥结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便短赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面色红赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "苔黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉滑数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热降火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "清经散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "凉血养阴",
+      "object_type": "Effect"
+    }
+  ]
+}

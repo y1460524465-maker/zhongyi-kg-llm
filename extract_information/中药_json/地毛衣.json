@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "地毛衣",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热明目，止痒",
+        "indication": "目生云翳，皮肤病，虫叮咬瘙痒",
+        "usage": "内服：煎汤，9-12g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "地毛衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目生云翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地毛衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤病",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地毛衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虫叮咬瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地毛衣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地毛衣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痒",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "紫苏梗",
+      "type": "Herb",
+      "attributes": {
+        "effect": "理气，舒郁，止痛，安胎",
+        "indication": "气郁，食滞，胸膈痞闷，脘腹疼痛，胎气不和",
+        "meridian": "入脾经、胃经、肺经",
+        "dosage": "内服：煎汤，5~10g；或入散剂"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫苏梗",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫苏梗",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒郁",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫苏梗",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫苏梗",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安胎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫苏梗",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气郁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫苏梗",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫苏梗",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸膈痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫苏梗",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫苏梗",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎气不和",
+      "object_type": "Symptom"
+    }
+  ]
+}

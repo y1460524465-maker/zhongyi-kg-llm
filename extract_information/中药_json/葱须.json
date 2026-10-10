@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "name": "葱须",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风散寒；解毒；散瘀",
+        "indication": "风寒头痛，喉疮，痔疮，冻伤",
+        "usage": "内服：煎汤，6-9g；或研末。外用：适量，研末吹；或煎水熏洗。"
+      }
+    },
+    {
+      "name": "风寒头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喉疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "冻伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "祛风散寒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "解毒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "散瘀",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《孟诜方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医准》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "内蒙古《中草药新医疗法资料选编》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葱须",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葱须",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葱须",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葱须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "冻伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱须",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风寒头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱须",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《孟诜方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "葱须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医准》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "葱须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "内蒙古《中草药新医疗法资料选编》",
+      "object_type": "Source"
+    }
+  ]
+}

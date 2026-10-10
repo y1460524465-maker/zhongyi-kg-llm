@@ -1,0 +1,53 @@
+{
+  "entities": [
+    {
+      "name": "四念癀",
+      "type": "Herb",
+      "attributes": {
+        "alias": "龙吐珠、九龙吐珠（福建）、琉璃繁缕",
+        "effect": "祛风散寒，活血解毒",
+        "indication": "鹤膝风，阴证疮疡，毒蛇及狂犬咬伤",
+        "usage": "内服：煎汤，9-15g，鲜品15-30g；或捣汁。外用：适量，鲜品捣敷。",
+        "property_flavor": "气微，味酸、涩",
+        "origin": "为报春花科植物琉璃繁缕的全草。夏季采收，洗净，鲜用或晒干。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四念癀",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风散寒，活血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四念癀",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鹤膝风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四念癀",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴证疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四念癀",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒蛇咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四念癀",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "狂犬咬伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "保心丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "痘疮毒盛稠密，不能起发",
+        "taboo": null,
+        "usage": "大者1丸，小者半丸，甘草汤送下。如初起只用蟾酥，酒化为丸，不用人参，至8-9日毒盛元虚，始用粪清水制人参3次，晒干，用蟾酥酒化为丸，如芡实大"
+      }
+    },
+    {
+      "name": "蟾酥",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "绿豆粉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "穿山甲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "天竺黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "胎骨",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "痘疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《痘疹仁端录》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "保心丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《痘疹仁端录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "保心丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痘疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "保心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蟾酥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "绿豆粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "穿山甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天竺黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胎骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保心丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    }
+  ]
+}

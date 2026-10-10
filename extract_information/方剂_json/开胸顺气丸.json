@@ -1,0 +1,167 @@
+{
+  "entities": [
+    {
+      "name": "开胸顺气丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "消积化滞，行气止痛",
+        "indication": "饮食内停，气郁不舒导致的胸胁胀满，胃脘疼痛，嗳气呕恶，食少纳呆",
+        "usage": "口服，一次3～9g,一日1～2次",
+        "taboo": "孕妇禁用；年老体弱者慎用"
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "300g"
+      }
+    },
+    {
+      "name": "牵牛子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "400g",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "75g"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g",
+        "processing": "姜制"
+      }
+    },
+    {
+      "name": "三棱",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g",
+        "processing": "醋制"
+      }
+    },
+    {
+      "name": "莪术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g",
+        "processing": "醋制"
+      }
+    },
+    {
+      "name": "猪牙皂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牵牛子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "三棱",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莪术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪牙皂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "消积化滞，行气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃脘疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "嗳气呕恶",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "开胸顺气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食少纳呆",
+      "object_type": "Symptom"
+    }
+  ]
+}

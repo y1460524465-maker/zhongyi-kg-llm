@@ -1,0 +1,224 @@
+{
+  "entities": [
+    {
+      "name": "土木香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "祁木香、藏木香、玛奴（藏语）",
+        "effect": "健脾和胃，行气止痛，安胎",
+        "indication": "胸胁、脘腹胀痛，呕吐泻痢，胸胁挫伤，岔气作痛，胎动不安",
+        "property_flavor": "辛、苦，温",
+        "meridian": "肝、脾经",
+        "dosage": "内服：煎汤，3～9g，多入丸散服",
+        "origin": "菊科植物土木香Inula helenium L．的干燥根"
+      }
+    },
+    {
+      "name": "十六味红花丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "新旧肝热，急慢性肝炎，肝区疼痛，食欲不振，黄疸，肝热诸症",
+        "usage": null
+      }
+    },
+    {
+      "name": "催汤丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "感冒初起，咳嗽头痛，关节酸痛，防治流行性感冒",
+        "usage": "水煎服，用冷水约400ml浸泡1～2小时后，煎至约300ml，趁热服汤；一次1～2丸，一日3次。肾病患者慎用。"
+      }
+    },
+    {
+      "name": "四味土木香散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "瘟病初期，发冷发热，头痛咳嗽，咽喉肿痛，胸胁作痛",
+        "usage": "水煎服，一次2.5～3.6g，一日2～3次。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "土木香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾和胃，行气止痛，安胎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "土木香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁、脘腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土木香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土木香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁挫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土木香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "岔气作痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土木香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎动不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十六味红花丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "新旧肝热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十六味红花丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十六味红花丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十六味红花丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肝区疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十六味红花丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十六味红花丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "土木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "催汤丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "催汤丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "催汤丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "催汤丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "催汤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "土木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "催汤丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "土木香膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四味土木香散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘟病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四味土木香散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发冷发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四味土木香散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四味土木香散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四味土木香散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四味土木香散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁作痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四味土木香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "土木香",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "name": "麝香壳",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为鹿科动物原麝及同属雄性动物的香囊的外层皮。将香腺囊对剖，取去麝香，剩下的外壳，干燥后即成。",
+        "place": "四川、西藏、云南、陕西、甘肃、内蒙古等地",
+        "traits": "厚3-5mm，起层，内表面有一层棕经色薄膜，称油皮，中层称银皮。质坚韧，内浓厚的麝香气味。以笛干、个大、香气浓者为佳。",
+        "effect": "通经入络，解毒消肿",
+        "indication": "痈疽，疔疮，无名肿毒",
+        "usage": "内服：入散剂，1.5-2.5g。外用：适量，研开调敷；或入膏药敷贴。",
+        "dosage": "内服1.5-2.5g（入散剂）"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麝香壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通经入络，解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麝香壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

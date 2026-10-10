@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "name": "杜仲叶",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "微辛，温",
+        "meridian": "肝、肾经",
+        "effect": "补肝肾，强筋骨",
+        "indication": "肝肾不足，头晕目眩，腰膝酸痛，筋骨痿软",
+        "dosage": "10～15g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "杜仲叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾，强筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杜仲叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "杜仲叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕目眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杜仲叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杜仲叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨痿软",
+      "object_type": "Symptom"
+    }
+  ]
+}

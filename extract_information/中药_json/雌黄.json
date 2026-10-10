@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "雌黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "燥湿，杀虫，解毒，疗疮",
+        "indication": "用于疥癣恶疮，蛇虫咬伤，癫痫，寒痰咳喘，虫积腹痛",
+        "property_flavor": "辛，平；有毒",
+        "meridian": "归肝、大肠经",
+        "processing": "将原药除去杂质。研粉，过100目筛"
+      }
+    },
+    {
+      "name": "牛皮顽癣",
+      "type": "Disease"
+    },
+    {
+      "name": "乌癞疮",
+      "type": "Disease"
+    },
+    {
+      "name": "癫痫",
+      "type": "Disease"
+    },
+    {
+      "name": "风痫",
+      "type": "Disease"
+    },
+    {
+      "name": "小便滑数",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "雌黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牛皮顽癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雌黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乌癞疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雌黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雌黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雌黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便滑数",
+      "object_type": "Disease"
+    }
+  ]
+}

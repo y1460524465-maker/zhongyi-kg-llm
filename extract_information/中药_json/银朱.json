@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "银朱",
+      "type": "Herb",
+      "attributes": {
+        "alias": "灵砂（《证类本草》），心红（《本草蒙筌》），水华朱（《胡演升丹炼药秘诀》），猩红，紫粉霜（《纲目》）",
+        "property_flavor": "辛，温，有毒",
+        "meridian": "归心、肺经",
+        "effect": "攻毒，杀虫，燥湿，劫痰",
+        "indication": "用于疥癣恶疮，痧气心腹痛，痈疽，肿毒，溃疡",
+        "usage": "内服：研末用微量入丸、散",
+        "taboo": "①《证类本草》：灵砂：恶磁石，畏咸水。②《本草经疏》：灵砂：凡胃虚呕吐，伤暑霍乱，肺热生痰，病属于虚，非关骤发者，咸在所忌。③《本经逢原》：银朱：忌一切血。",
+        "origin": "本品为以水银与硫黄作原料，加热升华制成，主含硫化汞（HgS）",
+        "place": "主产广州、武汉；安徽亦产",
+        "traits": "本品为细粒或细粉状。红色、朱红色。具较强光泽。体重，质细腻、滑润、疏松，手触之染指。吸湿易结块。无臭、无味。以体重、色红、鲜艳者为佳。"
+      }
+    },
+    {
+      "name": "灵砂",
+      "type": "Herb",
+      "attributes": {
+        "alias": null,
+        "property_flavor": null,
+        "meridian": null,
+        "effect": null,
+        "indication": null,
+        "usage": null,
+        "taboo": null,
+        "origin": null,
+        "place": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "银朱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "攻毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银朱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银朱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银朱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "劫痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银朱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "银朱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痧气心腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "银朱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "银朱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "银朱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "溃疡",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "name": "鸽卵",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸽蛋",
+        "effect": "补肾益气，解疮毒、痘毒",
+        "indication": "恶疮疥癣，痘疹难出，预防麻疹",
+        "property_flavor": "甘咸，平"
+      }
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《吉林中草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "桂圆肉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枸杞",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸽卵",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "恶疮疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸽卵",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痘疹难出",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸽卵",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "预防麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸽卵",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸽卵",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解疮毒、痘毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸽卵",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂圆肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸽卵",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸽卵",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸽卵",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林纂要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸽卵",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《吉林中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

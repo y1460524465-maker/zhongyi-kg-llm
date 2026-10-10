@@ -1,0 +1,379 @@
+{
+  "entities": [
+    {
+      "name": "十香返生丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "开窍化痰，镇静安神",
+        "indication": "用于中风痰迷心窍引起的言语不清，神志昏迷，痰涎壅盛，牙关紧闭",
+        "usage": "口服，一次1丸，一日2次，或遵医嘱"
+      }
+    },
+    {
+      "name": "沉香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "丁香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "檀香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "青木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "降香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "广藿香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "天麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "僵蚕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "郁金",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "莲子心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "瓜蒌子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "金礞石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "诃子肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "苏合香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "安息香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g"
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7.5g"
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "琥珀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "檀香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "降香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "广藿香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "僵蚕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "郁金",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲子心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金礞石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "诃子肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苏合香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "安息香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "琥珀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "开窍化痰，镇静安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "十香返生丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "中风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "言语不清",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "神志昏迷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "痰涎壅盛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "牙关紧闭",
+      "object_type": "Symptom"
+    }
+  ]
+}

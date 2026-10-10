@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "生藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "羊角藤、冷水发汗、水逼药、大花藤、香根藤",
+        "effect": "祛风散寒，行气通络",
+        "indication": "感冒，气管炎，胃痛，痞胀，风湿疼痛",
+        "usage": "内服：煎汤，6-15g；或研粉"
+      }
+    }
+  ],
+  "relations": []
+}

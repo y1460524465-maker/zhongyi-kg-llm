@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "龙须草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "野席草、野灯芯草、马棕根、野马棕、野灯草、鬼尖头草、灯心草、水通草、秧草根",
+        "effect": "利尿通淋，泄热安神",
+        "indication": "小便赤涩，热淋，肾炎水肿，头昏，齿痛，鼻衄，咽痛，心烦失眠，消渴，梦遗",
+        "meridian": "心、小肠经",
+        "property_flavor": "淡，寒",
+        "usage": "内服：煎汤，3~9 g",
+        "taboo": "溲多者勿用",
+        "origin": "《纲目拾遗》"
+      }
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《安徽药材》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《浙江民间常用草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《上海常用中草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《药材资料汇编》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿通淋，泄热安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便赤涩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾炎水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "齿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "梦遗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙须草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    }
+  ]
+}

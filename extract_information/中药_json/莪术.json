@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {
+      "name": "莪术",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蓬莪茂、蓬药、蓬莪术、广茂、蓬术、青姜、羌七、广术、黑心姜、文术",
+        "effect": "行气破血，消积止痛",
+        "indication": "心腹胀痛，癥瘕，积聚，宿食不消，妇女血瘀经闭，跌打损伤作痛",
+        "origin": "为姜科植物莪术Curcuma aerugionosa Roxb.的根茎",
+        "place": "主产广西、四川",
+        "processing": "秋冬季茎叶枯萎后采挖，洗净，蒸或煮至透心，晒干或低温干燥后除去须根及杂质",
+        "property_flavor": "味苦辣",
+        "taboo": "气血两虚，脾胃薄弱无积滞者慎服。孕妇忌服",
+        "dosage": "内服：煎汤，3~10g；或入丸、散"
+      }
+    }
+  ],
+  "relations": []
+}

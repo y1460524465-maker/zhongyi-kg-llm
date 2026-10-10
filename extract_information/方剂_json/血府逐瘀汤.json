@@ -1,0 +1,432 @@
+{
+  "entities": [
+    {
+      "name": "血府逐瘀汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "活血祛瘀，行气止痛",
+        "indication": "上焦瘀血，头痛胸痛，胸闷呃逆，失眠不寐，心悸怔忡，瘀血发热，舌质暗红，边有瘀斑或瘀点，唇暗或两目暗黑，脉涩或弦紧。妇人血瘀经闭不行，痛经，肌肤甲错，日晡潮热；以及脱疽、白疙，眼科云雾移睛、青盲等目疾。现用于高血压、精神分裂症、脑震荡后遗症、慢性粒细胞性白血病、血栓性静脉炎、色素沉着、性功能低下、更年期综合征、顽固性头痛、顽固性低热、眼底出血等属瘀血内阻，日久不愈者。"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "呃逆",
+      "type": "Symptom"
+    },
+    {
+      "name": "失眠不寐",
+      "type": "Symptom"
+    },
+    {
+      "name": "心悸怔忡",
+      "type": "Symptom"
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "精神分裂症",
+      "type": "Disease"
+    },
+    {
+      "name": "脑震荡后遗症",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性粒细胞性白血病",
+      "type": "Disease"
+    },
+    {
+      "name": "血栓性静脉炎",
+      "type": "Disease"
+    },
+    {
+      "name": "色素沉着",
+      "type": "Disease"
+    },
+    {
+      "name": "性功能低下",
+      "type": "Disease"
+    },
+    {
+      "name": "更年期综合征",
+      "type": "Disease"
+    },
+    {
+      "name": "顽固性头痛",
+      "type": "Disease"
+    },
+    {
+      "name": "顽固性低热",
+      "type": "Disease"
+    },
+    {
+      "name": "眼底出血",
+      "type": "Disease"
+    },
+    {
+      "name": "上焦瘀血",
+      "type": "Disease"
+    },
+    {
+      "name": "脱疽",
+      "type": "Disease"
+    },
+    {
+      "name": "白疙",
+      "type": "Disease"
+    },
+    {
+      "name": "云雾移睛",
+      "type": "Disease"
+    },
+    {
+      "name": "青盲",
+      "type": "Disease"
+    },
+    {
+      "name": "痛经",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘀血发热",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "上焦瘀血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呃逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠不寐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸怔忡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘀血发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脱疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "白疙",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "云雾移睛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "青盲",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "精神分裂症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脑震荡后遗症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性粒细胞性白血病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血栓性静脉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "色素沉着",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "性功能低下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "更年期综合征",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "顽固性头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "顽固性低热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血府逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "眼底出血",
+      "object_type": "Disease"
+    }
+  ]
+}

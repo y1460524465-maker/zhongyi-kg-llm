@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "柠檬",
+      "type": "Herb",
+      "attributes": {
+        "effect": "生津止渴，和胃安胎",
+        "indication": "主治胃热伤津，中暑烦渴，食欲不振，脘腹痞胀，肺咳嗽，妊娠呕吐",
+        "usage": "内服：适量，绞汁饮或生食"
+      }
+    },
+    {
+      "name": "黎檬",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柠檬",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津止渴，和胃安胎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柠檬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃热伤津",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柠檬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑烦渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柠檬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食欲不振",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柠檬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脘腹痞胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柠檬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柠檬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠呕吐",
+      "object_type": "Disease"
+    }
+  ]
+}

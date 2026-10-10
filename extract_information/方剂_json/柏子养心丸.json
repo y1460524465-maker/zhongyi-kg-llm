@@ -1,0 +1,254 @@
+{
+  "entities": [
+    {
+      "name": "柏子养心丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补气，养血，安神",
+        "indication": "心气虚寒，心悸易惊，失眠多梦，健忘",
+        "taboo": null,
+        "usage": "口服，水蜜丸一次6g，小蜜丸一次9g，大蜜丸一次1丸，一日2次"
+      }
+    },
+    {
+      "name": "柏子仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "党参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "炙黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200g"
+      }
+    },
+    {
+      "name": "远志(制)",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "酸枣仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "五味子(蒸)",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "半夏曲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10g"
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "心气虚寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "心悸易惊",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "失眠多梦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "健忘",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柏子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "党参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志(制)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "酸枣仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子(蒸)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补气，养血，安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心气虚寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸易惊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠多梦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柏子养心丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "健忘",
+      "object_type": "Symptom"
+    }
+  ]
+}

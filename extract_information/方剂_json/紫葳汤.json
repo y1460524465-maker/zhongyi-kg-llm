@@ -1,0 +1,175 @@
+{
+  "entities": [
+    {
+      "name": "紫葳汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热补血，补益肝肾，强筋健骨",
+        "indication": "筋痿",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "《杂病源流犀烛》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "紫葳",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "天冬",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "百合",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "杜仲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "萆薢",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "蒺藜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《杂病源流犀烛》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫葳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜仲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "萆薢",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒺藜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热补血，补益肝肾，强筋健骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫葳汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋痿",
+      "object_type": "Symptom"
+    }
+  ]
+}

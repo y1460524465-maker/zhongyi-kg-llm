@@ -1,0 +1,225 @@
+{
+  "entities": [
+    {
+      "name": "砒石",
+      "type": "Herb",
+      "attributes": {
+        "alias": "砒黄、信砒、人言、信石",
+        "effect": "外用蚀疮去腐，内服截疟，祛痰平喘",
+        "indication": "用于痔瘘，瘰疬，痈疽，走马牙疳，癣疮，溃疡腐肉不脱；内服治哮喘，疟疾",
+        "property_flavor": "肺经；大肠经；胃经；脾经",
+        "dosage": "内服：入丸、散，0.03~0.075g；外用：研末撒、调敷或入膏药中贴之",
+        "taboo": "本品有剧毒内服宜慎，不能持续服用，孕妇忌服。不能作酒剂内服。外用也不可过量，以防局部吸收中毒。畏水银。",
+        "processing": "去净杂质，砸碎，装入砂罐内，用泥将口封严，置炉火中煅红，取出放凉，研为细粉。"
+      }
+    },
+    {
+      "name": "《雷公炮炙论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草别说》",
+      "type": "Source"
+    },
+    {
+      "name": "《本事方》",
+      "type": "Source"
+    },
+    {
+      "name": "《丹溪心法附余》",
+      "type": "Source"
+    },
+    {
+      "name": "《局方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《魏氏家藏方》",
+      "type": "Source"
+    },
+    {
+      "name": "《灵苑方》",
+      "type": "Source"
+    },
+    {
+      "name": "《朱氏集验医方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《雷公炮炙论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草别说》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本事方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《丹溪心法附余》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《魏氏家藏方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《灵苑方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《朱氏集验医方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "外用蚀疮去腐，内服截疟，祛痰平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔瘘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "走马牙疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癣疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "溃疡腐肉不脱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "茶叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "苦荼、槚、荼、郭璞注、苦瑹、蔎、腊茶、茶芽、芽茶、细茶、酪奴",
+        "effect": "清头目，除烦渴，消食，化痰，利尿，解毒",
+        "indication": "头痛，目昏，多睡善寐，心烦口渴，食积痰滞，疟，泻痢，口臭，疮疡疖肿",
+        "dosage": "内服：煎汤，3-10g；或入丸、散，沸泡。外用：适量，研末调敷，或鲜品捣敷",
+        "taboo": "服威灵仙、土茯苓者忌饮茶",
+        "origin": "《本草拾遗》",
+        "property_flavor": "味苦涩"
+      }
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "目昏",
+      "type": "Symptom"
+    },
+    {
+      "name": "多睡善寐",
+      "type": "Symptom"
+    },
+    {
+      "name": "心烦口渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "食积痰滞",
+      "type": "Symptom"
+    },
+    {
+      "name": "疟",
+      "type": "Disease"
+    },
+    {
+      "name": "泻痢",
+      "type": "Disease"
+    },
+    {
+      "name": "口臭",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮疡疖肿",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茶叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清头目，除烦渴，消食，化痰，利尿，解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茶叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茶叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茶叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "多睡善寐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茶叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茶叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积痰滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茶叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茶叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泻痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茶叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口臭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茶叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疡疖肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

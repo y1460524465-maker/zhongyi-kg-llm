@@ -1,0 +1,155 @@
+{
+  "entities": [
+    {
+      "name": "石油菜",
+      "type": "Herb",
+      "attributes": {
+        "alias": "石花菜、肥奴奴草、小石芥、冷冻草、疳积草、石苋菜、肥猪菜、打不死",
+        "effect": "清热解毒，润肺止咳，消肿止痛",
+        "indication": "肺热咳嗽，肺结核病，肾炎水肿；外用治跌打损伤，烧烫伤，疮疖肿毒",
+        "dosage": "内服：煎汤，15~30克，鲜品加倍",
+        "property_flavor": "味淡，性凉",
+        "processing": "全年可采",
+        "origin": "荨麻科植物波缘冷水花的全草",
+        "place": "广东、广西、贵州、湖南"
+      }
+    },
+    {
+      "name": "波缘冷水花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肾炎水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疮疖肿毒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "润肺止咳",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "消肿止痛",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《广西药植名录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《广西中草药》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石油菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石油菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石油菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石油菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石油菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烧烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石油菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疖肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石油菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石油菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石油菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石油菜",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "波缘冷水花",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "鱼草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛痰，止咳，平喘",
+        "indication": "咳嗽，痰多，胸闷",
+        "usage": "内服：煎汤，6-15g,研末，每次1.5-2g，每日2-3次"
+      }
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰多",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸闷",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鱼草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛痰，止咳，平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鱼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鱼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鱼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷",
+      "object_type": "Symptom"
+    }
+  ]
+}

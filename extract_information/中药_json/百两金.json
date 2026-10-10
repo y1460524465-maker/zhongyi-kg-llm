@@ -1,0 +1,194 @@
+{
+  "entities": [
+    {
+      "name": "百两金",
+      "type": "Herb",
+      "attributes": {
+        "alias": "八爪龙、八爪金龙（《草木便方》），开喉剑、叶下藏珠、状元红（《天宝本草》），铁雨伞、真珠凉伞（《福建中草药》），野猴枣、珍珠伞（江西《草药手册》）",
+        "effect": "清热，祛痰利湿，活血解毒",
+        "indication": "用于咽喉肿痛，肺病咳嗽，咯痰不畅，湿热黄疸，肾炎水肿，痢疾，白浊，风湿骨痛，牙痛，睾丸肿痛",
+        "dosage": "内服：煎汤，9~15 g",
+        "origin": "为紫金牛科植物百两金的根及根茎",
+        "place": "分布四川、贵州、湖南、湖北、江西、浙江、福建、广东、广西等地"
+      }
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺病咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "咯痰不畅",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿热黄疸",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾炎水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Symptom"
+    },
+    {
+      "name": "白浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿骨痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "睾丸肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "喉头溃烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃气痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "陈旧性腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "秃疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "疥癣",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺病咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯痰不畅",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾炎水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿骨痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "睾丸肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉头溃烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "陈旧性腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "秃疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百两金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疥癣",
+      "object_type": "Symptom"
+    }
+  ]
+}

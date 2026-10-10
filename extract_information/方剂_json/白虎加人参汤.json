@@ -1,0 +1,162 @@
+{
+  "entities": [
+    {
+      "name": "白虎加人参汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "人参白虎汤",
+        "effect": "清热生津，益气生津",
+        "indication": "伤寒或温病，里热盛而气阴不足，发热，烦渴，口舌干燥，汗多，脉大无力；暑病津气两伤，汗出恶寒，身热而渴",
+        "usage": "上五味，以水1升，煮米熟汤成，去滓。温服200毫升，一日三次分服"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30～45克(碎，绵裹)"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "《玉机微义》",
+      "type": "Source"
+    },
+    {
+      "name": "《太平惠民和剂局方》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学衷中参西录》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "温病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌干燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汗多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉大无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《玉机微义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白虎加人参汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平惠民和剂局方》",
+      "object_type": "Source"
+    }
+  ]
+}

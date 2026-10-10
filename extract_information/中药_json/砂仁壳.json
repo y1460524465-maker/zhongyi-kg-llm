@@ -1,0 +1,182 @@
+{
+  "entities": [
+    {
+      "name": "砂仁壳",
+      "type": "Herb",
+      "attributes": {
+        "alias": "砂壳",
+        "effect": "化湿开胃，温脾止泻，理气安胎",
+        "indication": "脾胃气滞、脘腹胀满，呕恶",
+        "dosage": "煎汤，2～5g；或烧存性研末。入煎剂宜后下",
+        "origin": "为姜科植物阳春砂或缩砂的果壳",
+        "property_flavor": "味微辛凉",
+        "place": "阳春砂或缩砂"
+      }
+    },
+    {
+      "name": "阳春砂",
+      "type": "Herb",
+      "attributes": {
+        "origin": "姜科植物"
+      }
+    },
+    {
+      "name": "缩砂",
+      "type": "Herb",
+      "attributes": {
+        "origin": "姜科植物"
+      }
+    },
+    {
+      "name": "脾胃气滞",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脘腹胀满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕恶",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热壅上焦",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咽喉疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口吻生疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "化湿开胃",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "温脾止泻",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "理气安胎",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《简易方论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《中国医学大辞典》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《证治要诀》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "砂仁壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化湿开胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "砂仁壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温脾止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "砂仁壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气安胎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "砂仁壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砂仁壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕恶",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砂仁壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃气滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "缩砂壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "缩砂壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口吻生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砂仁壳",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮片新参》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "缩砂壳",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《简易方论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砂仁壳",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国医学大辞典》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "缩砂壳",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《证治要诀》",
+      "object_type": "Source"
+    }
+  ]
+}

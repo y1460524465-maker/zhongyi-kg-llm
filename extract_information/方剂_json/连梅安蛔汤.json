@@ -1,0 +1,157 @@
+{
+  "entities": [
+    {
+      "name": "连梅安蛔汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "安蛔止痛，清热导滞，佐以凉血",
+        "indication": null,
+        "taboo": null,
+        "usage": "水煎服，每日1剂，日服3次"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "乌梅",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克"
+      }
+    },
+    {
+      "name": "使君子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "川椒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10粒"
+      }
+    },
+    {
+      "name": "金铃炭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2克"
+      }
+    },
+    {
+      "name": "土茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "连梅安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连梅安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌梅",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连梅安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连梅安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "使君子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连梅安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连梅安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川椒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连梅安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金铃炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连梅安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连梅安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "土茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连梅安蛔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    }
+  ]
+}

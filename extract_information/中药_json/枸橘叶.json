@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "枸橘叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "理气止呕，消肿散结",
+        "indication": "噎膈，反胃，呕吐，梅核气，疝气",
+        "usage": "内服:煎汤，6～9g；或炒研作散剂",
+        "property_flavor": "味辛辣、微苦",
+        "processing": "将原药除去枝梗等杂质，喷潮，略润，切丝，干燥，筛去灰屑"
+      }
+    },
+    {
+      "name": "臭橘叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "臭橘叶"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枸橘叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气止呕，消肿散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枸橘叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噎膈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枸橘叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枸橘叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枸橘叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "梅核气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枸橘叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疝气",
+      "object_type": "Symptom"
+    }
+  ]
+}

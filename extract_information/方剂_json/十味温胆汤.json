@@ -1,0 +1,259 @@
+{
+  "entities": [
+    {
+      "name": "十味温胆汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "心胆虚怯，触事易惊，或梦寐不祥，遂致心惊胆慑，气郁生涎，变生诸证，或短气悸乏，或复自汗，四肢浮肿，饮食无味，心虚烦闷，坐卧不安",
+        "taboo": null,
+        "usage": "每服12克，用水220毫升，加生姜5片，大枣1枚，水煎服，不拘时服"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "汤洗七次",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去瓤，切，麸炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去白",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去皮",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "酸枣仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "微炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "远志",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去心，甘草水煮，姜汁炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "北五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "切，酒炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "条参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "粉草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "心胆虚怯",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "十味温胆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心胆虚怯",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十味温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十味温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十味温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十味温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十味温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "酸枣仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十味温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十味温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "北五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十味温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十味温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "条参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十味温胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粉草",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "entities": [
+    {
+      "name": "猪牙皂",
+      "type": "Herb",
+      "attributes": {
+        "alias": "牙皂、小牙皂、皂荚、鸡栖子、皂角、猪牙皂角、乌犀、小皂、眉皂、小皂荚",
+        "effect": "通窍，涤痰，搜风，杀虫",
+        "indication": "中风口噤，头风，风痼，喉痹，痰喘，痞满积滞，关格不通，痈肿，疥癞，癣疾，头疮",
+        "property_flavor": "味先甜后辣",
+        "meridian": "肺经、胃经、大肠经",
+        "dosage": "1～1.5g",
+        "taboo": "妊娠不可服。年老气虚人忌用。阴虚痰盛，热极生风者禁用。",
+        "processing": "拣净杂质，洗净晒干，用时捣碎。另有酥炙、蜜炙等不同炮制方法。"
+      }
+    },
+    {
+      "name": "皂荚丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "蜜丸梧子大，以枣膏和汤服三丸，日三夜一服。"
+      }
+    },
+    {
+      "name": "救急稀涎散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "共捣为散，服半钱至三字匕，温水调灌下。"
+      }
+    },
+    {
+      "name": "抵柱丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "丸梧子大，朱砂为衣，每服三四十丸，枣汤下，日二服。"
+      }
+    },
+    {
+      "name": "百顺丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "汤浸蒸饼捣丸，绿豆大，每用五分至二三钱，酌宜用引送下。"
+      }
+    },
+    {
+      "name": "调脓散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "为末，每服一钱，无灰洒调下，不拘时。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "涤痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "搜风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风口噤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风痼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痞满积滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关格不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癣疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪牙皂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头疮",
+      "object_type": "Disease"
+    }
+  ]
+}

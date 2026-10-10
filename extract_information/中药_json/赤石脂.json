@@ -1,0 +1,419 @@
+{
+  "entities": [
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": {
+        "alias": "赤符、红高岭、赤石土、吃油脂、红土",
+        "effect": "涩肠，止血，收湿，生肌",
+        "indication": "久泻，久痢，便血，脱肛，遗精，崩漏，带下，溃疡不敛",
+        "taboo": "不宜与肉桂同用。有湿热积滞者忌服。孕妇慎服。",
+        "usage": "9～12g。外用适量，研末敷患处。",
+        "origin": null,
+        "place": null,
+        "processing": "赤石脂：除去杂质，打碎或研细粉。煅赤石粉：取赤石脂细粉，用醋调匀，搓条，切段，干燥，放无烟的炉火或坩锅内煅烧，煅至红透。用时捣碎。",
+        "property_flavor": null,
+        "traits": null,
+        "dosage": null,
+        "meridian": null
+      }
+    },
+    {
+      "name": "桃花汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "少阴病下利脓血",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "赤石脂禹余粮汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "伤寒服汤药，下利不止，心下痞鞕，服泻心汤已，复以他药下之，利不止，医以理中与之，利益甚，此利在下焦",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "赤石脂丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "大肠寒滑，小便精出；心痛彻背，背痛彻心；反胃",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "赤石脂散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "痢后，躽气下，推出肛门不入；妇人漏下，数年不差；痰饮盛，吐水无时节，其源为冷饮过度，遂令痼冷，脾胃气羸，不能消于食饮，食饮入胃，皆变成冷水，反吐不停",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "牡蛎丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "小便不禁",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "桃花粥",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "温病七八日脉虚数，舌绛苔少，下利日数十行，完谷不化，身热",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "红倩丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "赤白痢久下不瘥",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "调经散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "妇人经水过多",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "桃花散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "痘后疮成毒",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "神王真散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "烫火所伤，热毒疮疖",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《斗门方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《小儿药证直诀》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《千金翼方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《温病条辨》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《武威汉代医简》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《证治准绳》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《蕙怡堂经验方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《卫生易简方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "涩肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤石脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "溃疡不敛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桃花汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "赤石脂禹余粮汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赤石脂禹余粮汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《本草衍义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赤石脂散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赤石脂散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《小儿药证直诀》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "赤石脂散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《千金翼方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "赤石脂散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡蛎丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃花粥",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《温病条辨》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "红倩丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "调经散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃花散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《蕙怡堂经验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "神王真散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    }
+  ]
+}

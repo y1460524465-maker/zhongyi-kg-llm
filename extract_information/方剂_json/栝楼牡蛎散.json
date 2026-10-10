@@ -1,0 +1,76 @@
+{
+  "entities": [
+    {
+      "name": "栝楼牡蛎散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "生津止渴，益阴潜阳",
+        "indication": "百合病阴虚内热，虚阳上浮，肺胃津伤而见口渴",
+        "taboo": null,
+        "usage": "每次10克，以温开水调服，一日三次"
+      }
+    },
+    {
+      "name": "栝楼根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热润燥，生津止渴"
+      }
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益阴潜阳，以降虚热"
+      }
+    },
+    {
+      "name": "百合病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "口渴",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "栝楼牡蛎散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栝楼根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栝楼牡蛎散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栝楼牡蛎散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "百合病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栝楼牡蛎散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百合病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    }
+  ]
+}

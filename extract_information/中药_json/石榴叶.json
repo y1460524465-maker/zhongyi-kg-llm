@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "name": "石榴叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "收敛止泻，解毒杀虫",
+        "indication": "泄泻，痘风疮，癞疮，跌打损伤"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石榴叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛止泻，解毒杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石榴叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石榴叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痘风疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石榴叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癞疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石榴叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

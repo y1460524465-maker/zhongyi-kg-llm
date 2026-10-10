@@ -1,0 +1,166 @@
+{
+  "entities": [
+    {
+      "name": "抱石莲",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，利湿消瘀",
+        "indication": "淋巴结炎、肺结核、风湿骨痛、小儿高热、内外伤出血、跌打损伤、外用治疔疮肿毒。治痄腮，咽喉肿痛，胆囊炎，痞块，臌胀，虚痨咳血，瘰疬，淋浊尿血，疔痈疮肿，跌打损伤",
+        "dosage": "内服：煎汤，15-30g",
+        "processing": "全年可采",
+        "origin": "水龙骨科骨牌蕨属抱石莲的全草",
+        "place": "长江流域、陕西、福建、广东、广西、贵州等省区",
+        "alias": "鱼鳖金星、金龟藤、抱树莲、瓜子菜、瓜米菜、飞连草、肉石斛、石瓜子"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，利湿消瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴结炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿骨痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿高热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "内外伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痄腮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胆囊炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痞块",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "臌胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚痨咳血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊尿血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔痈疮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解热，消炎，驱风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "抱石莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    }
+  ]
+}

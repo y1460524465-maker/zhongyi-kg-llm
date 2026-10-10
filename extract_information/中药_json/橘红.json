@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "橘红",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "味微苦、麻",
+        "effect": "散寒燥湿，理气化痰，宽中健胃",
+        "indication": "风寒咳嗽，痰多气逆，恶心呕吐，胸脘痞胀",
+        "usage": "内服：煎汤，3~9g；或入丸、散",
+        "taboo": "阴虚燥咳及嗽气虚者不宜服"
+      }
+    },
+    {
+      "name": "风寒咳嗽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痰多气逆",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "恶心呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸脘痞胀",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "橘红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰多气逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶心呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸脘痞胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘红",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散寒燥湿，理气化痰，宽中健胃",
+      "object_type": "Effect"
+    }
+  ]
+}

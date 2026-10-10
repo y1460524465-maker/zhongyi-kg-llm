@@ -1,0 +1,228 @@
+{
+  "entities": [
+    {
+      "name": "青风藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "大风藤、吹风散、黑防己、排风藤、青防己",
+        "effect": "祛风湿，通经络，利小便",
+        "indication": "风湿痹痛，鹤膝风，水肿，脚气",
+        "usage": "内服：煎汤，9~15g，大剂量30~60g；或浸酒。外用：适量，鲜品捣敷；或煎水熏洗"
+      }
+    },
+    {
+      "name": "Caulis Sinomenii",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "防己科",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "青藤",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "毛青藤",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《浙江天目山药植志》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《中国药植志》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《温岭县药物资源名录》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《濒湖集简方》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《贵州民间药物》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "鹤膝风",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "脚气",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "风",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "风湿流注",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "历节鹤膝",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "麻痹瘙痒",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "损伤疮肿",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "风水肿",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "风湿关节疼痛",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "口眼歪斜",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "痈肿恶疮",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "膀胱水肿",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "风肿",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "脚气湿肿",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "肢节肿痛",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "一切诸风",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "骨节风气痛",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "风湿寒性关节痛",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "腰背酸痛",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "四肢麻木",
+      "type": "Symptom",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "青风藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青风藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鹤膝风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青风藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青风藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青风藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿，通经络，利小便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青风藤",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "防己科",
+      "object_type": "Source"
+    }
+  ]
+}

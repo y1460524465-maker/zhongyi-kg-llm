@@ -1,0 +1,93 @@
+{
+  "entities": [
+    {
+      "name": "红楤木",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，活血行气，解毒消肿",
+        "indication": "风湿痹痛，跌打肿痛，骨折，胃脘胀痛，疝气，崩漏，骨髓炎，痈疽，蛇咬伤",
+        "dosage": "内服：煎汤，9-15g；或泡酒",
+        "origin": "五加科植物刺茎楤木的根皮"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "红楤木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红楤木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血行气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红楤木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红楤木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红楤木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "溃疡病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红楤木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤血肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红楤木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红楤木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红楤木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "神经痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红楤木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "坐骨神经痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红楤木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    }
+  ]
+}

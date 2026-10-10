@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "name": "牛舌草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3-10g",
+        "effect": "清热解毒，杀虫止痒",
+        "indication": "乳痈，疮疡肿毒，疥癣",
+        "origin": "蓼科植物齿果酸模的叶",
+        "property_flavor": "味苦、涩",
+        "processing": "4～5月采叶，鲜用或晒干"
+      }
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疡肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "杀虫止痒",
+      "type": "Effect"
+    },
+    {
+      "name": "《江苏药材志》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛舌草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛舌草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛舌草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江苏药材志》",
+      "object_type": "Source"
+    }
+  ]
+}

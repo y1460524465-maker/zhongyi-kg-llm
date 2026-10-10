@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {
+      "name": "桂花子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温中散寒，行气止痛",
+        "dosage": "内服：煎汤，9-15g",
+        "indication": "用于胃寒疼痛，肝胃气痛"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中散寒，行气止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "entities": [
+    {
+      "name": "加味香苏散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "四时感冒。外感风寒，兼有气滞证。头痛项强，鼻塞流涕，身体疼痛，发热恶寒或恶风，无汗，胸脘痞闷，苔薄白，脉浮。",
+        "taboo": null,
+        "usage": "上锉一剂，水煎温服，微覆似汗。"
+      }
+    },
+    {
+      "name": "紫苏叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4克"
+      }
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4克"
+      }
+    },
+    {
+      "name": "甘草炙",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.5克"
+      }
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "秦艽",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "蔓荆子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三片"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "外感风寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气滞证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "项强",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "鼻塞",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "流涕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身体疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "恶寒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "恶风",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "无汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸脘痞闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔薄白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉浮",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草炙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秦艽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蔓荆子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "加味香苏散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气滞证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "项强",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "鼻塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "流涕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身体疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "恶寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "恶风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸脘痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔薄白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉浮",
+      "object_type": "Symptom"
+    }
+  ]
+}

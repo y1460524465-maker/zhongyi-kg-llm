@@ -1,0 +1,136 @@
+{
+  "entities": [
+    {
+      "name": "益智",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温脾止泻，暖肾，固气，涩精缩尿",
+        "indication": "治冷气腹痛，中寒吐泻，多唾，遗精，小便余沥，夜多小便",
+        "property_flavor": "味辛微苦",
+        "taboo": "阴虚火旺或因热而患遗滑崩带者忌服",
+        "usage": "内服：煎汤，3~9g；或入丸、散"
+      }
+    },
+    {
+      "name": "《广志》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学启源》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学启源》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "冷气腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中寒吐泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "多唾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便余沥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "益智",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夜多小便",
+      "object_type": "Symptom"
+    }
+  ]
+}

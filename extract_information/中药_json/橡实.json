@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "橡实",
+      "type": "Herb",
+      "attributes": {
+        "alias": "芧栗、橡栗、梂、皂斗、橡子、杼斗、橡斗子、柞子、栎子、麻沥果",
+        "effect": "收敛固脱，止血，解毒",
+        "indication": "主泄泻痢疾，便血，痔血，脱肛，小儿疝气，疮痈久溃不愈，乳腺炎，睾丸炎",
+        "taboo": "痢疾初起，有湿热积滞者忌服",
+        "usage": "内服：煎汤，3-10g;或入丸、散，每次1.5-3g。外用：适量，炒焦研末调涂。",
+        "origin": "为壳斗科植物麻栎或辽东栎的果实",
+        "traits": "麻栎实：坚果卵状球形至长卵形，长约2cm，直径1.5-2cm；表面淡褐色，果脐突起。种仁白色。气微，味淡、微涩。辽东栎实：坚果卵形至长卵形，长1.7-1.9cm，直径1-1.3cm；果脐略突起。种仁白色。气微味淡、微涩。"
+      }
+    },
+    {
+      "name": "泄泻痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "便血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脱肛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿疝气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疮痈久溃不愈",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "乳腺炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "睾丸炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "橡实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橡实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮痈久溃不愈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橡实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橡实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "睾丸炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橡实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛固脱，止血，解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

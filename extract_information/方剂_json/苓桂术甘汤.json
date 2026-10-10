@@ -1,0 +1,171 @@
+{
+  "entities": [
+    {
+      "name": "苓桂术甘汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温阳化饮，健脾利湿",
+        "indication": "中阳不足之痰饮。胸胁支满，目眩心悸，短气而咳，舌苔白滑，脉弦滑或沉紧。",
+        "usage": "上四味，以水六升，煮取三升，去滓，分温三服（现代用法：水煎服）。",
+        "alias": null,
+        "taboo": "若饮邪化热，咳痰粘稠者，非本方所宜。"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb"
+    },
+    {
+      "name": "白术",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "胸胁支满",
+      "type": "Symptom"
+    },
+    {
+      "name": "目眩心悸",
+      "type": "Symptom"
+    },
+    {
+      "name": "短气而咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌苔白滑",
+      "type": "Symptom"
+    },
+    {
+      "name": "慢性支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "支气管哮喘",
+      "type": "Disease"
+    },
+    {
+      "name": "心源性水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性肾小球肾炎水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "梅尼埃病",
+      "type": "Disease"
+    },
+    {
+      "name": "神经官能证",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁支满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目眩心悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "短气而咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔白滑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心源性水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肾小球肾炎水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "梅尼埃病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "神经官能证",
+      "object_type": "Disease"
+    }
+  ]
+}

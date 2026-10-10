@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "菱茎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒",
+        "indication": "胃溃疡，疣赘，疮毒",
+        "usage": "内服：煎汤，鲜品30-45g。外用：适量，捣烂敷、搽。",
+        "dosage": "鲜品30-45g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "菱茎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菱茎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菱茎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疣赘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菱茎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮毒",
+      "object_type": "Disease"
+    }
+  ]
+}

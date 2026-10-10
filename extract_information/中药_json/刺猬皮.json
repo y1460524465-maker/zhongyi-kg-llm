@@ -1,0 +1,224 @@
+{
+  "entities": [
+    {
+      "name": "刺猬皮",
+      "type": "Herb",
+      "attributes": {
+        "alias": "猬皮、刺鼠皮、刺球子皮",
+        "effect": "固精缩尿，收涩止血，化瘀止痛",
+        "indication": "遗精，遗尿，痔疮出血，脱肛，胃脘疼痛，反胃吐食",
+        "usage": "内服：煎汤，3~10g；研末，1.5~3g；或入丸剂。外用：适量，研末调敷",
+        "origin": "刺猬科动物刺猬Erinaceus europaeus L.或短刺猬Hemichianus dauricus Sundevall的干燥外皮",
+        "processing": "将刺猬皮剪去毛，剁成小块，洗净，晒干，另取滑石粉置锅内炒热，加入刺猬皮，炒烫至呈焦黄色时，取出，筛去滑石粉即得",
+        "traits": "干燥的皮呈多角形板刷状或直条状，有的边缘卷曲成简状或盘状，长约3～4厘米。外表面密生错综交插的棘刺，刺长1.5～2厘米，坚硬如针，灰白色、黄色或灰褐色不一。在腹部的皮上多有灰褐色软毛。皮内面灰白色或棕褐色，留有筋肉残痕。具特殊腥臭气"
+      }
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗尿",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔疮出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "脱肛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃脘疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "反胃吐食",
+      "type": "Symptom"
+    },
+    {
+      "name": "鼻衄",
+      "type": "Symptom"
+    },
+    {
+      "name": "鼻中息肉",
+      "type": "Symptom"
+    },
+    {
+      "name": "猘犬咬人",
+      "type": "Symptom"
+    },
+    {
+      "name": "五色痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "前列腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肾结石",
+      "type": "Disease"
+    },
+    {
+      "name": "肠风下血",
+      "type": "Disease"
+    },
+    {
+      "name": "痔",
+      "type": "Disease"
+    },
+    {
+      "name": "肠痔",
+      "type": "Disease"
+    },
+    {
+      "name": "肛出",
+      "type": "Disease"
+    },
+    {
+      "name": "反胃",
+      "type": "Disease"
+    },
+    {
+      "name": "胃逆",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗尿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃脘疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃吐食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻中息肉",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "猘犬咬人",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "五色痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "前列腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾结石",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风下血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痔",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肛出",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺猬皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "固精缩尿，收涩止血，化瘀止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

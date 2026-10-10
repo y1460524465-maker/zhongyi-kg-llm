@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "杜仲",
+      "type": "Herb",
+      "attributes": {
+        "alias": "思仙、思仲、木绵、檰、石思仙、扯丝皮、丝连皮、玉丝皮、丝棉皮",
+        "effect": "补肝肾，强筋骨，安胎",
+        "indication": "腰脊酸疼，足膝痿弱，小便余沥，阴下湿痒，胎漏欲堕，胎动不安，高血压",
+        "property_flavor": "味稍苦",
+        "usage": "内服：煎汤，6~15g；或浸酒；或入丸、散",
+        "processing": "杜仲：除去粗皮，洗净，润透，切成方块或丝条，晒干。盐杜仲：先用食盐加适量开水溶化，取杜仲块或丝条，使与盐水充分拌透吸收，然后置锅内，用文火炒至微有焦斑为度，取出晾干。（每杜仲100斤，用食盐3斤）杜仲经炒制后，则杜仲胶被破坏，有效成分易于煎出。",
+        "taboo": "肾虚火炽者不宜用。即用当与黄柏、知母同入。内热、精血燥二者禁用。"
+      }
+    },
+    {
+      "name": "腰脊酸疼",
+      "type": "Symptom"
+    },
+    {
+      "name": "足膝痿弱",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便余沥",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴下湿痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "胎漏欲堕",
+      "type": "Symptom"
+    },
+    {
+      "name": "胎动不安",
+      "type": "Symptom"
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "补肝肾",
+      "type": "Effect"
+    },
+    {
+      "name": "强筋骨",
+      "type": "Effect"
+    },
+    {
+      "name": "安胎",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "杜仲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰脊酸疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杜仲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "足膝痿弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杜仲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便余沥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杜仲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴下湿痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杜仲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎漏欲堕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杜仲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎动不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "杜仲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "杜仲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杜仲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "强筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杜仲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安胎",
+      "object_type": "Effect"
+    }
+  ]
+}

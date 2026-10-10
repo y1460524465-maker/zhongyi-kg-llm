@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "name": "三物白散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "上三味为散，内巴豆，更于臼中杵之，以白饮和服，强人半钱匕，羸者减之。病在膈上必吐，在膈下必利。不利，进热粥一杯；利过不止，进冷粥一杯。"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三分"
+      }
+    },
+    {
+      "name": "巴豆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一分",
+        "processing": "去皮心，熬黑研如脂"
+      }
+    },
+    {
+      "name": "贝母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三分"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三物白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三物白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三物白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "贝母",
+      "object_type": "Herb"
+    }
+  ]
+}

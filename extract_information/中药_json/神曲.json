@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "神曲",
+      "type": "Herb",
+      "attributes": {
+        "effect": "健脾和胃，消食调中",
+        "indication": "饮食停滞，胸痞腹胀，呕吐泻痢，产后瘀血腹痛，小儿腹大坚积",
+        "taboo": "脾阴不足，胃火盛，及孕妇慎服",
+        "dosage": "内服，煎汤，10~15g；或入丸、散",
+        "origin": "为辣蓼、青蒿、杏仁等药加入面粉或麸皮混和后，经发酵而成的曲剂"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "神曲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾和胃，消食调中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "神曲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "饮食停滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "神曲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痞腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "神曲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "神曲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后瘀血腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "神曲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿腹大坚积",
+      "object_type": "Disease"
+    }
+  ]
+}

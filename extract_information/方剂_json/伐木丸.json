@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "name": "伐木丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "健脾燥湿，杀虫，补血",
+        "indication": "用于面色萎黄，浮肿，心悸气短，疲倦乏力，大便糖薄，舌淡苔薄，脉象濡细的黄肿病",
+        "taboo": "阴虚、气虚者勿用。驱虫之后，须补扶正气",
+        "usage": "口服，一次5g，一日 3次"
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "六神曲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "皂矾",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄肿病",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "伐木丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "伐木丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "六神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "伐木丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "皂矾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "伐木丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "黄肿病",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {
+      "name": "禾秆蹄盖蕨",
+      "type": "Herb",
+      "attributes": {
+        "effect": "驱虫，止血",
+        "indication": "蛔虫病，外伤出血",
+        "usage": "内服：煎汤，10-15g。外用：适量，晒干研末调敷。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "禾秆蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "禾秆蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "驱虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "禾秆蹄盖蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "entities": [
+    {
+      "name": "鸡子黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "滋阴润燥，养血息风",
+        "indication": "心烦不得眠，热病痉厥，虚劳吐血，呕逆，下痢，胎漏下血，烫伤，热疮，湿疹，小儿消化不良",
+        "taboo": "多食则滞。冠心病，高血压，动脉血管粥样硬化者慎用",
+        "usage": "内服：生服、煮食或以药汁冲服。外用：调药涂或煮熟熬油涂敷"
+      }
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《千金·食治》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "黄连阿胶汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治少阴病心中烦不得眠"
+      }
+    },
+    {
+      "name": "小定风珠",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治温邪久踞下焦，既厥且哕"
+      }
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《补缺肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "《肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "乱发鸡子膏",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治孩子热疮"
+      }
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《吉林中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心烦不得眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热病痉厥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "呕逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胎漏下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿消化不良",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡子黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血息风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小定风珠",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《温病条辨》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乱发鸡子膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乱发鸡子膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "刘禹锡《传信方》",
+      "object_type": "Source"
+    }
+  ]
+}

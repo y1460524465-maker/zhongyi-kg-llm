@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "槐枝",
+      "type": "Herb",
+      "attributes": {
+        "alias": "槐嫩蘖",
+        "effect": "散瘀止血，清热燥湿，祛风杀虫",
+        "indication": "治崩漏带下，心痛，目赤，痔疮，疥疮",
+        "dosage": "内服：煎汤，15-30g；浸酒或研末。外用：适量，煎水熏洗；或烧沥涂"
+      }
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "槐枝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀止血，清热燥湿，祛风杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槐枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "槐枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "槐枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目赤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "槐枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "槐枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥疮",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "entities": [
+    {
+      "name": "三七",
+      "type": "Herb",
+      "attributes": {
+        "alias": "山漆、金不换、血参、人参三七、佛手山漆、参三七、田七、滇三七",
+        "effect": "止血，散瘀，消肿，定痛",
+        "indication": "吐血，咳血，衄血，便血，血痢，崩漏，癥瘕，产后血晕，恶露不下，跌扑瘀血，外伤出血，痈肿疼痛",
+        "meridian": "肝经、胃经、大肠经",
+        "dosage": "内服：煎汤，3~9g；研末，1~3g；或入丸、散。外用：适理，磨汁涂；或研末调敷。"
+      }
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后血晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶露不下",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌扑瘀血",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "赤眼",
+      "type": "Disease"
+    },
+    {
+      "name": "胃及十二指肠溃疡",
+      "type": "Disease"
+    },
+    {
+      "name": "痛经",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性心脏病",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性前列腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "浅层静脉炎",
+      "type": "Disease"
+    },
+    {
+      "name": "血虚头晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "气血虚弱",
+      "type": "Symptom"
+    },
+    {
+      "name": "寻常疣",
+      "type": "Disease"
+    },
+    {
+      "name": "术后肠粘连",
+      "type": "Disease"
+    },
+    {
+      "name": "瘢痕疙瘩",
+      "type": "Symptom"
+    },
+    {
+      "name": "食道癌",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后血晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶露不下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌扑瘀血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "定痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃及十二指肠溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性心脏病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性前列腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "浅层静脉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血虚头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气血虚弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寻常疣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "术后肠粘连",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘢痕疙瘩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食道癌",
+      "object_type": "Disease"
+    }
+  ]
+}

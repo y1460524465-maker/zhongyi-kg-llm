@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "萆薢分清饮",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治疗下焦湿浊，通窍，缩泉",
+        "indication": "虚寒白浊。小便频数，白如米泔，凝如膏糊，舌淡苔白，脉沉"
+      }
+    },
+    {
+      "name": "益智仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川萆薢",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "石菖蒲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "乌药",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "萆薢分清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "益智仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "萆薢分清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川萆薢",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "萆薢分清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石菖蒲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "萆薢分清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "萆薢分清饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "虚寒白浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萆薢分清饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "萆薢分清饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白如米泔",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "萆薢分清饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "凝如膏糊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川萆薢",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "治疗下焦湿浊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石菖蒲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "缩泉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "益智仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "缩泉",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "name": "玫瑰茄",
+      "type": "Herb",
+      "attributes": {
+        "alias": "红金梅、红梅果、洛神葵、洛济葵",
+        "effect": "敛肺止咳，降血压，解酒",
+        "indication": "肺虚咳嗽，高血压，醉酒",
+        "usage": "内服：煎汤，9-15g；或开水泡",
+        "property_flavor": "味酸",
+        "processing": "11月中、下旬，叶黄籽黑时，将果枝剪下，摘取花萼连同果实，晒1d，待缩水后脱出花萼，置干净草席或竹箩上晒干",
+        "origin": "锦葵科植物玫瑰茄的共萼",
+        "place": "我国福建、台湾、广东、海南、广西和云南南部引人栽培。原产于东半球热带地区，现全世界热带地区均有栽培",
+        "traits": "本品略呈圆锥状或不规则形，长2.5-4cm，直径约2cm，花萼紫红色至紫黑色，5裂，裂片披针形，下部可见与花萼愈合的小苞片，约10裂，披针形，基部具有去除果实后留下的空洞。花冠黄棕色，外表面有线状条纹，内表面基部黄褐色，偶见稀疏的粗毛。体轻，质脆。气微清香，味酸"
+      }
+    },
+    {
+      "name": "肺虚咳嗽",
+      "type": "Disease"
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "醉酒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "玫瑰茄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺虚咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玫瑰茄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玫瑰茄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "醉酒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玫瑰茄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛肺止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玫瑰茄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降血压",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玫瑰茄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解酒",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "name": "化斑汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热凉血",
+        "indication": "气血两潘之发斑。发热，或身热夜甚，外透斑疹，色赤，口渴或不渴，脉数等。",
+        "taboo": null,
+        "usage": "水八杯，煮取三杯，日三服。滓再煮一盅，夜一服。"
+      }
+    },
+    {
+      "name": "温病条辨",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "犀角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "白粳米",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "化斑汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "温病条辨",
+      "object_type": "Source"
+    },
+    {
+      "subject": "化斑汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化斑汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化斑汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化斑汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化斑汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化斑汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化斑汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉血",
+      "object_type": "Effect"
+    }
+  ]
+}

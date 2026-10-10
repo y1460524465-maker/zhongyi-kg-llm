@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "name": "马牙七",
+      "type": "Herb",
+      "attributes": {
+        "alias": "大仙茅、九子连",
+        "origin": "兰科植物流苏虾脊兰和剑叶虾脊兰的假鳞茎和根",
+        "property_flavor": "辛苦，凉，有毒",
+        "effect": "清热解毒，散瘀止痛",
+        "indication": "咽喉肿痛，牙痛，脘腹疼痛，腰痛，关节痛，跌打损伤，瘰疬疮疡，毒蛇咬伤",
+        "dosage": "内服：煎汤，6-12g",
+        "processing": "夏季采挖，洗鲜用或晒干"
+      }
+    },
+    {
+      "name": "慢性咽炎",
+      "type": "Disease"
+    },
+    {
+      "name": "八爪龙",
+      "type": "Herb"
+    },
+    {
+      "name": "陕西中草药",
+      "type": "Source"
+    },
+    {
+      "name": "广西药植名录",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马牙七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性咽炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马牙七",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "八爪龙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "马牙七",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "陕西中草药",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马牙七",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广西药植名录",
+      "object_type": "Source"
+    }
+  ]
+}

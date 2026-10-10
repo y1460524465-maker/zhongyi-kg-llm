@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "name": "毛嘴签",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，收敛止血",
+        "indication": "烧烫伤，痈疮疖肿，外伤出血，湿疹",
+        "usage": "外用：适量，捣烂敷；或研粉撒；或调茶油涂",
+        "processing": "鲜用或切段晒干",
+        "origin": "为鼠李科植物毛咀签的茎叶"
+      }
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疮疖肿",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Disease"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "收敛止血",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "毛嘴签",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛嘴签",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疮疖肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛嘴签",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛嘴签",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛嘴签",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛嘴签",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛止血",
+      "object_type": "Effect"
+    }
+  ]
+}

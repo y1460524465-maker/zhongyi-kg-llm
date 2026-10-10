@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "name": "白头翁加甘草阿胶汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "产后痢疾，腹痛里急后重，便下脓血，气血不足者。",
+        "usage": "上六味，以水1.4升，煮取500毫升，纳胶令消尽，分三次温服。"
+      }
+    },
+    {
+      "name": "白头翁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "秦皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "里急后重",
+      "type": "Symptom"
+    },
+    {
+      "name": "便下脓血",
+      "type": "Symptom"
+    },
+    {
+      "name": "气血不足",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白头翁加甘草阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白头翁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁加甘草阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁加甘草阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁加甘草阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秦皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁加甘草阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁加甘草阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁加甘草阿胶汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "痢疾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痢疾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "里急后重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痢疾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "便下脓血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痢疾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "气血不足",
+      "object_type": "Symptom"
+    }
+  ]
+}

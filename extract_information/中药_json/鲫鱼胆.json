@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "鲫鱼胆",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热明目，杀虫，敛疮",
+        "indication": "消渴，砂眼，疳疮，阴蚀疮",
+        "usage": "外用：适量，点眼、滴鼻或调涂",
+        "taboo": "本品有毒，不宜直接吞服，肝、肾功能不全者禁服"
+      }
+    }
+  ],
+  "relations": []
+}

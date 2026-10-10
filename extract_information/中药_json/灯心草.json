@@ -1,0 +1,266 @@
+{
+  "entities": [
+    {
+      "name": "灯心草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清心降火，利尿通淋",
+        "indication": "淋病，水肿，小便不利，湿热黄疸，心烦不寐，小儿夜啼，喉痹，创伤",
+        "property_flavor": null,
+        "meridian": "心经、肺经、小肠经",
+        "dosage": "内服：煎汤，1~3g，鲜品15~30g；或入丸、散",
+        "taboo": "下焦虚寒，小便失禁者禁服",
+        "origin": "《开宝本草》",
+        "processing": "1.灯心炭：取灯心草置锅内，上覆一口径略小的锅，贴以白纸，两锅交接处，用盐泥封固，不使泄气，煅至白纸呈焦黄色停火，凉透取出。 2.朱灯心：取剪好的灯心段，用水喷洒，使微湿润，放瓷罐内，加入朱砂细未，反复摇动至朱砂匀布为度。（每灯心10斤，用朱砂10两）。 3.青黛制：灯心段置盆内喷淋清水少许，微润，加青黛粉，撒布均匀，并随时翻动，至表面挂匀青黛为度，取出晾干。每灯心草10kg，青黛1.5kg。"
+      }
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学启源》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义补遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《分类草药性》",
+      "type": "Source"
+    },
+    {
+      "name": "《北方常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《西藏常用中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "南川《常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "福建龙溪《实用中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "淋病",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "小便不利",
+      "type": "Disease"
+    },
+    {
+      "name": "湿热黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "心烦不寐",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿夜啼",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease"
+    },
+    {
+      "name": "创伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "《方脉正宗》",
+      "type": "Source"
+    },
+    {
+      "name": "《韩氏医通》",
+      "type": "Source"
+    },
+    {
+      "name": "《河南中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《福建中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    },
+    {
+      "name": "《福建民间草药》",
+      "type": "Source"
+    },
+    {
+      "name": "江西《中草药学》",
+      "type": "Source"
+    },
+    {
+      "name": "《河北中药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《村居救急方》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《胜金方》",
+      "type": "Source"
+    },
+    {
+      "name": "《中医药实验研究》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清心降火，利尿通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便不利",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦不寐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿夜啼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "创伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学启源》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草衍义补遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《分类草药性》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《北方常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《西藏常用中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "南川《常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "灯心草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "福建龙溪《实用中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

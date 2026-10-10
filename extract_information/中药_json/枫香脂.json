@@ -1,0 +1,131 @@
+{
+  "entities": [
+    {
+      "name": "枫香脂",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白胶香、枫脂、白胶、芸香、胶香",
+        "effect": "活血，凉血，解毒，止痛",
+        "indication": "痈疽，疮疥，瘾疹，瘰疬，金疮，齿痛，吐血，衄血",
+        "taboo": "孕妇禁服",
+        "usage": "外用：适量，研末撒或调敷或制膏摊贴，亦可制成熏烟药；内服：煎汤，3~6g；一般入丸、散剂"
+      }
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source"
+    },
+    {
+      "name": "《得配本草》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘾疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "金疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "齿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘾疹风痒浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枫香脂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "齿痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "name": "吊干麻",
+      "type": "Herb",
+      "attributes": {
+        "alias": "马断肠、萝卜药、老虎麻、苦树皮、菜药、棱枝南蛇藤、大钧鱼竿、苦通皮、菜虫药、南蛇根",
+        "effect": "祛风除湿，活血通经，解毒杀虫",
+        "indication": "风湿痹痛，骨折伤痛，闭经，疮疡溃烂，头癣，阴痒",
+        "source": "陕西, 甘肃, 山东, 江苏, 安徽, 浙江, 湖北, 湖南, 广东, 广西, 四川, 贵州, 云南",
+        "place": "山坡密林下或灌木丛中",
+        "processing": "全年均可采。洗净，剥取根皮，晒干",
+        "usage": "内服：煎汤，15-30g；或泡酒。外用：适量，煎水洗；或捣烂、研末敷。"
+      }
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "骨折伤痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "闭经",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疮疡溃烂",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头癣",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阴痒",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "吊干麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吊干麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折伤痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吊干麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "闭经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吊干麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡溃烂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吊干麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吊干麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴痒",
+      "object_type": "Disease"
+    }
+  ]
+}

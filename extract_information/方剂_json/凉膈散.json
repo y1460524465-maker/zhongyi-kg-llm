@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "name": "凉膈散",
+      "type": "Formula",
+      "attributes": {
+        "taboo": "体虚患者及孕妇，忌用或慎用本方。",
+        "usage": "上研为粗末。每服6克，水300毫升，入竹叶7片，蜜少许。"
+      }
+    },
+    {
+      "name": "川大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20克"
+      }
+    },
+    {
+      "name": "朴消",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20克"
+      }
+    },
+    {
+      "name": "山栀子仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "薄荷叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "processing": "去梗"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40克"
+      }
+    },
+    {
+      "name": "上、中二焦积热",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "凉膈散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/凉膈散",
+      "object_type": "Source"
+    },
+    {
+      "subject": "凉膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "凉膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朴消",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "凉膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "凉膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "凉膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "凉膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "凉膈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "凉膈散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "上、中二焦积热",
+      "object_type": "Disease"
+    }
+  ]
+}

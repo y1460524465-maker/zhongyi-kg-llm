@@ -1,0 +1,236 @@
+{
+  "entities": [
+    {
+      "name": "牡荆叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛痰，止咳平喘",
+        "indication": "咳嗽痰多，慢性支气管炎",
+        "property_flavor": "微苦、辛，平",
+        "meridian": "归肺经",
+        "dosage": "内服：煎汤9-15g，鲜者可用至30-60g；或捣汁饮。外用：适量，捣敷或煎水熏洗",
+        "origin": "马鞭草科植物牡荆的叶",
+        "place": "分布于华东及河北、湖南、湖北、广东、广西、四川、贵州",
+        "traits": "气芳香，味辛微苦"
+      }
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰多",
+      "type": "Symptom"
+    },
+    {
+      "name": "慢性支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "风寒感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "中暑",
+      "type": "Disease"
+    },
+    {
+      "name": "痧气腹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "胃痛",
+      "type": "Disease"
+    },
+    {
+      "name": "急性胃肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "久痢不愈",
+      "type": "Disease"
+    },
+    {
+      "name": "小便出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰脚风湿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气肿胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "血丝虫病急性期",
+      "type": "Disease"
+    },
+    {
+      "name": "乳痈初起",
+      "type": "Disease"
+    },
+    {
+      "name": "乳肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "风疹",
+      "type": "Disease"
+    },
+    {
+      "name": "足癣",
+      "type": "Disease"
+    },
+    {
+      "name": "脚趾缝湿痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "钢铁烫伤",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛痰，止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痧气腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胃肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久痢不愈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰脚风湿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚气肿胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血丝虫病急性期",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈初起",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "足癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚趾缝湿痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡荆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "钢铁烫伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

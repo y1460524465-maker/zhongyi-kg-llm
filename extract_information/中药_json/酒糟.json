@@ -1,0 +1,237 @@
+{
+  "entities": [
+    {
+      "name": "酒糟",
+      "type": "Herb",
+      "attributes": {
+        "alias": "甜糟, 糟, 红糟, 酒醅糟, 粕",
+        "effect": "活血止痛；温中散寒",
+        "indication": "伤折瘀滞疼痛，冻疮，风寒湿痹",
+        "usage": "内服：炖温或煎汤，适量。"
+      }
+    },
+    {
+      "name": "糯米",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "肥皂",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "砂糖",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "姜汁",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "生姜汁",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白盐",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "猪膏",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "圣济总录",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "纲目",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "养生必用方",
+      "type": "Source",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "酒糟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酒糟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酒糟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "伤折瘀滞疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "酒糟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "冻疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "酒糟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "圣济总录",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "糟米涂方",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "糟米涂方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "酒糟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "糟米涂方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "糯米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "糟米涂方",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "纲目",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "酒醅糟肥皂方",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "酒醅糟肥皂方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "酒醅糟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "酒醅糟肥皂方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肥皂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "酒醅糟肥皂方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "酒醅糟肥皂方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "酒醅糟肥皂方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂糖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "酒醅糟肥皂方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "姜汁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "酒醅糟肥皂方",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "鹤膝风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "养生必用方",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "生姜红糟方",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "生姜红糟方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜汁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生姜红糟方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红糟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生姜红糟方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白盐",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生姜红糟方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生姜红糟方",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "手足皴裂",
+      "object_type": "Disease"
+    }
+  ]
+}

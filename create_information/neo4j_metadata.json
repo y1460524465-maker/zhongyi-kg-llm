@@ -1,0 +1,286 @@
+{
+  "description": "中医药知识图谱的Neo4j元数据定义，包含节点标签、关系类型、三元组模式以及属性和关系的详细描述",
+  "node_labels": [
+    {
+      "label": "Disease",
+      "description": "疾病节点，表示中医中的各种病症，如感冒、咳嗽、头痛等"
+    },
+    {
+      "label": "Effect",
+      "description": "功效节点，表示中药或方剂的治疗作用，如清热解毒、活血化瘀等"
+    },
+    {
+      "label": "Formula",
+      "description": "方剂节点，表示中医的经典方剂和处方，如桂枝汤、麻黄汤等"
+    },
+    {
+      "label": "Herb",
+      "description": "中药节点，表示单味中药材，如人参、黄芪、当归等"
+    },
+    {
+      "label": "Source",
+      "description": "来源节点，表示中药或方剂的出处来源，如《本草纲目》、《伤寒论》等古籍文献"
+    },
+    {
+      "label": "Symptom",
+      "description": "症状节点，表示疾病的临床表现和症状，如发热、恶寒、脉浮等"
+    }
+  ],
+  "relation_types": [
+    {
+      "type": "ALLEVIATES_SYMPTOM",
+      "description": "缓解症状关系，表示药物或方剂能够减轻或缓解某种症状"
+    },
+    {
+      "type": "ALLIEVIATES_SYMPTOM",
+      "description": "缓解症状关系（拼写变体），与ALLEVIATES_SYMPTOM功能相同"
+    },
+    {
+      "type": "FROM_SOURCE",
+      "description": "来源关系，表示中药或方剂出自哪部典籍或文献"
+    },
+    {
+      "type": "HAS_EFFECT",
+      "description": "具有功效关系，表示中药或方剂具备某种治疗功效"
+    },
+    {
+      "type": "HAS_INGREDIENT",
+      "description": "包含成分关系，表示方剂由哪些中药组成，或中药含有哪些成分"
+    },
+    {
+      "type": "HAS_SYMPTOM",
+      "description": "具有症状关系，表示疾病表现出的临床症状"
+    },
+    {
+      "type": "HAVE_EFFECT",
+      "description": "具有功效关系（复数形式），与HAS_EFFECT功能相同"
+    },
+    {
+      "type": "TREATS_DISEASE",
+      "description": "治疗疾病关系，表示中药或方剂能够治疗某种疾病"
+    }
+  ],
+  "triple_patterns": [
+    {
+      "source_label": "Disease",
+      "relation_type": "HAS_SYMPTOM",
+      "target_label": "Symptom",
+      "description": "疾病到症状的关系，表示某种疾病会表现出特定的临床症状"
+    },
+    {
+      "source_label": "Formula",
+      "relation_type": "ALLEVIATES_SYMPTOM",
+      "target_label": "Symptom",
+      "description": "方剂缓解症状，表示某个方剂能够减轻或消除特定症状"
+    },
+    {
+      "source_label": "Formula",
+      "relation_type": "FROM_SOURCE",
+      "target_label": "Source",
+      "description": "方剂的文献来源，表示方剂出自哪部中医典籍或文献"
+    },
+    {
+      "source_label": "Formula",
+      "relation_type": "HAS_EFFECT",
+      "target_label": "Effect",
+      "description": "方剂的功效，表示方剂具有的治疗作用和功效"
+    },
+    {
+      "source_label": "Formula",
+      "relation_type": "HAS_INGREDIENT",
+      "target_label": "Formula",
+      "description": "方剂之间的组成关系，表示一个方剂包含另一个方剂作为组成部分"
+    },
+    {
+      "source_label": "Formula",
+      "relation_type": "HAS_INGREDIENT",
+      "target_label": "Herb",
+      "description": "方剂的药材组成，表示方剂由哪些中药材配制而成"
+    },
+    {
+      "source_label": "Formula",
+      "relation_type": "HAS_SYMPTOM",
+      "target_label": "Symptom",
+      "description": "方剂对应的症状，表示方剂适用于治疗具有这些症状的病症"
+    },
+    {
+      "source_label": "Formula",
+      "relation_type": "TREATS_DISEASE",
+      "target_label": "Disease",
+      "description": "方剂治疗疾病，表示方剂的主要适应症和治疗目标疾病"
+    },
+    {
+      "source_label": "Formula",
+      "relation_type": "TREATS_DISEASE",
+      "target_label": "Symptom",
+      "description": "方剂治疗症状，表示方剂能够针对特定症状进行治疗"
+    },
+    {
+      "source_label": "Herb",
+      "relation_type": "ALLEVIATES_SYMPTOM",
+      "target_label": "Disease",
+      "description": "中药缓解疾病相关症状，表示单味药能够减轻疾病的表现"
+    },
+    {
+      "source_label": "Herb",
+      "relation_type": "ALLEVIATES_SYMPTOM",
+      "target_label": "Symptom",
+      "description": "中药缓解症状，表示单味药能够减轻或消除特定症状"
+    },
+    {
+      "source_label": "Herb",
+      "relation_type": "ALLIEVIATES_SYMPTOM",
+      "target_label": "Symptom",
+      "description": "中药缓解症状（拼写变体），与ALLEVIATES_SYMPTOM功能相同"
+    },
+    {
+      "source_label": "Herb",
+      "relation_type": "FROM_SOURCE",
+      "target_label": "Source",
+      "description": "中药的文献来源，表示中药记载于哪部中医典籍"
+    },
+    {
+      "source_label": "Herb",
+      "relation_type": "HAS_EFFECT",
+      "target_label": "Effect",
+      "description": "中药的功效，表示单味药具有的药理作用和治疗功效"
+    },
+    {
+      "source_label": "Herb",
+      "relation_type": "HAS_INGREDIENT",
+      "target_label": "Formula",
+      "description": "中药参与组成的方剂，表示该中药是哪些方剂的组成成分"
+    },
+    {
+      "source_label": "Herb",
+      "relation_type": "HAS_INGREDIENT",
+      "target_label": "Herb",
+      "description": "中药之间的成分关系，表示一种中药含有另一种中药成分或炮制品"
+    },
+    {
+      "source_label": "Herb",
+      "relation_type": "HAVE_EFFECT",
+      "target_label": "Effect",
+      "description": "中药具有功效（复数形式），与HAS_EFFECT功能相同"
+    },
+    {
+      "source_label": "Herb",
+      "relation_type": "TREATS_DISEASE",
+      "target_label": "Disease",
+      "description": "中药治疗疾病，表示单味药的主要适应症和治疗目标"
+    },
+    {
+      "source_label": "Herb",
+      "relation_type": "TREATS_DISEASE",
+      "target_label": "Symptom",
+      "description": "中药治疗症状，表示单味药能够针对特定症状发挥治疗作用"
+    },
+    {
+      "source_label": "Source",
+      "relation_type": "ALLEVIATES_SYMPTOM",
+      "target_label": "Symptom",
+      "description": "文献来源中记载的症状缓解方法，表示某部典籍中提到的症状治疗方案"
+    },
+    {
+      "source_label": "Source",
+      "relation_type": "FROM_SOURCE",
+      "target_label": "Formula",
+      "description": "文献来源包含的方剂，表示某部典籍中收录的方剂"
+    },
+    {
+      "source_label": "Source",
+      "relation_type": "FROM_SOURCE",
+      "target_label": "Herb",
+      "description": "文献来源记载的中药，表示某部典籍中收录的中药材"
+    },
+    {
+      "source_label": "Source",
+      "relation_type": "FROM_SOURCE",
+      "target_label": "Source",
+      "description": "文献之间的引用关系，表示一部典籍参考或引用了另一部典籍"
+    },
+    {
+      "source_label": "Symptom",
+      "relation_type": "ALLEVIATES_SYMPTOM",
+      "target_label": "Formula",
+      "description": "症状对应可缓解的方剂，表示针对某种症状可以使用的方剂"
+    }
+  ],
+  "node_properties": {
+    "Formula": [
+      {
+        "property": "indication",
+        "description": "主治适应症，表示方剂主要治疗的疾病和症状范围"
+      },
+      {
+        "property": "name",
+        "description": "方剂名称，如'桂枝汤'、'麻黄汤'等"
+      },
+      {
+        "property": "usage",
+        "description": "用法用量，表示方剂的服用方法、剂量和频次"
+      }
+    ],
+    "Herb": [
+      {
+        "property": "dosage",
+        "description": "用量，表示中药的常规使用剂量范围"
+      },
+      {
+        "property": "effect",
+        "description": "功效，简要描述中药的主要治疗作用"
+      },
+      {
+        "property": "indication",
+        "description": "主治，表示中药主要治疗的疾病和症状"
+      },
+      {
+        "property": "name",
+        "description": "中药名称，如'人参'、'黄芪'、'当归'等"
+      },
+      {
+        "property": "property_flavor",
+        "description": "性味归经，表示中药的四气五味和归经属性，如'甘温，归脾肺经'"
+      },
+      {
+        "property": "taboo",
+        "description": "禁忌，表示使用中药时的注意事项和禁忌症"
+      }
+    ],
+    "Disease": [
+      {
+        "property": "name",
+        "description": "疾病名称，如'感冒'、'咳嗽'、'头痛'等"
+      }
+    ],
+    "Source": [
+      {
+        "property": "name",
+        "description": "文献来源名称，如'《本草纲目》'、'《伤寒论》'、'《金匮要略》'等"
+      }
+    ],
+    "Symptom": [
+      {
+        "property": "name",
+        "description": "症状名称，如'发热'、'恶寒'、'头痛'、'脉浮'等"
+      }
+    ],
+    "Effect": [
+      {
+        "property": "name",
+        "description": "功效名称，如'清热解毒'、'活血化瘀'、'补气养血'等"
+      }
+    ]
+  },
+  "relation_properties": {
+    "FROM_SOURCE": [],
+    "TREATS_DISEASE": [],
+    "HAS_INGREDIENT": [],
+    "ALLEVIATES_SYMPTOM": [],
+    "HAS_EFFECT": [],
+    "HAS_SYMPTOM": [],
+    "ALLIEVIATES_SYMPTOM": [],
+    "HAVE_EFFECT": []
+  },
+  "relation_properties_description": "当前所有关系类型均未定义额外属性，如需扩展可添加如'dosage'(剂量)、'frequency'(频次)、'confidence'(置信度)等属性来丰富关系信息"
+}

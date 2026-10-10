@@ -1,0 +1,276 @@
+{
+  "entities": [
+    {
+      "name": "厚朴温中汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温中散寒，行气燥湿",
+        "indication": "寒湿气滞",
+        "usage": "合为粗散，每五钱匕（10g），水二盏，生姜三片，煮至一盏，去滓温服，食前。忌一切冷物。",
+        "alias": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "processing": "姜制",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "processing": "去白",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "processing": "去皮",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "草豆蔻仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "寒湿气滞",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脘腹胀满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "不思饮食",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔白腻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉沉弦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脘腹作痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒湿气滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不思饮食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔白腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉沉弦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹作痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "草豆蔻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温中散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴温中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气燥湿",
+      "object_type": "Effect"
+    }
+  ]
+}

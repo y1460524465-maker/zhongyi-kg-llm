@@ -1,0 +1,161 @@
+{
+  "entities": [
+    {
+      "name": "皂角刺",
+      "type": "Herb",
+      "attributes": {
+        "alias": "皂荚刺, 皂刺, 天丁, 皂角针, 皂针",
+        "effect": "搜风，拔毒，消肿，排脓",
+        "indication": "痈肿，疮毒，疠风，癣疮，胎衣不下",
+        "processing": "拣去杂质；用水浸泡，润透后切片，晒干",
+        "place": "主产江苏、湖北、河北、山西、河南、山东。此外，广东、广西、四川、安徽、浙江、贵州、陕西、江西、甘肃等地亦产",
+        "dosage": "内服：煎汤，3~9g；或入丸、散。外用：适量，醋煎涂，或研末撒，或调敷",
+        "taboo": "《本草经疏》：凡痈疽已溃不宜服，孕妇亦忌之",
+        "origin": "为豆科植物皂荚的棘刺",
+        "property_flavor": null,
+        "meridian": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "杨士瀛",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草衍义补遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草崇原》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《药材学》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "搜风，拔毒，消肿，排脓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疠风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癣疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎衣不下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草图经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "杨士瀛",
+      "object_type": "Source"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草衍义补遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草崇原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药材学》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "皂角刺",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    }
+  ]
+}

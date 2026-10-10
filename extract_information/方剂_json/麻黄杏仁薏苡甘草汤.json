@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "name": "麻黄杏仁薏苡甘草汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "风湿在表，湿郁化热证。一身尽疼，发热，日哺所剧者。",
+        "indication": null,
+        "taboo": null,
+        "usage": "上锉麻豆大，每服四钱匕（12克）。水盏半，煮八分，去滓，温服。有微汗，避风。"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7克",
+        "effect": "散寒",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去节，汤泡",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "14克",
+        "effect": "补中",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炙",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "薏苡仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7克",
+        "effect": "除湿",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "利气，助麻黄之力",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去皮、尖，炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麻黄杏仁薏苡甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄杏仁薏苡甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄杏仁薏苡甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄杏仁薏苡甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    }
+  ]
+}

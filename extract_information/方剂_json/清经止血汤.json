@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "清经止血汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "血热气实，经血暴下，精神不爽，烦热口渴",
+        "indication": "气短心累，加泡参5钱，麦冬3钱",
+        "usage": "生地6钱，丹皮2钱，黄芩3钱，黄柏4钱，茅根5钱，地榆3钱，炒蒲黄3钱，益母草4钱，棕榈炭2钱"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6钱"
+      }
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱"
+      }
+    },
+    {
+      "name": "茅根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "地榆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱"
+      }
+    },
+    {
+      "name": "炒蒲黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱"
+      }
+    },
+    {
+      "name": "益母草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱"
+      }
+    },
+    {
+      "name": "棕榈炭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清经止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茅根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地榆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炒蒲黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "益母草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清经止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈炭",
+      "object_type": "Herb"
+    }
+  ]
+}

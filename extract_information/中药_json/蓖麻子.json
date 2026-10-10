@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "蓖麻子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "Semen Ricini, 萆麻子, 蓖麻仁, 大麻子, 红大麻子",
+        "property_flavor": "甘、辛、平；有毒",
+        "meridian": "大肠、肺经",
+        "effect": "消肿拔毒，泻下通滞",
+        "indication": "痈疽肿毒，瘰疬，喉痹，疥癞癣疮，水肿腹满，大便燥结",
+        "usage": "内服：入丸剂、生研或炒食。",
+        "origin": "大戟科植物蓖麻的干燥成熟种子"
+      }
+    },
+    {
+      "name": "痈疽肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癞癣疮",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿腹满",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便燥结",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蓖麻子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓖麻子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓖麻子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓖麻子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癞癣疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓖麻子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿腹满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓖麻子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便燥结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓖麻子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿拔毒，泻下通滞",
+      "object_type": "Effect"
+    }
+  ]
+}

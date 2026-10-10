@@ -1,0 +1,351 @@
+{
+  "entities": [
+    {
+      "name": "瓦楞子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，9~15g，宜打碎行煎；研末，每次1~3g；或入丸、散。外用：适量，煅后研末调敷。",
+        "effect": "化痰，软坚，散瘀，消积",
+        "indication": "痰积，胃痛，嘈杂，吐酸，癥瘕，瘰疬，牙疳",
+        "origin": "本品为蚶科动物毛蚶Arca subcrenata Lischke 、泥蚶Arca granosa Linnaeus或魁蚶Arca inflata Reeve 的贝壳",
+        "processing": "生品用于散瘀消痰；煅瓦楞子用于制酸止痛；醋瓦楞子；盐瓦楞子"
+      }
+    },
+    {
+      "name": "毛蚶",
+      "type": "Herb",
+      "attributes": {
+        "origin": "蚶科动物毛蚶Arca subcrenata Lischke"
+      }
+    },
+    {
+      "name": "泥蚶",
+      "type": "Herb",
+      "attributes": {
+        "origin": "蚶科动物泥蚶Arca granosa Linnaeus"
+      }
+    },
+    {
+      "name": "魁蚶",
+      "type": "Herb",
+      "attributes": {
+        "origin": "蚶科动物魁蚶Arca inflata Reeve"
+      }
+    },
+    {
+      "name": "乌贼骨",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "广皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "川大黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "乌附片",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白芨",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白及",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "煅瓦楞",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "广木香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "佛手",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "良姜",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "高良姜",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "海蚶子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐酸水",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "噫气",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰饮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "皮肤刀伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "冻疮溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "嘈杂",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐酸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "癥瘕",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "牙疳",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痰积",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "十二指肠溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性胃炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痰隔病",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "瓦楞子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓦楞子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "软坚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓦楞子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓦楞子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓦楞子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓦楞子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓦楞子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "嘈杂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓦楞子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓦楞子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓦楞子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓦楞子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牙疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "《经验方》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "瓦楞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "煅瓦楞子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "煅瓦楞子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    }
+  ]
+}

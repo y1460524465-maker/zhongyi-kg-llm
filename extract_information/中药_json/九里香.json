@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "九里香",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "辛、微苦，温；有小毒",
+        "effect": "行气止痛，活血散瘀",
+        "indication": "胃痛，风湿痹痛。外治牙痛，跌扑肿痛，虫蛇咬伤",
+        "dosage": "内服：煎汤，6-12g；或入散剂；或浸酒。外用：适量，捣敷或煎水洗",
+        "taboo": "广西中药志：阴虚火亢者忌用"
+      }
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "跌扑肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "虫蛇咬伤",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "九里香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九里香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九里香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九里香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌扑肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九里香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虫蛇咬伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "entities": [
+    {
+      "name": "豆蔻",
+      "type": "Herb",
+      "attributes": {
+        "alias": "多骨、壳蔻、白蔻、圆豆蔻、扣米、豆蔻",
+        "effect": "化湿行气，温中止呕，开胃消食",
+        "indication": "湿阻气滞，脾胃不和，脘腹胀满，不思饮食，湿温初起，胸闷不饥，胃寒呕吐，食积不消",
+        "taboo": "阴虚血燥而无寒湿者忌服",
+        "dosage": "内服:煎服，（不宜久煎），1.5~6g，或入丸、散",
+        "property_flavor": "气芳香，味辛凉",
+        "origin": "姜科植物白豆蔻和爪哇白豆蔻成熟的果实",
+        "place": "广东、云南栽培；海南、云南栽培"
+      }
+    },
+    {
+      "name": "白豆蔻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "爪哇白豆蔻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "小豆蔻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "积冷气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃冷",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "噎膈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "湿阻气滞",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脾胃不和",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脘腹胀满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "不思饮食",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿温初起",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胸闷不饥",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃寒呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食积不消",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃气冷",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脾泄泻痢",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "气膈脾胃",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃腹胀满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿吐乳胃寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "呕吐哕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "产后呃逆",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸膈胃脘逆气",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰饮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "膈噎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃冷久呃",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妊娠呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿温",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "白豆蔻散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "太仓丸",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "三仁汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "神香散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "白豆蔻汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医学启源》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《赤水玄珠》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《随身备急方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《博济方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《魏氏家藏方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《全国中草药汇编》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《世医得效方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《沈氏尊生书》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《乾坤生意》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《成方切用》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《寿世秘典》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《武汉医药卫生》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《温病条辨》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化湿行气，温中止呕，开胃消食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿阻气滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃不和",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不思饮食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿温初起",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷不饥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃寒呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积不消",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "积冷气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噎膈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "豆蔻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃冷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白豆蔻散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白豆蔻散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白豆蔻散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白豆蔻散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃气冷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白豆蔻散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾泄泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太仓丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气膈脾胃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白豆蔻汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐哕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "神香散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸膈胃脘逆气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "神香散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "神香散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "神香散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痰饮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "神香散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "膈噎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿温",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "《开宝本草》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《本草图经》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《医学启源》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《纲目》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《本草备要》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《本草经疏》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《本草汇言》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《本经逢原》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《赤水玄珠》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "白豆蔻散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "《随身备急方》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "白豆蔻散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "《博济方》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "白豆蔻散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "《魏氏家藏方》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "太仓丸",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "《沈氏尊生书》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "白豆蔻汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "《成方切用》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "神香散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "《温病条辨》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "三仁汤",
+      "object_type": "Formula"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "芙蓉叶",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "微辛，凉",
+        "meridian": "归肺、肝经",
+        "effect": "清肺凉血，散热解毒，消肿排脓",
+        "indication": "肺热咳嗽，瘰疬，肠痈；外治痈疖脓肿，脓耳，无名肿毒，烧、烫伤",
+        "usage": "内服：煎汤，10-30g。外用：适量；研末调敷或捣敷",
+        "taboo": "孕妇忌服"
+      }
+    }
+  ],
+  "relations": []
+}

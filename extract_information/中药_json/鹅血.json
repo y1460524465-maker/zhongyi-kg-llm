@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "鹅血",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒，散血，消坚",
+        "indication": "主治噎膈反胃，药物中毒",
+        "usage": "内服：乘热生饮，100-200ml；或制成糖浆、片剂服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹅血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消坚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噎膈反胃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "药物中毒",
+      "object_type": "Disease"
+    }
+  ]
+}

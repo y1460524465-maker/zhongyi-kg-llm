@@ -1,0 +1,227 @@
+{
+  "entities": [
+    {
+      "name": "三层茴香丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "温经散寒、行气止痛",
+        "indication": "寒疝，阴囊肿硬而寒冷，控睾而痛，喜暖畏寒或形寒足冷；寒湿所致之小腹疼痛",
+        "taboo": null,
+        "usage": "口服，每次服6～9g，日服2次，温开水送服"
+      }
+    },
+    {
+      "name": "八角茴香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "盐拌炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川楝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "800g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "北沙参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "荜茇",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "寒疝",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三层茴香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "八角茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三层茴香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川楝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三层茴香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三层茴香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三层茴香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "北沙参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三层茴香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荜茇",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三层茴香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三层茴香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三层茴香丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三层茴香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温经散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三层茴香丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

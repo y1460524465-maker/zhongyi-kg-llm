@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "酸枣树皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "敛疮生肌，解毒止血",
+        "indication": "烧烫伤，外伤出血，崩漏",
+        "usage": "外用：适量，研末，撒布或调涂；或浸酒搽；或煎水喷涂；或熬膏涂。内服：煎汤，15-30g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "酸枣树皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛疮生肌，解毒止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酸枣树皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "酸枣树皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "酸枣树皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    }
+  ]
+}

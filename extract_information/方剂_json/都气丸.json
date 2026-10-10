@@ -1,0 +1,323 @@
+{
+  "entities": [
+    {
+      "name": "都气丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补肾纳气，涩精止遗",
+        "indication": "肾水不固，咳嗽滑精；虚不能纳气之喘促，或久咳而咽干气短，遗精盗汗，小便频数",
+        "taboo": null,
+        "usage": "上药七味为末，炼白蜜丸，如梧桐子大。每服50～70丸，空腹时用淡盐汤，临卧时用温酒送下"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "104克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "山萸肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "52克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "干山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "52克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "微焙",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去皮",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去毛",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "六味地黄丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "滑精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喘促",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "久咳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽干",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "气短",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便频数",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肾水不固",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山萸肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补肾纳气，涩精止遗",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾水不固",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "滑精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喘促",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气短",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "都气丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/都气丸",
+      "object_type": "Source"
+    }
+  ]
+}

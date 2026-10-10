@@ -1,0 +1,48 @@
+{
+  "entities": [
+    {
+      "name": "鱼脑石",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化石，通淋，消炎",
+        "indication": "治石淋，小便不利，中耳炎，鼻炎，脑漏",
+        "usage": "内服：煎汤，5~15g；或研末1.5~3g。外用：适量，研末，吹鼻或麻油调匀滴耳。"
+      }
+    },
+    {
+      "name": "石淋",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鱼脑石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "石淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼脑石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化石",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鱼脑石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鱼脑石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消炎",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "entities": [
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "alias": "龙脑、龙脑香、梅花冰片、片脑、冰片脑、梅花脑、天然冰片、老梅片、梅片、脑子、瑞龙脑、梅花脑子、梅花片脑、梅花脑、梅片、梅冰",
+        "effect": "开窍醒神，散热止痛，明目去翳",
+        "indication": "中风口噤，热病神昏，惊痫痰迷，气闭耳聋，喉痹，口疮，中耳炎，痈肿，痔疮，目亦翳膜，蛲虫病",
+        "taboo": "孕妇及气血虚者均应慎服。",
+        "property_flavor": "辛凉",
+        "dosage": "内服：入丸、散，0.15~0.3g，不入煎剂。外用：适量，研末撒，或吹、搽，或点，或调敷。"
+      }
+    },
+    {
+      "name": "龙脑香树",
+      "type": "Herb",
+      "attributes": {
+        "origin": "龙脑香科"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风口噤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病神昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫痰迷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气闭耳聋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中耳炎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目亦翳膜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛲虫病",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开窍醒神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散热止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目去翳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《海药本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《会约医镜》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《补遗药性赋》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《萃金裘本草述录》",
+      "object_type": "Source"
+    }
+  ]
+}

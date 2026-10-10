@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "参附汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "峻补阳气以救暴脱",
+        "indication": "阳气暴脱证。四肢厥逆，冷汗淋漓，呼吸微弱，脉微欲绝。亦可用于大病虚极欲脱，产后或月经暴崩，或痈疡久溃，血脱亡阳等",
+        "taboo": "一见阳气来复，病情稳定，便当辨证调治，不可多服，免纯阳之品过剂，反致助火伤阴耗血",
+        "usage": "用水煎服，阳气脱陷者，倍用之"
+      }
+    },
+    {
+      "name": "炮附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "参附汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炮附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参附汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参附汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳气暴脱证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "参附汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢厥逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "参附汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "冷汗淋漓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "参附汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呼吸微弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "参附汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉微欲绝",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "参附汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/参附汤",
+      "object_type": "Source"
+    }
+  ]
+}

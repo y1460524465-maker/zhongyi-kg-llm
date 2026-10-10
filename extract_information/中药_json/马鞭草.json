@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "name": "马鞭草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15~30g，鲜品30~60g；或入丸、散。外用：适量，捣敷；或煎水洗。",
+        "effect": "清热解毒，活血散瘀，利水消肿。",
+        "indication": "外感发热，湿热黄疸，水肿，痢疾，疟疾，白喉，喉痹，淋病，经闭，癥瘕，痈肿疮毒，牙疳。",
+        "taboo": "①《本草经疏》：病人虽有湿热血热证，脾阴虚而胃气弱者勿服。②《本草从新》：疮证久而虚者，斟酌用之。"
+      }
+    },
+    {
+      "name": "马鞭草",
+      "type": "Herb",
+      "attributes": {
+        "origin": "马鞭草科植物马鞭草的全草或带根全草。7～10月开花时采收，晒干。"
+      }
+    },
+    {
+      "name": "马鞭草",
+      "type": "Herb",
+      "attributes": {
+        "traits": "干燥全草或带根全草。根茎圆柱形，长1～2厘米，表面土黄色，周围着生多数的根及须根。茎四棱形，灰绿色或黄绿色，有纵沟，具稀疏的毛；质硬、易折断，断面 纤维状，中央有白色的髓，或已成空洞。叶片灰绿色或棕黄色，质脆，多皱缩破碎，具毛。顶端具花穗，可见黄棕色的花瓣；有时巳成果穗，果实宿存灰绿色的萼 片，萼片脱落后，则见灰黄色的4个小坚果。气微，味微苦。以干燥、色青绿、带花穗、无根及杂质者为佳。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外感发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疟疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白喉",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癥瘕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疮毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞭草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙疳",
+      "object_type": "Symptom"
+    }
+  ]
+}

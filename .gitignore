@@ -1,0 +1,53 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+.DS_Store
+Thumbs.db
+
+# ===== 个人材料，不入库 =====
+__008__resume/
+简历-*.md
+resume_*.md
+
+# ===== AI 工具本地配置（可能含本机绝对路径）=====
+.claude/
+.cursor/
+
+# ===== 环境变量文件（含密钥）=====
+*.env
+.env.*
+
+# ===== 日志 =====
+*.log

@@ -1,0 +1,425 @@
+{
+  "entities": [
+    {
+      "name": "鳖肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "滋阴凉血，补肾",
+        "indication": "骨蒸劳热，久疟，久痢，崩漏带下，瘰疬",
+        "usage": "内服：煮食，50-500g；或入丸剂"
+      }
+    },
+    {
+      "name": "骨蒸劳热",
+      "type": "Symptom"
+    },
+    {
+      "name": "久疟",
+      "type": "Symptom"
+    },
+    {
+      "name": "久痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "妇人漏下羸瘦",
+      "type": "Symptom"
+    },
+    {
+      "name": "热气湿痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹中激热",
+      "type": "Symptom"
+    },
+    {
+      "name": "妇人带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "血瘕腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "伤中益气",
+      "type": "Effect"
+    },
+    {
+      "name": "补不足",
+      "type": "Effect"
+    },
+    {
+      "name": "益气调中",
+      "type": "Effect"
+    },
+    {
+      "name": "补虚",
+      "type": "Effect"
+    },
+    {
+      "name": "去血热",
+      "type": "Effect"
+    },
+    {
+      "name": "补劳伤",
+      "type": "Effect"
+    },
+    {
+      "name": "壮阳气",
+      "type": "Effect"
+    },
+    {
+      "name": "凉血补阴",
+      "type": "Effect"
+    },
+    {
+      "name": "滋肝肾之阴",
+      "type": "Effect"
+    },
+    {
+      "name": "清虚劳之热",
+      "type": "Effect"
+    },
+    {
+      "name": "脱肛",
+      "type": "Symptom"
+    },
+    {
+      "name": "癥瘕",
+      "type": "Symptom"
+    },
+    {
+      "name": "骨蒸劳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "心腹坚癥",
+      "type": "Symptom"
+    },
+    {
+      "name": "寒湿脚气",
+      "type": "Symptom"
+    },
+    {
+      "name": "久疟不愈",
+      "type": "Symptom"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《千金•食治》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source"
+    },
+    {
+      "name": "《日用本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸劳热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久疟",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘰疬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇人漏下羸瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热气湿痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹中激热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇人带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血瘕腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "伤中益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补不足",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气调中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补虚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "去血热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补劳伤",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "壮阳气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血补阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋肝肾之阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清虚劳之热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癥瘕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸劳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹坚癥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒湿脚气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久疟不愈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《千金•食治》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草图经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日用本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鳖肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《随息居饮食谱》",
+      "object_type": "Source"
+    }
+  ]
+}

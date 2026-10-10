@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "name": "紫正散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "解表祛风，消肿止痛",
+        "indication": "喉风初起，必恶寒，发热头痛，大便秘结，小便赤涩者",
+        "usage": "上药与地黄散合用，开水泡药蒸服"
+      }
+    },
+    {
+      "name": "紫荆皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "荆芥穗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "北防风",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "北细辛",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫荆皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥穗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "北防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "北细辛",
+      "object_type": "Herb"
+    }
+  ]
+}

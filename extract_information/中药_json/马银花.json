@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "马银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，1.5-3g",
+        "effect": "清湿热，解疮毒",
+        "indication": "湿热带下，痈肿，疔疮",
+        "origin": "柱鹃花科植物马银花的根",
+        "processing": "夏、秋季挖根，洗净，切片晒干",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马银花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清湿热，解疮毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马银花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马银花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马银花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马银花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国高等植物图鉴》",
+      "object_type": "Source"
+    }
+  ]
+}

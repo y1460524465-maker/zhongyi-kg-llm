@@ -1,0 +1,376 @@
+{
+  "entities": [
+    {
+      "name": "南瓜子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "南瓜仁、白瓜子、金瓜米、窝瓜子、倭瓜子",
+        "origin": "葫芦科植物南瓜的种子",
+        "effect": "驱除绦虫，杀蛔虫，炒后煎服治产后手足浮肿、糖屎病",
+        "indication": "主治绦虫，蛔虫，产后手足浮肿，百日咳，痔疮",
+        "taboo": "多食壅气滞膈",
+        "usage": "内服：煎汤，30~60g；研末或制成乳剂。外用：适量，煎水熏洗",
+        "property_flavor": "味微甘",
+        "traits": "呈扁椭圆形，一端略尖，外表黄白色，边缘稍有棱，长约1.2～2厘米，宽约0.7～1.2厘米，表面带有毛茸，边缘较多。种皮较厚，种脐位于尖的一端；除去种皮，可见绿色菲薄的胚乳，内有2枚黄色肥厚的子叶。子叶内含脂肪油，胚根小。气香"
+      }
+    },
+    {
+      "name": "绦虫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "蛔虫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "产后手足浮肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "百日咳",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "糖尿病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血吸虫病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿咽喉痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "营养不良",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "面色萎黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "内痔",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "钩虫病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "产后缺奶",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "南瓜子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "南瓜仁、白瓜子、金瓜米、窝瓜子、倭瓜子",
+        "origin": "葫芦科植物南瓜的种子",
+        "effect": "驱除绦虫，杀蛔虫，炒后煎服治产后手足浮肿、糖屎病",
+        "indication": "主治绦虫，蛔虫，产后手足浮肿，百日咳，痔疮",
+        "taboo": "多食壅气滞膈",
+        "usage": "内服：煎汤，30~60g；研末或制成乳剂。外用：适量，煎水熏洗",
+        "property_flavor": "味微甘",
+        "traits": "呈扁椭圆形，一端略尖，外表黄白色，边缘稍有棱，长约1.2～2厘米，宽约0.7～1.2厘米，表面带有毛茸，边缘较多。种皮较厚，种脐位于尖的一端；除去种皮，可见绿色菲薄的胚乳，内有2枚黄色肥厚的子叶。子叶内含脂肪油，胚根小。气香"
+      }
+    },
+    {
+      "name": "南瓜子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "南瓜仁、白瓜子、金瓜米、窝瓜子、倭瓜子",
+        "origin": "葫芦科植物南瓜的种子",
+        "effect": "驱除绦虫，杀蛔虫，炒后煎服治产后手足浮肿、糖屎病",
+        "indication": "主治绦虫，蛔虫，产后手足浮肿，百日咳，痔疮",
+        "taboo": "多食壅气滞膈",
+        "usage": "内服：煎汤，30~60g；研末或制成乳剂。外用：适量，煎水熏洗",
+        "property_flavor": "味微甘",
+        "traits": "呈扁椭圆形，一端略尖，外表黄白色，边缘稍有棱，长约1.2～2厘米，宽约0.7～1.2厘米，表面带有毛茸，边缘较多。种皮较厚，种脐位于尖的一端；除去种皮，可见绿色菲薄的胚乳，内有2枚黄色肥厚的子叶。子叶内含脂肪油，胚根小。气香"
+      }
+    },
+    {
+      "name": "南瓜子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "南瓜仁、白瓜子、金瓜米、窝瓜子、倭瓜子",
+        "origin": "葫芦科植物南瓜的种子",
+        "effect": "驱除绦虫，杀蛔虫，炒后煎服治产后手足浮肿、糖屎病",
+        "indication": "主治绦虫，蛔虫，产后手足浮肿，百日咳，痔疮",
+        "taboo": "多食壅气滞膈",
+        "usage": "内服：煎汤，30~60g；研末或制成乳剂。外用：适量，煎水熏洗",
+        "property_flavor": "味微甘",
+        "traits": "呈扁椭圆形，一端略尖，外表黄白色，边缘稍有棱，长约1.2～2厘米，宽约0.7～1.2厘米，表面带有毛茸，边缘较多。种皮较厚，种脐位于尖的一端；除去种皮，可见绿色菲薄的胚乳，内有2枚黄色肥厚的子叶。子叶内含脂肪油，胚根小。气香"
+      }
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《安徽药材》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《中国药植图鉴》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "石榴皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "韭菜叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "水竹沥",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "花生仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "胡桃仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "南瓜子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "南瓜仁、白瓜子、金瓜米、窝瓜子、倭瓜子",
+        "origin": "葫芦科植物南瓜的种子",
+        "effect": "驱除绦虫，杀蛔虫，炒后煎服治产后手足浮肿、糖屎病",
+        "indication": "主治绦虫，蛔虫，产后手足浮肿，百日咳，痔疮",
+        "taboo": "多食壅气滞膈",
+        "usage": "内服：煎汤，30~60g；研末或制成乳剂。外用：适量，煎水熏洗",
+        "property_flavor": "味微甘",
+        "traits": "呈扁椭圆形，一端略尖，外表黄白色，边缘稍有棱，长约1.2～2厘米，宽约0.7～1.2厘米，表面带有毛茸，边缘较多。种皮较厚，种脐位于尖的一端；除去种皮，可见绿色菲薄的胚乳，内有2枚黄色肥厚的子叶。子叶内含脂肪油，胚根小。气香"
+      }
+    },
+    {
+      "name": "红糖",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "绦虫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后手足浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血吸虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿咽喉痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "营养不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面色萎黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "内痔",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "钩虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后缺奶",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《安徽药材》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国药植图鉴》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "石榴皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "韭菜叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "水竹沥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "花生仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "南瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "红糖",
+      "object_type": "Herb"
+    }
+  ]
+}

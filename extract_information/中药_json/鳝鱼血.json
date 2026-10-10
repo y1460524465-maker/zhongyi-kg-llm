@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "鳝鱼血",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风通络，活血，壮阳，解毒，明目",
+        "indication": "口眼歪斜，跌打损伤，阳痿，耳痛，癣，痔瘘，目翳",
+        "processing": "夏、秋季捕捉，捕后用针刺头部或剪去尾部取血，鲜用；或和药为丸",
+        "usage": "外用：适量，涂敷或滴耳、鼻；或研末敷。内服：和药为丸，适量。",
+        "traits": "本品为稠状的红色液体，味腥"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "壮阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口眼歪斜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "耳痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔瘘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳝鱼血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目翳",
+      "object_type": "Symptom"
+    }
+  ]
+}

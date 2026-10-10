@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "柽柳",
+      "type": "Herb",
+      "attributes": {
+        "alias": "西河柳, 河柳, 殷柽, 雨师, 人柳, 赤柽木, 三春柳, 春柳, 三眠柳, 长寿仙人柳, 观音柳, 垂丝柳, 雨丝, 蜀柳, 西河柳, 赤树柳, 山柽柳",
+        "effect": "疏风；解表；透疹；解毒",
+        "indication": "风热感冒；麻疹初起；疹出不透；风湿痹痛；皮肤瘙痒",
+        "taboo": "麻疹已透及体虚多汗者禁服",
+        "dosage": "内服：煎汤，10~15g；或入散剂。外用：适量，煎汤擦洗",
+        "origin": "柽柳科植物柽柳的嫩枝叶",
+        "processing": "拣去杂质，去梗，喷润后切段，晒干",
+        "traits": "枝细圆柱形，直径0.5~1.5mm，表面黄绿色，节较密，叶鲜片状，钻形或卵状披针形，长1~3mm，背面有龙骨状柱。质脆，易折断，断面黄白色，中心有髓。气微，味淡。以枝叶细嫩、色绿者为佳"
+      }
+    },
+    {
+      "name": "风热感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "麻疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "皮肤瘙痒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疏风",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "解表",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "透疹",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "解毒",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柽柳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柽柳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柽柳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柽柳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柽柳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柽柳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柽柳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "透疹",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柽柳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "name": "狗舌草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "狗舌头草，白火丹草，铜交杯，糯米青，铜盘一枝香，九叶草，泽小车",
+        "effect": "清热解毒，利水消肿，杀虫",
+        "indication": "肿脓疡，疖肿，尿路感染，肾炎水肿，口腔炎，跌打损伤，湿疹，疥疮，阴道滴虫",
+        "dosage": "内服：煎汤，9-15g，鲜品加倍；或入丸、散",
+        "processing": "菊科植物狗舌草Tephroseris kirilowii (Turcz.ex DC.)Holub的干燥地上部分"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺脓疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疖肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿路感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿脓疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗舌草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴道滴虫",
+      "object_type": "Disease"
+    }
+  ]
+}

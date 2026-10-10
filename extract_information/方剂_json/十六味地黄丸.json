@@ -1,0 +1,241 @@
+{
+  "entities": [
+    {
+      "name": "十六味地黄丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": "上为末，炼蜜为丸，如弹子大。"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "米仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "芡实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "莲肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "山楂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "麦芽",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "米仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山楂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦芽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十六味地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    }
+  ]
+}

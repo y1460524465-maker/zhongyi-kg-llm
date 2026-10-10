@@ -1,0 +1,143 @@
+{
+  "entities": [
+    {
+      "name": "栝楼桂枝汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "解肌发表，生津舒筋",
+        "indication": "外感风寒，发热恶风，头痛汗出，身体强，几几然，脉沉迟而有力者",
+        "usage": "上六味，以水900毫升，煮取300毫升，分三次温服，取微汗。汗不出，服顷啜热粥发之"
+      }
+    },
+    {
+      "name": "栝楼根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12枚"
+      }
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "柔痉",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "外感风寒",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "栝楼桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解肌发表，生津舒筋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "栝楼桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "柔痉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栝楼桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "栝楼桂枝汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "栝楼桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栝楼根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栝楼桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栝楼桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栝楼桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栝楼桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栝楼桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    }
+  ]
+}

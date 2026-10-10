@@ -1,0 +1,35 @@
+{
+  "entities": [
+    {
+      "name": "鸭头",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利水消肿",
+        "indication": "水肿尿涩，咽喉肿痛"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸭头",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸭头",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿尿涩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭头",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

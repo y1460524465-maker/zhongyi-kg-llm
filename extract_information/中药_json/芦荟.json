@@ -1,0 +1,356 @@
+{
+  "entities": [
+    {
+      "name": "芦荟",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，通便，杀虫",
+        "indication": "热结便秘，妇女经闭，小儿惊痫，疳热虫积，癣疮，痔瘘，萎缩性鼻炎，瘰疬",
+        "meridian": "肝经、胃经、大肠经",
+        "property_flavor": null,
+        "dosage": "0.6~1.5g",
+        "processing": "全年可采。割取叶片，收集其流出的液汁，置锅内熬成稠膏，倾入容器，冷却凝固。",
+        "origin": "百合科植物库拉索芦荟、好望角芦荟或斑纹芦荟的叶中的液汁经浓缩的干燥品",
+        "taboo": "不入汤剂",
+        "usage": "内服：入丸、散，或研末入胶囊，0.6~1.5g；不入汤剂。",
+        "traits": "体轻，质硬，不易破碎，断面粗糙或显麻纹。富吸湿性。有特殊臭气，味极苦。",
+        "place": null
+      }
+    },
+    {
+      "name": "热结便秘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇女经闭",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿惊痫",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疳热虫积",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "癣疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔瘘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "萎缩性鼻炎",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "瘰疬",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《海药本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《得配本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草切要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《儒门事亲》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《海上集验方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《宣明论方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《浙江药用植物志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《丹溪治法心要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热结便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疳热虫积",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癣疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔瘘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "萎缩性鼻炎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘰疬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《海药本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草图经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《得配本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草切要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《儒门事亲》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《海上集验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《宣明论方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江药用植物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《丹溪治法心要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芦荟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    }
+  ]
+}

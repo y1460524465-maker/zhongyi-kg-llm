@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "马尾连",
+      "type": "Herb",
+      "attributes": {
+        "alias": "马尾黄连、金丝黄连、草黄连",
+        "effect": "清热燥湿，解毒",
+        "indication": "主治痢疾，肠炎，传染性肝炎，感冒，麻疹，痈肿疮疖，结膜炎",
+        "usage": "内服：煎汤，3~15g，或研末，或制成冲剂。外用：适量；鲜品捣敷；或煎水洗，或干品研末撒；或制成软膏敷",
+        "origin": "为毛茛科植物多叶唐松草、贝加尔唐松草等的根茎及根"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "传染性肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "麻疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痈肿疮疖",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "结膜炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马尾连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马尾连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马尾连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马尾连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马尾连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "传染性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马尾连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马尾连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马尾连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疮疖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马尾连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "结膜炎",
+      "object_type": "Disease"
+    }
+  ]
+}

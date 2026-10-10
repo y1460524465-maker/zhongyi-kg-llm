@@ -1,0 +1,239 @@
+{
+  "entities": [
+    {
+      "name": "五福化毒丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热解毒，凉血消肿",
+        "indication": "血热毒盛，小儿疮疖，痱毒，咽喉肿痛，口舌生疮，牙龈出血，痄腮",
+        "usage": "口服，水蜜丸一次2g，大蜜丸一次1丸，一日2～3次"
+      }
+    },
+    {
+      "name": "水牛角浓缩粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "青黛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5g"
+      }
+    },
+    {
+      "name": "牛蒡子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5g"
+      }
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "凉血消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血热毒盛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙龈出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痄腮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿疮疖",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痱毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "水牛角浓缩粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青黛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛蒡子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五福化毒丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/五福化毒丸",
+      "object_type": "Source"
+    }
+  ]
+}

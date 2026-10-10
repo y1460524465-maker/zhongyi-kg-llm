@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "name": "速效救心丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "行气活血，祛瘀止痛",
+        "indication": "气滞血瘀型冠心病，心绞痛"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血祛瘀，行气止痛",
+        "property_flavor": "辛散温通"
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "effect": "芳香走窜，通窍止痛"
+      }
+    },
+    {
+      "name": "冠心病",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "速效救心丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "冠心病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "速效救心丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心绞痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "速效救心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气活血，祛瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "速效救心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "速效救心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血祛瘀，行气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冰片",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "芳香走窜，通窍止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

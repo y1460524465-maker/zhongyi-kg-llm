@@ -1,0 +1,117 @@
+{
+  "entities": [
+    {
+      "name": "救必应",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白木香，羊不吃，土千年健，矮四陀，观音柴，消癀药，白银香，白银树，山熊胆，红子儿，冬青柴，白皮冬青，白山叶，白沉香，白兰香，狗屎木，冬青仔，小风藤，白凡木，九层皮，红熊胆，山冬青，白银木，过山风，米碎木",
+        "effect": "清热解毒，利湿止痛",
+        "indication": "暑湿发热，咽喉肿痛，湿热泻痢，脘腹胀痛，风湿痹痛，湿疹，疮疖，跌打损伤",
+        "property_flavor": "苦，寒。归肺、胃、大肠、肝经",
+        "dosage": "内服：煎汤，9-15g。外用：适量，捣敷；或熬膏涂"
+      }
+    },
+    {
+      "name": "铁冬青",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "暑湿发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿热泻痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "脘腹胀痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疹",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮疖",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "救必应",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，利湿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "救必应",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暑湿发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "救必应",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "救必应",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "救必应",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "救必应",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "救必应",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "救必应",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疖",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "救必应",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

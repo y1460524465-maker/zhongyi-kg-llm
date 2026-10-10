@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {
+      "name": "石腊红",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热消炎",
+        "indication": "中耳炎"
+      }
+    },
+    {
+      "name": "中耳炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石腊红",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热消炎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石腊红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中耳炎",
+      "object_type": "Disease"
+    }
+  ]
+}

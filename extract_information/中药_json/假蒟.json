@@ -1,0 +1,133 @@
+{
+  "entities": [
+    {
+      "name": "假蒟",
+      "type": "Herb",
+      "attributes": {
+        "alias": "假蒌、假蒟、臭蒌、山蒌、大柄蒌、马蹄蒌",
+        "effect": "祛风散寒，行气止痛，活络，消肿",
+        "indication": "风寒咳喘，风湿痹痛，脘腹胀满，泄泻痢疾，产后脚肿，跌打损伤",
+        "dosage": "内服：煎汤，9-15g。外用：适量，捣敷或煎水洗",
+        "origin": "胡椒科胡椒属植物假蒌Piper sarmentosum Roxb.，以全株、根、叶或果实入药"
+      }
+    },
+    {
+      "name": "胃肠寒痛",
+      "type": "Disease"
+    },
+    {
+      "name": "风寒咳嗽",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "牙痛",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿骨痛",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "龋齿痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃肠寒痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牙痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿骨痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "龋齿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "假蒟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

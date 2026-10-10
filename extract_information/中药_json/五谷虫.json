@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "五谷虫",
+      "type": "Herb",
+      "attributes": {
+        "effect": "健脾消积，清热除疳",
+        "indication": "疳积发热，食积泻痢，疳疮，疳眼，走马牙疳",
+        "dosage": "内服，煎汤，3～9g",
+        "processing": "拣净杂质，簸净泥土，用文火炒至微黄色",
+        "traits": "干燥虫体，扁圆柱形，头部较尖，长1～1.5厘米，宽2～3毫米。黄白色，有的略透明。质松脆易碎，断面多空泡。以体轻、干净、谈黄白色、无臭味者为佳",
+        "origin": "为丽蝇科动物大头金蝇及其近缘动物的幼虫或蛹壳"
+      }
+    },
+    {
+      "name": "蛆",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《集韵》"
+      }
+    },
+    {
+      "name": "谷虫",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《本草求真》"
+      }
+    },
+    {
+      "name": "水仙子",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《药材资料汇编》"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "疳积发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "食积泻痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "疳疮",
+      "type": "Disease"
+    },
+    {
+      "name": "疳眼",
+      "type": "Disease"
+    },
+    {
+      "name": "走马牙疳",
+      "type": "Disease"
+    },
+    {
+      "name": "热痢吐食",
+      "type": "Symptom"
+    },
+    {
+      "name": "唇疔",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五谷虫",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疳积发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五谷虫",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五谷虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五谷虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五谷虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "走马牙疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五谷虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五谷虫",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热痢吐食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五谷虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "唇疔",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五谷虫",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五谷虫",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热除疳",
+      "object_type": "Effect"
+    }
+  ]
+}

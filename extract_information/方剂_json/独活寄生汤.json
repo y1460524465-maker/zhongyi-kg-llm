@@ -1,0 +1,455 @@
+{
+  "entities": [
+    {
+      "name": "独活寄生汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "祛风湿、止痹痛、益肝肾、补气血",
+        "indication": "风寒湿痹痛日久体虚，尤以下肢冷痛麻木证，慢性关节炎、慢性腰腿痛、风湿性坐骨神经痛；肝肾两亏，气血不足之痹证，腰膝冷痛，肢体屈伸不利，或麻痹不仁，畏寒喜温，舌淡苔白，脉细弱",
+        "usage": "独活9克、桑寄生、细辛、秦艽、防风、肉桂、牛膝、杜仲、熟地、当归、川芎、白芍、人参(现多用党参)、茯苓、甘草各6克"
+      }
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，养血和营，活络通痹",
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "桑寄生",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，养血和营，活络通痹",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": {
+        "effect": "搜风治风痹",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "秦艽",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛周身风寒湿邪",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛周身风寒湿邪",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛寒止痛",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补益肝肾、强壮筋骨",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "杜仲",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补益肝肾、强壮筋骨",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "熟地",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补益肝肾、强壮筋骨",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补血活血",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补血活血",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补血活血",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气扶脾",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气扶脾",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气扶脾",
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "痹证",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性腰腿痛",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性坐骨神经痛",
+      "type": "Disease"
+    },
+    {
+      "name": "腰膝冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肢体屈伸不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "麻痹不仁",
+      "type": "Symptom"
+    },
+    {
+      "name": "畏寒喜温",
+      "type": "Symptom"
+    },
+    {
+      "name": "下肢冷痛麻木",
+      "type": "Symptom"
+    },
+    {
+      "name": "三痹汤",
+      "type": "Formula"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痹证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性腰腿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性坐骨神经痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体屈伸不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "麻痹不仁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "畏寒喜温",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下肢冷痛麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "止痹痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益肝肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补气血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑寄生",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秦艽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜仲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腰膝冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "肢体屈伸不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "麻痹不仁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "畏寒喜温",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三痹汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痹证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三痹汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脊背疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三痹汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "举动艰难",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补气实表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三痹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "续断",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《备急千金要方》",
+      "object_type": "Source"
+    }
+  ]
+}

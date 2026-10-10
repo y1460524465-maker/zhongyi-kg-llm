@@ -1,0 +1,167 @@
+{
+  "entities": [
+    {
+      "name": "清宫汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清心解毒，养阴生津",
+        "indication": "温病，邪陷心包，发热，神昏谵语",
+        "usage": "水煎服"
+      }
+    },
+    {
+      "name": "玄参心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "莲子心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "竹叶卷心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "连翘心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "犀角尖",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "连心麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "太阴温病",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清宫汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/清宫汤",
+      "object_type": "Source"
+    },
+    {
+      "subject": "清宫汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清心解毒，养阴生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "清宫汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "太阴温病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清宫汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清宫汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲子心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清宫汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹叶卷心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清宫汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清宫汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀角尖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清宫汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连心麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清心解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玄参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清心热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹叶卷心",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清心热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "莲子心",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补养心肾之阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连心麦冬",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补养心肾之阴",
+      "object_type": "Effect"
+    }
+  ]
+}

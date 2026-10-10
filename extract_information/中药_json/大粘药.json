@@ -1,0 +1,113 @@
+{
+  "entities": [
+    {
+      "name": "大粘药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9～15g",
+        "effect": "祛风除湿，舒筋活络，清热解毒",
+        "indication": "风湿痹痛，跌打损伤，乳痈，疮疖，热淋，湿热泄泻",
+        "place": "广东、海南、广西、四川、贵州、云南、西藏",
+        "processing": "全年均可采收，洗净，鲜用或晒干",
+        "taboo": "本品对皮肤有刺激性，须用凡士林纱布先隔局部皮肤，后敷药"
+      }
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疖",
+      "type": "Disease"
+    },
+    {
+      "name": "热淋",
+      "type": "Disease"
+    },
+    {
+      "name": "湿热泄泻",
+      "type": "Disease"
+    },
+    {
+      "name": "膝眼风",
+      "type": "Disease"
+    },
+    {
+      "name": "骨折",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大粘药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大粘药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大粘药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大粘药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大粘药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大粘药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大粘药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "膝眼风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大粘药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大粘药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿，舒筋活络，清热解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

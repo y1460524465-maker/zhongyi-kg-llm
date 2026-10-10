@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "白芍甘草汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "缓急止痛",
+        "indication": "胃气痛，证属阴虚血燥，肝气妄动，木克土者。其痛在脐腹以上，胸膈之间，时作时愈，愈则安然无恙，偶有拂逆，则复作"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "processing": "醋炒",
+        "effect": "滋阴敛肝"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱",
+        "effect": "和中"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白芍甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白芍甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白芍甘草汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芍甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "缓急止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

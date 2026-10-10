@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "雄蚕蛾",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蚕蛾、晚蚕蛾、魏蚕蛾、天蛾",
+        "effect": "补肝益肾，壮阳涩精",
+        "indication": "主治阳痿，遗精，白浊，尿血，创伤，溃疡及烫伤",
+        "property_flavor": null,
+        "meridian": null,
+        "dosage": "内服：研末，1.5~5g；或入丸剂。外用：适量，研末撒或捣敷。",
+        "origin": "为蚕蛾科动物家蚕蛾雄虫的全体。",
+        "place": "分布很广。我国大部地区，均有饲养。",
+        "processing": "1.原蚕蛾《千金要方》：阴干，去头足，毛羽，末之。《胜金方》：为末。《小儿宫气方》：细研。现行，去净杂质及足、翅。\n2.炒原蚕蛾《本草图经》：炙黄研末。《普济方》：瓦上炒黄。《奇效良方》：隔纸微炒。《品汇精要》炒去丝用。《本草汇》：炒，去头、足翅。现行，取净原蚕蛾置锅内火炒至带火色时，取出，放凉。",
+        "traits": "全为雄蛾。全体呈污白色，密被白色鳞片。体长约2cm，翅展约4cm，头部小。复眼1对，黑色，半圆形。口器退化，下唇须细小。触角1对，黑色。胸部有翅2对，前翅较大，近三角形，后翅较小，近圆形。腹较狭窄，末端稍尖。药材其触角、翅等多已残缺。质脆，易碎。气微腥。",
+        "taboo": null
+      }
+    },
+    {
+      "name": "阳痿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "白浊",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "创伤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "溃疡",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烫伤",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "雄蚕蛾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄蚕蛾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "雄蚕蛾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "雄蚕蛾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "雄蚕蛾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "创伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "雄蚕蛾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "溃疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "雄蚕蛾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "雄蚕蛾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝益肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雄蚕蛾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "壮阳涩精",
+      "object_type": "Effect"
+    }
+  ]
+}

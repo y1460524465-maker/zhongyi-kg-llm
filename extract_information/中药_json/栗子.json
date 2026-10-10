@@ -1,0 +1,131 @@
+{
+  "entities": [
+    {
+      "name": "栗子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养胃健脾，补肾强筋，活血消肿，止血",
+        "indication": "反胃，泄泻，腰膝酸软，吐、衄、便血，金疮、折伤肿痛，瘰疬",
+        "usage": "内服：生食、煮食或炒存性研末服",
+        "taboo": "孟诜：栗子蒸炒食之令气拥，患风水气不宜食。\n《本草衍义》：小儿不可多食，生者难化，熟即滞气隔食，往往致小儿病。\n《得配本草》：多食滞脾恋膈，风湿病者禁用。\n《随息居饮食谱》：外感来去，痞满，疳积，疟痢，产后，小儿，病人不饥、便秘者并忌之。"
+      }
+    },
+    {
+      "name": "板栗",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《唐本草》"
+      }
+    },
+    {
+      "name": "栗果",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《滇南本草》"
+      }
+    },
+    {
+      "name": "大栗",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《浙江天目山药植志》"
+      }
+    },
+    {
+      "name": "反胃",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰膝酸软",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐衄便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "金疮折伤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "栗子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养胃健脾，补肾强筋，活血消肿，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "栗子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "栗子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "栗子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "栗子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐衄便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "栗子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "金疮折伤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "栗子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘰疬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "板栗",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "栗果",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大栗",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江天目山药植志》",
+      "object_type": "Source"
+    }
+  ]
+}

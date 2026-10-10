@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "青鱼",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为鲤科动物青鱼的肉",
+        "processing": "常年均可捕捞，捕得后，除去鳍片及内脏，洗净，鲜用",
+        "property_flavor": null,
+        "meridian": null,
+        "effect": "化湿除痹，益气和中",
+        "indication": "主治脚气湿痹，腰脚软弱，胃脘疼痛，痢疾",
+        "dosage": "内服：煮食，100-200g",
+        "taboo": "不可同葵，蒜食之。服术人忌之。不可合生胡荽、豆藿同食。忌豆酱",
+        "traits": null,
+        "place": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "青鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化湿除痹",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰脚软弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃脘疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    }
+  ]
+}

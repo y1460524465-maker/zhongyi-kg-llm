@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "name": "白石脂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "涩肠止泻，止血",
+        "indication": "久痢久泻，便血崩漏",
+        "property_flavor": "甘、酸、涩，温",
+        "meridian": "归肺、大肠经",
+        "dosage": "内服：煎汤，9~12 g；或入丸、散",
+        "origin": "硅酸盐类矿物高岭石族一种白色高岭土，主含含水硅酸铝",
+        "place": "主产山西、河南、江苏、河北、山东"
+      }
+    },
+    {
+      "name": "久痢",
+      "type": "Disease"
+    },
+    {
+      "name": "久泻",
+      "type": "Disease"
+    },
+    {
+      "name": "便血",
+      "type": "Disease"
+    },
+    {
+      "name": "崩漏",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白石脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "涩肠止泻，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白石脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白石脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白石脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白石脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    }
+  ]
+}

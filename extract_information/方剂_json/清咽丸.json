@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "name": "清咽丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热、利咽",
+        "indication": "声哑失音",
+        "usage": "口服或含化，一次1丸，一日2～3次"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g"
+      }
+    },
+    {
+      "name": "寒水石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g"
+      }
+    },
+    {
+      "name": "诃子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g（去核）"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g"
+      }
+    },
+    {
+      "name": "乌梅",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g（去核）"
+      }
+    },
+    {
+      "name": "青黛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "硼砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g（煅）"
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "声哑失音",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清咽丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热、利咽",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "清咽丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "声哑失音",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清咽丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清咽丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "寒水石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清咽丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清咽丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "诃子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清咽丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清咽丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌梅",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清咽丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青黛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清咽丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "硼砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清咽丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    }
+  ]
+}

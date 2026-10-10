@@ -1,0 +1,124 @@
+{
+  "entities": [
+    {
+      "name": "鹿茸草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "千年艾、千重塔、瓶儿蜈蚣草、山门穹、千层矮、白路箕、毛茵陈、白丝草、土茵陈、栀子草、牙痛草、折头翁、六月霜、白山艾、白龙骨、白杉笠、千层楼、千年春、千年霜、满山白、白头毛、白鸡毛、四季青、瓜子草、老鼠牙草、白毛鹿茸草、鱼腮草、白细芒、白茅草、白地蜈蚣",
+        "effect": "清热解毒，凉血止血",
+        "indication": "感冒心中烦热，咳嗽，吐血，赤痢，便血，月经不调，风湿骨痛，牙痛，乳痈",
+        "dosage": "内服，煎汤，9～15g；外用适量",
+        "property_flavor": "微苦涩",
+        "origin": "为玄参科植物绵毛鹿茸草的全草"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "赤痢",
+      "type": "Disease"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿骨痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹿茸草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹿茸草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿茸草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿茸草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿茸草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿茸草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿茸草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿茸草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿骨痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿茸草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿茸草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "entities": [
+    {
+      "name": "补天大造丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "炼蜜为丸，如梧桐子大。每服100丸，空心温酒送下；盐汤亦可。"
+      }
+    },
+    {
+      "name": "紫河车",
+      "type": "Herb",
+      "attributes": {
+        "processing": "头生男胎者，用米泔水洗净，再入长流水洗，以砂锅内碗盛蒸烂，石臼内杵烂，入药",
+        "dosage": "1个"
+      }
+    },
+    {
+      "name": "鹿茸",
+      "type": "Herb",
+      "attributes": {
+        "processing": "炙",
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "虎胫骨",
+      "type": "Herb",
+      "attributes": {
+        "processing": "炙",
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "大龟版",
+      "type": "Herb",
+      "attributes": {
+        "processing": "炙",
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "processing": "酒炒，蒸1日，杵烂"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "processing": "炒",
+        "dosage": "4两"
+      }
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "山萸肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两"
+      }
+    },
+    {
+      "name": "天冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "枸杞子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两"
+      }
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "破故纸",
+      "type": "Herb",
+      "attributes": {
+        "processing": "酒炒",
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "杜仲",
+      "type": "Herb",
+      "attributes": {
+        "processing": "酒炒",
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "肉苁蓉",
+      "type": "Herb",
+      "attributes": {
+        "processing": "酒浸，去鳞甲",
+        "dosage": "3两"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫河车",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿茸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "虎胫骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大龟版",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山萸肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "破故纸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜仲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补天大造丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉苁蓉",
+      "object_type": "Herb"
+    }
+  ]
+}

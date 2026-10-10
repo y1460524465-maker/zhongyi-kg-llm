@@ -1,0 +1,313 @@
+{
+  "entities": [
+    {
+      "name": "广藿香",
+      "type": "Herb",
+      "attributes": {
+        "origin": "亚洲菲律宾等亚热带地区",
+        "place": "广东、海南",
+        "effect": "芳香化湿，和胃止呕，祛暑解表",
+        "indication": "湿阻中焦之脘腹痞闵，食欲不振，呕吐，泄泻，外感暑湿之寒热头痛，湿温初起的发热身困，胸闵恶心，鼻渊，手足癣",
+        "traits": "气香特异，叶微苦",
+        "dosage": "煎汤，5~10g，鲜者加倍，不宜久煎；或入丸散",
+        "taboo": "阴虚火旺，胃弱欲呕及胃热作呕，中焦火盛热极，温病热病，阳明胃家邪实作呕作胀，法并禁用"
+      }
+    },
+    {
+      "name": "藿香正气散",
+      "type": "Formula",
+      "attributes": {
+        "source": "《局方》"
+      }
+    },
+    {
+      "name": "禹讲师经验方",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "回生散",
+      "type": "Formula",
+      "attributes": {
+        "source": "《百一选方》"
+      }
+    },
+    {
+      "name": "藿香散",
+      "type": "Formula",
+      "attributes": {
+        "source": "《鸡峰普济方》"
+      }
+    },
+    {
+      "name": "摘元方",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《包会应验方》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《珍珠囊》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《汤液本草》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《本草述》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source",
+      "attributes": {}
+    },
+    {
+      "name": "大腹皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "紫苏叶",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "半夏曲",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "藿香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "丁香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "高良姜",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "细茶",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "香薷",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "野菊花",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "青蒿",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "山栀仁",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "黄精",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "生大黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "皂矾",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "鲜藿香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "鲜荷叶",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "鲜扁豆汁",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "广藿香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "芳香化湿，和胃止呕，祛暑解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "广藿香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿阻中焦之脘腹痞闵，食欲不振，呕吐，泄泻，外感暑湿之寒热头痛，湿温初起的发热身困，胸闵恶心，鼻渊，手足癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "回生散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《百一选方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "藿香散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《鸡峰普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鲜藿香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清暑热，爽神志",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鲜藿香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑或因暑热引起的恶心呕吐",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藿香末",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解暑祛湿，开胃止呕",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "藿香末",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "夏季感觉暑湿之邪，发热胸闷，食欲不振，呕恶吐泻，精神不振等症",
+      "object_type": "Disease"
+    }
+  ]
+}

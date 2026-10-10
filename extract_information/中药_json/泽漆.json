@@ -1,0 +1,98 @@
+{
+  "entities": [
+    {
+      "name": "泽漆",
+      "type": "Herb",
+      "attributes": {
+        "alias": "漆茎、猫儿眼睛草、五风灵枝、五风草、绿叶绿花草、凉伞草、五盏灯、五朵云、白种乳草、五点草、五灯头草、乳浆草、肿手棵、马虎眼、倒毒伞、一把伞、乳草、龙虎草、铁骨伞、九头狮子草、灯台草、癣草",
+        "effect": "行水消肿，化痰止咳，解毒杀虫。主治水气肿满，痰饮喘咳，疟疾，菌痢，瘰疬，结核性瘘管，骨髓炎。",
+        "indication": "水气肿满，痰饮喘咳，疟疾，菌痢，瘰疬，癣疮，结核性痿管，骨髓炎。",
+        "property_flavor": "味辛；苦；性微寒；有毒",
+        "meridian": "大肠经；小肠经；脾经；肺经",
+        "taboo": "①《本草经集注》：小豆为之使。恶薯蓣。②《得配本草》：气血虚者禁用。",
+        "dosage": "内服：煎汤，3~9g；或熬膏，入丸、散用。外用：适量，煎水洗；熬膏涂或研末调敷。",
+        "origin": "为大戟科植物泽漆的全草。4~5月开花时采收，除去根及泥沙，晒干。",
+        "place": "我国除西藏外，各地均有分布。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泽漆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泽漆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泽漆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泽漆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水气肿满",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泽漆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰饮喘咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泽漆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泽漆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "菌痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泽漆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泽漆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癣疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泽漆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "结核性痿管",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泽漆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨髓炎",
+      "object_type": "Disease"
+    }
+  ]
+}

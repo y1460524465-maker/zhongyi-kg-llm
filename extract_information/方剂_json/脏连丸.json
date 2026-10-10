@@ -1,0 +1,197 @@
+{
+  "entities": [
+    {
+      "name": "脏连丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热凉血，疏风燥湿",
+        "indication": "肠热便血，肛门灼热，痔疮肿痛",
+        "taboo": null,
+        "usage": "口服，水蜜丸一次6～9g，小蜜丸一次9g，大蜜丸一次1丸，一日2次"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "槐角",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "槐花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "荆芥穗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地榆炭",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肠热便血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肛门灼热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔疮肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "清热凉血",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "疏风燥湿",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槐角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槐花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥穗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地榆炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "疏风燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠热便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肛门灼热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脏连丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮肿痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

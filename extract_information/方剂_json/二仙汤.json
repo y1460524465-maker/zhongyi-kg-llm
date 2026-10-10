@@ -1,0 +1,222 @@
+{
+  "entities": [
+    {
+      "name": "二仙汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温肾阳，补肾精，泻肾火，调冲任",
+        "indication": "主妇女月经将绝未绝。周期或前或后，经量或多或少，头眩耳鸣，腰酸乏力，两足欠温，时或怕冷，时或轰热，舌质淡，脉沉细者。现用于妇女更年期综合症、高血压、闭经，以及其它慢性疾病见有肾阴、肾阳不足而虚火上炎者",
+        "usage": "日服一剂，水煎取汁，分二次服"
+      }
+    },
+    {
+      "name": "仙茅",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "温肾阳，补肾精"
+      }
+    },
+    {
+      "name": "仙灵脾",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "温肾阳，补肾精"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "温润养血，调理冲任"
+      }
+    },
+    {
+      "name": "巴戟天",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "温肾阳，补肾精"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "effect": "泻肾火、滋肾阴"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "effect": "泻肾火、滋肾阴"
+      }
+    },
+    {
+      "name": "妇女更年期综合症",
+      "type": "Disease"
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "闭经",
+      "type": "Disease"
+    },
+    {
+      "name": "头眩",
+      "type": "Symptom"
+    },
+    {
+      "name": "耳鸣",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰酸",
+      "type": "Symptom"
+    },
+    {
+      "name": "乏力",
+      "type": "Symptom"
+    },
+    {
+      "name": "两足欠温",
+      "type": "Symptom"
+    },
+    {
+      "name": "怕冷",
+      "type": "Symptom"
+    },
+    {
+      "name": "轰热",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "仙茅",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "仙灵脾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴戟天",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温肾阳，补肾精，泻肾火，调冲任",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女更年期综合症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "闭经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳鸣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "两足欠温",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "怕冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二仙汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "轰热",
+      "object_type": "Symptom"
+    }
+  ]
+}

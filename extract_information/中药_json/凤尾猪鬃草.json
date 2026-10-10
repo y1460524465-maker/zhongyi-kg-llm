@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "凤尾猪鬃草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，利尿，通乳",
+        "indication": "感冒高热，膀胱炎，血淋，乳腺炎，乳汁不通，乳糜尿，睾丸炎",
+        "usage": "内服：煎汤，6-30g"
+      }
+    }
+  ],
+  "relations": []
+}

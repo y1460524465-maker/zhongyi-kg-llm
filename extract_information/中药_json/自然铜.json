@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "name": "自然铜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "散瘀止痛，接骨续筋",
+        "indication": "治跌打损伤，筋断骨折，血瘀疼痛，积聚，瘿瘤，疮疡，烫伤",
+        "meridian": "足少阴肾经、足厥阴肝经",
+        "origin": null,
+        "place": "产于辽宁、河北、江苏、安徽、湖北、湖南、广东、四川、云南等地",
+        "processing": "1.自然铜：刷净，敲成小块。2.煅自然铜：取自然铜块，置坩埚内煅至红透，倾入米醋中淬酥，取出，再煅烧淬酥一次，至光泽消失为度。晒干后，碾为粗末。(每自然铜100斤，用醋两次共50斤)3.《纲目》：自然铜，今人只以火煅醋淬七次，研细水飞过用。",
+        "property_flavor": null,
+        "taboo": "阴虚火旺，血虚无瘀者忌服",
+        "traits": null
+      }
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "筋断骨折",
+      "type": "Symptom"
+    },
+    {
+      "name": "血瘀疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "积聚",
+      "type": "Disease"
+    },
+    {
+      "name": "瘿瘤",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疡",
+      "type": "Disease"
+    },
+    {
+      "name": "烫伤",
+      "type": "Disease"
+    },
+    {
+      "name": "散瘀止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "接骨续筋",
+      "type": "Effect"
+    },
+    {
+      "name": "日华子本草",
+      "type": "Source"
+    },
+    {
+      "name": "开宝本草",
+      "type": "Source"
+    },
+    {
+      "name": "玉楸药解",
+      "type": "Source"
+    },
+    {
+      "name": "纲目",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋断骨折",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血瘀疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "积聚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "接骨续筋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "日华子本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "开宝本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "玉楸药解",
+      "object_type": "Source"
+    },
+    {
+      "subject": "自然铜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "纲目",
+      "object_type": "Source"
+    }
+  ]
+}

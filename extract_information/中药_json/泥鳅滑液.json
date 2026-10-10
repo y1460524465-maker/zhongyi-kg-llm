@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "name": "泥鳅滑液",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利尿通淋，解毒消肿",
+        "indication": "小便不通，热淋，痈疽，丹毒，疔肿，腮腺炎，中耳炎，烧伤，漆疮",
+        "usage": "外用：适量，涂搽；或滴耳"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泥鳅滑液",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿通淋，解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泥鳅滑液",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泥鳅滑液",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泥鳅滑液",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泥鳅滑液",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "丹毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泥鳅滑液",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泥鳅滑液",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泥鳅滑液",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中耳炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泥鳅滑液",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烧伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泥鳅滑液",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "漆疮",
+      "object_type": "Symptom"
+    }
+  ]
+}

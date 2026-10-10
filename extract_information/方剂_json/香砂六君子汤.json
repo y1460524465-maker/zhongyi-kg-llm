@@ -1,0 +1,171 @@
+{
+  "entities": [
+    {
+      "name": "香砂六君子汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "藿香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "8分"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6分"
+      }
+    },
+    {
+      "name": "宿砂仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "8分"
+      }
+    },
+    {
+      "name": "脾胃虚寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "恶心呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食欲不振",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口舌生疮",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香砂六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藿香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "宿砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂六君子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "脾胃虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "恶心呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口舌生疮",
+      "object_type": "Symptom"
+    }
+  ]
+}

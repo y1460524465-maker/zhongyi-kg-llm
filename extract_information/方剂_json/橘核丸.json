@@ -1,0 +1,344 @@
+{
+  "entities": [
+    {
+      "name": "橘核丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "散寒止痛",
+        "indication": "寒湿疝气。睾丸肿胀偏坠或坚硬如石，或痛引脐腹。",
+        "taboo": null,
+        "usage": "上药共为细末，酒糊为丸，如梧桐子大。每服70丸，空腹时用盐酒或盐汤送下。"
+      }
+    },
+    {
+      "name": "橘核",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "海藻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "processing": "洗"
+      }
+    },
+    {
+      "name": "昆布",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "processing": "洗"
+      }
+    },
+    {
+      "name": "海带",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "processing": "洗"
+      }
+    },
+    {
+      "name": "川楝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "processing": "去肉、炒"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "processing": "麸炒"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "processing": "去皮、姜汁炒"
+      }
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "processing": "麸炒"
+      }
+    },
+    {
+      "name": "延胡索",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "processing": "炒，去皮"
+      }
+    },
+    {
+      "name": "桂心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "processing": "不见火"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "processing": "不见火"
+      }
+    },
+    {
+      "name": "寒湿疝气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "睾丸肿胀",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "偏坠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痛引少腹",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疝痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "睾丸鞘膜积液",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急慢性睾丸炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "睾丸结核",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "附睾炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "散寒止痛",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒湿疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "睾丸鞘膜积液",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急慢性睾丸炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "睾丸结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "附睾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "睾丸肿胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏坠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛引少腹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疝痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "散寒止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘核",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海藻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "昆布",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海带",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川楝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "延胡索",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "寒湿疝气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "睾丸肿胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "寒湿疝气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "偏坠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "寒湿疝气",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "痛引少腹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘核丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/橘核丸",
+      "object_type": "Source"
+    }
+  ]
+}

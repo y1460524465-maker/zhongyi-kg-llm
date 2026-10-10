@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "香加皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，4.5~9g；或浸酒或入丸、散。外用：适量，煎水外洗。",
+        "effect": "利水消肿，祛风湿，壮筋骨。",
+        "indication": "风湿性关节炎，小儿筋骨软弱，脚痿行迟，水肿小便不利。",
+        "taboo": "血热、旰阳上亢者忌用。",
+        "origin": "为双子叶植物药萝藦科植物杠柳的根皮。",
+        "place": "主产山西、河南、河北、山东。此外，四川、甘肃、湖南、辽宁、吉林、江苏等地亦产。",
+        "processing": "拣净杂质，用水洗净，闷润后切段，晒干。",
+        "property_flavor": "味苦，有特异香气。",
+        "traits": "根皮呈卷简状或糟状，少数呈不规则块片状，长3~12cm直径0.7~2cm，厚2~5mm。外表面灰棕色至黄棕色，粗糙，有横向皮孔，栓皮常呈鳞片状肃落，露出灰白色部；内表面淡黄色至灰黄色，稍平滑，有细纵纹。体轻，质脆，易折断，断面黄白色，不整齐。以条粗、皮厚、呈卷简状、香气浓、味苦者为佳。"
+      }
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿筋骨软弱",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脚痿行迟",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四川中药志",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "陕甘宁青中草药选",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香加皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "香加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿筋骨软弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚痿行迟",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香加皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "四川中药志",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香加皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "陕甘宁青中草药选",
+      "object_type": "Source"
+    }
+  ]
+}

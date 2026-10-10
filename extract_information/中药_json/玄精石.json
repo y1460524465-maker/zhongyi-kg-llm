@@ -1,0 +1,234 @@
+{
+  "entities": [
+    {
+      "name": "玄精石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3～15g，用时捣碎，先煎；或入丸、散。",
+        "effect": "滋阴，降火，软坚，消痰。",
+        "indication": "阳盛阴虚，壮热烦渴，头风脑痛，目赤障翳，重舌，木舌，咽喉肿痛，头疮，水火烫伤。",
+        "property_flavor": "味微咸",
+        "traits": "本品为类圆形、长条形或不规则的片状物，长约至2cm，边缘薄，中间厚，有的形似龟背。灰白色或略带淡灰棕色，有的中间夹杂黑色斑纹，半透明。质坚脆，折断面显玻璃样光泽。气微。"
+      }
+    },
+    {
+      "name": "正阳丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "先用热水浴后，以艾汤研下一丸，以衣盖汗出为度。"
+      }
+    },
+    {
+      "name": "来复丹",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服三十粒，空心粥饮下，甚者五十粒，小儿三、五粒，新生婴儿一粒。"
+      }
+    },
+    {
+      "name": "玄精丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每于食前，以粥饮下十丸。"
+      }
+    },
+    {
+      "name": "珍珠散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服半钱，新汲水调下。"
+      }
+    },
+    {
+      "name": "玄精石散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服半钱，竹叶汤调下。"
+      }
+    },
+    {
+      "name": "牛黄散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每度用药半钱，先于重舌上以披针披破出血，用盐汤漱口，然后掺药于舌上，咽津。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "软坚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳盛阴虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "壮热烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风脑痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤障翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "重舌",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "木舌",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玄精石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水火烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "正阳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "太阴玄精",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "正阳丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "来复丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "太阴玄精石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "来复丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "玄精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "太阴玄精",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玄精丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "珍珠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "太阴玄精石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "珍珠散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "玄精石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄精石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玄精石散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《小儿卫生总微论方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牛黄散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "太阴玄精石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    }
+  ]
+}

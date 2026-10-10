@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "白花蛇舌草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，利湿，解毒",
+        "indication": "肺热喘咳，扁桃体炎，咽喉炎，阑尾炎，痢疾，尿路感染，黄疸，肝炎，盆腔炎，附件炎，痈肿疔疮，毒蛇咬伤，肿瘤",
+        "meridian": "心经、肝经、脾经",
+        "processing": "夏秋采集，洗净，鲜用或晒干",
+        "property_flavor": "味淡",
+        "taboo": "孕妇慎用",
+        "dosage": "煎汤，15~30g，大剂量可用至60g",
+        "origin": "茜草科耳草属植物白花蛇舌草Hedyotis diffusa Willd.[Oldenlandia diffusa （Willd.） Roxb.]的全草"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,180 @@
+{
+  "entities": [
+    {
+      "name": "白杨树皮",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白杨皮,山杨皮",
+        "effect": "祛风，行瘀，消痰",
+        "indication": "风痹，脚气，扑损瘀血，妊娠下痢，牙痛，口疮",
+        "origin": "《雷公炮炙论》",
+        "processing": "以铜刀刮粗皮蒸，从巳至未，出，用布袋盛，于屋东挂干用",
+        "property_flavor": null,
+        "taboo": null,
+        "dosage": "内服：煎汤，10-30g；或研末；或浸酒。外用：适量，煎水含漱；或浸洗，或研末调敷",
+        "traits": null,
+        "meridian": null,
+        "place": null
+      }
+    },
+    {
+      "name": "风痹",
+      "type": "Disease"
+    },
+    {
+      "name": "脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "扑损瘀血",
+      "type": "Symptom"
+    },
+    {
+      "name": "妊娠下痢",
+      "type": "Disease"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "口疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《外台》",
+      "type": "Source"
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source"
+    },
+    {
+      "name": "《梅师集验方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "扑损瘀血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠下痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《千金方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《梅师集验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白杨树皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痰",
+      "object_type": "Effect"
+    }
+  ]
+}

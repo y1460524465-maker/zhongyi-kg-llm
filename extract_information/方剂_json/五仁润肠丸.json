@@ -1,0 +1,199 @@
+{
+  "entities": [
+    {
+      "name": "五仁润肠丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "润肠通便",
+        "indication": "大肠燥热，便秘腹胀，食少，消化不良",
+        "taboo": null,
+        "usage": "口服，一次1丸，一日２次"
+      }
+    },
+    {
+      "name": "全国中药成药处方集",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "火麻仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "郁李仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "柏子仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "苁蓉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "广皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "熟大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "松子仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "便秘腹胀",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食少",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "消化不良",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "全国中药成药处方集",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "火麻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "郁李仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柏子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苁蓉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "广皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "松子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "润肠通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五仁润肠丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "大肠燥热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大肠燥热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "便秘腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大肠燥热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "食少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大肠燥热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "消化不良",
+      "object_type": "Symptom"
+    }
+  ]
+}

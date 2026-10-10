@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "毛笋",
+      "type": "Herb",
+      "attributes": {
+        "alias": "茅竹笋",
+        "effect": "化痰，消胀，透疹",
+        "indication": "食积腹胀，痘疹不出",
+        "usage": "内服：煎汤30-60g；或煮食",
+        "taboo": "脾胃虚弱者慎服",
+        "processing": "4月采挖，鲜用",
+        "origin": "禾本科植物毛竹的苗",
+        "traits": "毛竹，又名：猫头竹、江南竹、猫竹、茅竹、孟宗竹、狸头竹、南竹"
+      }
+    },
+    {
+      "name": "食积腹胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "痘疹不出",
+      "type": "Symptom"
+    },
+    {
+      "name": "汪颖《食物本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《食物宜忌》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source"
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "毛笋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "毛笋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痘疹不出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "毛笋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛笋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消胀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛笋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "透疹",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛笋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "汪颖《食物本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "毛笋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《食物宜忌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "毛笋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "毛笋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "毛笋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "毛笋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《随息居饮食谱》",
+      "object_type": "Source"
+    }
+  ]
+}

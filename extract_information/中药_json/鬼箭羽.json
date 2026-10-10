@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "鬼箭羽",
+      "type": "Herb",
+      "attributes": {
+        "alias": "卫矛、鬼箭、六月凌、四面锋、蓖箕柴、四棱树、山鸡条子、四面戟、见肿消、麻药",
+        "effect": "破血通经，解毒消肿，杀虫",
+        "indication": "经闭，癥瘕，产后瘀滞腹痛，虫积腹痛",
+        "origin": "为卫矛科植物卫矛的具翅状物的枝条或翅状附属物",
+        "place": "分布于东北及河北、陕西、甘肃、山东、江苏、安徽、浙江、湖北、湖南、四川、贵州、云南等地",
+        "property_flavor": "味微苦",
+        "dosage": "内服：煎汤，4~9g；或浸酒或入丸、散。外用：适量，捣敷或煎汤洗；或研末调敷",
+        "taboo": "妊娠不可服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鬼箭羽",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破血通经，解毒消肿，杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鬼箭羽",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼箭羽",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼箭羽",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后瘀滞腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鬼箭羽",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虫积腹痛",
+      "object_type": "Disease"
+    }
+  ]
+}

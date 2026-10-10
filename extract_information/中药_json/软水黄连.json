@@ -1,0 +1,136 @@
+{
+  "entities": [
+    {
+      "name": "软水黄连",
+      "type": "Herb",
+      "attributes": {
+        "alias": "软杆子水黄连",
+        "effect": "清热，利湿，解毒",
+        "indication": "痢疾，黄疸，目赤，痈肿疮疖",
+        "usage": "内服：煎汤，9-15g。外用：适量，捣敷；或煎水熏洗"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "目赤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痈肿疮疖",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "清热",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "利湿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "解毒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《民间常用草药汇编》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "广州部队《常用中草药手册》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "软水黄连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "软水黄连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "软水黄连",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "软水黄连",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疮疖",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "软水黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "软水黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "软水黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "软水黄连",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《民间常用草药汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "软水黄连",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "软水黄连",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广州部队《常用中草药手册》",
+      "object_type": "Source"
+    }
+  ]
+}

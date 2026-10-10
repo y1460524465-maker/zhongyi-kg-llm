@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "天花粉",
+      "type": "Herb",
+      "attributes": {
+        "alias": "栝楼根、白药、瑞雪、天瓜粉、花粉、屎瓜根、栝蒌粉、萎粉",
+        "effect": "生津，止渴，降火，润燥，排脓，消肿",
+        "indication": "热病口渴，消渴，黄疸，肺燥咳血，痈肿，痔瘘",
+        "taboo": "脾胃虚寒大便滑泄者忌服",
+        "dosage": "内服：煎汤，9~15g；或入丸、散。 外用：适量，研末撒布或调敷",
+        "origin": "本品为葫芦科植物栝楼Trichosanthes kirilowii Maxim.或双边栝楼Trichosan-thes rosthornii Herms 的干燥根",
+        "place": "以河南产量大、质量优，习称安阳花粉",
+        "processing": "拣去杂质，大小块分开，用水泡约六成透，捞出，闷润至内外湿度均匀，切片，晒干；或用水洗净，捞出，晒至极干，捣成小块"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "郁李仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~10g；或入丸、散。",
+        "effect": "润燥，滑肠，下气，利水",
+        "indication": "治大肠气滞，燥涩不通，小便不利，大腹水肿，四肢浮肿，脚气。",
+        "meridian": "归脾经、大肠经、小肠经",
+        "origin": "本品为蔷薇科植物欧李（酸丁、小李红）Prunus humilis Bunge.、郁李（赤李子）Prunus japonica Thunb.或长柄扁桃Prunus pedunculata Maxim.的干燥成熟种子。前二种习称小李仁，后一种习称大李仁。夏、秋二季采收成熟果实，除去果肉及核壳，取出种子，干燥。",
+        "place": "辽宁、内蒙古、河北、河南、山西、山东、江苏、浙江、福建、湖北、广东等地",
+        "processing": "筛去泥屑，淘净，拣净杂质和碎壳，晒干，用时捣碎。",
+        "property_flavor": "气微，味微苦",
+        "taboo": "①《本草经疏》：津液不足者，慎勿轻用。\n②《得配本草》：大便不实者禁用。",
+        "traits": "干燥的成热种子，略呈长卵形，长5～7毫米，中部直径3～5毫米。表面黄白色、黄棕色或深棕色，由基部向上，具纵向脉纹。顶端锐尖，基部钝曲，中间有圆脐。种皮薄，易剥落，种仁两瓣，白色，带油性。以颗粒饱满、淡黄白色、整齐不碎、不出油、无核壳者为佳。"
+      }
+    },
+    {
+      "name": "大肠气滞",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "燥涩不通",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "大腹水肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢浮肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脚气",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "郁李仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润燥，滑肠，下气，利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "郁李仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大肠气滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "郁李仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "燥涩不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "郁李仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "郁李仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大腹水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "郁李仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "郁李仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    }
+  ]
+}

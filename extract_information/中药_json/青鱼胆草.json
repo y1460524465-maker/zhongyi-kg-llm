@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "name": "青鱼胆草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "疏风清热，健脾利湿，杀虫",
+        "indication": "风热咳嗽；黄疸；风湿痹痛；蛔虫病",
+        "usage": "内服：煎汤，15～30g；或泡酒；或煮粥食。外用：适量，煎水熏洗",
+        "dosage": "15～30g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "青鱼胆草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风清热，健脾利湿，杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青鱼胆草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青鱼胆草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青鱼胆草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青鱼胆草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风热咳嗽",
+      "object_type": "Symptom"
+    }
+  ]
+}

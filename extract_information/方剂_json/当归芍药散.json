@@ -1,0 +1,257 @@
+{
+  "entities": [
+    {
+      "name": "当归芍药散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "疏肝健脾",
+        "indication": "妇人妊娠，肝郁气滞，脾虚湿胜，腹中疠痛；现用于妇女功能性水肿、慢性盆腔炎、功能性子宫出血、痛经、妊娠阑尾炎，以及慢性肾炎、肝硬化腹水、脾功能亢进等属脾虚肝郁者",
+        "usage": "每服6克，温酒送下，一日三次"
+      }
+    },
+    {
+      "name": "六气经纬丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "当归芍药散",
+        "effect": "祛风，补劳，养真阳，退邪热，缓中，安和神志，润泽容色；散寒邪、温瘴、时气"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "《元和纪用经》",
+      "type": "Source"
+    },
+    {
+      "name": "仲景",
+      "type": "Source"
+    },
+    {
+      "name": "妊娠",
+      "type": "Disease"
+    },
+    {
+      "name": "肝郁气滞",
+      "type": "Disease"
+    },
+    {
+      "name": "脾虚湿胜",
+      "type": "Disease"
+    },
+    {
+      "name": "功能性水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性盆腔炎",
+      "type": "Disease"
+    },
+    {
+      "name": "功能性子宫出血",
+      "type": "Disease"
+    },
+    {
+      "name": "痛经",
+      "type": "Disease"
+    },
+    {
+      "name": "妊娠阑尾炎",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性肾炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肝硬化腹水",
+      "type": "Disease"
+    },
+    {
+      "name": "脾功能亢进",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《元和纪用经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六气经纬丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《元和纪用经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "疏肝健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝郁气滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚湿胜",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "功能性水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性盆腔炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "功能性子宫出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠阑尾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝硬化腹水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾功能亢进",
+      "object_type": "Disease"
+    }
+  ]
+}

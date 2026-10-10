@@ -1,0 +1,287 @@
+{
+  "entities": [
+    {
+      "name": "玉米须",
+      "type": "Herb",
+      "attributes": {
+        "alias": "玉麦须、玉蜀黍蕊、棒子毛",
+        "effect": "利尿消肿，泄热，平肝，利胆",
+        "indication": "治肾炎水肿，脚气，黄疸肝炎，高血压，胆囊炎，胆结石，糖尿病，吐血衄血，鼻渊，乳痈",
+        "meridian": "肾经；胃经；肝经；胆经",
+        "origin": "禾本科植物玉蜀黍的花柱和柱头",
+        "place": "全国各地广泛栽培",
+        "property_flavor": null,
+        "dosage": "内服：煎汤，15~30g；大剂量60~90g；或烧存性研末。外用：适量，烧烟吸入",
+        "taboo": "煮食去苞须；不作药用时勿服",
+        "processing": null,
+        "traits": "本品常集结成疏松团簇，花柱线状或须状，完整者长至30mm，直径约0.5mm，淡绿色、黄绿色至棕红色，有光泽，略透明，柱头2裂，叉开，长至3mm，质柔软。以柔软、有光泽者为佳"
+      }
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《民间常用草药汇编》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《河北药材》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《浙江民间草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "肾炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脚气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "黄疸肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "高血压",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胆囊炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胆结石",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "糖尿病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "吐血衄血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "鼻渊",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "利尿消肿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "泄热",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "平肝",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "利胆",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泄热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利胆",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胆囊炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胆结石",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻渊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《民间常用草药汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《河北药材》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "玉米须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    }
+  ]
+}

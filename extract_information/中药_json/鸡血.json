@@ -1,0 +1,274 @@
+{
+  "entities": [
+    {
+      "name": "鸡血",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风，活血通络，解毒",
+        "indication": "小儿惊风，口面歪斜，目赤流泪，木舌舌胀，中恶腹痛，痿痹，跌打骨折，痘疮不起，妇女下血不止，痈疽疮癣，毒虫咬伤",
+        "usage": "内服：生血热饮，每次20ml，每日2次。外用：适量，涂敷；或点眼、滴耳。"
+      }
+    },
+    {
+      "name": "雉科动物家鸡",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《青囊杂纂》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《保寿堂经验方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《坦仙皆效方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《范汪方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "小儿惊风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "口面歪斜",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目赤流泪",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "木舌舌胀",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "中恶腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痿痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "跌打骨折",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痘疮不起",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇女下血不止",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痈疽疮癣",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "毒虫咬伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "筋骨折伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "发背痈疽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "对口毒疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "燥癣作痒",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风，活血通络，解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口面歪斜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤流泪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "木舌舌胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中恶腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痘疮不起",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女下血不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒虫咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋骨折伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "发背痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "对口毒疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "燥癣作痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "雉科动物家鸡",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "鸡血",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《青囊杂纂》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《保寿堂经验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《坦仙皆效方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡血",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《范汪方》",
+      "object_type": "Source"
+    }
+  ]
+}

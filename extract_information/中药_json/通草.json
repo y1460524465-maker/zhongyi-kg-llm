@@ -1,0 +1,133 @@
+{
+  "entities": [
+    {
+      "name": "通草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "寇脱、离南、活莌、倚商、通脱木、葱草、白通草、通花、花草、大通草、通大海、泡通、五加风、宽肠、大通塔、五角加皮、通花五加",
+        "effect": "泻肺，清热利尿，通气下乳",
+        "indication": "主治淋病涩痛，水肿尿少，小便短赤，黄疸，产妇乳汁不通，目昏，鼻塞",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "为五加科植物通脱木的茎髓",
+        "place": "分布福建、台湾、广西、湖南、湖北、云南、贵州、四川等地",
+        "processing": "通草：拣去杂质，切片。朱通草：取通草片，置盆内喷水少许，微润，加朱砂细粉，撒布均匀，并随时翻动，至外面挂匀朱砂为度，取出，晾干。(每通草片10斤，用朱砂10两)",
+        "dosage": "内服，煎汤，3~6g，或入丸、散",
+        "taboo": "气阴两虚，内无湿热及孕妇慎服",
+        "traits": null
+      }
+    },
+    {
+      "name": "通脱木",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病涩痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿尿少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便短赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产妇乳汁不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通气下乳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草图经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学启源》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草缶要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《长沙药解》",
+      "object_type": "Source"
+    }
+  ]
+}

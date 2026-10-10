@@ -1,0 +1,237 @@
+{
+  "entities": [
+    {
+      "name": "蛤壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热化痰，软坚散结，制酸止痛",
+        "indication": "用于痰火咳嗽，胸胁疼痛，痰中带血，瘰疠，瘿瘤，胃痛吞酸；外治湿疹，烫伤",
+        "taboo": "①《本草经集注》：蜀漆为之使。畏狗胆、甘遂、芫花。\n②《本草汇言》：病因热邪痰结气闭者宜之，若气虚有寒，中阳不运而为此证者，切勿轻授。",
+        "usage": "内服：煎汤，10~15g，宜先煎，蛤粉宜包煎；入丸散，1~3g。\n外用：适量，研极细粉撒布或油调后敷患处。"
+      }
+    },
+    {
+      "name": "文蛤",
+      "type": "Herb"
+    },
+    {
+      "name": "青蛤",
+      "type": "Herb"
+    },
+    {
+      "name": "痰火咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸胁疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰中带血",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疠",
+      "type": "Disease"
+    },
+    {
+      "name": "瘿瘤",
+      "type": "Disease"
+    },
+    {
+      "name": "胃痛吞酸",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "烫伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳逆上气",
+      "type": "Symptom"
+    },
+    {
+      "name": "喘息",
+      "type": "Symptom"
+    },
+    {
+      "name": "烦满",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸痛寒热",
+      "type": "Symptom"
+    },
+    {
+      "name": "水气浮肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "嗽逆上气",
+      "type": "Symptom"
+    },
+    {
+      "name": "项下瘤瘿",
+      "type": "Symptom"
+    },
+    {
+      "name": "十二水满急痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "呕逆",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴痿",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸胁胀急",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "五痔",
+      "type": "Disease"
+    },
+    {
+      "name": "妇人崩中",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下病",
+      "type": "Disease"
+    },
+    {
+      "name": "淋疾",
+      "type": "Disease"
+    },
+    {
+      "name": "清热",
+      "type": "Effect"
+    },
+    {
+      "name": "化痰",
+      "type": "Effect"
+    },
+    {
+      "name": "软坚散结",
+      "type": "Effect"
+    },
+    {
+      "name": "制酸止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "清热利湿",
+      "type": "Effect"
+    },
+    {
+      "name": "化痰饮",
+      "type": "Effect"
+    },
+    {
+      "name": "消积聚",
+      "type": "Effect"
+    },
+    {
+      "name": "除血痢",
+      "type": "Effect"
+    },
+    {
+      "name": "小便",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蛤壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛤壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "软坚散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛤壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "制酸止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛤壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰火咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰中带血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疠",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛吞酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烫伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "name": "八角枫根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白龙须、白金条、白筋条",
+        "effect": "祛风除湿，舒筋活络，散瘀止痛",
+        "indication": "风湿痹痛，四肢麻木，跌打损伤",
+        "property_flavor": "辛；苦；性微温；小毒",
+        "usage": "内服：煎汤，须根1-3g，根3-6g；或浸酒。外用：适量，捣敷或煎汤洗",
+        "taboo": "孕妇、小儿及年老体弱的病人均不宜服用"
+      }
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "四肢麻木",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "八角枫根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八角枫根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八角枫根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八角枫根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿，舒筋活络，散瘀止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

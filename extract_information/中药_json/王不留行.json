@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "王不留行",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3~9g",
+        "effect": "活血通经，催生下乳，消肿敛疮",
+        "indication": "主治妇女经闭，乳汁不通，难产，血淋，痈肿，金疮出血",
+        "taboo": "孕妇勿服；失血病、崩漏病并须忌之"
+      }
+    }
+  ],
+  "relations": []
+}

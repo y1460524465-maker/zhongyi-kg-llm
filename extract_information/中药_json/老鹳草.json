@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "name": "老鹳草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风通络，活血，清热解毒",
+        "indication": "风湿疼痛，拘挛麻木，痈疽，跌打，肠炎，痢疾",
+        "usage": "内服：煎汤，9~15g；或浸酒；或熬膏。外用：适量，捣烂加酒炒热外敷或制成软膏涂敷。",
+        "alias": "五叶草、老官草、五瓣花、老贯草、天罡草、五叶联、破铜钱、老鸹筋、贯筋、五齿粑、老鸹嘴、鹌子嘴",
+        "origin": "牻牛儿苗科植物牻牛儿苗Erodium stephanianum Willd. 、老鹳草Geranium Wilfordii Maxim.或野老鹳草Geranium carolinianum L. 的干燥地上部分",
+        "traits": "长嘴老鹳草、短嘴老鹳草、野老鹳草"
+      }
+    },
+    {
+      "name": "风湿疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "拘挛麻木",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "老鹳草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风通络，活血，清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "老鹳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老鹳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "拘挛麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老鹳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老鹳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老鹳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老鹳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    }
+  ]
+}

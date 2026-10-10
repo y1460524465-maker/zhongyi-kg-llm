@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "name": "土鳖虫",
+      "type": "Herb",
+      "attributes": {
+        "alias": "吐鳖虫、土元、地乌龟、蟅虫",
+        "effect": "破瘀血，续筋骨",
+        "indication": "筋骨折伤，瘀血经闭，癥瘕痞块",
+        "property_flavor": "味微咸",
+        "traits": "气腥臭"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "土鳖虫",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破瘀血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "土鳖虫",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "续筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "土鳖虫",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨折伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土鳖虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘀血经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土鳖虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕痞块",
+      "object_type": "Disease"
+    }
+  ]
+}

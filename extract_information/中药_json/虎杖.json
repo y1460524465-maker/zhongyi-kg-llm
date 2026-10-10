@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "虎杖",
+      "type": "Herb",
+      "attributes": {
+        "alias": "花斑竹、酸筒杆、酸汤梗、川筋龙、斑庄、斑杖根、大叶蛇总管、黄地榆",
+        "origin": "蓼科植物虎杖Polygonum cuspidatum Sieb. et Zucc.的干燥根茎和根",
+        "property_flavor": "味微苦",
+        "effect": "祛风，利湿，破瘀，通经",
+        "indication": "风湿筋骨疼痛，湿热黄疸，淋浊带下，妇女经闭，产后恶露不下，癥瘕积聚，痔漏下血，跌扑损伤，烫伤，恶疮癣疾",
+        "taboo": "有孕人勿服",
+        "dosage": "内服：煎汤，10~15g；或浸酒；或入丸、散。外用：适量，研末调敷；或煎浓汁湿敷；或熬膏涂擦"
+      }
+    }
+  ],
+  "relations": []
+}

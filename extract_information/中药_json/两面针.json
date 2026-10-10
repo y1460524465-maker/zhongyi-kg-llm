@@ -1,0 +1,130 @@
+{
+  "entities": [
+    {
+      "name": "两面针",
+      "type": "Herb",
+      "attributes": {
+        "alias": "入地金牛、红心刺刁根、红倒钩簕、两背针、双面针、双面刺、叶下穿针、大叶猫枝簕、上山虎、下山虎、山椒",
+        "effect": "活血化瘀，行气止痛，祛风通络，解毒消肿",
+        "indication": "跌扑损伤，胃痛，牙痛，风湿痹痛，毒蛇咬伤；外治烧烫伤",
+        "property_flavor": "苦、辛，平；有小毒",
+        "meridian": "归肝、胃经",
+        "usage": "内服：煎汤，5～10g。外用适量，研末调敷或煎水洗患处",
+        "taboo": "不能过量服用；忌与酸味食物同服",
+        "origin": "本品为芸香科植物两面针Zanthorμlum nitidum(Roxb.)DC．的干燥根"
+      }
+    },
+    {
+      "name": "跌扑损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "胃痛",
+      "type": "Disease"
+    },
+    {
+      "name": "牙痛",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Disease"
+    },
+    {
+      "name": "活血化瘀",
+      "type": "Effect"
+    },
+    {
+      "name": "行气止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "祛风通络",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒消肿",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "两面针",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "两面针",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "两面针",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牙痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "两面针",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "两面针",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "两面针",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "两面针",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血化瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "两面针",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "两面针",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "两面针",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

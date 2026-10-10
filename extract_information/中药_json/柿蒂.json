@@ -1,0 +1,372 @@
+{
+  "entities": [
+    {
+      "name": "柿蒂",
+      "type": "Herb",
+      "attributes": {
+        "alias": "柿钱、柿丁、柿子把、柿萼",
+        "dosage": "5～10g",
+        "effect": "降逆下气",
+        "indication": "用于呃逆，噫气，反胃。",
+        "origin": "柿科植物柿的宿存花萼",
+        "processing": "秋、冬季收集成熟柿子的果蒂（带宿存花萼），去柄，晒干。",
+        "property_flavor": "味涩",
+        "traits": "个大而厚、质硬、色黄褐者为佳"
+      }
+    },
+    {
+      "name": "孟诜",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《洁古家珍》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《村居救急方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《济生方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《江西中医药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《奇效良方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《中藏经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "柿钱散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "呃逆",
+        "usage": "为细末，水煎，食后服。"
+      }
+    },
+    {
+      "name": "柿蒂汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "伤寒呕哕不止",
+        "usage": "粗捣筛，只作一服，用水一盏，煎至半盏。去滓温服，不拘时。"
+      }
+    },
+    {
+      "name": "济生方柿蒂汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "胸满咳逆不止",
+        "usage": "每服12克，水一盏半，姜五片，煎至七分，去滓热服，不拘时候。"
+      }
+    },
+    {
+      "name": "丁香散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "伤寒咳逆、噎、汗",
+        "usage": "热汤点二钱，乘热服，不以时。"
+      }
+    },
+    {
+      "name": "丁香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白梅",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "乌梅核中之白仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "高良姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "海螵蛸",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降逆下气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呃逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噫气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "哕气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气隔反胃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "聤耳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柿钱散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柿蒂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柿钱散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柿钱散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柿钱散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "呃逆",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柿钱散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《洁古家珍》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柿蒂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白梅",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒呕哕不止",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "济生方柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柿蒂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济生方柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济生方柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胸满咳逆不止",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "济生方柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《济生方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "丁香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柿蒂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "丁香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "丁香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "丁香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "高良姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "丁香散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒咳逆、噎、汗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁香散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《中藏经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "孟诜",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柿蒂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "entities": [
+    {
+      "name": "重楼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "七叶一枝花、三层草、草河车、百河车、金线重楼根、重台草、白甘遂",
+        "effect": "清热解毒，平喘止咳，熄风定惊",
+        "indication": "痈肿，疔疮，瘰疬，喉痹，慢性气管炎，小儿惊风抽搐，蛇虫咬伤",
+        "usage": "内服：煎汤，3~10g；研末，每次1~3g。外用：适量，磨汗涂布、研末调敷或鲜品捣敷",
+        "taboo": "体虚，无实火热毒，阴证外疡及孕妇均忌服",
+        "origin": "百合科植物七叶一枝花、金线重楼及其数种同属植物的根茎",
+        "property_flavor": "味微苦、麻"
+      }
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿惊风抽搐",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "蛇虫咬伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "平喘止咳",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "熄风定惊",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《分类草药性》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "重楼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "重楼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平喘止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "重楼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "熄风定惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "重楼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "重楼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "重楼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "重楼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "重楼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "重楼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风抽搐",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "重楼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇虫咬伤",
+      "object_type": "Disease"
+    }
+  ]
+}

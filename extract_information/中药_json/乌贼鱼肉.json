@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "name": "乌贼鱼肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养血滋阴",
+        "indication": "血虚经闭，崩漏，带下",
+        "usage": "内服：煮食，1~2条",
+        "taboo": "能动风气，不可久食"
+      }
+    },
+    {
+      "name": "血虚经闭",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "《本草求真》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source"
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source"
+    },
+    {
+      "name": "姚可成《食物本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《陆川本草》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血虚经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血滋阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求真》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林纂要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《随息居饮食谱》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "姚可成《食物本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陆川本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌贼鱼肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人经闭",
+      "object_type": "Disease"
+    }
+  ]
+}

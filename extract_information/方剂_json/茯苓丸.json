@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "茯苓丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "痰停中脘证。两臂疼痛，手不得上举，或左右时复转移，或两手疲软，或四肢浮肿，舌苔白腻，脉沉细或弦滑等。"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "风化硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "风化硝",
+      "object_type": "Herb"
+    }
+  ]
+}

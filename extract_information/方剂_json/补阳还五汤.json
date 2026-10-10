@@ -1,0 +1,280 @@
+{
+  "entities": [
+    {
+      "name": "补阳还五汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补气活血通络",
+        "indication": "中风后遗症。正气亏虚，脉络瘀阻，半身不遂，口眼歪斜，语言謇涩，口角流涎。大便干燥，小便频数，或遗尿不禁，舌苔白，脉缓。现用于脑血管意外后遗症、小儿麻痹后遗症，及其他原因引起的半身瘫痪、截瘫，属气虚血瘀者。",
+        "taboo": "中风正气未虚或阴虚阳亢，风、火、痰、湿等余邪未尽者，均忌用。",
+        "usage": "初得半身不遂，依本方加防风3克，服四五剂后去之；如已病三两个月，前医遵古方用寒凉药过多，加附子12～15克；如用散风药过多，加党参10～15克。"
+      }
+    },
+    {
+      "name": "黄耆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克"
+      }
+    },
+    {
+      "name": "当归尾",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "地龙",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克（去土）"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "半身不遂",
+      "type": "Symptom"
+    },
+    {
+      "name": "口眼歪斜",
+      "type": "Symptom"
+    },
+    {
+      "name": "语言謇涩",
+      "type": "Symptom"
+    },
+    {
+      "name": "口角流涎",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便干燥",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便频数",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗尿不禁",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌苔白",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉缓",
+      "type": "Symptom"
+    },
+    {
+      "name": "中风",
+      "type": "Disease"
+    },
+    {
+      "name": "中风后遗症",
+      "type": "Disease"
+    },
+    {
+      "name": "脑血管意外后遗症",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿麻痹后遗症",
+      "type": "Disease"
+    },
+    {
+      "name": "半身瘫痪",
+      "type": "Symptom"
+    },
+    {
+      "name": "截瘫",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄耆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归尾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地龙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中风后遗症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脑血管意外后遗症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿麻痹后遗症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "半身不遂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口眼歪斜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "语言謇涩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口角流涎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便干燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗尿不禁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉缓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "半身瘫痪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "截瘫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补阳还五汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补气活血通络",
+      "object_type": "Effect"
+    }
+  ]
+}

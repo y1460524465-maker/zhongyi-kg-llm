@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "丝带蕨",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热熄风，活血",
+        "indication": "小儿惊风，劳伤",
+        "usage": "内服：煎汤，9-18g；或浸酒",
+        "dosage": "干燥全草五至六钱"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丝带蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝带蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "劳伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝带蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热熄风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丝带蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    }
+  ]
+}

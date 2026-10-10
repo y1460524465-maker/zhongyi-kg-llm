@@ -1,0 +1,137 @@
+{
+  "entities": [
+    {
+      "name": "人中黄",
+      "type": "Herb",
+      "attributes": {
+        "alias": "甘草黄、甘中黄",
+        "effect": "清热，凉血，解毒",
+        "indication": "伤寒热病，大热烦渴，热毒斑疹，丹毒，疮疡",
+        "usage": "内服：煎汤（布包），2～3钱，或入丸、散。",
+        "taboo": "伤寒温疫非阳明实热者不宜用；痘疮非火热郁滞因而紫黑干陷倒靥者不宜用。"
+      }
+    },
+    {
+      "name": "日华子本草",
+      "type": "Source"
+    },
+    {
+      "name": "本草蒙筌",
+      "type": "Source"
+    },
+    {
+      "name": "本草经疏",
+      "type": "Source"
+    },
+    {
+      "name": "本草备要",
+      "type": "Source"
+    },
+    {
+      "name": "本经逢原",
+      "type": "Source"
+    },
+    {
+      "name": "大热烦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "热毒斑疹",
+      "type": "Symptom"
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疡",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大热烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热毒斑疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "日华子本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草蒙筌",
+      "object_type": "Source"
+    },
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草经疏",
+      "object_type": "Source"
+    },
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草备要",
+      "object_type": "Source"
+    },
+    {
+      "subject": "人中黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本经逢原",
+      "object_type": "Source"
+    }
+  ]
+}

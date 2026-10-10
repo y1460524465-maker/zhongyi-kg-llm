@@ -1,0 +1,143 @@
+{
+  "entities": [
+    {
+      "name": "毛茛",
+      "type": "Herb",
+      "attributes": {
+        "alias": "水茛、毛建、毛建草、猴蒜、天灸、毛堇、自灸、鹤膝草、瞌睡草、老虎草、犬脚迹、老虎脚迹草、火筒青、野芹菜、辣子草、辣辣草、毛芹菜、老虎须、老鼠脚底板、烂肺草、三脚虎、水芹菜",
+        "property_flavor": "辛，温，有毒",
+        "effect": "退黄，定喘，截疟，镇痛，消翳",
+        "indication": "用于疟疾，黄疸，偏头痛，胃痛，风湿关节痛，鹤膝风，痈肿，恶疮，疥癣，牙痛，火眼",
+        "usage": "外用：适量，捣敷患处或穴位，使局部发赤起泡时取去；或煎水洗",
+        "taboo": "本品有毒，一般不作内服。皮肤有破损及过敏者禁用，孕妇慎用",
+        "origin": "《本草拾遗》"
+      }
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "退黄",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "定喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "截疟",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消翳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "偏头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鹤膝风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "火眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛茛",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    }
+  ]
+}

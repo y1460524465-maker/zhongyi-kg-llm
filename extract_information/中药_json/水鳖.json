@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "name": "水鳖",
+      "type": "Herb",
+      "attributes": {
+        "alias": "水旋复、油灼灼、苤菜、白苹",
+        "effect": "清热利湿",
+        "indication": "妇人赤白带下",
+        "dosage": "内服：研末，2-4g",
+        "origin": "水鳖科植物水鳖的全株",
+        "processing": null,
+        "property_flavor": null,
+        "traits": null,
+        "meridian": null,
+        "place": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水鳖",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水鳖",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人赤白带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水鳖",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "entities": [
+    {
+      "name": "酸枣仁汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "养血补肝，宁心安神",
+        "indication": "肝血不足，虚热内扰所致的虚烦不得眠、心悸、头目眩晕、夜间盗汗、咽干口燥",
+        "taboo": null,
+        "usage": "以水八升，煮酸枣仁，得六升，纳诸药，煮取三升，分温三服"
+      }
+    },
+    {
+      "name": "酸枣仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二升",
+        "effect": "养血补肝，宁心安神",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两",
+        "effect": "清热和中",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两",
+        "effect": "滋阴清热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两",
+        "effect": "宁心安神",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两",
+        "effect": "调气疏肝",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "神经衰弱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "神经官能症",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "更年期综合征",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "虚烦不得眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心悸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头目眩晕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "夜间盗汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽干口燥",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "酸枣仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养血补肝，宁心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚烦不得眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头目眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夜间盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽干口燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "神经衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "神经官能症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "酸枣仁汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "更年期综合征",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "酸枣仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血补肝，宁心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宁心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调气疏肝",
+      "object_type": "Effect"
+    }
+  ]
+}

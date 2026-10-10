@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "章鱼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "章举, 鱆, 望潮, 小八梢鱼, 络蹄, 蛸",
+        "effect": "养血通乳，解毒，生肌",
+        "indication": "主血虚经行不畅，产后缺乳，疮疡久溃",
+        "taboo": "有荨麻疹史者不宜服",
+        "usage": "内服：煎汤，30-60g（鲜品用150g）"
+      }
+    }
+  ],
+  "relations": []
+}

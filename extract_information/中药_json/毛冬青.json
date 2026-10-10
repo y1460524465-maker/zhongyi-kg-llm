@@ -1,0 +1,117 @@
+{
+  "entities": [
+    {
+      "name": "毛冬青",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乌尾丁，痈树，六月霜，细叶冬青，细叶青，苦田螺，老鼠啃，山冬青，毛披树，茶叶冬青，水火药，喉毒药，米碎丹，高山冬青，猫秋子草，毛雌子，美仔蕉，毛莱，六青，矮梯，耐糊梯，火烙木，山熊胆，毒药，酸味木",
+        "effect": "清热解毒，活血通络",
+        "indication": "风热感冒，肺热喘咳，咽痛，乳蛾，牙龈肿痛，胸痹心痛，中风偏瘫，血栓闭塞性脉管炎，丹毒，烧烫伤，痈疽，中心性视网膜炎",
+        "property_flavor": "微苦、涩，寒",
+        "meridian": "心、肺经",
+        "usage": "内服：煎汤，10-30g。外用：适量，煎汁涂或浸泡",
+        "taboo": "本品略有小毒，不宜大量久服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热喘咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳蛾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牙龈肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胸痹心痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风偏瘫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血栓闭塞性脉管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中心性视网膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "毛冬青",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通络",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "entities": [
+    {
+      "name": "乌头桂枝汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "破沉寒痼冷，温通表里",
+        "indication": "用于寒疝腹中痛，逆冷，手足不仁，若身疼痛，灸刺诸药不能治；贼风入腹，攻刺五脏，拘急不得转侧，呼叫发作，有时使人阴缩",
+        "taboo": null,
+        "usage": "以蜜2斤，煎减半，去滓，以桂枝汤5合解之，令得1升，后初服2合；不知，即服3合；又不知，复加至5合。其知者如醉状，得吐者为中病"
+      }
+    },
+    {
+      "name": "乌头",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "熬，去皮，不咀",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去皮",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炙",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "十二枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "蜜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2斤",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "寒疝",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腹中痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "逆冷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "手足不仁",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "贼风入腹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阴缩",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乌头桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "破沉寒痼冷，温通表里",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌头桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌头桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "贼风入腹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌头桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌头",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "寒疝",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹中痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "寒疝",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "逆冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "寒疝",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "手足不仁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "寒疝",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "贼风入腹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "阴缩",
+      "object_type": "Symptom"
+    }
+  ]
+}

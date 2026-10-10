@@ -1,0 +1,186 @@
+{
+  "entities": [
+    {
+      "name": "瓜蒌薤白半夏汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "行气解郁，通阳散结，祛痰宽胸",
+        "indication": "痰盛瘀阻胸痹证。症见胸中满痛彻背，背痛彻胸，不能安卧者，短气，或痰多粘而白，舌质紫暗或有暗点，苔白或腻，脉迟。",
+        "usage": "水煎分三次温服 (成人常用剂量: 5剂)"
+      }
+    },
+    {
+      "name": "瓜蒌实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "薤白",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "白酒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "70毫升"
+      }
+    },
+    {
+      "name": "胸痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胸中满痛彻背",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "背痛彻胸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "不能安卧",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "短气",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰多粘而白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌质紫暗或有暗点",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔白或腻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉迟",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "瓜蒌薤白半夏汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胸痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓜蒌薤白半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气解郁，通阳散结，祛痰宽胸",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓜蒌薤白半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "瓜蒌薤白半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薤白",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "瓜蒌薤白半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "瓜蒌薤白半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白酒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸中满痛彻背",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "背痛彻胸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "不能安卧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "短气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "痰多粘而白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌质紫暗或有暗点",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔白或腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉迟",
+      "object_type": "Symptom"
+    }
+  ]
+}

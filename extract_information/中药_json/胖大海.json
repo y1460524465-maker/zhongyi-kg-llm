@@ -1,0 +1,225 @@
+{
+  "entities": [
+    {
+      "name": "胖大海",
+      "type": "Herb",
+      "attributes": {
+        "alias": "安南子、大洞果、胡大海、大发、通大海、大海子、大海、大海榄",
+        "effect": "清热润肺，利咽解毒，清肠通便",
+        "indication": "干咳无痰，咽喉肿痛，肺热音哑，牙痛，热结便秘",
+        "dosage": "内服：煎汤或开水泡，2~4枚，大剂量可用至10枚；入散剂，用量减半",
+        "origin": "为梧桐科植物胖大海的种子",
+        "place": null,
+        "processing": "4~6月果实开裂时采取成熟的种子，晒干。除去杂质，筛去泥沙即可。不能用水洗。",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": "种子椭圆形，状如橄榄，长2~3cm，直径1.1~1.8cm，两端稍尖。表面黄棕色或棕色，稍有光泽，具不规则的细皱纹，基部稍尖，有淡色的圆形种脐。气微，味微甘，久嚼有粘性。"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "冰糖",
+      "type": "Herb"
+    },
+    {
+      "name": "金银花",
+      "type": "Herb"
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb"
+    },
+    {
+      "name": "蝉蜕",
+      "type": "Herb"
+    },
+    {
+      "name": "杭菊花",
+      "type": "Herb"
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "干咳无痰",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺热音哑",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "热结便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "干咳失音",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉燥痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙龈肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "慢性咽炎",
+      "type": "Disease"
+    },
+    {
+      "name": "《慎德堂方》",
+      "type": "Source"
+    },
+    {
+      "name": "《医界春秋》",
+      "type": "Source"
+    },
+    {
+      "name": "《偏方大全》",
+      "type": "Source"
+    },
+    {
+      "name": "《全国中草药汇编》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "胖大海",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "干咳无痰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胖大海",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胖大海",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热音哑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胖大海",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胖大海",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热结便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胖大海",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热润肺，利咽解毒，清肠通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胖大海、甘草",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "干咳失音",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胖大海、甘草",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉燥痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胖大海、甘草",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙龈肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胖大海、甘草",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《慎德堂方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "胖大海数枚",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胖大海数枚",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医界春秋》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "胖大海、冰糖",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "干咳失音",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胖大海、冰糖",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《偏方大全》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "胖大海、金银花、麦冬、蝉蜕",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热音哑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胖大海、杭菊花、生甘草",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性咽炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胖大海、杭菊花、生甘草",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《全国中草药汇编》",
+      "object_type": "Source"
+    }
+  ]
+}

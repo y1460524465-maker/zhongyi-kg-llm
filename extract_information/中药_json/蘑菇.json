@@ -1,0 +1,67 @@
+{
+  "entities": [
+    {
+      "name": "蘑菇",
+      "type": "Herb",
+      "attributes": {
+        "origin": "黑伞科植物蘑菇的子实体",
+        "effect": "健脾开胃，平肝提神",
+        "indication": "主饮食不消，纳呆，乳汁不足，高血压症，神倦欲眠",
+        "dosage": "内服：煎汤，6-9g，鲜品150-180g",
+        "taboo": "气滞者慎服。不可多食",
+        "processing": "多在秋、冬、春季栽培，成长后采集，除净杂质，晒干或烘干"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蘑菇",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蘑菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "饮食不消",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蘑菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "纳呆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蘑菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不足",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蘑菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神倦欲眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蘑菇",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾开胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蘑菇",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝提神",
+      "object_type": "Effect"
+    }
+  ]
+}

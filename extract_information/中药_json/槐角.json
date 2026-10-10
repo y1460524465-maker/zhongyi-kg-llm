@@ -1,0 +1,137 @@
+{
+  "entities": [
+    {
+      "name": "槐角",
+      "type": "Herb",
+      "attributes": {
+        "alias": "槐实、槐子、槐荚、槐豆、槐连灯、九连灯、天豆、槐连豆",
+        "effect": "清热，润肝，凉血，止血",
+        "indication": "主治肠风泻血，痔血，崩漏，血淋，血痢，心胸烦闷，风眩欲倒，阴疮湿痒。",
+        "processing": "1.蜜槐角：先取槐角置锅内用文火炒至鼓起，喷入蜜水，再炒至外皮光亮、不粘手为度，取出放凉。（每槐角100斤，用炼熟蜂蜜5斤）。\n2.槐角炭：将净槐角置锅内，文火炒至外表呈焦黑色，内呈老黄色为度，取出放凉。",
+        "taboo": "本草经集注：景天为之使。\n本草经疏：病人虚寒，脾胃作泄及阴虚血热而非实热者，外证似同，内因实异，即不宜服。\n本经逢原：胃虚食少及孕妇勿服。",
+        "dosage": "内服：煎汤，5~15g；或入丸、散；嫩角捣汁。\n外用：适量，水煎洗；研未掺或油调敷。"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "李杲",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《会约医镜》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风泻血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胸烦闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风眩欲倒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴疮湿痒",
+      "object_type": "Symptom"
+    }
+  ]
+}

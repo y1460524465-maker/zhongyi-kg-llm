@@ -1,0 +1,213 @@
+{
+  "entities": [
+    {
+      "name": "木香槟榔丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "木香槟榔丸",
+        "effect": "行气化积，清热燥湿",
+        "indication": "痢疾，食积。赤白痢疾，里急后重；或食积内停，脘腹胀满，大便秘结，舌苔黄腻，脉沉实。"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb"
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb"
+    },
+    {
+      "name": "青皮",
+      "type": "Herb"
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb"
+    },
+    {
+      "name": "广茂（莪术）",
+      "type": "Herb"
+    },
+    {
+      "name": "黄连",
+      "type": "Herb"
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb"
+    },
+    {
+      "name": "大黄",
+      "type": "Herb"
+    },
+    {
+      "name": "香附子",
+      "type": "Herb"
+    },
+    {
+      "name": "牵牛",
+      "type": "Herb"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "食积",
+      "type": "Disease"
+    },
+    {
+      "name": "赤白痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "里急后重",
+      "type": "Symptom"
+    },
+    {
+      "name": "脘腹胀满",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便秘结",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌苔黄腻",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉沉实",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "食积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "广茂（莪术）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "木香槟榔丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牵牛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "痢疾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "赤白痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痢疾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "里急后重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "食积",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脘腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "食积",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "大便秘结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "食积",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌苔黄腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "食积",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉沉实",
+      "object_type": "Symptom"
+    }
+  ]
+}

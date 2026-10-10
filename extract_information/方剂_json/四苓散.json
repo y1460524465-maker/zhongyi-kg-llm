@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "四苓散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "健脾利水渗湿",
+        "indication": "水湿内停，小便不利，泄泻，水肿，尿血",
+        "taboo": null,
+        "usage": "上为细末。每服6克，空腹时用温开水调服"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "猪苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四苓散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四苓散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四苓散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四苓散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四苓散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "健脾利水渗湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四苓散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "水湿内停",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四苓散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四苓散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "尿血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四苓散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四苓散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    }
+  ]
+}

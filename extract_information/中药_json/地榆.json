@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "地榆",
+      "type": "Herb",
+      "attributes": {
+        "alias": "酸赭、豚榆系、白地榆、鼠尾地榆、西地榆、地芽、野升麻、马连鞍、花椒地榆、水橄榄根、线形地榆、水槟榔、山枣参、蕨苗参、红地榆、岩地芨、血箭草、黄瓜香",
+        "effect": "凉血止血，清热解毒，消肿敛疮",
+        "indication": "治吐血，衄血，血痢，崩漏，肠风，痔漏，痈肿，湿疹，金疮，烧伤",
+        "meridian": "肝经；肺经；肾经；大肠经",
+        "dosage": "内服：煎汤，6~15g；鲜品30~120g；或入丸、散，亦可绞汁内服。外用：适量，煎水或捣汁外涂；也可研末掺或捣烂外敷",
+        "taboo": "虚寒人及水泻、白痢，即未可轻使。虚寒冷痢禁用。热痢初起亦不可用，恐涩早也。胎产虚寒泄泻，血崩脾虚泄泻，法并禁用。痈疮久病无火，并阳衰血证，并禁用之。气虚下陷而崩带及久痢脓血瘀晦不鲜者，又为切禁。性能伤胃，误服多致口噤不食",
+        "origin": "为蔷薇科植物地榆或长叶地榆的根。后者习称绵地榆。春季将发芽时或秋季植株枯萎后采挖，除去须根，洗净，干燥，或趁鲜切片，干燥",
+        "place": "1.分布于东北、华北、西北、华东、西南及河南、湖北、湖南、广西等地。2.分布于华东、中南、西南、及黑龙江、辽宁、河北、山西、甘肃等地",
+        "processing": "春季将发芽时或秋季植株枯萎后采挖，除去须根，洗净，干燥，或趁鲜切片，干燥",
+        "property_flavor": "味微苦涩"
+      }
+    },
+    {
+      "name": "血痢",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肠风",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔漏",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿疹",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "金疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烧伤",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "金疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地榆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烧伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

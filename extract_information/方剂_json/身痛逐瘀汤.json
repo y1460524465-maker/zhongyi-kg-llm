@@ -1,0 +1,210 @@
+{
+  "entities": [
+    {
+      "name": "身痛逐瘀汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "身痛逐瘀膝地龙，香附羌秦草归芎，黄芪苍柏量加减，要紧五灵没桃红",
+        "effect": "活血祛瘀，祛风除湿，通痹止痛",
+        "indication": "瘀血挟风湿，经络痹阻，肩痛、臂痛、腰腿痛，或周身疼痛，经久不愈者"
+      }
+    },
+    {
+      "name": "秦艽",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "灵脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "地龙",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "processing": "去土"
+      }
+    },
+    {
+      "name": "《医林改错》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秦艽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "灵脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地龙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "活血祛瘀，祛风除湿，通痹止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘀血挟风湿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "身痛逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医林改错》",
+      "object_type": "Source"
+    }
+  ]
+}

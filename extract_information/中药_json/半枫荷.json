@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "name": "半枫荷",
+      "type": "Herb",
+      "attributes": {
+        "alias": "枫荷桂、半边枫荷、阴阳叶、三不怕、铁巴掌、白背枫、半梧桐、番张麻、大叶半枫荷",
+        "effect": "祛风除湿，活血通络",
+        "indication": "风湿痹痛，手足麻木，腰肌劳损，脚气，跌打损伤",
+        "origin": "为梧桐科植物翻白叶树或窄叶半枫荷的根",
+        "processing": "全年幸免可采，挖取根部，除去须根及泥沙，切片，晒干",
+        "place": "广东、广西、福建、台湾",
+        "property_flavor": "味淡微涩",
+        "traits": "本品呈不规则的片块状，宽3-6cm，厚0.5-2cm。栓皮表面灰褐色或红褐色，有纵皱纹及疣状皮孔。质坚硬。断面皮部棕褐色；木部红棕色，具细密纹理。纵断面有纵向纹理及不规则的纵裂隙，纤维性。气微，味淡微涩。以片块薄、大小均匀、色红棕者为佳"
+      }
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "手足麻木",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰肌劳损",
+      "type": "Disease"
+    },
+    {
+      "name": "脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "半枫荷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "半枫荷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "半枫荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰肌劳损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半枫荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半枫荷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "香橼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "枸橼、钩缘干、香泡树、柑枸橼、香圆",
+        "effect": "理气，舒郁，消痰，利膈",
+        "indication": "胃痛胀满，痰饮咳嗽气塑，呕哕少食",
+        "property_flavor": "味微甜而苦辛",
+        "traits": "气清香",
+        "taboo": "阴虚血燥及孕妇气虚者慎服",
+        "dosage": "内服：煎汤，3~6g；或入丸、散",
+        "processing": "未切片者，打成小块；切片者润透，切丝，晾干"
+      }
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《饮膳正要》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草通玄》",
+      "type": "Source"
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香橼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气，舒郁，消痰，利膈",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香橼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛胀满",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "香橼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰饮咳嗽气塑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "香橼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "呕哕少食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香橼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香橼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮膳正要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香橼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草通玄》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香橼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香橼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林纂要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香橼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香橼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求原》",
+      "object_type": "Source"
+    }
+  ]
+}

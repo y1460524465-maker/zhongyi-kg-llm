@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "建瓴汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋补肝肾，涵养肝木；潜镇风阳，降逆平冲；引血下行",
+        "indication": "肝阳上亢，头目眩晕，耳鸣目胀，心悸健忘，烦躁不宁，舌强言语不利，口眼歪斜，半身麻木不遂，脉弦长而硬",
+        "taboo": "若大便不实者去赭石；若畏凉者，以熟地易生地",
+        "usage": "磨取铁锈浓水，煎上药服"
+      }
+    },
+    {
+      "name": "生怀山药",
+      "type": "Herb"
+    },
+    {
+      "name": "怀牛膝",
+      "type": "Herb"
+    },
+    {
+      "name": "生赭石",
+      "type": "Herb"
+    },
+    {
+      "name": "生龙骨",
+      "type": "Herb"
+    },
+    {
+      "name": "生牡蛎",
+      "type": "Herb"
+    },
+    {
+      "name": "生怀地黄",
+      "type": "Herb"
+    },
+    {
+      "name": "生杭芍",
+      "type": "Herb"
+    },
+    {
+      "name": "柏子仁",
+      "type": "Herb"
+    },
+    {
+      "name": "《医学衷中参西录》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "建瓴汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医学衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "建瓴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生怀山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "建瓴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "怀牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "建瓴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生赭石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "建瓴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "建瓴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "建瓴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生怀地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "建瓴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生杭芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "建瓴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柏子仁",
+      "object_type": "Herb"
+    }
+  ]
+}

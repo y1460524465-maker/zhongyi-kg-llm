@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "name": "南板蓝根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "土板蓝根，蓝靛根，板蓝根",
+        "effect": "清热解毒，凉血消斑",
+        "indication": "温疫时毒，发热咽痛，温毒发斑，丹毒",
+        "origin": "爵床科植物马蓝的干燥根茎和根",
+        "processing": "除去杂质，洗净，润透，切厚片，干燥"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "南板蓝根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，凉血消斑",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "南板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "温疫时毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南板蓝根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热咽痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "南板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "温毒发斑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "南板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    }
+  ]
+}

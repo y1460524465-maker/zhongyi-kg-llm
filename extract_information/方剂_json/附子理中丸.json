@@ -1,0 +1,167 @@
+{
+  "entities": [
+    {
+      "name": "附子理中丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "温中健脾",
+        "indication": "脾胃虚寒，脘腹冷痛，呕吐泄泻，手足不温",
+        "taboo": null,
+        "usage": "口服，水蜜丸一次6，大蜜丸一次1丸，一日2～3次"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "党参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "150g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "附子理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温中健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "附子理中丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "附子理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "附子理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "附子理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足不温",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "附子理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "党参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    }
+  ]
+}

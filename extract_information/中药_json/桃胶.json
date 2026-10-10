@@ -1,0 +1,162 @@
+{
+  "entities": [
+    {
+      "name": "桃胶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "调中和血，通淋，止痢",
+        "indication": "乳糜尿，糖尿病，尿路感染，痢疾，石淋，血淋",
+        "usage": "内服：煎汤，9-15g，或入丸、散"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调中和血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痢",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳糜尿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "糖尿病",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿路感染",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "石淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "石淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳糜尿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿路感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "古今录验方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "杨氏家藏方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "妇人良方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "千金方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "草药验方交流集",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桃胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "小儿卫生总微论方",
+      "object_type": "Source"
+    }
+  ]
+}

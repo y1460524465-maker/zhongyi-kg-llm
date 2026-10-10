@@ -1,0 +1,195 @@
+{
+  "entities": [
+    {
+      "name": "六君子汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "健脾补气，和中化痰",
+        "indication": "脾胃虚弱，面黄体瘦，或久患疟痢，不思乳食，或呕吐泄泻，饮食不化，或时患饮食停滞，或母有前症，致儿为患",
+        "usage": "每服9克，用水150毫升，煎至100毫升，不拘时服"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "健脾补气",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "和中化痰",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "脾胃虚弱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "面黄体瘦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疟痢",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "不思乳食",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "饮食不化",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "健脾补气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "六君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "和中化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "六君子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "脾胃虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "面黄体瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "不思乳食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "饮食不化",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "六君子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疟痢",
+      "object_type": "Disease"
+    }
+  ]
+}

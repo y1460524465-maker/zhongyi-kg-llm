@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "鳝鱼皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散结止痛",
+        "indication": "乳房肿块，乳腺炎",
+        "usage": "内服：焙干研末，黄酒冲服，每次3g，每日9g"
+      }
+    },
+    {
+      "name": "乳房肿块",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鳝鱼皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳房肿块",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳝鱼皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳝鱼皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散结止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳝鱼皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    }
+  ]
+}

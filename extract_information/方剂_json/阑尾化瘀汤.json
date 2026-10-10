@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "name": "阑尾化瘀汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "行气活血、清热解毒",
+        "indication": "瘀滞型阑尾炎初期，或阑尾炎症消散后",
+        "usage": "水煎服"
+      }
+    },
+    {
+      "name": "银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "川楝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "processing": "后下"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "延胡索",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川楝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "延胡索",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘀滞型阑尾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "右下腹局限性压痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阑尾化瘀汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反跳痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

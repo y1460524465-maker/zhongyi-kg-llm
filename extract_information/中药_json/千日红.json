@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "name": "千日红",
+      "type": "Herb",
+      "attributes": {
+        "alias": "百日红、千金红、百日白、千日白、千年红、吕宋菊、淡水花、沸水菊、长生花、蜻蜒红、球形鸡冠花",
+        "effect": "止咳平喘，清肝明目，解毒",
+        "indication": "咳嗽，哮喘，百日咳，小儿夜啼，目赤肿痛，肝热头晕，头痛，痢疾，疮疖",
+        "dosage": "内服：煎汤，花3～9g；全草15～30g。外用：适量，捣敷或煎水洗"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肝明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿夜啼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肝热头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千日红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "野花椒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3-6g；或研粉，1-2g",
+        "effect": "温中止痛，杀虫止痒",
+        "indication": "脾胃虚寒，脘腹冷痛，呕吐，泄泻，蛔虫腹痛，湿疹，皮肤瘙痒，阴痒，龋齿疼痛",
+        "property_flavor": "味苦、凉；微麻而辣",
+        "origin": "为芸香科植物野花椒Zanthoxylum simulans Hance的果实"
+      }
+    },
+    {
+      "name": "脾胃虚寒",
+      "type": "Disease"
+    },
+    {
+      "name": "脘腹冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛔虫腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疹",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "龋齿疼痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "野花椒",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野花椒",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野花椒",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "脾胃虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脘腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾胃虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野花椒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野花椒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野花椒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野花椒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛔虫腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野花椒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野花椒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野花椒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野花椒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "龋齿疼痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

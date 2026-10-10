@@ -1,0 +1,192 @@
+{
+  "entities": [
+    {
+      "name": "紫金锭",
+      "type": "Formula",
+      "attributes": {
+        "alias": "太乙玉枢",
+        "effect": "化痰开窍，辟秽解毒，消肿止痛",
+        "indication": "中暑时疫，脘腹胀闷疼痛，恶心呕吐，泄泻，及小儿痰厥；外敷疔疮疖肿，虫咬损伤，无名肿毒，以及痄腮、丹毒、喉风等",
+        "taboo": "不可过量或久服，小儿用量宜减；孕妇忌服",
+        "usage": "上为细末，糯米糊作锭子，阴干。口服，每次0.6～1.5g，每日2次；外用醋磨，调敷患处"
+      }
+    },
+    {
+      "name": "山慈菇",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热消肿，化痰散结，解毒"
+      }
+    },
+    {
+      "name": "红大戟",
+      "type": "Herb",
+      "attributes": {
+        "effect": "逐痰消肿"
+      }
+    },
+    {
+      "name": "千金子霜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "逐痰消肿"
+      }
+    },
+    {
+      "name": "五倍子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "涩肠止泻"
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "effect": "芳香开窍，行气止痛"
+      }
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化痰辟秽解毒"
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "重镇安神"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山慈菇",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红大戟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "千金子霜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五倍子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "化痰开窍，辟秽解毒，消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑时疫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胃肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "食物中毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀闷疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶心呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿痰厥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "辟瘟解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫金锭",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "消肿止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

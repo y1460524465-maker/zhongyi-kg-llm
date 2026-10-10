@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "name": "丁香柿蒂汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温中降逆，益气和胃",
+        "indication": "胃虚有寒，呃逆不止，或恶心呕吐，得热则减，得寒则甚者"
+      }
+    },
+    {
+      "name": "丁香",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温胃散寒，降气止呃"
+      }
+    },
+    {
+      "name": "柿蒂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温胃散寒，降气止呃"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补气益胃"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温胃散寒"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丁香柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "丁香柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柿蒂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "丁香柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "丁香柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "丁香柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温中降逆，益气和胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丁香柿蒂汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃虚有寒",
+      "object_type": "Disease"
+    }
+  ]
+}

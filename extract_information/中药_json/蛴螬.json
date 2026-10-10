@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "蛴螬",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "咸，微温；有小毒",
+        "meridian": "归肝经",
+        "effect": "破血，祛瘀，散结，消肿",
+        "indication": "跌扑损伤，瘀结胸胁作痛，干血痨，赢瘦腹满，经闭，丹毒，痈疽，痔漏",
+        "dosage": "内服：研末，2-5g；或入丸、散。外用：适量，研末调敷，或用汁涂",
+        "traits": "Northeast Giant Black Chafer",
+        "origin": "为金龟子科白星花金龟Potosia (Liocola) brevitarsis (Lewis) 或其他近缘昆虫的干燥幼虫全体"
+      }
+    }
+  ],
+  "relations": []
+}

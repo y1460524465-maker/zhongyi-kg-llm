@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "鲥鱼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "瘟鱼、箭鱼、三黎、时鱼、鲥刺、三耒",
+        "effect": "补中益气，温补脾肺",
+        "indication": "烫、火伤，疔疮，久咳，虚劳",
+        "meridian": "脾、肺",
+        "origin": "为鲱科动物鲥鱼的肉或全体",
+        "place": "我国沿海及长江、钱塘江、珠江等水系均有分布",
+        "processing": "春末夏初捕捞，捕捞后。剖腹去脏，鲜用或晒干",
+        "traits": "体长椭圆形，侧扁。长约24厘米，大者达50厘米以上。头侧扁，前端钝尖，口大，端位，口裂倾斜，下颌稍长，上颌正中有一缺刻，后端达于眼后缘的下方。鳃耙细密。鳞片大而薄，上有细纹；无侧线，体侧纵列鳞41～47；横列鳞16～17。腹部狭窄，腹面有大形而锐利的棱鳞，排列成锯齿状的边缘，腹鳍前为17～19，腹鳍后为12～15。腹鳍极小，胸鳍、腹鳍基部有大而成长形的腋鳞。背鳍17～18，起点与腹鳍相对。臀鳍18～20。尾鳍深分叉，被有小鳞。休背及头部灰黑色，上侧略带蓝绿色光泽，下侧和腹部银白色，腹鳍、臀鳍灰白色，尾鳍边缘和背鳍基部淡黑色。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鲥鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫、火伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲥鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲥鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲥鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲥鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补中益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鲥鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温补脾肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鲥鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求真》",
+      "object_type": "Source"
+    }
+  ]
+}

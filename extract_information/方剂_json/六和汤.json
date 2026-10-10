@@ -1,0 +1,146 @@
+{
+  "entities": [
+    {
+      "name": "六和汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治心脾不调，气不升降，霍乱转筋，呕吐泄泻，寒热交作，痰喘咳嗽，胸膈痞满，头目昏痛，肢体浮肿，嗜卧倦怠，小便赤涩，并伤寒阴阳不分，冒暑伏热烦闷，或成痢疾，中酒烦渴畏食。妇人胎前、产后，并宜服之。",
+        "usage": "每服四钱，水一盏半，生姜三片，枣子一枚，煎至八分，去滓，不拘时候服。"
+      }
+    },
+    {
+      "name": "缩砂仁",
+      "type": "Herb"
+    },
+    {
+      "name": "半夏",
+      "type": "Herb"
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb"
+    },
+    {
+      "name": "人参",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "赤茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "藿香叶",
+      "type": "Herb"
+    },
+    {
+      "name": "白扁豆",
+      "type": "Herb"
+    },
+    {
+      "name": "木瓜",
+      "type": "Herb"
+    },
+    {
+      "name": "香薷",
+      "type": "Herb"
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb"
+    },
+    {
+      "name": "《宋·太平惠民和剂局方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "缩砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藿香叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白扁豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木瓜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香薷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "六和汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《宋·太平惠民和剂局方》",
+      "object_type": "Source"
+    }
+  ]
+}

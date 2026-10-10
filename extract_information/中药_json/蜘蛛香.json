@@ -1,0 +1,234 @@
+{
+  "entities": [
+    {
+      "name": "蜘蛛香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "马蹄香,鬼见愁,豆鼓菜根,九转香,雷公七,小马蹄香,臭狗药,磨脚花,连香草,香草子,养血莲,臭药,乌参,大救驾",
+        "effect": "理气止痛，消食止泻，祛风除湿，镇惊安神",
+        "indication": "脘腹胀痛，食积不化，腹泻痢疾，风湿痹痛，腰膝酸软，失眠",
+        "property_flavor": "微苦、辛，温",
+        "meridian": "心、脾、胃经",
+        "dosage": "内服：煎汤，3-9g",
+        "origin": "败酱科植物蜘蛛香的干燥根茎和根"
+      }
+    },
+    {
+      "name": "脘腹胀痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "食积不化",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹泻痢疾",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰膝酸软",
+      "type": "Symptom"
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom"
+    },
+    {
+      "name": "发痧气痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "筋骨痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痨伤咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "毒疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃气痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿麻木",
+      "type": "Symptom"
+    },
+    {
+      "name": "阳痿",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕泻腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "石菖蒲根",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积不化",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹泻痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发痧气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痨伤咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕泻腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇惊安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜘蛛香",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "石菖蒲根",
+      "object_type": "Herb"
+    }
+  ]
+}

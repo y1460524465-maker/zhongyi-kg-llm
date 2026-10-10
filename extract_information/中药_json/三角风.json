@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "name": "三角风",
+      "type": "Herb",
+      "attributes": {
+        "alias": "爬山虎（《广州植物志》），异叶地锦、小叶红藤（《浙江天目山药植志》），吊岩风、三皮风（《贵州民间药物》）",
+        "effect": "祛风除湿，通络，止血，解毒",
+        "indication": "治风湿痹痛，偏头痛，风湿疮毒，骨折",
+        "property_flavor": "苦涩，无毒（据《贵州民间药物》）；甘微涩，温（据《浙江民间常用草药》）",
+        "usage": "内服：煎汤，0.5～1两。外用：捣敷，煎水洗或磨汁涂。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "偏头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带状疱疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疖毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三角风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "创伤",
+      "object_type": "Disease"
+    }
+  ]
+}

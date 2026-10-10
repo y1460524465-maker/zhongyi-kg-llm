@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "斑竹根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，止咳平喘，止血",
+        "indication": "风湿痹痛，四肢筋骨疼痛，咳嗽气喘，血崩",
+        "dosage": "内服：煎汤，15-30g",
+        "property_flavor": "淡"
+      }
+    },
+    {
+      "name": "《草本便方》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "斑竹根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿，止咳平喘，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "斑竹根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "斑竹根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "四肢筋骨疼痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "斑竹根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咳嗽气喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "斑竹根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血崩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "斑竹根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《草本便方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "斑竹根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    }
+  ]
+}

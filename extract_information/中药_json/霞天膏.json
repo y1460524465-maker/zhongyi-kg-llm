@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "霞天膏",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补气益血，健脾安中",
+        "indication": "虚劳羸瘦，中风偏废，脾虚痞积，消渴",
+        "property_flavor": "味甘，温",
+        "usage": "内服：溶化冲，9~15克，或入丸剂"
+      }
+    },
+    {
+      "name": "虚劳羸瘦",
+      "type": "Symptom"
+    },
+    {
+      "name": "中风偏废",
+      "type": "Symptom"
+    },
+    {
+      "name": "脾虚痞积",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "霞天膏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补气益血，健脾安中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "霞天膏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳羸瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "霞天膏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风偏废",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "霞天膏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾虚痞积",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "霞天膏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "霞天膏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    }
+  ]
+}

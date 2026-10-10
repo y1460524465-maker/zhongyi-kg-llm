@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "大过路黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散风，清热解毒。化痰",
+        "indication": "风热咳嗽，咽喉疼痛，热毒疮疥",
+        "usage": "内服：煎汤，15～30g。外用：适量，鲜品捣敷；或煎水洗"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大过路黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大过路黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大过路黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大过路黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大过路黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大过路黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热毒疮疥",
+      "object_type": "Symptom"
+    }
+  ]
+}

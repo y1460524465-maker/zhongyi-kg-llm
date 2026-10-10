@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "天仙藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "都淋藤、三百两银、兜铃苗、马兜铃藤、青木香藤、长痧藤",
+        "effect": "行气活血，利水消肿",
+        "indication": "胃痛，疝气痛，妊娠水肿，产后血气腹痛，风湿疼痛",
+        "dosage": "内服：煎汤，6～10克；或作散剂。外用：煎水洗或捣烂敷",
+        "meridian": null,
+        "origin": "马兜铃科植物马兜铃Aristolochia debilis Sieb.et Zucc.和北兜铃Aristolochia contorta Bunge.的茎叶",
+        "place": null,
+        "processing": "拣去杂质，洗净泥土，闷润，切段晒干",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疝气痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妊娠水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "产后血气腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "风湿疼痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天仙藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气活血，利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天仙藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天仙藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疝气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天仙藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天仙藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后血气腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天仙藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿疼痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

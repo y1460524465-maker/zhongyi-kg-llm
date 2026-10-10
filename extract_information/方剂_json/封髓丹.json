@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "封髓丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "固精",
+        "indication": "肾阴不足，相火妄动，夜梦遗精"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "effect": "苦能坚肾，寒能清肃",
+        "property_flavor": "苦寒"
+      }
+    },
+    {
+      "name": "缩砂仁",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "辛温",
+        "effect": "善能入肾，通三焦，达津液，纳五脏六腑之精"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "甘能缓急，泻诸火与肝火之内烦"
+      }
+    },
+    {
+      "name": "肾阴不足",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "相火妄动",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "夜梦遗精",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "封髓丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "封髓丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "缩砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "封髓丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "封髓丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "固精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "封髓丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阴不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肾阴不足",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "相火妄动",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾阴不足",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "夜梦遗精",
+      "object_type": "Symptom"
+    }
+  ]
+}

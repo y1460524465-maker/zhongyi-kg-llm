@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "苹果叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "凉血解毒",
+        "indication": "产后血晕，月经不调，发热，热毒疮瓣，烫伤",
+        "dosage": "内服：煎汤，30-60g；外用：适量，鲜叶贴敷",
+        "origin": "双子叶植物药蔷薇科植物苹果的叶",
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null,
+        "meridian": null
+      }
+    },
+    {
+      "name": "凉血解毒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "产后血晕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "月经不调",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热毒疮瓣",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烫伤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《滇南本草图说》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苹果叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苹果叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后血晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苹果叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苹果叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苹果叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热毒疮瓣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苹果叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苹果叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苹果叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草图说》",
+      "object_type": "Source"
+    }
+  ]
+}

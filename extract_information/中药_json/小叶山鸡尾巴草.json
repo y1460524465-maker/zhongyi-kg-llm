@@ -1,0 +1,39 @@
+{
+  "entities": [
+    {
+      "name": "小叶山鸡尾巴草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热消肿",
+        "indication": "疮疖，肿毒",
+        "usage": "内服：煎汤，10-15g。外用：适量，鲜品捣敷。",
+        "origin": "为蹄盖蕨科植物华中介蕨的全草。全年或夏、秋季采收，洗净，鲜用或晒干。",
+        "place": "分布华东、中南及甘肃、云南、四川、陕西等地。",
+        "processing": "全年或夏、秋季采收，洗净，鲜用或晒干。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小叶山鸡尾巴草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小叶山鸡尾巴草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小叶山鸡尾巴草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

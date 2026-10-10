@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "半边莲",
+      "type": "Herb",
+      "attributes": {
+        "alias": "急解索，蛇利草，细米草，鱼尾花，半边菊，半边旗，奶儿草，半边花，箭豆草，顺风旗，单片芽，小莲花草，绵蜂草，吹血草，腹水草，疳积草，白腊滑草，金菊草，金鸡舌，片花莲，偏莲，瓜仁草，蛇啄草，长虫草",
+        "origin": "为桔梗科植物半边莲的干燥全草",
+        "processing": "除去杂质，洗净，切段，晒干",
+        "property_flavor": "味初微甘，后稍辛辣",
+        "meridian": "归心经、小肠经、肺经",
+        "effect": "利水，消肿，解毒",
+        "indication": "主治黄疸，水肿，臌胀，泄泻，痢疾，蛇伤，疔疮，肿毒，湿疹，癣疾，跌打扭伤肿痛",
+        "taboo": "《江西民间草药验方》：虚症忌用",
+        "dosage": "内服：煎汤，9~15克；或捣汁服。外用：捣敷或捣汁调涂"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "臌胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癣疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打扭伤肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "半边莲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

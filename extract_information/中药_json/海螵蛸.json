@@ -1,0 +1,624 @@
+{
+  "entities": [
+    {
+      "name": "海螵蛸",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乌鲗骨、乌贼鱼骨、乌贼骨、墨鱼骨、墨鱼盖",
+        "effect": "收敛止血，固精止带，制酸止痛，收湿敛疮。主吐血，呕血，崩漏，便血，衄血，创伤出血，肾虚遗精滑精，赤白带下，胃痛嘈杂，嗳气泛酸，湿疹溃疡。",
+        "indication": "主治胃痛吞酸，吐、衄、呕血，便血，崩漏带下，血枯经闭，腹痛癥瘕，虚疟泻痢，阴蚀烂疮。",
+        "processing": "除去杂质，洗净，干燥，砸成小块。",
+        "property_flavor": "味淡、味微咸",
+        "origin": "本品为乌贼科动物无针乌贼Sepiella maindronide Rochebrune或金乌贼Sepia esculenta Hoyle的干燥内壳。",
+        "taboo": "阴虚多热者不宜多服；久服易致便秘，可适当配润肠药同用。",
+        "dosage": "内服：煎汤，10~30g；研末，1.5~3g。外用：适量，研末撒；或调敷；或吹耳、鼻。"
+      }
+    },
+    {
+      "name": "胃痛吞酸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐衄呕血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "便血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "崩漏带下",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "血枯经闭",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹痛癥瘕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "虚疟泻痢",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "阴蚀烂疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "慢性气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性哮喘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃酸过多",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血枯",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "哮喘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "破裂出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "风泪不止",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目生翳膜",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿重舌",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿痢",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肚疼后重",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "囊痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "打扑伤损",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "破伤风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痰",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疽创",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阴囊湿痒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目中浮翳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疳眼",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "下肢溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "鼻血不止",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肠风下血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便血淋",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇人漏下不止",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇人久办白带下",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "诸疳疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疬疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿脐疮出脓及血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头上生疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "耳底出脓",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐血及鼻衄不止",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肾虚遗精滑精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "赤白带下",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃痛嘈杂",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "嗳气泛酸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿疹溃疡",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛吞酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐衄呕血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血枯经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛癥瘕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚疟泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴蚀烂疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚遗精滑精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤白带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛嘈杂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "嗳气泛酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹溃疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "固精止带",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "制酸止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收湿敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃酸过多",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血枯",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "破裂出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风泪不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目生翳膜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿重舌",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肚疼后重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "囊痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "打扑伤损",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疽创",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴囊湿痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目中浮翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下肢溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻血不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇人漏下不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇人久办白带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "诸疳疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疬疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿脐疮出脓及血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头上生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳底出脓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血及鼻衄不止",
+      "object_type": "Symptom"
+    }
+  ]
+}

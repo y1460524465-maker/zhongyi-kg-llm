@@ -1,0 +1,134 @@
+{
+  "entities": [
+    {
+      "name": "清胃散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清胃凉血",
+        "indication": "胃火牙痛。牙痛牵引头疼，面颊发热，其齿喜冷恶热，或牙宣出血，或牙龈红肿溃烂，或唇舌腮颊肿痛，口气热臭，口干舌燥，舌红苔黄，脉滑数。本方常用于口腔炎、牙周炎、三叉神经痛等属胃火上攻者。",
+        "taboo": "牙痛属风寒及肾虚火炎者不宜。",
+        "usage": "上药为细末，都作一服，水一盏半，煎至七分，去滓，放冷服之（现代用法：作汤剂，水煎服）。"
+      }
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "当归身",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "升麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "胃火牙痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "口腔炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "牙周炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "三叉神经痛",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归身",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃火牙痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清胃散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清胃散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "牙周炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清胃散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "三叉神经痛",
+      "object_type": "Disease"
+    }
+  ]
+}

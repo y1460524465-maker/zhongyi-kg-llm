@@ -1,0 +1,234 @@
+{
+  "entities": [
+    {
+      "name": "猪肚",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补虚损，健脾胃",
+        "indication": "虚劳赢瘦，劳瘵咳嗽，脾虚食少，消渴便数，泄泻，水肿脚气，妇人赤白带下，小儿疳积",
+        "usage": "内服：煮食，适量；或入丸剂",
+        "taboo": "外感未清、胸腹痞胜负者，均忌"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "四两"
+      }
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "四两（烧）"
+      }
+    },
+    {
+      "name": "苦参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两"
+      }
+    },
+    {
+      "name": "猪肚丸",
+      "type": "Formula",
+      "attributes": {
+        "source": "《御药院方》",
+        "indication": "男子肌瘦气弱，咳嗽渐成劳瘵"
+      }
+    },
+    {
+      "name": "大蒜",
+      "type": "Herb"
+    },
+    {
+      "name": "平胃散",
+      "type": "Formula"
+    },
+    {
+      "name": "肚蒜丸",
+      "type": "Formula",
+      "attributes": {
+        "source": "《世医得效方》",
+        "indication": "水泻"
+      }
+    },
+    {
+      "name": "黄连末",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三斤"
+      }
+    },
+    {
+      "name": "猪肚黄连丸",
+      "type": "Formula",
+      "attributes": {
+        "source": "《肘后方》",
+        "indication": "小便数"
+      }
+    },
+    {
+      "name": "大虾蟆",
+      "type": "Herb"
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱"
+      }
+    },
+    {
+      "name": "银柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五钱"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五钱"
+      }
+    },
+    {
+      "name": "鳖甲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两（童便浸，醋炙）"
+      }
+    },
+    {
+      "name": "莳萝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两（炒）"
+      }
+    },
+    {
+      "name": "硫黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两（研）"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两（炮裂，去皮、脐）"
+      }
+    },
+    {
+      "name": "硇砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪肚",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补虚损，健脾胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪肚丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《御药院方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪肚丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪肚",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪肚丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪肚丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪肚丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肚蒜丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《世医得效方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肚蒜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪肚",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肚蒜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大蒜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肚蒜丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "平胃散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "猪肚黄连丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《肘后方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪肚黄连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪肚",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪肚黄连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连末",
+      "object_type": "Herb"
+    }
+  ]
+}

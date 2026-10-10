@@ -1,0 +1,178 @@
+{
+  "entities": [
+    {
+      "name": "苹果",
+      "type": "Herb",
+      "attributes": {
+        "effect": "生津润肺，除烦，开胃，醒酒",
+        "indication": "津少口渴，脾虚泄泻，食后腹胀，饮酒过度",
+        "property_flavor": "味苦，寒；味酸苦，寒，涩，无毒；甘，凉",
+        "origin": "蔷薇科植物苹果的果实",
+        "processing": "生食、捣汁或熬膏",
+        "usage": "内服",
+        "traits": "梨形或扁球形，青色、黄色或红色，直径5-10cm，或更大，顶部及基部均凹陷；外皮薄，革质、果肉肉质，内果皮坚韧，分为5室，每室有种子2枚。气清香，味甜、微酸",
+        "taboo": "多食令人肿胀，病人尤甚"
+      }
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "玉容丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "通五脏六腑，走十二经络，调营卫而通神明，解瘟疫而止寒热"
+      }
+    },
+    {
+      "name": "《千金·食治》",
+      "type": "Source"
+    },
+    {
+      "name": "《饮膳正要》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草图说》",
+      "type": "Source"
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source"
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source"
+    },
+    {
+      "name": "《名医别录》",
+      "type": "Source"
+    },
+    {
+      "name": "孟诜",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津润肺，除烦，开胃，醒酒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "津少口渴，脾虚泄泻，食后腹胀，饮酒过度",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉容丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益心气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《千金·食治》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "主补中焦诸不足气，和脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "孟诜",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止渴生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮膳正要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "炖膏食之生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "治脾虚火盛，补中益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草图说》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止渴，除烦，解暑，去瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林纂要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺悦心，生津开胃，醒酒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苹果",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《随息居饮食谱》",
+      "object_type": "Source"
+    }
+  ]
+}

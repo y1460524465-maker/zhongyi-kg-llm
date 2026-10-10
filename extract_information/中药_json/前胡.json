@@ -1,0 +1,89 @@
+{
+  "entities": [
+    {
+      "name": "前胡",
+      "type": "Herb",
+      "attributes": {
+        "alias": "姨妈菜、罗鬼菜、水前胡、野芹菜、岩风、南石防风，坡地石防风、鸡脚前胡、岩川芎、土当归、鸭脚七、野辣菜、山芫荽、桑根子苗、鸭脚前胡、鸭脚板、云前胡、信前胡",
+        "effect": "宣散风热，下气，消痰",
+        "indication": "治风热头痛，痰热咳喘，呕逆，胸膈满闷",
+        "dosage": "内服：煎汤，5~10g；或入丸、散",
+        "taboo": "不可施诸气虚血少之病。凡阴虚火炽，煎熬真阴，凝结为痰而发咳喘；真气虚而气不归元，以致胸胁逆满；头痛不因于痰，而因于阴血虚；内热心烦，外现寒热而非外感者，法并禁用",
+        "property_flavor": "味甘而后苦",
+        "origin": "本品为伞形科植物白花前胡Peucedanum praeruptorum Dunn或紫花前胡Peucedanum decursivum Maxim.的干燥根",
+        "place": "主产浙江、湖南、四川。此外，广西、安徽、江苏、湖北、江西亦产"
+      }
+    },
+    {
+      "name": "风热头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰热咳喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕逆",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸膈满闷",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "前胡",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宣散风热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "前胡",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "下气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "前胡",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "前胡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风热头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "前胡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰热咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "前胡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "前胡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸膈满闷",
+      "object_type": "Symptom"
+    }
+  ]
+}

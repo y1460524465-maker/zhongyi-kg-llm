@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "红娘虫",
+      "type": "Herb",
+      "attributes": {
+        "alias": "红娘，红娘子，红女，红姑娘，么姑虫，灰花蛾，花大鸡，山鸡腰，红盖虫",
+        "effect": "攻毒，通瘀，破积",
+        "indication": "用于血瘀经闭，淋巴结结核，狂犬咬伤；外用治疥癣疮疡",
+        "taboo": "有剧毒，内服宜慎；体弱及孕妇忌服",
+        "usage": "生红娘虫：将原药除去杂质，筛去灰屑。米炒红娘虫：将米淘净，置锅内，加热至米贴附锅上，微冒热气时，放入生红娘虫，轻轻翻炒，至米呈黄褐色，除去米及头、足、翅。每生红娘虫100g,用米100g。外用：研末敷贴，发泡或调涂。内服：炒炙后研末入丸、散。"
+      }
+    },
+    {
+      "name": "血瘀经闭",
+      "type": "Disease"
+    },
+    {
+      "name": "淋巴结结核",
+      "type": "Disease"
+    },
+    {
+      "name": "狂犬咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣疮疡",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬结核",
+      "type": "Disease"
+    },
+    {
+      "name": "横痃便毒",
+      "type": "Disease"
+    },
+    {
+      "name": "疯狗咬伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "红娘虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血瘀经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红娘虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴结结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红娘虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "狂犬咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红娘虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红娘虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红娘虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "横痃便毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红娘虫",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疯狗咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红娘虫",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "攻毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红娘虫",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红娘虫",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破积",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "小叶金老梅",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利尿消水，止痒",
+        "indication": "寒湿脚气，痒疹；外用治乳腺炎",
+        "dosage": "内服：煎汤，6-15g。外用：适量，鲜品捣敷"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "name": "银花解毒汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热解毒，泻火凉血",
+        "indication": "风火湿热所致的痈疽疔毒",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "金银花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地丁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "犀角",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "赤茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川连",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "夏枯草",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "银花解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地丁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "夏枯草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银花解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，泻火凉血",
+      "object_type": "Effect"
+    }
+  ]
+}

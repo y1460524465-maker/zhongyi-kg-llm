@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "name": "醒消丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "消肿止痛",
+        "indication": "脏腑毒热，气血凝结，痈毒初期，乳痈乳炎，红肿高大，坚硬疼痛，瘰疬鼠疮，疔毒恶疮，无名肿毒",
+        "usage": "每服9克，热陈酒送服，醉盖取汗"
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "醒消丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醒消丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醒消丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醒消丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醒消丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "消肿止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "紫珠",
+      "type": "Herb",
+      "attributes": {
+        "effect": "收敛止血，解毒疗疮",
+        "indication": "吐血，咯血，衄血，便血，崩漏，创伤出血，痈疽肿毒，喉痹",
+        "dosage": "内服：煎汤，10~15g(鲜品30~60g)；或研末，1.5~3g。每日1~3次。外用：适量，鲜品捣敷；或研末撒",
+        "origin": "马鞭草科植物杜虹花的叶",
+        "processing": "7～8月采收，晒干"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫珠",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫珠",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒疗疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫珠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫珠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咯血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫珠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫珠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫珠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫珠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "创伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫珠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫珠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    }
+  ]
+}

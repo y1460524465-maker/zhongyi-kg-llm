@@ -1,0 +1,131 @@
+{
+  "entities": [
+    {
+      "name": "葎草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，利尿，消淤，解毒",
+        "indication": "淋病，小便不利，疟疾，腹泻，痢疾，肺结核，肺脓疡，肺炎，癞疮，痔疮，痈毒，瘰疬",
+        "alias": "勒草、黑草、葛葎蔓、葛勒蔓、来毒草、葛葎草、涩萝蔓、割人藤、锯锯藤、拉拉藤、大叶五爪龙",
+        "origin": "桑科植物葎草的全草",
+        "traits": "一年生或多年生蔓性草本，长达数米，有倒钩刺",
+        "property_flavor": "气微，味淡",
+        "dosage": "内服：煎汤，10~15g,鲜品30~60g;或捣汁。外用：适量，捣敷；或煎水熏洗"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消淤",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺脓疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癞疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    }
+  ]
+}

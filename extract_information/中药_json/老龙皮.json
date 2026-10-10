@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "老龙皮",
+      "type": "Herb",
+      "attributes": {
+        "alias": "老龙七、石龙皮、石龙衣",
+        "effect": "消食健脾，利水消肿，祛风止痒",
+        "indication": "消化不良，小儿疳积，腹胀，水肿，皮肤瘙痒，无名肿毒",
+        "usage": "内服：煎汤，9-15g。外用：适量，研细粉或烧存性研粉调敷",
+        "origin": "为牛皮叶科植物肺衣、裂芽肺衣，平滑南肺衣、肺衣、网肺衣等的地衣体"
+      }
+    },
+    {
+      "name": "消化不良",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "腹胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "无名肿毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "老龙皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食健脾，利水消肿，祛风止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "老龙皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消化不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老龙皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老龙皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老龙皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老龙皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老龙皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

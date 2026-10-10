@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "name": "高粱根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蜀黍根、瓜龙",
+        "effect": "平喘，利尿，止血，通络",
+        "indication": "咳嗽喘满，小便不利，产后出血，血崩，足膝疼痛",
+        "property_flavor": "味甘，性平",
+        "usage": "内服：煎汤，15-30g；或烧存性研末",
+        "dosage": "15-30g"
+      }
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《贵州草药》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "高粱根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "高粱根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵州草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "高粱根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平喘，利尿，止血，通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "高粱根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽喘满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "高粱根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "高粱根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "高粱根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "高粱根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "足膝疼痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

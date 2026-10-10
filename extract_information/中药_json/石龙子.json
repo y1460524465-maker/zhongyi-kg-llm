@@ -1,0 +1,126 @@
+{
+  "entities": [
+    {
+      "name": "石龙子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蜥蜴、山龙子、石蜴、泉龙、猪婆蛇、五寸棍、四脚蛇",
+        "origin": "本草经集注",
+        "effect": "利水通淋，破结散瘀，解毒",
+        "indication": "癃闭，石淋，小便不利，恶疮，臁疮，瘰疬",
+        "usage": "内服：烧存性研末，1.5-3g；或入丸、散。外用：适量，熬膏涂；或研末调敷。"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《陆川本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陆川本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水通淋，破结散瘀，解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癃闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "石淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "臁疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石龙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    }
+  ]
+}

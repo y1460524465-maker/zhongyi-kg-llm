@@ -1,0 +1,199 @@
+{
+  "entities": [
+    {
+      "name": "举元煎",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "益气补中，摄血固脱，升阳举陷",
+        "indication": "中气下陷，血失统摄之血崩、血脱证，气虚下陷，血崩血脱，亡阳垂危等证",
+        "taboo": null,
+        "usage": "水一盅半，煎七八分，温服"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10-20克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "炙黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10-20克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3-6克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "升麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3-6克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "中气下陷",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血崩",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血脱证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气虚下陷",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "亡阳垂危",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "举元煎",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益气补中，摄血固脱，升阳举陷",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "举元煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中气下陷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "举元煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血崩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "举元煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血脱证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "举元煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气虚下陷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "举元煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "亡阳垂危",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "举元煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "举元煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "举元煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "举元煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "举元煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    }
+  ]
+}

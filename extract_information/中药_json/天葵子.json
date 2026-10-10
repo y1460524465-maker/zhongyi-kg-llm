@@ -1,0 +1,182 @@
+{
+  "entities": [
+    {
+      "name": "天葵子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "紫背天葵子、天葵、天葵草、千年老鼠屎、金耗子屎、夏无踪、散血球",
+        "effect": "清热解毒，消肿散结，利尿",
+        "indication": "痈肿，瘰疬，疔疮，淋浊，带下，肺虚咳嗽，疝气，癫痫，小儿惊风，痔疮，跌打损伤，毒蛇咬伤",
+        "taboo": "脾虚便溏和小便清利者忌用",
+        "usage": "内服：煎汤，3~9g；或研末，1.5~3g；或浸酒。外用：适量，捣敷或捣汁点眼"
+      }
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Symptom"
+    },
+    {
+      "name": "疔疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "淋浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺虚咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "疝气",
+      "type": "Symptom"
+    },
+    {
+      "name": "癫痫",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿惊风",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "消肿散结",
+      "type": "Effect"
+    },
+    {
+      "name": "利尿",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘰疬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺虚咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疝气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒蛇咬伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

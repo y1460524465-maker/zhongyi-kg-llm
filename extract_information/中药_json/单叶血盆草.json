@@ -1,0 +1,124 @@
+{
+  "entities": [
+    {
+      "name": "单叶血盆草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "止血，清湿热",
+        "indication": "咳嗽吐血，血崩，血痢，创伤出血",
+        "processing": "5～6月采集开花的全草，晒干",
+        "property_flavor": "性凉，味淡，无毒；性平，味微苦",
+        "origin": "《四川中药志》《贵州草药》",
+        "traits": "多年生草本，高25～45厘米。茎的基部斜倾或直立，茎方形，多棱，腋间分枝，紫红色，有短细毛。叶对生，有时具1或2全裂小叶片；叶片倒卵形至长卵形，长3～10厘米，阔2～6厘米，先端圆形至渐尖，钝头，边缘有锯齿，上面绿色，下面乌红色，基部心脏形；叶柄长1～7厘米，近花序处近于无柄。轮伞花序，顶生及腋生，海轮约5朵小花，花径4毫米；萼钟形，有细毛，萼齿三角形，先端具小尖；花冠2唇形，上半部紫红色，下部黄白色；发育雄蕊2，柱头2裂，均伸出于花冠外面。小坚果卵形。花期5月。果期5～6月。",
+        "dosage": "内服:煎汤，0.5～1两"
+      }
+    },
+    {
+      "name": "破罗子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "反背红",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "朱砂草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红肺筋",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红五匹",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "血盆草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红青菜",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "单叶血盆草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "单叶血盆草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清湿热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "单叶血盆草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "单叶血盆草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "单叶血盆草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "单叶血盆草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "单叶血盆草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "单叶血盆草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "单叶血盆草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "单叶血盆草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "创伤出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

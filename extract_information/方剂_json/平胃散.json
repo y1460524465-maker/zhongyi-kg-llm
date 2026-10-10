@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "平胃散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "燥湿运脾，行气和胃",
+        "usage": "加生姜二片，大枣二枚，煎分两次服",
+        "taboo": "脾虚无湿或阴虚之人，症见舌红少苔，口苦而渴，或脉数者，都禁用"
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克(姜制)"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克(去白)"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克(炙)"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "平胃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    }
+  ]
+}

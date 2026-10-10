@@ -1,0 +1,160 @@
+{
+  "entities": [
+    {
+      "name": "百蕊草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "百乳草、地石榴、草檀、积药草",
+        "effect": "清热解毒，消肿",
+        "indication": "用于感冒发热，扁桃体炎，咽喉炎，支气管炎，肺炎，肺脓疡",
+        "usage": "内服：煎汤，9～30g；研末或浸酒。外用：适量，研末调敷",
+        "dosage": "内服：煎汤，9～30g；研末或浸酒。外用：适量，研末调敷"
+      }
+    },
+    {
+      "name": "感冒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉炎",
+      "type": "Disease"
+    },
+    {
+      "name": "支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肺脓疡",
+      "type": "Disease"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "消肿",
+      "type": "Effect"
+    },
+    {
+      "name": "肾虚腰痛",
+      "type": "Disease"
+    },
+    {
+      "name": "头晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾虚腰痛",
+      "type": "Disease"
+    },
+    {
+      "name": "肾虚头晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "急性乳腺炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺脓疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地石榴",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚腰痛头晕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百蕊草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性乳腺炎",
+      "object_type": "Disease"
+    }
+  ]
+}

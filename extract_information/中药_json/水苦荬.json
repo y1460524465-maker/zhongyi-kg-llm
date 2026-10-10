@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "name": "水苦荬",
+      "type": "Herb",
+      "attributes": {
+        "alias": "半边山，谢婆菜，水莴苣，水菠菜，大仙桃草，水仙桃草，仙桃草，鸭儿草，虫虫草，仙人对座草，水对叶莲，水泽兰，蚊子草，蚧蛙草，接骨桃，水上浮萍，水波浪，水窝窝，芒种草，二代草",
+        "effect": "清热利湿，止血化瘀",
+        "indication": "用于感冒，喉痛，劳伤咳血，痢疾，血淋，月经不调，疝气，疔疮，跌打损伤",
+        "usage": "内服：煎汤，9~15 g；或研末冲服。外用：捣敷或研末吹喉",
+        "dosage": "9~15 g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水苦荬",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水苦荬",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血化瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水苦荬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水苦荬",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水苦荬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "劳伤咳血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水苦荬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水苦荬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水苦荬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水苦荬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水苦荬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水苦荬",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    }
+  ]
+}

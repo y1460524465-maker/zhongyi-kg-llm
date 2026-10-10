@@ -1,0 +1,491 @@
+{
+  "entities": [
+    {
+      "name": "地桃花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "天下捶、八卦拦路虎、野茄子、小朝阳、假桃花、野梅花、粘油子、羊带归、虱麻头、八卦草、红孩儿、石松毛、毛桐子、牛毛七、三角风、桃子草、迷马桩、野桃花、红花地桃花、土口芪、刀伤药、大迷马桩棵、大梅花树、野棉花、油玲花、土杜仲、野桐乔、山棋菜、肖梵天花根、千下捶",
+        "effect": "祛风利湿，清热解毒",
+        "indication": "感冒发热，风湿痹痛，痢疾，水肿，淋病，白带，吐血，痈肿，外伤出血",
+        "meridian": "入肺、脾二经",
+        "place": "广西、福建等地",
+        "taboo": "虚寒者忌服"
+      }
+    },
+    {
+      "name": "感冒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "淋病",
+      "type": "Disease"
+    },
+    {
+      "name": "白带",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "双单喉蛾",
+      "type": "Symptom"
+    },
+    {
+      "name": "外感寒热",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "白浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾炎水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "妇人乳痈",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "毒蛇伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "急惊风",
+      "type": "Symptom"
+    },
+    {
+      "name": "破伤风",
+      "type": "Disease"
+    },
+    {
+      "name": "哮喘",
+      "type": "Disease"
+    },
+    {
+      "name": "刀佩疮毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛇咬",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮痈",
+      "type": "Symptom"
+    },
+    {
+      "name": "红白痢",
+      "type": "Disease"
+    },
+    {
+      "name": "肺痨吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "筋骨不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "阳虚自汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后风",
+      "type": "Disease"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "双单喉蛾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外感寒热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾炎水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇人乳痈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒蛇伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "急惊风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "刀佩疮毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇咬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮痈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "红白痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺痨吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳虚自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《闽东本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药性备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西药植图志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陆川本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《南宁市药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《云南中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "地桃花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《闽南民间草药》",
+      "object_type": "Source"
+    }
+  ]
+}

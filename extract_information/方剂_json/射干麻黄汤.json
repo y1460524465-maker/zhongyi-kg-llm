@@ -1,0 +1,149 @@
+{
+  "entities": [
+    {
+      "name": "射干麻黄汤",
+      "type": "Formula",
+      "attributes": {}
+    },
+    {
+      "name": "射干",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g"
+      }
+    },
+    {
+      "name": "紫菀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "款冬花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3枚"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g"
+      }
+    },
+    {
+      "name": "咳",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "射干麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "射干",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "射干麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "射干麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "射干麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "射干麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫菀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "射干麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "射干麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "射干麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "射干麻黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "射干麻黄汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳",
+      "object_type": "Symptom"
+    }
+  ]
+}

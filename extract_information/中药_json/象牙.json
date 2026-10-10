@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "象牙",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热镇惊，解毒生肌",
+        "indication": "癫痫，惊风，骨蒸劳热，痈肿疮毒，咽喉肿痛，痔漏",
+        "usage": "内服：研末，1-3g；或磨汁；或入丸、散。外用：适量，研末调敷；或磨汁涂。",
+        "property_flavor": "表面浅赤色或黄色，有纵行浅沟纹，内为银白色，质坚而脆，无臭无味，以外浅赤内银白显油性者为佳",
+        "origin": "为象科动物亚洲象的牙齿",
+        "place": "分布于亚洲南部各国，我国仅云南南部及西南部有分布",
+        "processing": "《开宝本草》：刮取屑，细研。屑为末，炙令黄。《本草分经》：锉屑煎服。现行，取原药材除去杂质，或粉碎成细粉。贮干燥容器内，密闭，置阴凉干燥处。"
+      }
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草分经》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学入门》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "象牙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热镇惊，解毒生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "象牙",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "象牙",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草分经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "象牙",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学入门》",
+      "object_type": "Source"
+    }
+  ]
+}

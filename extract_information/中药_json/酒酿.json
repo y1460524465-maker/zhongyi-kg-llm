@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {
+      "name": "酒酿",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补气，生津，活血",
+        "indication": "主痘疹透发不起，乳痈肿痛，头痛头风",
+        "usage": "内服：炖温或和药同煎，适量"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "酒酿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酒酿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酒酿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    }
+  ]
+}

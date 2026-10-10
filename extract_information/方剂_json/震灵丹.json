@@ -1,0 +1,134 @@
+{
+  "entities": [
+    {
+      "name": "震灵丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补脾肾，固冲任，镇心神",
+        "indication": "真元衰惫，五劳七伤，脐腹冷疼，肢体酸痛；上盛下虚，头目晕眩，心神恍惚；中风瘫痪，手足不遂，筋骨拘挛，腰膝沉重，容枯肌瘦，目暗耳聋，口苦舌干，饮食无味；心肾不足，精滑梦遗，膀胱疝坠，小肠淋沥，夜多盗汗，久泻久痢，呕吐不食；妇人血气不足，崩漏虚损，带下久冷，胎脏无子。(不孕)",
+        "usage": "上药前后共八味，并为细末，以糯米粉煮糊为丸，如小鸡头子大，晒干出光。每次1粒，空腹时用温酒或冷水送下"
+      }
+    },
+    {
+      "name": "禹余粮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克"
+      }
+    },
+    {
+      "name": "紫石英",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克"
+      }
+    },
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克"
+      }
+    },
+    {
+      "name": "丁头代赭石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克"
+      }
+    },
+    {
+      "name": "滴乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "五灵脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "震灵丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "禹余粮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "震灵丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫石英",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "震灵丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "震灵丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁头代赭石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "震灵丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滴乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "震灵丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五灵脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "震灵丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "震灵丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "震灵丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《道藏》引南岳魏夫人方(录自《太平惠民和剂局方》卷五)",
+      "object_type": "Source"
+    }
+  ]
+}

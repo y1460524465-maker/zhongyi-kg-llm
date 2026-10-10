@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "鹿筋",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肝肾，强筋骨，祛风湿",
+        "indication": "肝肾亏虚，劳伤，风湿痹痛，转筋，腰痛",
+        "usage": "内服：煎汤或煮食，60-120g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹿筋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾，强筋骨，祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹿筋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿筋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾亏虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿筋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "劳伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿筋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    }
+  ]
+}

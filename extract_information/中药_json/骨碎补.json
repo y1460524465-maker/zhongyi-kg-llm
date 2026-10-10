@@ -1,0 +1,322 @@
+{
+  "entities": [
+    {
+      "name": "骨碎补",
+      "type": "Herb",
+      "attributes": {
+        "alias": "肉碎补、石岩姜、猴姜、毛姜、申姜、爬岩姜、岩连姜",
+        "effect": "补肾强骨，活血止痛",
+        "indication": "肾虚久泻及腰痛，风湿痹痛，齿痛，耳鸣，跌打闪挫、骨伤，阑尾炎，斑秃，鸡眼",
+        "taboo": "阴虚内热及无瘀血者慎服。不宜与风燥药同用。忌羊肉、羊血、芸薹菜。",
+        "dosage": "内服：煎汤，10~20g；或入丸、散。外用：适量，捣烂敷或晒干研末敷；也可浸酒搽。",
+        "property_flavor": "味淡，微涩",
+        "origin": "本品为水龙骨科植物槲蕨Drynaria fortunei （Kunze） J. Sm. 的干燥根茎"
+      }
+    },
+    {
+      "name": "桂心",
+      "type": "Herb",
+      "attributes": {
+        "alias": "肉桂"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb"
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb"
+    },
+    {
+      "name": "补骨脂",
+      "type": "Herb"
+    },
+    {
+      "name": "安息香",
+      "type": "Herb"
+    },
+    {
+      "name": "核桃仁",
+      "type": "Herb"
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb"
+    },
+    {
+      "name": "山茱萸",
+      "type": "Herb"
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb"
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb"
+    },
+    {
+      "name": "自然铜",
+      "type": "Herb"
+    },
+    {
+      "name": "虎胫骨",
+      "type": "Herb"
+    },
+    {
+      "name": "龟甲",
+      "type": "Herb"
+    },
+    {
+      "name": "没药",
+      "type": "Herb"
+    },
+    {
+      "name": "生姜",
+      "type": "Herb"
+    },
+    {
+      "name": "榔榆皮",
+      "type": "Herb"
+    },
+    {
+      "name": "大血藤",
+      "type": "Herb"
+    },
+    {
+      "name": "红枣",
+      "type": "Herb"
+    },
+    {
+      "name": "斑蝥",
+      "type": "Herb"
+    },
+    {
+      "name": "桑寄生",
+      "type": "Herb"
+    },
+    {
+      "name": "秦艽",
+      "type": "Herb"
+    },
+    {
+      "name": "豨莶草",
+      "type": "Herb"
+    },
+    {
+      "name": "山药",
+      "type": "Herb"
+    },
+    {
+      "name": "五味子",
+      "type": "Herb"
+    },
+    {
+      "name": "食盐",
+      "type": "Herb"
+    },
+    {
+      "name": "瘦猪肉",
+      "type": "Herb"
+    },
+    {
+      "name": "刘寄奴",
+      "type": "Herb"
+    },
+    {
+      "name": "延胡索",
+      "type": "Herb"
+    },
+    {
+      "name": "香附",
+      "type": "Herb"
+    },
+    {
+      "name": "草乌",
+      "type": "Herb"
+    },
+    {
+      "name": "川芎",
+      "type": "Herb"
+    },
+    {
+      "name": "磁粉",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾强骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚久泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "齿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "耳鸣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打闪挫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阑尾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "斑秃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鸡眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱发",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遗尿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性腰腿疼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚久泄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰脚疼痛不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙齿出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙齘痒痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "病后发落不住",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "骨碎补",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹中有瘀血",
+      "object_type": "Symptom"
+    }
+  ]
+}

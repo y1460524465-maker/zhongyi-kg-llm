@@ -1,0 +1,196 @@
+{
+  "entities": [
+    {
+      "name": "翟平薯蓣丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服20丸，酒送下，日1次，夜1次。",
+        "taboo": "慎食蒜、醋、陈、臭等物。"
+      }
+    },
+    {
+      "name": "薯蓣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "干地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "巴戟天",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "山茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "杜仲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两（炙）"
+      }
+    },
+    {
+      "name": "苁蓉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两"
+      }
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半"
+      }
+    },
+    {
+      "name": "敦煌石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "柏子仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薯蓣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴戟天",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜仲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苁蓉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翟平薯蓣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "蒲种壳",
+      "type": "Herb",
+      "attributes": {
+        "origin": "葫芦科植物瓠子的老熟果皮",
+        "effect": "利水消肿",
+        "indication": "面目浮肿，腹水胀满，小便不利",
+        "usage": "内服，煎汤，3～9g",
+        "processing": "将原药除去杂质，快洗，略润软，切丝（宽5～10mm），长不过5cm丝；或切约3cm方块，干燥，筛去灰屑",
+        "dosage": "3～9g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蒲种壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲种壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面目浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲种壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹水胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲种壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    }
+  ]
+}

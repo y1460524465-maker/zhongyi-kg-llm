@@ -1,0 +1,208 @@
+{
+  "entities": [
+    {
+      "name": "拔毒生肌散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "拔毒生肌",
+        "indication": "疮疡阳证已溃，脓腐未清，久不生肌，常流败水",
+        "taboo": "孕妇及哺乳期妇女禁用；不可内服；疮面过大者不可久用",
+        "usage": "外用适量，撒布患处，或以膏药护之"
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "炉甘石（煅）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "72g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "龙骨（煅）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "72g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "虫白蜡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "石膏（煅）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "600g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "轻粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "72g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "红粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "72g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄丹",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "72g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "拔毒生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "拔毒生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "拔毒生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拔毒生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炉甘石（煅）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拔毒生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨（煅）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拔毒生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "虫白蜡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拔毒生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏（煅）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拔毒生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "轻粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拔毒生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拔毒生肌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄丹",
+      "object_type": "Herb"
+    }
+  ]
+}

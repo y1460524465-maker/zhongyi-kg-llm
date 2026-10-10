@@ -1,0 +1,327 @@
+{
+  "entities": [
+    {
+      "name": "蝉蜕",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蜩甲,蝉壳,伏壳,枯蝉,蝉甲,蜩蟟退皮,蝉退壳,金牛儿,蝉退,蝉脱,蝉衣,催米虫壳,唧唧猴皮,唧唧皮,知了皮,热皮,麻儿鸟皮,仙人衣",
+        "effect": "散风热，宣肺，定痉",
+        "indication": "主治外感风热，咳嗽音哑，麻疹透发不畅，风疹瘙痒，小儿惊痫，目赤，翳障，疔疮肿毒，破伤风",
+        "processing": "夏、秋二季收集，除去泥沙，晒干。现行，取原药材，除去杂质，洗净，干燥。"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb"
+    },
+    {
+      "name": "前胡",
+      "type": "Herb"
+    },
+    {
+      "name": "淡豆豉",
+      "type": "Herb"
+    },
+    {
+      "name": "瓜蒌皮",
+      "type": "Herb"
+    },
+    {
+      "name": "牛蒡子",
+      "type": "Herb"
+    },
+    {
+      "name": "人参",
+      "type": "Herb"
+    },
+    {
+      "name": "五味子",
+      "type": "Herb"
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb"
+    },
+    {
+      "name": "紫草",
+      "type": "Herb"
+    },
+    {
+      "name": "木通",
+      "type": "Herb"
+    },
+    {
+      "name": "白芍",
+      "type": "Herb"
+    },
+    {
+      "name": "薄荷叶",
+      "type": "Herb"
+    },
+    {
+      "name": "地骨皮",
+      "type": "Herb"
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb"
+    },
+    {
+      "name": "茯神",
+      "type": "Herb"
+    },
+    {
+      "name": "升麻",
+      "type": "Herb"
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb"
+    },
+    {
+      "name": "天竺黄",
+      "type": "Herb"
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb"
+    },
+    {
+      "name": "全蝎",
+      "type": "Herb"
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb"
+    },
+    {
+      "name": "白菊花",
+      "type": "Herb"
+    },
+    {
+      "name": "蛇蜕",
+      "type": "Herb"
+    },
+    {
+      "name": "蚕蜕",
+      "type": "Herb"
+    },
+    {
+      "name": "白僵蚕",
+      "type": "Herb"
+    },
+    {
+      "name": "胡桃",
+      "type": "Herb"
+    },
+    {
+      "name": "麝香",
+      "type": "Herb"
+    },
+    {
+      "name": "桑叶",
+      "type": "Herb"
+    },
+    {
+      "name": "白糖",
+      "type": "Herb"
+    },
+    {
+      "name": "外感风热",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽音哑",
+      "type": "Symptom"
+    },
+    {
+      "name": "麻疹透发不畅",
+      "type": "Symptom"
+    },
+    {
+      "name": "风疹瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿惊痫",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤",
+      "type": "Symptom"
+    },
+    {
+      "name": "翳障",
+      "type": "Symptom"
+    },
+    {
+      "name": "疔疮肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "破伤风",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿惊风",
+      "type": "Disease"
+    },
+    {
+      "name": "时病论",
+      "type": "Source"
+    },
+    {
+      "name": "小儿卫生总微论方",
+      "type": "Source"
+    },
+    {
+      "name": "现代实用中药",
+      "type": "Source"
+    },
+    {
+      "name": "小儿痘疹方论",
+      "type": "Source"
+    },
+    {
+      "name": "姚僧坦集验方",
+      "type": "Source"
+    },
+    {
+      "name": "赤水玄珠",
+      "type": "Source"
+    },
+    {
+      "name": "卫生易简方",
+      "type": "Source"
+    },
+    {
+      "name": "全幼心鉴",
+      "type": "Source"
+    },
+    {
+      "name": "杨氏家藏方",
+      "type": "Source"
+    },
+    {
+      "name": "眼科龙木论",
+      "type": "Source"
+    },
+    {
+      "name": "圣惠方",
+      "type": "Source"
+    },
+    {
+      "name": "河北中医药集锦",
+      "type": "Source"
+    },
+    {
+      "name": "海上方",
+      "type": "Source"
+    },
+    {
+      "name": "世医得效方",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蝉蜕",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散风热，宣肺，定痉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蝉蜕",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外感风热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝉蜕",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽音哑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝉蜕",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "麻疹透发不畅",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝉蜕",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疹瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝉蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝉蜕",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝉蜕",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "翳障",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝉蜕",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝉蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑叶10g，菊花10g，蝉衣6g，白糖适量",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "疏风散热，镇惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑叶10g，菊花10g，蝉衣6g，白糖适量",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑叶10g，菊花10g，蝉衣6g，白糖适量",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热，头痛，咳嗽，流涕",
+      "object_type": "Symptom"
+    }
+  ]
+}

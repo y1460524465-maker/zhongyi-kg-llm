@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "name": "干姜人参半夏丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "干姜人参半夏汤",
+        "usage": "饮服10丸，一日三次"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "14克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "14克"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "28克"
+      }
+    },
+    {
+      "name": "生姜汁",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "《产科发蒙》",
+      "type": "Source",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "干姜人参半夏丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "干姜人参半夏丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "干姜人参半夏丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "干姜人参半夏丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜汁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "干姜人参半夏汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《产科发蒙》",
+      "object_type": "Source"
+    }
+  ]
+}

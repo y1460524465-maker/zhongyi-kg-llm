@@ -1,0 +1,194 @@
+{
+  "entities": [
+    {
+      "name": "七珍丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热，利便，化痰。祛风化痰，镇惊导滞",
+        "indication": "伤乳伤食，积聚痞块，消化不良，肚胀腹痛，咳嗽痰涎，惊风拘挛，大便不通",
+        "usage": "小儿3-4个月，每次服3粒；5-6个月服4-5粒；周岁服6-7粒，白开水化服"
+      }
+    },
+    {
+      "name": "胆星",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "天竺黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "淡全蝎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炒僵蚕",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "寒食曲",
+      "type": "Herb",
+      "attributes": {
+        "effect": "退热消积",
+        "indication": "恶寒发热，食积不化，胸闷不舒"
+      }
+    },
+    {
+      "name": "朱砂面",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "净巴豆霜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "明雄黄面",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《全国中药成药处方集》（天津方）",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《全国中药成药处方集》（天津方）",
+      "object_type": "Source"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热，利便，化痰。祛风化痰，镇惊导滞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤乳伤食",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "积聚痞块",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "消化不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肚胀腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽痰涎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "惊风拘挛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胆星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天竺黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淡全蝎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炒僵蚕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "寒食曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂面",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "净巴豆霜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七珍丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "明雄黄面",
+      "object_type": "Herb"
+    }
+  ]
+}

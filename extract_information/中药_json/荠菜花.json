@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "name": "荠菜花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "凉血止血，清热利湿",
+        "indication": "痢疾，崩漏，尿血，吐血，咯血，衄血，小儿乳积，赤白带下",
+        "property_flavor": "甘、淡，凉",
+        "meridian": "肝、脾、膀胱经",
+        "usage": "内服：煎汤，10-15g；或研末"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "荠菜花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血，清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荠菜花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咯血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿乳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白带下",
+      "object_type": "Disease"
+    }
+  ]
+}

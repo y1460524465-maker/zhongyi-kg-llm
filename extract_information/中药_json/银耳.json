@@ -1,0 +1,333 @@
+{
+  "entities": [
+    {
+      "name": "银耳",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白木耳、白耳、桑鹅、五鼎芝、白耳子",
+        "effect": "补肺益气，养阴润燥",
+        "indication": "虚劳咳嗽，痰中带血，虚热口渴；病后体虚，肺虚久咳，痰中带血，崩漏，大便秘结，高血压病，血管硬化",
+        "dosage": "内服：煎汤，3~10g；或炖冰糖、肉类服",
+        "taboo": "风寒咳嗽者及湿热酿痰致咳者禁用",
+        "property_flavor": "气微，味淡",
+        "traits": "子实体由数片至10余片薄而多皱褶的瓣片组成，呈菊花形、牡丹花形或绣球形，直径3~15cm，白色或类黄色，表面光滑，有光泽，基蒂黄褐色。角质，硬而脆。浸泡水中膨胀，有胶质",
+        "origin": "真菌类银耳科银耳属植物银耳Tremella fuciformis Berk.以子实体入药。春秋采收，用老斑竹浸猪油制成竹刀采割，将鲜银耳以清水洗净后，晒干即成",
+        "processing": "银耳5克，浸泡发开后，放入碗中，加少量水，隔水蒸一个小时，再加适量冰糖，继续蒸至稠羹状，一次吃完。每晚睡前服用"
+      }
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草问答》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《增订伪药条辨》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "高血压",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血管硬化",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "眼底出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "阴虚发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "夜间盗汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心烦内燥",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "体倦乏力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口干眼涩",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身虚劳损",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳喘气短",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "盗汗自汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "面部潮红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "低热炎症",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "体弱虚损",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "气阴不足",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "失眠多梦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心悸健忘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《贵州民间方药集》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "黑芝麻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生姜汁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "蜂蜜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "冰糖",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "慢性支气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺气肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "干咳少痰",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺燥鼻衄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "白木耳",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黑木耳",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血管硬化",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眼底出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴虚发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夜间盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦内燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体倦乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口干眼涩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身虚劳损",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳喘气短",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面部潮红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "低热炎症",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体弱虚损",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气阴不足",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠多梦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸健忘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肺益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "干咳少痰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银耳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺燥鼻衄",
+      "object_type": "Symptom"
+    }
+  ]
+}

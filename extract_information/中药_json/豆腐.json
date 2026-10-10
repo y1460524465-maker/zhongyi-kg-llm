@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "豆腐",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气和中，生津润燥，清热解毒",
+        "indication": "治赤眼，消渴，休息痢；解硫黄、烧酒毒",
+        "usage": "内服：煮食或煎汤，10-30g",
+        "dosage": "10-30g",
+        "property_flavor": "味甘而咸，气寒",
+        "processing": "一般用黄大豆，以水浸约一天左右（夏季可较短），待豆浸胖后，带水磨碎，滤去渣滓，入锅煮沸，即成豆腐浆，再点以盐卤或石膏，即凝成豆腐花，然后用布包裹，榨去部分水分，即成"
+      }
+    },
+    {
+      "name": "赤眼",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "休息痢",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "豆腐",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤眼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆腐",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豆腐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "休息痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "豆腐",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "豆腐",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "豆腐",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

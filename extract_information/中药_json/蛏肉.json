@@ -1,0 +1,227 @@
+{
+  "entities": [
+    {
+      "name": "蛏肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补阴，清热，除烦",
+        "indication": "产后虚损，烦热口渴，湿热水肿，痢疾",
+        "dosage": "内服：煮食，50-100g（鲜品可用至250g）",
+        "property_flavor": "大寒（生食）",
+        "taboo": "天行病后不可食；生食，大寒，令人泻",
+        "origin": "为竹蛏科动物缢蛏的肉"
+      }
+    },
+    {
+      "name": "产后虚损",
+      "type": "Disease"
+    },
+    {
+      "name": "烦热口渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿热水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "冷痢",
+      "type": "Disease"
+    },
+    {
+      "name": "胸中邪热烦闷气",
+      "type": "Symptom"
+    },
+    {
+      "name": "热痢",
+      "type": "Disease"
+    },
+    {
+      "name": "中暑血痢",
+      "type": "Disease"
+    },
+    {
+      "name": "补阴",
+      "type": "Effect"
+    },
+    {
+      "name": "清热",
+      "type": "Effect"
+    },
+    {
+      "name": "除烦",
+      "type": "Effect"
+    },
+    {
+      "name": "补虚",
+      "type": "Effect"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "利小便",
+      "type": "Effect"
+    },
+    {
+      "name": "消水肿",
+      "type": "Effect"
+    },
+    {
+      "name": "《嘉祐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草从新》",
+      "type": "Source"
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source"
+    },
+    {
+      "name": "《泉州本草》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除烦",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦热口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后虚损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补虚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "冷痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中邪热烦闷气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利小便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消水肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑血痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《嘉祐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草从新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林纂要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蛏肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《泉州本草》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "name": "当药",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清湿热，健胃",
+        "indication": "湿热黄疸，胁痛，痢疾腹痛，食欲不振",
+        "property_flavor": "苦，寒",
+        "meridian": "肝、胃、大肠经",
+        "dosage": "内服，煎汤，6～12g，儿童酌减。或研末冲服。外用：适量，捣敷；或取汁外涂"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "当药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清湿热，健胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胁痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    }
+  ]
+}

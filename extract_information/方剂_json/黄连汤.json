@@ -1,0 +1,194 @@
+{
+  "entities": [
+    {
+      "name": "黄连汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "寒热并投，上下并治，以复中焦升降之职；能使寒散热消，中焦得和，阴阳升降复常，痛呕自愈",
+        "indication": "上热下寒证。胃中有热，肠中有邪气，腹中痛，欲呕吐者"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "苦寒",
+        "effect": "上清胸中之热"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "辛温",
+        "effect": "下散胃中之寒"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "辛温",
+        "effect": "下散胃中之寒"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益胃和中"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "effect": "和胃降逆"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益胃和中"
+      }
+    },
+    {
+      "name": "上热下寒证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腹中痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "欲呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃中有热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肠中有邪气",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄连汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "上热下寒证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄连汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹中痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄连汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "欲呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/黄连汤",
+      "object_type": "Source"
+    },
+    {
+      "subject": "上热下寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胃中有热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "上热下寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "肠中有邪气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "上热下寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹中痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "上热下寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "欲呕吐",
+      "object_type": "Symptom"
+    }
+  ]
+}

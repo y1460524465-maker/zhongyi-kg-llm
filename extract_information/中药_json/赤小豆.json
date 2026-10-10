@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "赤小豆",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利水除湿，和血排脓，消肿解毒",
+        "indication": "水肿，脚气，黄疸，泻痢，便血，痈肿",
+        "dosage": "内服：煎汤，10~30g；或入散剂。外用：适量，生研调敷；或煎汤洗",
+        "taboo": "陶弘景：性逐津液，久食令人枯燥。 《食性本草》：久食瘦人。 《随息居饮食谱》：蛇咬者百日内忌之",
+        "origin": "为豆科植物赤小豆或赤豆的种子"
+      }
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气",
+      "type": "Symptom"
+    },
+    {
+      "name": "黄疸",
+      "type": "Symptom"
+    },
+    {
+      "name": "泻痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "赤小豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水除湿，和血排脓，消肿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤小豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤小豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤小豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤小豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤小豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤小豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

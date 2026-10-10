@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "name": "金铃子散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "疏肝泄热，行气活血，止痛",
+        "indication": "肝郁化火证。心胸胁肋诸痛，时发时止，口苦，舌红苔黄，脉弦数",
+        "taboo": "孕妇慎用",
+        "usage": "为细末，每服9g，酒调下"
+      }
+    },
+    {
+      "name": "金铃子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "玄胡索",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "痛经",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疝痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃及十二指肠溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性胃炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胆囊炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金铃子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金铃子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金铃子散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄胡索",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金铃子散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金铃子散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疝痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金铃子散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃及十二指肠溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金铃子散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金铃子散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金铃子散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胆囊炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金铃子散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "疏肝泄热，行气活血，止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金铃子散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胸胁肋诸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金铃子散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口苦",
+      "object_type": "Symptom"
+    }
+  ]
+}

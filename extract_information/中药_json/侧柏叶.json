@@ -1,0 +1,288 @@
+{
+  "entities": [
+    {
+      "name": "侧柏叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "凉血,止血,祛风湿,散肿毒",
+        "indication": "吐血、衄血、尿血、血痢、肠风、崩漏，风湿痹痛，细菌性痢疾，高血压，咳嗽，丹毒，痄腮，烫伤",
+        "property_flavor": "味苦涩、微辛",
+        "usage": "内服：煎汤，6~15g,或入丸、散。外用：适量，煎水洗，捣敷或研末调敷",
+        "taboo": "《药性论》：与酒相宜。\n②《本草述》：多食亦能倒胃"
+      }
+    },
+    {
+      "name": "柏叶汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "吐血不止",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "侧柏散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "肠风、脏毒，酒痢，下血不止",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "芍药汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "妇人月水久不断",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "柏叶酒",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "风痹历节作痛",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《济急仙方》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source"
+    },
+    {
+      "name": "《经验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《百一选方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草切要》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《江苏省中草药新医疗法展览资料选编》",
+      "type": "Source"
+    },
+    {
+      "name": "《草医草药简便验方汇编》",
+      "type": "Source"
+    },
+    {
+      "name": "《河北中医药集锦》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散肿毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "细菌性痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痄腮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柏叶汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柏叶汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血不止",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧柏散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "侧柏散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风、脏毒，酒痢，下血不止",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芍药汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芍药汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人月水久不断",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柏叶酒",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柏叶酒",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风痹历节作痛",
+      "object_type": "Disease"
+    }
+  ]
+}

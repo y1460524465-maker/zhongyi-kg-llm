@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "桃叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风清热，杀虫",
+        "indication": "主头风，头痛，风痹，疟疾，湿疹，疮疡，癣疮",
+        "property_flavor": "味微苦",
+        "origin": "为蔷薇科植物桃或山桃的叶"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桃叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风清热，杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桃叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癣疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,731 @@
+{
+  "entities": [
+    {
+      "name": "罗锅底",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，解毒，消肿，止痛",
+        "indication": "咽喉肿痛，牙痛，目赤肿痛，菌痢，肠炎，胃痛，肝炎，尿路感染，疔肿",
+        "property_flavor": "苦，寒",
+        "dosage": "内服：煎汤，6-9g；研末，0.5-1g。外用：适量，捣敷；或研末调敷",
+        "taboo": "脾虚胃寒者勿用",
+        "processing": "2～3月发苗前，或9～10月地上部分枯萎后，挖取块根，除去芦头及根须，洗净泥沙，大者切块，晒干或微火炕干",
+        "origin": "葫芦科植物大籽雪胆、可爱雪胆及中华雪胆等的块根",
+        "place": "云南、贵州、四川等地"
+      }
+    },
+    {
+      "name": "金龟莲",
+      "type": "Herb",
+      "attributes": {
+        "alias": "金龟莲"
+      }
+    },
+    {
+      "name": "金腰莲",
+      "type": "Herb",
+      "attributes": {
+        "alias": "金腰莲"
+      }
+    },
+    {
+      "name": "白味莲",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "蛇莲",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "苦味素",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "皂甙",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "穿龙薯蓣",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "槐米",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "射干",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "骨碎补",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "马勃",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "地骨皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "板蓝根",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "水灯心",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "苛草根",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "枸地芽根",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "水黄连",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "蒲公英",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "菌痢",
+      "type": "Disease"
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "尿路感染",
+      "type": "Disease"
+    },
+    {
+      "name": "疔肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "前列腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "发痧肚痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "红痢",
+      "type": "Disease"
+    },
+    {
+      "name": "火眼热毒",
+      "type": "Disease"
+    },
+    {
+      "name": "肠胃热结气痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风寒火牙",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "冠状动脉粥样硬化性心脏病",
+      "type": "Disease"
+    },
+    {
+      "name": "心绞痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "心肌梗塞",
+      "type": "Disease"
+    },
+    {
+      "name": "高脂血症",
+      "type": "Disease"
+    },
+    {
+      "name": "喉痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙龈肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "实火牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "汤火伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "烧伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "百日咳",
+      "type": "Disease"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "颌下淋巴结炎",
+      "type": "Disease"
+    },
+    {
+      "name": "胆囊炎",
+      "type": "Disease"
+    },
+    {
+      "name": "泌尿系感染",
+      "type": "Disease"
+    },
+    {
+      "name": "胆道感染",
+      "type": "Disease"
+    },
+    {
+      "name": "上呼吸道感染",
+      "type": "Disease"
+    },
+    {
+      "name": "肺部感染",
+      "type": "Disease"
+    },
+    {
+      "name": "感染性炎症",
+      "type": "Disease"
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease"
+    },
+    {
+      "name": "败血症",
+      "type": "Disease"
+    },
+    {
+      "name": "《草木便方》",
+      "type": "Source"
+    },
+    {
+      "name": "《昆明民间常用草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川常用中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《分类草药性》",
+      "type": "Source"
+    },
+    {
+      "name": "《中国药植志》",
+      "type": "Source"
+    },
+    {
+      "name": "《贵州草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《云南中草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "菌痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿路感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "前列腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发痧肚痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "红痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "火眼热毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠胃热结气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风寒火牙",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙龈肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "实火牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汤火伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烧伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "冠状动脉粥样硬化性心脏病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心绞痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高脂血症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "败血症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "颌下淋巴结炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胆囊炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泌尿系感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胆道感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "上呼吸道感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺部感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感染性炎症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消炎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《草木便方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《昆明民间常用草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川常用中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《分类草药性》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国药植志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵州草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "罗锅底",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《云南中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

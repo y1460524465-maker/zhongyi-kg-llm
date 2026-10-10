@@ -1,0 +1,13 @@
+{
+  "entities": [
+    {
+      "name": "虫豆",
+      "type": "Herb",
+      "attributes": {
+        "origin": "豆科植物虫豆的全株",
+        "indication": "疮疡，疥癣"
+      }
+    }
+  ],
+  "relations": []
+}

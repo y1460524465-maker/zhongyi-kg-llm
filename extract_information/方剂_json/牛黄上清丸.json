@@ -1,0 +1,394 @@
+{
+  "entities": [
+    {
+      "name": "牛黄上清丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热泻火，散风止痛，清火散风，通便泄热",
+        "indication": "热毒内盛、风火上攻所致的头痛眩晕、目赤耳鸣、咽喉肿痛、口舌生疮、牙龈肿痛、大便燥结",
+        "usage": "口服，一次1丸，一日2次"
+      }
+    },
+    {
+      "name": "医学入门",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "菊花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "荆芥穗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "莲子芯",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "热毒内盛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "风火上攻",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头痛眩晕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目赤耳鸣",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口舌生疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "牙龈肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "大便燥结",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热泻火，散风止痛，清火散风，通便泄热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热毒内盛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风火上攻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤耳鸣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙龈肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便燥结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "医学入门",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥穗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄上清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲子芯",
+      "object_type": "Herb"
+    }
+  ]
+}

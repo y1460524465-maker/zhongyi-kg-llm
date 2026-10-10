@@ -1,0 +1,321 @@
+{
+  "entities": [
+    {
+      "name": "涤痰汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "豁痰开窍",
+        "indication": "中风，痰迷心窍，舌强不能言",
+        "taboo": null,
+        "usage": "用水400毫升，加生姜5片，煎至200毫升，食后服"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "补心益脾而泻火",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "补心益脾而泻火",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": "去皮",
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克",
+        "effect": "补心益脾而泻火",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "橘皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "effect": "利热燥而袪痰",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "南星",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.5克",
+        "effect": "利热燥而袪痰",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "姜制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.5克",
+        "effect": "利热燥而袪痰",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "汤洗七次",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "麸炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "石菖蒲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "竹茹",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.1克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "中风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痰迷心窍",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌强不能言",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "http://zhongyibaike.com/wiki/涤痰汤",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石菖蒲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹茹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "豁痰开窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰迷心窍",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌强不能言",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "涤痰汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "http://zhongyibaike.com/wiki/涤痰汤",
+      "object_type": "Source"
+    },
+    {
+      "subject": "人参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补心益脾而泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补心益脾而泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补心益脾而泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "橘皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利热燥而袪痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "南星",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利热燥而袪痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "半夏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利热燥而袪痰",
+      "object_type": "Effect"
+    }
+  ]
+}

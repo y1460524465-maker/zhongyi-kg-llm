@@ -1,0 +1,93 @@
+{
+  "entities": [
+    {
+      "name": "白头翁汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热止痢",
+        "indication": "热毒痢疾",
+        "taboo": "素体脾胃虚弱者当慎用",
+        "usage": "上药四味，以水七升，煮取二升，去渣，温服一升，不愈再服一升（现代用法：水煎服）"
+      }
+    },
+    {
+      "name": "白头翁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "秦皮",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白头翁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秦皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热毒痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阿米巴痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "细菌性痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热止痢",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "entities": [
+    {
+      "name": "白通汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "破阴回阳，宣通上下",
+        "indication": "少阴病，下利，四肢厥逆，面赤脉微之戴阳证",
+        "taboo": null,
+        "usage": "上三味，以水600毫升，煮取200毫升，去滓，分温再服"
+      }
+    },
+    {
+      "name": "葱白",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4茎",
+        "effect": "辛温通阳",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克（生）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "四逆汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "少阴病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "下利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢厥逆",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "面赤脉微",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "白通加猪胆汁汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "人尿",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "滋阴以和阳",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "猪胆汁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白通汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葱白",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白通汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白通汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白通汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "破阴回阳，宣通上下",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白通汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "少阴病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "少阴病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "下利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阴病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "四肢厥逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阴病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "面赤脉微",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白通加猪胆汁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人尿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白通加猪胆汁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪胆汁",
+      "object_type": "Herb"
+    }
+  ]
+}

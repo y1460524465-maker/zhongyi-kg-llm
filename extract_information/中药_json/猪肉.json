@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "猪肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30-60g",
+        "effect": "补肾滋阴，养血润燥，益气，消肿",
+        "indication": "肾虚赢瘦，血燥津枯，燥咳，消渴，便秘，虚肿",
+        "meridian": "脾、胃",
+        "property_flavor": "味酸，冷；头肉平，无毒；咸，寒；甘，平，无毒",
+        "taboo": "服药有巴豆，勿食猪肉；反乌梅、大黄等；反乌梅、桔梗、黄连、胡黄连，犯之令人泻利；及苍耳，令人动风。合百花菜、吴茱萸食，发痔疾；助湿生痰"
+      }
+    },
+    {
+      "name": "肾虚赢瘦",
+      "type": "Symptom"
+    },
+    {
+      "name": "血燥津枯",
+      "type": "Symptom"
+    },
+    {
+      "name": "燥咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "虚肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿火丹",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚赢瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血燥津枯",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "燥咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿火丹",
+      "object_type": "Disease"
+    }
+  ]
+}

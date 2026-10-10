@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "name": "仙鹤草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "龙芽草、脱力草、狼牙草、金顶龙牙、黄龙尾、毛脚茵",
+        "effect": "收敛止血，截疟，止痢，解毒",
+        "indication": "咳血，吐血，崩漏下血，疟疾，血痢，脱力劳伤，痈肿疮毒，阴痒带下",
+        "origin": "蔷薇科植物龙牙草Agrimonia pilosa Ledeb.",
+        "place": "浙江、江苏、湖北",
+        "processing": "除去残根及杂质，洗净，稍润，切段，干燥",
+        "property_flavor": "味微苦",
+        "traits": "本品长50～100cm，全体被白色柔毛，茎下部圆柱形，直径4～6mm，红棕色，上部方柱形，四面略凹陷，绿褐色，有纵沟及棱线，有节；体轻，质硬，易折断，断面中空",
+        "dosage": "煎汤，9~15g（鲜者加倍）"
+      }
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏下血",
+      "type": "Symptom"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "血痢",
+      "type": "Disease"
+    },
+    {
+      "name": "脱力劳伤",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿疮毒",
+      "type": "Disease"
+    },
+    {
+      "name": "阴痒带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "收敛止血",
+      "type": "Effect"
+    },
+    {
+      "name": "截疟",
+      "type": "Effect"
+    },
+    {
+      "name": "止痢",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "截疟",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痢",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱力劳伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙鹤草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴痒带下",
+      "object_type": "Symptom"
+    }
+  ]
+}

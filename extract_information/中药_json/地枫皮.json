@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "地枫皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6-9g",
+        "effect": "祛风除湿，行气止痛",
+        "indication": "风湿痹痛，劳伤腰痛",
+        "meridian": "膀胱、肾经",
+        "origin": "木兰科植物地枫皮Illicium difengpi K.I.B.et K.I.M.的干燥树皮",
+        "place": "广西西南部地区",
+        "processing": "春、秋二季剥取，晒干或低温干燥",
+        "property_flavor": "微辛、涩，温；有小毒",
+        "usage": "内服：煎汤，6-9g；外用：适量，研粉酒调敷"
+      }
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "劳伤腰痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "祛风除湿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "行气止痛",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "地枫皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地枫皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "劳伤腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地枫皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地枫皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15~30g，大剂量60~250g；或入丸、散。外用：适量，捣敷。补阴，宜生用；健脾止泻，宜炒黄用。",
+        "effect": "补脾养胃，生津益肺，补肾涩精",
+        "processing": "山药：拣去杂质，用水浸泡至山药中心部软化为度，捞出稍晾，切片晒干或烘干。炒山药：先将麸皮均匀撒布于热锅内，俟烟起，加入山药片拌炒至淡黄色为度，取出，筛去麸皮，放凉（每山药片100片，用麸皮10斤）。",
+        "property_flavor": "味甘",
+        "taboo": "①《本草经集注》：紫芝为之使，恶甘逆。②《汤液本草》：二门冬为之使。",
+        "traits": "生山野向阳处。现各地皆有栽培。"
+      }
+    },
+    {
+      "name": "脾虚泄泻",
+      "type": "Disease"
+    },
+    {
+      "name": "久痢",
+      "type": "Disease"
+    },
+    {
+      "name": "虚劳咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便频数",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "山药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补脾养胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津益肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾涩精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    }
+  ]
+}

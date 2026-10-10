@@ -1,0 +1,174 @@
+{
+  "entities": [
+    {
+      "name": "青葙子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "野鸡冠花子、狗尾巴子、牛尾巴花子",
+        "effect": "祛风热，清肝火",
+        "indication": "目赤肿痛，障翳，高血压，鼻衄，皮肤风热瘙痒，疥癞",
+        "taboo": "瞳子散大者忌服",
+        "usage": "内服：煎汤，3～15g。外用：适量，研末调敷；捣汁灌鼻。"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草原始》",
+      "type": "Source"
+    },
+    {
+      "name": "《会约医镜》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "障翳",
+      "type": "Symptom"
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "鼻衄",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤风热瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "疥癞",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "障翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤风热瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肝火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草原始》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《会约医镜》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "青葙子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草备要》",
+      "object_type": "Source"
+    }
+  ]
+}

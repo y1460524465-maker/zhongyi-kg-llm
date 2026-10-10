@@ -1,0 +1,130 @@
+{
+  "entities": [
+    {
+      "name": "淫羊藿",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3～9g",
+        "effect": "补肾壮阳，祛风除湿",
+        "indication": "阳痿不举，小便淋沥，筋骨挛急，半身不遂，腰膝无力，风湿痹痛，四肢不仁",
+        "property_flavor": "味微苦",
+        "taboo": "阴虚而相火易动者忌服",
+        "traits": "辛、甘，温"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "淫羊藿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾壮阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "淫羊藿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "淫羊藿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "淫羊藿",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "淫羊藿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿不举",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "淫羊藿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便淋沥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "淫羊藿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨挛急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "淫羊藿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "半身不遂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "淫羊藿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "淫羊藿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢不仁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙灵脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "仙灵脾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙灵脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "威灵仙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙灵脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙灵脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙灵脾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍耳子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙灵脾散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风走注疼痛",
+      "object_type": "Disease"
+    }
+  ]
+}

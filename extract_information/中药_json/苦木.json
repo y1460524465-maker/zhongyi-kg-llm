@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "苦木",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，祛湿",
+        "indication": "风热感冒，咽喉肿痛，湿热泻痢，湿疹，疮疖，蛇虫咬伤",
+        "dosage": "内服：煎汤，6-15g，大剂量30g；或入丸、散。外用：适量，煎水洗；研末撒或调敷；或浸酒搽",
+        "property_flavor": "苦，寒",
+        "meridian": "肺、大肠经",
+        "taboo": "有小毒；内服不宜过量。孕妇慎服"
+      }
+    }
+  ],
+  "relations": []
+}

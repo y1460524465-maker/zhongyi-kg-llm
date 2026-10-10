@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "苦瓜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清暑涤热，明目，解毒",
+        "indication": "热病烦渴引饮，中暑，痢疾，赤眼疼痛，痈肿丹毒，恶疮",
+        "property_flavor": "苦，寒",
+        "meridian": "心、脾、胃经",
+        "dosage": "内服：煎汤，6-15g，鲜品30-60g；或煅存性研末。外用：适量，鲜品捣敷；或取汁涂",
+        "origin": "葫芦科植物苦瓜的果实"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "name": "蚕沙",
+      "type": "Herb",
+      "attributes": {
+        "alias": "原蚕屎、晚蚕沙、蚕砂、原蚕沙、马鸣肝、晚蚕矢、二蚕沙、蚕屎",
+        "effect": "祛风除湿，活血定痛",
+        "indication": "风湿痹痛，风疹瘙痒，头风头痛，皮肤不仁，关节不遂，急剧吐泻转筋，腰脚冷痛，烂弦风眼",
+        "taboo": "瘫缓筋骨不随，由于血虚不能荣养经络，而无风湿外邪侵犯者，不宜服",
+        "usage": "内服：煎汤，10~15g，纱布包煎；或入丸、散。外用：适量炒热熨；煎水洗或研末调敷",
+        "origin": "为蚕蛾科昆虫家蚕蛾幼虫的干燥粪便。6～8月收集，以二眠到三眠时的粪便为主，收集后晒干，簸净泥土，除去轻粒及桑叶的碎屑。",
+        "place": "我国大部地区，均有饲养",
+        "processing": "干燥的蚕沙，呈短圆柱形小粒，长2～5毫米，直径1.5～3毫米。表面灰黑色，粗糙，有6条明显的纵棱及3～4条横向的浅纹。两端略平坦，呈六棱形。质坚而脆，遇潮湿后易散碎。微有青草气。以干燥、色黑、坚实、均匀、无杂质者为佳。"
+      }
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风疹瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "头风头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤不仁",
+      "type": "Symptom"
+    },
+    {
+      "name": "关节不遂",
+      "type": "Symptom"
+    },
+    {
+      "name": "急剧吐泻转筋",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰脚冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "烂弦风眼",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚕沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疹瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤不仁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节不遂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "急剧吐泻转筋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰脚冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕沙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烂弦风眼",
+      "object_type": "Symptom"
+    }
+  ]
+}

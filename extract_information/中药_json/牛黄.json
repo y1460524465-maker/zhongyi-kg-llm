@@ -1,0 +1,150 @@
+{
+  "entities": [
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.15～0.35g",
+        "effect": "清心，豁痰，开窍，凉肝，息风，解毒",
+        "indication": "热病神昏、谵语，癫痫发狂，小儿惊风抽搐，牙疳，喉肿，口舌生疮，痈疽，疔毒",
+        "origin": "牛科动物黄牛或水牛的胆囊、胆管或肝管中的结石",
+        "property_flavor": "味先微苦，后微甜",
+        "processing": "干燥时，切忌风吹、日晒、火烘，以防破裂或变色",
+        "traits": "表面金黄色或棕黄色，细腻而稍有光泽；有时外部有一层黑色光亮的薄膜，习称乌金衣；质轻松脆，易于破碎。断面棕黄或金黄色，有排列整齐的环状层纹"
+      }
+    },
+    {
+      "name": "热病神昏",
+      "type": "Symptom"
+    },
+    {
+      "name": "谵语",
+      "type": "Symptom"
+    },
+    {
+      "name": "癫痫发狂",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿惊风抽搐",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙疳",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "口舌生疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽",
+      "type": "Symptom"
+    },
+    {
+      "name": "疔毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "孙思邀",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《日用本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《会药医镜》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病神昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "谵语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癫痫发狂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊风抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙疳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

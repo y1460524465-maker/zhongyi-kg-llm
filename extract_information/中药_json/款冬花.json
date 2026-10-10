@@ -1,0 +1,620 @@
+{
+  "entities": [
+    {
+      "name": "款冬花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "冬花，款花，艾冬花，九九花",
+        "effect": "润肺下气，止咳化痰",
+        "indication": "用于新久咳嗽，喘咳痰多，劳嗽咳血",
+        "property_flavor": "味微苦而辛",
+        "processing": "拣去残梗、沙石、土块。蜜冬花：取拣净的款冬花同炼蜜加适量开水，拌匀，稍闷，放锅内用文火炒至微黄色、不粘手为度，取出放凉。",
+        "dosage": "内服：煎汤，3~10g；或熬膏；或入丸、散",
+        "taboo": "肺火燔灼，肺气焦满者不可用；阴虚劳嗽禁用",
+        "origin": "菊科植物款冬Tussilago farfara L.的干燥花蕾",
+        "meridian": null,
+        "place": "分布于华北、西北及江西、湖北、湖南等地",
+        "traits": null
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "紫菀",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桑白皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川贝母",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "苦杏仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "款冬花汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "暴发咳嗽",
+        "taboo": null,
+        "usage": "上七味，粗捣筛，每服三钱匕，水一盏，煎至七分，去滓温服"
+      }
+    },
+    {
+      "name": "紫菀散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "久嗽不止",
+        "taboo": null,
+        "usage": "上药粗捣罗为散，每服三钱，以水一中盏，入生姜半分，煎至六分，去滓温服，日三、四服"
+      }
+    },
+    {
+      "name": "款花汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "肺痈嗽而胸满振寒，脉数，咽干，大渴，时出浊唾腥臭，臭久吐脓如粳米粥状者",
+        "taboo": null,
+        "usage": "上作十剂，水煎服"
+      }
+    },
+    {
+      "name": "百花膏",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "喘嗽不巳，或痰中有血",
+        "taboo": null,
+        "usage": "上等分为细末，炼蜜为丸，如龙眼大。每服一丸，食后临卧细嚼，姜汤咽下，噙化尤佳"
+      }
+    },
+    {
+      "name": "款冬花散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "久咳嗽",
+        "taboo": null,
+        "usage": "上五味，捣罗为散。每服三钱匕，水一盏，煎至六分，食后、（临）卧温服"
+      }
+    },
+    {
+      "name": "款冬花膏",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "肺虚咳嗽",
+        "taboo": null,
+        "usage": "上各半两为细末，炼蜜丸。每两十丸。每服一丸，米饮下，食前"
+      }
+    },
+    {
+      "name": "四物款冬丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "少儿咳嗽，昼差夜甚，初不得息，不能复啼",
+        "taboo": null,
+        "usage": "上药捣筛，蜜和如泥，取如枣核大，涂乳头，令儿饮之，日三"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医学启源》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草述》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《长沙药解》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草经集注》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草崇原》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《疮疡经验全书》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《济生方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《外台》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《崔氏方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《杨诚经验方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《传信适用方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《小品方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喘咳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喉痹",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "惊痫",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "消渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺痿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "中风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痰饮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口中疳疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔漏",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "款冬花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺下气，止咳化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "款冬花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "款冬花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喘咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "款冬花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "《本经》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑白皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "款冬花汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫菀散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫菀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫菀散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫菀散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫菀散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "款花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款花汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《疮疡经验全书》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "款花汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百花膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "百花膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "百花膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《济生方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "款冬花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛蒡子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "款冬花膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "钟乳粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "款冬花膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《传信适用方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "四物款冬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四物款冬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫菀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四物款冬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "伏龙肝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四物款冬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四物款冬丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《小品方》",
+      "object_type": "Source"
+    }
+  ]
+}

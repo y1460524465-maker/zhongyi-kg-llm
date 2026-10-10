@@ -1,0 +1,460 @@
+{
+  "entities": [
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "effect": "渗湿利水，益脾和胃，宁心安神",
+        "indication": "小便不利，水肿胀满，痰饮咳逆，呕哕，泄泻，遗精，淋浊，惊悸，健忘",
+        "property_flavor": "味淡，无臭",
+        "meridian": "心经；脾经；肺经；肾经",
+        "dosage": "内服：煎汤，10~15g；或入丸散。宁心安神用朱砂拌",
+        "taboo": "虚寒精滑或气虚下陷者忌服。忌米醋。如小便利或数，服之则损人目。如汗多入服之，损元气。病人肾虚，小水自利或不禁或虚寒精清滑，皆不得服。气虚下陷、水涸口干俱禁用",
+        "traits": "菌核球形、卵形、椭圆形至不规则形，长10-30cm或者更长，重量也不等，一般重500-5000g。外面吸厚而多皱褶的皮壳，深褐色，新鲜时软干后变硬；内部白色或淡粉红色，粉粒状",
+        "origin": "多孔菌科真菌茯苓 Poria cocos （Schw.）Wolf 的干燥菌核",
+        "place": "分布于吉林、安徽、浙江、福建、台湾、河南、湖北、广西、四川、贵州、云南",
+        "processing": "多于7～9月采挖，挖出后除去泥沙，堆置发汗后，摊开晾至表面干燥，再发汗，反复数次至现皱纹、内部水分大部散失后，阴干，称为茯苓个；或将鲜茯苓按不同部位切制，阴干，分别称为茯苓皮及茯苓块"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《伤寒明理论》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学启源》",
+      "type": "Source"
+    },
+    {
+      "name": "王好古",
+      "type": "Source"
+    },
+    {
+      "name": "《药征》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经集注》",
+      "type": "Source"
+    },
+    {
+      "name": "《得配本草》",
+      "type": "Source"
+    },
+    {
+      "name": "五苓散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治太阳病，发汗后，大汗出，胃中干，烦躁不得眠，脉浮，小便不利，微热消渴",
+        "usage": "上五味，捣为散。以白饮和，服方寸匕，日三服"
+      }
+    },
+    {
+      "name": "防己茯苓汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治皮水，四肢肿，水气在皮肤中，四肢聂聂动",
+        "usage": "上五味，以水六升，煮取二升，分温三服"
+      }
+    },
+    {
+      "name": "苓桂术甘汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治心下有痰饮，胸胁支满目眩",
+        "usage": "上四味，以水六升，煮取三升，分温三服，小便则利"
+      }
+    },
+    {
+      "name": "小半夏加茯苓汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治卒呕吐，心下痞，膈间有水，眩悸",
+        "usage": "上三味，以水七升煮取一升五合，分温再服"
+      }
+    },
+    {
+      "name": "茯苓泽泻汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治胃反吐而渴，欲饮水",
+        "usage": "上六味，以水一斗，煮取三升，纳泽泻再煮取二升半，温服八合，日三服"
+      }
+    },
+    {
+      "name": "威喜丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治丈夫元阳虚惫，精气不固，余沥常流，小便白浊，梦寐频泄，及妇人血海久冷，白带、白漏、白淫，下部常湿，小便如米泔，或无子息",
+        "usage": "上以茯苓为末，熔黄蜡为丸，如弹子大。空心细嚼，满口生津，徐徐咽服，以小便清为度"
+      }
+    },
+    {
+      "name": "茯苓酒",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治头风虚眩，暖腰膝，主五劳七伤",
+        "usage": "茯苓粉同曲米酿酒饮"
+      }
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source"
+    },
+    {
+      "name": "《儒门事亲》",
+      "type": "Source"
+    },
+    {
+      "name": "《不知医必要》",
+      "type": "Source"
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source"
+    },
+    {
+      "name": "《百一选方》",
+      "type": "Source"
+    },
+    {
+      "name": "《原病式》",
+      "type": "Source"
+    },
+    {
+      "name": "《局方》",
+      "type": "Source"
+    },
+    {
+      "name": "《仁斋直指方》",
+      "type": "Source"
+    },
+    {
+      "name": "《证治要诀》",
+      "type": "Source"
+    },
+    {
+      "name": "《德生堂经验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《补缺肘后方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "渗湿利水，益脾和胃，宁心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便不利",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿胀满",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰饮咳逆",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "呕哕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊悸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "健忘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便多、滑数不禁",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心下有痰饮，胸胁支满目眩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "卒呕吐，心下痞，膈间有水，眩悸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "飧泄洞利不止",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃反吐而渴，欲饮水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丈夫元阳虚惫，精气不固，余沥常流，小便白浊，梦寐频泄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人血海久冷，白带、白漏、白淫，下部常湿，小便如米泔，或无子息",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心虚梦泄，或白浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心汗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下虚消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头风虚眩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皯",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒明理论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学启源》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "王好古",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药征》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经集注》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《得配本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五苓散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "防己茯苓汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苓桂术甘汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小半夏加茯苓汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓泽泻汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "威喜丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓酒",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

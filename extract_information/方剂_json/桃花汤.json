@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "name": "桃花汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "虚寒痢。下痢不止，便脓血，色黯不鲜，日久不愈，腹痛喜温喜按，舌淡苔白，脉迟弱或微细。"
+      }
+    },
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "虚寒痢",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桃花汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "虚寒痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桃花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桃花汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    }
+  ]
+}

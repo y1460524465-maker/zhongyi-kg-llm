@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "防己",
+      "type": "Herb",
+      "attributes": {
+        "alias": "粉防己、粉寸己、汉防己、土防己[浙江]、石蟾蜍、蟾蜍薯、倒地拱、白木香、猪大肠",
+        "effect": "行水，泻下焦湿热",
+        "indication": "主治水肿臌胀，湿热脚气，手足挛痛，癣疥疮肿",
+        "origin": "防己科植物粉防己Stephania tetrandra S. Moore的干燥根",
+        "processing": "秋季采挖，洗净，除去粗皮，晒至半干，切段，个大者再纵切，干燥",
+        "property_flavor": "味苦",
+        "taboo": "凡胃虚阴虚，自汗盗汗，口苦舌干，肾虚小水不利，及胎前产后血虚，虽有下焦置热，均忌",
+        "dosage": "内服：煎汤，4.5～9g；或入丸、散"
+      }
+    }
+  ],
+  "relations": []
+}

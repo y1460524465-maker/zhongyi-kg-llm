@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "满山红",
+      "type": "Herb",
+      "attributes": {
+        "origin": "杜鹃花科植物兴安杜鹃的干燥叶",
+        "place": "黑龙江、吉林、内蒙古等地",
+        "property_flavor": "辛、苦，寒",
+        "meridian": "归肺、脾经",
+        "effect": "止咳祛痰",
+        "indication": "急、慢性支气管炎",
+        "usage": "内服：煎汤，15-30g；或浸酒",
+        "alias": "东北满山红，迎山红，靠山红，山崩子，映山红，达子香，金达来"
+      }
+    },
+    {
+      "name": "急、慢性支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "满山红叶粗末",
+      "type": "Herb"
+    },
+    {
+      "name": "白酒",
+      "type": "Herb"
+    },
+    {
+      "name": "《黑龙江常用中草药手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "满山红",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳祛痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "满山红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急、慢性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "满山红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "满山红",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "满山红叶粗末",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "满山红",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "白酒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "满山红",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《黑龙江常用中草药手册》",
+      "object_type": "Source"
+    }
+  ]
+}

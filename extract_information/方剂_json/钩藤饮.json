@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "钩藤饮",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "小儿脾胃气弱，呕吐泄泻，致成慢惊",
+        "taboo": null,
+        "usage": "以水150毫升，煎至100毫升，去滓温服。虚寒者，加附子末0.15克"
+      }
+    },
+    {
+      "name": "钩藤",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "蝉蜕",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "防风（去芦）",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "麻黄（去节）",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白僵蚕（炒）",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "天麻",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "蝎尾（去毒，炒）",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘草（炙）",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "慢惊",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "钩藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蝉蜕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风（去芦）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄（去节）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白僵蚕（炒）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蝎尾（去毒，炒）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草（炙）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "钩藤饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "钩藤饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢惊",
+      "object_type": "Disease"
+    }
+  ]
+}

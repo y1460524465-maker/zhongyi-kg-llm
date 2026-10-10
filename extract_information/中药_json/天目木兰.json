@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "天目木兰",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利尿，消肿，润肺止咳",
+        "indication": "酒疽，重舌，痈毒，肺损咳嗽，痰中带血",
+        "dosage": "干花苞一两（治肺损咳嗽，痰中带血方中）"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天目木兰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "酒疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天目木兰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "重舌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天目木兰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天目木兰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺损咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天目木兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰中带血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天目木兰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天目木兰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天目木兰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺止咳",
+      "object_type": "Effect"
+    }
+  ]
+}

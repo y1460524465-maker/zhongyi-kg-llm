@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "name": "丁公藤",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，消肿止痛",
+        "indication": "用于风湿痹痛，半身不遂，跌扑肿痛",
+        "usage": "内服：煎汤, 3～6g,用于配制酒剂，内服或外搽",
+        "taboo": "本品有强烈的发汗作用，虚弱者慎用，孕妇忌服",
+        "dosage": "3～6g",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "《新编中成药》",
+        "place": "广东、广西、云南",
+        "processing": "将干药100斤切碎，水浸过面，加生盐5斤浸泡24小时，捞起后加水再浸过面，用生甘草3斤煮汁加入，浸24小时，捞起隔水蒸4小时，晒干备用",
+        "traits": "本品为旋花科植物丁公藤或光叶丁公藤的干燥藤茎"
+      }
+    },
+    {
+      "name": "丁公藤风湿药酒",
+      "type": "Formula",
+      "attributes": {
+        "effect": "祛风除湿，消瘀止痛",
+        "indication": "用于风寒湿瘁，手足麻木，腰腿疫痛，跌扑损伤",
+        "usage": "口服，一次10~15ml，一日二三次，外用擦患处，若有肿痛黑瘀，用生姜捣烂炒热， 加入药酒适量，擦患处。 孕妇可擦患处，但忌擦腹部和忌内服",
+        "alias": null,
+        "taboo": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丁公藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿，消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丁公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "半身不遂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁公藤风湿药酒",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿，消瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丁公藤风湿药酒",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿瘁",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁公藤风湿药酒",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "手足麻木",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁公藤风湿药酒",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "腰腿疫痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁公藤风湿药酒",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁公藤风湿药酒",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《新编中成药》",
+      "object_type": "Source"
+    }
+  ]
+}

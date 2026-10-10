@@ -1,0 +1,127 @@
+{
+  "entities": [
+    {
+      "name": "丛枝蓼",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热燥湿，健脾消疳，活血调经，解毒消肿",
+        "indication": "泄泻，痢疾，疳疾，月经不调，湿疹，脚癣，毒蛇咬伤",
+        "usage": "内服：煎汤，15～30克。外用：适量，捣敷或煎水洗。"
+      }
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疳疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脚癣",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丛枝蓼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丛枝蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丛枝蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丛枝蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丛枝蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丛枝蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丛枝蓼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丛枝蓼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丛枝蓼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾消疳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丛枝蓼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血调经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丛枝蓼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

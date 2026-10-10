@@ -1,0 +1,103 @@
+{
+  "entities": [
+    {
+      "name": "牛蒡子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "恶实、鼠粘子、黍粘子、大力子、毛然然子、黑风子、毛锥子、粘苍子、大牛了、牛子、土大酮子、万把钩、鼠尖子",
+        "effect": "疏散风热，宣肺透疹，消肿解毒",
+        "indication": "风热咳嗽，咽喉肿痛，斑疹不透，风疹作痒，痈肿疮毒",
+        "dosage": "煎汤，5~10g；或入散剂",
+        "property_flavor": "味微苦",
+        "place": "主产河北，吉林、辽宁、浙江、黑龙江等地",
+        "processing": "牛蒡子：拣去杂质，筛去泥屑。炒牛蒡子：取净牛蒡子，置锅内，用文火炒至微鼓起，外面呈微黄色并略有香气，取出，放凉。",
+        "taboo": "气虚色白大便自利或泄泻者，慎勿服之；痈疽已溃，非便秘不宜服。"
+      }
+    },
+    {
+      "name": "风热咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "斑疹不透",
+      "type": "Symptom"
+    },
+    {
+      "name": "风疹作痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿疮毒",
+      "type": "Disease"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《食疗本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学启源》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛蒡子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛蒡子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛蒡子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "斑疹不透",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛蒡子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疹作痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛蒡子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疮毒",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "entities": [
+    {
+      "name": "参苏饮",
+      "type": "Formula",
+      "attributes": {
+        "alias": "十味参苏散",
+        "effect": "益气解表，理气化痰",
+        "indication": "虚人外感风寒，内伤痰饮，恶寒发热，头痛鼻塞，咳嗽痰多，胸膈满闷，或痰积中脘，眩晕嘈杂，怔忡哕逆",
+        "usage": "上药哎咀。每服12克，用水220毫升，加生姜7片，大枣1个，煎至140毫升，去滓，微热服，不拘时候。若因感冒发热，以被盖卧，连进数服，微汗即愈；面有余热，更宜徐徐服之，自然平治；若因痰饮发热，但连日频进此药，以退为期，不可预止。"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "紫苏叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "23克"
+      }
+    },
+    {
+      "name": "干葛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "23克"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "23克"
+      }
+    },
+    {
+      "name": "前胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "23克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "23克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "23克"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "《太平惠民和剂局方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《保婴金镜》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平惠民和剂局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干葛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "前胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "虚人外感风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶寒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛鼻塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽痰多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸膈满闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眩晕嘈杂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "参苏饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "怔忡哕逆",
+      "object_type": "Symptom"
+    }
+  ]
+}

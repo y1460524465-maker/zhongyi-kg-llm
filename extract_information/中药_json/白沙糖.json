@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "白沙糖",
+      "type": "Herb",
+      "attributes": {
+        "effect": "和中缓急，润肺，生津润燥",
+        "indication": "中虚腹痛，口干燥渴，肺燥咳嗽",
+        "usage": "内服：入汤和化，10-15g",
+        "taboo": "有痰湿者不宜服。小儿勿多食",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "禾本科植物甘蔗的茎汁，经精制而成的乳白色结晶体",
+        "place": "我国南方各地常见有栽培",
+        "processing": null,
+        "traits": null,
+        "dosage": null
+      }
+    },
+    {
+      "name": "石蜜",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白沙糖"
+      }
+    },
+    {
+      "name": "白糖",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白沙糖"
+      }
+    },
+    {
+      "name": "糖霜",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白沙糖"
+      }
+    },
+    {
+      "name": "白霜糖",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白沙糖"
+      }
+    },
+    {
+      "name": "中虚腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "口干燥渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺燥咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《子母秘录》",
+      "type": "Source"
+    },
+    {
+      "name": "《日用本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白沙糖",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中虚腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白沙糖",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口干燥渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白沙糖",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺燥咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石蜜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白糖",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《子母秘录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "糖霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日用本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白霜糖",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草备要》",
+      "object_type": "Source"
+    }
+  ]
+}

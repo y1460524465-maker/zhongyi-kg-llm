@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "锦灯笼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "酸浆实,灯笼儿,王母珠,洛神珠,天泡草铃儿,金灯笼,天灯笼,红姑娘,灯笼果,天泡果,包铃子,端浆果,野胡椒,天泡灯,鬼灯笼,水辣子,浆水灌,勒马回,红灯笼",
+        "effect": "清热，解毒，利尿",
+        "indication": "骨蒸劳热，咳嗽，咽喉肿痛，黄疸，水肿，天泡湿疮",
+        "dosage": "5～9g",
+        "origin": "茄科植物酸浆Physalis alkekengi L. var. franchetii （Mast.） Makino的干燥宿萼或带果实的宿萼",
+        "property_flavor": "宿萼味苦， 果实味甘、微酸"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "锦灯笼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸劳热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "锦灯笼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "锦灯笼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "锦灯笼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "锦灯笼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "锦灯笼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "天泡湿疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "锦灯笼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "锦灯笼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "锦灯笼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿",
+      "object_type": "Effect"
+    }
+  ]
+}

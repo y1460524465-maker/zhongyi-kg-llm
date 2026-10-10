@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "乌药",
+      "type": "Herb",
+      "attributes": {
+        "effect": "顺气，开郁，温肾散寒，止痛",
+        "indication": "气逆胸腹胀痛，宿食不消，反胃吐食，寒疝，脚气，小便频数",
+        "meridian": "肺经、脾经、肾经、膀胱经",
+        "processing": "拣去杂质，分开大小条，用水泡透，根据季节注意换水，防止发臭，及时捞出切片。如已在鲜时切片者，筛去灰屑。",
+        "property_flavor": "气微香，味微辛苦",
+        "place": "浙江、湖南、安徽、广东、广西、湖北、江西、陕西、四川、云南、福建",
+        "origin": "为樟科植物乌药的根",
+        "alias": "旁其、天台乌药、鰟魮、矮樟、矮樟根、铜钱柴、鲫鱼姜、鸡骨香、白叶柴",
+        "dosage": "内服：煎汤，5~10g，或入丸、散。外用：适量，研末调敷",
+        "taboo": "病属气虚者忌之。妇人月事先期，小便短赤，及咳嗽内热，口渴，口干、舌苦，不得眠，一切阴虚内热之病，皆不宜服。不可见火。"
+      }
+    },
+    {
+      "name": "气逆胸腹胀痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "宿食不消",
+      "type": "Symptom"
+    },
+    {
+      "name": "反胃吐食",
+      "type": "Symptom"
+    },
+    {
+      "name": "寒疝",
+      "type": "Disease"
+    },
+    {
+      "name": "脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "小便频数",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乌药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气逆胸腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "宿食不消",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃吐食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "顺气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开郁",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温肾散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

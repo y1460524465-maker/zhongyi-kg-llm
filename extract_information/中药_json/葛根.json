@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "葛根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "干葛、甘葛、粉葛、葛麻茹、葛子根、葛条根、鸡齐根",
+        "effect": "升阳解肌，透疹止泻，除烦止温",
+        "indication": "主治伤寒、温热头痛项强，烦热消渴，泄泻，痢疾，癍疹不透，高血压，心绞痛，耳聋",
+        "meridian": "脾经；胃经；肺经；膀胱经",
+        "property_flavor": null,
+        "origin": "本品为豆科植物野葛Pueraria lobata （Willd.）Ohwi或甘葛藤Pueraria thomsonii Benth.的干燥根",
+        "dosage": "内服：煎汤，10~15g；或捣汁",
+        "taboo": "1.张元素：不可多服，恐损胃气。2.《本草正》：其性凉，易于动呕，胃寒者所当慎用。3.《本草从新》：夏日表虚汗多尤忌。"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,195 @@
+{
+  "entities": [
+    {
+      "name": "寿胎丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补肾安胎",
+        "indication": "先兆流产、习惯性流产、崩漏、胎萎不长、胎位不正、月经不调、痛经、恶露不绝",
+        "usage": "上药将前三味轧细，水化阿胶和为丸，每丸重0.3克。每服20丸，开水送下，日服二次"
+      }
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肾益精",
+        "dosage": "120克"
+      }
+    },
+    {
+      "name": "桑寄生",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "川续断",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "真阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "先兆流产",
+      "type": "Disease"
+    },
+    {
+      "name": "习惯性流产",
+      "type": "Disease"
+    },
+    {
+      "name": "崩漏",
+      "type": "Disease"
+    },
+    {
+      "name": "胎萎不长",
+      "type": "Disease"
+    },
+    {
+      "name": "胎位不正",
+      "type": "Disease"
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease"
+    },
+    {
+      "name": "痛经",
+      "type": "Disease"
+    },
+    {
+      "name": "恶露不绝",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑寄生",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川续断",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "真阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "先兆流产",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "习惯性流产",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胎萎不长",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胎位不正",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "恶露不绝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寿胎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补肾安胎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菟丝子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾益精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑寄生",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "真阿胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋养阴血",
+      "object_type": "Effect"
+    }
+  ]
+}

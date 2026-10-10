@@ -1,0 +1,443 @@
+{
+  "entities": [
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补元阳，暖脾胃，除积冷，通血脉",
+        "indication": "主治命门火衰，肢冷脉微，亡阳虚脱，腹痛泄泻，寒疝奔豚，腰膝冷痛，经闭癥瘕，阴疽，流注，及虚阳浮越，上热下寒",
+        "property_flavor": "味甜、辣",
+        "taboo": "阴虚火旺忌服，孕妇慎服",
+        "usage": "内服：煎汤，2~5g，不宜久煎；研末，0.5~1.5g；或入丸剂。外用：适量，研末，调敷；浸酒，涂擦",
+        "origin": "为樟科植物肉桂的干皮及枝皮",
+        "meridian": "入肾经、脾经，膀胱经"
+      }
+    },
+    {
+      "name": "八味丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "肾气丸",
+        "effect": "温补肾阳",
+        "usage": "上为末，炼蜜丸如梧子大。每服十五丸至二十五丸，温酒下。空心食前，日二服",
+        "indication": "肾气虚乏，下元惫冷，脐腹疼痛，夜多旋溺，脚膝缓弱，肢体倦怠，面色黧黑，不思饮食；脚气上冲，少腹不仁；虚劳不足，渴欲饮水，腰重疼痛，少腹拘急，小便不利；男子消渴，小便反多；妇人转胞，小便不通等证"
+      }
+    },
+    {
+      "name": "大脚散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服二钱，煎至七分，去滓温服。如烦躁，井华水调下，不计时候，以沸汤点服亦得",
+        "indication": "冒暑伏热，引饮过多，脾胃受湿，水谷不分，清浊相干，阴阳气逆，霍乱呕吐，脏腑不调"
+      }
+    },
+    {
+      "name": "桂心散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "冷气攻心腹痛，多呕，不欲饮食"
+      }
+    },
+    {
+      "name": "大已寒丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "久寒积冷，心腹污痛，胁肋胀满，泄泻肠鸣，自利自汗，米谷不化"
+      }
+    },
+    {
+      "name": "桂附丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "濡泻水利久不止"
+      }
+    },
+    {
+      "name": "柱心汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "寒疝气，来往冲心腹痛"
+      }
+    },
+    {
+      "name": "桂附杜仲汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "真寒腰痛，六脉弦紧，口舌青，阴囊缩，身战栗"
+      }
+    },
+    {
+      "name": "阳和汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "鹤膝风，贴骨疽及一切阴疽"
+      }
+    },
+    {
+      "name": "桂苓甘露饮",
+      "type": "Formula",
+      "attributes": {
+        "indication": "饮水不消，呕吐泻利，水肿腹胀，泄泻不能止者，兼治霍乱吐泻，下利赤白，烦渴，解暑毒大有神效，兼利小水"
+      }
+    },
+    {
+      "name": "桂辛散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "脑头痛"
+      }
+    },
+    {
+      "name": "五嗽丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "一切冷嗽"
+      }
+    },
+    {
+      "name": "温经汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "经道不通，绕脐寒疝痛彻，其脉沉紧。寒气客于血室，血凝不行，结积血为气所冲，新血与故血相搏，所以发病"
+      }
+    },
+    {
+      "name": "桂附汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "白带腥臭，多悲不乐，大寒"
+      }
+    },
+    {
+      "name": "桂姜汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "喉痹顷刻而起，前无毫恙者，此虚寒阴火之证"
+      }
+    },
+    {
+      "name": "桂菖散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "小儿急中风，失音不语"
+      }
+    },
+    {
+      "name": "杜姜汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "虚寒阴火之喉痛、喉痹"
+      }
+    },
+    {
+      "name": "右归丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "元阳不足，命门火衰，脾胃虚寒，饮食少进，或呕恶膨胀；或翻胃噎膈，或怯寒畏冷，或脐腹多痛，或大便不实，泻痢频作，或小溲自遗，虚淋寒疝，或寒侵溪谷而肢节痹痛，或寒在下焦而水邪浮肿，及真阳不足之神疲气怯，心跳不宁，四体不收，阳衰无子等证"
+      }
+    },
+    {
+      "name": "桂连丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "小儿下痢赤白。腹痛不可食"
+      }
+    },
+    {
+      "name": "桂肝丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "小儿睡中遗尿，不自觉者"
+      }
+    },
+    {
+      "name": "桂心汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "产后馀寒，下痢便脓血赤白，日数十行，腹痛时时下血"
+      }
+    },
+    {
+      "name": "桂心汤（姚僧坦）",
+      "type": "Formula",
+      "attributes": {
+        "indication": "寒疝气，来往冲心腹痛"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "命门火衰",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹痛泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒疝奔豚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰膝冷痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流注",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补元阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "暖脾胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除积冷",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通血脉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "右归丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "右归丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "右归丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "右归丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "右归丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "右归丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿角胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "右归丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "右归丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜仲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "右归丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "右归丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "制附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "右归丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《景岳全书》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿角胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芥子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "姜炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外科全生集》",
+      "object_type": "Source"
+    }
+  ]
+}

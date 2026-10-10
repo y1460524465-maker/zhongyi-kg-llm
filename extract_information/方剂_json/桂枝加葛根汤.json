@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "name": "桂枝加葛根汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "解肌发表，生津舒筋",
+        "indication": "外感风寒，太阳经气不舒，津液不能敷布，经脉失于濡养，项背强几几，有汗出，表虚",
+        "taboo": null,
+        "usage": "以水一斗，先煮葛根减二升，去上沫；内诸药；煮取三升，去滓，温服一升。覆取微似汗，不须啜粥，余如桂枝法将息及禁忌"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "葛根",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝加葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葛根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解肌发表，生津舒筋",
+      "object_type": "Effect"
+    }
+  ]
+}

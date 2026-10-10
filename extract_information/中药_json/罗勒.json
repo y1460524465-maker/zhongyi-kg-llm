@@ -1,0 +1,281 @@
+{
+  "entities": [
+    {
+      "name": "罗勒",
+      "type": "Herb",
+      "attributes": {
+        "effect": "疏风解表，化湿和中，行气活血，解毒消肿",
+        "indication": "感冒头痛，发热咳嗽，中暑，食积不化，不思饮食，脘腹胀满疼痛，呕吐泻痢，风湿痹痛，遗精，月经不调，牙痛口臭，胬肉遮睛，皮肤湿疮，瘾疹瘙痒，跌打损伤，蛇虫咬伤",
+        "dosage": "内服：煎汤，5-15g，大剂量可用至30g；或捣汁；或入丸、散",
+        "processing": "拣去杂质，稍润后切段，晒干",
+        "place": "全国"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "中暑",
+      "type": "Disease"
+    },
+    {
+      "name": "食积不化",
+      "type": "Symptom"
+    },
+    {
+      "name": "不思饮食",
+      "type": "Symptom"
+    },
+    {
+      "name": "脘腹胀满疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom"
+    },
+    {
+      "name": "泻痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "月经不调",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "口臭",
+      "type": "Symptom"
+    },
+    {
+      "name": "胬肉遮睛",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤湿疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘾疹瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛇虫咬伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "疏风解表",
+      "type": "Effect"
+    },
+    {
+      "name": "化湿和中",
+      "type": "Effect"
+    },
+    {
+      "name": "行气活血",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒消肿",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积不化",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不思饮食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀满疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口臭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胬肉遮睛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤湿疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘾疹瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇虫咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化湿和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗勒",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

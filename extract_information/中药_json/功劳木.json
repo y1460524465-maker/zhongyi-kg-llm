@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "功劳木",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热燥湿，泻火解毒",
+        "indication": "湿热泻痢，黄疸，目赤肿痛，胃火牙痛，疮疖，痈肿，痢疾；黄疸型肝炎",
+        "property_flavor": "苦、寒",
+        "meridian": "肝、胃、大肠经",
+        "dosage": "内服：煎汤，5-10g；外用：适量，煎水洗；或研末调敷",
+        "processing": "将原药除去杂质，分档，洗净，润透，切薄片，干燥，筛去灰屑"
+      }
+    }
+  ],
+  "relations": []
+}

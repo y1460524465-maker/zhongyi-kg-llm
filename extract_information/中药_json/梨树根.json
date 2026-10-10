@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "name": "梨树根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肺止咳，理气止痛",
+        "indication": "肺虚咳嗽，疝气腹痛",
+        "usage": "内服：煎汤，10-30g",
+        "property_flavor": "性平，味甘淡"
+      }
+    },
+    {
+      "name": "糖果根",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《民间常用草药汇编》"
+      }
+    },
+    {
+      "name": "糖梨根",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《四川中药志》"
+      }
+    },
+    {
+      "name": "《民间常用草药汇编》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "梨树根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梨树根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "梨树根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梨树根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "梨树根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "糖果根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《民间常用草药汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "糖梨根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "梨树根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "梨树根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "梨树根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    }
+  ]
+}

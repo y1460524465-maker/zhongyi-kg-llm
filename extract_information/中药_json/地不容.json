@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "地不容",
+      "type": "Herb",
+      "attributes": {
+        "alias": "解毒子, 地不荣, 地芙蓉, 乌龟梢, 金丝荷叶, 地乌龟, 金线吊乌龟, 山乌龟, 地胆, 抱母鸡, 一文钱, 荷叶暗消, 乌龟抱蛋, 金不换",
+        "origin": "防己科植物地不容的块根",
+        "place": "云南及四川等地",
+        "processing": "秋、冬季采挖，去除须根，洗净，切片，晒干",
+        "effect": "清热解毒，消痰截疟，止痛",
+        "indication": "痈疽肿毒，喉闭，疟疾，胃痛",
+        "dosage": "内服：煎汤，1.5-3g；研末，0.5-1g。外用：适量，鲜品捣敷，或研末调敷",
+        "taboo": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "地不容",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地不容",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痰截疟",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地不容",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地不容",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地不容",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地不容",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地不容",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    }
+  ]
+}

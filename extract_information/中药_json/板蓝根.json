@@ -1,0 +1,244 @@
+{
+  "entities": [
+    {
+      "name": "板蓝根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，凉血",
+        "indication": "流感，流脑，乙脑，肺炎，丹毒，热毒发斑，神昏吐衄，咽肿，痄腮，火眼，疮疹，舌绛紫暗，喉痹，烂喉丹痧，大头瘟疫，痈肿；可防治流行性乙型脑炎、急慢性肝炎、流行性腮腺炎、骨髓炎",
+        "dosage": "内服：煎汤，15~30g，大剂量可用60~120g；或入丸、散。外用：适量，煎汤熏洗",
+        "taboo": "体虚而无实热火毒者忌服",
+        "origin": "十字花科植物菘蓝Isatis indigotica Fort. 的干燥根"
+      }
+    },
+    {
+      "name": "流感",
+      "type": "Disease"
+    },
+    {
+      "name": "流脑",
+      "type": "Disease"
+    },
+    {
+      "name": "乙脑",
+      "type": "Disease"
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease"
+    },
+    {
+      "name": "热毒发斑",
+      "type": "Disease"
+    },
+    {
+      "name": "神昏吐衄",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "痄腮",
+      "type": "Disease"
+    },
+    {
+      "name": "火眼",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疹",
+      "type": "Disease"
+    },
+    {
+      "name": "舌绛紫暗",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease"
+    },
+    {
+      "name": "烂喉丹痧",
+      "type": "Disease"
+    },
+    {
+      "name": "大头瘟疫",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease"
+    },
+    {
+      "name": "流行性乙型脑炎",
+      "type": "Disease"
+    },
+    {
+      "name": "急慢性肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "流行性腮腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "骨髓炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流感",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流脑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乙脑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热毒发斑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神昏吐衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痄腮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "火眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌绛紫暗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烂喉丹痧",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "大头瘟疫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性乙型脑炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨髓炎",
+      "object_type": "Disease"
+    }
+  ]
+}

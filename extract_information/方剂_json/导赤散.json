@@ -1,0 +1,252 @@
+{
+  "entities": [
+    {
+      "name": "导赤散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "导赤汤",
+        "effect": "清心利水养阴",
+        "indication": "心经火热证。心胸烦热，口渴面赤，意欲饮冷，以及口舌生疮；或心热移于小肠，小便赤涩刺痛，舌红，脉数。",
+        "taboo": "方中木通苦寒，生地阴柔寒凉，故脾胃虚弱者慎用。",
+        "usage": "上药为末，每服三钱（9克），水一盏，入竹叶同煎至五分，食后温服（现代用法：水煎服，用量按原方比例酌情增减）。"
+      }
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "清热凉血，兼能养阴"
+      }
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "清心降火，利水通淋"
+      }
+    },
+    {
+      "name": "生甘草梢",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "和胃清热，通淋止痛"
+      }
+    },
+    {
+      "name": "竹叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "清心降火，利水通淋"
+      }
+    },
+    {
+      "name": "心经火热证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "口腔炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "鹅口疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿夜啼",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性泌尿系感染",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腋下汗出症",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "心胸烦热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口渴面赤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "意欲饮冷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口舌生疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便赤涩刺痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉数",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《外科证治全书》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外科证治全书》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草梢",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心经火热证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "鹅口疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿夜啼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性泌尿系感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "腋下汗出症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "心经火热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心胸烦热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "心经火热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口渴面赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "心经火热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "意欲饮冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "心经火热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口舌生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "心经火热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小便赤涩刺痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "心经火热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "心经火热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "导赤散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清心利水养阴",
+      "object_type": "Effect"
+    }
+  ]
+}

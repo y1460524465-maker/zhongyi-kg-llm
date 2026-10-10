@@ -1,0 +1,152 @@
+{
+  "entities": [
+    {
+      "name": "麦门冬汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "",
+        "effect": "清养肺胃，降逆下气",
+        "indication": "肺痿。肺胃津伤，虚火上炎，咳唾涎沫，气逆而喘，咽干口燥，舌干红少苔，脉虚数。",
+        "taboo": "",
+        "usage": "上六味药，以水1.2升，煮取600毫升，分三次温服。"
+      }
+    },
+    {
+      "name": "麦门冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "effect": "滋养肺胃，清降虚火"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "降逆化痰"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "益气生津"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4克"
+      }
+    },
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12枚"
+      }
+    },
+    {
+      "name": "肺痿",
+      "type": "Disease",
+      "attributes": {}
+    },
+    {
+      "name": "咳唾涎沫",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "气逆而喘",
+      "type": "Symptom",
+      "attributes": {}
+    },
+    {
+      "name": "咽干口燥",
+      "type": "Symptom",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麦门冬汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麦门冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦门冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦门冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦门冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦门冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦门冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦门冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肺痿",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳唾涎沫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺痿",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "气逆而喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺痿",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽干口燥",
+      "object_type": "Symptom"
+    }
+  ]
+}

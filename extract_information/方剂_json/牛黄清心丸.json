@@ -1,0 +1,445 @@
+{
+  "entities": [
+    {
+      "name": "牛黄清心丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服1丸，临睡灯心汤化下",
+        "effect": "治疗中风后气虚，事冗心劳，诸火内亢，风痰壅塞，神昏气乱，眩晕肢麻"
+      }
+    },
+    {
+      "name": "西牛黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱"
+      }
+    },
+    {
+      "name": "犀角尖",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "羚羊角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱5分"
+      }
+    },
+    {
+      "name": "茯神",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱5分"
+      }
+    },
+    {
+      "name": "当归身",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱7分5厘",
+        "processing": "酒洗，焙干"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱5分"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱7分5厘",
+        "processing": "酒润，炒黄"
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱3分7厘",
+        "processing": "蛤粉炒珠"
+      }
+    },
+    {
+      "name": "真神曲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱5分",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两2钱7分",
+        "processing": "生用"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱2分"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱7分5厘"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱2分"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱2分",
+        "processing": "去皮尖"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱7分5厘"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱3分7厘"
+      }
+    },
+    {
+      "name": "蒲黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱1分5厘"
+      }
+    },
+    {
+      "name": "白蔹",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱9分"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱9分"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱3分8厘"
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱5分"
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱5分"
+      }
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "黑枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25枚",
+        "processing": "去皮核"
+      }
+    },
+    {
+      "name": "中风",
+      "type": "Disease"
+    },
+    {
+      "name": "气虚",
+      "type": "Symptom"
+    },
+    {
+      "name": "事冗心劳",
+      "type": "Symptom"
+    },
+    {
+      "name": "诸火内亢",
+      "type": "Symptom"
+    },
+    {
+      "name": "风痰壅塞",
+      "type": "Symptom"
+    },
+    {
+      "name": "神昏气乱",
+      "type": "Symptom"
+    },
+    {
+      "name": "眩晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "肢麻",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气虚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "事冗心劳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "诸火内亢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风痰壅塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神昏气乱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢麻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "西牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀角尖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羚羊角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯神",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归身",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "真神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蔹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牛黄清心丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黑枣",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "name": "大半夏汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "上三味，用水1.2升，和蜜扬之二百四十遍，煮药取500毫升，温服200毫升，余份再服。"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "白蜜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20毫升"
+      }
+    },
+    {
+      "name": "胃反呕吐",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "朝食暮吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "暮食朝吐",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大半夏汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃反呕吐",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大半夏汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "朝食暮吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大半夏汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暮食朝吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蜜",
+      "object_type": "Herb"
+    }
+  ]
+}

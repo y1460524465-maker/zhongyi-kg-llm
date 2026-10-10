@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "香樟",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3-10g；或研末调服。",
+        "effect": "理气活血，祛风除湿。",
+        "property_flavor": "味辛而清凉",
+        "traits": "有樟脑气",
+        "processing": "春、秋季采挖，洗净，切片，晒干。不宜火烘，以免香气挥发。"
+      }
+    },
+    {
+      "name": "上吐下泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "心腹胀痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "疥癣瘙痒",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香樟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "上吐下泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香樟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香樟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香樟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香樟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香樟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香樟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    }
+  ]
+}

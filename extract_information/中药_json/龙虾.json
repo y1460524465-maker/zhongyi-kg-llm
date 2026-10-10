@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "龙虾",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肾壮阳，滋阴，健胃安神",
+        "indication": "阳痿，筋骨疼痛，手足搐搦，神经衰弱，皮肤瘙痒，头疮，疥癣",
+        "usage": "内服：煎汤，25-50g；或酒烫服；或炒食",
+        "origin": "为龙虾科动物中国龙虾、锦绣龙虾等多种龙虾的全体",
+        "traits": "春季捕捞，鲜用或加工成龙虾仁"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "龙虾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾壮阳，滋阴，健胃安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙虾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙虾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "神经衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙虾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙虾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足搐搦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙虾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙虾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙虾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    }
+  ]
+}

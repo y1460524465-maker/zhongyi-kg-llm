@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "水银",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白澒、姹女、汞、铅精、流珠、赤汞、砂汞、灵液、活宝",
+        "dosage": null,
+        "effect": "杀虫，攻毒",
+        "indication": "用于皮肤疥癣，恶疮肿毒，梅毒，痔痿",
+        "meridian": "心、肝、肾经",
+        "origin": null,
+        "place": "主产于贵州、湖南、四川及广西、云南、湖北",
+        "processing": null,
+        "property_flavor": "辛，寒；有毒",
+        "taboo": "(1)本品不宜与白砒石、红砒石同用。(2)本品系毒性中药，应遵照《医疗用毒性药品管理办法》的有关规定使用。(3)本品有大毒，不宜内服，孕妇忌用；外用不宜过多或久用。",
+        "traits": "本品为银白色液体，质重，有光泽，不透明，易流动及分裂成小球。不沾手，遇热易挥发，无臭。"
+      }
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "恶疮肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "梅毒",
+      "type": "Disease"
+    },
+    {
+      "name": "痔痿",
+      "type": "Disease"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "杨梅毒疮",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣疮",
+      "type": "Disease"
+    },
+    {
+      "name": "燥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "热疮疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "痔",
+      "type": "Disease"
+    },
+    {
+      "name": "白癜风",
+      "type": "Disease"
+    },
+    {
+      "name": "腋下狐臭",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘙痒不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "痒痛不可忍",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水银",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫，攻毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水银",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水银",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "恶疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水银",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梅毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水银",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水银",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘙痒不止",
+      "object_type": "Symptom"
+    }
+  ]
+}

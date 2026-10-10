@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "name": "火麻仁",
+      "type": "Herb",
+      "attributes": {
+        "alias": "麻子、麻子仁、麻仁、大麻子、大麻仁、冬麻子、火麻子、线麻子、黄麻仁",
+        "effect": "润燥滑肠，利水通淋，活血。治肠燥便秘，消渴，热淋，风痹，痢疾。月经不调，疥疮，癣癞。",
+        "indication": "主治肠燥便秘，消渴，热淋，风痹，痢疾。月经不调，疥疮，癣癞。",
+        "taboo": "畏牡蛎、白薇，恶茯苓。多食损血脉，滑精气，妇人多食发带疾。肠滑者尤忌。",
+        "dosage": "内服：煎汤，10~15克；或入丸，散。外用：适量，捣敷；或煎水洗。",
+        "processing": "秋、冬果实成热时，割取全株，晒干，打下果实，除去杂质。",
+        "property_flavor": "气微，味淡，嚼后稍有麻千舌感。富油性。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "火麻仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠燥便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "火麻仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "火麻仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "火麻仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "火麻仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "火麻仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "火麻仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疥疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "火麻仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癣癞",
+      "object_type": "Symptom"
+    }
+  ]
+}

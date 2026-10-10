@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "益元散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清暑利湿",
+        "indication": "感受暑湿，身热心烦，口渴喜饮，小便短赤"
+      }
+    },
+    {
+      "name": "软滑石",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "益元散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "软滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "益元散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "益元散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "益元散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清暑利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "益元散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身热心烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "益元散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴喜饮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "益元散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便短赤",
+      "object_type": "Symptom"
+    }
+  ]
+}

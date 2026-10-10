@@ -1,0 +1,23 @@
+{
+  "entities": [
+    {
+      "name": "龙胆",
+      "type": "Herb",
+      "attributes": {
+        "alias": "陵游、草龙胆、龙胆、苦龙胆草、胆草、山龙胆、四叶胆、水龙胆",
+        "effect": "泻肝胆实火，除下焦湿热",
+        "indication": "肝经热盛，惊痫狂躁，乙型脑炎，头痛，目赤，咽痛，黄疸，热痢，痈肿疮疡，阴囊肿痛，阴部湿痒",
+        "taboo": "脾胃虚弱作泄及无湿热实火者忌服，勿空腹服用",
+        "usage": "内服：煎汤，3~6g；或入丸、散。外用：适量，煎水洗；或研末调搽",
+        "dosage": "3~6g",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "《本经》《别录》《药性论》《日华子本草》《本草图径》《履巉岩本草》《医学启源》《滇南本草》《医学入门》《纲目》",
+        "place": null,
+        "processing": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": []
+}

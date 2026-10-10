@@ -1,0 +1,240 @@
+{
+  "entities": [
+    {
+      "name": "参苓白术散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补益脾胃，渗湿止泻",
+        "indication": "脾虚湿盛证",
+        "taboo": null,
+        "usage": "上为细末。每服6克，枣汤调下。小儿量岁数加减服之。现代用法：作汤剂，水煎服，用量按原方比例酌减。"
+      }
+    },
+    {
+      "name": "莲子肉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "薏苡仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白扁豆",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "四君子汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "《古今医鉴》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "脾虚湿盛证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性胃肠炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "贫血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性支气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性肾炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "妇女带下病",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲子肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白扁豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚湿盛证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性胃肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "贫血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女带下病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补益脾胃，渗湿止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《古今医鉴》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "参苓白术散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "四君子汤",
+      "object_type": "Formula"
+    }
+  ]
+}

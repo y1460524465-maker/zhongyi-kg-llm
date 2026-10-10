@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "name": "四味汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "活血化瘀，行气止痛",
+        "indication": "产后恶露不尽，心腹疼痛，气闷喘急，心膈烦闷",
+        "taboo": null,
+        "usage": "每服半钱，用童子小便1盏，煎至6分，通口服"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "延胡索",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "血竭",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "延胡索",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "血竭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    }
+  ]
+}

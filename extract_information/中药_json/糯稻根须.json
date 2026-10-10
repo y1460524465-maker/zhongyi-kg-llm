@@ -1,0 +1,197 @@
+{
+  "entities": [
+    {
+      "name": "糯稻根须",
+      "type": "Herb",
+      "attributes": {
+        "alias": "Root of Glutinous Rice; 糯稻根须、稻根须、糯谷根、糯稻草根",
+        "effect": "益胃生津，退虚热，止汗",
+        "indication": "阴虚发热，自汗盗汗，口渴咽干，肝炎，丝虫病",
+        "property_flavor": "味淡",
+        "traits": "干燥的根茎及根，簇生成卵形或半圆形的团块，根茎呈圆锥形，黄棕色，极短，长至1厘米，直径3～6毫米，上端留有圆形中空的茎基，其周围有叶鞘部分，四周密生无数的须根；须根长10～15厘米，粗约1毫米，外表棕黄色或黄白色，有稀疏的纵皱纹，有时生有极微细的支根。很柔软，韧曲，断面为黄白色。具微臭",
+        "dosage": "内服：煎场，15~30g，大剂量可用60~120g。以鲜品为佳",
+        "origin": "禾本科植物糯稻的根及根茎",
+        "processing": "取原药材，除去杂质及残茎，洗净，捞出沥干水，初段，干燥",
+        "meridian": "入肝经、肺经、肾经三经"
+      }
+    },
+    {
+      "name": "阴虚发热",
+      "type": "Disease"
+    },
+    {
+      "name": "自汗盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "口渴咽干",
+      "type": "Symptom"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "丝虫病",
+      "type": "Disease"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《中国医学大辞典》",
+      "type": "Source"
+    },
+    {
+      "name": "《药材资料汇编》",
+      "type": "Source"
+    },
+    {
+      "name": "《药材学》",
+      "type": "Source"
+    },
+    {
+      "name": "《江苏植药志》",
+      "type": "Source"
+    },
+    {
+      "name": "紫参",
+      "type": "Herb"
+    },
+    {
+      "name": "猪胰",
+      "type": "Herb"
+    },
+    {
+      "name": "水车前",
+      "type": "Herb"
+    },
+    {
+      "name": "乌枣",
+      "type": "Herb"
+    },
+    {
+      "name": "红糖",
+      "type": "Herb"
+    },
+    {
+      "name": "红枣",
+      "type": "Herb"
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "白糖",
+      "type": "Herb"
+    },
+    {
+      "name": "苯甲酸",
+      "type": "Herb"
+    },
+    {
+      "name": "复合维生素B",
+      "type": "Herb"
+    },
+    {
+      "name": "维生素C",
+      "type": "Herb"
+    },
+    {
+      "name": "决明子",
+      "type": "Herb"
+    },
+    {
+      "name": "丹参",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚发热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丝虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "自汗盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴咽干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益胃生津，退虚热，止汗",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国医学大辞典》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药材资料汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药材学》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江苏植药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "糯稻根须",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫参",
+      "object_type": "Herb"
+    }
+  ]
+}

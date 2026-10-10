@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "name": "甘蓝",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清利湿热，散结止痛，益肾补虚",
+        "indication": "湿热黄疸，消化道溃疡疼痛，关节不利，虚损",
+        "usage": "内服：绞汁饮，200-300ml；或适量拌食、煮食。",
+        "taboo": "胃有积滞者宜慎。止痛宜鲜品生用。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甘蓝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清利湿热，散结止痛，益肾补虚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘蓝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘蓝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消化道溃疡疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘蓝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘蓝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚损",
+      "object_type": "Disease"
+    }
+  ]
+}

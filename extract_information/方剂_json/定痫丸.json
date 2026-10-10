@@ -1,0 +1,288 @@
+{
+  "entities": [
+    {
+      "name": "定痫丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "豁痰开窍，熄风镇惊",
+        "indication": "主痫症，突然发作，晕仆在地，喉中痰鸣，发出类似猪、羊叫声，甚则抽搐目斜；亦治癫狂",
+        "taboo": null,
+        "usage": "每服6～9克，照五痫分引下：犬痫，杏仁5枚，煎汤化下；羊痫，薄荷1克，煎汤化下；马痫，麦冬6克，煎汤化下；牛痫，大枣2枚，煎汤化下；猪痫，黑料豆9克，煎汤化下。每日二至三次。方内加人参9克，尤佳"
+      }
+    },
+    {
+      "name": "明天麻",
+      "type": "Herb"
+    },
+    {
+      "name": "川贝母",
+      "type": "Herb"
+    },
+    {
+      "name": "胆南星",
+      "type": "Herb"
+    },
+    {
+      "name": "半夏",
+      "type": "Herb"
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb"
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "茯神",
+      "type": "Herb"
+    },
+    {
+      "name": "丹参",
+      "type": "Herb"
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb"
+    },
+    {
+      "name": "石菖蒲",
+      "type": "Herb"
+    },
+    {
+      "name": "远志",
+      "type": "Herb"
+    },
+    {
+      "name": "全蝎",
+      "type": "Herb"
+    },
+    {
+      "name": "僵蚕",
+      "type": "Herb"
+    },
+    {
+      "name": "真琥珀",
+      "type": "Herb"
+    },
+    {
+      "name": "辰砂",
+      "type": "Herb"
+    },
+    {
+      "name": "竹沥",
+      "type": "Herb"
+    },
+    {
+      "name": "姜汁",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "痫症",
+      "type": "Disease"
+    },
+    {
+      "name": "癫狂",
+      "type": "Disease"
+    },
+    {
+      "name": "抽搐目斜",
+      "type": "Symptom"
+    },
+    {
+      "name": "晕仆在地",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉中痰鸣",
+      "type": "Symptom"
+    },
+    {
+      "name": "类似猪、羊叫声",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "豁痰开窍，熄风镇惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痫症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "癫狂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "明天麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胆南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯神",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石菖蒲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "全蝎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "僵蚕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "真琥珀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "辰砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹沥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "姜汁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定痫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "痫症",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "晕仆在地",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痫症",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "喉中痰鸣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痫症",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "类似猪、羊叫声",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痫症",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "抽搐目斜",
+      "object_type": "Symptom"
+    }
+  ]
+}

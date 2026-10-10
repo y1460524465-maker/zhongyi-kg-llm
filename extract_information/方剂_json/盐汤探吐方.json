@@ -1,0 +1,215 @@
+{
+  "entities": [
+    {
+      "name": "盐汤探吐方",
+      "type": "Formula",
+      "attributes": {
+        "alias": "盐汤",
+        "effect": "涌吐",
+        "indication": "宿食不消、干霍乱",
+        "usage": "用极咸盐汤三升，热饮一升，刺口令吐宿食使尽，不吐更服，吐迄复饮，三吐乃住，静止。现代用法：将盐用开水调成饱和盐汤，每服200-300ml，服后探吐，以吐尽宿食为度。"
+      }
+    },
+    {
+      "name": "宿食不消",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "干霍乱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "食盐",
+      "type": "Herb",
+      "attributes": {
+        "effect": "润下、走血、补心、入肾、润燥、软坚、涌吐",
+        "property_flavor": "咸、甘、辛、寒",
+        "indication": "目赤痈肿、血热、心虚、骨病齿痛、痰饮喘逆、结核积聚"
+      }
+    },
+    {
+      "name": "《神农本草经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "宿食",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脘腹胀疼不舒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "欲吐不得吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "欲泻不得泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食厥",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气厥",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "盐汤探吐方",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "宿食不消",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "盐汤探吐方",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "干霍乱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "盐汤探吐方",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "涌吐",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "盐汤探吐方",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀疼不舒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "盐汤探吐方",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "欲吐不得吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "盐汤探吐方",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "欲泻不得泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "盐汤探吐方",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "食厥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "盐汤探吐方",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气厥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "食盐",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润下",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "食盐",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补心",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "食盐",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "软坚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "食盐",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "涌吐",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "食盐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "干霍乱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "食盐",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "宿食不消",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "干霍乱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "欲吐不得吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干霍乱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "欲泻不得泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "宿食不消",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脘腹胀疼不舒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "盐汤探吐方",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《神农本草经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "盐汤探吐方",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "盐汤探吐方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "食盐",
+      "object_type": "Herb"
+    }
+  ]
+}

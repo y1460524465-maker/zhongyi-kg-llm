@@ -1,0 +1,45 @@
+{
+  "entities": [
+    {
+      "name": "瓠子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "甘瓠、甜瓠、净街槌、西葫芦、龙密瓜、天瓜、长瓠、扁蒲",
+        "effect": "利水清热，止渴除烦",
+        "indication": "主水肿腹胀，烦热口渴，疮毒",
+        "usage": "内服：煎汤，鲜者60-120g；或烧顾性研末。外用：适量，烧存性研末调敷。",
+        "taboo": "《千金•食治》：扁鹊云，患脚气虚胀者，不得食之。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "瓠子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水清热，止渴除烦",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓠子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿腹胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓠子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓠子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦热口渴",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": {
+        "alias": "胡王使者、独摇草、独滑、长生草、川独活、肉独活、资历邱独活、巴东独活、香独活、绩独活、大活、山大活、玉活",
+        "effect": "祛风，胜湿，散寒，止痛",
+        "indication": "风寒湿痹，腰膝酸痛，手脚挛痛，慢性气管炎，头痛，齿痛",
+        "processing": "春初苗刚发芽或秋末茎叶枯萎时采挖，除去须根及泥沙，烘至半干，堆置2～3天，发软后再烘至全干",
+        "property_flavor": "味苦辛，微麻舌",
+        "origin": "伞形科植物重齿毛当归 Angelica pubescens Maxim. f. biserrata Shan et Yuan的干燥根",
+        "place": "安徽、浙江、江西、湖北、四川等地",
+        "dosage": "内服：煎汤，3~10g；或浸酒；或入丸、散",
+        "taboo": "气血虚而遍身痛及阴虚下体痿弱者禁用。一切虚风类中，咸非独活所宜"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "独活",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "独活",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "胜湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "独活",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "独活",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "独活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰膝酸痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "手脚挛痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "齿痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

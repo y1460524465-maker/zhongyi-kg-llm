@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "name": "丝毛毛毡草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利尿",
+        "indication": "急、慢性肾炎，肿毒疮疡",
+        "usage": "内服：煎汤，10-30g，服后吃白糖一匙；外用：适量，鲜品捣烂敷",
+        "taboo": "服药期间及服药后禁食鱼鲜、猪肥肉3个月；愈后禁食虾皮1年"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丝毛毛毡草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丝毛毛毡草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急、慢性肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝毛毛毡草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿毒疮疡",
+      "object_type": "Disease"
+    }
+  ]
+}

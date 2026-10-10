@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "小驳骨",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛瘀止痛，续筋接骨",
+        "indication": "跌打损伤，筋伤骨折，风湿骨痛，血瘀经闭，产后腹痛",
+        "dosage": "内服，煎汤，9～15g。或研末，或泡酒。外用适量，捣敷或者煎水洗",
+        "property_flavor": "味微辛、酸",
+        "processing": "除去杂质，晒干",
+        "traits": "茎呈圆柱形，有分枝，长40～90cm，直径0.2～3cm。茎表面黄绿色、淡绿褐色或褐绿色，有稀疏的黄色小皮孔；小枝微具四棱线，节膨大。质脆，易折断，断面黄白色。叶对生，卷缩破碎，展平后呈狭披针形或条状披针形，长4～14cm，宽1～2cm;先端渐尖，基部楔形，全缘，叶脉略带紫色。有的可见穗状花序，顶生或生于上部叶腋，苞片窄细，花冠二唇形。气微"
+      }
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "筋伤骨折",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿骨痛",
+      "type": "Disease"
+    },
+    {
+      "name": "血瘀经闭",
+      "type": "Disease"
+    },
+    {
+      "name": "产后腹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "骨折",
+      "type": "Disease"
+    },
+    {
+      "name": "无名肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打扭伤",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "广州部队《常用中草药手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小驳骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小驳骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋伤骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小驳骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿骨痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小驳骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血瘀经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小驳骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小驳骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小驳骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小驳骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打扭伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小驳骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广州部队《常用中草药手册》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "小驳骨",
+      "object_type": "Herb"
+    }
+  ]
+}

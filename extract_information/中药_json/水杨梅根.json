@@ -1,0 +1,187 @@
+{
+  "entities": [
+    {
+      "name": "水杨梅根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解表，活血解毒。主感冒发热，咳嗽，腮腺炎，咽喉肿痛，肝炎，风湿关节痛，创伤出血。",
+        "indication": "感冒发热，咳嗽，腮腺炎，咽喉肿痛，肝炎，风湿关节痛，创伤出血",
+        "dosage": "内服：煎汤，15-30g。",
+        "processing": "夏、秋采挖多年老植株的根，洗净，切片鲜用或晒干。",
+        "property_flavor": "味微苦涩"
+      }
+    },
+    {
+      "name": "感冒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "腮腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿关节痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "创伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "疖肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "下肢溃疡",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿惊风",
+      "type": "Disease"
+    },
+    {
+      "name": "鱼腥草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "筋骨草",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿关节痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "创伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疖肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下肢溃疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "鱼腥草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "水杨梅根",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "筋骨草",
+      "object_type": "Herb"
+    }
+  ]
+}

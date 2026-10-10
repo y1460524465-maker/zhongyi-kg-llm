@@ -1,0 +1,158 @@
+{
+  "entities": [
+    {
+      "name": "川芎茶调散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "川芎茶调散荆防，辛芷薄荷甘草羌，目昏鼻塞风攻上，正偏头痛悉能康",
+        "effect": "疏风止痛",
+        "indication": "风邪头痛。偏正头痛或巅顶作痛，恶寒发热，目眩鼻塞，舌苔薄白，脉浮者",
+        "usage": "食后以清茶调下"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "疏风止痛"
+      }
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "解表疏风，清利头目"
+      }
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "疏风止痛"
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "疏风止痛"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "益气和中，调和诸药"
+      }
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": "散寒止痛"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5g",
+        "effect": "辛散风邪"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "解表疏风，清利头目"
+      }
+    },
+    {
+      "name": "清茶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "适量",
+        "effect": "上清头目，制约风药温燥"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "川芎茶调散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风邪头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "川芎茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "川芎茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "川芎茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "川芎茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "川芎茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "川芎茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "川芎茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "川芎茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "川芎茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "清茶",
+      "object_type": "Herb"
+    }
+  ]
+}

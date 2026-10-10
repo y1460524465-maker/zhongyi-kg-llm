@@ -1,0 +1,244 @@
+{
+  "entities": [
+    {
+      "name": "大火草根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3-9g；或研粉服。",
+        "effect": "化痰止咳，散瘀，截疟，杀虫",
+        "indication": "主治疮疖痈肿，顽癣，秃疮，疟疾，痢疾，劳伤咳喘，小儿疳疾，跌打损伤。",
+        "processing": "春季或秋季挖取根，去净茎叶，晒干。",
+        "property_flavor": "味苦、辛",
+        "taboo": "孕妇禁用。",
+        "traits": "有毒"
+      }
+    },
+    {
+      "name": "野棉花根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "土白头翁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大头翁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《重庆草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《陕西中草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "红猪毛七",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "土茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "夏枯草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "银花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "蒲公英",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疖痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "顽癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "秃疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疟疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳伤咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿疳疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "截疟",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰饮咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痒子",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "排脓生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食化积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无名肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿疳积",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《重庆草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陕西中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳伤咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大火草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒疮痒子",
+      "object_type": "Symptom"
+    }
+  ]
+}

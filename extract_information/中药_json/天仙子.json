@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "name": "天仙子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "莨菪子、横唐、牙痛子、小颠茄子、熏牙子、行唐、山烟、山大烟、野大烟",
+        "effect": "解痉止痛，平喘，安神",
+        "indication": "癫狂，风痫，风痹厥痛，神经痛，喘咳，胃脘挛痛，久痢，久泻，脱肛，牙痛，痈肿，恶疮",
+        "property_flavor": "苦、辛，温；有大毒",
+        "meridian": "心、胃、肝经",
+        "dosage": "内服：入丸、散，0.06～0.6g。外用：煎水洗，研末调敷或烧烟熏",
+        "taboo": "心脏病、心动过速、青光眼患者及孕妇禁用。有大毒，内服宜慎",
+        "origin": "《本经》"
+      }
+    },
+    {
+      "name": "癫狂",
+      "type": "Disease"
+    },
+    {
+      "name": "风痫",
+      "type": "Disease"
+    },
+    {
+      "name": "风痹厥痛",
+      "type": "Disease"
+    },
+    {
+      "name": "神经痛",
+      "type": "Disease"
+    },
+    {
+      "name": "喘咳",
+      "type": "Disease"
+    },
+    {
+      "name": "胃脘挛痛",
+      "type": "Disease"
+    },
+    {
+      "name": "久痢",
+      "type": "Disease"
+    },
+    {
+      "name": "久泻",
+      "type": "Disease"
+    },
+    {
+      "name": "脱肛",
+      "type": "Disease"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease"
+    },
+    {
+      "name": "恶疮",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解痉止痛，平喘，安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫狂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痹厥痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "神经痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喘咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃脘挛痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天仙子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "恶疮",
+      "object_type": "Disease"
+    }
+  ]
+}

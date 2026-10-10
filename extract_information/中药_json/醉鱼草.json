@@ -1,0 +1,134 @@
+{
+  "entities": [
+    {
+      "name": "醉鱼草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，杀虫，活血",
+        "usage": "内服：煎汤，10-15g，或鲜品15～30g；或捣汁。外用：适量，捣汁涂或研末掺。",
+        "origin": "马钱科植物醉鱼草的全草",
+        "indication": "流行性感冒，咳嗽，哮喘，风湿关节痛，蛔虫病，钩虫病，跌打，外伤出血，痄腮，瘰疬",
+        "place": "浙江、安徽、江苏、江西、福建、广东、广西、湖南、湖北、四川等地"
+      }
+    },
+    {
+      "name": "流行性感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "哮喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿关节痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛔虫病",
+      "type": "Disease"
+    },
+    {
+      "name": "钩虫病",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "痄腮",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "醉鱼草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿，杀虫，活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "醉鱼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "醉鱼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "醉鱼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "哮喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "醉鱼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿关节痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "醉鱼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "醉鱼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "钩虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "醉鱼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "醉鱼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "醉鱼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痄腮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "醉鱼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    }
+  ]
+}

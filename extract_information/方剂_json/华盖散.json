@@ -1,0 +1,134 @@
+{
+  "entities": [
+    {
+      "name": "华盖散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "华盖麻杏紫苏子，茯苓陈草桑白皮",
+        "effect": "宣肺化痰，止咳平喘",
+        "indication": "肺感寒邪，咳嗽上气，朐膈烦满，项背拘急，声重久塞，头昏目眩，痰气不利，呀呷有声",
+        "usage": "上药同为粗末。每服6克，用水150克，煎至90毫升，食后温服"
+      }
+    },
+    {
+      "name": "紫苏子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "去根、节"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "去皮，尖"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "去白"
+      }
+    },
+    {
+      "name": "桑白皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "赤茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "去皮"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "processing": "炙"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "华盖散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华盖散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华盖散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华盖散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华盖散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑白皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华盖散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华盖散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华盖散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "宣肺化痰，止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "华盖散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺感寒邪",
+      "object_type": "Disease"
+    }
+  ]
+}

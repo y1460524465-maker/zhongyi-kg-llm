@@ -1,0 +1,315 @@
+{
+  "entities": [
+    {
+      "name": "甘遂",
+      "type": "Herb",
+      "attributes": {
+        "alias": "主田,重泽,甘藁,陵藁,甘泽,苦泽,白泽,鬼丑,陵泽,肿手花根,九头狮子草,化骨丹,肿手花,头痛花,猫儿眼",
+        "effect": "泻水饮，破积聚。通二便。治水肿胀满，留饮，结胸，气逆喘咳，痢痫，噎膈，癥瘕积聚，二便不通。",
+        "indication": "主治水肿胀满，留饮，结胸，痢痫，噎膈，癥瘕积聚，气逆喘咳，二便不通。",
+        "meridian": "脾经；肺经；肾经；膀胱经；大肠经；小肠经",
+        "property_flavor": "味微甘、辛，有刺激性",
+        "dosage": "内服：入丸、散，0.5~1g。外用：适量，研末调敷。内服宜用炮制品。",
+        "taboo": "气虚、阴伤、脾胃衰弱者及孕妇忌服。"
+      }
+    },
+    {
+      "name": "水肿胀满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "留饮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "结胸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痢痫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "噎膈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "癥瘕积聚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气逆喘咳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "二便不通",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "十枣汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "强人服一钱匕，羸人服半钱，温服之，平且服。若下少，病不除者，明日更服，加半钱，得快下利后，糜粥自养。"
+      }
+    },
+    {
+      "name": "甘遂半夏汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以水二升，煮取半升，去滓，以蜜半升，和药汁煎取八合，顿服之。"
+      }
+    },
+    {
+      "name": "大黄甘遂汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以水三升，煮取一升，顿服之，其血当下。"
+      }
+    },
+    {
+      "name": "二气汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "甘遂丸",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "万灵膏",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "无价散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "遂心丹",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "缩水丸",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "《本草纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《补缺肘后方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《田氏保婴集》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《济生方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《怪证奇方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医学衷中参西录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《卫生杂兴》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《摘元方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《杨氏家藏方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《儒门事亲》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本事方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《雷公炮炙论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甘遂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻水饮，破积聚。通二便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘遂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘遂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "留饮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘遂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "结胸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘遂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘遂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噎膈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘遂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕积聚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘遂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气逆喘咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘遂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "二便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘遂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "甘遂半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘遂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘遂半夏汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大黄甘遂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘遂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄甘遂汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    }
+  ]
+}

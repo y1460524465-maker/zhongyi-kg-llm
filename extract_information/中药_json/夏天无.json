@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "夏天无",
+      "type": "Herb",
+      "attributes": {
+        "alias": "一粒金丹、洞里神仙、野延胡、飞来牡丹、伏地延胡索、落水珠",
+        "effect": "祛风除湿，舒筋活血，通络止痛，降血压",
+        "indication": "风湿性关节炎，中风偏瘫，坐骨神经痛，小儿麻痹后遗症，腰肌劳损，跌扑损伤，高血压",
+        "usage": "内服：煎汤，4.5~15g；或研末，1~3g；亦可制成丸剂"
+      }
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "中风偏瘫",
+      "type": "Disease"
+    },
+    {
+      "name": "坐骨神经痛",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿麻痹后遗症",
+      "type": "Disease"
+    },
+    {
+      "name": "腰肌劳损",
+      "type": "Disease"
+    },
+    {
+      "name": "跌扑损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "夏天无",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夏天无",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风偏瘫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夏天无",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "坐骨神经痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夏天无",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿麻痹后遗症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夏天无",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰肌劳损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夏天无",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夏天无",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夏天无",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "夏天无",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒筋活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "夏天无",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通络止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "夏天无",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降血压",
+      "object_type": "Effect"
+    }
+  ]
+}

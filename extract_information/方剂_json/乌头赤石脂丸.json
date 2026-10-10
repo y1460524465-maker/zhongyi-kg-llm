@@ -1,0 +1,204 @@
+{
+  "entities": [
+    {
+      "name": "乌头赤石脂丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "赤石脂丸、乌头丸",
+        "effect": "温阳逐寒，止痛救逆",
+        "usage": "先食服1丸，一日三次。不知，稍加服。"
+      }
+    },
+    {
+      "name": "蜀椒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "14克"
+      }
+    },
+    {
+      "name": "乌头",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7.5克",
+        "processing": "炮"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7克",
+        "processing": "炮"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "14克"
+      }
+    },
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "14克"
+      }
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source"
+    },
+    {
+      "name": "《备急千金要方》",
+      "type": "Source"
+    },
+    {
+      "name": "心痛撤背",
+      "type": "Symptom"
+    },
+    {
+      "name": "背痛撤心",
+      "type": "Symptom"
+    },
+    {
+      "name": "四肢厥冷",
+      "type": "Symptom"
+    },
+    {
+      "name": "冷汗出",
+      "type": "Symptom"
+    },
+    {
+      "name": "面色白",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌淡胖紫暗",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉沉紧",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉微细欲绝",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《备急千金要方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜀椒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌头",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温阳逐寒，止痛救逆",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心痛撤背",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "背痛撤心",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢厥冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "冷汗出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面色白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌淡胖紫暗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉沉紧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌头赤石脂丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉微细欲绝",
+      "object_type": "Symptom"
+    }
+  ]
+}

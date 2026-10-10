@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "name": "胆南星",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热化痰，息风定惊",
+        "indication": "中风痰迷，惊风癫痫，痰火喘嗽，头风眩晕",
+        "usage": "内服：煎汤，3-6g；或入丸、散",
+        "processing": "制天南星的细粉与牛、羊或猪胆汁经加工而成，或为生天南星细粉与牛、羊或猪胆汁经发酵加工而成"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "胆南星",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热化痰，息风定惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胆南星",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风痰迷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胆南星",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊风癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胆南星",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰火喘嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胆南星",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头风眩晕",
+      "object_type": "Disease"
+    }
+  ]
+}

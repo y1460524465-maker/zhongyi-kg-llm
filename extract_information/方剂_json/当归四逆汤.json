@@ -1,0 +1,253 @@
+{
+  "entities": [
+    {
+      "name": "当归四逆汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "养血散寒，温经通脉",
+        "indication": "厥阴伤寒，血脉凝涩，手足厥寒，脉细欲绝；或肠鸣腹痛，下利不止；或阴颓疝气，睾丸掣痛，牵引少腹。现用于雷诺氏病、血栓闭塞性脉管炎、坐骨神经痛、风湿性关节炎、腰腿足踝酸痛、胃十二指肠溃疡、慢性荨麻疹、精索静脉曲张、女子闭经、痛经、月经不调、冻疮、皲裂等属血虚寒凝经脉者",
+        "usage": "上药以水800毫升，煮取300毫升，去滓，分二次温服"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克（去皮）"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克（炙）"
+      }
+    },
+    {
+      "name": "通草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5枚"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "通草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养血散寒，温经通脉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "厥阴伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "雷诺氏病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血栓闭塞性脉管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "坐骨神经痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃十二指肠溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性荨麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "精索静脉曲张",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "冻疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和血养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂枝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温通经脉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芍药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益阴和营",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "细辛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散表里内外之寒邪",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "通草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "入经通脉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温养脾气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温养脾气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归四逆汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/当归四逆汤",
+      "object_type": "Source"
+    }
+  ]
+}

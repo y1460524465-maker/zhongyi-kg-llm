@@ -1,0 +1,186 @@
+{
+  "entities": [
+    {
+      "name": "鱼腥草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，利尿消肿",
+        "indication": "肺炎，肺脓疡，热痢，疟疾，水肿，淋病，白带，痈肿，痔疮，脱肛，湿疹，秃疮，疥癣",
+        "dosage": "内服：煎汤，15~25g，不宜久煎；或鲜品捣汁，用量加倍。外用：适量，捣敷或煎汤熏洗",
+        "taboo": "虚寒症及阴性外疡忌服；多食令人气喘；久食之，发虚弱，损阳气，消精髓"
+      }
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肺脓疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "热痢",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "淋病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "白带",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脱肛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "秃疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺脓疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白带",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "秃疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鱼腥草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    }
+  ]
+}

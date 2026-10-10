@@ -1,0 +1,292 @@
+{
+  "entities": [
+    {
+      "name": "加减葳蕤汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "辛凉解表，滋阴清热",
+        "indication": "阴虚之体外感风热证",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "葳蕤",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "甘寒",
+        "meridian": "肺胃经",
+        "effect": "滋阴润燥、润肺养胃、清热生津",
+        "traits": "滋而不腻"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "辛凉",
+        "meridian": "肝肺经",
+        "effect": "疏散风热、清利咽喉"
+      }
+    },
+    {
+      "name": "生葱白",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "淡豆豉",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "东白薇",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "苦寒",
+        "effect": "清热而不伤阴"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "effect": "宣肺止咳"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "effect": "甘润养血"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "调和药性"
+      }
+    },
+    {
+      "name": "头痛身热",
+      "type": "Symptom"
+    },
+    {
+      "name": "微恶风寒",
+      "type": "Symptom"
+    },
+    {
+      "name": "无汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "有汗不畅",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "口渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽干",
+      "type": "Symptom"
+    },
+    {
+      "name": "心烦",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌红",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉数",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴虚之体外感风热",
+      "type": "Disease"
+    },
+    {
+      "name": "老年人及产后感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "急性扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咽炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚之体外感风热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛身热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "微恶风寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "有汗不畅",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "辛凉解表，滋阴清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葳蕤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生葱白",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淡豆豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "东白薇",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "老年人及产后感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "加减葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "咽炎",
+      "object_type": "Disease"
+    }
+  ]
+}

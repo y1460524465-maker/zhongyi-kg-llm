@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "三棱煎",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "行气化痰，活血消瘕",
+        "indication": "妇人血症、血瘕、食积、痰滞",
+        "taboo": null,
+        "usage": "每服30～40丸，醋汤送下；治痰积，用姜汤送下"
+      }
+    },
+    {
+      "name": "三棱",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克",
+        "effect": "理气活血消瘕"
+      }
+    },
+    {
+      "name": "蓬术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克",
+        "effect": "理气活血消瘕"
+      }
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克",
+        "effect": "行气燥湿化痰"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克",
+        "effect": "行气燥湿化痰"
+      }
+    },
+    {
+      "name": "麦蘖",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克",
+        "effect": "行气燥湿化痰"
+      }
+    },
+    {
+      "name": "《三因极一病证方论》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三棱煎",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《三因极一病证方论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "三棱煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "三棱",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三棱煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蓬术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三棱煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三棱煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三棱煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦蘖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三棱煎",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气化痰，活血消瘕",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三棱煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人血症、血瘕、食积、痰滞",
+      "object_type": "Disease"
+    }
+  ]
+}

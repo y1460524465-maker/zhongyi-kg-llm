@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "芍药甘草附子汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "扶阳益阴"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "processing": "炮，去皮，破八片"
+      }
+    },
+    {
+      "name": "伤寒发汗后阴阳俱虚",
+      "type": "Disease"
+    },
+    {
+      "name": "反恶寒",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮家发汗成痉",
+      "type": "Disease"
+    },
+    {
+      "name": "发汗病不解",
+      "type": "Disease"
+    },
+    {
+      "name": "小便清",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便依度",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "《注解伤寒论》",
+      "type": "Source"
+    },
+    {
+      "name": "《伤寒来苏集》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芍药甘草附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芍药甘草附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芍药甘草附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芍药甘草附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "扶阳益阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芍药甘草附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒发汗后阴阳俱虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "伤寒发汗后阴阳俱虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "反恶寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芍药甘草附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疮家发汗成痉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芍药甘草附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "发汗病不解",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "发汗病不解",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小便清",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "发汗病不解",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "大便依度",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "发汗病不解",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芍药甘草附子汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《注解伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芍药甘草附子汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒来苏集》",
+      "object_type": "Source"
+    }
+  ]
+}

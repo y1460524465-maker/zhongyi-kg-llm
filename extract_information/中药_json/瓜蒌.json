@@ -1,0 +1,228 @@
+{
+  "entities": [
+    {
+      "name": "瓜蒌",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9～15克",
+        "effect": "清热涤痰，宽胸散结，润燥滑肠",
+        "indication": "用于肺热咳嗽，痰浊黄稠，胸痹心痛，结胸痞满，乳痈，肺痈，肠痈肿痛，大便秘结",
+        "taboo": "体虚、失血及上部无实邪者忌服。不宜与乌头类药材同用。"
+      }
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰浊黄稠",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸痹心痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "结胸痞满",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease"
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease"
+    },
+    {
+      "name": "肠痈肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便秘结",
+      "type": "Symptom"
+    },
+    {
+      "name": "清热涤痰",
+      "type": "Effect"
+    },
+    {
+      "name": "宽胸散结",
+      "type": "Effect"
+    },
+    {
+      "name": "润燥滑肠",
+      "type": "Effect"
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义补遗》",
+      "type": "Source"
+    },
+    {
+      "name": "小陷胸汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治小结胸病，正在心下，按之则痛，脉浮滑者"
+      }
+    },
+    {
+      "name": "栝蒌薤白白酒汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治胸痹，喘息咳唾，胸背痛，短气，寸口脉沉而迟，关上小紧数"
+      }
+    },
+    {
+      "name": "栝萎薤白半夏汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治胸痹不得卧，心痛彻背者"
+      }
+    },
+    {
+      "name": "神效瓜蒌散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治乳痈及一切痈疽初起，肿痛即消，脓成即溃，脓出即愈"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "瓜蒌",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓜蒌",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰浊黄稠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓜蒌",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痹心痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓜蒌",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "结胸痞满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓜蒌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓜蒌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓜蒌",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠痈肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓜蒌",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便秘结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓜蒌",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热涤痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓜蒌",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宽胸散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓜蒌",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润燥滑肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小陷胸汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "栝蒌薤白白酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "栝萎薤白半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神效瓜蒌散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌",
+      "object_type": "Herb"
+    }
+  ]
+}

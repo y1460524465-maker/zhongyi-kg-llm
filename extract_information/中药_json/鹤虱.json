@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {
+      "name": "鹤虱",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：多入丸、散；煎汤，5~10g。",
+        "effect": "杀虫消积。",
+        "indication": "治虫积腹痛。"
+      }
+    },
+    {
+      "name": "天名精",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹤虱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹤虱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虫积腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹤虱",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "天名精",
+      "object_type": "Source"
+    }
+  ]
+}

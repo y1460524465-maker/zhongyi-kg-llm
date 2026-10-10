@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "瓜子金",
+      "type": "Herb",
+      "attributes": {
+        "alias": "辰砂草、金锁匙、瓜子草、挂米草、竹叶地丁、金牛草",
+        "effect": "祛痰止咳，活血消肿，解毒止痛",
+        "indication": "咳嗽痰多，咽喉肿痛；外治跌打损伤，疗疮疖肿，蛇虫咬伤",
+        "usage": "内服，煎汤，15～30g；或捣汁或研末",
+        "origin": "本品为远志科植物瓜子金Polygala jaPonica Houtt.的干燥全草",
+        "place": "广东、广西、四川、江西、湖南、福建、安徽、云南、浙江等地",
+        "processing": "春末花开时采挖，除去泥沙，晒干",
+        "property_flavor": "气微，味微辛苦",
+        "traits": "根呈圆柱形，稍弯曲，直径可达4mm；表面黄褐色，有纵皱纹；质硬，断面黄白色。茎少分枝，长10～30cm，淡棕色，被细柔毛。叶互生，展平后呈卵形或卵状披针形，长1～3cm，宽0.5～lcm；侧脉明显，先端短尖，基部圆形或楔形，全缘，灰绿色；叶柄短，有柔毛。总状花序腋生，最上的花序低于茎的顶端；花蝶形。蒴果圆而扁，直径约5mm，边缘具膜质宽翅，无毛，萼片宿存。种子扁卵形，褐色，密被柔毛"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "瓜子金",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓜子金",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓜子金",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓜子金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽痰多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓜子金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓜子金",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓜子金",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疗疮疖肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓜子金",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇虫咬伤",
+      "object_type": "Disease"
+    }
+  ]
+}

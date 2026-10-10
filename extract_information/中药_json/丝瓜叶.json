@@ -1,0 +1,248 @@
+{
+  "entities": [
+    {
+      "name": "丝瓜叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "止血，清热解毒",
+        "indication": "痈疽，疔肿，疮癣，蛇咬，汤火伤",
+        "dosage": "内服：煎汤，6-15g；鲜品15-60g，或捣汁；或研末。外用：适量，煎水洗；或捣敷；或研末调敷。",
+        "origin": "为葫芦科植物丝瓜或粤丝瓜的叶片。夏、秋两季采收，晒干或鲜用。",
+        "property_flavor": "",
+        "traits": "用于痈疽，疔肿，疮癣，蛇咬，汤火伤。"
+      }
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "《广州植物志》",
+      "type": "Source"
+    },
+    {
+      "name": "鱼脐疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "虫癣",
+      "type": "Disease"
+    },
+    {
+      "name": "汤火伤灼",
+      "type": "Disease"
+    },
+    {
+      "name": "阴子偏坠",
+      "type": "Disease"
+    },
+    {
+      "name": "肾囊风热瘙痒",
+      "type": "Disease"
+    },
+    {
+      "name": "汗斑",
+      "type": "Disease"
+    },
+    {
+      "name": "妇人血崩",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇咬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "汤火伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癣疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消暑解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痧秽腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鹅喉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿夏月皮肤病",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿退炎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鱼脐疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虫癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "汤火伤灼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴子偏坠",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾囊风热瘙痒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "汗斑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人血崩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "《纲目》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "丝瓜叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《本经逢原》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "丝瓜叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《随息居饮食谱》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "丝瓜叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《岭南采药录》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "丝瓜叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《广州植物志》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "丝瓜叶",
+      "object_type": "Herb"
+    }
+  ]
+}

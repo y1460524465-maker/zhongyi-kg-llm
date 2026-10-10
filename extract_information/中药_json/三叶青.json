@@ -1,0 +1,222 @@
+{
+  "entities": [
+    {
+      "name": "三叶青",
+      "type": "Herb",
+      "attributes": {
+        "alias": "金线吊葫芦、丝线吊金钟、三叶扁藤、石老鼠、小扁藤、石猴子、土经丸、三叶对",
+        "effect": "清热解毒、祛风化痰、活血止痛",
+        "indication": "小儿高热惊厥、痢疾、支气管炎、肺炎、咽喉炎、肝炎、病毒性脑膜炎、毒蛇咬伤、扁桃体炎、蜂窝织炎、跌打损伤",
+        "place": "浙江、江西、福建、湖北、湖南、广东、四川",
+        "processing": "全年可采，晒干或鲜用"
+      }
+    },
+    {
+      "name": "葡萄科崖爬藤属植物三叶青",
+      "type": "Herb",
+      "attributes": {
+        "place": "浙江、江西、福建、湖北、湖南、广东、四川"
+      }
+    },
+    {
+      "name": "三叶青Tetrastigma hemsleyanum Diels et Gilg.",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "小儿高热惊厥",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "病毒性脑膜炎",
+      "type": "Disease"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "蜂窝织炎",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "祛风化痰",
+      "type": "Effect"
+    },
+    {
+      "name": "活血止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "钩藤",
+      "type": "Herb"
+    },
+    {
+      "name": "七叶一枝花根",
+      "type": "Herb"
+    },
+    {
+      "name": "瓜子金",
+      "type": "Herb"
+    },
+    {
+      "name": "枸骨根",
+      "type": "Herb"
+    },
+    {
+      "name": "虎刺根",
+      "type": "Herb"
+    },
+    {
+      "name": "茜草根",
+      "type": "Herb"
+    },
+    {
+      "name": "贝母",
+      "type": "Herb"
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿高热惊厥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "病毒性脑膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蜂窝织炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三叶青",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿高热惊厥",
+      "object_type": "Symptom"
+    }
+  ]
+}

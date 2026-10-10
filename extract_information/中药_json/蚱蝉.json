@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "蚱蝉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，熄风镇惊",
+        "indication": "小儿发热，惊风抽搐，癫痫，夜啼，偏头痛",
+        "usage": "内服：煎汤，1-3个；或入丸、散"
+      }
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚱蝉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热，熄风镇惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚱蝉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚱蝉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊风抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚱蝉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癫痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚱蝉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夜啼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚱蝉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚱蝉散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    }
+  ]
+}

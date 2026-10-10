@@ -1,0 +1,185 @@
+{
+  "entities": [
+    {
+      "name": "黎洞丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "续筋接骨，疏风活络",
+        "indication": "金疮跌扑伤，发背痈疽，恶疮，瘰疬，刑伤，疯犬咬伤，蜂、蛇、蝎毒",
+        "taboo": null,
+        "usage": "每服1丸，黄酒化下，外敷亦用黄酒磨涂此药。"
+      }
+    },
+    {
+      "name": "三七",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "阿魏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "孩儿茶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "天竺黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "血竭",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "山羊血",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "藤黄",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "三七",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿魏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "孩儿茶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天竺黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "血竭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山羊血",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黎洞丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藤黄",
+      "object_type": "Herb"
+    }
+  ]
+}

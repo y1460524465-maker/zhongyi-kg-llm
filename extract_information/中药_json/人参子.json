@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "name": "人参子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3-10g；或提取其中皂甙制成片剂",
+        "effect": "补气强身，延缓衰老",
+        "indication": "体虚乏力，头昏失眼，胸闷气短",
+        "origin": "五加科植物人参的果实",
+        "processing": "秋初果熟时采摘，晒干"
+      }
+    },
+    {
+      "name": "体虚乏力",
+      "type": "Symptom"
+    },
+    {
+      "name": "头昏失眼",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸闷气短",
+      "type": "Symptom"
+    },
+    {
+      "name": "补气强身",
+      "type": "Effect"
+    },
+    {
+      "name": "延缓衰老",
+      "type": "Effect"
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "人参子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体虚乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人参子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头昏失眼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人参子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷气短",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人参子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补气强身",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人参子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "延缓衰老",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人参子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    }
+  ]
+}

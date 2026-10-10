@@ -1,0 +1,112 @@
+{
+  "entities": [
+    {
+      "name": "双柏散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "跌打扭伤，筋肉肿痛，发红；各期阑尾炎有包块者",
+        "source": "https://zhongyibaike.com/wiki/双柏散"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2斤"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1斤"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1斤"
+      }
+    },
+    {
+      "name": "泽兰",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1斤"
+      }
+    },
+    {
+      "name": "侧柏叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2斤"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "双柏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "双柏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "双柏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "双柏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽兰",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "双柏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "侧柏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "双柏散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打扭伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "双柏散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阑尾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "双柏散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "双柏散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发红",
+      "object_type": "Symptom"
+    }
+  ]
+}

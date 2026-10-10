@@ -1,0 +1,222 @@
+{
+  "entities": [
+    {
+      "name": "路路通",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风通络，利水除湿",
+        "indication": "肢体痹痛，手足拘挛，胃痛，水肿，胀满，经闭，乳少，痈疽，痔漏，疥癣，湿疹",
+        "dosage": "3~10g",
+        "taboo": "阴虚内热者不宜；虚寒血崩者勿服；经水过多及孕妇忌用",
+        "processing": "冬季采摘，除去杂质，洗净，晒干"
+      }
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    },
+    {
+      "name": "《中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "广州部队《常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "肢体痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "手足拘挛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "胀满",
+      "type": "Symptom"
+    },
+    {
+      "name": "经闭",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳少",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease"
+    },
+    {
+      "name": "痔漏",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风通络，利水除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足拘挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广州部队《常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "路路通",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    }
+  ]
+}

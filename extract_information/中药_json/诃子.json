@@ -1,0 +1,192 @@
+{
+  "entities": [
+    {
+      "name": "诃子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "诃黎勒、诃黎、诃梨、随风子",
+        "effect": "敛肺，涩肠，下气，利咽",
+        "indication": "久咳失音，久泻，久痢，脱肛，便血，崩漏，带下，遗精，尿频",
+        "meridian": "肺经、胃经、大肠经",
+        "property_flavor": "酸涩",
+        "dosage": "3~6g",
+        "taboo": "凡外邪未解，内有湿热火邪者忌服。"
+      }
+    },
+    {
+      "name": "诃黎勒",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "涩肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "下气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利咽",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久咳失音",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿频",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《南方草木状》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《海药本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草图经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草通玄》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《品汇精要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学入门》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "诃子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求真》",
+      "object_type": "Source"
+    }
+  ]
+}

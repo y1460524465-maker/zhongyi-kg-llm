@@ -1,0 +1,441 @@
+{
+  "entities": [
+    {
+      "name": "全蝎",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虿、奎、杜伯、主簿虫、虿尾虫、全虫、茯背虫、蝎子",
+        "effect": "息风镇痉，攻毒散结，通络止痛",
+        "indication": "用于小儿惊风，抽搐痉挛，中风口歪，半身不遂，破伤风，风湿顽痹，偏正头痛，疮疡，瘰疬",
+        "dosage": "内服：煎汤，2~5g；研末入丸、散，每次0.5~1g；蝎尾用量为全蝎的1/3。外用：适量，研末掺、熬膏或油浸涂敷",
+        "taboo": "血虚生风者及孕妇禁服",
+        "property_flavor": "味咸",
+        "traits": "气微腥"
+      }
+    },
+    {
+      "name": "小儿惊风",
+      "type": "Disease"
+    },
+    {
+      "name": "抽搐痉挛",
+      "type": "Symptom"
+    },
+    {
+      "name": "中风口歪",
+      "type": "Symptom"
+    },
+    {
+      "name": "半身不遂",
+      "type": "Symptom"
+    },
+    {
+      "name": "破伤风",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿顽痹",
+      "type": "Disease"
+    },
+    {
+      "name": "偏正头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮疡",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "血栓闭塞性脉管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "淋巴结结核",
+      "type": "Disease"
+    },
+    {
+      "name": "骨关节结核",
+      "type": "Disease"
+    },
+    {
+      "name": "流行性腮腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "高血压病",
+      "type": "Disease"
+    },
+    {
+      "name": "动脉硬化",
+      "type": "Disease"
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "慢性气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "腋窝结核",
+      "type": "Disease"
+    },
+    {
+      "name": "腹股沟肿核",
+      "type": "Symptom"
+    },
+    {
+      "name": "诸疮毒肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "初发痔痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "大肠风毒下血",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "乙脑后遗症失语",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿鹅口",
+      "type": "Disease"
+    },
+    {
+      "name": "蛇头疮",
+      "type": "Disease"
+    },
+    {
+      "name": "牛皮癣",
+      "type": "Disease"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "失音",
+      "type": "Symptom"
+    },
+    {
+      "name": "天钓惊风",
+      "type": "Disease"
+    },
+    {
+      "name": "乙型脑炎抽搐",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿风痢",
+      "type": "Disease"
+    },
+    {
+      "name": "癫痫",
+      "type": "Disease"
+    },
+    {
+      "name": "耳暴聋闭",
+      "type": "Symptom"
+    },
+    {
+      "name": "风淫湿痹",
+      "type": "Disease"
+    },
+    {
+      "name": "初生小儿脐风撮口",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿脐风撮口",
+      "type": "Disease"
+    },
+    {
+      "name": "腋窝结核",
+      "type": "Disease"
+    },
+    {
+      "name": "腹股沟肿核",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "抽搐痉挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风口歪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "半身不遂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿顽痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏正头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "息风镇痉，攻毒散结，通络止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血栓闭塞性脉管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴结结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨关节结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "动脉硬化",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腋窝结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹股沟肿核",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "诸疮毒肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "初发痔痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大肠风毒下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乙脑后遗症失语",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿鹅口",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇头疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牛皮癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失音",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "天钓惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乙型脑炎抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿风痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳暴聋闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风淫湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "初生小儿脐风撮口",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿脐风撮口",
+      "object_type": "Disease"
+    }
+  ]
+}

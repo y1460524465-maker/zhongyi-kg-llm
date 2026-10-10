@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "name": "羊舌树",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解表",
+        "indication": "感冒头痛，口燥，身热",
+        "usage": "内服：煎汤",
+        "dosage": "9-15g"
+      }
+    },
+    {
+      "name": "感冒头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "口燥",
+      "type": "Symptom"
+    },
+    {
+      "name": "身热",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "羊舌树",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊舌树",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊舌树",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羊舌树",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解表",
+      "object_type": "Effect"
+    }
+  ]
+}

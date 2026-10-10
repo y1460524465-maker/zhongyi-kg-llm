@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "轮叶排草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "凉血止血，平肝，解蛇毒",
+        "indication": "咯血，吐血，衄血，便血，外伤出血，失眠，高血压病，毒蛇咬伤",
+        "dosage": "内服：煎汤，15～30g；或捣汁。外用：适量，鲜品捣敷"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "轮叶排草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "轮叶排草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "轮叶排草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解蛇毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "轮叶排草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "轮叶排草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "轮叶排草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "轮叶排草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "轮叶排草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "轮叶排草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "轮叶排草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒蛇咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "轮叶排草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压病",
+      "object_type": "Disease"
+    }
+  ]
+}

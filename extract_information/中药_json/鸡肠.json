@@ -1,0 +1,194 @@
+{
+  "entities": [
+    {
+      "name": "鸡肠",
+      "type": "Herb",
+      "attributes": {
+        "origin": "雉科动物家鸡的肠子",
+        "usage": "内服：焙干研末，3-6g；或煮食。",
+        "effect": "益肾；固精；止遗。",
+        "indication": "主遗尿；小便频数；失禁；遗精；白浊；痔漏；消渴。"
+      }
+    },
+    {
+      "name": "遗尿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便频数",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "失禁",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "白浊",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔漏",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "消渴",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《食医心镜》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《奇效良方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "鸡肠散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治痔漏生管",
+        "taboo": null,
+        "usage": "每服三钱，一日三次，白水送下。"
+      }
+    },
+    {
+      "name": "棉花子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半斤"
+      }
+    },
+    {
+      "name": "地龙",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半斤"
+      }
+    },
+    {
+      "name": "槐花",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡肠",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益肾；固精；止遗。",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡肠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗尿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失禁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡肠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡肠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡肠散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痔漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡肠散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《奇效良方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡肠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡肠",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡肠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棉花子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡肠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地龙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡肠散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槐花",
+      "object_type": "Herb"
+    }
+  ]
+}

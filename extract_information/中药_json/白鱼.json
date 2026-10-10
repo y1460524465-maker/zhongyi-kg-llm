@@ -1,0 +1,67 @@
+{
+  "entities": [
+    {
+      "name": "白鱼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鮊鱼、鱎鱼、白扁鱼",
+        "effect": "开胃健脾，消食行水",
+        "indication": "食积不化，水肿",
+        "usage": "内服：煮食，100-250g",
+        "origin": "为鲤科动物翘嘴红鮊的肉",
+        "taboo": "多食泥人心，久食令人心腹诸病；患疮疖人不可食，甚发脓"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开胃健脾，消食行水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积不化",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "滇南本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "纲目",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草求原",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "日华子本草",
+      "object_type": "Source"
+    }
+  ]
+}

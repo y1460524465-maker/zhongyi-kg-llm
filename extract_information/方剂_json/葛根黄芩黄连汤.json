@@ -1,0 +1,242 @@
+{
+  "entities": [
+    {
+      "name": "葛根黄芩黄连汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "解表退热, 生发脾胃清阳之气而止下利",
+        "indication": "协热下利",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "葛根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": "解表退热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "甘辛而平",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "和中而调和诸药",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "清热燥湿, 厚肠止利",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "清热燥湿, 厚肠止利",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "协热下利",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "身热下利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸脘烦热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口中作渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喘而汗出",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红苔黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉数或促",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葛根黄芩黄连汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "协热下利",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葛根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解表退热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葛根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生发脾胃清阳之气而止下利",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芩",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芩",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "厚肠止利",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "厚肠止利",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和中而调和诸药",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葛根黄芩黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葛根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛根黄芩黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛根黄芩黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛根黄芩黄连汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "协热下利",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身热下利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "协热下利",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸脘烦热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "协热下利",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口中作渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "协热下利",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "喘而汗出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "协热下利",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌红苔黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "协热下利",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉数或促",
+      "object_type": "Symptom"
+    }
+  ]
+}

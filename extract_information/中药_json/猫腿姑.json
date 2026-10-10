@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "猫腿姑",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3~6g",
+        "effect": "祛风，除湿，活络止痛",
+        "indication": "风湿性关节炎，四肢麻木",
+        "origin": "菊科植物绒背蓟的块根",
+        "processing": "春、秋季采挖，洗净，鲜用或晒干",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猫腿姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猫腿姑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猫腿姑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猫腿姑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活络止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猫腿姑",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢麻木",
+      "object_type": "Symptom"
+    }
+  ]
+}

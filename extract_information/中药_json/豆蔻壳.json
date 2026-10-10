@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {
+      "name": "豆蔻壳",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白蔻衣，白蔻壳，白豆蔻壳，蔻壳",
+        "effect": "化湿行气，温中止呕",
+        "indication": "寒湿气滞、脘腹胀闷、胃呆、呕吐等症",
+        "dosage": "3～6g",
+        "usage": "入煎剂宜后下",
+        "property_flavor": "味微辛凉",
+        "traits": "气芳香",
+        "processing": "将原药除去残留种子等杂质，筛去灰屑",
+        "origin": "姜科植物白豆蔻或爪哇白豆蔻的干燥成熟果实的果壳"
+      }
+    }
+  ],
+  "relations": []
+}

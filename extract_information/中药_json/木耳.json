@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {
+      "name": "木耳",
+      "type": "Herb",
+      "attributes": {
+        "alias": "檽,木檽,桑上寄生,蕈耳,树鸡,木耳,木菌,木蛾,云耳,耳子,光木耳,木茸",
+        "effect": "补气血，润肺，止血",
+        "indication": "气虚血亏，四肢搐搦，肺虚咳嗽，咯血，吐血，衄血，崩漏，高血压病，便秘",
+        "meridian": "肺经；胃经；肝经；脾经；肾经；大肠经",
+        "place": "四川、福建、江苏",
+        "dosage": "3～10g",
+        "taboo": null,
+        "property_flavor": null,
+        "traits": null,
+        "origin": "木耳科植物木耳的子实体",
+        "processing": null
+      }
+    }
+  ],
+  "relations": []
+}

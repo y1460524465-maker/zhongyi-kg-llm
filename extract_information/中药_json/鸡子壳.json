@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "name": "鸡子壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "收敛制酸，壮骨止血，明目",
+        "indication": "停饮脘痛，反胃，小儿佝偻病，各种出血，眼生翳膜，头身疮疖，聘耳流脓",
+        "dosage": "内服：焙研为末，1-9g；外用：适量，煅研，撒敷或油调敷",
+        "alias": "鸡卵壳、混沌池、凤凰蜕、混沌皮、鸡子蜕、鸡蛋壳",
+        "origin": "雉科动物家鸡的卵的硬外壳"
+      }
+    },
+    {
+      "name": "反胃",
+      "type": "Disease"
+    },
+    {
+      "name": "小便不通",
+      "type": "Disease"
+    },
+    {
+      "name": "眼卒生翳膜",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿头身诸疮",
+      "type": "Disease"
+    },
+    {
+      "name": "耳疳出脓",
+      "type": "Disease"
+    },
+    {
+      "name": "下疳",
+      "type": "Disease"
+    },
+    {
+      "name": "头上软疖",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡子壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "反胃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡子壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便不通",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡子壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "眼卒生翳膜",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡子壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿头身诸疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡子壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "耳疳出脓",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡子壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡子壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头上软疖",
+      "object_type": "Disease"
+    }
+  ]
+}

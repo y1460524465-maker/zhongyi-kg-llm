@@ -1,0 +1,270 @@
+{
+  "entities": [
+    {
+      "name": "清燥救肺汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "滋补润燥、清热祛邪",
+        "indication": "温燥伤肺，头痛身热，干咳无痰，气喘胸胀(或痛)，心烦口渴，舌苔薄白少津，尖边俱红者；肺痿，咳吐涎沫，喘逆上气，咽喉干燥，口渴，舌光红，苔干剥，脉虚而数者",
+        "usage": "水一碗，煎六分，频频滚热服"
+      }
+    },
+    {
+      "name": "桑叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱",
+        "processing": "去枝梗"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二钱五分",
+        "processing": "煅"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "七分"
+      }
+    },
+    {
+      "name": "胡麻仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱",
+        "processing": "炒，研"
+      }
+    },
+    {
+      "name": "真阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "八分"
+      }
+    },
+    {
+      "name": "麦门冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱二分",
+        "processing": "去心"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "七分",
+        "processing": "泡去皮尖，炒黄"
+      }
+    },
+    {
+      "name": "枇杷叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一片",
+        "processing": "刷去毛，蜜涂炙黄"
+      }
+    },
+    {
+      "name": "贝母",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "瓜蒌",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "犀角",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "羚羊角",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "麦门冬汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "《金匮》",
+      "type": "Source",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡麻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "真阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦门冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枇杷叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "温燥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋补润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "清燥救肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热祛邪",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津润肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津润肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麦门冬",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津润肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麦门冬汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "麦门冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦门冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麦门冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦门冬",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "entities": [
+    {
+      "name": "桑螵蛸散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "心肾两虚，小便频数，如稠米泔，心神恍惚，健忘食少，或溺后遗沥不尽，或睡中遗尿，或梦遗失精，舌淡苔白，脉细弱者",
+        "taboo": null,
+        "usage": "上药研末。每服6克，人参汤调下，夜卧服"
+      }
+    },
+    {
+      "name": "桑螵蛸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "远志",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "石菖蒲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "茯神",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "龟版",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桑螵蛸散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑螵蛸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑螵蛸散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑螵蛸散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石菖蒲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑螵蛸散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑螵蛸散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯神",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑螵蛸散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑螵蛸散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑螵蛸散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟版",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑螵蛸散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心肾两虚",
+      "object_type": "Disease"
+    }
+  ]
+}

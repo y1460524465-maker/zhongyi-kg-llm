@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "大蓟",
+      "type": "Herb",
+      "attributes": {
+        "alias": "马蓟、虎蓟、刺蓟、山牛蒡、鸡项草、鸡脚刺、野红花、茨芥、牛触嘴、鼓椎、鸡姆刺、恶鸡婆、大牛喳口、猪姆刺、六月霜、蚁姆刺、牛口刺、老虎脷、刺萝卜、驴扎嘴、马刺刺、刺秸子、马刺草、牛口舌、老虎刺、草鞋刺、刷把头、土红花、野刺菜、牛不嗅、猪妈菜、牛刺竻菜、竻菜、鸟不扑",
+        "effect": "凉血止血",
+        "indication": "衄血，吐血，尿血，便血，崩漏，外伤出血",
+        "taboo": "脾胃虚寒而无瘀滞者忌服",
+        "property_flavor": "苦、涩，凉",
+        "meridian": "心、肝经",
+        "dosage": "5～10g，多入丸散服"
+      }
+    },
+    {
+      "name": "大蓟炭",
+      "type": "Herb",
+      "attributes": {
+        "effect": "止血",
+        "usage": "取净大蓟置锅内用武火炒至七成变黑色,存性，过铁丝筛,喷洒清水，取出晒干"
+      }
+    },
+    {
+      "name": "大蓟草",
+      "type": "Herb",
+      "attributes": {
+        "traits": "茎呈圆柱形，基部直径可达1.2cm；表面绿褐色或棕褐色，有数条纵棱，被丝状毛；断面灰白色，髓部疏松或中空。叶皱缩，多破碎，完整叶片展平后呈倒披针形或倒卵状椭圆形，羽状深裂，边缘具不等长的针刺；上表面灰绿色或黄棕色，下表面色较浅，两面均具灰白色丝状毛。头状花序顶生，球形或椭圆形，总苞黄褐色，羽状冠毛灰白色。气微，味淡。"
+      }
+    },
+    {
+      "name": "大蓟根",
+      "type": "Herb",
+      "attributes": {
+        "traits": "呈长纺锤形，常簇生而扭曲，长5～15cm，直径0.2～0.6cm。表面暗褐色，有不规则的纵皱纹。质硬而脆，易折断，断面粗糙，灰白色。气微，味甘、微苦。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大蓟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大蓟",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    }
+  ]
+}

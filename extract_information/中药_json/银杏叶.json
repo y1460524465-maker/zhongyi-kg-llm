@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "银杏叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~9g；或用提取物作片剂；或入丸、散。外用：适量，捣敷或搽；或煎水洗。",
+        "effect": "益心敛肺，化湿止泻。",
+        "indication": "治胸闷心痛，心悸怔忡，痰喘咳嗽，泻痢，白带。",
+        "taboo": "《中药志》：有实邪者忌用。",
+        "origin": "本品为银杏科植物银杏（白果树、公孙树）Ginkgo biloba L．的干燥叶。"
+      }
+    },
+    {
+      "name": "品汇精要",
+      "type": "Source"
+    },
+    {
+      "name": "中药志",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "银杏叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "品汇精要",
+      "object_type": "Source"
+    },
+    {
+      "subject": "银杏叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "中药志",
+      "object_type": "Source"
+    },
+    {
+      "subject": "银杏叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益心敛肺，化湿止泻。",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银杏叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷心痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银杏叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸怔忡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银杏叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰喘咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银杏叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银杏叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    }
+  ]
+}

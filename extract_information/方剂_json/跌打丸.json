@@ -1,0 +1,424 @@
+{
+  "entities": [
+    {
+      "name": "跌打丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "活血散瘀，舒筋活络，行气止痛",
+        "indication": "血瘀气滞，经络不通之跌打损伤、伤筋动骨、外伤出血、虫蛇咬伤",
+        "usage": "成人每次服一丸，小童服半丸、用开水送服，一日2次；外用以酒开丸，擦敷患部"
+      }
+    },
+    {
+      "name": "三七",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "64g"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48g"
+      }
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "64g"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48g"
+      }
+    },
+    {
+      "name": "血竭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48g"
+      }
+    },
+    {
+      "name": "北刘寄奴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "骨碎补",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "续断",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "320g"
+      }
+    },
+    {
+      "name": "苏木",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48g"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48g"
+      }
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18g"
+      }
+    },
+    {
+      "name": "姜黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24g"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "三棱",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48g"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "甜瓜子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48g"
+      }
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "自然铜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "土鳖虫",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "32g"
+      }
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "伤筋动骨",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Disease"
+    },
+    {
+      "name": "虫蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "活血散瘀",
+      "type": "Effect"
+    },
+    {
+      "name": "消肿止痛",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤筋动骨",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "虫蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "三七",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "血竭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "北刘寄奴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "骨碎补",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "续断",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苏木",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "姜黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "三棱",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甜瓜子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "自然铜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "土鳖虫",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "跌打丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/跌打丸",
+      "object_type": "Source"
+    }
+  ]
+}

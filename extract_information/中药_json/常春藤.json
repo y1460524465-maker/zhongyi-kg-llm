@@ -1,0 +1,279 @@
+{
+  "entities": [
+    {
+      "name": "常春藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "土鼓藤、龙鳞薛荔、尖叶薜荔、三角风、三角尖、上树蜈蚣、爬墙虎、械枫、尖角枫、山葡萄、狗姆蛇、钻天风、百脚蜈蚣、钻矢风、枫荷梨藤、风藤草、犁头南枫藤、三角箭、土枫藤、散骨风、三叶木莲",
+        "effect": "祛风，利湿，平肝，解毒",
+        "indication": "风湿性关节炎，肝炎，头晕，口眼歪斜，衄血，目翳，痈疽肿毒",
+        "origin": "五加科植物常春藤的茎、叶",
+        "processing": "茎叶干用在生长茂盛季节采收，切段晒干；鲜用时可随采随用",
+        "property_flavor": "味涩",
+        "traits": "茎呈圆柱形，长短不一，直径1-1.5cm，表面灰绿色或灰棕色，有横长皮孔，嫩枝有鳞片状柔毛；质坚硬，不易折断，断面裂片状，黄白色。叶互生，革质，灰绿以，营养枝的叶三角状卵形，花枝和果枝的叶椭圆状卵形、椭圆状披地形。花黄绿以。果实圆球形，黄色或红色。气微",
+        "taboo": null,
+        "dosage": "内服：煎汤，6-15g，研末；或浸酒，捣汁。外用：适量，捣敷或煎汤洗"
+      }
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "头晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "口眼歪斜",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "目翳",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "关节风痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰部酸痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后感风头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疔疮黑凹",
+      "type": "Symptom"
+    },
+    {
+      "name": "一切痈疽",
+      "type": "Disease"
+    },
+    {
+      "name": "衄血不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "疔疮痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "脱肛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "狂犬咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《草木便方》",
+      "type": "Source"
+    },
+    {
+      "name": "《分类草药性》",
+      "type": "Source"
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《中国药植图鉴》",
+      "type": "Source"
+    },
+    {
+      "name": "《西藏常用中草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口眼歪斜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节风痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰部酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后感风头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮黑凹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "一切痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "狂犬咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "常春藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

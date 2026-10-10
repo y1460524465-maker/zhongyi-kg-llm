@@ -1,0 +1,199 @@
+{
+  "entities": [
+    {
+      "name": "九味羌活汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "九味羌活用防风，细辛苍芷与川芎，黄芩生地同甘草，分经论治宜变通",
+        "effect": "发散风寒湿邪，兼清里热",
+        "indication": "外感风寒湿邪，内有蕴热所致的病证；恶寒发热、无汗头痛、肢体酸楚疼痛、口苦微渴",
+        "usage": "羌活、防风、苍术各9g，细辛2g，川芎、白芷、生地黄、黄芩、甘草各3g"
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散表寒，祛风湿，利关节，止痹痛",
+        "property_flavor": "辛苦温",
+        "meridian": "太阳经"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，散寒止痛，为风药中之润剂"
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": {
+        "effect": "发汗除湿",
+        "property_flavor": "辛苦温燥"
+      }
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": {
+        "effect": "搜剔筋骨"
+      }
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血行气，祛风止痛"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血行气，祛风止痛"
+      }
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养阴生津凉血"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清泄里热"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "调和诸药"
+      }
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/九味羌活汤",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/九味羌活汤",
+      "object_type": "Source"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风寒湿邪，内有蕴热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶寒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无汗头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体酸楚疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口苦微渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "九味羌活汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "发散风寒湿邪，兼清里热",
+      "object_type": "Effect"
+    }
+  ]
+}

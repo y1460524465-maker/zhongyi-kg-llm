@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "凌霄花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "芰华、紫葳华、苃华、陵霄花、堕胎花、藤萝花、吊墙花、杜灵霄花",
+        "effect": "破血通经，凉血祛风",
+        "indication": "用于血瘀经闭，月经不调，癥瘕积聚，风热痒疹，酒齄鼻",
+        "origin": "柴葳科植物凌霄Campsis grandiflora （Thunb.）K. Schum. 或美洲凌霄Campsis radicans （L.）Seem.",
+        "taboo": "畏卤咸；妊娠不可服；凡妇人血气虚者，一概勿施",
+        "dosage": "内服：煎汤，3~6g；或入散剂；外用：适量，研末调涂；或煎汤熏洗"
+      }
+    }
+  ],
+  "relations": []
+}

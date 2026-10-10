@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "name": "合欢皮",
+      "type": "Herb",
+      "attributes": {
+        "alias": "合昏皮、夜台皮、合欢木皮",
+        "effect": "解郁安神，活血消肿",
+        "indication": "心神不安，忧郁失眠，肺痈，疮肿，跌扑伤痛",
+        "taboo": null,
+        "usage": "内服：煎汤，10~15g；或入丸、散。外用：适量，研末调敷",
+        "dosage": "10~15g",
+        "processing": "夏、秋二季剥取，晒干",
+        "property_flavor": "气微香，味淡、微涩、稍刺舌",
+        "traits": "卷曲筒状或半筒状，长40～80cm，厚0.1～0.3cm；外表面灰棕色至灰褐色，内表面淡黄棕色或黄白色，质硬而脆，易折断，断面呈纤维性片状",
+        "origin": "豆科植物合欢Albizia julibrissin Durazz. 的干燥树皮"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解郁安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心神不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "忧郁失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑伤痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《分类草药性》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《动植物民间药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "合欢皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《常用中草药手册》",
+      "object_type": "Source"
+    }
+  ]
+}

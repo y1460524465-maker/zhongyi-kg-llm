@@ -1,0 +1,131 @@
+{
+  "entities": [
+    {
+      "name": "桂枝甘草龙骨牡蛎汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "安神救逆。潜阳，镇惊，补心，摄精。",
+        "indication": "用于火逆下之，因烧针烦躁者。多梦失眠，惊悸怔忡，遗精，阳萎。",
+        "taboo": null,
+        "usage": "以水5升，煮取2升半，去滓，温服8合，日3次。"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去皮",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炙",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "熬",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《注解伤寒论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《伤寒贯珠集》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《古方选注》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝甘草龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝甘草龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝甘草龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝甘草龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝甘草龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "安神救逆。潜阳，镇惊，补心，摄精。",
+      "object_type": "Effect"
+    }
+  ]
+}

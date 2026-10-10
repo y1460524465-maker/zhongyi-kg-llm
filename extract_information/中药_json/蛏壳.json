@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "蛏壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煅存性研末入散剂，3-6g。外用：适量，研末调敷或吹喉。",
+        "effect": "和胃，消肿",
+        "indication": "主胃病，咽喉肿痛。",
+        "processing": "捕得后，洗净泥沙，去肉收集贝壳，晒干。"
+      }
+    },
+    {
+      "name": "胃病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《万选方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蛏壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛏壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛏壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛏壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛏壳",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《万选方》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "name": "华山参",
+      "type": "Herb",
+      "attributes": {
+        "alias": "秦参、二月旺、白毛参、热参、大紫参",
+        "effect": "平喘止咳，安神镇惊",
+        "indication": "用于寒痰喘咳，心悸失眠易惊",
+        "origin": "Radix Physochlainae",
+        "place": "陕西、山西、河南",
+        "processing": "将根洗净，去粗皮，与适量甘草、麦冬、栀子、冰糖共煮后，晒干用",
+        "property_flavor": "味甘；微苦；涩；性热；有毒",
+        "taboo": "忌铁器、五灵脂、皂荚、黑豆、卤水、藜芦等。不宜多服，以免中毒。青光眼患者禁用。孕妇及前列腺重度肥大者慎用",
+        "dosage": "内服：煎汤，0.3~0.9g"
+      }
+    },
+    {
+      "name": "寒痰喘咳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心悸失眠易惊",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "虚寒腹泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "体虚寒咳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰喘",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "华山参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平喘止咳，安神镇惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "华山参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒痰喘咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "华山参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸失眠易惊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "华山参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚寒腹泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "华山参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "华山参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体虚寒咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "华山参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰喘",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "entities": [
+    {
+      "name": "零陵香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "熏草,燕草,蕙草,铃铃香,铃子香,黄零草,熏香,陵草,广零陵香,广灵香,平南香,满山香",
+        "effect": "解表,止痛,行气,驱蛔",
+        "indication": "感冒头痛,咽喉肿痛,牙痛,胸腹胀满,蛔虫病",
+        "property_flavor": "味微苦",
+        "traits": "气芳香浓郁",
+        "origin": "为报春花科植物灵香草的带根全草",
+        "place": "四川,云南,贵州,湖北,广东,广西",
+        "dosage": "内服：煎汤，5～15克；或入丸、散。外用：研末掺或煎水含漱",
+        "taboo": "得升麻、细辛善。不宜多服，令人气喘。得酒良"
+      }
+    },
+    {
+      "name": "《范汪方》",
+      "type": "Source"
+    },
+    {
+      "name": "《小品方》",
+      "type": "Source"
+    },
+    {
+      "name": "《濒湖集简方》",
+      "type": "Source"
+    },
+    {
+      "name": "《百一选方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《本事方》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《海药本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华于本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草求真》",
+      "type": "Source"
+    },
+    {
+      "name": "《得配本草》",
+      "type": "Source"
+    },
+    {
+      "name": "感冒头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸腹胀满",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛔虫病",
+      "type": "Disease"
+    },
+    {
+      "name": "伤寒",
+      "type": "Disease"
+    },
+    {
+      "name": "狐惑",
+      "type": "Disease"
+    },
+    {
+      "name": "五色诸痢",
+      "type": "Disease"
+    },
+    {
+      "name": "梦失精",
+      "type": "Disease"
+    },
+    {
+      "name": "牙疼",
+      "type": "Symptom"
+    },
+    {
+      "name": "头风白屑",
+      "type": "Symptom"
+    },
+    {
+      "name": "头风旋运",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰逆恶心",
+      "type": "Symptom"
+    },
+    {
+      "name": "懒食",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿头热",
+      "type": "Symptom"
+    },
+    {
+      "name": "鼻塞不通",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "狐惑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "五色诸痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梦失精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风白屑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风旋运",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰逆恶心",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "懒食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿头热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻塞不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《范汪方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《小品方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《濒湖集简方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《百一选方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本事方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《海药本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华于本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求真》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "零陵香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《得配本草》",
+      "object_type": "Source"
+    }
+  ]
+}

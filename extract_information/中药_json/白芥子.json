@@ -1,0 +1,245 @@
+{
+  "entities": [
+    {
+      "name": "白芥子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利气豁痰，温中散寒，通络止痛",
+        "indication": "主治痰饮咳喘，胸胁胀满疼痛，反胃呕吐，中风不语，肢体痹痛麻木，脚气，阴疽，肿毒，跌打肿痛",
+        "meridian": "肺经；肝经；脾经；胃经；心包经",
+        "property_flavor": "淡黄白色，气微，味辛辣，粉碎湿润后，有特殊的辛烈臭气",
+        "dosage": "内服：煎汤，3~10g；或入丸、散。外用：适量，研末调敷；治喘咳宜敷贴背部肺俞、心俞、膈痰饮",
+        "taboo": "肺虚咳嗽、阴虚火旺者忌服",
+        "place": "主产安徽、河南、山东、四川、河北、陕西、山西等地"
+      }
+    },
+    {
+      "name": "痰饮咳喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸胁胀满疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "反胃呕吐",
+      "type": "Symptom"
+    },
+    {
+      "name": "中风不语",
+      "type": "Symptom"
+    },
+    {
+      "name": "肢体痹痛麻木",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "阴疽",
+      "type": "Disease"
+    },
+    {
+      "name": "肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "利气豁痰",
+      "type": "Effect"
+    },
+    {
+      "name": "温中散寒",
+      "type": "Effect"
+    },
+    {
+      "name": "通络止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "三子养亲汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "高年咳嗽，气逆痰痞",
+        "taboo": null,
+        "usage": "上三味各洗净，微炒，击碎，看何证多，则以所主者为君，余次之。每剂不过三钱，用生绢小袋盛之，煮作汤饮"
+      }
+    },
+    {
+      "name": "紫苏子",
+      "type": "Herb"
+    },
+    {
+      "name": "莱菔子",
+      "type": "Herb"
+    },
+    {
+      "name": "控涎丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "痰涎伏在心鬲上下，忽患胸背、手脚、颈项、腰胯隐痛不可忍，连筋骨，牵引钓痛，坐卧不宁，时时走易不定，或令人头痛不可举，或神意昏倦多睡，或饮食无味，痰唾稠粘，夜间喉中如锯声，多流唾涎，手脚重，腿冷痹，气脉不通等",
+        "taboo": null,
+        "usage": "上为末，煮糊丸如梧子大，晒干，食后，临卧，淡姜汤或热水下五七丸至十丸"
+      }
+    },
+    {
+      "name": "甘遂",
+      "type": "Herb"
+    },
+    {
+      "name": "紫大戟",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利气豁痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通络止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰饮咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁胀满疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风不语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体痹痛麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三子养亲汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "高年咳嗽，气逆痰痞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三子养亲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三子养亲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芥子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三子养亲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莱菔子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "控涎丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘遂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "控涎丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫大戟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "控涎丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芥子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白芥子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    }
+  ]
+}

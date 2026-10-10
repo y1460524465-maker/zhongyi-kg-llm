@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "丝瓜皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤9-15g；或入散剂。外用：适量，研末调敷；或捣敷。",
+        "effect": "清热解毒",
+        "indication": "金疮，痈肿疔疮，坐板疮"
+      }
+    },
+    {
+      "name": "金疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痈肿疔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "坐板疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "坐板疮疥",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《摄生众妙方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丝瓜皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "金疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "坐板疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丝瓜皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "坐板疮疥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《摄生众妙方》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "狗骨",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风湿，强筋骨，活血生肌",
+        "indication": "风湿关节痛，腰腿无力，四肢麻木，久痢，疮瘘，冻疮",
+        "usage": "内服：浸酒或烧存性研末，每次1.5-3g 。外用：适量，煅黄研末调敷"
+      }
+    },
+    {
+      "name": "白犬骨散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治产后烦闷不食",
+        "usage": "白犬骨烧之，捣筛，以水和服方寸匕"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "狗骨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿，强筋骨，活血生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "狗骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰腿无力",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "四肢麻木",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮瘘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狗骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "冻疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白犬骨散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白犬骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白犬骨散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "千金翼方",
+      "object_type": "Source"
+    }
+  ]
+}

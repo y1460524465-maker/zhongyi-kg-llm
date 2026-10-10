@@ -1,0 +1,231 @@
+{
+  "entities": [
+    {
+      "name": "棕榈炭",
+      "type": "Herb",
+      "attributes": {
+        "effect": "收敛止血",
+        "indication": "用于吐血，咯血，便血崩漏",
+        "property_flavor": "味苦、涩，平",
+        "meridian": "归肺经、肝经、大肠经",
+        "dosage": "内服，煎汤，9~15g，研末，3~6g；外用研末撒",
+        "taboo": "有淤滞、邪热者不宜用"
+      }
+    },
+    {
+      "name": "棕灰散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治妊娠胎动，下血不止，脐腹疼痛",
+        "effect": "收敛止血，止痛",
+        "source": "《圣济总录》"
+      }
+    },
+    {
+      "name": "棕榈散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治妇人崩中，下血数升，气欲绝",
+        "effect": "收敛止血",
+        "source": "《太平圣惠方》"
+      }
+    },
+    {
+      "name": "棕毛散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治赤白带下，崩漏，胎气久冷，脐腹疼痛",
+        "effect": "收敛止血，止痛",
+        "source": "《普济本事方》"
+      }
+    },
+    {
+      "name": "棕榈皮散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治妇人经血不止",
+        "source": "《圣济总录》"
+      }
+    },
+    {
+      "name": "棕艾散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治肠风泻血",
+        "source": "《圣济总录》"
+      }
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《太平圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济本事方》",
+      "type": "Source"
+    },
+    {
+      "name": "《简易方论》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《百一选方》",
+      "type": "Source"
+    },
+    {
+      "name": "《妇人良方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《摄生众妙方》",
+      "type": "Source"
+    },
+    {
+      "name": "《近效方》",
+      "type": "Source"
+    },
+    {
+      "name": "《卫生家宝方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "棕榈炭",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "棕榈炭",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈炭",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咯血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈炭",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便血崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈炭",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻血不止",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈炭",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便不通",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈炭",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水谷痢下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈炭",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血淋不止",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕灰散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕榈散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕毛散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕毛散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济本事方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕毛散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈皮散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕艾散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    }
+  ]
+}

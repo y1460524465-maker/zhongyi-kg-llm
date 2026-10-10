@@ -1,0 +1,112 @@
+{
+  "entities": [
+    {
+      "name": "烟胶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "牛皮灶岸、皮烟、老烟胶、烟膏",
+        "effect": "杀虫，消肿",
+        "indication": "头疮白秃，疥疮风癣，痒痛流水",
+        "taboo": "不宜内服。凡疮症无水者勿用。",
+        "property_flavor": "黑褐色或黄褐色不规则的块状，内呈粉性而易碎，断面每有细毛和杂质混入，有烟火气",
+        "origin": "为老法熏硝牛皮过程中，牛皮受热后逼出的油状液体，淋沥于灶面上，日久积累而成的黑褐色胶状物",
+        "place": "湖南、湖北、四川"
+      }
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "寒水石",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白矾",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "花椒",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《积德堂经验方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "烟胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "烟胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "烟胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "烟胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头疮白秃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "烟胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥疮风癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "烟胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痒痛流水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "烟胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牛皮癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "烟胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴引饮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "烟胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胞衣不下",
+      "object_type": "Symptom"
+    }
+  ]
+}

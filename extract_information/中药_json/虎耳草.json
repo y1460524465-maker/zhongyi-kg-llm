@@ -1,0 +1,276 @@
+{
+  "entities": [
+    {
+      "name": "虎耳草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "石荷叶、金线吊芙蓉、老虎耳、系系叶、天荷叶、金丝荷叶、丝棉吊梅、耳聋草、猪耳草、狮子草、金钱荷叶、金线莲、石丹药、佛耳草、丝丝草、蟹壳草、搽耳草、猫耳朵、耳朵草、红丝络、红线草、红线绳、水耳朵、月下红、金丝草、耳朵红、铜钱草、倒垂莲",
+        "effect": "祛风，清热，凉血解毒",
+        "indication": "风疹；湿疹，中耳炎，丹毒，咳嗽吐血，肺痈，崩漏，痔疾",
+        "dosage": "内服：煎汤，10~15g。外用：捣汁滴，或煎水熏洗",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "为虎耳草科植物虎耳草的全草",
+        "place": "分布于华东、中南、西南、及河北、陕西、甘肃等地",
+        "traits": null,
+        "processing": "全年可采。但以花后采者为好",
+        "taboo": null
+      }
+    },
+    {
+      "name": "风疹",
+      "type": "Disease"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "中耳炎",
+      "type": "Disease"
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease"
+    },
+    {
+      "name": "崩漏",
+      "type": "Disease"
+    },
+    {
+      "name": "痔疾",
+      "type": "Disease"
+    },
+    {
+      "name": "祛风",
+      "type": "Effect"
+    },
+    {
+      "name": "清热",
+      "type": "Effect"
+    },
+    {
+      "name": "凉血解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "荨麻疹",
+      "type": "Disease"
+    },
+    {
+      "name": "风丹热毒",
+      "type": "Disease"
+    },
+    {
+      "name": "风火牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风疹瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺热咳嗽气逆",
+      "type": "Symptom"
+    },
+    {
+      "name": "百日咳",
+      "type": "Disease"
+    },
+    {
+      "name": "肺痈吐臭脓",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血崩",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "冻疮溃烂",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中耳炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "荨麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风丹热毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风火牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疹瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽气逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺痈吐臭脓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎耳草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "冻疮溃烂",
+      "object_type": "Symptom"
+    }
+  ]
+}

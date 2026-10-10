@@ -1,0 +1,166 @@
+{
+  "entities": [
+    {
+      "name": "葱白",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "煎汤，9~15g；或酒煎。煮粥食，每次可用鲜品15~30g",
+        "effect": "发表，通阳，解毒",
+        "indication": "伤寒寒热头痛，阴寒腹痛，虫积内阻，二便不通，痢疾，痈肿",
+        "origin": "百合科葱属植物葱Allium fistulosum L.",
+        "property_flavor": null,
+        "taboo": "食生葱即啖蜜，变作下利；上冲人，五脏闭绝；虚人患气者，多食发气；久食令人多忘，尤发痼疾；狐臭人不可食；服地黄、常山入，忌食葱；病人表虚易汗者勿食，病已得汗勿再进",
+        "traits": "鳞茎圆柱形，先端稍肥大，鳞叶成层，白色，上具白色纵纹"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《用药心法》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日用本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "发表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "伤寒寒热头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴寒腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虫积内阻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "二便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《用药心法》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日用本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "葱白",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

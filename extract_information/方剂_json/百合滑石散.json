@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "name": "百合滑石散",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "百合病，邪郁日久，发热，小便赤涩者",
+        "usage": "为散。饮服9克，日三服，当微利者止服，热则除"
+      }
+    },
+    {
+      "name": "百合",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "百合滑石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "百合滑石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "百合滑石散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百合滑石散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便赤涩",
+      "object_type": "Symptom"
+    }
+  ]
+}

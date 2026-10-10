@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "name": "胶艾汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "止血",
+        "indication": "男子绝伤，或从高堕下，伤损五脏，微者唾血，甚者吐血及金疮伤经内绝；妇人产后及崩中伤下血多，虚喘欲死，腹痛下血不止",
+        "usage": "上（口父）咀。以水8升，煮取3升，去滓，纳胶令烊，分再服；羸人3服"
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "艾叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两",
+        "processing": "熬"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "干地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "芎藭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两",
+        "processing": "炙"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "艾叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芎藭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "男子绝伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "金疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人产后及崩中伤下血多",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "唾血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚喘欲死",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胶艾汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛下血不止",
+      "object_type": "Symptom"
+    }
+  ]
+}

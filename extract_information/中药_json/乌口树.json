@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "乌口树",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乌木、达仑木",
+        "effect": "祛风消肿，散瘀止痛",
+        "indication": "主跌打损伤，风湿骨痛，胃肠绞痛，蜂窝组织炎，脓肿，口腔炎",
+        "usage": "外用：适量，浸酒擦；或药酒湿敷。内服：煎汤，15-30g，或浸酒服；或水煎含漱。",
+        "processing": "10月采叶及果，略晒干备用"
+      }
+    },
+    {
+      "name": "《广西药植名录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《植物名实图考》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乌口树",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西药植名录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌口树",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《植物名实图考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌口树",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌口树",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌口树",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌口树",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿骨痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌口树",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃肠绞痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌口树",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蜂窝组织炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌口树",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脓肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌口树",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔炎",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "糯米泔",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气，解毒",
+        "indication": "霍乱，心烦口渴",
+        "usage": "内服：加热温饮，100-200ml"
+      }
+    }
+  ],
+  "relations": []
+}

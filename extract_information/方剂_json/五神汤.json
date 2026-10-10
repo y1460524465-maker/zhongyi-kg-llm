@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "五神汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "车前子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "金银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "紫花地丁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五神汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五神汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "车前子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五神汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五神汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五神汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫花地丁",
+      "object_type": "Herb"
+    }
+  ]
+}

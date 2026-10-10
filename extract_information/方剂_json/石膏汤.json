@@ -1,0 +1,270 @@
+{
+  "entities": [
+    {
+      "name": "石膏汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "解表与清里兼顾",
+        "indication": "伤寒表证未解，里热炽盛",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "清热除烦",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "泻三焦之火",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "泻三焦之火",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "泻三焦之火",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "香豉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "发汗解表",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "绵裹",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "泻三焦之火",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "擘",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "发汗解表",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去节",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《外台秘要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《深师方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "伤寒",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外台秘要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《深师方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解表与清里兼顾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热除烦",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香豉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "发汗解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麻黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "发汗解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻三焦之火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻三焦之火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芩",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻三焦之火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "栀子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻三焦之火",
+      "object_type": "Effect"
+    }
+  ]
+}

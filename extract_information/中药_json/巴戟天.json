@@ -1,0 +1,184 @@
+{
+  "entities": [
+    {
+      "name": "阳痿",
+      "type": "Symptom",
+      "attributes": {
+        "alias": "巴戟、巴吉天、戟天、巴戟肉、鸡肠风、猫肠筋、兔儿肠",
+        "effect": "补肾阳，壮筋骨，祛风湿",
+        "indication": "治阳痿，少腹冷痛，小便不禁，子宫虚冷，风寒湿痹，腰膝酸痛",
+        "taboo": "凡病相火炽盛，便赤，口苦，目赤目痛，烦躁口渴，大便燥秘，法咸忌之。火旺泄精，阴虚水乏，小便不利，口舌干燥，四者禁用",
+        "dosage": "内服：煎汤，6~15g；或入丸、散；亦可浸酒或熬膏",
+        "origin": "为双子叶植物药茜草科植物巴戟天的根",
+        "processing": "1.巴戟天：拣去杂质，用热水泡透后，趁热抽去木心，切段，晒干。2.炙巴戟：取甘草，捣碎，置锅内加水煎汤，捞去甘草渣，加入拣净的巴戟天，煮至松软能抽出木心时(此时余汤不宜多)，取出，趁热抽去木心，晒干。(每巴戟天100斤，用甘草6斤4两)3.盐巴戟：取拣净的巴戟天，用盐水拌匀，入笼蒸透，抽去木心，晒干。(每巴戟天100斤，用盐2斤，加适量开水化开澄清)4.使用巴戟天时，须用拘杞子汤浸一宿，至稍软漉出，再用酒浸一伏，再漉出，用菊花一同熬至焦黄，除去菊花，用布拭干用。5.用酒浸一宿，锉焙入药，如急用，只用温水浸软抽去木心用。",
+        "property_flavor": "味甘而微涩",
+        "traits": "本品为扁圆柱形，略弯曲，长短不等，直径0.5～2cm。表面灰黄色或暗灰色，具纵纹及横裂纹，有的皮部横向断离露出木部；质韧，断面皮部厚，紫色或淡紫色，易与木部剥离；木部坚硬，黄棕色或黄白色，直径1～5mm。无臭"
+      }
+    },
+    {
+      "name": "少腹冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便不禁",
+      "type": "Symptom"
+    },
+    {
+      "name": "子宫虚冷",
+      "type": "Symptom"
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰膝酸痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source"
+    },
+    {
+      "name": "广州部队《常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经集注》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "《得配本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source"
+    },
+    {
+      "name": "《局方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《奇效良方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《甘肃中医验方集锦》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《卫生易简方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "巴戟天",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "巴戟天",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "壮筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "巴戟天",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "巴戟天",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "巴戟天",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "少腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "巴戟天",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不禁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "巴戟天",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "子宫虚冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "巴戟天",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风寒湿痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "巴戟天",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

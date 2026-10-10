@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "name": "温清饮",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "养血清热，调营解毒",
+        "indication": "血热蕴结引起的月经不调、脐腹刺痛、崩漏不止，皮肤痒疮、口舌生疮、日久不愈，消渴不止、四肢痿痹等",
+        "taboo": null,
+        "usage": "上锉一剂，水煎，空腹时温服"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养血清热，调营解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肌炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "复发性口疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇科疾病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脐腹刺痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤痒疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温清饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢痿痹",
+      "object_type": "Symptom"
+    }
+  ]
+}

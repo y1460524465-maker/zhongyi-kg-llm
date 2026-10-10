@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "荜澄茄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温中散寒，行气止痛，暖肾",
+        "indication": "食积气胀，脘腹冷痛，反胃呕吐，肠鸣泄泻，痢疾，痰癖",
+        "dosage": "内服：煎汤，1~5g，或入丸、散。外用：适量，研末擦牙或搐鼻",
+        "taboo": "阴虚血分有热，发热咳嗽禁用",
+        "property_flavor": "气强烈芳香，味苦（荜澄茄）；气强烈芳香，略如老姜，味稍辛辣而微苦（山鸡椒）",
+        "origin": "胡椒科植物荜澄茄或樟科植物山鸡椒的果实",
+        "place": "荜澄茄产印度尼西亚、马来西亚等地；山鸡椒主产广西、浙江、江苏、安徽，此外四川、云南、广东、贵州、湖南、湖北、江西、福建等地亦产",
+        "processing": "①荜澄茄：在果实充分成长而未成熟仍呈青色时采收，连果枝摘下，晒干；②山鸡椒：秋季果实成熟时连枝摘下，除去枝叶，晒干",
+        "traits": "未成熟的干燥核果，表面暗棕色至棕黑色，有网状皱纹；成熟的果实，外皮棕黑色或黑褐色，有微细的网状皱纹",
+        "alias": "山苍子、山鸡椒、山香椒、山香根、木姜子[海南]、山胡椒、味辣子、山苍子、木姜子、香叶、山番椒、山姜子、野胡椒、香柴子、香粉树、粉果木、过山香、土澄茄、满山香、木香子、木筑子皮"
+      }
+    },
+    {
+      "name": "食积气胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "脘腹冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "反胃呕吐",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠鸣泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "痰癖",
+      "type": "Disease"
+    },
+    {
+      "name": "支气管哮喘",
+      "type": "Disease"
+    },
+    {
+      "name": "中暑",
+      "type": "Disease"
+    },
+    {
+      "name": "无名肿毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "荜澄茄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积气胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荜澄茄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荜澄茄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荜澄茄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠鸣泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荜澄茄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荜澄茄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰癖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山鸡椒果实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山鸡椒果实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山鸡椒鲜果实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

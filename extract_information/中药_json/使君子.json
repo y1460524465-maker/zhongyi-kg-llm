@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "使君子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "留求子、史君子、五棱子、索子果、冬均子、病柑子、君子仁、冬君子、病疳子",
+        "effect": "杀虫，消积，健脾",
+        "indication": "蛔虫腹痛，小儿疳积，乳食停滞，腹胀，泻痢",
+        "dosage": "内服：煎汤，6~15g，捣碎入煎；或入丸、散；去壳炒香嚼服，小儿每岁每日1粒~1粒半，总量不起过20粒",
+        "taboo": "服药时忌饮热茶。大量服用能引起呃逆、眩晕、呕吐等反应",
+        "traits": "气微香，味微甜",
+        "origin": "为使君子科植物使君子的成熟果实",
+        "place": "分布于西南及江西、福建、台湾、湖南、广东、广西等地",
+        "meridian": null,
+        "property_flavor": null,
+        "processing": "使君子仁：除去外壳，取净仁。炒使君子仁：置锅内用文火炒至微有香气，取出，放凉"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "使君子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "使君子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "使君子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳食停滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "使君子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "使君子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "使君子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "使君子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "使君子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾",
+      "object_type": "Effect"
+    }
+  ]
+}

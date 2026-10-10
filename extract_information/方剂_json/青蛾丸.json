@@ -1,0 +1,103 @@
+{
+  "entities": [
+    {
+      "name": "青蛾丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "延年益气，补肾壮阳",
+        "indication": "阳痿，腰痛",
+        "taboo": "忌食芸苔、羊血",
+        "usage": "旦日以温酒100毫升调药15克服之，便以饭压，如不能饮酒者，以温开水调亦可。或以炼蜜为丸，如梧桐子大，每服30丸，空腹时用温酒或盐汤送下。并食猪、羊腰子以助药力。"
+      }
+    },
+    {
+      "name": "破故纸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "300克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "净择，去皮，洗过，捣筛令细用",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "胡桃肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "600克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "汤浸，去皮，细研如泥",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "阳痿",
+      "type": "Disease"
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "青蛾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "延年益气，补肾壮阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青蛾丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青蛾丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青蛾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "破故纸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青蛾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡桃肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青蛾丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《本草图经》",
+      "object_type": "Source"
+    }
+  ]
+}

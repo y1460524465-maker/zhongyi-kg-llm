@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "玫瑰花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3～10克",
+        "effect": "理气解郁，和血散瘀",
+        "indication": "肝胃气痛，新久风痹，吐血咯血，月经不调，赤白带下，痢疾，乳痈，肿毒",
+        "origin": "本品为蔷薇科植物玫瑰Rosa rugosa Thunb.的干燥花蕾",
+        "place": "主产于江苏、浙江、福建、山东、四川、河北等地",
+        "property_flavor": "味微苦涩",
+        "traits": "气芳香浓郁"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,313 @@
+{
+  "entities": [
+    {
+      "name": "补中益气汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补中益气，升阳举陷",
+        "indication": "脾胃气虚，少气懒言，四肢无力，困倦少食，饮食乏味，不耐劳累，动则气短；或气虚发热，气高而喘，身热而烦，渴喜热饮，其脉洪大，按之无力，皮肤不任风寒，而生寒热头痛；或气虚下陷，久泻脱肛。现用于子宫下垂；胃下垂或其它内脏下垂者。",
+        "taboo": null,
+        "usage": "上药哎咀，都作一服。用水300毫升，煎至150毫升，去滓，空腹时稍热服。"
+      }
+    },
+    {
+      "name": "黄耆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克",
+        "effect": "补中益气、升阳固表",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克（炙）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": "去芦",
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归身",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.6克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "酒焙干或晒干",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "橘皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.6～0.9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "不去白",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "升麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.6～0.9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.6～0.9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄耆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归身",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补中益气，升阳举陷",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃气虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫下垂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃下垂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "少气懒言",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "困倦少食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "饮食乏味",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不耐劳累",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "动则气短",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气虚发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气高而喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身热而烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "渴喜热饮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒热头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "补中益气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久泻脱肛",
+      "object_type": "Symptom"
+    }
+  ]
+}

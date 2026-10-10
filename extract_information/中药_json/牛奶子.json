@@ -1,0 +1,174 @@
+{
+  "entities": [
+    {
+      "name": "牛奶子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "甜枣、麦粒子、夏至蔸、半春子、阳春子、芒珠子、禾了子、铃春子、清明子、春花胡颓子、羊奶子、岩麻子、豆子树、天青下白、红米饭、海梅树、牛奶奶、秋胡颓子、剪子果",
+        "effect": "清热止咳，利湿解毒",
+        "indication": "肺热咳嗽，泄泻，痢疾，淋证，带下，崩漏，乳痈",
+        "processing": "夏、秋季采收，根，洗净切片晒干；叶、果实，晒干",
+        "dosage": "内服：煎汤，根或叶15-30g，果实3-9g",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "胡颓子科植物牛奶子的根、叶和果实",
+        "place": "分布于华北、华东、西南及辽宁、陕西、宁夏、甘肃、青海、湖北、湖南等地",
+        "traits": "落叶灌木，高1-4m。常具刺，刺长1-4cm，幼技密被银白色和少数黄褐色鳞片，有时全被深褐色或锈色鳞片，单叶互生；叶柄长5-7mm；叶纸质，椭圆形至卵状椭圆形，长3-8cm，宽1-4cm，先端钝尖或渐尖，基部圆形至楔形，边缘常皱卷至波状，上面幼时具银白色鳞片或星状毛，成熟后脱落，下面密被银白色和散生少数褐色鳞片。花较叶先开放，黄白色，芳香，外被银白色盾形鳞片，常1-7朵簇生于新枝基部；花便白色，长3-6mm，花被筒圆筒状漏斗形，上部4裂，筒部较裂片为长；雄蕊4，花丝极短，长约为花丝的一半；花柱直立，疏生白色星状柔毛。果实近球形至卵圆形，长5-7mm，幼时绿色，被银白色或有时全被褐色鳞片，成熟时红色。花期4-5月，果期7-8月。"
+      }
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "泄泻",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "淋证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "带下",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "崩漏",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "水泻",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "干咳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "崩带",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "沙参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "马齿苋",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "银花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "蒲公英",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛奶子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热止咳，利湿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛奶子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "干咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛奶子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛奶子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛奶子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛奶子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛奶子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛奶子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛奶子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛奶子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛奶子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩带",
+      "object_type": "Disease"
+    }
+  ]
+}

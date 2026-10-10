@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "附子粳米汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温阳化饮，和中缓急",
+        "indication": "腹中寒气，雷鸣切痛，胸胁逆满呕吐",
+        "usage": "以水8升，煮米熟汤成，去滓温服1升，日3次"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "腹中寒气",
+      "type": "Symptom"
+    },
+    {
+      "name": "雷鸣切痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸胁逆满呕吐",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "附子粳米汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子粳米汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子粳米汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子粳米汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子粳米汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "附子粳米汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温阳化饮，和中缓急",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "附子粳米汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹中寒气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "附子粳米汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "雷鸣切痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "附子粳米汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁逆满呕吐",
+      "object_type": "Symptom"
+    }
+  ]
+}

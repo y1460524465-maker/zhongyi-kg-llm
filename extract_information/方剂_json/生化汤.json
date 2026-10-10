@@ -1,0 +1,144 @@
+{
+  "entities": [
+    {
+      "name": "生化汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "消瘀活血，止痛温经",
+        "indication": "产后瘀血腹痛，恶露不行，小腹冷痛",
+        "taboo": "产后血热而有瘀滞者",
+        "usage": "产后七日内，或因寒凉食物，结块痛甚者，加入肉桂2.4克。产后停血不下，半月外尚痛，或外加肿毒，或身热，食少倦甚，加三棱、蓬术、肉桂等，攻补兼治，其块自消。"
+      }
+    },
+    {
+      "name": "全当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24g",
+        "effect": "补血活血，祛瘀生新"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "行血中之气"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "活血祛瘀"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2g",
+        "effect": "入血散寒，温里定痛",
+        "processing": "炮黑"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2g",
+        "effect": "调和诸药",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "《傅青主女科·产后偏上卷》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "产后恶露不行",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小腹冷痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "生化汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《傅青主女科·产后偏上卷》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "生化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "全当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生化汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后恶露不行",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生化汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生化汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "产后瘀血腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生化汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "消瘀活血，止痛温经",
+      "object_type": "Effect"
+    }
+  ]
+}

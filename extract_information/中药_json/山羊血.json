@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "name": "山羊血",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血，散瘀，通络，解毒",
+        "indication": "治跌打损伤，筋骨疼痛，吐血，衄血，便血，尿血，痈肿",
+        "dosage": "内服：研末酒化0.3～1钱；或入丸剂",
+        "origin": "为牛科动物青羊的血"
+      }
+    },
+    {
+      "name": "'《本草汇言》'",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "'《药性考》'",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "'《祝穆试效方》'",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "'《黑龙江中药》'",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "'《四川中药志》'",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "筋骨疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "便血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "山羊血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山羊血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山羊血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山羊血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山羊血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山羊血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山羊血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山羊血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山羊血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山羊血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山羊血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    }
+  ]
+}

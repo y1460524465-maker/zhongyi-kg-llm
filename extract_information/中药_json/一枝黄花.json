@@ -1,0 +1,265 @@
+{
+  "entities": [
+    {
+      "name": "一枝黄花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "野黄菊、山边半枝香、洒金花、黄花细辛、黄花一枝香、千根癀、土泽兰、百条根、铁金拐、签子草、小白龙须、黄花马兰、大败毒、红柴胡、黄花仔、红胶苦菜、一枝香、大叶七星剑、蛇头王、金锁匙、满山黄、黄花儿、黄柴胡",
+        "effect": "疏风清热，消肿解毒",
+        "indication": "感冒头痛，咽喉肿痛，黄疸，百日咳，小儿惊风，跌打损伤，痈肿发背，鹅掌风",
+        "meridian": "肝经、胆经",
+        "processing": "以根及全草入药",
+        "property_flavor": "味苦",
+        "traits": "气清香",
+        "dosage": "内服：煎汤，9~15g，鲜品20~30g",
+        "taboo": null,
+        "origin": null,
+        "place": null
+      }
+    },
+    {
+      "name": "《植物名实图考》",
+      "type": "Source"
+    },
+    {
+      "name": "《南宁市药物志》",
+      "type": "Source"
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source"
+    },
+    {
+      "name": "《闽东本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《广东中药》",
+      "type": "Source"
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "头风",
+      "type": "Disease"
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿急惊风",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "发背",
+      "type": "Disease"
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease"
+    },
+    {
+      "name": "腹股沟淋巴腺肿",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿溃后腐肉不脱",
+      "type": "Disease"
+    },
+    {
+      "name": "一切肿毒初起",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "鹅掌风",
+      "type": "Disease"
+    },
+    {
+      "name": "灰指甲",
+      "type": "Disease"
+    },
+    {
+      "name": "脚癣",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《植物名实图考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《南宁市药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《湖南药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《闽东本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广东中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿急惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "发背",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹股沟淋巴腺肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿溃后腐肉不脱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "一切肿毒初起",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鹅掌风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "灰指甲",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一枝黄花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚癣",
+      "object_type": "Disease"
+    }
+  ]
+}

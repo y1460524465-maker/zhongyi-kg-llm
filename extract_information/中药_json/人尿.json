@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "人尿",
+      "type": "Herb",
+      "attributes": {
+        "effect": "止血、调节免疫功能",
+        "property_flavor": "味咸",
+        "traits": "淡黄色溶液，有尿臭",
+        "processing": "去头尾，用中间段",
+        "alias": "溲、童尿、小便、人溺、轮回酒、还元汤",
+        "indication": "虚劳咳血；骨蒸发热；吐血；衄血；产后血晕；跌打损伤；血瘀作痛",
+        "taboo": "脾胃虚寒及阳虚无火者禁服",
+        "dosage": "内服：取新鲜者温饮，30-50ml；或和入汤剂"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "一品红",
+      "type": "Herb",
+      "attributes": {
+        "effect": "凉血调经，散瘀消肿",
+        "indication": "主治月经过多，外伤肿痛，出血，骨折",
+        "dosage": "内服：煎汤，3-9g，外用：适量，鲜品捣敷",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "《文山中草药》",
+        "place": null,
+        "processing": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "一品红",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血调经，散瘀消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "一品红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经过多",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一品红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一品红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一品红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一品红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经过多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一品红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一品红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一品红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨折",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一品红",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《文山中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

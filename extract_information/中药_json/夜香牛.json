@@ -1,0 +1,259 @@
+{
+  "entities": [
+    {
+      "name": "夜香牛",
+      "type": "Herb",
+      "attributes": {
+        "alias": "夜牵牛、星拭草、寄色草、返魂香、消山虎、假咸虾、枝香草",
+        "effect": "疏风散热，凉血解毒，安神",
+        "indication": "用于感冒发热，咳嗽，痢疾，黄疸型肝炎，神经衰弱；外用治痈疖肿毒，蛇咬伤。",
+        "origin": "菊科植物夜香牛的全草",
+        "property_flavor": "性凉，味淡，一说味苦，性凉",
+        "usage": "内服：煎汤，15-30g，鲜品30-60g。外用：适量，研末调敷，或鲜品捣敷。"
+      }
+    },
+    {
+      "name": "感冒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "黄疸型肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "神经衰弱",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疖肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打扭伤",
+      "type": "Disease"
+    },
+    {
+      "name": "疔疮肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "乳疮",
+      "type": "Disease"
+    },
+    {
+      "name": "湿热腹泻",
+      "type": "Disease"
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿夜尿",
+      "type": "Symptom"
+    },
+    {
+      "name": "急性黄疸型肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "外感发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "《广东中药》Ⅱ",
+      "type": "Source"
+    },
+    {
+      "name": "广州部队《常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "广州空军《常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《常用中草药彩色图谱》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸型肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "神经衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疖肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打扭伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热腹泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿夜尿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性黄疸型肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外感发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风散热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广东中药》Ⅱ",
+      "object_type": "Source"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广州部队《常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广州空军《常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "夜香牛",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《常用中草药彩色图谱》",
+      "object_type": "Source"
+    }
+  ]
+}

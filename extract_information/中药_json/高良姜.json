@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {
+      "name": "高良姜",
+      "type": "Herb",
+      "attributes": {
+        "alias": "高凉姜、良姜、蛮姜、小良姜、海良姜",
+        "effect": "温胃，祛风，散寒，行气，止痛",
+        "indication": "脾胃中寒，脘腹冷痛，呕吐泄泻，噎脯反胃，食滞，瘴疟，冷癖",
+        "dosage": "内服：煎汤，3~6g；或入丸、散",
+        "property_flavor": "气香，味辛辣",
+        "origin": "姜科植物高良姜的根茎",
+        "place": "广东的海南及雷州半岛、广西、云南、台湾等地",
+        "processing": "夏末、秋初挖取生长4～6年的根茎，除去茎、叶、须根及鳞片，洗净，切成小段晒干",
+        "taboo": null,
+        "meridian": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": []
+}

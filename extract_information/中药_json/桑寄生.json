@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "name": "桑寄生",
+      "type": "Herb",
+      "attributes": {
+        "alias": "茑、寓木、宛童、桑上寄生、寄屑、寄生树、茑木",
+        "effect": "补肝肾，强筋骨，除风湿，通经络，益血，安胎",
+        "indication": "腰膝酸痛，筋骨痿弱，偏枯，脚气，风寒湿痹，胎漏血崩，产后乳汁不下",
+        "usage": "内服：煎汤，10~15g；或入丸、散；或浸酒；或捣汁服。外用：适量，捣烂外敷"
+      }
+    },
+    {
+      "name": "独活寄生汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治腰背痛，肾气虚弱，卧冷湿地当风所得"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桑寄生",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾，强筋骨，除风湿，通经络，益血，安胎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑寄生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰膝酸痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑寄生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋骨痿弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑寄生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "偏枯",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑寄生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑寄生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑寄生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胎漏血崩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑寄生",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后乳汁不下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑寄生",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "腰背痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独活寄生汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾气虚弱",
+      "object_type": "Disease"
+    }
+  ]
+}

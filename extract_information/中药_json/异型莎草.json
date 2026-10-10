@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "异型莎草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "行气，活血，通淋，利小便",
+        "indication": "热淋，小便不通，跌打损伤，吐血",
+        "property_flavor": "味咸微苦，性凉，无毒",
+        "meridian": "心、肝、肺、膀胱经",
+        "processing": "7-8月采收，连根拔起，洗净，鲜用或晒干",
+        "dosage": "内服：煎汤，9-15g，鲜品30-60g；或烧存性研末"
+      }
+    },
+    {
+      "name": "王母钗",
+      "type": "Herb",
+      "attributes": {
+        "alias": "异型莎草"
+      }
+    },
+    {
+      "name": "《泉州本草》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "王母钗",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《泉州本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "异型莎草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气，活血，通淋，利小便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "异型莎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "异型莎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便不通",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "异型莎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "异型莎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "entities": [
+    {
+      "name": "地榆槐角丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "疏风润燥，凉血泻热",
+        "indication": "脏腑实热，大肠火盛，肠风便血，痔疮瘘疮，湿热便秘，肛门肿痛"
+      }
+    },
+    {
+      "name": "地榆(炭)",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "槐角(蜜炙)",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "槐花(炒)",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "荆芥穗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枳壳(麸炒)",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "脏腑实热",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "大肠火盛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肠风便血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔疮瘘疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "湿热便秘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肛门肿痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地榆(炭)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槐角(蜜炙)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槐花(炒)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥穗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳(麸炒)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "疏风润燥，凉血泻热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脏腑实热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "大肠火盛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮瘘疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地榆槐角丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肛门肿痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "name": "威灵仙",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，通络止痛，消痰涎，散癖积",
+        "indication": "痛风、顽痹、腰膝冷痛，脚气，疟疾，癥瘕积聚，破伤风，扁桃体炎，诸骨鲠咽",
+        "property_flavor": "辛；咸；微苦；性温；小毒",
+        "processing": "威灵仙：拣净杂质，除去残茎，用水浸泡，捞出润透，切段，晒干。酒灵仙：取威灵仙段，用黄酒拌匀闷透,置锅内用文火微炒干，取出放凉。（每威灵仙100斤，用黄酒12~15斤）",
+        "dosage": "内服：煎汤，6~9g，冶骨哽咽喉可用到30g；或入丸、散；或浸酒。外用：适量，捣敷；或煎水熏洗；或作发泡剂。",
+        "taboo": "气虚血弱，无风寒湿邪者忌服。①《海上集验方》：恶茶及面汤。②《本草衍义》：性快，多服疏人五脏真气。③《本草经疏》：凡病非风湿及阳盛火升，血虚有热，表虚有汗，痃疟口渴身热者，并忌用之。④《本草汇言》：凡病血虚生风，或气虚生痰，脾虚不运，气留生湿、生痰、生饮者，咸宜禁之。",
+        "origin": "为毛莨科植物威灵仙的根"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通络止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痰涎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散癖积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "顽痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰膝冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕积聚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "威灵仙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "诸骨鲠咽",
+      "object_type": "Symptom"
+    }
+  ]
+}

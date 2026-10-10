@@ -1,0 +1,203 @@
+{
+  "entities": [
+    {
+      "name": "冷哮丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "哮喘咳嗽，遇冷即发，顽痰结聚，胸膈痞满，气逆不得卧",
+        "taboo": "气虚少食，及痰中见血，营气受伤者禁用；忌食五辛发物",
+        "usage": "上为细末，姜汁调神曲末，打糊为丸。每遇发时，临卧用生姜汤送服6克，羸者3克。更以王建膏贴肺俞穴中。服后时吐顽痰，胸膈自宽。服此数日后，以补脾肺药调之。候发，如前再服"
+      }
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/冷哮丸",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "泡"
+      }
+    },
+    {
+      "name": "川乌",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "生"
+      }
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "蜀椒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "白矾",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "生"
+      }
+    },
+    {
+      "name": "牙皂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "去皮弦子，酥炙"
+      }
+    },
+    {
+      "name": "半夏曲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "陈胆星",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "去双仁者，连皮、尖用"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "生"
+      }
+    },
+    {
+      "name": "紫菀茸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "款冬花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜀椒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白矾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牙皂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈胆星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫菀茸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冷哮丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/冷哮丸",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "name": "苦酒汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "涤痰开结利咽，敛疮止痛消肿",
+        "indication": "咽部溃烂，有阻塞感，声音嘶哑，甚至不能言语"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "14枚"
+      }
+    },
+    {
+      "name": "鸡子清",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1枚"
+      }
+    },
+    {
+      "name": "苦酒",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "咽部溃烂",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "有阻塞感",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "声音嘶哑",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "不能言语",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苦酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苦酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子清",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苦酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦酒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苦酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "涤痰开结利咽，敛疮止痛消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦酒汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽部溃烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦酒汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "有阻塞感",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦酒汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "声音嘶哑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦酒汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不能言语",
+      "object_type": "Symptom"
+    }
+  ]
+}

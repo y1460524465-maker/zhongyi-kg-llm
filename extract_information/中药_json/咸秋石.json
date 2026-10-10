@@ -1,0 +1,114 @@
+{
+  "entities": [
+    {
+      "name": "咸秋石",
+      "type": "Herb",
+      "attributes": {
+        "place": "主产于安徽桐城。销福建及上海、汉口、广州、天津等地。",
+        "processing": "取食盐加洁净泉水煎煮，过滤，将滤液加热蒸发，干燥成粉霜，再将粉霜放在有盖的瓷碗内，置炉火上煅2小时，冷却后即凝成块状固体。",
+        "property_flavor": "味咸",
+        "dosage": "内服：研末，每次1.5-4.5g，每日2次；或入丸、散。外用：适量，研末吹喉。",
+        "taboo": "水肿患者慎服。水肿消退后，可用本品代替食盐。每日不超过2g。",
+        "effect": "滋阴涩精，清心降火。主骨蒸劳热，虚劳咳嗽，遗精，赤白带下，暑热心烦，口疮，咽喉肿痛。",
+        "indication": "主治骨蒸劳热，虚劳咳嗽，遗精，赤白带下，暑热心烦，口疮，咽喉肿痛。"
+      }
+    },
+    {
+      "name": "骨蒸劳热",
+      "type": "Disease"
+    },
+    {
+      "name": "虚劳咳嗽",
+      "type": "Disease"
+    },
+    {
+      "name": "遗精",
+      "type": "Disease"
+    },
+    {
+      "name": "赤白带下",
+      "type": "Disease"
+    },
+    {
+      "name": "暑热心烦",
+      "type": "Symptom"
+    },
+    {
+      "name": "口疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "咸秋石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨蒸劳热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "咸秋石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "咸秋石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "咸秋石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "咸秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暑热心烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "咸秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "咸秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "咸秋石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴涩精，清心降火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "咸秋石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

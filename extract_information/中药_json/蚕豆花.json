@@ -1,0 +1,103 @@
+{
+  "entities": [
+    {
+      "name": "蚕豆花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "凉血，止血，止带",
+        "indication": "咳血，鼻衄，血痢，崩漏，带下，高血压病",
+        "dosage": "内服：煎汤，6-9g，鲜者15-30g；捣汁或蒸露",
+        "origin": "《现代实用中药》《福建中草药》"
+      }
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "鼻衄",
+      "type": "Symptom"
+    },
+    {
+      "name": "血痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "高血压病",
+      "type": "Disease"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚕豆花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕豆花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕豆花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕豆花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕豆花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚕豆花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕豆花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚕豆花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚕豆花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止带",
+      "object_type": "Effect"
+    }
+  ]
+}

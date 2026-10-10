@@ -1,0 +1,211 @@
+{
+  "entities": [
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "破气，行痰，消积",
+        "indication": "胸膈痰滞，胸痞，胁胀，食积，噫气，呕逆，下痢后重，脱肛，子宫脱垂",
+        "meridian": "肺经；脾经；肝经；胃经；大肠经",
+        "property_flavor": "味苦、微酸",
+        "usage": "内服：煎汤，3~9g；或入丸、散。外用：适量，煎水洗或炒热熨",
+        "taboo": "气血弱者不可服。肺气虚弱者忌之；脾胃虚，中气不运而痰涌喘急者忌之；咳嗽不因于风寒入肺气壅者，服之反能作剧；咳嗽阴虚火炎者，服之立至危殆；一概胎前产后，咸不宜服。如肝肾阴亏，血损营虚，胁肋隐痛者，匆用也。下痢日久，中气虚陷，愈下愈坠、愈后重急迫者，勿用也。孕妇及气虚人忌用",
+        "origin": "芸香科植物酸橙Citrus aurantium L.及其栽培变种的干燥未成熟果实"
+      }
+    },
+    {
+      "name": "酸橙",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枳壳汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治久嗽上焦热，胸膈不利",
+        "usage": "每日早用二两作一服，水三盏煎二盏，匀作三服，午时一服，申时一服，临卧时一服",
+        "indication": "久嗽上焦热，胸膈不利"
+      }
+    },
+    {
+      "name": "枳壳散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治中风手足无力，口中涎出，多在右边",
+        "usage": "每服三钱匕，空心温酒调下"
+      }
+    },
+    {
+      "name": "小茴枳壳散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治肝胃气滞，脘腹胁下胀痛",
+        "usage": "每次服6g，温开水送下",
+        "indication": "肝胃气滞，脘腹胁下胀痛"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枳壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破气，行痰，消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枳壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胸膈痰滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胸痞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胁胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噫气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "呕逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下痢后重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫脱垂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳壳汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "久嗽上焦热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳壳汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胸膈不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枳壳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳壳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳壳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳壳散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳壳散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳壳散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳壳散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小茴枳壳散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝胃气滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小茴枳壳散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胁下胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小茴枳壳散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小茴枳壳散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    }
+  ]
+}

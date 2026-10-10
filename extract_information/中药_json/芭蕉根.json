@@ -1,0 +1,176 @@
+{
+  "entities": [
+    {
+      "name": "芭蕉根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，止渴，利尿，解毒",
+        "indication": "热病，烦闷，消渴，黄疸，水肿，脚气，血淋，血崩，痈肿，疔疮，丹毒",
+        "dosage": "内服：煎汤，15-30g，鲜品30-60g；或捣汁。外用：适量，捣敷；或捣汁涂；或煎水含漱",
+        "taboo": "多服动冷气。胃弱脾弱，肿毒系阴分者禁用",
+        "origin": "为芭蕉科植物芭蕉的根茎"
+      }
+    },
+    {
+      "name": "《得配本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source"
+    },
+    {
+      "name": "《江西草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《浙江民间草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "《仁斋直指方》",
+      "type": "Source"
+    },
+    {
+      "name": "《冷庐医话》",
+      "type": "Source"
+    },
+    {
+      "name": "《子母秘录》",
+      "type": "Source"
+    },
+    {
+      "name": "《昔济方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血崩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芭蕉根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎动不安",
+      "object_type": "Symptom"
+    }
+  ]
+}

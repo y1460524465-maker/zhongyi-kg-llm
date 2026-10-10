@@ -1,0 +1,23 @@
+{
+  "entities": [
+    {
+      "name": "水团花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "水黄凿、青龙珠、穿鱼柳、假杨梅、水加橧、溪棉条、满山香、球花水杨梅",
+        "effect": "清热祛湿，散瘀止痛，止血敛疮",
+        "indication": "痢疾，肠炎，浮肿，痈肿疮毒，湿疹，溃疡不敛，创伤出血",
+        "usage": "内服：煎汤花、果10-15g，枝叶15-30g。外用：适量，枝、叶煎水洗；或捣敷",
+        "dosage": "花、果10-15g，枝叶15-30g",
+        "taboo": null,
+        "traits": null,
+        "property_flavor": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,262 @@
+{
+  "entities": [
+    {
+      "name": "蔊菜",
+      "type": "Herb",
+      "attributes": {
+        "alias": "辣米菜、野油菜、塘葛菜、干油菜、石豇豆、鸡肉菜、田葛菜、江剪刀草、野雪里蕻、野芥草、野菜花、山芥菜、独根菜、山萝卜、金丝荚",
+        "effect": "祛痰止咳，解表散寒，活血解毒，利湿退黄",
+        "indication": "咳嗽痰喘，感冒发热，麻疹透发不畅，风湿痹痛，咽喉肿痛，疔疮痈肿，漆疮，经闭，跌打损伤，黄疸，水肿",
+        "usage": "内服：煎汤，10-30g，鲜品加倍；或捣绞汁服",
+        "taboo": "本品不能与黄荆叶同用，同用则使人肢体麻木",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "十字花科植物蔊菜Rorippa indica（L.）Hiern",
+        "place": "荒地、路旁及田园中。南北各地均有分布",
+        "processing": "将原药除去泥沙等杂质,喷潮，略润,切短段，干燥，筛去灰屑",
+        "traits": null,
+        "dosage": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解表散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿退黄",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咳嗽痰喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒发热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻疹透发不畅",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "漆疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽痰喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "麻疹透发不畅",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "漆疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《分类草药性》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《民间常用草药汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵阳民间药草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广州部队《常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《上海常用中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蔊菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

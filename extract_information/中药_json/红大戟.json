@@ -1,0 +1,216 @@
+{
+  "entities": [
+    {
+      "name": "红大戟",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "味甘、微辛",
+        "traits": "略呈纺锤形，偶有分枝，稍弯曲，长3～10cm，直径0.6～1.2cm。表面红褐色或红棕色，粗糙，有扭曲的纵皱纹。上端常有细小的茎痕。质坚实，断面皮部红褐色，木部棕黄色。无臭",
+        "effect": "泻水逐饮，攻毒消肿散结",
+        "indication": "用于胸腹积水，二便不利，痈肿疮毒，瘰疬痰核",
+        "usage": "内服：煎汤，1.5~3g；研末，0.3~1g；或入丸、散；或泡酒。外用：适量，捣敷；或煎汤洗",
+        "taboo": "1.《广西中药志》：非气壮实者禁用。2.《全国中草药汇编》不宜与甘草同用。孕妇及体质虚寒者忌服",
+        "dosage": "1.5~3g (煎汤)；研末0.3~1g",
+        "origin": "茜草科植物红大戟Knoxia valerianoides Thorel et Pitard 的干燥块茎",
+        "place": "分布于福建、台湾、广东、广西、贵州、云南及西藏等地",
+        "processing": "秋、冬二季采挖，除去须根，洗净，置沸水中略烫，干燥"
+      }
+    },
+    {
+      "name": "山慈菇",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "千金子霜",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "五倍子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "糯米粉",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "红大戟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻水逐饮，攻毒消肿散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红大戟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸腹积水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红大戟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "二便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红大戟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疮毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红大戟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘰疬痰核",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红大戟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山慈菇",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "辟瘟解毒，消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山慈菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中暑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山慈菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山慈菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶心呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山慈菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山慈菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿痰厥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山慈菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮疖肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山慈菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痄腮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山慈菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "丹毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山慈菇",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "辟秽解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头昏胸闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿痰壅惊闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疽疔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿核结毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

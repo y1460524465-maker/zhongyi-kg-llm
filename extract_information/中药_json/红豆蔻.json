@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "红豆蔻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~6g；或研末。外用：知量，研末搐鼻或调搽。",
+        "effect": "散寒燥湿，醒脾消食",
+        "indication": "脘腹冷痛，呕吐泄泻，噎膈反胃，疟疾，痢疾，饮酒过多",
+        "origin": "姜种植物大高良姜的果实",
+        "processing": "秋季果实变红时采摘，晒干或阴干",
+        "property_flavor": "气香，味辛辣",
+        "taboo": "《药性论》：多食令人舌粗，不思饮食。《生生编》：最能动火伤目，致衄，食料不宜用之。《纲目》：脾肺素有伏火者禁用。",
+        "traits": "本品呈长球形，中部略细，长0.7～1.2cm，直径0.5～0.7cm。表面红棕色或暗红色，略皱缩，顶端有黄白色管状宿萼，基部有果梗痕。果皮薄，易破碎。种子6，扁圆形或三角状多面形，黑棕色或红棕色，外被黄白色膜质假种皮，胚乳灰白色。"
+      }
+    },
+    {
+      "name": "脘腹冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕吐泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "噎膈反胃",
+      "type": "Symptom"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "散寒燥湿",
+      "type": "Effect"
+    },
+    {
+      "name": "醒脾消食",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "红豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噎膈反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红豆蔻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红豆蔻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散寒燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "醒脾消食",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "name": "天水蚁草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "疏风清热，解毒，利湿",
+        "indication": "感冒，咳嗽，泄泻，痢疾，风湿痛，疮疡，瘰疬",
+        "dosage": "内服：煎汤，9-15g；外用：适量，鲜品捣敷"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮疡",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天水蚁草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风清热，解毒，利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天水蚁草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天水蚁草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天水蚁草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天水蚁草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天水蚁草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天水蚁草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天水蚁草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    }
+  ]
+}

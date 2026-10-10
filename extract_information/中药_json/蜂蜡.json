@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "name": "蜂蜡",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒，敛疮，生肌，止痛",
+        "indication": "外用于溃疡不敛，臁疮糜烂，外伤破溃，烧烫伤",
+        "taboo": "《本草经集注》：恶芫花、齐蛤。\n《本草经疏》：火热暴痢不宜用。",
+        "dosage": "内服：溶化和服，5-10g；或入丸剂。外用：适量，溶化调敷。",
+        "property_flavor": "黄蜡色黄，白蜡色白"
+      }
+    },
+    {
+      "name": "黄蜡",
+      "type": "Herb",
+      "attributes": {
+        "alias": "黄占",
+        "origin": "《姚僧坦集验方》"
+      }
+    },
+    {
+      "name": "白蜡",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蜂白蜡",
+        "origin": "《别录》"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蜂蜡",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜂蜡",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜂蜡",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜂蜡",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

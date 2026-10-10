@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "五虎追风散",
+      "type": "Formula",
+      "attributes": {
+        "source": "《中医杂志》(1955；10)",
+        "usage": "水煎服。用黄酒2两为引。眼前先将朱砂面5分冲下，每服后五心出汗即有效。但出汗与否，应于第2日再服，每日1付，服完3付后，第2日用艾灸伤口。"
+      }
+    },
+    {
+      "name": "蝉蜕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "天南星",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "明天麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "全虫",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7个"
+      }
+    },
+    {
+      "name": "僵蚕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7条",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "全蝎",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "蝉衣",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5分"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五虎追风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蝉蜕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五虎追风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五虎追风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "明天麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五虎追风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "全虫",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五虎追风散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "僵蚕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒镇痉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "全蝎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "熄风定搐",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "僵蚕",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒镇痉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "僵蚕",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "熄风定搐",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "明天麻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风解痉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风解痉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蝉衣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风解痉",
+      "object_type": "Effect"
+    }
+  ]
+}

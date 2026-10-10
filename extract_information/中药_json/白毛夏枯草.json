@@ -1,0 +1,225 @@
+{
+  "entities": [
+    {
+      "name": "白毛夏枯草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "雪里青、见血青、退血草、散血草、白夏枯草、散血丹、白毛串、白喉草、四季春草、大叶刀焮草、白调羹、朋花、雪里开花、青石藤、一盏灯、野鹿衔花、天青地红、叶下红、爬爬草、活血草、地龙胆、苦草、苦胆草、四服春、大本四时春、七层宝塔、小将军、透滑消、蚊毒草、大叶退焮草",
+        "effect": "止咳化痰，清热，凉血，消肿，解毒",
+        "indication": "治气管炎，吐血，衄血，赤痢，淋病，咽喉肿痛，疔疮，痈肿，跌打损伤",
+        "origin": "双子叶植物药唇形科植物筋骨草的全株",
+        "property_flavor": null,
+        "dosage": "内服：煎汤，10~30g；鲜品30~60g；或捣汁",
+        "processing": "3～4月或9～10月，采取全株，晒干，或鲜用",
+        "taboo": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《木草再新》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《植物名实图考》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《分类草药性》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《福建中草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《闽东本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《江苏植药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《福建民间草药》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳化痰，清热，凉血，消肿，解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《木草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《植物名实图考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《分类草药性》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《闽东本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江苏植药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《湖南药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白毛夏枯草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建民间草药》",
+      "object_type": "Source"
+    }
+  ]
+}

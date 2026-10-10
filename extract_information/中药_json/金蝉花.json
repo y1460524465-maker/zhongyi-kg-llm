@@ -1,0 +1,161 @@
+{
+  "entities": [
+    {
+      "name": "金蝉花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "疏风散热，透疹，熄风止痉，明目退翳",
+        "indication": "外感风热，发热，头昏，咽痛，麻疹初期，疹出不畅，小儿惊风，夜啼，目赤肿痛，翳膜遮睛",
+        "property_flavor": "甘、咸，寒",
+        "meridian": "肺、肝经",
+        "dosage": "内服，煎汤，3～9g",
+        "processing": "取原药除去杂质，洗净，干燥，筛去灰屑"
+      }
+    },
+    {
+      "name": "蝉棒束孢菌",
+      "type": "Herb",
+      "attributes": {
+        "origin": "麦角菌科真菌蝉棒束孢菌",
+        "place": "安徽、浙江、福建、广东、四川、云南"
+      }
+    },
+    {
+      "name": "大蝉草",
+      "type": "Herb",
+      "attributes": {
+        "origin": "麦角菌科真菌大蝉草",
+        "place": "江苏、浙江、福建、四川、云南"
+      }
+    },
+    {
+      "name": "外感风热",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头昏",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "麻疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疹出不畅",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿惊风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "夜啼",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "翳膜遮睛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金蝉花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风散热，透疹，熄风止痉，明目退翳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金蝉花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金蝉花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金蝉花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金蝉花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金蝉花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金蝉花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疹出不畅",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金蝉花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金蝉花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夜啼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金蝉花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金蝉花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "翳膜遮睛",
+      "object_type": "Symptom"
+    }
+  ]
+}

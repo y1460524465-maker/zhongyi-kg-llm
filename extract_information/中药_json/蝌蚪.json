@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "蝌蚪",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒",
+        "indication": "热毒疮肿，流行性腮腺炎，水火烫伤",
+        "usage": "外用：适量，捣敷；或经埋藏化水后搽敷",
+        "origin": "为蛙科动物泽蛙、金线蛙或黑斑蛙等蛙类的幼体",
+        "processing": "春季于水中捞取，除去杂质，洗净，开水烫死，烘干或晒干",
+        "traits": "扁圆形或不规则的圆状，皱缩，灰黑色，大部尾巴脱落，腹扁平，背隆起。长15mm，宽8-10mm，腹部有螺旋形圈紊或不明显。质脆易碎，气味腥臭"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蝌蚪",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蝌蚪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热毒疮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蝌蚪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蝌蚪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水火烫伤",
+      "object_type": "Disease"
+    }
+  ]
+}

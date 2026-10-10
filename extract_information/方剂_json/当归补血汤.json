@@ -1,0 +1,103 @@
+{
+  "entities": [
+    {
+      "name": "当归补血汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补气生血",
+        "indication": "血虚阳浮发热证。肌热面赤，烦渴欲饮，脉洪大而虚，重按无力。亦治妇人经期、产后血虚发热头痛；或疮疡溃后，久不愈合者。",
+        "taboo": null,
+        "usage": "以水二盏，煎至一盏，去滓，空腹时温服。"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "补气",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "养血和营",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《内外伤辨惑论》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "当归补血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归补血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归补血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血虚阳浮发热证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归补血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补气生血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归补血汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《内外伤辨惑论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血和营",
+      "object_type": "Effect"
+    }
+  ]
+}

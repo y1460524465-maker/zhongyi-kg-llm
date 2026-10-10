@@ -1,0 +1,268 @@
+{
+  "entities": [
+    {
+      "name": "黄龙汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "扶正攻下",
+        "indication": "肠胃燥热，气血两虚。下利清水，神昏谵语，腹痛拒按，身热而渴，神疲少气，舌苔焦黄或焦黑，脉沉细数",
+        "taboo": "年老气血虚者，去芒硝",
+        "usage": "以水400毫升，加生姜3片，大枣2枚，煎之，后再加桔梗，煎一沸，热服"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.4克"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.4克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.4克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.4克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2克"
+      }
+    },
+    {
+      "name": "大承气汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "荡涤胃肠实热，急下存阴"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "肠胃燥热",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气血两虚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "下利清水",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "神昏谵语",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹痛拒按",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身热而渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "神疲少气",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/黄龙汤",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/黄龙汤",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠胃燥热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气血两虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肠胃燥热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "下利清水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肠胃燥热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "神昏谵语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肠胃燥热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹痛拒按",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肠胃燥热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身热而渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肠胃燥热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "神疲少气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄龙汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "扶正攻下",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "荡涤胃肠实热，急下存阴",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "桐油",
+      "type": "Herb",
+      "attributes": {
+        "effect": "涌吐痰涎；清热解毒；收湿杀虫；润肤生肌",
+        "indication": "外用治疥癣，臁疮，汤火伤，冻疮皲裂",
+        "usage": "外用：涂擦；调敷或探吐"
+      }
+    }
+  ],
+  "relations": []
+}

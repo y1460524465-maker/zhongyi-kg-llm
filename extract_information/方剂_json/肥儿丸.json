@@ -1,0 +1,106 @@
+{
+  "entities": [
+    {
+      "name": "肥儿丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "七味肥儿丸",
+        "indication": "小儿疳病，日渐羸瘦，腹大发竖，不能步行，面黄口臭，二便不调，肌体发热",
+        "usage": "上药共为细末，或猪胆汁为丸，如粟米大。每服30丸，空腹时用熟水送下"
+      }
+    },
+    {
+      "name": "《太平惠民和剂局方》卷十",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "神曲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肉豆蔻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "使君子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麦蘖",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "肥儿丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平惠民和剂局方》卷十",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肥儿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肥儿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肥儿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肥儿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "使君子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肥儿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦蘖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肥儿丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肥儿丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳病",
+      "object_type": "Disease"
+    }
+  ]
+}

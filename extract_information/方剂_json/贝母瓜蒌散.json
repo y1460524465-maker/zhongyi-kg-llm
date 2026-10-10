@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {
+      "name": "贝母瓜蒌散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "燥痰咳嗽。咳嗽呛急，咯痰不爽，涩而难出，咽喉干燥哽痛，苔白而干。",
+        "usage": "贝母一钱五分(4.5g)，瓜蒌一钱(3g)，花粉、茯苓、橘红、桔梗各八分(各2.5g)。"
+      }
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease"
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "贝母瓜蒌散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "贝母瓜蒌散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    }
+  ]
+}

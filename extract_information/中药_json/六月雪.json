@@ -1,0 +1,314 @@
+{
+  "entities": [
+    {
+      "name": "六月雪",
+      "type": "Herb",
+      "attributes": {
+        "alias": "Snow of June Herb, 白马骨, 满天星, 天星木, 路边荆, 鸡骨柴, 喷雪花, 白雪丹, 日日有, 白荜蒲花",
+        "effect": "祛风，利湿，清热，解毒",
+        "indication": "风湿腰腿痛，痢疾，水肿，目赤肿痛，喉痛，齿痛，妇女白带，痈疽，瘰疬",
+        "dosage": "内服：煎汤，10~15g(鲜者30~60g)。外用：适量烧灰淋汁涂，煎水洗或捣敷",
+        "origin": "为茜草科植物白马骨或六月雪的全草",
+        "place": "广西、广东、四川、贵州、江西、江苏、浙江、福建",
+        "processing": "栽后1-2年，于4-6月采收茎叶（能连续收获4-5年），秋季挖根。洗净，切段，鲜用或晒干",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "风湿腰腿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "齿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "妇女白带",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《宁乡县志》",
+      "type": "Source"
+    },
+    {
+      "name": "《植物名实图考》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "《南京民间药草》",
+      "type": "Source"
+    },
+    {
+      "name": "《中医药实验研究》",
+      "type": "Source"
+    },
+    {
+      "name": "《安徽药材》",
+      "type": "Source"
+    },
+    {
+      "name": "《贵州民间药物》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《上海常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《江苏验方草药选编》",
+      "type": "Source"
+    },
+    {
+      "name": "《浙江民间常用草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿腰腿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "齿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药性备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《宁乡县志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《植物名实图考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《南京民间药草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中医药实验研究》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《安徽药材》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵州民间药物》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《上海常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江苏验方草药选编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "六月雪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江民间常用草药》",
+      "object_type": "Source"
+    }
+  ]
+}

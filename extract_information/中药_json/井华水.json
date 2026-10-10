@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "name": "井华水",
+      "type": "Herb",
+      "attributes": {
+        "effect": "安神、镇静、清热、助阴",
+        "origin": "《本草纲目》",
+        "traits": "冬暖夏凉、清纯甘冽",
+        "alias": "井花水"
+      }
+    },
+    {
+      "name": "《本草纲目》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "井华水",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "井华水",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇静",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "井华水",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "井华水",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "助阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "井华水",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

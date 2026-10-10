@@ -1,0 +1,76 @@
+{
+  "entities": [
+    {
+      "name": "碧桃干",
+      "type": "Herb",
+      "attributes": {
+        "alias": "桃枭、鬼髑髅、桃奴、枭景、干桃、气桃、阴桃子、桃干、瘪桃干",
+        "effect": "敛汗涩精，活血止血，止痛",
+        "indication": "主治盗汗，遗精，吐血，疟疾，心腹痛，妊娠下血",
+        "meridian": "入肺经、肝经",
+        "origin": "蔷薇科植物桃或山桃的未成熟果实",
+        "place": "江苏、浙江、安徽等地",
+        "processing": "刷净果皮上绒毛，晒干",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": "干燥未成熟的果实，矩圆形或卵圆形，长1.8～3厘米，径1.5～2厘米，厚0.9～1.5厘米，先端渐尖，乌喙状，基部不对称，有的留存少数棕红色的果柄。表面黄绿色，具网状皱缩的纹理，密被短柔毛；内果皮腹缝线凸出，背缝线不明显。质坚实，不易折断。气微弱，味微酸涩。以干燥、实大、坚硬、色黄绿者为佳",
+        "dosage": "内服：煎汤6~9g；或入丸、散。外用：研末调敷或烧烟熏"
+      }
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "碧桃干",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "碧桃干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧桃干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧桃干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧桃干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疟疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧桃干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧桃干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妊娠下血",
+      "object_type": "Symptom"
+    }
+  ]
+}

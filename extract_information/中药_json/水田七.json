@@ -1,0 +1,158 @@
+{
+  "entities": [
+    {
+      "name": "水田七",
+      "type": "Herb",
+      "attributes": {
+        "alias": "水三七、土三七、屈头鸡、水鸡头、水鸡仔、囫头鸡、水虾公、山大黄、田螺七、马老头、小田螺七、水狗仔、水槟榔",
+        "effect": "清热解毒，散瘀消肿，理气止痛，截疟",
+        "indication": "咽喉肿痛，急性胃肠炎，泌尿道感染，牙痛，慢性胃炎，胃、十二指肠溃疡，风湿性关节炎，月经不调，疟疾，跌打损伤；外用治疮疡肿毒，外伤出血",
+        "taboo": "孕妇忌用。本品有毒，服用过量易致吐泻，严重者会引起大量出血",
+        "dosage": "内服：煎汤，9-15g；或研末，每次1-2g。外用：适量，捣敷；或研粉调敷",
+        "origin": "蒟蒻薯科植物裂果薯的块茎",
+        "processing": "春、夏采挖，洗净，鲜用或切片晒干"
+      }
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "急性胃肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "泌尿道感染",
+      "type": "Disease"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "慢性胃炎",
+      "type": "Disease"
+    },
+    {
+      "name": "胃、十二指肠溃疡",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疡肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，散瘀消肿，理气止痛，截疟",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胃肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泌尿道感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃、十二指肠溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水田七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

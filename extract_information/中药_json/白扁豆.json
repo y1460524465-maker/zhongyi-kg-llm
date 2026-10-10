@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "白扁豆",
+      "type": "Herb",
+      "attributes": {
+        "alias": "藊豆、白藊豆、南扁豆、沿篱豆、蛾眉豆、羊眼豆、凉衍豆、白藊豆子、膨皮豆、茶豆、小刀豆、树豆、藤豆、火镰扁豆、眉豆",
+        "effect": "健脾化湿，和中消暑",
+        "indication": "脾胃虚弱，食欲不振，大便溏泻，白带过多，暑湿吐泻，胸闷腹胀",
+        "dosage": "内服：煎汤，10~15g",
+        "processing": "1.白扁豆：除去杂质。用时捣碎。2.炒白扁豆：取净白扁豆，炒至微黄色，用时捣碎。3.扁豆仁：取净白扁豆，置沸水中煮至皮微鼓起和松软，捞出，倒入凉水，搓去皮，晒干，捣碎用；或炒黄用。（皮晒干即为扁豆皮）",
+        "origin": "豆科植物扁豆的白色成熟种子",
+        "place": "辽宁、河北、山西、陕西、山东、江苏、安徽、浙江、江西、福建、台湾、河南、湖北、湖南、广东、海南、广西、四川、贵州、云南等地",
+        "property_flavor": "味淡",
+        "traits": "种子扁椭圆形或扁卵圆形，长0.8~1.3cm，宽6~9mm，厚约7mm。表面淡黄白色或淡黄色，平滑，稍有光泽，有的可见棕褐色斑点"
+      }
+    },
+    {
+      "name": "脾胃虚弱",
+      "type": "Disease"
+    },
+    {
+      "name": "食欲不振",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便溏泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "白带过多",
+      "type": "Symptom"
+    },
+    {
+      "name": "暑湿吐泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸闷腹胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "脾虚泄泻",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白扁豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾化湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白扁豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和中消暑",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白扁豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白扁豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白扁豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便溏泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白扁豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带过多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白扁豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暑湿吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白扁豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷腹胀",
+      "object_type": "Symptom"
+    }
+  ]
+}

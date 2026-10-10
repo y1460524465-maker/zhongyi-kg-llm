@@ -1,0 +1,383 @@
+{
+  "entities": [
+    {
+      "name": "衣鱼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蟫、白鱼、蛃鱼、壁鱼、蠹鱼、铰剪虫",
+        "effect": "利尿，通淋，祛风明目，解毒",
+        "indication": "淋病，小便不利，小儿惊痫，疮疖，目翳",
+        "dosage": "内服：煎汤或研末，5-10只。外用：适量，研末撒、调敷或点眼",
+        "taboo": "畏芸草、莽草、莴苣；妊娠不可服",
+        "origin": "为衣鱼科昆虫衣鱼的全虫",
+        "traits": "体长而扁，长约1厘米。外被银色细鳞，头、胸、腹之区别不甚明显；头小，复眼细小，单眼缺如；触角细长，多节，成鞭状；口器虽退化，但善于咀嚼。胸部最阔，中胸及后胸各有气门1对；无翅，胸下有足3对。腹部10节，至尾部渐细，第1～8腹节各有气门1对。腹部末端有尾须3条，由多数环节组成。多生于古旧的房屋和古书中。畏光，好蠹食书籍、衣服及浆糊、胶质等物"
+      }
+    },
+    {
+      "name": "淋病",
+      "type": "Disease"
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿惊痫",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疖",
+      "type": "Disease"
+    },
+    {
+      "name": "目翳",
+      "type": "Symptom"
+    },
+    {
+      "name": "疝瘕",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿中风",
+      "type": "Disease"
+    },
+    {
+      "name": "项强",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿脐风撮口",
+      "type": "Disease"
+    },
+    {
+      "name": "客忤天吊",
+      "type": "Disease"
+    },
+    {
+      "name": "风痫",
+      "type": "Disease"
+    },
+    {
+      "name": "口歪",
+      "type": "Symptom"
+    },
+    {
+      "name": "重舌",
+      "type": "Symptom"
+    },
+    {
+      "name": "目眯",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "转胞",
+      "type": "Disease"
+    },
+    {
+      "name": "小便不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "滑石",
+      "type": "Herb"
+    },
+    {
+      "name": "乱发",
+      "type": "Herb"
+    },
+    {
+      "name": "竹茹",
+      "type": "Herb"
+    },
+    {
+      "name": "鹰屎白",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "项强",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿脐风撮口",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "客忤天吊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口歪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "重舌",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目眯",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "转胞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "滑石白鱼散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "滑石白鱼散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乱发",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "滑石白鱼散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白鱼",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "滑石白鱼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "滑石白鱼散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "金匮要略",
+      "object_type": "Source"
+    },
+    {
+      "subject": "壁鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿天吊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "壁鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "圣惠方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "壁鱼子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿撮口发噤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "壁鱼子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "圣惠方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "衣中白鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "衣中白鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "救急方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "重舌",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "衣鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "千金翼方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "农白鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘢痕凸出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "农白鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "千金方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "书中白鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眼翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "书中白鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "僧深集方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "书中白鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目中不出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "书中白鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "千金方",
+      "object_type": "Source"
+    }
+  ]
+}

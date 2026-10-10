@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {
+      "name": "车桑子根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15-30g，鲜品30-60g",
+        "effect": "泻火解毒",
+        "indication": "牙痛，风毒流注"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "车桑子根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻火解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "车桑子根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "车桑子根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风毒流注",
+      "object_type": "Disease"
+    }
+  ]
+}

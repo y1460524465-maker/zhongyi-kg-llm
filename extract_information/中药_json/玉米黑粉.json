@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "name": "玉米黑粉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "健脾胃，利肝胆，安神",
+        "indication": "肝炎，胃肠道溃疡，消化不良，疳积，失眠",
+        "dosage": "内服：炒食，每次3g；或入丸剂，小儿减量",
+        "origin": "为黑粉菌科真菌玉米黑粉菌寄生在玉米上所形成的孢子堆"
+      }
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃肠道溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "消化不良",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疳积",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "玉米黑粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米黑粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃肠道溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米黑粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消化不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米黑粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉米黑粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玉米黑粉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾胃，利肝胆，安神",
+      "object_type": "Effect"
+    }
+  ]
+}

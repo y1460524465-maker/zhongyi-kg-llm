@@ -1,0 +1,45 @@
+{
+  "entities": [
+    {
+      "name": "猫胞衣",
+      "type": "Herb",
+      "attributes": {
+        "effect": "和胃止呕",
+        "indication": "噎膈反胃，胃脘疼痛",
+        "usage": "内服：煮食，适量；或焙干研末冲，每次6-9g",
+        "property_flavor": "甘，性温",
+        "origin": "《本草再新》"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猫胞衣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和胃止呕",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猫胞衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噎膈反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猫胞衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃脘疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猫胞衣",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    }
+  ]
+}

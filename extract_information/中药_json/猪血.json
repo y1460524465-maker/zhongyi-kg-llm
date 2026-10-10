@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "猪血",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煮食，适量；或研末，每次3-9g。外用：适量，生血涂敷，或研末撒。",
+        "effect": "补血养心，熄风镇惊，下气止血",
+        "indication": "头风眩晕，癫痫惊风，中满腹胀，奔豚气逆，淋漏下血，宫颈糜烂"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补血养心",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "熄风镇惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "下气止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癫痫惊风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中满腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "奔豚气逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋漏下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "宫颈糜烂",
+      "object_type": "Symptom"
+    }
+  ]
+}

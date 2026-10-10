@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "name": "茵陈蒿汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热利湿退黄",
+        "indication": "湿热黄疸（阳黄）。一身面目俱黄，黄色鲜明，腹微满，口中渴，小便短赤，舌苔黄腻，脉沉数等"
+      }
+    },
+    {
+      "name": "茵陈",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18g",
+        "effect": "清热利湿退黄"
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "清热降火，通利三焦，引湿热自小便出"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "泻热逐瘀，通利二便，导瘀热由二便而下"
+      }
+    },
+    {
+      "name": "湿热黄疸（阳黄）",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "栀子柏皮汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "茵陈四逆汤",
+      "type": "Formula",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茵陈蒿汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸（阳黄）",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茵陈蒿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿退黄",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茵陈蒿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茵陈",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈蒿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈蒿汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿退黄",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "栀子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热降火，通利三焦，引湿热自小便出",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻热逐瘀，通利二便，导瘀热由二便而下",
+      "object_type": "Effect"
+    }
+  ]
+}

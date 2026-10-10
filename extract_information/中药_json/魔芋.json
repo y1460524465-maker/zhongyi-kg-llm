@@ -1,0 +1,666 @@
+{
+  "entities": [
+    {
+      "name": "魔芋",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蒟蒻、蒻头、白蒟蒻、鬼芋、鬼头、花杆莲、茱芋、黑芋头、花便莲、虎掌、花伞把、蛇头草根、麻芋子、蛇六谷、雷星、鬼蜡烛、蛇头子、天六谷、星芋",
+        "effect": "化痰消积，解毒散结，行瘀止痛",
+        "indication": "痰嗽，积滞，疟疾，瘰疬，症瘕，跌打损伤，痈肿，疔疮，丹毒，烫火伤，蛇咬伤",
+        "usage": "内服：煎汤，9-15g（需久煎2小时以上）；外用：适量，捣敷；或磨醋涂。",
+        "taboo": "不宜生服。内服不宜过量。误食生品及炮制品，过量服用易产生中毒症状。",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "天南星科魔芋属植物魔芋Anorphophallus konjac K. Koch，以球状块茎入药。夏秋采挖，除去地上茎叶及须根，洗净，阴凉处风干。",
+        "place": "生长于疏林下、林缘、溪边，或栽培于园圃。分布于我国东南至西南一带。",
+        "processing": "取原药材，除去杂质，洗净，润透，切厚片，干燥，筛去灰屑。",
+        "traits": "呈扁圆形厚片，切面灰白色，有多数细小维管束小点，周边暗红褐色。有细小圆点及根痕，质坚硬，粉性，微有麻舌感。"
+      }
+    },
+    {
+      "name": "痰嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "积滞",
+      "type": "Symptom"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "症瘕",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease"
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease"
+    },
+    {
+      "name": "烫火伤",
+      "type": "Disease"
+    },
+    {
+      "name": "蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "化痰消积",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒散结",
+      "type": "Effect"
+    },
+    {
+      "name": "行瘀止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "腮痈",
+      "type": "Disease"
+    },
+    {
+      "name": "肺寒",
+      "type": "Symptom"
+    },
+    {
+      "name": "久疟",
+      "type": "Disease"
+    },
+    {
+      "name": "火疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "久疟不愈",
+      "type": "Disease"
+    },
+    {
+      "name": "何首乌",
+      "type": "Herb"
+    },
+    {
+      "name": "脑部癌肿",
+      "type": "Disease"
+    },
+    {
+      "name": "华东蒟蒻",
+      "type": "Herb"
+    },
+    {
+      "name": "苍耳草",
+      "type": "Herb"
+    },
+    {
+      "name": "贯众",
+      "type": "Herb"
+    },
+    {
+      "name": "蒲黄根",
+      "type": "Herb"
+    },
+    {
+      "name": "七叶一枝花",
+      "type": "Herb"
+    },
+    {
+      "name": "鼻咽痛",
+      "type": "Disease"
+    },
+    {
+      "name": "枸杞根",
+      "type": "Herb"
+    },
+    {
+      "name": "鸭跖草",
+      "type": "Herb"
+    },
+    {
+      "name": "淋巴肉瘤",
+      "type": "Disease"
+    },
+    {
+      "name": "黄药子",
+      "type": "Herb"
+    },
+    {
+      "name": "天葵子",
+      "type": "Herb"
+    },
+    {
+      "name": "红木香",
+      "type": "Herb"
+    },
+    {
+      "name": "甲状腺癌",
+      "type": "Disease"
+    },
+    {
+      "name": "海藻",
+      "type": "Herb"
+    },
+    {
+      "name": "玄参",
+      "type": "Herb"
+    },
+    {
+      "name": "跌打扭伤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "鲜华东蒟蒻",
+      "type": "Herb"
+    },
+    {
+      "name": "韭菜",
+      "type": "Herb"
+    },
+    {
+      "name": "葱白",
+      "type": "Herb"
+    },
+    {
+      "name": "黄酒",
+      "type": "Herb"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "青木香",
+      "type": "Herb"
+    },
+    {
+      "name": "半边莲",
+      "type": "Herb"
+    },
+    {
+      "name": "眼镜蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "鲜魔芋根",
+      "type": "Herb"
+    },
+    {
+      "name": "鲜滴水珠根",
+      "type": "Herb"
+    },
+    {
+      "name": "黄连",
+      "type": "Herb"
+    },
+    {
+      "name": "鲜魔芋花茎",
+      "type": "Herb"
+    },
+    {
+      "name": "鲜生姜",
+      "type": "Herb"
+    },
+    {
+      "name": "脚癣",
+      "type": "Disease"
+    },
+    {
+      "name": "蒟蒻块茎",
+      "type": "Herb"
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草会编》",
+      "type": "Source"
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source"
+    },
+    {
+      "name": "《草木便方》",
+      "type": "Source"
+    },
+    {
+      "name": "《国药的药理学》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《江西草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《浙江民间常用草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "积滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "症瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫火伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久疟",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "火疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草会编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林纂要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《草木便方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《国药的药理学》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "魔芋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江西草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "何首乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蒟蒻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久疟不愈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍耳草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "贯众",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲黄根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "七叶一枝花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脑部癌肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸭跖草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻咽痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄药子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "天葵子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "红木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴肉瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍耳草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "贯众",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲黄根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "海藻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "甲状腺癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲜华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打扭伤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鲜华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲜魔芋根",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜滴水珠根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鲜魔芋根",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鲜魔芋根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "眼镜蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒟蒻块茎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "华东蒟蒻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江西草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒟蒻块茎",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江民间常用草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒟蒻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    }
+  ]
+}

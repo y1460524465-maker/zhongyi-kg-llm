@@ -1,0 +1,89 @@
+{
+  "entities": [
+    {
+      "name": "厚朴花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "煎汤，3～5g",
+        "effect": "行气宽中，开郁化湿",
+        "indication": "肝胃气滞，胸脘胀闷，食欲不振，纳谷不香，感冒咳嗽",
+        "processing": "春末夏初当花蕾未开或稍开时采摘，放蒸笼中蒸至上气后约10分钟取出，晒干或用文火烘干。亦有不蒸而直接将花焙干或烘干者",
+        "property_flavor": "气香，味淡而微辣",
+        "taboo": "阴虚液燥者忌用"
+      }
+    },
+    {
+      "name": "饮片新参",
+      "type": "Source"
+    },
+    {
+      "name": "四川中药志",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "厚朴花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸脘胀闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "纳谷不香",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝胃气滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "厚朴花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气宽中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开郁化湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "饮片新参",
+      "object_type": "Source"
+    },
+    {
+      "subject": "厚朴花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "四川中药志",
+      "object_type": "Source"
+    }
+  ]
+}

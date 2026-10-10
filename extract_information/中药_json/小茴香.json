@@ -1,0 +1,175 @@
+{
+  "entities": [
+    {
+      "name": "小茴香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~9g，或入丸、散。外用：研末调敷或炒热温熨。",
+        "effect": "散寒止痛，理气和胃",
+        "indication": "寒疝腹痛，睾丸偏坠，痛经，少腹冷痛，脘腹胀痛，食少吐泻，睾丸鞘膜积液",
+        "meridian": "肝经、肾经、脾经、胃经",
+        "origin": "伞形科植物茴香Foeniculum vulgare Mill.的干燥成熟果实",
+        "place": "主产山西、内蒙古、甘肃、辽宁",
+        "processing": "盐小茴香：取净小茴香，照盐水炙法炒至微黄色",
+        "property_flavor": "味微甜、辛",
+        "taboo": "脾胃虚弱者慎用。肺、胃有热及热毒盛者禁用。"
+      }
+    },
+    {
+      "name": "寒疝腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "睾丸偏坠",
+      "type": "Symptom"
+    },
+    {
+      "name": "痛经",
+      "type": "Symptom"
+    },
+    {
+      "name": "少腹冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "脘腹胀痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "食少吐泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "睾丸鞘膜积液",
+      "type": "Disease"
+    },
+    {
+      "name": "肾虚腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肝胃气滞",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾气不固型遗精",
+      "type": "Disease"
+    },
+    {
+      "name": "脾胃虚寒",
+      "type": "Symptom"
+    },
+    {
+      "name": "气滞血瘀型痛经",
+      "type": "Disease"
+    },
+    {
+      "name": "血寒型月经滞后",
+      "type": "Disease"
+    },
+    {
+      "name": "肝经寒凝气滞疝气",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒疝腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "睾丸偏坠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "少腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食少吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "睾丸鞘膜积液",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肝胃气滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾气不固型遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾胃虚寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气滞血瘀型痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血寒型月经滞后",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小茴香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝经寒凝气滞疝气",
+      "object_type": "Disease"
+    }
+  ]
+}

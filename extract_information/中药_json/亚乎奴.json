@@ -1,0 +1,28 @@
+{
+  "entities": [
+    {
+      "name": "亚乎奴",
+      "type": "Herb",
+      "attributes": {
+        "alias": "亚乎鲁, 金丝荷叶, 鼠耳草, 亚红龙, 锡生藤",
+        "effect": "活血散瘀，消肿止痛，止血生肌",
+        "indication": "跌打损伤，挤压伤，创伤出血，腰痛，风湿疼痛",
+        "meridian": "肝经、脾经",
+        "processing": "春、夏二季采挖，除去泥沙，晒干",
+        "property_flavor": "甘、苦，温",
+        "usage": "内服：煎汤，9-15g。外用：适量，鲜品捣敷；或干粉外敷；或用酒或蛋清调敷",
+        "origin": "本品系傣族习用药材。为防己科植物锡生藤的干燥全株",
+        "place": "云南"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "亚乎奴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀，消肿止痛，止血生肌",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "葛花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解酒醒脾",
+        "indication": "伤酒发热烦渴，不思饮食，呕逆吐酸，吐血，肠风下血",
+        "dosage": "煎汤，3~9g；或入丸、散",
+        "property_flavor": null,
+        "place": "湖南、河南、广东、广西、浙江、四川、安徽"
+      }
+    },
+    {
+      "name": "葛花解酲汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "解酒醒脾",
+        "indication": "饮酒太过，呕吐痰逆，心神烦乱，胸膈痞塞，手足战摇，饮食减少，小便不利"
+      }
+    },
+    {
+      "name": "葛花清热丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "饮酒积热，毒伤脾胃，呕血吐血，发热烦渴，小便赤少"
+      }
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葛花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解酒醒脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葛花解酲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葛花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花清热丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葛花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酲汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《脾胃论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "葛花清热丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    }
+  ]
+}

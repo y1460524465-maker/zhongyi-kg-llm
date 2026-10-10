@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "滚痰丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "实热顽痰",
+        "indication": "实热老痰证。癫狂惊悸，或怔忡昏迷，或咳喘痰稠，或胸脘痞闷，或眩晕耳鸣，或绕项结核，或口眼蠕动，或不寐，或梦寐奇怪之状，或骨节卒痛难以名状，或噎息烦闷，大便秘结，舌苔黄腻，脉滑数有力",
+        "taboo": "中气不足，脾肾阳虚、孕妇等，皆应慎用",
+        "usage": "上为细末，水丸梧子大，每服四五十丸（8～10g）,量虚实加减服,清茶、温水送下，临卧食后服"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb"
+    },
+    {
+      "name": "片黄芩",
+      "type": "Herb"
+    },
+    {
+      "name": "沉香",
+      "type": "Herb"
+    },
+    {
+      "name": "礞石",
+      "type": "Herb"
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/滚痰丸",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "滚痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "滚痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "片黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "滚痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "滚痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "礞石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "滚痰丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/滚痰丸",
+      "object_type": "Source"
+    }
+  ]
+}

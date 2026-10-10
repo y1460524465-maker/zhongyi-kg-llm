@@ -1,0 +1,138 @@
+{
+  "entities": [
+    {
+      "name": "三子养亲汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "三子汤",
+        "effect": "行气消痰",
+        "indication": "痰壅气滞证，症见咳嗽喘逆，痰多胸痞，食少难消，舌苔白腻，脉滑",
+        "usage": "上三味，各洗净，微炒，击碎，看何证多，则以所主者为君，余次之，或等分，每剂不过9克，用生绢小袋盛之，煮作汤饮，代茶啜用，不宜煎熬太过"
+      }
+    },
+    {
+      "name": "紫苏子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "降气行痰，主气喘咳嗽"
+      }
+    },
+    {
+      "name": "白芥子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温肺利气，快膈消痰，除痰"
+      }
+    },
+    {
+      "name": "莱菔子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "消食导滞，主食痞兼痰"
+      }
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "喘逆",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰多",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸痞",
+      "type": "Symptom"
+    },
+    {
+      "name": "食少难消",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰壅气滞证",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三子养亲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三子养亲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芥子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三子养亲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莱菔子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三子养亲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气消痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三子养亲汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痰壅气滞证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "痰壅气滞证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痰壅气滞证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "喘逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痰壅气滞证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "痰多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痰壅气滞证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸痞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痰壅气滞证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "食少难消",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三子养亲汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "寿世保元",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "name": "刀豆壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "煎汤，9～15克",
+        "effect": "和中下气，散瘀活血",
+        "indication": "反胃，呃逆，久痢，经闭，喉痹，喉癣",
+        "origin": "豆科植物刀豆的果壳",
+        "place": "江苏、湖北、安徽等地",
+        "processing": "拣去杂质，用水洗净，稍润，切丝，晒干",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": "干燥果壳具扭曲粗壮的果柄；荚果长剑状，略作螺旋形扭曲或破碎，长可达30厘米，宽约4.5厘米，先端尖，微弯，外表面黄色至深黄色，具皱纹，散生黑色斑点，被有稀疏短毛及斜向排列的白色细条纹，内面有白色海绵状物。未开裂的荚果，在腹背缝线处各有肋1条。果皮带纤维性。以长而宽大、完整、外面黄色、内部洁白无虫蛀者为佳。"
+      }
+    },
+    {
+      "name": "反胃",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呃逆",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "久痢",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "经闭",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "喉癣",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "血气痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "膈食呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "虚寒呃逆",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇女经闭、腹胁胀痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "牙根臭烂",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "颈淋巴结结核初起",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "刀豆壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和中下气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "刀豆壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "刀豆壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刀豆壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呃逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刀豆壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刀豆壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刀豆壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刀豆壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刀豆壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刀豆壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血气痛",
+      "object_type": "Symptom}, {"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "蜂房",
+      "type": "Herb",
+      "attributes": {
+        "origin": "胡蜂科昆虫果马蜂Polistes olivaceous （DeGeer）、日本长脚胡蜂Polistes japonicus Saussure 或异腹胡蜂Parapolybia varia Fabricius的巢",
+        "processing": "露蜂房：洗净，蒸透，剪成小块，晒干；或略炒至微黄色。煅蜂房：取蜂房碎块入罐内，盐泥封固，煅存性，露去火毒。",
+        "property_flavor": "辛淡",
+        "traits": "本品呈圆盘状或不规则的扁块状，有的似莲房状，大小不一。表面灰白色或灰褐色。腹面有多数整齐的六角形房孔，孔径3～4mm或6～8mm；背面有1个或数个黑色短柄。体轻，质韧，略有弹性。气微，味辛淡。质酥脆或坚硬者不可供药用。",
+        "effect": "祛风，攻毒，杀虫",
+        "indication": "主治惊痫，风痹，瘾疹瘙痒，乳痈，疔毒，瘰疬，痔漏，风火牙痛，头癣，蜂螫肿疼",
+        "dosage": "内服：煎汤，5~10g；研末服，2~5g。外用：适量，煎水洗、研末掺或调敷",
+        "taboo": "气虚弱及肾功能不全者慎服"
+      }
+    },
+    {
+      "name": "惊痫",
+      "type": "Disease"
+    },
+    {
+      "name": "风痹",
+      "type": "Disease"
+    },
+    {
+      "name": "瘾疹瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease"
+    },
+    {
+      "name": "疔毒",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "痔漏",
+      "type": "Disease"
+    },
+    {
+      "name": "风火牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "头癣",
+      "type": "Disease"
+    },
+    {
+      "name": "蜂螫肿疼",
+      "type": "Symptom"
+    },
+    {
+      "name": "祛风",
+      "type": "Effect"
+    },
+    {
+      "name": "攻毒",
+      "type": "Effect"
+    },
+    {
+      "name": "杀虫",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "攻毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘾疹瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风火牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂房",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蜂螫肿疼",
+      "object_type": "Symptom"
+    }
+  ]
+}

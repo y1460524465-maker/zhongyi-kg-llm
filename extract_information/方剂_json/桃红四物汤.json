@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "桃红四物汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "妇女经期超前，血多有块，色紫粘稠，腹痛等",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "四物汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桃红四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "四物汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "桃红四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桃红四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桃红四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "瓜蒂",
+      "type": "Herb",
+      "attributes": {
+        "alias": "苦丁香、甜瓜蒂、香瓜蒂",
+        "effect": "吐风痰宿食，泻水湿停饮",
+        "indication": "主治痰涎宿食，壅塞上脘，胸中痞梗，风痰癫痫，湿热黄疸，四肢浮肿，鼻塞，喉痹",
+        "dosage": "煎服，2.5~5g。入丸散，每次0.3~1.0g",
+        "taboo": "体虚、失血及上部无实邪者禁服",
+        "property_flavor": "味苦",
+        "processing": "阴干"
+      }
+    }
+  ],
+  "relations": []
+}

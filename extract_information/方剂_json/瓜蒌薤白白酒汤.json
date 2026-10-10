@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "瓜蒌薤白白酒汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "通阳散结，豁痰下气",
+        "indication": "胸痹，证见胸背疼痛、痰多喘闷、气短不得卧，苔白腻而滑，脉沉弦者。用于治疗冠心病心绞痛，急性心肌梗死，胸痛，慢性阻塞性肺疾病，助间神经痛，肋软骨炎，乳腺增生症以及其他属中医胸痹的多种疾患等。",
+        "taboo": null,
+        "usage": "三味同煮，取二升，分温再服"
+      }
+    },
+    {
+      "name": "瓜蒌实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一枚（24g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "薤白",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半升（12g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白酒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "七升（适量）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "胸痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胸背疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰多喘闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "气短不得卧",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "瓜蒌薤白白酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "瓜蒌薤白白酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薤白",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "瓜蒌薤白白酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白酒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "瓜蒌薤白白酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "通阳散结，豁痰下气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓜蒌薤白白酒汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胸痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸背疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "痰多喘闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸痹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "气短不得卧",
+      "object_type": "Symptom"
+    }
+  ]
+}

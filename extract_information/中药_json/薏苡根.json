@@ -1,0 +1,217 @@
+{
+  "entities": [
+    {
+      "name": "薏苡根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，利湿通淋，健脾，杀虫",
+        "indication": "用于黄疸，水肿，淋病，疝气，经闭，带下，虫积腹痛",
+        "dosage": "内服：煎汤，9~15克，鲜品30～60g",
+        "property_flavor": "甘、淡，微寒",
+        "meridian": "归脾、膀胱经"
+      }
+    },
+    {
+      "name": "打碗子根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "打碗子根"
+      }
+    },
+    {
+      "name": "米仁根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "米仁根"
+      }
+    },
+    {
+      "name": "佛珠根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "佛珠根"
+      }
+    },
+    {
+      "name": "五谷根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "五谷根"
+      }
+    },
+    {
+      "name": "尿珠根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "尿珠根"
+      }
+    },
+    {
+      "name": "黄疸",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "淋病",
+      "type": "Disease"
+    },
+    {
+      "name": "疝气",
+      "type": "Disease"
+    },
+    {
+      "name": "经闭",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "虫积腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "血淋",
+      "type": "Symptom"
+    },
+    {
+      "name": "淋浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩带",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛔虫心痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "脾胃虚弱",
+      "type": "Disease"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "消化不良",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿肺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "发热喘咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾炎腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便涩痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙齿风痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "夜盲",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "薏苡根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "薏苡根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "薏苡根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "薏苡根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "薏苡根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "薏苡根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "薏苡根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虫积腹痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

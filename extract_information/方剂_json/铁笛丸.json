@@ -1,0 +1,155 @@
+{
+  "entities": [
+    {
+      "name": "铁笛丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "润肺利咽，生津止渴",
+        "indication": "肺热津伤咽干口燥，声音嘶哑，咽喉疼痛。现代常用于急性喉炎、慢性咽炎等有上述表现者"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "瓜蒌皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "诃子肉",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "青果",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "凤凰衣",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "浙贝母",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "诃子肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青果",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "凤凰衣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "浙贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "润肺利咽，生津止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁笛丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性咽炎",
+      "object_type": "Disease"
+    }
+  ]
+}

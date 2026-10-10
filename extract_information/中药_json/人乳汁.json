@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "人乳汁",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补阴养血，润燥止渴",
+        "indication": "虚劳赢瘦，虚风瘫痪，噎膈，消渴，血虚经闭，大便燥结，目赤昏暗",
+        "taboo": "脏乞虚寒，滑泄不禁，及胃弱不思食，脾虚不磨食，并不宜服。脾虚易泻者勿食",
+        "usage": "内服：新鲜乳乘热饮，适量。"
+      }
+    },
+    {
+      "name": "接命丹",
+      "type": "Formula",
+      "attributes": {
+        "usage": "人乳二酒盏，香甜白者为佳，以好梨汁一酒盏，炖滚热，每日五更后一服，能消痰，补虚，生血。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "人乳汁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补阴养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人乳汁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润燥止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人乳汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳赢瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人乳汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚风瘫痪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人乳汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噎膈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人乳汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "人乳汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血虚经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人乳汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便燥结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人乳汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤昏暗",
+      "object_type": "Symptom"
+    }
+  ]
+}

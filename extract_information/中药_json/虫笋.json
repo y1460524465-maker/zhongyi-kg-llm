@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "name": "虫笋",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "甘，淡",
+        "meridian": "脾、膀胱二经",
+        "effect": "利水消肿",
+        "indication": "小便不利，腹水肿胀",
+        "dosage": "内服，煎汤，9~12 g",
+        "origin": "禾本科植物淡竹的笋被虫蛀枯萎后的带虫笋干"
+      }
+    },
+    {
+      "name": "金葫芦",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "腹水肿胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "晚期血吸虫病腹水",
+      "type": "Disease"
+    },
+    {
+      "name": "肾炎",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "虫笋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "虫笋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹水肿胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "虫笋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "虫笋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "晚期血吸虫病腹水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虫笋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虫笋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金葫芦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "晚期血吸虫病腹水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金葫芦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "entities": [
+    {
+      "name": "灰叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乌仔草、紫草藤、野青树、野青子、野蓝靛、山青、野蓝、假蓝靛、假靛青蓝",
+        "effect": "解表清热，燥湿解毒",
+        "indication": "风热感冒，湿疹，皮炎",
+        "dosage": "15-30g",
+        "traits": "气微，味微苦",
+        "taboo": "有毒"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "灰叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灰叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灰叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灰叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解表清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灰叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

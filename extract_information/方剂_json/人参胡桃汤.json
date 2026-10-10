@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "人参胡桃汤",
+      "type": "Formula",
+      "attributes": {
+        "source": "https://zhongyibaike.com/wiki/人参胡桃汤",
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    }
+  ],
+  "relations": []
+}

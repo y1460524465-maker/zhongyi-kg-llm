@@ -1,0 +1,178 @@
+{
+  "entities": [
+    {
+      "name": "清血养阴汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴清热，凉血调经",
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "滋阴凉血止血",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "清热凉血",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "敛肝阴",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "滋阴凉血止血",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "清热凉血",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "女贞子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "滋肾阴",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "旱莲草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "滋阴凉血止血",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清血养阴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清血养阴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清血养阴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清血养阴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清血养阴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清血养阴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "女贞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清血养阴汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "旱莲草",
+      "object_type": "Herb"
+    }
+  ]
+}

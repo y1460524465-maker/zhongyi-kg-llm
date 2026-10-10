@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "棕树根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "煎汤，9~15克",
+        "effect": "收敛止血，祛湿，涩肠止痢，消肿解毒",
+        "indication": "用于吐血，便血，血淋，血崩，带下，痢疾，关节痛，水肿，瘰疬，流注，跌打损伤",
+        "origin": "为棕榈科植物棕榈的根",
+        "property_flavor": "性平，味苦涩，无毒"
+      }
+    }
+  ],
+  "relations": []
+}

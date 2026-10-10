@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "name": "杞菊地黄丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋肾养肝",
+        "indication": "肝肾阴亏，眩晕耳鸣，羞明畏光，迎风流泪，视物昏花",
+        "taboo": null,
+        "usage": "口服，水蜜丸一次6g，小蜜丸一次9g，大蜜丸一次1丸，一日2次"
+      }
+    },
+    {
+      "name": "枸杞子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "菊花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "山茱萸",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "杞菊地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杞菊地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杞菊地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杞菊地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杞菊地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杞菊地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杞菊地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杞菊地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "杞菊地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋肾养肝",
+      "object_type": "Effect"
+    }
+  ]
+}

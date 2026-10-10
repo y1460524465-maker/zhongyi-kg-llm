@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "垂盆草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，利湿退黄",
+        "indication": "湿热黄疸，小便不利，痈肿疮疡，急、慢性肝炎",
+        "dosage": "内服：煎汤，15~30g；鲜品50~100g；或捣汁。外用：适量，捣敷；或研末调搽；或取汁外涂；或煎水湿敷。",
+        "origin": "景天科植物垂盆草Sedum sarmentosum Bunge",
+        "property_flavor": "味微苦",
+        "meridian": "肝经、胆经、小肠经"
+      }
+    }
+  ],
+  "relations": []
+}

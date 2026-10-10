@@ -1,0 +1,343 @@
+{
+  "entities": [
+    {
+      "name": "珍珠母",
+      "type": "Herb",
+      "attributes": {
+        "effect": "平肝潜阳，安神定惊，止血",
+        "indication": "头眩，耳鸣，心悸，失眠，癫狂，惊痫，吐血，衄血，妇女血崩",
+        "dosage": "内服：煎汤，10~30g，打碎先煎；或研末，每次1.5~3g；或入丸、散",
+        "processing": "1.珍珠母，取原药材，除去杂质及灰屑，打碎。2.煅珍珠母，取净珍珠母置适宜容器内，用武火加热，煅至酥脆，取出放凉，打碎。3.珍珠层粉，取净珍珠母用砂轮磨去外、中层，保留内层（珍珠层），浸入50%的高锰酸钾中消毒30min，再用清水洗净，粉碎，过130目筛，水飞，烘干，再粉碎，过200目行筛后干燥即可。"
+      }
+    },
+    {
+      "name": "褐纹冠蚌",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "三角帆蚌",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "合浦珠母贝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "头眩",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "耳鸣",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心悸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "癫狂",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "惊痫",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇女血崩",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肝阳上升",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头晕头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "眼花耳呜",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "面颊燥热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心悸失眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "内眼疾患",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "晶体混浊",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "视神经萎缩",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "化脓性伤口感染",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疖疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "高血压",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "制女贞子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "墨旱莲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "远志",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "酸枣仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "珍珠层粉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炉甘石",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "轻粉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝潜阳，安神定惊，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳鸣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癫狂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝阳上升",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眼花耳呜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面颊燥热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "内眼疾患",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "晶体混浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "视神经萎缩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "化脓性伤口感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疖疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珍珠母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    }
+  ]
+}

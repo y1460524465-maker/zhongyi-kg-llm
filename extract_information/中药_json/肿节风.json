@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "name": "肿节风",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热凉血，活血消斑，祛风通络",
+        "indication": "血热紫斑、紫癜，风湿痹痛，跌打损伤",
+        "dosage": "内服：煎汤，9-15g；或浸酒。外用：适量，捣敷；研末调敷；或煎水熏洗",
+        "origin": "金粟兰科植物草珊瑚Sarcandra glabra （Thunb.）Nakai的干燥全株"
+      }
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "骨折",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "劳伤腰痛",
+      "type": "Disease"
+    },
+    {
+      "name": "胃癌",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "伤口溃烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "汤火伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "肿节风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肿节风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肿节风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肿节风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "劳伤腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肿节风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肿节风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肿节风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "伤口溃烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肿节风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "汤火伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肿节风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉血，活血消斑，祛风通络",
+      "object_type": "Effect"
+    }
+  ]
+}

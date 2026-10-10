@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "name": "仙茅",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温肾阳，壮筋骨",
+        "indication": "治阳萎精冷，小便失禁，崩漏，心腹冷痛，腰脚冷痹，痈疽，瘰疬，阳虚冷泻",
+        "dosage": "内服：煎汤，3~10g；或入丸、散；或浸酒",
+        "taboo": "凡一概阴虚发热、咳嗽、吐血、衄血、齿血、溺血、血淋，遗精白浊，梦交，肾虚腰痛，脚膝无力，虚火上炎，口干咽痛，失志阳痿，水涸精竭，不能孕育，老人孤阳无阴，遗溺失精，血虚不能养筋，以致偏枯痿痹，胃家邪热不能杀谷，胃家虚火嘈杂易饥，三消五疸，阴虚内热外寒，阳厥火极似水等证，法并禁用。"
+      }
+    },
+    {
+      "name": "阳萎精冷",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便失禁",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "心腹冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰脚冷痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "阳虚冷泻",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "仙茅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳萎精冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙茅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便失禁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙茅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙茅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙茅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰脚冷痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙茅",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙茅",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙茅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳虚冷泻",
+      "object_type": "Symptom"
+    }
+  ]
+}

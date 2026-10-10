@@ -1,0 +1,155 @@
+{
+  "entities": [
+    {
+      "name": "托里透脓汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "用水600毫升，煎至200毫升。病在上部，先饮煮酒适量，后热服此药；病在下部，先服药，后饮酒；疮在中部，药内对酒热服。"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "穿山甲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "processing": "炒，研"
+      }
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "升麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "甘草节",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "生黄耆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "皂角刺",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "processing": "炒"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "托里透脓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "托里透脓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "托里透脓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "穿山甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "托里透脓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "托里透脓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "托里透脓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草节",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "托里透脓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "托里透脓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生黄耆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "托里透脓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "皂角刺",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "托里透脓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "米面蓊根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒消肿",
+        "indication": "痈疽，肿毒",
+        "dosage": "内服：煎汤，鲜品90-125g"
+      }
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease"
+    },
+    {
+      "name": "肿毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "米面蓊根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "米面蓊根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "米面蓊根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

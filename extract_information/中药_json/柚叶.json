@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "name": "柚叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "行气止痛，解毒消肿",
+        "indication": "头风痛，寒湿痹痛，食滞腹痛，乳痈，扁桃体炎，中耳炎",
+        "property_flavor": "辛，温",
+        "usage": "内服：煎汤，15-30g。外用：适量，捣敷或煎水洗。"
+      }
+    },
+    {
+      "name": "头风痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "寒湿痹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食滞腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "中耳炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "关节痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桐油",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "蒲公英",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中耳炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食滞腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《湖南药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "桐油",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲公英",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柚叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气止痛，解毒消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

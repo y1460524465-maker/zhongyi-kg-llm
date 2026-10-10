@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "name": "水葱",
+      "type": "Herb",
+      "attributes": {
+        "alias": "莞、苻蓠、莞蒲、夫蓠、葱蒲、莞草、蒲苹、水丈葱、冲天草、翠管草、管子草",
+        "effect": "除湿利尿",
+        "indication": "主治水肿胀满，小便不利。",
+        "dosage": "内服：煎汤，5-10g。",
+        "place": "分布几遍全国。",
+        "traits": "干燥茎呈扁圆柱形或扁平长条形，长60-100cm，直径4-9mm，或更粗。表面淡黄棕色或枯绿色，有光泽，具纵光沟纹，节少，稍隆起，可见膜质叶鞘。质轻而韧，不易折断，切断面类白色，有许多细孔，似海绵状。有的可见淡黄色的花序。气微，味淡。"
+      }
+    },
+    {
+      "name": "水肿胀满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便不通",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水葱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水葱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水葱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除湿利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水葱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不通",
+      "object_type": "Symptom"
+    }
+  ]
+}

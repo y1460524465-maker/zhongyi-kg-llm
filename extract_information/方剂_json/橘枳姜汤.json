@@ -1,0 +1,172 @@
+{
+  "entities": [
+    {
+      "name": "橘枳姜汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "通气降逆，化饮泻气",
+        "indication": "胸痹，胸中气塞，呼吸短促，心下硬满，呕吐哕逆",
+        "usage": "上药三味，以水500毫升，煮取200毫升，分二次温服"
+      }
+    },
+    {
+      "name": "橘皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.5克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "胸痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胸中气塞",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呼吸短促",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心下硬满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕吐哕逆",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《金匮要略直解》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《中国医学大辞典》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《千金》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《金匮要略方义》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胸痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中气塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呼吸短促",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心下硬满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐哕逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "通气降逆，化饮泻气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略直解》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《中国医学大辞典》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《千金》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "橘枳姜汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略方义》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "entities": [
+    {
+      "name": "当归生姜羊肉汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "小羊肉汤、当归汤、羊肉汤",
+        "effect": "温中养血，祛寒止痛",
+        "indication": "寒疝，虚劳，产后血虚有寒，腹痛，胁痛，喜温喜按，腹中拘急，苔白，脉沉弦而涩",
+        "usage": "上药以水800毫升，煮取300毫升，分二次温服"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "羊肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50克"
+      }
+    },
+    {
+      "name": "《备急千金要方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《景岳全书》",
+      "type": "Source"
+    },
+    {
+      "name": "寒疝",
+      "type": "Disease"
+    },
+    {
+      "name": "虚劳",
+      "type": "Disease"
+    },
+    {
+      "name": "产后血虚有寒",
+      "type": "Disease"
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胁痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "喜温喜按",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹中拘急",
+      "type": "Symptom"
+    },
+    {
+      "name": "苔白",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉沉弦而涩",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "产后血虚有寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胁痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喜温喜按",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹中拘急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "苔白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉沉弦而涩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温中养血，祛寒止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羊肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《备急千金要方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《景岳全书》",
+      "object_type": "Source"
+    }
+  ]
+}

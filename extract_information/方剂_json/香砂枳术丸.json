@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "香砂枳术丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "健脾消食",
+        "indication": "脾虚食少，或宿食不消，胸脘痞闷",
+        "usage": "上药为末，荷叶裹烧饭为丸，如梧桐子大。每服50丸，白术汤下"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "麸炒"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "processing": "米泔浸，炒"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香砂枳术丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂枳术丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂枳术丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香砂枳术丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    }
+  ]
+}

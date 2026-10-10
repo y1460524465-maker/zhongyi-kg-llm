@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "翠云草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "金鸡独立草、翠翎草、矮脚凤毛、孔雀花、翠羽草、神锦花、鹤翎草、开屏凤毛、龙须、剑柏、岩萍、地柏叶、百脚草、假岩柏、藤扁柏、白鸡毛、水松、拦路枝、蓝地柏、止血草、白鸡爪、龙鳞草、金扁柏、龙柏草、细风藤、金猫草、生扯拢、虱子草、蜂药",
+        "effect": "清热利湿，解毒止血",
+        "indication": "黄疸，痢疾，泄泻，水肿，淋病，筋骨痹痛，吐血，咳血，便血，外伤出血，痔漏，烫火伤，蛇咬伤",
+        "dosage": "内服：煎汤，10-30g，鲜品可用至60g",
+        "origin": "卷柏科植物翠云草的全草",
+        "processing": "全年均可采收，洗净，鲜用或晒干",
+        "place": "分布于华东、中南、西南各地",
+        "traits": "多年生草本。主茎伏地蔓生，长30-60cm，有细纵沟，侧枝疏生并多次分叉，分枝处常生不定根。叶二型，在枝两侧及中间各2行；侧叶卵形，长2-2.5mm，宽1-1.2mm，基部偏斜心形，先端尖，边缘全缘，或有小齿；中叶质薄，斜卵状披针形，长1.5-1.8mm，宽0.6-0.8mm，基部偏斜心形，淡绿色，先端渐尖，边缘全缘或有小齿，嫩叶上面呈翠蓝色。孢子囊穗四棱形，单生于小枝顶端，长0.5-2cm；孢子叶卵圆状三角形，长约2mm，宽约0.8mm，先端长渐尖，龙骨状，4列覆瓦状排列。孢子囊圆肾形，大孢子囊极少，生在囊穗基部，小孢子囊生在囊穗基部以上；孢子二型。孢子期8-10月"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋病",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烫火伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翠云草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇咬伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

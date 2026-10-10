@@ -1,0 +1,166 @@
+{
+  "entities": [
+    {
+      "name": "土丁桂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "止咳平喘，清热利湿，散淤止痛",
+        "dosage": "内服：煎汤，3-10g (鲜者30-60g)；或捣汁饮",
+        "indication": "用于支气管哮喘，咳嗽，黄疸，胃痛，消化不良，急性肠炎，痢疾，泌尿系感染，白带，跌打损伤，腰腿痛",
+        "processing": "夏、秋季采收，洗净，鲜用或晒干",
+        "traits": "全草纤细，长20-50cm。根细长稍曲，棕褐色，直径约3mm。茎细圆柱形，直径约1mm，灰绿色或淡黄色，茎枝及叶均密被灰白色丝绒毛。叶到生，皱缩，展平后呈卵形或长矩圆形，长0.4-1cm，宽2-4mm，先端短尖，基部钝圆，全缘，中脉明显；质柔软。偶见残留小花于叶腋，气微，味苦"
+      }
+    },
+    {
+      "name": "支气管哮喘",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "消化不良",
+      "type": "Symptom"
+    },
+    {
+      "name": "急性肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "泌尿系感染",
+      "type": "Disease"
+    },
+    {
+      "name": "白带",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "腰腿痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消化不良",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泌尿系感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰腿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘，清热利湿，散淤止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "福建民间草药",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "南宁市药物志",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土丁桂",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广东中药",
+      "object_type": "Source"
+    }
+  ]
+}

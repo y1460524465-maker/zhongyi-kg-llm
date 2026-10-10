@@ -1,0 +1,123 @@
+{
+  "entities": [
+    {
+      "name": "鲫鱼头",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：烧存性研末，3-6g；外用：适量，烧存性研末调敷",
+        "effect": "止咳，止痢，敛疮",
+        "indication": "咳嗽，痢疾，小儿口疮，黄水疮",
+        "origin": "为鲤科动物鲫鱼的头",
+        "processing": "四季均可捕捞，切取鱼头，洗净，鲜用或烘干"
+      }
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿口疮",
+      "type": "Disease"
+    },
+    {
+      "name": "黄水疮",
+      "type": "Disease"
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草抢遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鲫鱼头",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鲫鱼头",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲫鱼头",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿口疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲫鱼头",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄水疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲫鱼头",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳，止痢，敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鲫鱼头",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鲫鱼头",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草抢遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鲫鱼头",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鲫鱼头",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鲫鱼头",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    }
+  ]
+}

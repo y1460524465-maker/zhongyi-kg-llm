@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "黄芽白菜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "通利肠胃，消食健胃，利小便",
+        "indication": "水肿，胃炎",
+        "place": "原产我国，现各地广泛栽培",
+        "property_flavor": null,
+        "processing": "秋冬季采收，鲜用"
+      }
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "胃炎",
+      "type": "Disease"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《食物宜忌》",
+      "type": "Source"
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄芽白菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芽白菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芽白菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通利肠胃，消食健胃，利小便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芽白菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄芽白菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《食物宜忌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄芽白菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《随息居饮食谱》",
+      "object_type": "Source"
+    }
+  ]
+}

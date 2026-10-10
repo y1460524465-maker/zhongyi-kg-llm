@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "name": "秦艽鳖甲散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴养血，清热除蒸",
+        "indication": "虚劳阴亏血虚，骨蒸壮热，肌肉消瘦，唇红颊赤，困倦盗汗；结核病的潮热，温热病后期阴亏津伤，余热未尽，原因不明的长期反复低热属于阴虚型者",
+        "taboo": null,
+        "usage": "上药研为粗末。每次15克，用水200毫升，加青蒿5叶，乌梅1个，煎至140毫升，去滓，临卧、空腹各一服"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "鳖甲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地骨皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "秦艽",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "青蒿",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "乌梅",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "秦艽鳖甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴养血，清热除蒸",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "秦艽鳖甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秦艽鳖甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鳖甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秦艽鳖甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地骨皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秦艽鳖甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秦艽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秦艽鳖甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秦艽鳖甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秦艽鳖甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青蒿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秦艽鳖甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌梅",
+      "object_type": "Herb"
+    }
+  ]
+}

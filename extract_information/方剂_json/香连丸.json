@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "name": "香连丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热燥湿，行气止痛",
+        "indication": "湿热痢疾，里急后重，腹痛泄泻；菌痢，肠炎",
+        "usage": "口服，一次3～6g,一日2～3次；小儿酌减"
+      }
+    },
+    {
+      "name": "黄连（吴茱萸制）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "800g"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200g"
+      }
+    },
+    {
+      "name": "湿热痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "菌痢",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连（吴茱萸制）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香连丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热燥湿，行气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香连丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "香连丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "菌痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "香连丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "湿热痢疾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "里急后重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热痢疾",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹痛泄泻",
+      "object_type": "Symptom"
+    }
+  ]
+}

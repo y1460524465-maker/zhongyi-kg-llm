@@ -1,0 +1,330 @@
+{
+  "entities": [
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "美草、蜜甘、蜜草、蕗草、国老、灵通、粉草、甜草、甜根子、棒草",
+        "effect": "和中缓急，润肺，解毒，调和诸药",
+        "indication": "主治脾胃虚弱，食少，腹痛便溏，劳倦发热，肺痿咳嗽，心悸，惊痫；生用，治咽喉肿痛，消化性溃疡，痈疽疮疡，解药毒及食物中毒",
+        "dosage": "内服：煎汤，2~6g，调和诸药用量宜小，作为主药用量宜稍大，可用10g左右；用于中毒抢救，可用30~60g。凡入补益药中宜炙用，入清泻药中宜生用。外用：适量，煎水洗、渍；或研末敷",
+        "taboo": "不宜与甘遂、大戟、芫花、海藻同用",
+        "origin": "豆科甘草属植物甘草Glycyrrhiza uralensis Fisch.",
+        "place": "分布东北、西北、华北等地。主产内蒙古、甘肃；其次为陕西、山西、辽宁、吉林、黑龙江、河北、青海、新疆等地",
+        "processing": "1.甘草：拣去杂质，洗净，用水浸泡至八成透时，捞出，润透切片，晾干。2.蜜炙甘草：取甘草片，加炼熟的蜂蜜与开水少许，拌匀，稍闷，置锅内用文火炒至变为深黄色、不粘手为度，取出放凉。（每甘草片100斤，用炼熟蜂蜜25~30斤）3.《雷公炮炙论》：凡使甘草，须去头尾尖处，用酒浸蒸，从巳至午出，暴干，细锉使。一斤用酥七两，涂上炙，酥尽为度。又先炮令内外赤黄用良。4.《纲目》：方书炙甘草皆用长流水蘸湿炙之，至熟刮去赤皮。或用浆水炙熟。5.《得配本草》：粳米拌炒，或蜜炙用"
+      }
+    },
+    {
+      "name": "四君子汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治荣卫气虚，脏腑怯弱",
+        "indication": "心腹胀满，全不思食，肠鸣泄泻，呕哕吐逆",
+        "usage": "人参（去芦）、茯苓（去皮）、甘草（炙）、白术各等分。上为细末，每服二钱，水一盏，煎至七分，通口服，不拘时。入盐少许，白汤点亦得"
+      }
+    },
+    {
+      "name": "甘草干姜汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "肺痿吐涎沫而不咳者",
+        "usage": "甘草四两（炙），干姜二两（炮）。上药细切，以水三升，煮取一升五合，去滓，分温再服"
+      }
+    },
+    {
+      "name": "凉膈丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "热嗽",
+        "usage": "甘草二两，猪胆汁浸五宿，漉出炙香，捣罗为末，炼蜜和丸，如绿豆大，食后薄荷汤下十五丸"
+      }
+    },
+    {
+      "name": "炙甘草汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "伤寒脉结代，心动悸",
+        "usage": "甘草（炙）四两，生姜（切）三两，人参二两，生地黄一斤，桂枝（去皮）三两，阿胶二两，麦冬（去心）半斤，火麻仁半升，大枣（擘）三十枚。右九味，以清酒七升，水八升，先煮八味，取三升，去滓，内胶烊消尽，温服一升，日三服"
+      }
+    },
+    {
+      "name": "桔梗汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "少阴病二、三日，咽痛，与甘草汤不差者",
+        "usage": "桔梗一两。甘草二两。上二味，以水三升，煮取一升，去渣，温分再服"
+      }
+    },
+    {
+      "name": "甘麦大枣汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "妇人脏躁，喜悲伤，欲哭，数欠伸",
+        "usage": "甘草三两，小麦一升，大枣十枚。上三味，以水六升，取三升，温分三服。亦补脾气"
+      }
+    },
+    {
+      "name": "甘楞散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "胃及十二指肠溃疡",
+        "usage": "瓦楞子五两（煅研细末），甘草一两（研细末）。混匀，每服2钱，每日3次"
+      }
+    },
+    {
+      "name": "甘壳散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "胃及十二指肠溃疡",
+        "usage": "甘草粉1.0克，鸡蛋壳粉1.5克，曼陀罗叶粉0.05克。混匀，饭前或痛时服，每服3克，日服三次"
+      }
+    },
+    {
+      "name": "脾胃虚弱",
+      "type": "Disease"
+    },
+    {
+      "name": "食少",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹痛便溏",
+      "type": "Symptom"
+    },
+    {
+      "name": "劳倦发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺痿咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "心悸",
+      "type": "Symptom"
+    },
+    {
+      "name": "惊痫",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "消化性溃疡",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疽疮疡",
+      "type": "Disease"
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom"
+    },
+    {
+      "name": "焦虑",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛便溏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳倦发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺痿咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消化性溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和中缓急，润肺，解毒，调和诸药",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四君子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘草干姜汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘草干姜汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺痿咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凉膈丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "凉膈丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "炙甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "炙甘草汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桔梗汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘麦大枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘麦大枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘麦大枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "焦虑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘楞散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘楞散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "消化性溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘壳散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "甘壳散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "消化性溃疡",
+      "object_type": "Disease"
+    }
+  ]
+}

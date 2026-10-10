@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "name": "芸苔子",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "辛，温",
+        "meridian": "归肝、大肠经",
+        "effect": "行血破气，消肿散结",
+        "indication": "产后瘀滞腹痛，丹毒，乳痈，血痢，痔疮肿痛",
+        "usage": "内服：熬汤，3~9克；或入丸、散。外用：适量，研末调敷或榨油涂",
+        "processing": "4～6月间。种子成熟时，将地上部分割下，晒干，打落种子，除去杂质，晒干"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芸苔子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行血破气，消肿散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芸苔子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后瘀滞腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芸苔子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "丹毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芸苔子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳痈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芸苔子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芸苔子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮肿痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

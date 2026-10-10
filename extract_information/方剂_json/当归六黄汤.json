@@ -1,0 +1,176 @@
+{
+  "entities": [
+    {
+      "name": "当归六黄汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "滋阴养血，泻火除烦，益气实卫固表止汗",
+        "indication": "阴虚火旺盗汗。发热盗汗，面赤心烦，口干唇燥，大便干结，小便黄赤，舌红苔黄，脉数。"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "property_flavor": "辛甘微热"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "property_flavor": "滋腻"
+      }
+    },
+    {
+      "name": "熟地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "property_flavor": "滋腻"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g"
+      }
+    },
+    {
+      "name": "阴虚火旺盗汗",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "当归六黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归六黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归六黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归六黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归六黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归六黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归六黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归六黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚火旺盗汗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "生地",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "熟地",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芩",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻火除烦",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻火除烦",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻火除烦",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气实卫固表止汗",
+      "object_type": "Effect"
+    }
+  ]
+}

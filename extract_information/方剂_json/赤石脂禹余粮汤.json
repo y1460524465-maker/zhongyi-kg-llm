@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "赤石脂禹余粮汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": "上作一服，水二钟，煎至一钟，不拘时服"
+      }
+    },
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "四钱",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "禹余粮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "四钱",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《千金翼方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "伤寒下痢",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "赤石脂禹余粮汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赤石脂禹余粮汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "禹余粮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赤石脂禹余粮汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《千金翼方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "赤石脂禹余粮汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒下痢",
+      "object_type": "Disease"
+    }
+  ]
+}

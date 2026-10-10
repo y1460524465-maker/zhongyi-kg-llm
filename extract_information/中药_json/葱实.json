@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "葱实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "煎汤，6-12g；或入丸散，煮粥。",
+        "effect": "温肾，明目，解毒。",
+        "indication": "肾虚阳痿，遗精，目眩，视物昏暗，疮痈。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葱实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葱实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葱实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葱实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目眩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "视物昏暗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮痈",
+      "object_type": "Disease"
+    }
+  ]
+}

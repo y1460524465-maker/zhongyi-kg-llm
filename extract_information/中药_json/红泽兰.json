@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {
+      "name": "红泽兰",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9-15g",
+        "effect": "活血通经，化瘀行水",
+        "indication": "月经不调，痛经，经闭，产后腹痛，症瘕，身面浮肿，痈，肿打损伤",
+        "taboo": "无血滞者忌用",
+        "origin": "四川常用中草药",
+        "place": "湖北、四川、云南",
+        "processing": "夏、秋季采收，洗净，晒干",
+        "property_flavor": null,
+        "meridian": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": []
+}

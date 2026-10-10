@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "龙船花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "卖子木、红绣球、山丹、五月花、映山红、牛兰、珠桐、番海棠、大将军、红樱花",
+        "effect": "清热凉血，散瘀止痛",
+        "indication": "高血压，月经不调，筋骨折伤，疮疡",
+        "property_flavor": "淡辛，平；甘淡，凉",
+        "dosage": "10-15g"
+      }
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease"
+    },
+    {
+      "name": "筋骨折伤",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疡",
+      "type": "Disease"
+    },
+    {
+      "name": "闭经",
+      "type": "Disease"
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "广州部队《常用中草药手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "龙船花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙船花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙船花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋骨折伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙船花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙船花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "闭经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙船花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙船花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙船花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药性备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龙船花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龙船花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广州部队《常用中草药手册》",
+      "object_type": "Source"
+    }
+  ]
+}

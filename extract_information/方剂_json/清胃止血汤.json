@@ -1,0 +1,282 @@
+{
+  "entities": [
+    {
+      "name": "清胃止血汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "柔养肝阴，泻火清热，散淤止血",
+        "indication": "消化道溃疡并发大出血",
+        "taboo": null,
+        "usage": "水煎浓缩至50-100毫升，煎后半小时内多次频服"
+      }
+    },
+    {
+      "name": "生大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": "推陈致新"
+      }
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": "凉血活血散淤"
+      }
+    },
+    {
+      "name": "棕榈炭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": "收敛止血，生肌收口"
+      }
+    },
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": "收敛止血，生肌收口"
+      }
+    },
+    {
+      "name": "乌贼骨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": "泻火除烦，清热利湿"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20克",
+        "effect": "柔肝养血"
+      }
+    },
+    {
+      "name": "生山栀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": "泻火除烦，清热利湿"
+      }
+    },
+    {
+      "name": "地榆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": "凉血止血，消肿生肌"
+      }
+    },
+    {
+      "name": "白芨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": "凉血止血，消肿生肌"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "8克",
+        "effect": "暖脾胃，止呕血"
+      }
+    },
+    {
+      "name": "消化道溃疡并发大出血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "面色苍白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢不温",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "精神委靡",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃脘胀满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌淡",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔薄黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉细数",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌贼骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生山栀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地榆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "柔养肝阴，泻火清热，散淤止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "清胃止血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "消化道溃疡并发大出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "消化道溃疡并发大出血",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "面色苍白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "消化道溃疡并发大出血",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "四肢不温",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "消化道溃疡并发大出血",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "精神委靡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "消化道溃疡并发大出血",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胃脘胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "消化道溃疡并发大出血",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "呕血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "消化道溃疡并发大出血",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌淡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "消化道溃疡并发大出血",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔薄黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "消化道溃疡并发大出血",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉细数",
+      "object_type": "Symptom"
+    }
+  ]
+}

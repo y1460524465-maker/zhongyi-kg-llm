@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "name": "黄瓜叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清湿热，消毒肿",
+        "indication": "湿热泻痢，无名肿毒，湿脚气",
+        "dosage": "内服：10-15g，鲜品加倍；或绞汁饮。外用：适量，捣敷或绞汁涂。",
+        "property_flavor": "味苦，平",
+        "origin": "《本草拾遗》",
+        "place": "我国各地均有栽培，且许多地区均有温室或塑料大篷进行栽培，已做到全年供应，现广泛种植于热带和温带地区。",
+        "processing": "夏、秋采收，晒干或鲜用。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄瓜叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清湿热，消毒肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热泻痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄瓜叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿风热腹泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄瓜叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄瓜叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    }
+  ]
+}

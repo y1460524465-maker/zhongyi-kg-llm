@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "千里光",
+      "type": "Herb",
+      "attributes": {
+        "alias": "千里及,千里急,黄花演、眼明草,九里光,金钗草,九里明,黄花草,九岭光,一扫光,九龙光,千里明,百花草,九龙明,黄花母,七里光,黄花枝草,粗糠花,天青红,白苏杆,箭草,青龙梗,木莲草,软藤黄花草,千家药",
+        "effect": "清热解毒,杀虫,明目",
+        "indication": "风热感冒、目赤肿痛、泄泻痢疾、皮肤湿疹疮疖",
+        "usage": "内服：煎汤，15~30g。外用：适量，煎水洗；或熬膏搽；或鲜草捣敷；或捣取汁点眼。",
+        "taboo": "《饮片新参》：中寒泄泻者勿服。",
+        "origin": "本品为菊科千里光属植物千里光Senecio scandens Buch.-Ham."
+      }
+    },
+    {
+      "name": "风热感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "皮肤湿疹疮疖",
+      "type": "Symptom"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "杀虫",
+      "type": "Effect"
+    },
+    {
+      "name": "明目",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "千里光",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "千里光",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "千里光",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "千里光",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千里光",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千里光",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千里光",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤湿疹疮疖",
+      "object_type": "Symptom"
+    }
+  ]
+}

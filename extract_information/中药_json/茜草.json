@@ -1,0 +1,249 @@
+{
+  "entities": [
+    {
+      "name": "茜草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "茹藘、茅蒐、蒨草、地血、牛蔓、红蓝、染绯草、西天王草、四岳近阳草、铁塔草、风车草、蒨藤、五叶藤、土茜苗、八仙草、金线草、红丝线、锯子草、红茜、四轮草、穿骨草、红髻巾、麦珠子、铁血藤、活血草、挂拉豆、山龙草、拈拈草、涩涩草、破血草、大仙藤、血茜草、草本入骨丹、红根藤、鸭蛋藤、染蛋草、红内消、红根草、拉拉藤、牛人参、锯锯草、粘蔓草、大锯锯藤、破血丹、小女儿红",
+        "property_flavor": "性寒，味苦",
+        "effect": "凉血活血，祛瘀，通经",
+        "indication": "用于吐血、衄血、崩漏下血、外伤出血、经闭瘀阻、关节痹痛、跌扑肿痛",
+        "usage": "内服：煎汤，3～9克，或入丸、散。行血通经宜生用；止血宜炒炭用。",
+        "taboo": "脾胃虚寒及无瘀滞者忌服。",
+        "processing": "1.茜草(雷公炮炙论)：凡使茜草根，用铜刀于槐砧上锉，日干，勿犯铁并铅。\n2.茜草炭《十药神书》：烧灰存性，研极细末，用纸包，碗盖于地上一夕，出火毒。现行，取净茜草段或片，置锅内用武火加热，炒至表面焦黑色，内部棕褐色，喷淋清水少许，灭尽火星，取出再炒至水气逸尽，取出，晾干，凉透。炒炭后寒性降低，性变收涩，止血作用增强。\n3.炒茜草《日华子》：入药锉炒用。现行，取净茜草段或片，置锅内用文火加热，炒黄。\n4.酒制茜草 《外科启玄》：酒洗。《得配本草》：酒炒行血。现行，取净茜草片与黄酒拌匀，置锅内用文火微炒，取出，晾干。每茜草片100kg，用黄酒25kg.",
+        "place": "主产于陕西、河北、河南、山东等地。此外，湖北、江苏、浙江、甘肃、辽宁、山西、广东、广西、四川等地亦产。以陕西、河南产量最大，品质最佳。",
+        "origin": "为茜草科植物茜草Rubia cordifolia L.的根和根茎。春、秋季采挖，除去泥沙，晒干。"
+      }
+    },
+    {
+      "name": "十灰散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治血热妄行之上部出血。咳血、咯血、吐血，血色鲜红，舌红，脉数。",
+        "usage": "温水调服，亦可作汤剂水煎服，食后服下。",
+        "effect": "凉血止血，活血化瘀"
+      }
+    },
+    {
+      "name": "固冲汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治妇女血崩及月经过多，色淡质稀，心悸气短，舌淡，脉虚大或细弱。",
+        "usage": "水煎服。",
+        "effect": "益气健脾，固冲止血"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茜草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血活血，祛瘀，通经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茜草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茜草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茜草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茜草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茜草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭瘀阻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茜草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茜草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌扑肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茜草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大蓟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小蓟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荷叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "侧柏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茅根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀(栀子)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十灰散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "十药神书",
+      "object_type": "Source"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茜草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炒白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "煅龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "煅牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海螵蛸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五倍子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "医学衷中参西录",
+      "object_type": "Source"
+    }
+  ]
+}

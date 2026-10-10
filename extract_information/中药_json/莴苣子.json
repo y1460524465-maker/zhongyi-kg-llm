@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "name": "莴苣子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "苣蕂子、白苣子",
+        "effect": "通乳汁，利小便，活血行瘀",
+        "indication": "乳汁不通，小便不利，跌打损伤，瘀肿疼痛，阴囊肿痛",
+        "dosage": "内服：煎汤，6-15g；或研末，每服3g。外用：适量，研末涂擦；或煎水熏洗",
+        "origin": "为菊科植物莴苣的种子",
+        "property_flavor": "味苦，性寒"
+      }
+    },
+    {
+      "name": "莴苣",
+      "type": "Herb",
+      "attributes": {
+        "origin": "菊科植物"
+      }
+    },
+    {
+      "name": "乳汁不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘀肿疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴囊肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾黄",
+      "type": "Disease"
+    },
+    {
+      "name": "阴囊颓肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "《河北药材》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《摘元方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "莴苣子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通乳汁，利小便，活血行瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "莴苣子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "莴苣子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "莴苣子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "莴苣子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘀肿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "莴苣子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴囊肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "莴苣子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《河北药材》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "莴苣子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾黄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "莴苣子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴囊颓肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

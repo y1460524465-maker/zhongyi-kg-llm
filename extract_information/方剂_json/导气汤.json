@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "导气汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "寒疝疼痛，或囊冷结硬如石，或牵引睾丸而痛",
+        "effect": "疏肝理气，散寒止痛"
+      }
+    },
+    {
+      "name": "川楝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": "苦寒，入肝舒筋，又导小肠、膀胱之热从小便下行"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "升降诸气，通利三焦，疏肝而和脾"
+      }
+    },
+    {
+      "name": "茴香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "入肾与膀胱，暖丹田而除冷气"
+      }
+    },
+    {
+      "name": "吴茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克(汤泡)",
+        "effect": "行肝肾气分，燥湿而除寒"
+      }
+    },
+    {
+      "name": "寒疝",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "导气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "导气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川楝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "导气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "导气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "导气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴茱萸",
+      "object_type": "Herb"
+    }
+  ]
+}

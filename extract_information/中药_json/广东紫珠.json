@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "广东紫珠",
+      "type": "Herb",
+      "attributes": {
+        "effect": "收敛止血，散瘀，清热解毒",
+        "indication": "用于衄血，咯血，吐血，便血，崩漏，外伤出血，肺热咳嗽，咽喉肿痛，热毒疮疡，水火烫伤",
+        "property_flavor": "苦、涩，凉",
+        "meridian": "肝、肺、胃经",
+        "usage": "内服：煎汤，10-15g。外用：适量，捣敷；或研末撒"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "广东紫珠",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛止血，散瘀，清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "广东紫珠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广东紫珠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广东紫珠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广东紫珠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广东紫珠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广东紫珠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广东紫珠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广东紫珠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热毒疮疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广东紫珠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水火烫伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

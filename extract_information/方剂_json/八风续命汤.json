@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "name": "八风续命汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "祛风定痉，养血通脉，轻解阳明，温降寒饮",
+        "indication": "卒半身不遂，手足拘急，不得屈伸，身体冷，或智或痴，或身强直不语，或生或死，狂言不可名状，角弓反张，或欲得食，或不用食，或大小便不利者",
+        "usage": "上(口父)咀。以井花水9升，煮取3升，分3眼，1日2次，覆取汗"
+      }
+    },
+    {
+      "name": "《古今录验》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桂心",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "八风续命汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《古今录验》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "八风续命汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八风续命汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八风续命汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八风续命汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八风续命汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八风续命汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八风续命汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八风续命汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八风续命汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    }
+  ]
+}

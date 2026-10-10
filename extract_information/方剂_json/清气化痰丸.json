@@ -1,0 +1,366 @@
+{
+  "entities": [
+    {
+      "name": "清气化痰丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清肺化痰",
+        "indication": "痰热咳嗽",
+        "taboo": "无实火热痰或体弱便溏者勿用，风寒咳嗽和干咳无痰者不宜服用，孕妇忌服",
+        "usage": "姜汁为丸"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去白",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去皮尖",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "麸炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "酒炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "瓜蒌仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去油",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "胆南星",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "制半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "痰热咳嗽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽气喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咯痰黄稠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸膈痞闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "气急呕恶",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烦躁不宁",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌质红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔黄腻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉滑数",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性支气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性支气管炎急性发作",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胆南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "制半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痰热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽气喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯痰黄稠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸膈痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气急呕恶",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦躁不宁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痰热咳嗽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咯痰黄稠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痰热咳嗽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸膈痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痰热咳嗽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌质红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痰热咳嗽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔黄腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痰热咳嗽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉滑数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性支气管炎急性发作",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清气化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清肺化痰",
+      "object_type": "Effect"
+    }
+  ]
+}

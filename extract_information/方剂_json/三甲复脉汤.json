@@ -1,0 +1,143 @@
+{
+  "entities": [
+    {
+      "name": "三甲复脉汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "镇肾气、补任脉、通阴维",
+        "indication": "温邪深入下焦，热深厥甚，心中憺憺大动，甚或心胸疼痛，脉象细促者",
+        "taboo": null,
+        "usage": "上药用水1.6升，煮取600毫升，分三次服"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "干地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "生白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "麻仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "生鳖甲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克"
+      }
+    },
+    {
+      "name": "生龟板",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生鳖甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生龟板",
+      "object_type": "Herb"
+    }
+  ]
+}

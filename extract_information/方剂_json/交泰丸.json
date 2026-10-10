@@ -1,0 +1,295 @@
+{
+  "entities": [
+    {
+      "name": "交泰丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "上药除巴豆霜另入外，余同研为极细末，炼蜜为丸，如梧桐子大。每服10丸，温水送下。"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.9克",
+        "processing": "炮制"
+      }
+    },
+    {
+      "name": "巴豆霜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "processing": "去芦"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "processing": "去皮"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "processing": "去苗"
+      }
+    },
+    {
+      "name": "小椒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "processing": "炒去汗，并闭目去子"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克（秋、冬加至21克）",
+        "processing": "去皮，锉，炒"
+      }
+    },
+    {
+      "name": "酒煮苦楝皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "川乌头",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "13.5克",
+        "processing": "炮，去皮、脐"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克（一半炒，一半酒洗。此一味，春、夏所宜，秋、冬去之）"
+      }
+    },
+    {
+      "name": "吴茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "processing": "汤洗七次"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克（秋、冬减至4.5克）",
+        "processing": "去须"
+      }
+    },
+    {
+      "name": "皂角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克",
+        "processing": "水洗，煨，去皮、弦"
+      }
+    },
+    {
+      "name": "紫菀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克",
+        "processing": "去苗"
+      }
+    },
+    {
+      "name": "怠惰嗜卧",
+      "type": "Symptom"
+    },
+    {
+      "name": "四肢不收",
+      "type": "Symptom"
+    },
+    {
+      "name": "沉困懒倦",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆霜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小椒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "酒煮苦楝皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川乌头",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "皂角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫菀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "怠惰嗜卧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢不收",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "交泰丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "沉困懒倦",
+      "object_type": "Symptom"
+    }
+  ]
+}

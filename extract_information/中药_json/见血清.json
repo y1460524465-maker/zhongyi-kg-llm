@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "name": "见血清",
+      "type": "Herb",
+      "attributes": {
+        "effect": "凉血止血，清热解毒",
+        "indication": "吐血，咯血，肠风下血，血崩，手术出血，小儿惊风，热毒疮疡，蛇咬伤",
+        "dosage": "内服：煎汤，9-15g，鲜品30-60g；或研末，每次9g",
+        "property_flavor": "苦，平（《浙江民间常用草药》）；苦，凉（《四川常用中草药》）"
+      }
+    },
+    {
+      "name": "脉羊耳兰",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "见血清",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "见血清",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "见血清",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "见血清",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "见血清",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "见血清",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热毒疮疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "见血清",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "见血清",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "见血清",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

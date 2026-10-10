@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "扁豆衣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3~9g",
+        "effect": "消暑化湿，健脾和胃",
+        "indication": "暑湿内蕴，呕吐泄泻，胸闷纳呆，脚气浮肿，妇女带下",
+        "origin": "为豆科植物扁豆的干燥种皮",
+        "property_flavor": "味淡",
+        "usage": "内服：煎汤"
+      }
+    }
+  ],
+  "relations": []
+}

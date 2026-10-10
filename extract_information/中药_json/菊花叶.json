@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "菊花叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肝明目，解毒消肿",
+        "indication": "头风，目眩，疔疮，痈肿",
+        "usage": "内服：煎汤，9-15g；或捣汁"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "菊花叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肝明目，解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菊花叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菊花叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菊花叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菊花叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

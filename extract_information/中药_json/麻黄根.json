@@ -1,0 +1,420 @@
+{
+  "entities": [
+    {
+      "name": "麻黄根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤,3~10g；或入丸、散。",
+        "effect": "止汗，实表气，固虚，消肺气、梅核气；敛汗固表。",
+        "indication": "体虚自汗、盗汗；诸虚不足，津液不固，体常自汗，夜卧即甚，久而不止，羸瘠枯瘦，心忪惊惕，短气烦倦；虚汗无度；肾劳热，阴囊生疮；虚牢盗汗不止；大虚汗出欲死，若自汗不止；人汗劳不止；脚汗。",
+        "origin": "麻黄科植物草麻黄Ephedra sinica Stapf 或中麻黄Ephedra intermedia Schrenk et C. A. Mey.",
+        "place": null,
+        "processing": "除去杂质，洗净，润透，切厚片，干燥。",
+        "property_flavor": "味微苦",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "体虚自汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "陶弘景",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《局方》牡蛎散",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "诸虚不足，及新病暴虚，津液不固，体常自汗，夜卧即甚，久而不止，羸瘠枯瘦，心忪惊惕，短气烦倦",
+        "usage": "每服三钱，水一盏半，小麦百余粒，同煎至八分，去滓热服，日二服，不拘时候。",
+        "taboo": null,
+        "alias": null
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《谈野翁试验方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣惠方》麻黄根散",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "虚汗无度",
+        "usage": "每服四钱，以水一中盏，煎至六分，去滓，不计时候温服。",
+        "taboo": null,
+        "alias": null
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《千金方》麻黄根粉",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "肾劳热，阴囊生疮",
+        "usage": "上三味治下筛，安絮如常用粉法搭疮上，粉湿，更搭之。",
+        "taboo": null,
+        "alias": null
+      }
+    },
+    {
+      "name": "石硫黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《圣济总录》麻黄根汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "虚牢盗汗不止",
+        "usage": "每服三钱匕，水一盏，葱白三寸，同煎至半盏，去滓温服。",
+        "taboo": null,
+        "alias": null
+      }
+    },
+    {
+      "name": "《医心方》引《范汪方》麻黄散",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "盗汁",
+        "usage": "以乳服三分匕，日三，大人方寸匕，日三。",
+        "taboo": null,
+        "alias": null
+      }
+    },
+    {
+      "name": "《圣济总录》麻黄根散",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "大虚汗出欲死，若自汗不止",
+        "usage": "每用－两，以白粟米粉一升，拌和令匀，以扑汗处。",
+        "taboo": null,
+        "alias": null
+      }
+    },
+    {
+      "name": "《医心方》引《效验方》麻黄丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "人汗劳不止",
+        "usage": "大人服小豆三丸，日三；小儿以意增损。",
+        "taboo": null,
+        "alias": null
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《全国中草药汇编》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "脚汗",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麻黄根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体虚自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻黄根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻黄根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止汗",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麻黄根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "陶弘景",
+      "object_type": "Source"
+    },
+    {
+      "subject": "麻黄根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "麻黄根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "《局方》牡蛎散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "诸虚不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "《局方》牡蛎散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《局方》牡蛎散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《局方》牡蛎散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《局方》牡蛎散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "《圣惠方》麻黄根散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚汗无度",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "《圣惠方》麻黄根散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《圣惠方》麻黄根散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《圣惠方》麻黄根散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《千金方》麻黄根粉",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴囊生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "《千金方》麻黄根粉",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《千金方》麻黄根粉",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石硫黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《圣济总录》麻黄根汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "《圣济总录》麻黄根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《圣济总录》麻黄根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《圣济总录》麻黄根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《医心方》引《范汪方》麻黄散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "《医心方》引《范汪方》麻黄散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《圣济总录》麻黄根散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "《圣济总录》麻黄根散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《圣济总录》麻黄根散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《圣济总录》麻黄根散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《医心方》引《效验方》麻黄丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汗劳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "《医心方》引《效验方》麻黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《医心方》引《效验方》麻黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《全国中草药汇编》",
+      "subject_type": "Source",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚汗",
+      "object_type": "Symptom"
+    }
+  ]
+}

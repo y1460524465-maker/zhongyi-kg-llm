@@ -1,0 +1,113 @@
+{
+  "entities": [
+    {
+      "name": "脐带",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益肾，纳气，治虚劳羸弱，气血不足，肾虚喘咳。",
+        "indication": "治虚劳羸弱，气血不足，肾虚喘咳。",
+        "taboo": "凡风寒痰喘或胃弱者忌服。",
+        "usage": "内服：煎汤，1~2条；入丸、散，1~3g。"
+      }
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草通玄》",
+      "type": "Source"
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "脐带",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "脐带",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "纳气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "脐带",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳羸弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "脐带",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气血不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "脐带",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚喘咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "脐带",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喘咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脐带",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "脐带",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "脐带",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "脐带",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草通玄》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "脐带",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮片新参》",
+      "object_type": "Source"
+    }
+  ]
+}

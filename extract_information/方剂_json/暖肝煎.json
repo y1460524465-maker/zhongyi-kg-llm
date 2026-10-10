@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "name": "暖肝煎",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温补肝肾，行气止痛",
+        "indication": "肝肾阴寒，气机阻滞之少腹疼痛，疝气痛",
+        "taboo": "证属实热，见阴囊红肿热痛者，切勿使用",
+        "usage": "水一盅半，加生姜三、五片，煎七分，食远温服"
+      }
+    },
+    {
+      "name": "肝肾虚寒证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "睾丸冷痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小腹疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "畏寒喜暖",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌淡苔白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉弦沉迟",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "暖肝煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾虚寒证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肝肾虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "睾丸冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝肾虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小腹疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝肾虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "畏寒喜暖",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝肾虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌淡苔白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝肾虚寒证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉弦沉迟",
+      "object_type": "Symptom"
+    }
+  ]
+}

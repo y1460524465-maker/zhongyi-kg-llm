@@ -1,0 +1,290 @@
+{
+  "entities": [
+    {
+      "name": "广枣",
+      "type": "Herb",
+      "attributes": {
+        "effect": "行气活血，养心安神",
+        "indication": "气滞血瘀，胸痹作痛，心悸气短，心神不安",
+        "property_flavor": "酸",
+        "origin": "漆树科植物南酸枣Choerospondias axillaris(Roxb.)Burtt et Hill的干燥成熟果实",
+        "place": "安徽、浙江、江西、福建、湖北、湖南、广东、海南、广西、贵州、云南、西藏等地",
+        "traits": "呈椭圆形或近卵形，长2～3cm，直径1.4～2cm。表面黑褐色或棕褐色，稍有光泽，具不规则的皱褶，基部有果梗痕。果肉薄，棕褐色，质硬而脆。核近卵形，黄棕色，顶端有5个（偶有4个或6个）明显的小孔，每孔内各含种子1枚。气微，味酸"
+      }
+    },
+    {
+      "name": "七味广枣丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "用于胸闷疼痛，心悸气短，心神不安，失眠健忘",
+        "indication": "胸闷疼痛，心悸气短，心神不安，失眠健忘",
+        "usage": "口服，一次1丸，一日1～2次"
+      }
+    },
+    {
+      "name": "八味清心沉香散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "用于心肺火盛，胸闷不舒，胸胁闷痛，心悸气短",
+        "indication": "心肺火盛，胸闷不舒，胸胁闷痛，心悸气短",
+        "usage": "口服，一次3g，一日1～2次"
+      }
+    },
+    {
+      "name": "肉豆蔻",
+      "type": "Herb"
+    },
+    {
+      "name": "丁香",
+      "type": "Herb"
+    },
+    {
+      "name": "木香",
+      "type": "Herb"
+    },
+    {
+      "name": "枫香脂",
+      "type": "Herb"
+    },
+    {
+      "name": "沉香",
+      "type": "Herb"
+    },
+    {
+      "name": "牛心粉",
+      "type": "Herb"
+    },
+    {
+      "name": "檀香",
+      "type": "Herb"
+    },
+    {
+      "name": "紫檀香",
+      "type": "Herb"
+    },
+    {
+      "name": "红花",
+      "type": "Herb"
+    },
+    {
+      "name": "天竺黄",
+      "type": "Herb"
+    },
+    {
+      "name": "北沙参",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "广枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气活血，养心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "广枣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气滞血瘀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "广枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痹作痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸气短",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心神不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七味广枣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "广枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味广枣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味广枣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味广枣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味广枣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枫香脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味广枣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味广枣丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛心粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七味广枣丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七味广枣丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸气短",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七味广枣丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心神不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七味广枣丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠健忘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八味清心沉香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味清心沉香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "广枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味清心沉香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "檀香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味清心沉香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫檀香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味清心沉香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味清心沉香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味清心沉香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天竺黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味清心沉香散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "北沙参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八味清心沉香散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷不舒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八味清心沉香散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁闷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八味清心沉香散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸气短",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痹作痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸气短",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "广枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心神不安",
+      "object_type": "Symptom"
+    }
+  ]
+}

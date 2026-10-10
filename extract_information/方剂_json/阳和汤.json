@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "阳和汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温阳补血，散寒通滞",
+        "indication": "阳虚寒凝而成之流注、阴疽、脱疽、鹤膝风、石疽、贴骨疽等漫肿无头，平塌白陷，皮色不变，酸痛无热，口不渴，舌淡苔白者。现用于骨结核、慢性骨髓炎、骨膜炎、慢性淋巴结炎、类风湿性关节炎、无菌性肌肉深部脓肿、坐骨神经炎、血栓闭塞性脉管炎、慢性支气管炎、慢性支气管哮喘、腹膜结核、妇女乳腺小叶增生、痛经等证属阳虚寒凝者。",
+        "taboo": "疮疡阳证、阴虚有热及破溃日久者均忌用。",
+        "usage": "熟地黄30克 麻黄1.5克 鹿角胶9克 白芥子6克（炒，研） 肉桂3克 生甘草3克 炮姜炭1.5克"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "鹿角胶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白芥子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炮姜炭",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿角胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芥子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炮姜炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阳和汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温阳补血，散寒通滞",
+      "object_type": "Effect"
+    }
+  ]
+}

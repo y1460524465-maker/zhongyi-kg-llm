@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "螺蛳",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蜗篱, 师螺, 蜗蠃",
+        "origin": "田螺科动物方形环棱螺或其他同属动物的全体",
+        "place": "全国大部地区均有分布",
+        "property_flavor": null,
+        "meridian": "足太阳膀胱经",
+        "effect": "清热，利水，明目",
+        "indication": "治黄疸，水肿，淋浊，消渴，痢疾，目赤翳障，痔疮，肿毒",
+        "taboo": "胃中有冷饮，腹中有久泄不实，并有冷瘕宿疝，或有久溃痈疮未敛，不宜食之；多食令人腹痛不消",
+        "usage": "内服：煮食，20个或煎汤；或捣汁饮",
+        "dosage": null,
+        "traits": null,
+        "processing": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "螺蛳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "螺蛳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "螺蛳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "螺蛳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "螺蛳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "螺蛳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "螺蛳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "螺蛳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "螺蛳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目赤翳障",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "螺蛳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "螺蛳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

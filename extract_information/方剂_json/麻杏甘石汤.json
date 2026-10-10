@@ -1,0 +1,205 @@
+{
+  "entities": [
+    {
+      "name": "麻杏甘石汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "麻黄杏仁甘草石膏汤",
+        "effect": "辛凉宣泄，清肺平喘",
+        "indication": "外感风热，或风寒郁而化热，热壅于肺，而见咳嗽、气急、鼻煽、口渴、高热不退，舌红苔白或黄，脉滑数者；急慢性支气管炎、肺炎以及麻疹合并肺炎",
+        "usage": "上四味，以水七升，煮麻黄，减二升，去上沫，内诸药，煮取二升，去滓。温服一升（现代用法：水煎温服）"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "鱼腥草",
+      "type": "Herb"
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb"
+    },
+    {
+      "name": "瓜蒌",
+      "type": "Herb"
+    },
+    {
+      "name": "贝母",
+      "type": "Herb"
+    },
+    {
+      "name": "急慢性支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "麻疹合并肺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "气急",
+      "type": "Symptom"
+    },
+    {
+      "name": "鼻煽",
+      "type": "Symptom"
+    },
+    {
+      "name": "口渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "高热不退",
+      "type": "Symptom"
+    },
+    {
+      "name": "汗出而喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "辛凉宣泄，清肺平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急慢性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "麻疹合并肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻煽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "高热不退",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汗出而喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻杏甘石汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    }
+  ]
+}

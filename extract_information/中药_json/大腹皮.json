@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {
+      "name": "大腹皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "下气宽中，行水消肿",
+        "indication": "湿阻气滞，脘腹胀闷，大便不爽，水肿胀满，脚气浮肿，小便不利",
+        "meridian": "脾经、胃经、大肠经、小肠经",
+        "dosage": "内服：煎汤，5~10g；或入丸、散。外用：适量，煎水洗；或研末调敷",
+        "origin": "为棕榈科植物槟榔的干燥果皮",
+        "place": "原产马来西亚。主产广东海南岛、云南、台湾；广西、福建亦产",
+        "processing": "拣净杂质，碾轧使软，敲打，筛去泥屑",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null,
+        "alias": "槟榔皮、槟榔壳、大腹毛、茯毛、槟榔衣、大腹绒"
+      }
+    }
+  ],
+  "relations": []
+}

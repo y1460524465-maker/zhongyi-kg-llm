@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "大血藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "红藤,血藤,血通,大活血,黄省藤,红血藤,血木通,五花血藤,血灌肠,花血藤,赤沙藤,山红藤,活血藤",
+        "effect": "败毒消痈，活血通络，祛风杀虫",
+        "indication": "急、慢性阑尾炎，风湿痹痛，赤痢，血淋，月经不调，疳积，虫痛，跌扑损伤",
+        "dosage": "内服：煎汤，9~15g；或酒煮、浸酒。外用：适量；捣烂敷患处",
+        "origin": "木通科植物大血藤Sargentodoxa cuneata （Oliv.） Rehd.et Wils.的干燥藤茎",
+        "property_flavor": "味微涩"
+      }
+    }
+  ],
+  "relations": []
+}

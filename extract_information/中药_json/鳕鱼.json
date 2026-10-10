@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "鳕鱼",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血止痛，通便",
+        "indication": "跌打骨折，外伤出血，便秘",
+        "usage": "外用：适量，研末，水调敷"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鳕鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳕鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳕鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳕鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳕鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通便",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "生铁落",
+      "type": "Herb",
+      "attributes": {
+        "alias": "生铁洛、铁液、铁屎、铁屑、铁花、铁蛾",
+        "effect": "平肝镇惊",
+        "indication": "癫狂，热病谵妄，心悸，易惊善怒，疮疡肿毒",
+        "taboo": "肝虚及中气虚寒者忌服",
+        "dosage": "内服：煎汤，0.3～1两"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "生铁落",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝镇惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "生铁落",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫狂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生铁落",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热病谵妄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生铁落",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心悸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生铁落",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "易惊善怒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生铁落",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

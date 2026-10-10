@@ -1,0 +1,124 @@
+{
+  "entities": [
+    {
+      "name": "舟车丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "行气利水",
+        "indication": "蓄水腹胀，四肢浮肿，胸腹胀满，停饮喘急，大便秘结，小便短少",
+        "usage": "口服，一次 3g，一日 1次",
+        "taboo": "孕妇及久病气虚者忌服"
+      }
+    },
+    {
+      "name": "牵牛子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘遂",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "红大戟",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "芫花",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "轻粉",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "舟车丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牵牛子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舟车丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舟车丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘遂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舟车丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红大戟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舟车丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芫花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舟车丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舟车丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舟车丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "舟车丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "轻粉",
+      "object_type": "Herb"
+    }
+  ]
+}

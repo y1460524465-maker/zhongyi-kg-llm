@@ -1,0 +1,213 @@
+{
+  "entities": [
+    {
+      "name": "保和丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "消食和胃",
+        "indication": "食积停滞，胸脘痞满，腹胀时痛，嗳腐吞酸，恶食，或呕吐泄泻，脉滑，舌苔厚腻或黄",
+        "taboo": null,
+        "usage": "每服70～80丸，空腹时用白汤送下"
+      }
+    },
+    {
+      "name": "山楂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "180克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "神曲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "萝卜子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山楂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "萝卜子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "保和丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "消食和胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山楂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消油腻肉滞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "神曲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消酒食陈腐之积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "萝卜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消面食痰浊之滞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散结清热",
+      "object_type": "Effect"
+    }
+  ]
+}

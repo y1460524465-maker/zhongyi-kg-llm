@@ -1,0 +1,144 @@
+{
+  "entities": [
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~9g；或入丸、散。外用：适量，研末调敷，或煎水浸洗。",
+        "effect": "清热。燥湿，泻火，解毒。",
+        "indication": "主治热痢，泄泻，消渴，黄疸，痿躄，梦遗，淋浊，痔疮，便血，亦白带下，骨蒸劳热，目赤肿痛，口舌生疮，疮疡肿毒。",
+        "taboo": "脾虚泄泻，胃弱食少者忌服。",
+        "property_flavor": "味苦",
+        "processing": "剥取树皮后，除去粗皮，晒干。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痿躄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梦遗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白带",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨蒸劳热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目赤肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口舌生疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

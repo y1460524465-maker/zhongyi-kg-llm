@@ -1,0 +1,127 @@
+{
+  "entities": [
+    {
+      "name": "己椒苈黄丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "泻热逐水，通利二便",
+        "indication": "水饮积聚脘腹，肠间有声，腹满便秘，小便不利，口干舌燥，脉沉弦"
+      }
+    },
+    {
+      "name": "防己",
+      "type": "Herb"
+    },
+    {
+      "name": "椒目",
+      "type": "Herb"
+    },
+    {
+      "name": "葶苈子",
+      "type": "Herb"
+    },
+    {
+      "name": "大黄",
+      "type": "Herb"
+    },
+    {
+      "name": "腹满便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹满",
+      "type": "Symptom"
+    },
+    {
+      "name": "便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "水饮内停",
+      "type": "Disease"
+    },
+    {
+      "name": "喘咳",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "己椒苈黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防己",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "己椒苈黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "椒目",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "己椒苈黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葶苈子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "己椒苈黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "己椒苈黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "泻热逐水，通利二便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水饮内停",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹满便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "防己",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清湿热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "椒目",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消除腹中水气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葶苈子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泄降肺气，消除痰水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻热通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "己椒苈黄丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "水饮内停",
+      "object_type": "Disease"
+    }
+  ]
+}

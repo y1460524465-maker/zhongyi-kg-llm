@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "name": "半夏曲",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化痰止咳，消食宽中",
+        "indication": "用于治疗泄泻、咳嗽",
+        "property_flavor": "苦辛，平",
+        "meridian": "入肺，脾，大肠三经",
+        "usage": "内服：煎汤（纱布包煎），2～3钱",
+        "taboo": "内热烦渴者慎服",
+        "origin": "为半夏加面粉、姜汁等制成的曲剂"
+      }
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "饮片新参",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "半夏曲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "半夏曲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "半夏曲",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "饮片新参",
+      "object_type": "Source"
+    }
+  ]
+}

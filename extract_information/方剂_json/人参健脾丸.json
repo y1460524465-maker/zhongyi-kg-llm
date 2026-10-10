@@ -1,0 +1,192 @@
+{
+  "entities": [
+    {
+      "name": "人参健脾丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "健脾益气，和胃止泻",
+        "indication": "脾胃虚弱引起的饮食不化，倒饱嘈杂，恶心呕吐，腹痛便溏，不思饮食，体弱倦怠",
+        "taboo": "服药期间忌食生冷油腻食物；孕妇慎服；忌过劳及思虑过度",
+        "usage": "大蜜丸，口服，每次2丸；水蜜丸，口服，每次8g，一日2次"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "150g",
+        "processing": "麸炒"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12.5g"
+      }
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "100g",
+        "processing": "蜜炙"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "酸枣仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "远志",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g",
+        "processing": "制"
+      }
+    },
+    {
+      "name": "脾胃虚弱",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "酸枣仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "人参健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "健脾益气，和胃止泻",
+      "object_type": "Effect"
+    }
+  ]
+}

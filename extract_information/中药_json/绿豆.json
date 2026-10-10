@@ -1,0 +1,130 @@
+{
+  "entities": [
+    {
+      "name": "绿豆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15~30g，大剂量可用120g；研末；或生研绞汁。外用：适量，研末调敷。",
+        "effect": "清热解毒，消暑，利水。",
+        "indication": "主治暑热烦渴，水肿，泻利，丹毒，痈肿，解热药毒。",
+        "taboo": "脾胃虚寒滑泄者忌之。",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "为豆科植物绿豆的种子。",
+        "processing": "立秋后种子成熟时采收，拔取全株，晒干，打下种子，簸净杂质。",
+        "traits": "种子短矩圆形，长4~6mm。表面绿黄色、暗绿色、绿棕色，光滑而有光泽。种脐位于种子的一侧，白色，条形，约为种子长的1/2。种皮薄而坚韧，剥离后露出淡黄绿色或黄白色2片肥厚的子叶。气微，嚼之具豆腥气。以粒大、饱满、色绿者为佳。",
+        "place": null
+      }
+    },
+    {
+      "name": "暑热烦渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "泻利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热药毒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "消渴",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "风疹",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痘毒",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "绿豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暑热烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绿豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热药毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绿豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "绿豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痘毒",
+      "object_type": "Disease"
+    }
+  ]
+}

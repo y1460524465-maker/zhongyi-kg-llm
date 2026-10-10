@@ -1,0 +1,216 @@
+{
+  "entities": [
+    {
+      "name": "膈下逐瘀汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "活血祛瘀，行气止痛",
+        "indication": "膈下瘀阻气滞，形成痞块，痛处不移，卧则腹坠；肾泻久泻。现用于慢性活动性肝炎、血卟啉病、糖尿病、宫外孕、不孕症等属血瘀气滞者",
+        "taboo": null,
+        "usage": "水煎服。病轻者少服，病重者多服，病去药止"
+      }
+    },
+    {
+      "name": "五灵脂",
+      "type": "Herb"
+    },
+    {
+      "name": "当归",
+      "type": "Herb"
+    },
+    {
+      "name": "川芎",
+      "type": "Herb"
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb"
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb"
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb"
+    },
+    {
+      "name": "乌药",
+      "type": "Herb"
+    },
+    {
+      "name": "玄胡索",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "香附",
+      "type": "Herb"
+    },
+    {
+      "name": "红花",
+      "type": "Herb"
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb"
+    },
+    {
+      "name": "《医林改错注释》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五灵脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄胡索",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "活血祛瘀，行气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "膈下瘀阻气滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾泻久泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性活动性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血卟啉病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "宫外孕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "不孕症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "膈下逐瘀汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医林改错注释》",
+      "object_type": "Source"
+    }
+  ]
+}

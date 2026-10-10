@@ -1,0 +1,276 @@
+{
+  "entities": [
+    {
+      "name": "除湿胃苓汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热燥湿，健脾燥湿，和中利水",
+        "indication": "带状疱疹（湿盛型缠腰火丹)，湿疹（湿疡)，牛皮癣（湿寒性白疕)，缠腰火丹",
+        "taboo": null,
+        "usage": "水400毫升，加灯心165厘米，煎至320毫升，空腹时服"
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "猪苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "赤茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "山栀子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "带状疱疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "牛皮癣",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "缠腰火丹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "水泡",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "破烂流水",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痛甚",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《医宗金鉴》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医宗金鉴》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热燥湿，健脾燥湿，和中利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "带状疱疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "牛皮癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "除湿胃苓汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "缠腰火丹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "缠腰火丹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "水泡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "缠腰火丹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "破烂流水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "缠腰火丹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "痛甚",
+      "object_type": "Symptom"
+    }
+  ]
+}

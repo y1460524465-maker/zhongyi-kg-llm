@@ -1,0 +1,411 @@
+{
+  "entities": [
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，6~12g；或入丸、散；或浸酒；或敷膏。",
+        "effect": "补血活血，调经止痛，润肠通便。",
+        "indication": "用于血虚萎黄，眩晕心悸，月经不调，经闭痛经，虚寒腹痛，肠燥便秘，风湿痹痛，跌扑损伤，痈疽疮疡。",
+        "origin": "伞形科植物当归Angelica sinensis （Oliv.） Diels 的干燥根",
+        "place": "主产于甘肃、云南。此外，陕西、四川、湖北、贵州等地亦产。",
+        "property_flavor": "味甘、辛、微苦",
+        "taboo": "湿阻中满及大便溏泄者慎服。",
+        "traits": "有浓郁的香气"
+      }
+    },
+    {
+      "name": "酒当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "活血通经",
+        "indication": "用于经闭痛经，风湿痹痛，跌扑损伤。",
+        "origin": null,
+        "place": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归身",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "补血",
+        "indication": "用于血虚萎黄，经少，眩晕，经络不利，崩漏。",
+        "origin": null,
+        "place": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归尾",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "活血祛瘀",
+        "indication": "用于瘀血阻滞，经少经闭，经行腹痛，跌扑损伤，瘀滞经络，痈疽疮疡。",
+        "origin": null,
+        "place": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归补血汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治肌热燥热，困渴引饮，目赤面红，昼夜不息，其脉洪大而虚，重按全无",
+        "taboo": null,
+        "usage": "黄耆（黄芪）一两，当归（酒洗）二钱。上药作一服，水二盏，煎至一盏，去滓，温服，空心食前。"
+      }
+    },
+    {
+      "name": "四物汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "调益荣卫，滋养气血。治冲任虚损",
+        "indication": "月水不调，脐腹疞痛，崩中漏下，血瘕块硬，发歇疼痛，妊娠宿冷，将理失宜，胎动不安，血下不止，及产后乘虚，风寒内搏，恶露不下，结生瘕聚，少腹坚痛，时作寒热",
+        "taboo": null,
+        "usage": "当归（去芦，酒浸，炒）、川芎、白芍药、熟地黄（酒洒蒸）各等分。共为粗末。每服三钱，水一盏半，煎至八分，去渣热服，空心食前。"
+      }
+    },
+    {
+      "name": "当归芍药散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治妇人怀娠，腹中疞痛",
+        "taboo": null,
+        "usage": "当归三两，芍药一斤，茯苓四两，白术四两，泽泻半斤，芎藭半斤。上杵为散，取方寸匕，酒和，日三服。"
+      }
+    },
+    {
+      "name": "当归苦参丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治妊娠小便难，饮食如故",
+        "taboo": null,
+        "usage": "当归、贝母(川贝母)、苦参各四两。三味末之，炼蜜丸如小豆大，饮服三丸，加至十丸。"
+      }
+    },
+    {
+      "name": "当归生姜羊肉汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治产后腹中疞痛，并腹中寒疝虚劳不足",
+        "taboo": null,
+        "usage": "当归三两，生姜五两，羊肉一斤。上三味，以水八升，煮取三升，温服七合，日三服。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补血活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调经止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肠通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血虚萎黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眩晕心悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚寒腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠燥便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "酒当归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酒当归",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "酒当归",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "酒当归",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归身",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归身",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血虚萎黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归身",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归身",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "当归尾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血祛瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归尾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归尾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归尾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归芍药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芎藭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归苦参丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归苦参丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归苦参丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羊肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归补血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归补血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    }
+  ]
+}

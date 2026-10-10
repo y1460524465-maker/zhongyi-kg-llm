@@ -1,0 +1,155 @@
+{
+  "entities": [
+    {
+      "name": "赭决九味汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "益气化痰",
+        "indication": "气虚痰浊阻滞",
+        "usage": "水煎服，每日1剂，日服2次"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "代赭石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克（先煎）"
+      }
+    },
+    {
+      "name": "草决明",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克"
+      }
+    },
+    {
+      "name": "党参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "法半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "赭决九味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益气化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赭决九味汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气虚痰浊阻滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "赭决九味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赭决九味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "代赭石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赭决九味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "草决明",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赭决九味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "党参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赭决九味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赭决九味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "法半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赭决九味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赭决九味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赭决九味汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    }
+  ]
+}

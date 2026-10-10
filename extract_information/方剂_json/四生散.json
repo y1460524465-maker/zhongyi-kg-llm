@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "name": "四生散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补肝益肾，敛疮生肌",
+        "indication": "肝肾风毒上攻，眼赤痒痛不时，羞明多泪，下疰脚膝生疮，及遍身风癣，居常多觉，两耳中痒",
+        "usage": "每服二钱，用薄荷酒调下。如肾脏风下疰生疮，以猪腰子批开，以药末二钱合定，裹煨香熟，空心细嚼，以盐酒送下"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb"
+    },
+    {
+      "name": "羌活",
+      "type": "Herb"
+    },
+    {
+      "name": "沙苑子",
+      "type": "Herb"
+    },
+    {
+      "name": "白附子",
+      "type": "Herb"
+    },
+    {
+      "name": "《奇效良方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四生散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四生散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四生散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沙苑子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四生散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四生散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补肝益肾，敛疮生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四生散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾风毒上攻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四生散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《奇效良方》",
+      "object_type": "Source"
+    }
+  ]
+}

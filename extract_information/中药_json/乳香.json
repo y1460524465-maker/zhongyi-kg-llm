@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乳头香、塌香、马思答吉、天泽香、摩勒香、杜噜香、多伽罗香、浴香",
+        "origin": "为橄榄科植物卡氏乳香树的胶树脂",
+        "processing": "1.乳香：拣去砂子杂质。2.制乳香：取拣净的乳香，置锅内用文火炒至表面稍见熔化点，略呈黄色，取出放凉；或炒至表面溶化时，喷洒米醋，继续炒至外层明亮光透，取出放凉。（每乳香100斤，用米醋6斤）；置箬上，以灰火烘焙熔化，候冷，研细用；乳香入丸药，以少酒研如泥，以水飞过，晒干用；或言以灯心同研则易细，或言以糯米数粒同研，或言以人指甲二、三片同研，或言以乳钵坐热水中乳之，皆易细。",
+        "property_flavor": "气微芳香，味微苦",
+        "traits": "干燥胶树脂，多呈小形乳头状、泪滴状颗粒或不规则的小块，长0.5～3厘米，有时粘连成团块。淡黄色，常带轻微的绿色、蓝色或棕红色。半透明。表面有一层类白色粉尘，除去粉尘后，表面仍无光泽。质坚脆，断面蜡样，无光择，亦有少数呈玻璃样光泽。气微芳香，味微苦。嚼之，初破碎成小块，迅即软化成胶块，粘附牙齿，唾液成为乳状，并微有香辣感。遇热则变软，烧之微有香气（但不应有松香气），冒黑烟，并遗留黑色残渣。与少量水共研，能形成白色乳状液。以淡黄色、颗粒状、半透明、无砂石树皮杂质、粉末粘手、气芳香者为佳。",
+        "effect": "调气活血，定痛，追毒",
+        "indication": "主治气血凝滞、心腹疼痛，痈疮肿毒，跌打损伤，痛经，产后瘀血刺痛",
+        "dosage": "内服：煎汤，3~10g；或入丸、散。外用：适量，研末调敷。",
+        "taboo": "①《本草经疏》：痈疽已溃不宜服，诸疮脓多时，未宜遽用。②《本经逢原》：胃弱勿用。"
+      }
+    },
+    {
+      "name": "气血凝滞",
+      "type": "Symptom"
+    },
+    {
+      "name": "心腹疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疮肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "痛经",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后瘀血刺痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乳香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气血凝滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乳香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乳香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疮肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乳香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乳香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乳香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后瘀血刺痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乳香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调气活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乳香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "定痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乳香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "追毒",
+      "object_type": "Effect"
+    }
+  ]
+}

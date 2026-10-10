@@ -1,0 +1,239 @@
+{
+  "entities": [
+    {
+      "name": "翘荷汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清宣上焦燥热，清热解毒",
+        "indication": "燥气化火，清窍不利，耳鸣目赤，龈胀咽痛",
+        "usage": "上药以水400毫升，煮取200毫升，顿服之。日服二剂，甚者日三服"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "黑栀皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "绿豆皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "property_flavor": "甘寒"
+      }
+    },
+    {
+      "name": "燥气化火",
+      "type": "Disease"
+    },
+    {
+      "name": "耳鸣",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤",
+      "type": "Symptom"
+    },
+    {
+      "name": "龈胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "翘荷汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "燥气化火",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "翘荷汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳鸣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翘荷汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翘荷汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "龈胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翘荷汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翘荷汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翘荷汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翘荷汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翘荷汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黑栀皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翘荷汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "翘荷汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "绿豆皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "薄荷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清宣上焦燥热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清宣上焦燥热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黑栀皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清宣上焦燥热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桔梗",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宣肺利咽",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "生甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宣肺利咽",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "绿豆皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黑栀皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "燥气化火",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "耳鸣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "燥气化火",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "燥气化火",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "龈胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "燥气化火",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "entities": [
+    {
+      "name": "禹白附",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风痰，定惊，止痛",
+        "indication": "主治中风失音，心痛血痹，偏正头痛，喉痹肿痛，瘰疬，破伤风",
+        "origin": "天南星科植物独角莲的块茎",
+        "place": "主产河南、陕西、四川、湖北。甘肃、山西等地亦产。以河南产量最大，品质亦佳",
+        "processing": "生禹白附：拣净杂质，洗净，晒干。制禹白附：取生禹白附分开大小个，用凉水浸漂，每日换水2～3次，泡制数日后，如起粘沫，换水时加白矾少许，泡一日后再行换水，泡至口尝无麻辣感为度，取出，与鲜姜片及白矾粉层层均匀铺入容器内，加水少许，腌约3～4星期，倒入锅内煮透，取出，拣去姜片，晾至六成干，闷润后切片，干燥",
+        "property_flavor": "性大温，味辛甘，有毒",
+        "traits": "干燥块茎，呈椭圆形或卵圆形，长2～4厘米，直径约1～2厘米。表面白色或黄白色，略粗糙，有环纹及小麻点状的根痕。顶端显茎痕或芽痕。质坚硬，难折断，断面白色，富粉性，无臭，味淡，嚼之麻辣刺舌。以个大、肥壮、去皮、色白粉性大者为佳。四川所产的禹白附，多不去皮，斜切成片，用姜汁浸蒸后，晒干。药材呈卵圆形片状，厚约0.3～0.7厘米，表面棕色、粗糙皱缩，密生薄膜状鳞叶，顶端尤多，包有粉红色顶芽，剥落鳞叶后可见节。切面白色",
+        "dosage": "内服：煎汤，3～9克：或浸酒。外用：捣烂敷或研末调敷",
+        "taboo": "孕妇忌服。生者内服宜慎"
+      }
+    },
+    {
+      "name": "独角莲根",
+      "type": "Herb"
+    },
+    {
+      "name": "细辛",
+      "type": "Herb"
+    },
+    {
+      "name": "白芷",
+      "type": "Herb"
+    },
+    {
+      "name": "藁本",
+      "type": "Herb"
+    },
+    {
+      "name": "制白附子",
+      "type": "Herb"
+    },
+    {
+      "name": "僵蚕",
+      "type": "Herb"
+    },
+    {
+      "name": "全蝎",
+      "type": "Herb"
+    },
+    {
+      "name": "猪牙皂角",
+      "type": "Herb"
+    },
+    {
+      "name": "防风",
+      "type": "Herb"
+    },
+    {
+      "name": "天麻",
+      "type": "Herb"
+    },
+    {
+      "name": "羌活",
+      "type": "Herb"
+    },
+    {
+      "name": "鸡血藤",
+      "type": "Herb"
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb"
+    },
+    {
+      "name": "独活",
+      "type": "Herb"
+    },
+    {
+      "name": "五加皮",
+      "type": "Herb"
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb"
+    },
+    {
+      "name": "生天南星",
+      "type": "Herb"
+    },
+    {
+      "name": "黄独",
+      "type": "Herb"
+    },
+    {
+      "name": "杜蘅",
+      "type": "Herb"
+    },
+    {
+      "name": "粉防己",
+      "type": "Herb"
+    },
+    {
+      "name": "青木香",
+      "type": "Herb"
+    },
+    {
+      "name": "八角莲",
+      "type": "Herb"
+    },
+    {
+      "name": "万年青",
+      "type": "Herb"
+    },
+    {
+      "name": "《中国药植志》",
+      "type": "Source"
+    },
+    {
+      "name": "《江西民间草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "江西《中草药学》",
+      "type": "Source"
+    },
+    {
+      "name": "《陕西甘宁青中草药选》",
+      "type": "Source"
+    },
+    {
+      "name": "江西《草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《山东中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《黑龙江常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《中华人民共和国药典》1963年玉真散",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "定惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风失音",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心痛血痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "偏正头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国药植志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江西民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "江西《中草药学》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陕西甘宁青中草药选》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "江西《草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《山东中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《黑龙江常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "禹白附",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中华人民共和国药典》1963年玉真散",
+      "object_type": "Source"
+    },
+    {
+      "subject": "独角莲根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独角莲根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独角莲根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔肿痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "制白附子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口眼歪斜",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "制白附子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "偏正头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "制白附子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "三叉神经痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生禹白附",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生禹白附",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "金疮出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生禹白附",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白附子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰腿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白附子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "关节痛",
+      "object_type": "Disease"
+    }
+  ]
+}

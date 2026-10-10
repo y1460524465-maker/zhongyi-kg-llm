@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "name": "布袋丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "驱蛔消疳，补养脾气",
+        "indication": "小儿疳疾，体热面黄，肢瘦腹大，发焦目暗",
+        "usage": "每服1丸，以生绢袋盛之；次用精猪肉60克，同药一处煮，候肉熟烂，去袋，将所煮肉并汁令小儿食之"
+      }
+    },
+    {
+      "name": "夜明砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "芜荑",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "使君子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "芦荟",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "小儿疳疾",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "布袋丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "夜明砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "布袋丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芜荑",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "布袋丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "使君子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "布袋丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "布袋丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "布袋丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "布袋丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "布袋丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芦荟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "布袋丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "驱蛔消疳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "布袋丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补养脾气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "布袋丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳疾",
+      "object_type": "Disease"
+    }
+  ]
+}

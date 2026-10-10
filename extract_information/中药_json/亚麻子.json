@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "name": "亚麻子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "润肠通便，养血祛风",
+        "indication": "肠燥便秘，老人皮肤干燥起鳞屑，过敏性皮炎，皮肤瘙痒，疮疡湿疹",
+        "meridian": "归肺、肝、大肠经",
+        "property_flavor": "甘，平",
+        "dosage": "内服，煎汤，9～15g；或入丸、散。外用：捣敷或者煎水洗",
+        "taboo": "胃弱、大便滑泻者及孕妇禁用",
+        "origin": "https://zhongyibaike.com/wiki/亚麻子",
+        "alias": "胡麻子（《博济方》），壁虱胡麻（《纲目》），亚麻仁（《国药的药理学》）"
+      }
+    },
+    {
+      "name": "亚麻子",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "亚麻子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肠通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "亚麻子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "亚麻子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠燥便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "亚麻子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤干燥起鳞屑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "亚麻子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "过敏性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "亚麻子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "亚麻子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "亚麻子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《博济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "亚麻子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "亚麻子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《国药的药理学》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡麻子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛蒡子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蔓荆子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蒺藜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "轻粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "大风疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘾疹瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "醉仙散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《博济方》",
+      "object_type": "Source"
+    }
+  ]
+}

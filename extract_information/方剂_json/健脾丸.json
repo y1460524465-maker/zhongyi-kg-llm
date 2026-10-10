@@ -1,0 +1,242 @@
+{
+  "entities": [
+    {
+      "name": "健脾丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "消补兼施，健脾为主，补大于消",
+        "indication": "脾虚停食证。食少难消，脘腹痞闷，大便溏薄，苔腻微黄，脉象虚弱"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "神曲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麦芽",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "山楂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肉豆蔻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "脾虚停食证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "食少难消",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脘腹痞闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "大便溏薄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔腻微黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉象虚弱",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦芽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山楂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "健脾丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚停食证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "脾虚停食证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "食少难消",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾虚停食证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脘腹痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾虚停食证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "大便溏薄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾虚停食证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔腻微黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾虚停食证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉象虚弱",
+      "object_type": "Symptom"
+    }
+  ]
+}

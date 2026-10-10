@@ -1,0 +1,62 @@
+{
+  "entities": [
+    {
+      "name": "桑枝",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风湿，利关节，行水气",
+        "indication": "主治风寒湿痹，四肢拘挛，脚气浮肿，肌体风痒",
+        "dosage": "内服：煎汤，15～30g",
+        "traits": "质坚韧，有弹性，较难折断，断面黄白色，纤维性；有青草气，味淡略粘",
+        "origin": "本品为桑科植物桑Morus alba L.的干燥嫩枝",
+        "processing": "桑枝：拣去杂质，洗净，用水浸泡，润透后，切段，晒干。炒桑枝：取净桑枝段，置锅内用文火炒至淡黄色，放凉。酒桑枝：取桑枝段用酒喷匀，置锅内炒至微黄色，放凉。"
+      }
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Disease"
+    },
+    {
+      "name": "四肢拘挛",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气浮肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "肌体风痒",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桑枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢拘挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚气浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肌体风痒",
+      "object_type": "Symptom"
+    }
+  ]
+}

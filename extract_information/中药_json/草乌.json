@@ -1,0 +1,133 @@
+{
+  "entities": [
+    {
+      "name": "草乌",
+      "type": "Herb",
+      "attributes": {
+        "effect": "搜风胜湿，散寒止痛，开痰，消肿",
+        "indication": "风寒湿痹，中风瘫痪，破伤风，头风，脘腹冷痛，痰癖，气块，冷痢，喉痹，痈疽，疔疮，瘰疬",
+        "meridian": "归心经、肝经、肾经、脾经",
+        "property_flavor": "味辛辣、麻舌",
+        "traits": "本品呈不规则长圆锥形，略弯曲，长2～7cm，直径0.6～1.8cm。顶端常有残茎和少数不定根残基，有的顶端一侧有一枯萎的芽，一侧有一圆形或扁圆形不定根残基。表面灰褐色或黑棕褐色，皱缩，有纵皱纹、点状须根痕和数个瘤状侧根。质硬，断面灰白色或暗灰色，有裂隙，形成层环纹多角形或类圆形，髓部较大或中空。无臭",
+        "taboo": "凡虚人、孕妇、阴虚火旺及热证疼痛者忌服。生者慎服。",
+        "dosage": "内服：煎汤，3~6g；或入丸、散。外用：适量，研末调敷；或醋、酒磨涂。",
+        "origin": "为毛茛科植物乌头（野生种）、北乌头等的块根。秋季茎叶枯萎时采挖，除去须根及泥沙，干燥。",
+        "processing": "将原药材拣净，放缸内或其它容器内，用凉水浸漂，每日换水2次，漂至口尝稍有麻辣味时取出；在浸漂过程里如发现有裂口破烂时可加些白矾；另外用甘草、黑豆煎汤，加入漂过的草乌，煮透，至内无白心时取出，去掉药渣，晒至半干，闷润后切片、晒干即可（每100斤用甘草5斤、黑豆10斤）。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "搜风胜湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散寒止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风瘫痪",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脘腹冷痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰癖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气块",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "冷痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草乌",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    }
+  ]
+}

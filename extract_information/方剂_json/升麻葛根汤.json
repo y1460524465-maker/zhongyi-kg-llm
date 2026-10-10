@@ -1,0 +1,242 @@
+{
+  "entities": [
+    {
+      "name": "升麻葛根汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "解肌透疹",
+        "indication": "麻疹初起。疹发不出，身热头痛，咳嗽，目赤流泪，口渴，舌红，苔薄而干，脉浮数。亦治带状疱疹、单纯性疮疹、水痘、腹泻、急性细菌性痢疾等属邪郁肌表，肺胃有热者。",
+        "taboo": "若麻疹已透，或疹毒内陷而见气急而粗、喘息抬肩、鼻翼煽动者，则当禁用。",
+        "usage": "上为粗末。每服9克 ，用水一盏半，煎取一中盏，去滓，稍热服，不拘时候，一日二三次。以病气去，身清凉为度。现代用法：作汤剂，水煎服，用量按原方比例酌减。"
+      }
+    },
+    {
+      "name": "升麻",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解肌透疹，清热解毒",
+        "property_flavor": "辛甘性寒",
+        "meridian": "肺、胃经"
+      }
+    },
+    {
+      "name": "葛根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解肌透疹，生津除热",
+        "property_flavor": "味辛甘性凉",
+        "meridian": "胃经"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热凉血，活血",
+        "property_flavor": "味苦性寒",
+        "meridian": "血分"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "调和药性"
+      }
+    },
+    {
+      "name": "麻疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "带状疱疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "单纯性疮疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "水痘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腹泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "急性细菌性痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "身热头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目赤流泪",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔薄而干",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉浮数",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葛根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "带状疱疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "单纯性疮疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "水痘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性细菌性痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身热头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤流泪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "苔薄而干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉浮数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解肌透疹",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "entities": [
+    {
+      "name": "固冲汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补气健脾，固冲摄血；补益肝肾；敛阴养血；收敛止血；祛瘀止血",
+        "indication": "气虚冲脉不固之血崩证"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "生黄耆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克",
+        "processing": "煅，捣细"
+      }
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克",
+        "processing": "煅，捣细"
+      }
+    },
+    {
+      "name": "萸肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克",
+        "processing": "去净核"
+      }
+    },
+    {
+      "name": "生杭芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "海螵蛸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "processing": "捣细"
+      }
+    },
+    {
+      "name": "茜草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "棕榈炭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "五倍子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "血崩证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血崩",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "月经过多",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "月经色淡质稀",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心悸气短",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌质淡",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉细弱或虚大",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "大生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "乌附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生黄耆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "萸肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生杭芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海螵蛸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茜草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补气健脾，固冲摄血；补益肝肾；敛阴养血；收敛止血；祛瘀止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血崩证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血崩证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血崩证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "月经过多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血崩证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "月经色淡质稀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血崩证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心悸气短",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血崩证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌质淡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血崩证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉细弱或虚大",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "固冲汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/固冲汤",
+      "object_type": "Source"
+    }
+  ]
+}

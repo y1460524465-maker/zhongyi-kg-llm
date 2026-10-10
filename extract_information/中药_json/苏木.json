@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "name": "苏木",
+      "type": "Herb",
+      "attributes": {
+        "alias": "苏枋、苏方、苏方木、棕木、赤木、红柴、红苏木、落文树",
+        "dosage": "内服：煎汤，3~9g,或研末。",
+        "effect": "行血，破瘀，消肿，止痛。",
+        "indication": "治妇人血气心腹痛，经闭，产后瘀血胀痛喘急，痢疾，破伤风，痈肿，扑损瘀滞作痛。",
+        "taboo": "血虚无瘀者不宜，孕妇忌服。《本草纲目》：忌铁。《本草经疏》：产后恶露已净，由血虚腹痛者不宜用。《本经逢原》：大便不实者禁用。",
+        "origin": "本品为豆科云实属植物苏木Caesalpinia sappan L. 的干燥心材。多于秋季采伐，除去白色边材，干燥。",
+        "property_flavor": "性味：未见明确记载，但功效可推测其性平或温"
+      }
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《海药本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医学启源》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "李杲",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医林篆要》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行血，破瘀，消肿，止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人血气心腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后瘀血胀痛喘急",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扑损瘀滞作痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《海药本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学启源》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "李杲",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苏木",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林篆要》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "天目木姜子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "杀虫",
+        "indication": "绦虫病，蛲虫病",
+        "usage": "内服：煎汤，9-12g",
+        "place": "安徽、浙江",
+        "property_flavor": "辛凉",
+        "origin": "樟科植物天目木姜子的根皮、果实"
+      }
+    },
+    {
+      "name": "绦虫病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "蛲虫病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "寸白虫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "天目木姜子",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "醉鱼草根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《浙江天目山药植志》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天目木姜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天目木姜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "绦虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天目木姜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛲虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天目木姜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寸白虫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天目木姜子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天目木姜子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天目木姜子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "醉鱼草根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "天目木姜子",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江天目山药植志》",
+      "object_type": "Source"
+    }
+  ]
+}

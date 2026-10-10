@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "name": "蚕豆叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：捣汁，30-60g。外用：适量，捣敷；或研末撒。",
+        "effect": "止血，解毒",
+        "indication": "咯血，吐血，外伤出血，臁疮",
+        "origin": "《贵阳市秘方验方》",
+        "processing": "夏季采收，晒干",
+        "traits": "气微，味淡"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚕豆叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚕豆叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚕豆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕豆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕豆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕豆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "臁疮",
+      "object_type": "Symptom"
+    }
+  ]
+}

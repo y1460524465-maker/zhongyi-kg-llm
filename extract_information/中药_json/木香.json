@@ -1,0 +1,117 @@
+{
+  "entities": [
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "effect": "行气止痛，温中和胃",
+        "indication": "中寒气滞，胸腹胀痛，呕吐，泄泻，下痢里急后重，寒疝",
+        "meridian": "胆经；胃经；大肠经；三焦经；肺经",
+        "property_flavor": "味先甜后苦",
+        "usage": "内服：煎汤，3~10g；或入丸、散",
+        "processing": "秋、冬季采挖，除去杂质，切段，干燥后撞去粗皮",
+        "traits": "根圆柱形、平圆柱形，长5~15cm，直径0.5~5.5cm。表面黄棕色、灰褐色或棕褐色，栓皮大多已除去，有明纵沟及侧根痕，有时可见网状纹理。质坚硬，难折断，断面稍平坦，灰黄色、灰褐色或棕褐色，散有深褐色油室小点，形成层环棕色，有放射状纹理，老根中央多枯朽。气芳香浓烈而特异",
+        "taboo": "肺虚有热者，慎毋犯之。元气虚脱及阴虚内热，诸病有热，心痛属火者禁用。脏腑燥热，胃气虚弱者禁用",
+        "origin": "为菊科物木香Auckiandialappa Decne.的根"
+      }
+    },
+    {
+      "name": "中寒气滞",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胸腹胀痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "下痢里急后重",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "寒疝",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "行气止痛",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "温中和胃",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "木香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下痢里急后重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中寒气滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中和胃",
+      "object_type": "Effect"
+    }
+  ]
+}

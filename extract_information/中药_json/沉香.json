@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "沉香",
+      "type": "Herb",
+      "attributes": {
+        "effect": "行气止痛，温中散寒，降逆平喘",
+        "indication": "用于胸腹气滞，胀闷作痛，手足逆冷，脐部疼痛，呕吐呃逆，气逆痰喘",
+        "property_flavor": "温，辛、苦",
+        "origin": "瑞香科植物沉香或白木香的含有树脂的木材",
+        "dosage": "内服：煎汤，2~5g，后下；研末，0.5~1g；或磨汁服",
+        "taboo": "阴亏火旺，气虚下陷者慎服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "沉香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "沉香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "沉香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降逆平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "沉香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸腹气滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "沉香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胀闷作痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "沉香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足逆冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "沉香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脐部疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "沉香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐呃逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "沉香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气逆痰喘",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "entities": [
+    {
+      "name": "葛根汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "发汗解表，升津舒筋",
+        "indication": "外感风寒表实，恶寒发热，头痛，项背强几，身痛无汗，腹微痛，或下利，或干呕，或微喘，舌淡苔白，脉浮紧者",
+        "usage": "上七味，以水1升，先煮麻黄、葛根，减至800毫升，去上沫，纳诸药，再煮取300毫升，去滓，每次温服150毫升，覆取微似汗"
+      }
+    },
+    {
+      "name": "葛根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克（去节）"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克（去皮）"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克（切）"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克（炙）"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12枚（擘）"
+      }
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/葛根汤",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葛根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "发汗解表，升津舒筋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葛根汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/葛根汤",
+      "object_type": "Source"
+    }
+  ]
+}

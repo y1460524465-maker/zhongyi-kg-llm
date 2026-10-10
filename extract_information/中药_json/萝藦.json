@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "萝藦",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肾强壮，通乳，解毒",
+        "indication": "肾亏遗精，乳汁不足，脱力劳伤，丹毒疮肿",
+        "dosage": "内服：煎汤，15-60g；外用：鲜品适量，捣敷"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "萝藦",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾强壮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "萝藦",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通乳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "萝藦",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "萝藦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾亏遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝藦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳汁不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝藦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱力劳伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萝藦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒疮肿",
+      "object_type": "Disease"
+    }
+  ]
+}

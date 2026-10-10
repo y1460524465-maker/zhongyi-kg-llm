@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "name": "自然铜散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "敛疮散瘀，清热解毒，止痛",
+        "indication": "恶疮，烧烫伤",
+        "taboo": null,
+        "usage": "水调涂或干敷患处"
+      }
+    },
+    {
+      "name": "自然铜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "煅，研"
+      }
+    },
+    {
+      "name": "密陀僧",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "煅，研"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "processing": "为末"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "processing": "为末"
+      }
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "自然铜散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "自然铜散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "自然铜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "自然铜散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "密陀僧",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "自然铜散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "自然铜散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "自然铜散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "自然铜散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "自然铜散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "敛疮散瘀，清热解毒，止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

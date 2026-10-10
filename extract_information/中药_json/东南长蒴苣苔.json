@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "东南长蒴苣苔",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散风热解毒",
+        "indication": "感受风热，鼻塞流涕，喷嚏，咳嗽",
+        "dosage": "内服：煎汤，6-9g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "东南长蒴苣苔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散风热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "东南长蒴苣苔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻塞流涕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "东南长蒴苣苔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喷嚏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "东南长蒴苣苔",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    }
+  ]
+}

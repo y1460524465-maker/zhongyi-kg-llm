@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "草豆蔻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~6g，宜后下；或入丸、散。",
+        "effect": "温中祛寒，行气燥湿，温胃止呕。",
+        "indication": "主治心腹冷痛，痞满食滞，噎膈反胃，寒湿吐泻，痰饮积聚。",
+        "taboo": "阴虚血少，津液不足，无寒湿者忌服。",
+        "property_flavor": "味辛辣",
+        "origin": "为婪科植物草豆蔻的种子团。"
+      }
+    }
+  ],
+  "relations": []
+}

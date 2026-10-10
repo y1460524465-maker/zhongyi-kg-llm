@@ -1,0 +1,231 @@
+{
+  "entities": [
+    {
+      "name": "金钱草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，利尿通淋，除湿退黄，散瘀消肿",
+        "indication": "黄疸，水肿，膀胱结石，疟疾，肺痈，咳嗽，吐血，淋浊，带下，风湿痹痛，小儿疳积，惊痫，痈肿，疮癣，湿疹",
+        "property_flavor": null,
+        "meridian": "归肝经、胆经、肾经、膀胱经",
+        "dosage": "内服：煎汤，15~60g，鲜品加倍；或捣汁饮",
+        "origin": "报春花科植物过路黄Lysimachia christinae Hance 的干燥全草",
+        "taboo": "凡阴疽诸毒，脾虚泄泻者，忌捣汁生服",
+        "traits": null,
+        "place": "分布于中南、西南及山西、陕西、甘肃、江苏、安徽、浙江、江西、福建等地",
+        "processing": "夏、秋二季采收，除去杂质，晒干"
+      }
+    },
+    {
+      "name": "黄疸",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "膀胱结石",
+      "type": "Symptom"
+    },
+    {
+      "name": "疟疾",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺痈",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "淋浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Symptom"
+    },
+    {
+      "name": "惊痫",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮癣",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疹",
+      "type": "Symptom"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "利尿通淋",
+      "type": "Effect"
+    },
+    {
+      "name": "除湿退黄",
+      "type": "Effect"
+    },
+    {
+      "name": "散瘀消肿",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "膀胱结石",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疟疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺痈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿疳积",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除湿退黄",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

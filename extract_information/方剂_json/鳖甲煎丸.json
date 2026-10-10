@@ -1,0 +1,398 @@
+{
+  "entities": [
+    {
+      "name": "鳖甲煎丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "消癥化结之名方",
+        "effect": "消痞化积，活血化瘀，疏肝解郁",
+        "indication": "胁下癖块，触之鞭痛，推之不移，舌黯无华，脉弦细；用于治疗肝硬化、肝脾肿大、肝癌等病；还可用于血瘀肝郁型黄疸",
+        "taboo": "癓瘕而正气虚甚者慎用",
+        "usage": "空心服七丸，日三服"
+      }
+    },
+    {
+      "name": "鳖甲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12分",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "乌扇",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分",
+        "processing": "炮"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6分"
+      }
+    },
+    {
+      "name": "鼠妇",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分",
+        "processing": "熬"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5分"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分"
+      }
+    },
+    {
+      "name": "葶苈",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1分",
+        "processing": "熬"
+      }
+    },
+    {
+      "name": "石苇",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分",
+        "processing": "去毛"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分"
+      }
+    },
+    {
+      "name": "牡丹",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5分",
+        "processing": "去心"
+      }
+    },
+    {
+      "name": "瞿麦",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2分"
+      }
+    },
+    {
+      "name": "紫葳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1分"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1分"
+      }
+    },
+    {
+      "name": "庶虫",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5分",
+        "processing": "熬"
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3分",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "蜂窠",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4分",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "赤硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12分"
+      }
+    },
+    {
+      "name": "蜣螂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6分",
+        "processing": "熬"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2分"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鳖甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌扇",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鼠妇",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葶苈",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石苇",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瞿麦",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫葳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "庶虫",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜂窠",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜣螂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "消痞化积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "活血化瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "疏肝解郁",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝硬化",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝脾肿大",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳖甲煎丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血瘀肝郁型黄疸",
+      "object_type": "Disease"
+    }
+  ]
+}

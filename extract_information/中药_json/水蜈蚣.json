@@ -1,0 +1,196 @@
+{
+  "entities": [
+    {
+      "name": "水蜈蚣",
+      "type": "Herb",
+      "attributes": {
+        "alias": "球子草、疟疾草、三荚草、金牛草、寒气草、金钮草、夜摩草、十字草、姜虫草、露水草、水牛草、三步跳、散寒草、姜芽草、寒筋草、水香附、燕含珠、发汗草、山蜈蚣、无头香附、龙吐珠、三夹草、水香草、一粒雪、三角草、落地杨梅、三箭草、球头草、雷公草、地杨梅、三人扛珠、寒热头草、一粒珠、九头香、水竹钵、一粒关、狗公草、千打锤、落地蚂蟥、三棱环、一粒子草、黄古头划、水金钗、水土香、钢拳头、连根草、草含珠",
+        "effect": "疏风解表，清热利湿，止咳化痰，祛瘀消肿",
+        "indication": "伤风感冒，支气管炎，百日咳，疟疾，痢疾，肝炎，乳糜尿，跌打损伤，风湿性关节炎；外用治蛇咬伤，皮肤瘙痒，疖肿",
+        "dosage": "内服：煎汤，15-30g，鲜品30-60g；或捣汁；或浸酒",
+        "origin": "莎草科植物水蜈蚣Kyllinga brevifolia Rottb.带花的干燥全草",
+        "property_flavor": "淡，味微辛",
+        "place": "中南、西南及安徽、江苏、浙江、江西、福建等地",
+        "traits": "根茎圆柱形，直径1～2mm；表面棕红色至紫褐色，节明显，上有残留的须根和叶鞘；切面类白色，粉性；茎三棱形，光滑；叶线形，长3～10cm,宽1.5～3mm，基部叶鞘紫褐色；质韧；穗状花序近球形，直径约0.5cm；坚果扁卵形，褐色；气微，味淡"
+      }
+    },
+    {
+      "name": "伤风感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "支气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "百日咳",
+      "type": "Disease"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "乳糜尿",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "皮肤瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "疖肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "疏风解表",
+      "type": "Effect"
+    },
+    {
+      "name": "清热利湿",
+      "type": "Effect"
+    },
+    {
+      "name": "止咳化痰",
+      "type": "Effect"
+    },
+    {
+      "name": "祛瘀消肿",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛瘀消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤风感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳糜尿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水蜈蚣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疖肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

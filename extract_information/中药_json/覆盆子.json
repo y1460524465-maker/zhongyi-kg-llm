@@ -1,0 +1,197 @@
+{
+  "entities": [
+    {
+      "name": "覆盆子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "覆盆、乌藨子、小托盘、山泡、竻藨子",
+        "effect": "补肝肾，助阳，固精缩尿，明目",
+        "indication": "用于虚劳，目暗，肾虚遗尿，小便频数，阳痿早泄，遗精滑精",
+        "usage": "内服：煎汤，5~10g；或入丸、散，亦可浸酒或熬膏",
+        "taboo": "肾虚有火，小便短涩者慎服"
+      }
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草述》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草从新》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "助阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "固精缩尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草衍义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草述》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草从新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目暗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚遗尿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿早泄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "覆盆子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遗精滑精",
+      "object_type": "Disease"
+    }
+  ]
+}

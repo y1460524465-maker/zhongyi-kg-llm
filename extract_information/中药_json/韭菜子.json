@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "韭菜子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肝肾，暖腰膝，壮阳固精",
+        "indication": "治阳痿梦遗，小便频数，遗尿，腰膝酸软冷痛，泻痢，带下，淋浊",
+        "property_flavor": "味微辛"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "韭菜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾，暖腰膝，壮阳固精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "韭菜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿梦遗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭菜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭菜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗尿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭菜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸软冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭菜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泻痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "韭菜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭菜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋浊",
+      "object_type": "Symptom"
+    }
+  ]
+}

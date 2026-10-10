@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "女贞子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "Grossy Privet Fruit, 女贞实, 爆格蚤, 白蜡树子, 鼠梓子",
+        "effect": "补肝肾，强腰膝，明目乌发",
+        "indication": "阴虚内热，头晕眼花，耳鸣，腰膝酸软，须发早白",
+        "property_flavor": "味甘、微苦涩",
+        "dosage": "内服：煎汤，6~15g；或入丸剂。外用：适量，敷膏点眼",
+        "taboo": "脾胃虚寒泄泻及阳虚者忌服"
+      }
+    }
+  ],
+  "relations": []
+}

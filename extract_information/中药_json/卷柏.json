@@ -1,0 +1,181 @@
+{
+  "entities": [
+    {
+      "name": "卷柏",
+      "type": "Herb",
+      "attributes": {
+        "alias": "豹足,求股,神投时,交时,石莲花,回阳草,不死草,长生不死草,万年松,长生草,石花,还魂草,九死还魂草,见水还阳草,佛手草,老虎爪,山拳柏,打不死,铁拳头,岩松,卷柏叶,卷柏炭,万岁,一把抓,大还魂草,回生草,含生草,地面草",
+        "property_flavor": "无臭，无味",
+        "effect": "生用破血，炒用止血",
+        "indication": "生用治经闭、癥瘕，跌打损伤，腹痛，哮喘；炒炭用治吐血，便血，尿血，脱肛",
+        "dosage": "内服：煎汤，4.5~10g；浸酒或入丸、散",
+        "processing": "卷柏炭：取洁净的卷柏，置锅内用武火炒至外表现焦黑色，内呈焦黄色，喷淋清水，取出，晒干。",
+        "traits": "干燥全草，全体卷缩成团，似拳形，有时似扁球形状，大小不一，一般长5～10厘米。枝叶丛生，形扁有分枝，绿色或棕黄色，向内卷曲，枝上密生鳞片状小叶。质脆，易折断。基部残留少数簇生的须根。无臭，无味。以绿色、叶多、完整不碎者为佳。",
+        "origin": "为卷柏科植物卷柏的全草。春、秋均可采收，但以春季采者色绿质嫩为佳。采后剪去须根，酌留少许根茎，去净泥土，晒干。"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《分类草药性》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    },
+    {
+      "name": "《安徽药材》",
+      "type": "Source"
+    },
+    {
+      "name": "《南宁市药物志》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "《泉州本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《江西草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《仁存堂经验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《分类草药性》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《安徽药材》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《南宁市药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《泉州本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江西草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《仁存堂经验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《湖南药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "卷柏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生用破血，炒用止血",
+      "object_type": "Effect"
+    }
+  ]
+}

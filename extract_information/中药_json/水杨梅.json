@@ -1,0 +1,312 @@
+{
+  "entities": [
+    {
+      "name": "水杨梅",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，散瘀止痛",
+        "indication": "菌痢，肠炎，风火牙痛，皮肤湿疹，外伤出血",
+        "origin": "茜草科植物水杨梅的茎叶或花果序",
+        "place": "江苏、浙江、江西、湖南、四川、福建、广东、广西",
+        "processing": "春、秋季采茎叶，10月前后采果序，晒干",
+        "traits": "生于溪边、河边、沙滩等湿润的地方",
+        "dosage": "内服：煎汤，15-30g；外用：适量，捣敷；或煎水含漱"
+      }
+    },
+    {
+      "name": "水杨柳",
+      "type": "Herb",
+      "attributes": {
+        "alias": "水杨梅"
+      }
+    },
+    {
+      "name": "《植物名实图考》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中兽医药植》",
+      "type": "Source"
+    },
+    {
+      "name": "《浙江中药资源名录》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《浙江民间常用草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《中医杂志》",
+      "type": "Source"
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "腮腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "细菌性痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "急性胃肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "阴道滴虫病",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "骨折",
+      "type": "Disease"
+    },
+    {
+      "name": "疖肿",
+      "type": "Disease"
+    },
+    {
+      "name": "创伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "菌痢",
+      "type": "Disease"
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "风火牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "三角泡",
+      "type": "Herb"
+    },
+    {
+      "name": "蚂蚱勒",
+      "type": "Herb"
+    },
+    {
+      "name": "苦地胆",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅（根）",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅（根）",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅（根）",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅（根）",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅（花、果）",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "细菌性痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅（花、果）",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胃肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅（花、果）",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴道滴虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅（叶、茎皮）",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅（叶、茎皮）",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅（叶、茎皮）",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疖肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅（叶、茎皮）",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "创伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅（叶、茎皮）",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "菌痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风火牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《植物名实图考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中兽医药植》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江中药资源名录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江民间常用草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "水杨梅",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中医杂志》",
+      "object_type": "Source"
+    }
+  ]
+}

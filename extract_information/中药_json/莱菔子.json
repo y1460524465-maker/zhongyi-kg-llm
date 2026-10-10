@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "莱菔子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "下气定喘，消食化痰",
+        "indication": "咳嗽痰喘，食积气滞，胸闷腹胀，下痢后重",
+        "meridian": "脾经；胃经；肺经；大肠经",
+        "property_flavor": "味甘，微辛",
+        "processing": "莱菔子：簸去杂质，漂净泥土，捞出，晒干，用时捣碎。炒菜菔子：取净莱菔子，置锅内用文火炒至微鼓起，并有香气为度，取出，放凉。",
+        "dosage": "内服，煎汤5~10g，或入丸、散。外用研末调敷。",
+        "taboo": "气虚及无食积、痰滞者慎用；脾虚而无食积者，不宜与人参同用，以免降低人参补气效力。",
+        "origin": "为十字花科植物莱菔的成熟种子。全国各地皆产；主产于河北、河南、浙江、黑龙江等地。"
+      }
+    },
+    {
+      "name": "咳嗽痰喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "食积气滞",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸闷腹胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "下痢后重",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "莱菔子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽痰喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "莱菔子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积气滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "莱菔子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "莱菔子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下痢后重",
+      "object_type": "Symptom"
+    }
+  ]
+}

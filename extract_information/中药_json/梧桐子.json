@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "梧桐子",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "甘，平",
+        "meridian": "归心、肺、肾经",
+        "effect": "顺气和胃，健脾消食",
+        "indication": "胃脘疼痛，伤食腹泻，疝气，须发早白，外用治小儿口疮",
+        "usage": "内服：煎汤，3-9g；或研末，2-3g。外用：适量，煅存性研末敷",
+        "dosage": "3-9g"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,178 @@
+{
+  "entities": [
+    {
+      "name": "一匹绸",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白面水鸡,白背丝绸,白底丝绸,绸缎藤,银背藤",
+        "effect": "化痰止咳，理血祛风",
+        "indication": "热咳，痰喘，吐血，崩漏，白带，跌打损伤，风湿痛，疮毒",
+        "property_flavor": "苦辛，凉；味微酸微苦，性凉",
+        "usage": "内服：煎汤，9~15克。外用：煎水熏洗或捣敷",
+        "origin": "为旋花科植物白鹤藤的茎叶",
+        "place": "广东、海南、广西",
+        "processing": "秋季采收"
+      }
+    },
+    {
+      "name": "《陆川本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《生草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南草药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西药植名录》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "《文山中草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陆川本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南草药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西药植名录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《文山中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理血祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一匹绸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

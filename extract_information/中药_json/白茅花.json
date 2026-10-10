@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "name": "白茅花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "菅花、茅花、茅盔花、茅针花",
+        "effect": "止血，定痛",
+        "indication": "吐血，衄血，刀伤",
+        "dosage": "内服：煎汤，9~15g",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "《唐本草》",
+        "place": "分布于东北、华北、华东、中南、西南及陕西、甘肃等地",
+        "processing": "4~5月花盛开前采收。摘下带茎的花穗，晒干",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "鼻衄",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白茅花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白茅花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白茅花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "刀伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白茅花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白茅花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "定痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白茅花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    }
+  ]
+}

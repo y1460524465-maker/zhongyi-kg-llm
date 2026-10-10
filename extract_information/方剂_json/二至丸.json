@@ -1,0 +1,190 @@
+{
+  "entities": [
+    {
+      "name": "二至丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补肾强腰",
+        "indication": "老人或虚弱人，肾气虚损，腰痛不可屈伸，及肾阳亏虚诸证",
+        "usage": "每服70丸，空腹用胡桃肉细嚼，以盐汤或酒进下"
+      }
+    },
+    {
+      "name": "鹿角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "麋角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炮，去皮"
+      }
+    },
+    {
+      "name": "桂心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "不见火"
+      }
+    },
+    {
+      "name": "补骨脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "杜仲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "去皮，锉，炒断丝"
+      }
+    },
+    {
+      "name": "鹿茸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "酒蒸，焙"
+      }
+    },
+    {
+      "name": "青盐",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "processing": "别研"
+      }
+    },
+    {
+      "name": "肉苁蓉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "肾气虚损",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肾阳亏虚",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补肾强腰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾气虚损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阳亏虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麋角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "补骨脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜仲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿茸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二至丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青盐",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肾气虚损",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

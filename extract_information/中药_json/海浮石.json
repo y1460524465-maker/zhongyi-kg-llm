@@ -1,0 +1,327 @@
+{
+  "entities": [
+    {
+      "name": "海浮石",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肺火，化老痰，软坚散结，通淋",
+        "indication": "痰热喘嗽，老痰积块，瘿瘤，瘰疬，淋病，疝气，疮肿，目翳",
+        "dosage": "内服：煎汤，9～15克；或入丸、散。外用：研末撒或水飞点眼",
+        "property_flavor": "味淡",
+        "traits": "体轻，灰白色，浮水者为佳"
+      }
+    },
+    {
+      "name": "海石花",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "味微咸",
+        "traits": "体轻，入水不沉"
+      }
+    },
+    {
+      "name": "脊突苔虫",
+      "type": "Herb",
+      "attributes": {
+        "origin": "胞科动物脊突苔虫Costazia aculeata Canu et Bassler"
+      }
+    },
+    {
+      "name": "瘤苔虫",
+      "type": "Herb",
+      "attributes": {
+        "origin": "胞科动物瘤苔虫Costazia costazii Audouin"
+      }
+    },
+    {
+      "name": "海浮石滑石散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服二钱，用百部煎汤调下",
+        "indication": "小儿天哮，一切风湿燥热，咳嗽痰喘"
+      }
+    },
+    {
+      "name": "海金散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "黄烂浮石为末，每服二钱。生甘草煎汤调下",
+        "indication": "血淋，小便涩痛"
+      }
+    },
+    {
+      "name": "神效散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "上细末，用鲫鱼胆七个，调三钱服，不拘时候",
+        "indication": "渴疾饮水不止"
+      }
+    },
+    {
+      "name": "耆老丹",
+      "type": "Formula",
+      "attributes": {
+        "usage": "上为细末，醋糊为丸，如桐子大。每服六丸，冷酒送下",
+        "indication": "疔疮，发背，恶疮"
+      }
+    },
+    {
+      "name": "没药散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每用半字，吹入耳中",
+        "indication": "耳底有脓"
+      }
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草正》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学从众录》",
+      "type": "Source"
+    },
+    {
+      "name": "《仁斋直指方》",
+      "type": "Source"
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source"
+    },
+    {
+      "name": "《丹溪心法》",
+      "type": "Source"
+    },
+    {
+      "name": "《本事方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《儒门事亲》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺火，化老痰，软坚散结，通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰热喘嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "老痰积块",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目翳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草衍义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海浮石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草正》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "《圣惠方》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "海浮石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海浮石滑石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海浮石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海浮石滑石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "飞滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海浮石滑石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海浮石滑石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海金散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海浮石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神效散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海浮石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神效散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蛤粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神效散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蝉蜕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "耆老丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海浮石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "耆老丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "没药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海浮石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "没药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "没药散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    }
+  ]
+}

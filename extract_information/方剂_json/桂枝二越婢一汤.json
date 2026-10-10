@@ -1,0 +1,161 @@
+{
+  "entities": [
+    {
+      "name": "桂枝二越婢一汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "桂枝二越脾一汤",
+        "usage": "上七味。咀。以水五升煮麻黄一二沸。去上沫。纳诸药。煎取二升。去滓。温服一升。"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.3克",
+        "processing": "去皮"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.3克"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.3克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.3克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4枚",
+        "processing": "擘"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3.1克",
+        "processing": "切"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "processing": "碎，绵裹"
+      }
+    },
+    {
+      "name": "《内台方议》",
+      "type": "Source"
+    },
+    {
+      "name": "《古方选注》",
+      "type": "Source"
+    },
+    {
+      "name": "《伤寒贯珠集》",
+      "type": "Source"
+    },
+    {
+      "name": "《金鉴》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝二越婢一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二越婢一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二越婢一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二越婢一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二越婢一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二越婢一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二越婢一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝二越婢一汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《内台方议》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝二越婢一汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《古方选注》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝二越婢一汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒贯珠集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝二越婢一汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金鉴》",
+      "object_type": "Source"
+    }
+  ]
+}

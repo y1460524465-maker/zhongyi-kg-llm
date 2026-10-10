@@ -1,0 +1,284 @@
+{
+  "entities": [
+    {
+      "name": "松子仁",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "甘，温",
+        "meridian": "归肝、肺、大肠经",
+        "effect": "润肺，滑肠",
+        "indication": "用于肺燥咳嗽，慢性便秘",
+        "usage": "内服：煎汤，10-15g；或入丸、膏中",
+        "taboo": "便德精滑者勿与；有湿痰者亦禁"
+      }
+    },
+    {
+      "name": "凤髓汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "usage": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "松子粥",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "usage": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "肺燥咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "慢性便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "风痹寒气",
+      "type": "Disease"
+    },
+    {
+      "name": "虚羸少气",
+      "type": "Disease"
+    },
+    {
+      "name": "五脏劳伤",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽吐痰",
+      "type": "Symptom"
+    },
+    {
+      "name": "骨蒸盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "心神恍惚",
+      "type": "Symptom"
+    },
+    {
+      "name": "饮食不甘",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗精滑泄",
+      "type": "Symptom"
+    },
+    {
+      "name": "老人虚秘",
+      "type": "Disease"
+    },
+    {
+      "name": "《本草从新》",
+      "type": "Source"
+    },
+    {
+      "name": "《玄感传尸方》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source"
+    },
+    {
+      "name": "《士材三书》",
+      "type": "Source"
+    },
+    {
+      "name": "胡桃仁",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "麦门冬",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "金樱子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "枸杞子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "柏子仁",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "麻子仁",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滑肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺燥咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "慢性便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤髓汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺燥咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤髓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "松子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "凤髓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "凤髓汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《玄感传尸方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "松子粥",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "松子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "松子粥",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《士材三书》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草从新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痹寒气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚羸少气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "五脏劳伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽吐痰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心神恍惚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "饮食不甘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精滑泄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松子仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "老人虚秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柏子仁",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "松子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻子仁",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "松子仁",
+      "object_type": "Herb"
+    }
+  ]
+}

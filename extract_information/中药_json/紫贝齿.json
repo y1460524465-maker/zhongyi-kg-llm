@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "紫贝齿",
+      "type": "Herb",
+      "attributes": {
+        "alias": "文贝、砑螺、紫贝子、南蛇牙齿、狗支螺、紫贝止、贝齿、海巴",
+        "property_flavor": "气微味淡",
+        "effect": "清热，镇惊安神，平肝明目",
+        "indication": "小儿高热抽搐，头晕目眩，惊悸心烦，失眠多梦，目赤肿痛，热毒目翳",
+        "usage": "内服：煎汤，10~15g，打碎先煎。外用：适量，水飞点眼"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫贝齿",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热，镇惊安神，平肝明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫贝齿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿高热抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫贝齿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕目眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫贝齿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊悸心烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫贝齿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠多梦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫贝齿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫贝齿",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热毒目翳",
+      "object_type": "Symptom"
+    }
+  ]
+}

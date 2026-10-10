@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "水木草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9-12g",
+        "effect": "止血凉血",
+        "indication": "鼻衄，崩漏，吐血，便血",
+        "place": "吉林、辽宁、陕西、江苏、安徽、浙江、四川、云南、西藏",
+        "processing": "洗净，晒干"
+      }
+    },
+    {
+      "name": "鼻衄",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "小蓟",
+      "type": "Herb"
+    },
+    {
+      "name": "《陕西中草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水木草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水木草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水木草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水木草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水木草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水木草",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "小蓟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "水木草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陕西中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

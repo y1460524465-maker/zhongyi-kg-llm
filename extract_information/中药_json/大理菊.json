@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "大理菊",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，散瘀止痛",
+        "indication": "腮腺炎，龋齿疼痛，无名肿毒，跌打损伤",
+        "dosage": "内服：煎汤，6-15g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大理菊",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大理菊",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大理菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大理菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "龋齿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大理菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大理菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    }
+  ]
+}

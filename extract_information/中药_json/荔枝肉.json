@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "荔枝肉",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《上林赋》",
+        "alias": "离支、荔支、丹荔、火山荔、丽枝、勒荔",
+        "effect": "生津，补血，理气，止痛",
+        "indication": "烦渴，呃逆，胃痛，瘰疬，疔肿，牙痛，外伤出血",
+        "usage": "内服：煎汤，5-10枚；烧存性研末；或浸酒。外用：适量，捣烂敷；或烧存性研末撒。"
+      }
+    },
+    {
+      "name": "烦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "呃逆",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Symptom"
+    },
+    {
+      "name": "疔肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "荔枝肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荔枝肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呃逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荔枝肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荔枝肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘰疬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荔枝肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荔枝肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荔枝肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荔枝肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荔枝肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荔枝肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荔枝肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

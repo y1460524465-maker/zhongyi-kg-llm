@@ -1,0 +1,149 @@
+{
+  "entities": [
+    {
+      "name": "蚱蝉散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "《太平圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "蚱蝉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "茯神",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "龙齿",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "23克"
+      }
+    },
+    {
+      "name": "麦门冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "23克"
+      }
+    },
+    {
+      "name": "钩藤",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15～23克"
+      }
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "蛇蜕皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "17厘米"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚱蝉散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚱蝉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蚱蝉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯神",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙齿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦门冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "钩藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蛇蜕皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    }
+  ]
+}

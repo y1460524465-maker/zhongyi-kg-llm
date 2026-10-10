@@ -1,0 +1,200 @@
+{
+  "entities": [
+    {
+      "name": "生脉散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "益气养阴生津",
+        "indication": "温热、暑热，耗气伤阴证；久咳伤肺，气阴两虚证",
+        "usage": "长流水煎，不拘时服（现代用法：水煎服）",
+        "taboo": "若属外邪未解，或暑病热盛，气阴未伤者，均不宜用。久咳肺虚，亦应在阴伤气耗，纯虚无邪时，方可使用。"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "益元气，补肺气，生津液"
+      }
+    },
+    {
+      "name": "麦门冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "养阴清热，润肺生津"
+      }
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "敛肺止汗，生津止渴"
+      }
+    },
+    {
+      "name": "《医方集解》",
+      "type": "Source"
+    },
+    {
+      "name": "汗多",
+      "type": "Symptom"
+    },
+    {
+      "name": "神疲",
+      "type": "Symptom"
+    },
+    {
+      "name": "体倦乏力",
+      "type": "Symptom"
+    },
+    {
+      "name": "气短懒言",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽干口渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌干红少苔",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉虚数",
+      "type": "Symptom"
+    },
+    {
+      "name": "干咳少痰",
+      "type": "Symptom"
+    },
+    {
+      "name": "短气自汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "口干舌燥",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉虚细",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦门冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益气养阴生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医方集解》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汗多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神疲",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体倦乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气短懒言",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽干口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌干红少苔",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉虚数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "干咳少痰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "短气自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口干舌燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "生脉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉虚细",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "entities": [
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "alias": "百倍、牛茎、脚斯蹬、铁牛膝、杜牛膝、怀牛膝、怀夕、真夕、怀膝、土牛膝、淮牛膝、红牛膝、牛磕膝、牛克膝、牛盖膝、粘草子根、牛胳膝盖、野牛充膝、牛盖膝头",
+        "effect": "补肝肾，强筋骨，利尿通淋，引血下行",
+        "indication": "治淋病，尿血，经闭，癥瘕，难产，胞衣不下，产后瘀血腹痛，喉痹，痈肿，跌打损伤，腰膝骨痛，四肢拘挛，痿痹",
+        "taboo": "凡中气下陷，脾虚泄泻，下元不固，梦遗失精，月经过多，及孕妇均忌服",
+        "usage": "内服：煎汤，5-15g；或浸酒；或入丸、散。外用：适量，捣敷；捣汁滴鼻；或研末撒入牙缝",
+        "dosage": "5-15g",
+        "processing": "牛膝：拣去杂质，洗净，润软，去芦，切段，晒干。酒牛膝：取牛膝段，用黄酒喷淋拌匀，闷润后，置锅内炒至微干，取出放凉即得。(牛膝段每100斤，用黄酒10斤)",
+        "origin": "本品为苋科植物牛膝Achyranthes bidentata Blume. 的干燥根。冬季茎叶枯萎时采挖，除去须根及泥沙，捆成小把，晒至干皱后，将顶端切齐，晒干。",
+        "place": "主产河南",
+        "property_flavor": "味微甜而稍苦涩",
+        "traits": "本品呈细长圆柱形，稍弯曲，上端稍粗，下端较细，长15～50cm，直径0.4～1cm。表面灰黄色或淡棕色，有略扭曲而细微的纵皱纹、横长皮孔及稀疏的细根痕。质硬而脆，易折断，受潮则变柔软，断面平坦，黄棕色，微呈角质样而油润，中心维管束木部较大，黄白色，其外围散有多数点状的维管束，排列成 2～4轮。气微"
+      }
+    },
+    {
+      "name": "补肝肾",
+      "type": "Effect"
+    },
+    {
+      "name": "强筋骨",
+      "type": "Effect"
+    },
+    {
+      "name": "利尿通淋",
+      "type": "Effect"
+    },
+    {
+      "name": "引血下行",
+      "type": "Effect"
+    },
+    {
+      "name": "散瘀血",
+      "type": "Effect"
+    },
+    {
+      "name": "消痈肿",
+      "type": "Effect"
+    },
+    {
+      "name": "淋病",
+      "type": "Disease"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "经闭",
+      "type": "Disease"
+    },
+    {
+      "name": "癥瘕",
+      "type": "Disease"
+    },
+    {
+      "name": "难产",
+      "type": "Disease"
+    },
+    {
+      "name": "胞衣不下",
+      "type": "Disease"
+    },
+    {
+      "name": "产后瘀血腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "腰膝骨痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "四肢拘挛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痿痹",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "强筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "引血下行",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痈肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "难产",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胞衣不下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后瘀血腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝骨痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢拘挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痿痹",
+      "object_type": "Disease"
+    }
+  ]
+}

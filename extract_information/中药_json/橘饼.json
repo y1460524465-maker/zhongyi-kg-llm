@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "橘饼",
+      "type": "Herb",
+      "attributes": {
+        "effect": "宽中下气，消积化痰",
+        "indication": "饮食积滞，泻痢，胸隔满闷，咳喘",
+        "usage": "内服：煎汤，1-2个",
+        "origin": "为芸香科植物福橘等的成熟果实，用蜜糖渍制而成"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "橘饼",
+      "subject_type": "Herb",
+      "relation": "ALLIEVIATES_SYMPTOM",
+      "object": "饮食积滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘饼",
+      "subject_type": "Herb",
+      "relation": "ALLIEVIATES_SYMPTOM",
+      "object": "泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘饼",
+      "subject_type": "Herb",
+      "relation": "ALLIEVIATES_SYMPTOM",
+      "object": "胸隔满闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘饼",
+      "subject_type": "Herb",
+      "relation": "ALLIEVIATES_SYMPTOM",
+      "object": "咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘饼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "诸色痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘饼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤食生冷瓜果泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘饼汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《经验广集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "橘饼",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "圆眼肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘饼",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰糖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘饼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《行箧捡秘》",
+      "object_type": "Source"
+    }
+  ]
+}

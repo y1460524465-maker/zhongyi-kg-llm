@@ -1,0 +1,238 @@
+{
+  "entities": [
+    {
+      "name": "益胃汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "益胃生津，润肺止咳",
+        "indication": "慢性肝炎，脾胃阴虚，倦怠无力，食欲不振，烦热，口渴",
+        "taboo": null,
+        "usage": "上药用水500毫升，煮取300毫升，分两次服。所余药滓，再煮取200毫升服。每日代茶饮用。"
+      }
+    },
+    {
+      "name": "北沙参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "冰糖",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "细生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "玉竹",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "慢性肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脾胃阴虚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "倦怠无力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食欲不振",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烦热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口干咽燥",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红少苔",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉细数",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "慢性胃炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "糖尿病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿厌食症",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "北沙参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰糖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玉竹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益胃生津，润肺止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃阴虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "倦怠无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口干咽燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌红少苔",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉细数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "益胃汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿厌食症",
+      "object_type": "Disease"
+    }
+  ]
+}

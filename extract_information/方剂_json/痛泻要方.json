@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "name": "痛泻要方",
+      "type": "Formula",
+      "attributes": {
+        "alias": "白术芍药散",
+        "effect": "泻肝补脾，使肝脾和调，运健湿除，自然痛泻俱止",
+        "indication": "脾虚肝旺之痛泻。肠鸣腹痛，大便泄泻，泻必腹痛，泻后痛缓（或泻后仍腹痛），舌苔薄白，脉两关不调，左弦而右缓者",
+        "usage": "或煎、或丸、或散皆可用"
+      }
+    },
+    {
+      "name": "古今医统",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "炒白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45克"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "脾虚肝旺",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痛泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肠鸣腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "大便泄泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "泻必腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "泻后痛缓",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "痛泻要方",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "古今医统",
+      "object_type": "Source"
+    },
+    {
+      "subject": "痛泻要方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炒白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "痛泻要方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "痛泻要方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "痛泻要方",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "痛泻要方",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚肝旺",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "痛泻要方",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾虚肝旺",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "肠鸣腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾虚肝旺",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "大便泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾虚肝旺",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "泻必腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "脾虚肝旺",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "泻后痛缓",
+      "object_type": "Symptom"
+    }
+  ]
+}

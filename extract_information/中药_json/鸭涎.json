@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "鸭涎",
+      "type": "Herb",
+      "attributes": {
+        "origin": "鸭科动物家鸭的口涎",
+        "processing": "以生姜少许，塞入鸭口中，将其倒悬，即有口涎流出，收集鲜用",
+        "effect": "用于异物哽喉，小儿阴囊被蚯蚓咬伤肿亮",
+        "usage": "外用：适量，含漱或涂敷"
+      }
+    }
+  ],
+  "relations": []
+}

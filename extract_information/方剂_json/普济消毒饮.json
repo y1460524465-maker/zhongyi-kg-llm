@@ -1,0 +1,309 @@
+{
+  "entities": [
+    {
+      "name": "普济消毒饮",
+      "type": "Formula",
+      "attributes": {
+        "alias": "普济消毒蒡芩连,甘桔蓝根勃翘玄,升柴陈薄僵蚕入,大头瘟毒此方先。普及消毒芩连鼠,玄参甘桔兰根侣,升柴马勃连翘陈,薄荷僵蚕为末举。",
+        "effect": "苦寒辛散",
+        "indication": "大头瘟。恶寒发热，头面红肿灼痛，目不能开，咽喉不利，舌燥口渴，舌红苔白兼黄，脉浮数有力。",
+        "taboo": "素体阴虚以及脾虚便溏者慎用。",
+        "usage": "水煎服"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "板蓝根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "马勃",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "牛蒡子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "僵蚕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2克"
+      }
+    },
+    {
+      "name": "升麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2克"
+      }
+    },
+    {
+      "name": "大头瘟",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "恶寒发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头面红肿灼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目不能开",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽喉不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌燥口渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红苔白兼黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉浮数有力",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "大头瘟",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "板蓝根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "马勃",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛蒡子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "僵蚕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大头瘟",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "恶寒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大头瘟",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头面红肿灼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大头瘟",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "目不能开",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大头瘟",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽喉不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大头瘟",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌燥口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大头瘟",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌红苔白兼黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大头瘟",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉浮数有力",
+      "object_type": "Symptom"
+    }
+  ]
+}

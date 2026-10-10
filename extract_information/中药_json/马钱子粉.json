@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "马钱子粉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "通络止痛，散结消肿",
+        "indication": "跌打损伤，骨折肿痛，风湿顽痹，麻木瘫痪，痈疽疮毒，咽喉肿痛",
+        "property_flavor": "苦，温；有大毒",
+        "meridian": "肝、脾经",
+        "dosage": "0.3～0.6g，入丸散用",
+        "processing": "炮制加工品",
+        "taboo": "身体虚弱之人及孕妇禁用；不宜多服久服及生用；运动员慎用；有毒成分能经皮肤吸收，外用不宜大面积涂敷"
+      }
+    }
+  ],
+  "relations": []
+}

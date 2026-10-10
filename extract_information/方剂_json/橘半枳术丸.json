@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "橘半枳术丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "饮食伤脾，停积痰饮，心胸痞闷，饮食不消等",
+        "taboo": null,
+        "usage": "每服50-60丸，橘皮煎汤送下"
+      }
+    },
+    {
+      "name": "橘皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "橘半枳术丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘半枳术丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘半枳术丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘半枳术丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "橘半枳术丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "饮食伤脾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘半枳术丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "停积痰饮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "橘半枳术丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胸痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "橘半枳术丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "饮食不消",
+      "object_type": "Symptom"
+    }
+  ]
+}

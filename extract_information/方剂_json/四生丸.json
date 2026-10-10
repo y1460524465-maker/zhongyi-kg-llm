@@ -1,0 +1,242 @@
+{
+  "entities": [
+    {
+      "name": "四生丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "凉血止血",
+        "indication": "血热妄行的上部出血之证",
+        "usage": "上研，丸如鸡子大，每服一丸（12g），水煎服",
+        "taboo": "只可暂时使用"
+      }
+    },
+    {
+      "name": "生荷叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生艾叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生柏叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "小蓟",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白茅根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "藕节",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "仙鹤草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "支气管扩张",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血热妄行",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "血色鲜红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口干咽燥",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌绛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉数",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉弦数",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管扩张",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血色鲜红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口干咽燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌绛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉弦数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血热妄行",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生荷叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生艾叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生柏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四生丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/四生丸",
+      "object_type": "Source"
+    }
+  ]
+}

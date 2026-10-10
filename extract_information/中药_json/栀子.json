@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "木丹、鲜支、卮子、支子、越桃、山栀子、枝子、小卮子、黄鸡子、黄荑子、黄栀子、黄栀、山黄栀、山栀",
+        "effect": "清热，泻火，凉血",
+        "indication": "热病虚烦不眠，黄疸，淋病，消渴，目赤，咽痛，吐血，衄血，血痢，尿血，热毒疮疡，扭伤肿痛",
+        "taboo": "吐血衄血，非阳火暴发者忌之；邪在表，虚火上升，二者禁用",
+        "dosage": "5~10g",
+        "meridian": "入心经、肝经、肺经、胃经",
+        "processing": "1.生栀子：筛去灰屑，拣去杂质，碾碎过筛；或剪去两端。2.山栀仁：取净栀子，用剪刀从中间对剖开，剥去外皮取仁。3.山栀皮：即生栀子剥下的外果皮。4.炒栀子：取碾碎的栀子，置锅内用文火炒至金黄色，取出，放凉。5.焦栀子：取碾碎的栀子，置锅内用武火炒至焦糊色，取出，放凉。6.栀子炭：取碾碎的栀子，置锅内用武火炒至黑褐色，但须存性，取出，放凉。7.《雷公炮炙论》：凡使栀子，先去皮须了，取人，以甘草水浸一宿，漉出焙干，捣筛如赤金末用。"
+      }
+    },
+    {
+      "name": "栀子豉汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null
+      }
+    },
+    {
+      "name": "枳实栀子豉汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null
+      }
+    },
+    {
+      "name": "栀子柏皮汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null
+      }
+    },
+    {
+      "name": "栀子汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null
+      }
+    },
+    {
+      "name": "栀子仁汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "栀子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热，泻火，凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "栀子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子豉汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "栀子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实栀子豉汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "栀子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子柏皮汤",
+      "object_type": "Formula"
+    }
+  ]
+}

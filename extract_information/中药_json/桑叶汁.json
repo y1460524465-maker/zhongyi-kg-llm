@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "桑叶汁",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肝明目，消肿解毒",
+        "indication": "痈疖，瘿瘤，外伤出血，蜈蚣咬伤",
+        "usage": "外用：适量，涂敷或点眼"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桑叶汁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肝明目，消肿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑叶汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑叶汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑叶汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑叶汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蜈蚣咬伤",
+      "object_type": "Disease"
+    }
+  ]
+}

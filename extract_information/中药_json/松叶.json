@@ -1,0 +1,238 @@
+{
+  "entities": [
+    {
+      "name": "松叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "猪鬃松叶、松毛、山松须、松针",
+        "effect": "祛风燥湿，杀虫止痒，活血安神",
+        "indication": "风湿痿痹，脚气，湿疮，癣，风疹瘙痒，跌打损伤，神经衰弱，慢性肾炎，高血压病",
+        "dosage": "内服：煎汤，6-15g，鲜品30-60g；或浸酒。外用：适量，鲜品捣敷或煎水洗",
+        "origin": "《生草药性备要》等",
+        "traits": "干燥的松叶呈针状，长约12～18厘米，粗约0.1厘米，两叶并成一束，外包有长约0.5厘米的叶鞘，呈黑褐色。中央有长细沟，表面光滑，灰暗绿色，质轻脆，臭微"
+      }
+    },
+    {
+      "name": "治脚弱十二风，痹不能行",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腰痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "历节风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "跌打肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "风湿顽癣",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "大风癞疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头风头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "中风面目相引口偏僻，牙车急，舌不可转",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "维生素丙缺乏",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "营养性水肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "风牙肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "阴囊湿痒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "预防钩虫病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "松叶酒",
+      "type": "Formula",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "治脚弱十二风，痹不能行",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "历节风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿顽癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "大风癞疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风面目相引口偏僻，牙车急，舌不可转",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "维生素丙缺乏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "营养性水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风牙肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴囊湿痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "预防钩虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "松叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "松叶酒",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "松叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "松叶酒",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《千金方》",
+      "object_type": "Source"
+    }
+  ]
+}

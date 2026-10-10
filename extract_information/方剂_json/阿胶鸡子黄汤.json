@@ -1,0 +1,231 @@
+{
+  "entities": [
+    {
+      "name": "阿胶鸡子黄汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "滋阴熄风",
+        "indication": "肝风内动而属于阴虚血亏者"
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "鸡子黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2枚（冲入）"
+      }
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "生白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "茯神木",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "生石决明",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "生牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "钩藤",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "络石藤",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "肝风内动",
+      "type": "Disease"
+    },
+    {
+      "name": "阴虚血亏",
+      "type": "Disease"
+    },
+    {
+      "name": "筋脉拘急",
+      "type": "Symptom"
+    },
+    {
+      "name": "手足蠕动",
+      "type": "Symptom"
+    },
+    {
+      "name": "头目晕眩",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌绛苔少",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉细而数",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯神木",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生石决明",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "钩藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "络石藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴熄风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "阿胶鸡子黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝风内动",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肝风内动",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "筋脉拘急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝风内动",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "手足蠕动",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝风内动",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头目晕眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝风内动",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌绛苔少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝风内动",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉细而数",
+      "object_type": "Symptom"
+    }
+  ]
+}

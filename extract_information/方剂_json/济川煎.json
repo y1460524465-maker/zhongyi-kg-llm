@@ -1,0 +1,293 @@
+{
+  "entities": [
+    {
+      "name": "济川煎",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "老年肾虚。肾阳虚弱，精津不足证。大便秘结，小便清长，腰膝酸软，头目眩晕，舌淡苔白，脉沉迟。(本方常用于习惯性便秘、老年便秘、产后便秘等属于肾虚精亏肠燥者。)",
+        "taboo": "凡热邪伤津及阴虚者忌用。虚甚者不必用枳壳。",
+        "usage": "水一盅半，煎七分，食前服。（现代用法：作汤剂，水煎服）"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9～15克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "肉苁蓉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6～9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "升麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5～3克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "老年肾虚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肾阳虚弱，精津不足证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "大便秘结",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便清长",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腰膝酸软",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头目眩晕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌淡苔白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉沉迟",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "老年肾虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阳虚弱，精津不足证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便秘结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便清长",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头目眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌淡苔白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉沉迟",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉苁蓉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济川煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "老年肾虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "大便秘结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老年肾虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小便清长",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老年肾虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老年肾虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头目眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老年肾虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌淡苔白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "老年肾虚",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉沉迟",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "entities": [
+    {
+      "name": "黄药子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散结消瘿，清热解毒，凉血止血",
+        "indication": "瘿瘤，喉痹，痈肿疮毒，毒蛇咬伤，肿瘤，吐血，衄血，咯血，百日咳，肺热咳喘",
+        "usage": "内服：煎汤，3~9g；或浸酒；研末1~2g。外用：适量，鲜品捣敷；或研末调数；或磨汁涂",
+        "property_flavor": "味苦",
+        "taboo": "内服剂量不宜过大。《本草经疏》：痈疽已溃不宜服，痈疽发时不焮肿、不渴、色淡、脾胃作泄者，此为阴症，当以内补为急，解毒次之，药子之类宜少服，止可外敷"
+      }
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《江苏植药志》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散结消瘿，清热解毒，凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咯血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄药子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江苏植药志》",
+      "object_type": "Source"
+    }
+  ]
+}

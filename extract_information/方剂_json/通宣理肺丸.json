@@ -1,0 +1,301 @@
+{
+  "entities": [
+    {
+      "name": "通宣理肺丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "解表散寒，止咳化痰",
+        "indication": "风寒咳嗽",
+        "taboo": null,
+        "usage": "每服2丸，日服2-3次"
+      }
+    },
+    {
+      "name": "紫苏叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "144g",
+        "effect": "发散风寒，宣肺解表",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "味辛性温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "前胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "96g",
+        "effect": "宣通肺气，止咳化痰",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "96g",
+        "effect": "宣通肺气，止咳化痰",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "苦杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "72g",
+        "effect": "宣通肺气，止咳化痰",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "96g",
+        "effect": "发散风寒，宣肺解表",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "味辛性温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "72g",
+        "effect": "调和诸药，清利咽喉",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "96g",
+        "effect": "宣通肺气，止咳化痰",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "72g",
+        "effect": "宣通肺气，止咳化痰",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "96g",
+        "effect": "健脾渗湿，清利生痰之源",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "96g",
+        "effect": "开胸而宽中下气，以畅达气机",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "96g",
+        "effect": "清热，以防肺气郁久而化热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "风寒咳嗽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "宋•《太平惠民和剂局方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解表散寒，止咳化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "宋•《太平惠民和剂局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "前胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通宣理肺丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    }
+  ]
+}

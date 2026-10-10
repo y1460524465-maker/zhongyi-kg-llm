@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "name": "翼首草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3-9g",
+        "effect": "清热解毒，祛风除湿，止痛",
+        "indication": "外感发热，热病烦躁，泄泻痢疾，负湿热痹",
+        "origin": "川续断科植物匙叶翼首花的根或全草"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "翼首草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，祛风除湿，止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "翼首草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外感发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翼首草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病烦躁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翼首草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翼首草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "负湿热痹",
+      "object_type": "Symptom"
+    }
+  ]
+}

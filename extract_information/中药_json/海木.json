@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "name": "海木",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，利咽，祛风湿",
+        "indication": "咽喉炎，扁桃体炎，风湿痹痛，胃气痛",
+        "usage": "内服：煎汤，9-15g；或浸酒",
+        "origin": "https://zhongyibaike.com/wiki/海木",
+        "place": "广西、贵州、云南"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，利咽，祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃气痛",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "百合洗方",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热活血，食饼养胃气除烦",
+        "indication": "百合病，一月不解，变成渴者",
+        "usage": "以水2升，渍百合一宿。洗身。洗毕食煮饼。"
+      }
+    }
+  ],
+  "relations": []
+}

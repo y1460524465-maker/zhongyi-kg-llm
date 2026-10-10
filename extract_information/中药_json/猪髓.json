@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "猪髓",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益髓滋阴；生肌",
+        "indication": "主骨蒸痨热；遗精带浊；消渴；疮疡",
+        "usage": "内服：煎汤；适量；或入丸剂。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪髓",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸痨热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪髓",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精带浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪髓",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪髓",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪髓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益髓滋阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪髓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生肌",
+      "object_type": "Effect"
+    }
+  ]
+}

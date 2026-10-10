@@ -1,0 +1,248 @@
+{
+  "entities": [
+    {
+      "name": "温经汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温经散寒，养血祛瘀",
+        "indication": "冲任虚寒，瘀血阻滞，月经不调，或前或后，或逾期不止，或一月再行，或经停不至，傍晚发热，手心烦热，唇口干燥；或小腹冷痛，久不受孕者",
+        "usage": "上十二味，以水l升，煮取300毫升，去滓，分二次温服"
+      }
+    },
+    {
+      "name": "吴茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "processing": "去心"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "麦门冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "processing": "去心"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "冲任虚寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘀血阻滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "傍晚发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手心烦热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "唇口干燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温经散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养血祛瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "温经汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦门冬",
+      "object_type": "Herb"
+    }
+  ]
+}

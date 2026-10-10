@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "阳桃",
+      "type": "Herb",
+      "attributes": {
+        "alias": "三廉、杨桃、五敛子、五棱子、山敛、三敛子、羊桃、泽挑、五敛、酸五棱、三棱子、木踏子、风鼓、鬼桃、杨梅桃、酸桃",
+        "effect": "清热生津，利水解毒",
+        "indication": "风热咳嗽，咽痛，烦渴，口糜，牙痛，石淋",
+        "usage": "内服：煎汤，30-60g；鲜果生食，或饮。外用：适量，绞汁滴耳。",
+        "taboo": "多食冷脾胃，动泄澼。",
+        "origin": "为酢浆草科植物阳桃的果实"
+      }
+    },
+    {
+      "name": "风热咳嗽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咽痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烦渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口糜",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "石淋",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "阳桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阳桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口糜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳桃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳桃",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "石淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阳桃",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热生津，利水解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

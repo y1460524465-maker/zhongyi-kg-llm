@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "荜茇",
+      "type": "Herb",
+      "attributes": {
+        "alias": "荜拨、荜拨梨、阿梨诃他、椹圣、鼠尾",
+        "property_flavor": "辛, 热",
+        "meridian": "脾, 胃",
+        "effect": "温中，散寒，下气，止痛",
+        "indication": "心腹冷痛，呕吐吞酸，肠鸣泄泻，冷痢，阴疝，头痛，鼻渊，齿痛",
+        "taboo": "实热郁火、阴虚火旺者均忌服",
+        "dosage": "内服：煎汤，1.5~3g，或入丸、散。外用：研末鼻吸或置蛀牙孔中，适量",
+        "origin": "胡椒科植物荜茇 Piper longum L.的干燥近成熟或成熟果穗",
+        "place": "分布于云南东南至西南部，福建、广东和广西有栽培"
+      }
+    },
+    {
+      "name": "大巳寒丸",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "荜拨散",
+      "type": "Formula",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "荜茇",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中，散寒，下气，止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荜茇",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心腹冷痛，呕吐吞酸，肠鸣泄泻，冷痢，阴疝，头痛，鼻渊，齿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大巳寒丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荜茇",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荜拨散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荜茇",
+      "object_type": "Herb"
+    }
+  ]
+}

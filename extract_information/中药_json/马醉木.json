@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "马醉木",
+      "type": "Herb",
+      "attributes": {
+        "effect": "杀虫",
+        "indication": "疥疮",
+        "taboo": "有大毒，不宜内服",
+        "usage": "外用：适量，煎水洗敷患处"
+      }
+    }
+  ],
+  "relations": []
+}

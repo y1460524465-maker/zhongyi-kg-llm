@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "name": "紫菀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5~10g",
+        "effect": "温肺，下气，消痰，止咳",
+        "indication": "风寒咳嗽气喘，虚劳咳吐脓血，喉痹，小便不利",
+        "processing": "紫菀：拣去杂质，除去残茎，洗净，稍闷润，切成小段晒干。蜜紫菀：取紫菀段加炼蜜(和以适量开水)拌匀，稍闷，用文火炒至不粘手为度，取出放凉。(每紫菀100斤，用炼蜜25斤)",
+        "property_flavor": "气微香，味甜、微苦",
+        "taboo": "①《本草经集注》：款冬为使。恶天雄、瞿麦、雷丸、远志。畏茵陈蒿。②《唐本草》：恶蒿本。③《本草正》：劳伤肺肾、水亏金燥而咳喘者非所宜。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫菀",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风寒咳嗽气喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫菀",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳咳吐脓血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫菀",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫菀",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "紫菀",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫菀",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "下气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫菀",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫菀",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳",
+      "object_type": "Effect"
+    }
+  ]
+}

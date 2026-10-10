@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "乌贼鱼腹中墨",
+      "type": "Herb",
+      "attributes": {
+        "effect": "收敛止血",
+        "indication": "消化道出血，肺结核咯血，功能性子宫出血",
+        "usage": "内服：烘干研粉或醋磨，2-3g",
+        "processing": "为乌贼科动物无针乌贼和金乌贼等乌贼墨囊中的墨汁。捕得乌贼后，剖取墨囊，洗净，烘干。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乌贼鱼腹中墨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "乌贼鱼腹中墨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消化道出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌贼鱼腹中墨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核咯血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌贼鱼腹中墨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "功能性子宫出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

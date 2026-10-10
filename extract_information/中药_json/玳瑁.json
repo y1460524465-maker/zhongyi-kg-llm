@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "玳瑁",
+      "type": "Herb",
+      "attributes": {
+        "effect": "平肝定惊，清热解毒",
+        "indication": "热病高热；神昏谵语抽搐；小儿惊痫；眩晕；心烦失眠；痈肿疮毒",
+        "property_flavor": "甘、咸、寒",
+        "meridian": "肝、心经",
+        "usage": "内服：煎汤，9-15g；或磨汁；亦可入丸、散。外用：适量，研末调涂",
+        "origin": "为海龟科动物玳瑁的背甲",
+        "processing": "将捕获的活玳瑁倒挂悬起，用沸醋泼之，使其背部鳞片剥落，去除残肉，洗净",
+        "traits": "呈长方形、菱形、三角形、多角形或近圆形板片状，长8-24cm，宽8-17cm，厚1-3mm，中间较厚，边缘薄似刀刃有不整齐的锯齿状。外表面平滑而有光泽，半透明状，有暗褐色与乳黄色相同的不规则花纹，背鳞甲中间有隆起的棱脊，斜切面显层纹；内表面有条纹形成云彩样纹理。质坚韧，不易折断，断面角质。气微，味淡",
+        "alias": "瑇琩、瑇琩甲、明玳瑁、文甲",
+        "place": "分布福建、台湾、海南、西沙群岛等地。主产台湾、福建及广东海南岛、西沙群岛等地",
+        "taboo": null,
+        "dosage": null
+      }
+    },
+    {
+      "name": "热病高热",
+      "type": "Symptom"
+    },
+    {
+      "name": "神昏谵语抽搐",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿惊痫",
+      "type": "Symptom"
+    },
+    {
+      "name": "眩晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "心烦失眠",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿疮毒",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "玳瑁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝定惊，清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玳瑁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病高热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玳瑁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神昏谵语抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玳瑁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玳瑁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玳瑁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玳瑁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疮毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

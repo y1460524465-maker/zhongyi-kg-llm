@@ -1,0 +1,303 @@
+{
+  "entities": [
+    {
+      "name": "七厘散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "散瘀消肿，定痛止血",
+        "indication": "跌打损伤，筋断骨折，瘀血肿痛；刀伤出血，无名肿毒，烧伤烫伤。金疮，血流不止，金刃伤重，食嗓割断；汤泡火灼。闪腰挫气，筋骨疼痛，瘀血凝结。",
+        "taboo": "本方药性走窜，耗气堕胎，不可多服；孕妇忌服。",
+        "usage": "外敷内服均见长"
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱2分"
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1分2厘"
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1分2厘"
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱5分"
+      }
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱5分"
+      }
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱5分"
+      }
+    },
+    {
+      "name": "血竭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "粉口儿茶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱4分"
+      }
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "筋断骨折",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "瘀血肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "刀伤出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "无名肿毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "烧伤烫伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "金疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血流不止",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "金刃伤重",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食嗓割断",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "汤泡火灼",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "闪腰挫气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "筋骨疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "瘀血凝结",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "血竭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粉口儿茶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋断骨折",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘀血肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "刀伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "烧伤烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "金疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血流不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "金刃伤重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食嗓割断",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汤泡火灼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "闪腰挫气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘀血凝结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七厘散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀消肿，定痛止血",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "entities": [
+    {
+      "name": "碧玉散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清暑利湿，解毒，凉血，定惊"
+      }
+    },
+    {
+      "name": "软滑石",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "青黛",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "软滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青黛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清暑利湿，解毒，凉血，定惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暑热身倦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便黄少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痛咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痄腮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "碧玉散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊痫",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "entities": [
+    {
+      "name": "香薷散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "香薷汤，三物香薷饮",
+        "effect": "散寒化湿",
+        "indication": "夏月乘凉饮冷，外感风寒，内伤暑湿所致的阴暑证；阴暑。恶寒发热，腹痛吐泻，头重身痛，无汗，胸闷，舌苔白腻，脉浮。",
+        "usage": "冷服，以防格拒"
+      }
+    },
+    {
+      "name": "香薷",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解表除寒，祛暑化湿",
+        "dosage": "9g（原方）；6g（新加香薷饮）"
+      }
+    },
+    {
+      "name": "白扁豆",
+      "type": "Herb",
+      "attributes": {
+        "effect": "健脾和中，祛湿消暑",
+        "dosage": "微炒，各6g"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "effect": "行气除满，内化湿滞",
+        "dosage": "姜制各6g"
+      }
+    },
+    {
+      "name": "银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "鲜扁豆花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "阴暑",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "暑温",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香薷散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香薷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香薷散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白扁豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香薷散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香薷散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "散寒化湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香薷散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴暑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解表除寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛暑化湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白扁豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白扁豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛湿消暑",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气除满",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "内化湿滞",
+      "object_type": "Effect"
+    }
+  ]
+}

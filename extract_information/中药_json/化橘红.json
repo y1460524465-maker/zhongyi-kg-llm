@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "化橘红",
+      "type": "Herb",
+      "attributes": {
+        "alias": "化皮、化州橘红、柚皮橘红、柚类橘红、兴化红、毛柑、毛化红、赖橘红",
+        "effect": "燥湿化痰，理气，消食",
+        "indication": "风寒咳喘痰多，呕吐呃逆，食积不化，脘腹胀痛",
+        "taboo": "气虚及阴虚有燥痰者不宜服",
+        "dosage": "内服：煎汤，3-6g；或入丸、散",
+        "processing": "1.拣去杂质，刷净，用时擘碎。\n2.蜜制：取蜂蜜文火炼老，加水适量，再将橘红碎块倒入，拌包，炒至微黄色时，出锅，摊开晾凉，每100kg橘红，蜂蜜18.75kg。",
+        "origin": "芸香科植物化州柚Citrus grandis Tomentosa或柚Citrus grandis （L.）Osbeck",
+        "traits": "化州柚：呈对折的七角或展平的五角星状，单片呈柳叶形。完整者展平后直径15～28cm，厚0.2～0.5cm。外表面黄绿色，密布茸毛，有皱纹及小油室；内表面黄白色或淡黄棕色，有脉络纹。质脆，易折断，断面不整齐，外缘有1列不整齐的下凹的油室，内侧稍柔而有弹性。气芳香，味苦、微辛。\n柚：外表面黄绿色黄棕色，无毛。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "化橘红",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "化橘红",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "化橘红",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "化橘红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒咳喘痰多",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "化橘红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "呕吐呃逆",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "化橘红",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食积不化",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "化橘红",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

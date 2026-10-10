@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "北豆根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蝙蝠葛根、北山豆根、马串铃、狗骨头、野豆根、山豆根、黄根、黄条香、苦豆根、山豆秧根（内蒙）",
+        "effect": "清热解毒，消肿止痛，利湿",
+        "indication": "咽喉肿痛；肺热咳嗽；痄腮；泻痢；黄疸；风湿痹痛；痔疮肿痛；蛇虫咬伤",
+        "origin": "防己科植物蝙蝠葛Menispermum dauricum DC.的干燥根茎",
+        "dosage": "内服：煎服，3~9g。治咽喉肿痛宜含于口中缓缓咽下。外用：适量，研未调敷或煎水泡洗",
+        "property_flavor": "味苦",
+        "processing": "除去杂质，洗净，润透，切厚片，干燥"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "天雄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风散寒，益火助阳",
+        "indication": "用于风寒湿痹，历节风痛，四肢拘挛，心腹冷痛，痃癖症瘕",
+        "dosage": "内服：煎汤，2-6g；或入丸、散。内服宜炮制后用。外用：适量，研末调敷",
+        "taboo": "阴虚阳盛者及孕妇禁服",
+        "processing": "①《雷公炮炙论》：宜炮皴坼后去皮尖底用，不然阴制用并得。②《药性论》：干姜制用之。③《日华子本草》：凡丸、散炮去皮脐用，饮药即和皮生使甚佳。④《纲目》：熟用。一法，每十两，以酒浸七日，掘土坑，用炭半枰煅赤，去火，以醋二升沃之，侯干，趁热入天雄在内，小盆合一夜，取出，去脐用之。",
+        "origin": "为附子或草乌头之形长而细者"
+      }
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Disease"
+    },
+    {
+      "name": "历节风痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "四肢拘挛",
+      "type": "Symptom"
+    },
+    {
+      "name": "心腹冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痃癖症瘕",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天雄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天雄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痃癖症瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天雄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "历节风痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天雄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢拘挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天雄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹冷痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

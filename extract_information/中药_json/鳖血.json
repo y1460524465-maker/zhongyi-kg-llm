@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "鳖血",
+      "type": "Herb",
+      "attributes": {
+        "effect": "滋阴清热,活血通络",
+        "indication": "虚劳潮热，阴虚低热，胁痛，口眼歪斜，脱肛",
+        "usage": "内服：鲜饮，20-100ml；或入丸剂",
+        "origin": "爬行纲龟鳖目鳖科中华鳖Amyda sinensis (Wiegmann)",
+        "place": "从东北到海南岛、陕西、甘肃、四川、云南"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳潮热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚低热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胁痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口眼歪斜",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳潮热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴虚低热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胁痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口眼歪斜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《肘后方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鳖血",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《小儿卫生总微论方》",
+      "object_type": "Source"
+    }
+  ]
+}

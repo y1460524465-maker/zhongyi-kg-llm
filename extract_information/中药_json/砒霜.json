@@ -1,0 +1,202 @@
+{
+  "entities": [
+    {
+      "name": "砒霜",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为砒石经升华而得的精制品",
+        "effect": "劫痰截疟，杀虫，蚀恶肉",
+        "indication": "寒痰哮喘，疟疾，休息痢，梅毒，痔疮，瘰疬，走马牙疳，癣疮，溃疡腐肉不脱",
+        "meridian": "入脾、肺、肝经",
+        "dosage": "内服:入丸、散，1～5毫。外用:研末撒或调敷，或入膏药中贴之",
+        "taboo": "本品毒性比砒石更剧，内服极宜谨慎。体虚及孕妇忌服",
+        "traits": "为白色粉末，无臭，无味，能溶于水、乙醇、酸类及碱类。加热则升散而发蒜臭。极毒，不可口尝"
+      }
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source"
+    },
+    {
+      "name": "《玉楸药解》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学入门》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "寒痰哮喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "休息痢",
+      "type": "Disease"
+    },
+    {
+      "name": "梅毒",
+      "type": "Disease"
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "走马牙疳",
+      "type": "Disease"
+    },
+    {
+      "name": "癣疮",
+      "type": "Disease"
+    },
+    {
+      "name": "溃疡腐肉不脱",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草衍义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《玉楸药解》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学入门》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "休息痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梅毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "走马牙疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癣疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒痰哮喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "溃疡腐肉不脱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "砒霜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "劫痰截疟，杀虫，蚀恶肉",
+      "object_type": "Effect"
+    }
+  ]
+}

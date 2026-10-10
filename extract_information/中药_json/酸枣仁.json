@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "name": "酸枣仁",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养肝，宁心，安神，敛汗",
+        "indication": "虚烦不眠，惊悸怔忡，烦渴，虚汗",
+        "property_flavor": "未明确记载性味，但多用于养心安神，可参考文献",
+        "meridian": "心经；脾经；肝经；胆经",
+        "dosage": "内服：煎汤，6~15g；研末，每次3~5g；或入丸、散",
+        "taboo": "凡有实邪郁火及患有滑泄症者慎服",
+        "origin": "鼠李科植物酸枣Ziziphus jujuba Mill. var. spinosa （Bunge）Hu ex H.F.Chou的干燥成熟种子"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "酸枣仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚烦不眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "酸枣仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊悸怔忡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "酸枣仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "酸枣仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "酸枣仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酸枣仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宁心",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酸枣仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酸枣仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛汗",
+      "object_type": "Effect"
+    }
+  ]
+}

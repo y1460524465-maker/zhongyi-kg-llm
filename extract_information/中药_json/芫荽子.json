@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "芫荽子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "发表，透疹，开胃",
+        "indication": "感冒鼻塞，痘诊透发不畅，饮食乏味，齿痛",
+        "dosage": "内服:煎汤，6~12 g；或入散剂",
+        "usage": "外用:煎水含漱或熏洗",
+        "traits": "双悬果，呈圆球状，直径3～5mm。表面淡黄棕色至黄棕色，有较明显而纵直的次生棱脊10条及不甚明显而呈波浪形弯曲的初生棱脊10条，相间排列，顶端可见极短的柱头残迹及5个萼齿残痕，基部常残留有长约15 mm的小果柄或果柄痕。分果腹面中央下凹，具3条纵行的棱线，中央较直，两侧呈弧形弯曲。质坚硬，用手揉碎，有特异浓烈香气，味微辣"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芫荽子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "发表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芫荽子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "透疹",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芫荽子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芫荽子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒鼻塞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芫荽子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痘诊透发不畅",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芫荽子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "饮食乏味",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芫荽子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "齿痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

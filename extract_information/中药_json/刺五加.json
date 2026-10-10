@@ -1,0 +1,312 @@
+{
+  "entities": [
+    {
+      "name": "刺五加",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，6~15g；或入丸、散；泡酒。外用：适量，研末调敷；或鲜品捣敷。",
+        "effect": "益气健脾，补肾安神",
+        "indication": "用于脾肾阳虚，体虚乏力，食欲不振，腰膝酸痛，失眠多梦。",
+        "property_flavor": "味微辛，稍苦、涩",
+        "traits": "落叶灌木，高达2m。茎通常密生细长倒刺。掌状复叶，互生；吉柄长3.5-12cm，有细刺或无刺；小叶5，稀4或3，小叶柄长0.5-2cm，被褐色毛；叶片椭圆状倒卵形至长圆形，长7-13cm，宽2-6cm，先端渐尖或突尖，基部楔形，上面暗绿以，下面淡绿以，沿脉上密生淡褐色毛，边缘具重锯齿或锯齿。伞形花序顶生，单个或2-4聚一成稀疏的圆锥花序，总花梗长达8cm；花梗1-2cm；萼筒绿色，与子房合生，萼齿5；花瓣5，卵形，黄色带紫；雄蕊5；子房5室。花柱细柱状。核果浆果状，紫黑色，近球形，花柱宿存。种子4-6，扁平，新月形。花期6-7月，果期7-9月。本品根茎呈结节状不规则圆柱形，直径1.4～4.2cm。根呈圆柱形，多扭曲，长3.5～12cm,直径0.3～1.5cm。表面灰褐色或黑褐色，粗糙，有细纵沟及皱纹，皮较薄，有的剥落，剥落处呈灰黄色。质硬，断面黄白色，纤维性。有特异香气。"
+      }
+    },
+    {
+      "name": "五加羊藿酒",
+      "type": "Formula",
+      "attributes": {
+        "usage": "用4~5倍药量的白酒浸渍。每次饮1~2杯。"
+      }
+    },
+    {
+      "name": "刺五加粉",
+      "type": "Formula",
+      "attributes": {
+        "usage": "共研为细末。每次3~5g，用酒或温水送服。",
+        "source": "《卫生家宝》"
+      }
+    },
+    {
+      "name": "刺五加饮",
+      "type": "Formula",
+      "attributes": {
+        "usage": "共研为细末。每次3~5g，用温水送服。",
+        "source": "《瑞竹堂经验方》"
+      }
+    },
+    {
+      "name": "刺五加酒",
+      "type": "Formula",
+      "attributes": {
+        "usage": "将刺五加入酒内浸泡10天后服用。每服20毫升，日服2~3次。",
+        "source": "《本草纲目》"
+      }
+    },
+    {
+      "name": "脾肾阳虚",
+      "type": "Disease"
+    },
+    {
+      "name": "肾虚阳痿",
+      "type": "Disease"
+    },
+    {
+      "name": "肾虚腰痛",
+      "type": "Disease"
+    },
+    {
+      "name": "肠风痔血",
+      "type": "Disease"
+    },
+    {
+      "name": "体虚乏力",
+      "type": "Symptom"
+    },
+    {
+      "name": "食欲不振",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰膝酸痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "失眠多梦",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰膝酸软",
+      "type": "Symptom"
+    },
+    {
+      "name": "体倦乏力",
+      "type": "Symptom"
+    },
+    {
+      "name": "肢节酸痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "下肢痿软无力",
+      "type": "Symptom"
+    },
+    {
+      "name": "气虚乏力",
+      "type": "Symptom"
+    },
+    {
+      "name": "少食",
+      "type": "Symptom"
+    },
+    {
+      "name": "失眠健忘",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿骨痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "刺五加",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气健脾，补肾安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "刺五加",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾肾阳虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刺五加",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体虚乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺五加",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺五加",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺五加",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠多梦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加羊藿酒",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "刺五加",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五加羊藿酒",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淫羊藿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五加羊藿酒",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五加羊藿酒",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加羊藿酒",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体倦乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加羊藿酒",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢节酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺五加粉",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "刺五加",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "刺五加粉",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜仲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "刺五加粉",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刺五加粉",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下肢痿软无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺五加粉",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《卫生家宝》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "刺五加饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "刺五加",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "刺五加饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "刺五加饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气虚乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺五加饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "少食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺五加饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠健忘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺五加饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《瑞竹堂经验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "刺五加酒",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "刺五加",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "刺五加酒",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风痔血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "刺五加酒",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺五加酒",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿骨痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "刺五加酒",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《本草纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

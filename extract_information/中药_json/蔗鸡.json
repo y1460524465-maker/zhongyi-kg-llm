@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "name": "蔗鸡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60-90g",
+        "indication": "消渴",
+        "origin": "蔗鸡为禾本科植物甘蔗节上所生出的嫩芽。夏季采收。",
+        "processing": "煎汤"
+      }
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "糖尿病",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蔗鸡",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔗鸡",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    }
+  ]
+}

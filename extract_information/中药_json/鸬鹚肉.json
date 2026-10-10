@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "鸬鹚肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5-10g",
+        "effect": "利水消肿",
+        "indication": "水肿腹大",
+        "origin": "《纲目》",
+        "processing": "烧存性，研末",
+        "property_flavor": "寒",
+        "usage": "内服；开水或米饮调服"
+      }
+    },
+    {
+      "name": "水肿腹大",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "利水消肿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸬鹚肉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿腹大",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸬鹚肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸬鹚肉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

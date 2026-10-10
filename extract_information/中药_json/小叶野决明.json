@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "小叶野决明",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热明目",
+        "indication": "目赤肿痛",
+        "usage": "内服：煎汤，30-60g",
+        "property_flavor": "味苦、性寒",
+        "origin": "《新华本草纲要》"
+      }
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小叶野决明",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小叶野决明",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小叶野决明",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《新华本草纲要》",
+      "object_type": "Source"
+    }
+  ]
+}

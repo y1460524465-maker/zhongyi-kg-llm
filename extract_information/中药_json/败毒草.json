@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "败毒草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒，燥湿止痒",
+        "indication": "风毒疮痒，湿疹，带下",
+        "dosage": "根茎9-15g",
+        "usage": "内服：煎汤；外用：全草适量，煎水洗"
+      }
+    },
+    {
+      "name": "风毒疮痒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿疹",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "带下",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "败毒草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒，燥湿止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "败毒草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风毒疮痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "败毒草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "败毒草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    }
+  ]
+}

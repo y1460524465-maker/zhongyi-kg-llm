@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "贯众",
+      "type": "Herb",
+      "attributes": {
+        "alias": "Japanese Flowering Fern Rhizome, Male Fern Rhizome, Cyrtomium Rhizome, Matteuccia Fern Rhizome, Japonica China Fern Rhizome, Oriental Blechnum Fern Rhizome, 止泺, 贯节, 贯渠, 百头, 虎卷, 扁苻, 贯来, 贯中, 渠母, 贯钟, 伯芹, 药渠, 黄钟, 伯萍, 乐藻, 草鸱头, 伯药, 药藻, 凤尾草, 蕨薇菜根, 贯仲, 管仲, 绵马贯仲",
+        "effect": "杀蛔、绦、蛲虫，清热解毒，凉血止血",
+        "indication": "风热感冒，温热斑疹，吐血，衄血，肠风便血，血痢，血崩，带下，疮疡，尿血，月经过多，刀伤出血，蛔虫、饶虫、绦虫病，人工流产，产后出血",
+        "origin": "为鳞毛蕨科植物粗茎鳞毛蕨的根茎及叶柄残基",
+        "processing": "秋季采收，将全株挖起，除去地上部分及须根，洗净，晒干",
+        "property_flavor": "味微涩、苦",
+        "taboo": "阴虚内热及脾胃虚寒者不宜，孕妇慎用",
+        "dosage": "内服：煎汤，5~15g；或入丸、散。外用：适量，研末调涂"
+      }
+    }
+  ],
+  "relations": []
+}

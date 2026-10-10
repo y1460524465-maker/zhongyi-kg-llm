@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "name": "波罗蜜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "生津除烦，解酒醒脾",
+        "indication": "胃阴不足，口中干渴",
+        "usage": "内服：多用鲜品生食，50-100g",
+        "property_flavor": null,
+        "origin": "桑科植物木波罗的果实",
+        "place": "福建、台湾、广东、海南、广西、云南等地有栽培"
+      }
+    },
+    {
+      "name": "木波罗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《广西药植名录》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "波罗蜜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津除烦",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "波罗蜜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解酒醒脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "波罗蜜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃阴不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "波罗蜜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口中干渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "波罗蜜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "波罗蜜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西药植名录》",
+      "object_type": "Source"
+    }
+  ]
+}

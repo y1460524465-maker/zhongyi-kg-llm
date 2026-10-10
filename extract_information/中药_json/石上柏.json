@@ -1,0 +1,365 @@
+{
+  "entities": [
+    {
+      "name": "石上柏",
+      "type": "Herb",
+      "attributes": {
+        "alias": "大叶菜，梭罗草，地梭罗，金龙草，龙鳞草，地侧柏，虾麻叶，锅巴草，岩青，岩扁柏，过路蜈蚣，大凤尾草，地柏草，深绿卷柏",
+        "effect": "清热解毒，祛风利湿",
+        "indication": "肺热咳喘，咽喉肿痛，目赤肿痛，湿热黄疸，热淋涩痛，乳痈肿痛，风湿热痹，水火烫伤",
+        "property_flavor": "苦，寒",
+        "meridian": "肝、胆、肺经",
+        "dosage": "内服：煎汤，10-30g，鲜品倍量。外用：适量，研末敷；或鲜品捣敷",
+        "origin": "本品为卷柏科植物深绿卷柏 Selaginella doederleinii Hieron.的干燥全草。四季可采，洗净晒干。",
+        "place": "生于海拔200-1000m的林下湿地、溪边或石上。分布于西南及安徽、浙江、江西、福建、台湾、湖南、广东、广西等地。",
+        "processing": "将原药除去杂质，喷潮，切短段,干燥，筛去灰屑。",
+        "taboo": null,
+        "traits": "本品呈段状。根极少，纤细，黄褐色。茎较少，扁柱形，具棱，宽约2mm；表面黄绿色至淡黄棕色，有的可见分枝，具稀疏而整齐排列的叶或叶痕。叶为羽状复叶，上表面深绿色，下表面淡绿色，多卷曲，分枝上的小叶有2型：背叶，2列，斜展，覆瓦状排列，卵状矩圆形，长约3mm，宽约2mm，顶端钝，不对称；腹叶小，2列，相互交叉排列，卵圆形，顶端锐尖。孢子囊穗，顶生，四棱形；孢子叶卵状三角形，头渐尖。体轻，质稍韧。气微，味淡。"
+      }
+    },
+    {
+      "name": "肺热咳喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿热黄疸",
+      "type": "Symptom"
+    },
+    {
+      "name": "热淋涩痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳痈肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿热痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "水火烫伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "急性扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "眼结膜炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "刀伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "创伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿",
+      "type": "Disease"
+    },
+    {
+      "name": "癌症",
+      "type": "Disease"
+    },
+    {
+      "name": "肝硬化",
+      "type": "Disease"
+    },
+    {
+      "name": "绒毛膜上皮癌",
+      "type": "Disease"
+    },
+    {
+      "name": "肺癌",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉癌",
+      "type": "Disease"
+    },
+    {
+      "name": "消化道癌症",
+      "type": "Disease"
+    },
+    {
+      "name": "猪瘦肉",
+      "type": "Herb"
+    },
+    {
+      "name": "龙鳞草",
+      "type": "Herb"
+    },
+    {
+      "name": "兔儿菜",
+      "type": "Herb"
+    },
+    {
+      "name": "茶丝麻",
+      "type": "Herb"
+    },
+    {
+      "name": "菊花",
+      "type": "Herb"
+    },
+    {
+      "name": "五爪金英",
+      "type": "Herb"
+    },
+    {
+      "name": "一点红",
+      "type": "Herb"
+    },
+    {
+      "name": "八爪金龙",
+      "type": "Herb"
+    },
+    {
+      "name": "射干",
+      "type": "Herb"
+    },
+    {
+      "name": "千里光",
+      "type": "Herb"
+    },
+    {
+      "name": "蒲公英",
+      "type": "Herb"
+    },
+    {
+      "name": "白花蛇舌草",
+      "type": "Herb"
+    },
+    {
+      "name": "五皮风",
+      "type": "Herb"
+    },
+    {
+      "name": "瘦肉",
+      "type": "Herb"
+    },
+    {
+      "name": "红枣",
+      "type": "Herb"
+    },
+    {
+      "name": "石上柏片",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热解毒，抗癌",
+        "indication": "绒毛膜上皮癌、肺癌、咽喉癌及消化道癌症",
+        "taboo": null,
+        "usage": "口服，成人每次7片，每日3次"
+      }
+    },
+    {
+      "name": "《全国中草药汇编》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热淋涩痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳痈肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿热痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水火烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "眼结膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "刀伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "创伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癌症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝硬化",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏片",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "绒毛膜上皮癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏片",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏片",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏片",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "消化道癌症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石上柏片",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《全国中草药汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石上柏片",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石上柏片",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石上柏",
+      "object_type": "Herb"
+    }
+  ]
+}

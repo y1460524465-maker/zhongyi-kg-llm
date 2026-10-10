@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "桑树根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风通络止痛，降血压",
+        "indication": "惊痫，筋骨痛，高血压，目赤，鹅口疮",
+        "usage": "内服：煎汤，15-30g",
+        "origin": "桑科植物桑Morus alba L.的干燥根",
+        "dosage": "15-30g"
+      }
+    }
+  ],
+  "relations": []
+}

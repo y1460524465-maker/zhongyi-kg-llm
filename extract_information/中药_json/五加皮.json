@@ -1,0 +1,202 @@
+{
+  "entities": [
+    {
+      "name": "五加皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风湿，壮筋骨，活血去瘀",
+        "indication": "风寒湿痹，筋骨挛急，腰痛，阳痿，脚弱，小儿行迟，水肿，脚气，疮疽肿毒，跌打劳伤",
+        "dosage": "内服：煎汤，6~9g，鲜品加倍；浸酒或入丸、散。外用：适量，煎水熏洗或为末敷",
+        "processing": "拣净杂质，用水洗净，稍润后切片，干燥。炒制：取原药材，用微火炒至变色。酒制：将五加皮片与黄酒拌匀，闷润至酒尽时，取出，晾干，每五加皮500g，用黄酒60g，亦可用酒洗",
+        "property_flavor": "味微辣而苦",
+        "origin": "为五加科植物细柱五加Acanthopanax gracilistylus W.W. Smith的干燥根皮",
+        "traits": "本品呈不规则卷筒状，长5～15cm，直径0.4～1.4cm，厚约0.2cm。外表面灰褐色，有稍扭曲的纵皱纹及横长皮孔；内表面淡黄色或灰黄色，有细纵纹。体轻，质脆，易折断，断面不整齐，灰白色。气微香"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《陕西中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《云南中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草述钩元》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风寒湿痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨挛急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿行迟",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疽肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打劳伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "壮筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血去瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陕西中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五加皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《云南中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

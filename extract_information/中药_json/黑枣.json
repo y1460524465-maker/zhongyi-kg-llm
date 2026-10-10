@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "name": "黑枣",
+      "type": "Herb",
+      "attributes": {
+        "origin": "鼠李科植物枣Ziziphus jujuba Mill.经蒸制后的干燥成熟果实",
+        "effect": "补脾胃，调和诸药",
+        "indication": "脾虚食少，体倦乏力，紫癜"
+      }
+    },
+    {
+      "name": "脾虚食少",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "体倦乏力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "紫癜",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黑枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补脾胃，调和诸药",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黑枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾虚食少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑枣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体倦乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑枣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "紫癜",
+      "object_type": "Disease"
+    }
+  ]
+}

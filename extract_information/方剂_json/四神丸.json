@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "四神丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温肾暖脾，涩肠止泻",
+        "indication": "用于命门火衰，脾肾虚寒，五更泄泻或便溏腹痛，腰酸肢冷",
+        "usage": "每次9g，日1-2次，口服",
+        "taboo": "胃肠实热所致的泄泻及腹痛者忌用"
+      }
+    },
+    {
+      "name": "肉豆蔻",
+      "type": "Herb"
+    },
+    {
+      "name": "补骨脂",
+      "type": "Herb"
+    },
+    {
+      "name": "五味子",
+      "type": "Herb"
+    },
+    {
+      "name": "吴茱萸",
+      "type": "Herb"
+    },
+    {
+      "name": "大枣",
+      "type": "Herb"
+    },
+    {
+      "name": "生姜",
+      "type": "Herb"
+    },
+    {
+      "name": "《中国药典》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "补骨脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四神丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四神丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《中国药典》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "四神丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泄泻",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

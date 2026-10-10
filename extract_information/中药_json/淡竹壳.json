@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "name": "淡竹壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "明目退翳",
+        "indication": "目翳",
+        "processing": "鲜用或晾干",
+        "usage": "外用：适量，烧灰研末点眼"
+      }
+    },
+    {
+      "name": "淡竹箨",
+      "type": "Herb",
+      "attributes": {
+        "alias": "淡竹壳"
+      }
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "淡竹壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目退翳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "淡竹壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "淡竹壳",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    }
+  ]
+}

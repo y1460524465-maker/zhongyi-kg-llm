@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "金礞石",
+      "type": "Herb",
+      "attributes": {
+        "effect": "坠痰下气，平肝镇惊，消食攻积",
+        "indication": "顽痰咳喘，癫痫发狂，烦躁胸闷，惊风抽搐，宿食症瘕",
+        "dosage": "内服：入丸、散，3-6g；煎汤，10-15g，布包",
+        "processing": "全年可采，挖出后去掉杂石，除净泥土即得",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": null,
+        "place": "分布于河南、陕西、山西、河北等地",
+        "taboo": null,
+        "traits": "为变质岩类云母片岩的风化物蛭石片岩或水黑云母片岩"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金礞石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "坠痰下气，平肝镇惊，消食攻积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金礞石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "顽痰咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金礞石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癫痫发狂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金礞石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦躁胸闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金礞石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊风抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金礞石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "宿食症瘕",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "name": "灯盏细辛",
+      "type": "Herb",
+      "attributes": {
+        "origin": "菊科植物短葶飞蓬Erigeron breviscapus (Vant.)Hand.-Mazz.的干燥全草",
+        "property_flavor": "辛、微苦，温",
+        "meridian": "归心、肝经",
+        "effect": "散寒解表，祛风除湿，活血活络，止痛",
+        "indication": "感冒头痛，牙痛，胃痛，风湿痹痛，脑血管意外引起的瘫痪，骨髓炎",
+        "usage": "内服，煎汤，9～15g，煎服或研末蒸鸡蛋服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "灯盏细辛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灯盏细辛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灯盏细辛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "灯盏细辛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灯盏细辛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脑血管意外引起的瘫痪",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灯盏细辛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨髓炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灯盏细辛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散寒解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灯盏细辛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灯盏细辛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血活络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灯盏细辛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "name": "吕宋楸毛",
+      "type": "Herb",
+      "attributes": {
+        "effect": "驱虫；通泻",
+        "indication": "用于烂疮、跌打，热水洗脚肿、风湿",
+        "origin": "李承祜《生药学》",
+        "processing": "采下充分成熟的果实，入布袋中，磨擦搓揉抖振，擦落毛茸，拣去果实，收集毛茸，干燥即可",
+        "taboo": "过量可引起中毒，发生恶心，呕吐，强烈下泻",
+        "traits": "腺毛及毛茸呈细粒状、暗红色、浮动性粉末，无臭，无味"
+      }
+    },
+    {
+      "name": "咖马粉",
+      "type": "Formula",
+      "attributes": {
+        "effect": "泻下剂、驱虫剂"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "吕宋楸毛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烂疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吕宋楸毛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "吕宋楸毛",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "吕宋楸毛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "驱虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "吕宋楸毛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "咖马粉",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "泻下剂",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "咖马粉",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "驱虫剂",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {
+      "name": "人工牛黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "用于痰热谵狂，神昏不语，小儿急惊风，咽喉肿痛，口舌生疮，痈肿疔疮",
+        "indication": "痰热谵狂，神昏不语，小儿急惊风，咽喉肿痛，口舌生疮，痈肿疔疮",
+        "place": null,
+        "origin": "牛黄为牛胆汁或猪胆汁经人工提取制成的浅棕色或金黄色粉末。其主要成分有胆红素、胆酸、胆固醇、无机盐等，而人工牛黄是一种牛黄代用品，其制作工艺简单，牛胆粉、胆酸、猪去氧胆酸、牛磺酸、胆红素、胆固醇、微量元素等加工制成。",
+        "property_flavor": null,
+        "dosage": null,
+        "taboo": null,
+        "traits": null,
+        "processing": null,
+        "meridian": null
+      }
+    }
+  ],
+  "relations": []
+}

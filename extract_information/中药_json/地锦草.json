@@ -1,0 +1,254 @@
+{
+  "entities": [
+    {
+      "name": "地锦草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "血见愁草、血见愁、小虫儿卧单、铁线草、普瓣草、血风草、马蚁草、雀儿卧单、猢狲头草、扑地锦、奶花草、奶草、奶汁草、铺地锦、铺地红、红莲草、斑鸠窝、三月黄花、地蓬草、铁线马齿苋、蜈蚣草、奶疳草、红茎草、红斑鸠窝、地马桑、红沙草、凉帽草、小苍蝇翅草、红丝草、小红筋草、莲子草、软骨莲子草、九龙吐珠草、地瓣草、粪脚草、粪触脚、花被单、铺地草被单草、星星草、斑雀草、多叶果、凤凰窝、龙头狮子草",
+        "effect": "清热解毒，活血，止血，利湿，通乳",
+        "indication": "菌痢，肠炎，咳血，吐血，便血，崩漏，外伤出血，湿热黄疸，乳汁不通，痈肿疔疮，跌打肿痛",
+        "meridian": "肺经；肝经；胃经；大肠经；膀胱经",
+        "origin": "大戟科植物地锦或及斑地锦的干燥全草",
+        "dosage": "内服：煎汤，10~15g，鲜者可用15~30g；或入散剂。外用：适量，鲜品捣敷或研末撒。"
+      }
+    },
+    {
+      "name": "菌痢",
+      "type": "Disease"
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿热黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "乳汁不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "感冒咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便血淋",
+      "type": "Symptom"
+    },
+    {
+      "name": "妇女血崩",
+      "type": "Symptom"
+    },
+    {
+      "name": "功能性子宫出血",
+      "type": "Disease"
+    },
+    {
+      "name": "金疮出血不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙齿出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "脾劳黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "奶汁不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "项虎",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疮疔毒肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风疮疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "臁疮烂疮",
+      "type": "Disease"
+    },
+    {
+      "name": "缠腰蛇",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉发炎肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "火眼",
+      "type": "Disease"
+    },
+    {
+      "name": "蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "赤白痢",
+      "type": "Disease"
+    },
+    {
+      "name": "趾间鸡眼",
+      "type": "Disease"
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "菌痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地锦草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通乳",
+      "object_type": "Effect"
+    }
+  ]
+}

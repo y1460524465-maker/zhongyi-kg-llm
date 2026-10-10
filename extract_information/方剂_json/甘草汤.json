@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {
+      "name": "甘草汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "温液汤",
+        "usage": "上一味，以水600毫升，煮取300毫升，去滓。每次温服150毫升，一日二次。"
+      }
+    },
+    {
+      "name": "《千金翼方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甘草汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《千金翼方》",
+      "object_type": "Source"
+    }
+  ]
+}

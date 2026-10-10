@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "大风子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "大枫子、麻风子、驱虫大风子",
+        "effect": "祛风燥湿，攻毒杀虫",
+        "indication": "麻风，疥癣，杨梅疮",
+        "property_flavor": null,
+        "origin": "大风子科植物大风子、海南大风子的成熟种子",
+        "place": "越南、柬埔寨、泰国、马来西亚、印度尼西亚、印度及东南亚其他地区；我国云南地区，台湾、广西有栽培；主产于越南、泰国、马来西亚等地；也产我国云南、台湾、广西等地区",
+        "processing": "大风子：拣净杂质，筛去灰土，用时捣碎，或除去种皮，取净仁。大风子霜：取大风子净仁，碾如泥，或碾碎蒸透，用吸油纸多层包裹，压榨，去尽油，研细过筛。",
+        "dosage": "外用：适量，捣敷；或煅存性研末调敷。内服：入丸、散，一次量0.3~1g。",
+        "taboo": "本品有毒，内服、外用常致恶心，呕吐，胸腹疼痛，严重者可出现溶血，肾炎，肝脂肪变性等病变。内服宜慎。阴虚血热者忌服。",
+        "traits": "种子略呈不规则卵圆形，或带3-4面形，稍有钝棱；长1-2.5cm，直径1-2cm。表面灰棕色至黑棕色，较小一端有凹纹射出至种子1/3处，全体有细的纵纹。种皮坚硬，厚1.5-2mm，内表面浅黄色至黄棕色，与外表面凹纹末端相应处有一棕色圆形环纹。种仁外被红棕色或黑棕色薄膜，较小一端略皱缩，并有一环纹，与种皮内表面圆形环纹相吻合。胚乳肥大，乳白色至淡黄色，富油质；子叶2枚，浅黄色或黄棕色，心脏形；下接圆柱形胚根。气微，味淡，有油性。以个大、种仁饱满、色白、油足者为佳。"
+      }
+    },
+    {
+      "name": "麻风",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "杨梅疮",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大风子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大风子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大风子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "杨梅疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大风子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大风子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "攻毒杀虫",
+      "object_type": "Effect"
+    }
+  ]
+}

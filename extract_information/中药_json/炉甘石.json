@@ -1,0 +1,175 @@
+{
+  "entities": [
+    {
+      "name": "炉甘石",
+      "type": "Herb",
+      "attributes": {
+        "alias": "甘石、卢甘石、芦甘石、羊肝石、浮水甘石、炉眼石、干石",
+        "effect": "解毒，明目退翳，收湿止痒，敛疮",
+        "indication": "目赤肿痛，眼缘赤烂，翳膜胬肉，溃疡不敛，脓水淋漓，湿疮，皮肤瘙痒",
+        "property_flavor": "气无，味微涩",
+        "traits": "不规则的块状，扁平形戌圆形，大小不一，表面白色或淡红色，有凹陷或小孔洞，显粉性。体轻而质松，易碎，断面白色咸淡红色，呈颗粒状，并有细小孔隙，有吸湿性。气无，味微涩。火煅后即成白色或淡黄色的无晶结块或细致粉末。以块大、白色或显淡红色、质轻者为佳。不熔融。在木炭上烧之则生氧化锌之薄膜，热时黄色、冷后则变为白色。热稀盐酸能使其溶解并产生泡沫。",
+        "origin": "碳酸盐类矿物菱锌矿的矿石",
+        "place": "广西、四川、云南、湖南",
+        "dosage": "外用：水飞点眼，研末撒或调敷。本品宜炮制后使用，专作外用，不作内服。",
+        "processing": "炉甘石：拣去杂质，打碎。煅甘石：取净炉甘石，打碎，置坩埚内，在无烟的炉火中煅烧至微红，取出，立即倒入水盆中浸淬，搅拌，倾出混悬液，将石渣晾干，再煅烧3～4次，最后将石渣弃去。取混悬液澄清，倾去清水，将滤出的细粉干燥。黄连水拌甘石：取黄连煎汤，加入上述煅甘石细粉，拌匀并使吸尽，烘干。（每煅甘石细粉100斤，用黄连12斤8两）。"
+      }
+    },
+    {
+      "name": "目赤翳障",
+      "type": "Disease"
+    },
+    {
+      "name": "烂弦风眼",
+      "type": "Disease"
+    },
+    {
+      "name": "溃疡不敛",
+      "type": "Disease"
+    },
+    {
+      "name": "皮肤湿疮",
+      "type": "Disease"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "眼缘赤烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "翳膜胬肉",
+      "type": "Symptom"
+    },
+    {
+      "name": "脓水淋漓",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "明目退翳",
+      "type": "Effect"
+    },
+    {
+      "name": "收湿止痒",
+      "type": "Effect"
+    },
+    {
+      "name": "敛疮",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目赤翳障",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烂弦风眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "溃疡不敛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤湿疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眼缘赤烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "翳膜胬肉",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脓水淋漓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目退翳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收湿止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "炉甘石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛疮",
+      "object_type": "Effect"
+    }
+  ]
+}

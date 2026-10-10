@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "name": "牛骨",
+      "type": "Herb",
+      "attributes": {
+        "effect": "蠲痹，截疟，敛疮",
+        "indication": "关节炎，泻痢，疟疾，疳疮",
+        "usage": "内服：烧存性入散剂，3-5g。外用：适量，烧存性调敷",
+        "origin": "牛科动物黄牛或水牛的骨骼"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛骨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "蠲痹",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛骨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "截疟",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛骨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泻痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳疮",
+      "object_type": "Disease"
+    }
+  ]
+}

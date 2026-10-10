@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "长瓦韦",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利尿，祛湿通络，消肿止血，解硫黄毒",
+        "indication": "淋病，尿血，痢疾，痨热咳嗽，内伤吐血，金疮",
+        "dosage": "9~15克",
+        "usage": "内服：煎汤",
+        "origin": "水龙骨科植物长瓦韦的全草",
+        "place": "四川、云南"
+      }
+    },
+    {
+      "name": "淋病",
+      "type": "Disease"
+    },
+    {
+      "name": "尿血",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "痨热咳嗽",
+      "type": "Disease"
+    },
+    {
+      "name": "内伤吐血",
+      "type": "Disease"
+    },
+    {
+      "name": "金疮",
+      "type": "Disease"
+    },
+    {
+      "name": "白浊",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "长瓦韦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长瓦韦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长瓦韦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长瓦韦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痨热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长瓦韦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "内伤吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长瓦韦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "金疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长瓦韦",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白浊",
+      "object_type": "Disease"
+    }
+  ]
+}

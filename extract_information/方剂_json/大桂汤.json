@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "大桂汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温补中焦。鼓动正气，降逆除满。",
+        "indication": "胸膈腹部满闷虚胀不舒，恶心眩晕，心悸呕吐等。",
+        "usage": "上(口父)咀。以水1斗半，煮取5升，分5服，日3夜2。"
+      }
+    },
+    {
+      "name": "桂心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1斤"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1升"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1斤"
+      }
+    },
+    {
+      "name": "黄耆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大桂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大桂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大桂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大桂汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄耆",
+      "object_type": "Herb"
+    }
+  ]
+}

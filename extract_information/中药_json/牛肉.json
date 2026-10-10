@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "name": "牛肉",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "味甘；水牛肉性凉；黄牛肉性温",
+        "effect": "补脾胃，益气血，强筋骨",
+        "indication": "脾胃虚弱，气血不足，虚劳赢瘦，腰膝酸软，消渴，吐泻，痞积，水肿",
+        "usage": "内服：煮食、煎汁，适量，或入丸剂。外用：适量，生裹或作丸摩",
+        "taboo": "牛自死、病死者，禁食其肉"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补脾胃，益气血，强筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气血不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳赢瘦",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰膝酸软",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痞积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    }
+  ]
+}

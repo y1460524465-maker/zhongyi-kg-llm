@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "瓜蒌皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "润肺化痰，利气宽胸",
+        "indication": "主治痰热咳嗽，咽痛，胸痛，吐血，衄血，消渴，便秘，痈疮肿毒",
+        "taboo": "脾虚湿痰不宜。不宜与乌头类药材同用",
+        "dosage": "内服：煎汤，9-12g；或入散剂。外用：适量，烧存性研末调敷",
+        "origin": "葫芦科植物栝楼Trichosanthes kirilowii Maxim. 或双边栝楼Trichosanthes rosthornii Harms 的干燥成熟果皮"
+      }
+    }
+  ],
+  "relations": []
+}

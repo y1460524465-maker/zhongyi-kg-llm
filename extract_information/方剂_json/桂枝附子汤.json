@@ -1,0 +1,148 @@
+{
+  "entities": [
+    {
+      "name": "桂枝附子汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "祛风温经，助阳化湿",
+        "indication": "伤寒8-9日，风湿相搏，身体疼烦，不能自转侧，不呕不渴，脉浮虚而涩者。恶寒发热，四肢掣痛，难以屈伸，或心下悸，或脐下悸",
+        "usage": "以水6升，煮取2升，去滓温服，日3次"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3枚"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12枚"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛风温经，助阳化湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身体疼烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不能自转侧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶寒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢掣痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "难以屈伸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心下悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脐下悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/桂枝附子汤",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "name": "牛角腮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "止血化痢",
+        "indication": "便血，衄血，妇女崩漏，带下，赤白痢，水泻",
+        "origin": "牛科动物黄牛或水牛角中的骨质角髓",
+        "place": "主产江苏",
+        "processing": "生牛角腮：牛角腮洗净后，劈成小条，日晒夜露至无腥为度，再晒干。炒牛角鳃：先将砂子入锅炒热，再入生牛角鳃拌炒至黄色为度，取出、筛去砂子，放凉即可。",
+        "property_flavor": "味淡",
+        "traits": "呈圆锥形，微弯，中空，基部较粗，上部渐尖，长约15厘米，底部径约5厘米。外表粗糙，灰白色或灰黄色，满布骨质细孔，并有少数浅纵沟。质坚硬。横切面中空，外壁厚约6毫米，灰白色，较细致，内层有粗大髓样组织。气微腥，味淡。以干净，无头爿骨，形状粗短者为佳。",
+        "dosage": "内服：煎汤，3~9 g；或入散剂。"
+      }
+    },
+    {
+      "name": "牛角腮散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治妇人崩中下血不止",
+        "usage": "不计时候，以热酒调下二钱"
+      }
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《近效方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《塞上方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《肘后方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛角腮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血化痢",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛角腮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛角腮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛角腮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛角腮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛角腮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤白痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛角腮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛角腮散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牛角腮散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人崩中下血不止",
+      "object_type": "Disease"
+    }
+  ]
+}

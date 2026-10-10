@@ -1,0 +1,21 @@
+{
+  "entities": [
+    {
+      "name": "半枝莲",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，解毒，散瘀，止血，定痛",
+        "indication": "吐血，衄血，血淋，赤痢，黄疸，咽喉疼痛，肺痈，疔疮，瘰疬，疮毒，癌肿，跌打刀伤，蛇咬伤",
+        "taboo": "血虚者不宜，孕妇慎服",
+        "dosage": "内服：煎汤，15~30g，鲜品加倍，或入丸、散。外用：适量，鲜品捣敷",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "唇形科植物半枝莲的干燥地上部分",
+        "place": "华东、华南、西南有河北、陕西南部、湖南、湖北、湖南",
+        "processing": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": []
+}

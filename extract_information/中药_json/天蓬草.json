@@ -1,0 +1,123 @@
+{
+  "entities": [
+    {
+      "name": "天蓬草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "雀舌草、雪里花、吴檀、寒草、金线吊葫芦、瓜子草、指甲草、雪里开花、滨繁缕",
+        "effect": "祛风除湿，活血消肿，解毒止血",
+        "indication": "伤风感冒，泄泻，痢疾，风湿骨痛，跌打损伤，骨折，痈疮肿毒，痔漏，毒蛇咬伤，吐血，衄血，外伤出血",
+        "usage": "内服：煎汤，30～60克。外用：适量，捣敷；或研末调敷。",
+        "origin": "石竹科植物雀舌草的全草",
+        "processing": "春至秋初采，洗净，鲜用或晒干"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤风感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿骨痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天蓬草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

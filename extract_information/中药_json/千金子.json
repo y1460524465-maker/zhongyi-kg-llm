@@ -1,0 +1,168 @@
+{
+  "entities": [
+    {
+      "name": "千金子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "千两金、菩萨豆、续随子、拒冬实、联步、拒冬子、滩板救、看园老、百药解、千金药解、小巴豆",
+        "origin": "大戟科植物续随子Euphorbia lathyris L. 的干燥成熟种子",
+        "place": "黑龙江、吉林、辽宁、河北、山西、江苏、浙江、福建、台湾、河南、湖南、广西、四川、贵州、云南等地",
+        "processing": "筛去灰屑，拣去杂质，去壳取仁。千金霜：取拣净的千金子，搓去壳，碾碎，置蒸器内蒸透，用吸油纸包裹，压榨至油尽，碾细，过筛。",
+        "property_flavor": "辛",
+        "meridian": "肺经、胃经、膀胱经",
+        "effect": "逐水消肿，破癥杀虫。具抗肿瘤作用。",
+        "indication": "水肿胀满，痰饮，宿滞，癥瘕积聚；妇女经闭；疥癣疮毒，蛇咬，疣赘。",
+        "dosage": "内服：1～2g；去壳，去油用，多入丸散服。外用：适量，捣烂敷患处。",
+        "taboo": "中气不足，大便溏泄及孕妇忌服。"
+      }
+    },
+    {
+      "name": "水肿胀满",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰饮",
+      "type": "Symptom"
+    },
+    {
+      "name": "宿滞",
+      "type": "Symptom"
+    },
+    {
+      "name": "癥瘕积聚",
+      "type": "Disease"
+    },
+    {
+      "name": "经闭",
+      "type": "Symptom"
+    },
+    {
+      "name": "疥癣疮毒",
+      "type": "Disease"
+    },
+    {
+      "name": "蛇咬",
+      "type": "Symptom"
+    },
+    {
+      "name": "疣赘",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰饮积滞胀满",
+      "type": "Symptom"
+    },
+    {
+      "name": "二便不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "血瘀闭经",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰饮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "宿滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕积聚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇咬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疣赘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "逐水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破癥杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰饮积滞胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "二便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "千金子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血瘀闭经",
+      "object_type": "Disease"
+    }
+  ]
+}

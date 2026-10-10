@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "辣椒",
+      "type": "Herb",
+      "attributes": {
+        "alias": "番椒、辣茄、辣虎、腊茄、海椒、辣角、鸡嘴椒、红海椒、辣子、牛角椒、大椒、七姐妹、班椒",
+        "effect": "温中散寒，开胃消食",
+        "indication": "寒滞腹痛，呕吐，泻痢，冻疮",
+        "taboo": "阴虚火旺及患咳嗽、目疾者忌服",
+        "property_flavor": "辛辣",
+        "processing": "夏、秋二季果皮变红色时采收,除去枝梗,晒干",
+        "traits": "干燥成熟的果实，带有宿萼及果柄。果皮带革质，干缩而薄，外表鲜红色或红棕色，有光泽。内部空，由中隔分隔成2～3室，中轴胎座，每室有多数黄色的种子；种子扁平，呈肾形或圆形，直径达5毫米。气特殊，具催嚏性，味辛辣如灼",
+        "dosage": "内服：入丸、散，0.9~2.4克。外用：煎水熏洗或捣敷"
+      }
+    },
+    {
+      "name": "寒滞腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom"
+    },
+    {
+      "name": "泻痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "冻疮",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "辣椒",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中散寒，开胃消食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "辣椒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒滞腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "辣椒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "辣椒",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "辣椒",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "冻疮",
+      "object_type": "Disease"
+    }
+  ]
+}

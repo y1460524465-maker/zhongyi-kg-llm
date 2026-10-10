@@ -1,0 +1,113 @@
+{
+  "entities": [
+    {
+      "name": "大豆黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，健脾益气",
+        "indication": "湿痹，关节痛，脾虚食少，胃脘闷，阴囊湿痒",
+        "dosage": "内服：煎汤，6-15g；或研末。外用：适量，研末捣敷",
+        "origin": "为豆科植物大豆Glycine max（L.）Merr.的黑色种子蒸罨加工而成",
+        "property_flavor": null,
+        "meridian": null,
+        "traits": null,
+        "processing": "用黑大豆一斗，蒸熟，铺席上，以蒿覆之，如盫酱法，待上黄，取出晒干，捣末收用",
+        "place": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "湿痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "关节痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脾虚食少",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃脘闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "阴囊湿痒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大豆黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大豆黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大豆黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾虚食少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大豆黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃脘闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大豆黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴囊湿痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大豆黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿，健脾益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大豆黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大豆黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《千金方》",
+      "object_type": "Source"
+    }
+  ]
+}

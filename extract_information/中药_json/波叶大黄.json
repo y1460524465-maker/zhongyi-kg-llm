@@ -1,0 +1,157 @@
+{
+  "entities": [
+    {
+      "name": "波叶大黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "泻热解毒，凉血行瘀",
+        "indication": "湿热黄疸，痢疾，经闭腹痛，吐血，衄血，跌打瘀痛，痈肿疔毒，口舌糜烂，烧烫伤",
+        "property_flavor": "苦，寒",
+        "dosage": "内服：煎汤，3-10g；或研末。外用：适量，研末撒；或调敷。",
+        "taboo": "体虚及胎前、产后忌用。",
+        "origin": "《东北常用中草药手册》"
+      }
+    },
+    {
+      "name": "《东北常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《内蒙古中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《中国沙漠地区药用植物》",
+      "type": "Source"
+    },
+    {
+      "name": "湿热黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "经闭腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打瘀痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿疔毒",
+      "type": "Disease"
+    },
+    {
+      "name": "口舌糜烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻热解毒，凉血行瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打瘀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疔毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌糜烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《东北常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《内蒙古中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "波叶大黄",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国沙漠地区药用植物》",
+      "object_type": "Source"
+    }
+  ]
+}

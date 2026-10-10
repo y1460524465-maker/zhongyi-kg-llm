@@ -1,0 +1,168 @@
+{
+  "entities": [
+    {
+      "name": "九仙散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "敛肺止咳益气阴",
+        "indication": "久咳肺虚证。久咳不已，咳甚则气喘自汗，痰少而粘，脉虚数。",
+        "taboo": "嗽住止后服",
+        "usage": "上为末，每服三钱（9g），白汤点服"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "款冬花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桑白皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "乌梅",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "贝母",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "罂粟壳",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "支气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "支气管哮喘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "百日咳",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑白皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌梅",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "罂粟壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "支气管哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九仙散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/九仙散",
+      "object_type": "Source"
+    }
+  ]
+}

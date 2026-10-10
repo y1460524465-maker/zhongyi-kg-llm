@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "name": "牡蛎散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "益气固表，敛阴止汗",
+        "indication": "体虚自汗或盗汗",
+        "taboo": null,
+        "usage": "前三味为粗末，每服9克，浮小麦同煎；也可作汤剂，水煎服，用量按病情酌定"
+      }
+    },
+    {
+      "name": "煅牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "敛阴止汗镇惊",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "益气固表",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麻黄根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "专于止汗",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "浮小麦",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": "敛心阴，止虚汗",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牡蛎散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/牡蛎散",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡蛎散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "煅牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牡蛎散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牡蛎散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牡蛎散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "浮小麦",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牡蛎散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "体虚自汗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡蛎散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "盗汗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "体虚自汗",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "夜卧尤甚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "体虚自汗",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心悸惊惕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "体虚自汗",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "短气烦倦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "体虚自汗",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌质淡红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "体虚自汗",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉细弱",
+      "object_type": "Symptom"
+    }
+  ]
+}

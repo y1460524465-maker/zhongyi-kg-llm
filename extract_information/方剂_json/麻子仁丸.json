@@ -1,0 +1,124 @@
+{
+  "entities": [
+    {
+      "name": "麻子仁丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "麻仁丸",
+        "effect": "润肠通便",
+        "indication": "肠胃燥热，津液不足。大便干结，小便频数。常用于虚人及老人肠燥便秘、习惯性便秘、产后便秘、痔疮术后便秘等属胃肠燥热者",
+        "taboo": "津亏血少者，不宜常服，孕妇慎用。如属纯由血少津亏引起的便秘，则不宜使用",
+        "usage": "上六味，蜜和丸，如梧桐子大，饮服十丸，日三服，渐加，以知为度。现代用法：上药为末，炼蜜为丸，每次9克，1～2次，温开水送服。亦可按原方用量比例酌减，改汤剂煎服"
+      }
+    },
+    {
+      "name": "火麻仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麻子仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "火麻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻子仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻子仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻子仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻子仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻子仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻子仁丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "润肠通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麻子仁丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠胃燥热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻子仁丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻子仁丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便干结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻子仁丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    }
+  ]
+}

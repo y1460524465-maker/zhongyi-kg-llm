@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "name": "八宝茶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛瘀调经，通络止痛",
+        "usage": "内服：煎汤，3-9g；或浸酒。外用：适量，煎汤熏洗",
+        "indication": "月经不调，产后瘀阴腹痛，跌打肿痛，半身不遂"
+      }
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease"
+    },
+    {
+      "name": "产后瘀阴腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "半身不遂",
+      "type": "Symptom"
+    },
+    {
+      "name": "活血",
+      "type": "Effect"
+    },
+    {
+      "name": "破瘀",
+      "type": "Effect"
+    },
+    {
+      "name": "《青海中草药名录》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "八宝茶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八宝茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后瘀阴腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八宝茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八宝茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "半身不遂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八宝茶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛瘀调经，通络止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "八宝茶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《青海中草药名录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枝条",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枝条",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破瘀",
+      "object_type": "Effect"
+    }
+  ]
+}

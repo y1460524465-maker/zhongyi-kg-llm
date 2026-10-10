@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "西瓜霜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，消肿止痛",
+        "indication": "咽喉肿痛，喉痹，口疮，牙龈肿痛或出血",
+        "property_flavor": "咸，寒",
+        "meridian": "肺、胃、大肠经",
+        "usage": "外用：研末吹喉。0.5～1.5g",
+        "taboo": "阴虚白喉忌用"
+      }
+    }
+  ],
+  "relations": []
+}

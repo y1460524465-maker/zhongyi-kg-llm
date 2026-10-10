@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "布渣叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蓑衣子，破布叶，麻布叶，烂布渣，布包木，破布树，薢宝叶",
+        "effect": "消食化滞，清热利湿",
+        "indication": "饮食积滞，感冒发热，湿热黄疸，消化不良，腹泻",
+        "property_flavor": "微酸，凉",
+        "meridian": "脾、胃经",
+        "dosage": "内服：煎汤，15~30克，鲜者30~60克",
+        "processing": "夏、秋二季采收，除去枝梗和杂质，阴干或晒干",
+        "origin": "椴树科植物破布叶Microcos paniculataL．的干燥叶"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "消化不良",
+      "type": "Disease"
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "蜈蚣咬伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "饮食积滞",
+      "type": "Symptom"
+    },
+    {
+      "name": "感冒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿热黄疸",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹胀",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "布渣叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "布渣叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消化不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "布渣叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "布渣叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蜈蚣咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "布渣叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "饮食积滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "布渣叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "布渣叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "布渣叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "布渣叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食化滞，清热利湿",
+      "object_type": "Effect"
+    }
+  ]
+}

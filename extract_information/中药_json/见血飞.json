@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "name": "见血飞",
+      "type": "Herb",
+      "attributes": {
+        "alias": "散血飞、黄椒、刺三加、红三百棒",
+        "effect": "祛风散寒，散瘀定痛，止血生肌",
+        "indication": "风寒湿痹，风寒咳嗽，跌打损伤，瘀血肿痛，外伤出血",
+        "dosage": "内服：煎汤，9-30g；或研末，或浸酒。外用：适量，捣敷；或研粉撒",
+        "origin": "芸香科植物刺异叶花椒的根或根皮",
+        "property_flavor": "味微苦",
+        "traits": "根圆柱形略弯曲，长短不一，直径0.8-3cm。表面灰黄色至黄棕色，具浅纵沟，色较深。质坚硬，折断时栓皮易碎，外侧黄棕色，内侧橙黄色；横断面皮部深棕色，木部淡黄色。气特异，麻舌"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "见血飞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "见血飞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "见血飞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "见血飞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘀血肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "见血飞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

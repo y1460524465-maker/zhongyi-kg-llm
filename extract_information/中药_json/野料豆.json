@@ -1,0 +1,479 @@
+{
+  "entities": [
+    {
+      "name": "野料豆",
+      "type": "Herb",
+      "attributes": {
+        "alias": "零乌豆、马料豆、细黑豆、稽豆、料豆、马豆",
+        "effect": "补益肝肾，祛风解毒",
+        "indication": "阴亏目昏，肾虚腰痛，盗汗，筋骨疼痛，产后风痉，小儿疳疾",
+        "taboo": "能滑肠动泄，脾胃虚滑者，忌之",
+        "usage": "内服：煎汤，9～15克；或入丸、散",
+        "origin": "豆科植物崂豆的种子"
+      }
+    },
+    {
+      "name": "阴亏目昏",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾虚腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "筋骨疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后风痉",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿疳疾",
+      "type": "Disease"
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经解》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《沈氏效方》",
+      "type": "Source"
+    },
+    {
+      "name": "《百草镜》",
+      "type": "Source"
+    },
+    {
+      "name": "《事亲述见》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source"
+    },
+    {
+      "name": "《上海常用中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "妊娠腰痛酸软",
+      "type": "Symptom"
+    },
+    {
+      "name": "目昏",
+      "type": "Symptom"
+    },
+    {
+      "name": "老眼失明",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后中风",
+      "type": "Disease"
+    },
+    {
+      "name": "痞积",
+      "type": "Disease"
+    },
+    {
+      "name": "肝疳初起",
+      "type": "Disease"
+    },
+    {
+      "name": "阴症手足紫黑",
+      "type": "Symptom"
+    },
+    {
+      "name": "中附子、川乌、天雄、斑蝥毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "解内热消渴",
+      "type": "Effect"
+    },
+    {
+      "name": "止阴虚盗汗",
+      "type": "Effect"
+    },
+    {
+      "name": "补肾",
+      "type": "Effect"
+    },
+    {
+      "name": "生研涂痈肿",
+      "type": "Effect"
+    },
+    {
+      "name": "平肝火",
+      "type": "Effect"
+    },
+    {
+      "name": "治黄白疸",
+      "type": "Effect"
+    },
+    {
+      "name": "补五脏，益中，助十二经脉，调中，暖肠胃，舒筋",
+      "type": "Effect"
+    },
+    {
+      "name": "壮筋骨，止盗汗，补肾活血，明目益精",
+      "type": "Effect"
+    },
+    {
+      "name": "健脾除风，利湿消肿",
+      "type": "Effect"
+    },
+    {
+      "name": "养肺平肝，清头目",
+      "type": "Effect"
+    },
+    {
+      "name": "平肝，明目，又有强壮作用",
+      "type": "Effect"
+    },
+    {
+      "name": "治头晕目花",
+      "type": "Effect"
+    },
+    {
+      "name": "肾虚腰痛，并治阴亏目昏",
+      "type": "Disease"
+    },
+    {
+      "name": "明目补肾",
+      "type": "Effect"
+    },
+    {
+      "name": "治阴亏目昏，老眼失明",
+      "type": "Disease"
+    },
+    {
+      "name": "治盗汗",
+      "type": "Disease"
+    },
+    {
+      "name": "治产后中风，口噤目瞪，角弓反张",
+      "type": "Disease"
+    },
+    {
+      "name": "开胃消食，健脾补肾",
+      "type": "Effect"
+    },
+    {
+      "name": "治肝疳初起",
+      "type": "Disease"
+    },
+    {
+      "name": "治阴症手足紫黑",
+      "type": "Disease"
+    },
+    {
+      "name": "解中附子、川乌、天雄、斑蝥毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴亏目昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后风痉",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经解》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《沈氏效方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《百草镜》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《事亲述见》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮片新参》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《上海常用中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补益肝肾，祛风解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解内热消渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止阴虚盗汗",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生研涂痈肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "治黄白疸",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补五脏，益中，助十二经脉，调中，暖肠胃，舒筋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "壮筋骨，止盗汗，补肾活血，明目益精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾除风，利湿消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养肺平肝，清头目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝，明目，又有强壮作用",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "治头晕目花",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妊娠腰痛酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "老眼失明",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痞积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝疳初起",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴症手足紫黑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "野料豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中附子、川乌、天雄、斑蝥毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

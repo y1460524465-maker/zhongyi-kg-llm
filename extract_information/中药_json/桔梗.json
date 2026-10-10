@@ -1,0 +1,225 @@
+{
+  "entities": [
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "alias": "符蔰、利如、梗草、卢茹、房图、荠世纪、苦梗、苦桔梗、大药",
+        "effect": "开宣肺气，祛痰排脓",
+        "indication": "外感咳嗽，咽喉肿痛，肺痈吐脓，胸满胁痛，痢疾腹痛",
+        "usage": "内服：煎汤，3~10g；或入丸、散。外用：适量，烧灰研末敷。",
+        "taboo": "阴虚久嗽、气逆及咳血者忌服。下虚及怒气上升者不宜。阴虚久嗽不宜用，以其通阳泄气也。"
+      }
+    },
+    {
+      "name": "桔梗汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治肺痈，咳而胸满，振寒脉数，咽干不渴，时出浊唾腥臭，久久吐脓如米粥者",
+        "usage": "桔梗一两，甘草二两。上二味，以水三升，煮取一升，分温再服，则吐脓血也。"
+      }
+    },
+    {
+      "name": "白散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治寒实结胸，无热证者",
+        "usage": "桔梗三分，巴豆一分（去皮、心，熬黑，研如脂），贝母三分。上三味为散，以白饮和服，强人半钱匕，羸者减之。病在膈上必吐，在膈下必利，不利，进热粥一杯，利过不止，进冷粥一杯。"
+      }
+    },
+    {
+      "name": "枳壳汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治伤寒痞气，胸满欲死",
+        "usage": "桔梗、枳壳（炙，去穰）各一两。上锉如米豆大，用水一升半，煎减半，去滓，分二服。"
+      }
+    },
+    {
+      "name": "桔梗半夏汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治伤寒腹胀（阴阳不和）",
+        "usage": "桔梗、半夏、陈皮各三钱，生姜五片，煎水二杯，成一杯服。"
+      }
+    },
+    {
+      "name": "桔梗丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治眼睛痛，眼发黑",
+        "usage": "桔梗一斤、黑牵牛头三两，共研细，加蜜成丸，如梧子大。每服四十丸，温水送下。一天服二次。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桔梗",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开宣肺气，祛痰排脓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桔梗",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外感咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桔梗",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桔梗",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺痈吐脓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桔梗",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸满胁痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桔梗",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桔梗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桔梗汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒实结胸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枳壳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳壳汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枳壳汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒痞气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桔梗半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桔梗半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桔梗半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桔梗半夏汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒腹胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桔梗丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桔梗丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牵牛子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桔梗丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眼睛痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桔梗丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眼发黑",
+      "object_type": "Symptom"
+    }
+  ]
+}

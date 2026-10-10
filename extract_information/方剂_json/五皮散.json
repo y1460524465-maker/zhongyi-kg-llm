@@ -1,0 +1,244 @@
+{
+  "entities": [
+    {
+      "name": "五皮散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治疗皮水",
+        "indication": "一身悉肿，心腹胀满，小便不利",
+        "taboo": "忌食生冷油腻硬物",
+        "usage": "上为粗末，每服三钱，水一盏半，煎至八分，去渣，不计时候温服"
+      }
+    },
+    {
+      "name": "生姜皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桑白皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈橘皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "大腹皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茯苓皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "皮水",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肾炎水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "心源性水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "妊娠水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "一身悉肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心腹胀满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肢体沉重",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "上气喘急",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔白腻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉沉缓",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑白皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈橘皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大腹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "皮水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心源性水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "一身悉肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体沉重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "上气喘急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "苔白腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五皮散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉沉缓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皮水",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "一身悉肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皮水",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "肢体沉重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皮水",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皮水",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "上气喘急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皮水",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    }
+  ]
+}

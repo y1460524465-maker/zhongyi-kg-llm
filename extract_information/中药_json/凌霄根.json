@@ -1,0 +1,117 @@
+{
+  "entities": [
+    {
+      "name": "凌霄根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "紫威根, 凌霄花根, 紫葳根",
+        "effect": "凉血祛风，活血通络",
+        "indication": "血热生风，身痒，风疹，腰脚不遂，痛风，风湿痹痛；跌打损伤",
+        "usage": "内服：煎汤，6~9g；入丸、散或浸酒",
+        "taboo": "妊娠不可服"
+      }
+    },
+    {
+      "name": "《品汇精要》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "苏医《中草药手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血祛风，活血通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血热生风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰脚不遂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《品汇精要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "凌霄根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "苏医《中草药手册》",
+      "object_type": "Source"
+    }
+  ]
+}

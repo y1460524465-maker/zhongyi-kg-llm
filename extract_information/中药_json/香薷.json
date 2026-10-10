@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "name": "香薷",
+      "type": "Herb",
+      "attributes": {
+        "alias": "香茅、香绒、石香茅、石香薷、香茸、紫花香茅、蜜蜂草、香薷、细叶香薷、小香薷、小叶香薷、满山香、青香薷、香茹草、土香薷、土香草、石艾",
+        "origin": "为唇形科植物江香薷或华荠苎的带根全草或地上部分",
+        "processing": "拣去杂质，用水喷润后，除去残根，切段，晒干即得",
+        "property_flavor": "味微辛而凉",
+        "traits": "气清香而浓",
+        "effect": "发汗解暑，行水散湿，温胃调中",
+        "indication": "夏月感寒饮冷，头痛发热，恶寒无汗，胸痞腹痛，呕吐腹泻，水肿，脚气",
+        "dosage": "内服：煎汤，3~9g；或入丸、散，或煎汤含漱",
+        "taboo": "1.《本草从新》：无表邪者戒之。\n2.《得配本草》：火盛气虚，阴虚有热者禁用。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶寒无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痞腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐腹泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "发汗解暑",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行水散湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温胃调中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "别录",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "日华子本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "履巉岩本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草衍义补遗",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "滇南本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "纲目",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草从新",
+      "object_type": "Source"
+    },
+    {
+      "subject": "香薷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "得配本草",
+      "object_type": "Source"
+    }
+  ]
+}

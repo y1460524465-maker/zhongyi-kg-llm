@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "合欢花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3~9g",
+        "effect": "解郁安神，理气开胃，消风明目，活血止痛",
+        "indication": "忧郁失眠，健忘，胸闷纳呆，风火眼疾，视物不清，腰痛，跌打伤痛",
+        "taboo": null,
+        "traits": null,
+        "origin": "豆科植物合欢的花或花蕾",
+        "place": "华东、华南、西南及辽宁、河北、河南、陕西",
+        "processing": "6月花初开时采的花，商品称合欢花，花未开时采的花蕾，商品称合欢米，除去枝叶，晒干",
+        "property_flavor": null,
+        "meridian": null
+      }
+    },
+    {
+      "name": "忧郁失眠",
+      "type": "Symptom"
+    },
+    {
+      "name": "健忘",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸闷纳呆",
+      "type": "Symptom"
+    },
+    {
+      "name": "风火眼疾",
+      "type": "Symptom"
+    },
+    {
+      "name": "视物不清",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打伤痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "心肾不交失眠",
+      "type": "Disease"
+    },
+    {
+      "name": "打搕损疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰脚疼痛久不差",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "合欢花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "忧郁失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "合欢花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "健忘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "合欢花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷纳呆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "合欢花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风火眼疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "合欢花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "视物不清",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "合欢花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "合欢花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打伤痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "合欢花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解郁安神，理气开胃，消风明目，活血止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

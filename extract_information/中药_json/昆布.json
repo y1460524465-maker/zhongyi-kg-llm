@@ -1,0 +1,268 @@
+{
+  "entities": [
+    {
+      "name": "昆布",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5~15g",
+        "effect": "软坚散结，消痰，利水",
+        "indication": "瘿瘤，瘰疬，睾丸肿痛，痰饮水肿，噎膈，带下",
+        "meridian": "肝经；胃经；肾经；脾经",
+        "property_flavor": "咸",
+        "taboo": "胃虚者慎服，妊娠亦不可服"
+      }
+    },
+    {
+      "name": "海带",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "咸"
+      }
+    },
+    {
+      "name": "裙带菜",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "咸"
+      }
+    },
+    {
+      "name": "海藻",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "《肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "通草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "羊靥",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "海蛤壳",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "瘿瘤",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "噎膈",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "睾丸肿痛",
+      "type": "Disease"
+    },
+    {
+      "name": "带下",
+      "type": "Disease"
+    },
+    {
+      "name": "痰饮水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "气臌水胀",
+      "type": "Disease"
+    },
+    {
+      "name": "癫疝",
+      "type": "Disease"
+    },
+    {
+      "name": "恶疮",
+      "type": "Disease"
+    },
+    {
+      "name": "痰饮",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "甲状腺肿",
+      "type": "Disease"
+    },
+    {
+      "name": "湿性脚气",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "噎膈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "睾丸肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰饮水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气臌水胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰饮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "甲状腺肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿性脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "软坚散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "《肘后方》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "昆布",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "海带",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "裙带菜",
+      "object_type": "Herb"
+    }
+  ]
+}

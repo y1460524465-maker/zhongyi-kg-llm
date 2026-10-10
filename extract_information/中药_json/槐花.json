@@ -1,0 +1,143 @@
+{
+  "entities": [
+    {
+      "name": "槐花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "金药树、护房树、豆槐、槐米",
+        "effect": "凉血止血，清肝泻火。治肠风便血，痔血，尿血，血淋，崩漏，衄血，赤白痢下，风热目赤，痈疽疮毒。并用于预防中风。",
+        "indication": "肠风便血，痔血，尿血，血淋，崩漏，衄血，赤白痢下，风热目赤，痈疽疮毒。并用于预防中风。",
+        "meridian": "肝经；肺经；心经；大肠经",
+        "property_flavor": "微苦",
+        "processing": "槐花炭：将净槐花入锅内，炒至焦黑色，存性，略喷清水，取出晾干。",
+        "dosage": "内服：煎汤，5~10g；或入丸、散。外用：适量，煎水熏洗；或研末撒。"
+      }
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医学启源》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草正》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草求真》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《东北药植志》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肝泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤白痢下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风热目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疽疮毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风",
+      "object_type": "Disease"
+    }
+  ]
+}

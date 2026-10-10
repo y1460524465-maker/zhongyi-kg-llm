@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "水莎草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15-30g",
+        "effect": "止咳化痰",
+        "indication": "慢性支气管炎"
+      }
+    },
+    {
+      "name": "聚穗莎草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": null,
+        "indication": null
+      }
+    },
+    {
+      "name": "慢性气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性支气管炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水莎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水莎草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水莎草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性支气管炎",
+      "object_type": "Disease"
+    }
+  ]
+}

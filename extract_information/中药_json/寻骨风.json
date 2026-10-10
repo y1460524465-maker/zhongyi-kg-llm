@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "寻骨风",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风湿，通经络，止痛",
+        "indication": "风湿关节痛，腹痛，疟疾，痈肿",
+        "dosage": "9~15g",
+        "taboo": "不宜大量或长期服用，肾病患者忌用，阴虚内热者忌用",
+        "origin": "为马兜铃科植物绵毛马兜铃的根茎或全草",
+        "property_flavor": null,
+        "meridian": null,
+        "processing": "5月开花前采收，晒干",
+        "traits": null,
+        "place": "主产江苏、浙江、江西、湖北、河南、陕西亦产"
+      }
+    },
+    {
+      "name": "饮片新参",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "南京民间药草",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "江西民间草药",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "寻骨风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寻骨风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寻骨风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寻骨风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寻骨风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "寻骨风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通经络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "寻骨风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "寻骨风",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "饮片新参",
+      "object_type": "Source"
+    },
+    {
+      "subject": "寻骨风",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "南京民间药草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "寻骨风",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "江西民间草药",
+      "object_type": "Source"
+    }
+  ]
+}

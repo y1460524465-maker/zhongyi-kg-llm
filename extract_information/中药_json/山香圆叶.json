@@ -1,0 +1,189 @@
+{
+  "entities": [
+    {
+      "name": "山香圆叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "两指剑、千打锤、七寸钉、千锤打、大驳骨、小熊胆木",
+        "effect": "清热解毒，利咽消肿，活血止痛",
+        "indication": "乳蛾喉痹，咽喉肿痛，疮疡肿毒，跌扑伤痛",
+        "usage": "内服：煎汤，15~30g。外用：适量，鲜品捣敷",
+        "property_flavor": "苦"
+      }
+    },
+    {
+      "name": "乳蛾喉痹",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮疡肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "跌扑伤痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "妇女血崩",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "产褥热",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后伤风",
+      "type": "Disease"
+    },
+    {
+      "name": "偏头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "关节或肌肉风痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "筋骨痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，利咽消肿，活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳蛾喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌扑伤痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女血崩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产褥热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节或肌肉风痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山香圆叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

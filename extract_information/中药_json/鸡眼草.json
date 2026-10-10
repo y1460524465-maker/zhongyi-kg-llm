@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "鸡眼草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，健脾利湿",
+        "dosage": "内服：煎汤，9~15 g",
+        "indication": "感冒发热，暑湿吐泻，疟疾，痢疾，传染性肝炎，热淋，白浊",
+        "processing": "将原药除去杂质，快洗，润软，切短段，干燥，筛去灰屑",
+        "property_flavor": "气微，味淡"
+      }
+    },
+    {
+      "name": "豆科植物鸡眼草",
+      "type": "Herb",
+      "attributes": {
+        "origin": "鸡眼草Kummerowia striata (Thunb.) Schindl.或长萼鸡眼草Kummerowia stipulacea (Maxim.) Makino的干燥全草"
+      }
+    },
+    {
+      "name": "长萼鸡眼草",
+      "type": "Herb",
+      "attributes": {
+        "origin": "长萼鸡眼草Kummerowia stipulacea (Maxim.) Makino"
+      }
+    },
+    {
+      "name": "感冒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "暑湿吐泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "传染性肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "热淋",
+      "type": "Disease"
+    },
+    {
+      "name": "白浊",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡眼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡眼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暑湿吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "传染性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡眼草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡眼草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡眼草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡眼草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾利湿",
+      "object_type": "Effect"
+    }
+  ]
+}

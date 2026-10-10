@@ -1,0 +1,162 @@
+{
+  "entities": [
+    {
+      "name": "复方大承气汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "行气导滞、活血祛瘀",
+        "indication": "单纯性肠梗阻而气胀较重者，并可预防梗阻导致局部血瘀气滞引起的组织坏死；阳明腑实而气胀较明显者",
+        "usage": "大黄后下，水煎服，芒硝冲服。最好用胃管注入，经2－3小时后，可再用本方灌肠"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15-20克"
+      }
+    },
+    {
+      "name": "炒莱菔子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15-30克"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9-15克"
+      }
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9-15克"
+      }
+    },
+    {
+      "name": "单纯性肠梗阻",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阳明腑实",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "大承气汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "《中西医结合治疗急腹症》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "复方大承气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "单纯性肠梗阻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "复方大承气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳明腑实",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "复方大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气导滞、活血祛瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "复方大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复方大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炒莱菔子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复方大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复方大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复方大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复方大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复方大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复方大承气汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《中西医结合治疗急腹症》",
+      "object_type": "Source"
+    }
+  ]
+}

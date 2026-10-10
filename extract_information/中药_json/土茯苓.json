@@ -1,0 +1,170 @@
+{
+  "entities": [
+    {
+      "name": "土茯苓",
+      "type": "Herb",
+      "attributes": {
+        "alias": "草禹余粮，刺猪苓，硬饭，冷饭团，仙遗粮，土萆薢，山猪粪，山地栗，过冈尤、山牛，冷饭头、山归来，久老薯，毛尾薯，地胡苓，狗老薯，饭团根，土苓，狗朗头，尖光头，山硬硬，白葜，连饭，红土苓，山奇良",
+        "effect": "解毒，除湿，利关节",
+        "indication": "主治梅毒，淋浊，筋骨挛痛，脚气，疔疮，痈肿，瘰疬",
+        "dosage": "内服：煎汤，10~60g",
+        "taboo": "肝肾阴亏者勿服",
+        "property_flavor": "味微甘、涩",
+        "origin": "百合科植物光叶菝葜Smilax glabra Roxb.的干燥根茎",
+        "place": null,
+        "processing": "用水浸漂，夏季每日换水1次，春、秋每2日换水1次，冬季可3日换水1次，防止发臭，以泡透为度，捞出切片，及时干燥",
+        "traits": null,
+        "meridian": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利关节",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梅毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋骨挛痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草图经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草正》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药性备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陆川本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江西草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "土茯苓",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《常用中草药彩色图谱》",
+      "object_type": "Source"
+    }
+  ]
+}

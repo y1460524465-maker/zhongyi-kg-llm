@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "鸡苏散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "祛暑热，利小便",
+        "indication": "用于暑热烦渴，小便不利"
+      }
+    },
+    {
+      "name": "软滑石",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "软滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "鸡苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛暑热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡苏散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "利小便",
+      "object_type": "Effect"
+    }
+  ]
+}

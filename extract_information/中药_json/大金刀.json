@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "大金刀",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，止血，解毒",
+        "indication": "热淋，小便不利，尿血，肺痨咯血，吐血，外伤出血，痈肿，水火烫伤",
+        "property_flavor": "苦，凉",
+        "usage": "内服：煎汤，15-30g；或泡酒。外用：适量，鲜品捣敷；或干品研末调敷。"
+      }
+    },
+    {
+      "name": "《贵州草药》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痨咯血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水火烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大金刀",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵州草药》",
+      "object_type": "Source"
+    }
+  ]
+}

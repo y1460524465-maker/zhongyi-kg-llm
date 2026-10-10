@@ -1,0 +1,240 @@
+{
+  "entities": [
+    {
+      "name": "连翘败毒散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热解毒，消散痈肿",
+        "indication": "痈疽、疔疮、乳痈，及一切无名肿毒，初期憎寒壮热，头痛拘急",
+        "taboo": null,
+        "usage": "上药锉，加生姜煎。如疮在上，饭后服；在下，饭前服。如热甚并痛甚，加黄连、黄芩；如大便不通，加大黄、芒硝下之"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "金银花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "薄荷叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "前胡",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "无名肿毒",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "前胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，消散痈肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "连翘败毒散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

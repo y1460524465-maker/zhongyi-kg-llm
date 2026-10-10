@@ -1,0 +1,48 @@
+{
+  "entities": [
+    {
+      "name": "玛瑙",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒；除障明目",
+        "indication": "目生障翳；目睑赤烂",
+        "origin": "为矿物石英的隐晶质变种之一",
+        "place": "产于河南、湖北、安徽、江苏、陕西、甘肃、四川、云南、浙江、台湾、新疆、辽宁等地",
+        "processing": "砸碎，研为细粉或水飞用",
+        "property_flavor": "红棕色、白色、灰色等，蜡样光泽，半透明至透明",
+        "traits": "呈不规则块状，近扁圆形、圆柱形。红色、橙红色至深红色及乳白色、灰白色。条痕白色。透明至半透明。表面平坦光滑玻璃光泽；有的较凹凸不平，蜡状光泽。体轻，质硬而脆，易击碎，断面可见到以受力点为圆心的同心圆波纹，似贝壳状。具锋利棱角，可刻划玻璃并留下划痕。无臭，味淡。迅速磨擦不易热。以质坚、色红、透明者为佳。"
+      }
+    },
+    {
+      "name": "目生障翳",
+      "type": "Symptom"
+    },
+    {
+      "name": "目睑赤烂",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "玛瑙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目生障翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玛瑙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目睑赤烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玛瑙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒；除障明目",
+      "object_type": "Effect"
+    }
+  ]
+}

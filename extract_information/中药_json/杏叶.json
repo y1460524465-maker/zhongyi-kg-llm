@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "杏叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风利湿，明目",
+        "indication": "水肿，皮肤瘙痒，目疾多泪，痈疮瘰疬",
+        "dosage": "3-10g",
+        "origin": "蔷薇科植物杏、野杏或山杏的叶",
+        "processing": "夏、秋季叶长茂盛时采收"
+      }
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "杏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "杏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤瘙痒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "杏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目疾多泪",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "杏叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疮瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "杏叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杏叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "杏叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "杏叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    }
+  ]
+}

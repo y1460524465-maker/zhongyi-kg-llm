@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "水飞蓟",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，疏肝利胆",
+        "indication": "慢性肝炎，肝硬化脂肪肝，胆石症，胆管炎",
+        "usage": "内服：煎汤，6~15g；或制成冲剂、胶囊、丸剂",
+        "origin": "菊科植物水飞蓟SiLybum marianum (L.) Gaertn.的干燥成熟果实"
+      }
+    },
+    {
+      "name": "慢性肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肝硬化脂肪肝",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胆石症",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胆管炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水飞蓟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水飞蓟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏肝利胆",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水飞蓟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水飞蓟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝硬化脂肪肝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水飞蓟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胆石症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水飞蓟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胆管炎",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "entities": [
+    {
+      "name": "珊瑚",
+      "type": "Herb",
+      "attributes": {
+        "effect": "去翳明目，安神镇惊",
+        "indication": "目生翳障，惊痫，吐衄",
+        "origin": "《唐本草》",
+        "property_flavor": "味甘，平，无毒",
+        "dosage": "内服：研末，0.3-0.6g；外用：适量，研细末点眼",
+        "traits": "完整者如小树。一般均已碎断成短棒状，长2～3厘米，直径3～5毫米。有分枝或小突起，周围有许多小孔，红色，质坚硬如瓷，不易折断。气味均无。以内外皆红、体重、坚脆而粗壮者为佳。"
+      }
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《海药本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "珊瑚",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "珊瑚",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《海药本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "珊瑚",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "珊瑚",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

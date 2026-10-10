@@ -1,0 +1,39 @@
+{
+  "entities": [
+    {
+      "name": "胡荽",
+      "type": "Herb",
+      "attributes": {
+        "alias": "香菜、香荽、胡菜、原荽、园荽、芫荽、莞荽、莚荽菜、莚葛草、满天星",
+        "effect": "发汗透疹，消食下气",
+        "indication": "主治麻疹透发不快，食物积滞",
+        "usage": "内服：煎汤，9~15g，鲜品15~30g；或捣汁。外用：适量，煎汤洗；或捣敷；或绞汁服。",
+        "taboo": "痧疹已透，或虽未透出而热毒壅滞，非风寒外束者忌服。"
+      }
+    },
+    {
+      "name": "麻疹",
+      "type": "Disease"
+    },
+    {
+      "name": "食物积滞",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "胡荽",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胡荽",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食物积滞",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "name": "鳜鱼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鳜豚、水豚、石桂鱼、蘮鱼、锦鳞鱼、桂鱼、鯚鱼、鳌花鱼、母猪壳",
+        "effect": "补气血，益脾胃",
+        "indication": "虚劳嬴瘦，脾胃虚弱，肠风便血",
+        "usage": "内服：蒸食，适量；或烧存性，研末，酒调服"
+      }
+    },
+    {
+      "name": "虚劳嬴瘦",
+      "type": "Disease"
+    },
+    {
+      "name": "脾胃虚弱",
+      "type": "Disease"
+    },
+    {
+      "name": "肠风便血",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鳜鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳嬴瘦",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳜鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳜鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳜鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补气血，益脾胃",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "name": "蟛蜞菊",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，凉血散瘀",
+        "indication": "感冒发热；咽喉炎；扁桃体炎；肋腺炎；白喉；百日咳；气管炎；肺炎；肺结核咯血；鼻衄；尿血；传染性肝炎；痢疾；痔疮",
+        "usage": "内服：煎汤，15-30g，鲜品30-60g。外用：适量，捣敷；或捣汁含漱",
+        "origin": "本品为菊科植物蟛蜞菊Wedelia chinensis (Osb.) Merr.的干燥全草",
+        "property_flavor": "味微涩",
+        "processing": "干燥"
+      }
+    },
+    {
+      "name": "感冒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉炎",
+      "type": "Disease"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肋腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "白喉",
+      "type": "Disease"
+    },
+    {
+      "name": "百日咳",
+      "type": "Disease"
+    },
+    {
+      "name": "气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肺结核咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "鼻衄",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "传染性肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肋腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白喉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "传染性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟛蜞菊",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，凉血散瘀",
+      "object_type": "Effect"
+    }
+  ]
+}

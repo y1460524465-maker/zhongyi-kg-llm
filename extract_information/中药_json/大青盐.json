@@ -1,0 +1,103 @@
+{
+  "entities": [
+    {
+      "name": "大青盐",
+      "type": "Herb",
+      "attributes": {
+        "alias": "戎盐, 胡盐, 秃登盐, 阴土盐, 寒盐, 冰石, 羌盐, 青盐, 岩盐",
+        "property_flavor": "咸, 寒",
+        "meridian": "心、肾、膀胱经",
+        "effect": "清热凉血，明目润燥",
+        "indication": "用于吐血，尿血，牙龈肿痛出血，目赤肿痛，风眼烂弦，牙痛，大便秘结",
+        "usage": "内服：煎汤，0.9-1.5g；或入丸、散。外用：适量，研末揩牙；或水化漱口、洗目",
+        "dosage": "内服：煎汤，0.9-1.5g；或入丸、散。外用：适量"
+      }
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙龈肿痛出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风眼烂弦",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便秘结",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大青盐",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大青盐",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大青盐",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙龈肿痛出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大青盐",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大青盐",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风眼烂弦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大青盐",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大青盐",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便秘结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大青盐",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉血，明目润燥",
+      "object_type": "Effect"
+    }
+  ]
+}

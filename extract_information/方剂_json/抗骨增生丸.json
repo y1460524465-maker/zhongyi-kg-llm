@@ -1,0 +1,279 @@
+{
+  "entities": [
+    {
+      "name": "抗骨增生丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补腰肾，强筋骨，活血，利气，止痛",
+        "indication": "增生性脊椎炎（肥大性胸椎炎，肥大性腰椎炎），颈椎综合症，骨刺",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "210g",
+        "effect": "滋阴补血，益精填髓",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "肉苁蓉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "140g",
+        "effect": "暖肝肾，助肾阳，强腰膝",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "蒸",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "狗脊",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "140g",
+        "effect": "暖肝肾，助肾阳，强腰膝",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "盐制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "女贞子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "70g",
+        "effect": "暖肝肾，助肾阳，强腰膝",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "盐制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "淫羊藿",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "140g",
+        "effect": "暖肝肾，助肾阳，强腰膝",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "鸡血藤",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "140g",
+        "effect": "活血舒筋",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "莱菔子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "70g",
+        "effect": "行气消滞",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "骨碎补",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "140g",
+        "effect": "暖肝肾，助肾阳，强腰膝",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "140g",
+        "effect": "暖肝肾，助肾阳，强腰膝",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "增生性脊椎炎（肥大性胸椎、腰椎炎)",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "颈椎综合征",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "骨刺",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肾虚",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "增生性脊椎炎（肥大性胸椎、腰椎炎)",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "颈椎综合征",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "骨刺",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补腰肾，强筋骨，活血，利气，止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉苁蓉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "狗脊",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "女贞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淫羊藿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡血藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莱菔子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "骨碎补",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "抗骨增生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "增生性脊椎炎（肥大性胸椎、腰椎炎)",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "肾虚",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "entities": [
+    {
+      "name": "调胃承气汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "缓下热结",
+        "indication": "阳明病胃肠燥热。蒸蒸发热，口渴便秘，腹满拒按，舌苔正黄，脉滑数；亦用于肠胃热盛而见发斑吐衄，口齿咽喉肿痛，中消，疮疡等",
+        "taboo": null,
+        "usage": "上三味，以水600毫升，先煮大黄，甘草，取200毫升，去滓，纳芒硝，更上火微煮令沸。少少温服之"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": "泻火通结",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去皮，清酒洗",
+        "property_flavor": "苦寒",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "益气养胃",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炙",
+        "property_flavor": "甘缓",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": "软坚润燥",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "咸寒",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "阳明病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/调胃承气汤",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "调胃承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "缓下热结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "调胃承气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳明病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "调胃承气汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/调胃承气汤",
+      "object_type": "Source"
+    },
+    {
+      "subject": "调胃承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "调胃承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "调胃承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    }
+  ]
+}

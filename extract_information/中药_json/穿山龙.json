@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "穿山龙",
+      "type": "Herb",
+      "attributes": {
+        "alias": "穿龙骨、穿地龙、狗山药、山常山、穿山骨、火藤根、土山薯、竹根薯、铁根薯、雄姜、黄鞭、野山药、地龙骨、金刚骨、串山龙",
+        "effect": "祛除风湿，活血通络，止痛消肿",
+        "indication": "用于风湿痹痛，肌肤麻木，关节屈伸不利，跌打损伤，淤血阻滞，热痰咳嗽",
+        "dosage": "内服：煎汤，干品6~9g，鲜品30~45g；或浸酒。外用：适量，鲜品捣敷",
+        "origin": "薯蓣科植物穿龙薯蓣的根茎",
+        "processing": "秋季采挖，除去细根，刮去栓皮，晒干",
+        "property_flavor": "味苦"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "穿山龙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛除风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "穿山龙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "穿山龙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "穿山龙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "穿山龙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肌肤麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "穿山龙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节屈伸不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "穿山龙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "穿山龙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淤血阻滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "穿山龙",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热痰咳嗽",
+      "object_type": "Symptom"
+    }
+  ]
+}

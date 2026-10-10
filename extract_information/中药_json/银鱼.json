@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "银鱼",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补虚，润肺，健胃",
+        "indication": "营养不良，咳嗽，脾虚泄泻，小儿疳积",
+        "usage": "内服：煎汤，30-90g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "银鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "银鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "营养不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "银鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "银鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "银鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补虚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健胃",
+      "object_type": "Effect"
+    }
+  ]
+}

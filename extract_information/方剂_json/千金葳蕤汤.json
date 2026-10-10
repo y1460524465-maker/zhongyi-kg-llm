@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "千金葳蕤汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "千金葳蕤法",
+        "effect": "解表滋阴，清热",
+        "indication": "阴虚外感风热，发热头痛，咽干舌燥，气喘有汗，胸脘痞闷，体重嗜睡，苔白，脉浮者",
+        "usage": "上九味，哎咀。以水800毫升，煮取300毫升，去津，分二次服，取汗"
+      }
+    },
+    {
+      "name": "玉竹",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "白薇",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "青木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玉竹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白薇",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解表滋阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "千金葳蕤汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚外感风热",
+      "object_type": "Disease"
+    }
+  ]
+}

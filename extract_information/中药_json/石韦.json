@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "石韦",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6～12克",
+        "effect": "利水通淋，清肺泄热，凉血止血",
+        "indication": "淋痛，尿血，咯血，吐血，衄血，崩漏，外伤出血，尿路结石，肾炎，痢疾，肺热咳嗽，慢性气管炎，金疮，痈疽",
+        "processing": "拣净杂质，洗去泥沙，刷净茸毛，切段晒干",
+        "property_flavor": "味微涩苦",
+        "taboo": "无湿热者勿与；真阴虚者禁用"
+      }
+    }
+  ],
+  "relations": []
+}

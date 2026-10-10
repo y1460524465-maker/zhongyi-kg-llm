@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "name": "白虎加桂枝汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "温疟，其脉入平，身无寒但热，骨节疼烦，时呕。以及风湿热痹，症见壮热，气粗烦躁，关节肿痛，口渴苔白，脉弦数。",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18g"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5～9g"
+      }
+    },
+    {
+      "name": "温疟",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿热痹",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白虎加桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "温疟",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白虎加桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿热痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白虎加桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎加桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    }
+  ]
+}

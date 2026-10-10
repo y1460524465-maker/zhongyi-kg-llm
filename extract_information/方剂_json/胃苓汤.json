@@ -1,0 +1,192 @@
+{
+  "entities": [
+    {
+      "name": "胃苓汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "经验对金饮子、胃苓散、术苓汤、平胃五苓散、对金饮子",
+        "effect": "安胃利水止泻。祛湿和胃。",
+        "indication": "脾湿过盛，浮肿泄泻，呕吐黄疸，小便不利。小便癃闲，大便飧泄，濡泻。夏秋之间，脾胃伤冷，水谷不分，泄泻不止。沉冷证小便不利，及胃虚不和，早晨心腹痛。阴囊肿，状如水晶，时痛时痒出水，小腹按之作声，小便频数，脉迟缓。脾胃受湿，呕吐泄泻。黄疸。阴水。中暑挟食不消，吐泻腹痛。饮食停积，浮肿泄泻。",
+        "usage": "每服1两，以水2钟，加生姜3片，大枣2枚，炒盐1捻，煎8分，食前温服。口渴者，去肉桂。"
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb"
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb"
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb"
+    },
+    {
+      "name": "猪苓",
+      "type": "Herb"
+    },
+    {
+      "name": "赤茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "白术",
+      "type": "Herb"
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/胃苓汤",
+      "object_type": "Source"
+    },
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "安胃利水止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胃苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛湿和胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苍术",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "陈皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泽泻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪苓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤茯苓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白术",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾利水",
+      "object_type": "Effect"
+    }
+  ]
+}

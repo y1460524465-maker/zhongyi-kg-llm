@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "桃枝",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血通络，解毒杀虫",
+        "indication": "心腹刺痛，风湿痹痛，跌打损伤，疮癣",
+        "usage": "内服，煎汤，9～15g。外用适量，煎汤含漱或洗浴",
+        "property_flavor": "味微苦、涩",
+        "traits": "本品呈圆柱形，长短不一，直径O.2～1cm，表面红褐色，较光滑，有类白色点状皮孔。质脆，易折断，切面黄白色，木部占大部分，髓部白色。气微"
+      }
+    },
+    {
+      "name": "心腹刺痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疮癣",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桃枝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通络，解毒杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桃枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹刺痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桃枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桃枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮癣",
+      "object_type": "Disease"
+    }
+  ]
+}

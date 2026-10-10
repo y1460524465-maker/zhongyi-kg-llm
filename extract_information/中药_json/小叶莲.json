@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "小叶莲",
+      "type": "Herb",
+      "attributes": {
+        "alias": "桃儿七，鸡素苔，铜筷子，鬼打死，鬼臼，羊蒿爪",
+        "effect": "调经活血",
+        "indication": "血瘀经闭，难产，死胎、胎盘不下",
+        "dosage": "3～9g，多入丸散服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小叶莲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调经活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小叶莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血瘀经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小叶莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "难产",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小叶莲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "死胎、胎盘不下",
+      "object_type": "Disease"
+    }
+  ]
+}

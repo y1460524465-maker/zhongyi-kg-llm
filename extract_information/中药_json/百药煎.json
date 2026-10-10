@@ -1,0 +1,123 @@
+{
+  "entities": [
+    {
+      "name": "百药煎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "润肺化痰，止血止泻，解热生津",
+        "indication": "久咳劳嗽，咽痛，口疮，牙疳，便血，血痢，泄泻，脱肛，暑热口渴",
+        "taboo": "外感咳嗽，湿热泻痢及积滞未清者均忌服",
+        "usage": "内服：煎汤，3~9克；或入丸、散。外用：研末撒、调敷或泡汤含漱",
+        "origin": "五倍子同茶叶等经发酵制成的块状物"
+      }
+    },
+    {
+      "name": "久咳劳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "口疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙疳",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "脱肛",
+      "type": "Symptom"
+    },
+    {
+      "name": "暑热口渴",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "百药煎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺化痰，止血止泻，解热生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "百药煎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久咳劳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百药煎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百药煎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百药煎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙疳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百药煎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百药煎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百药煎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百药煎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百药煎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暑热口渴",
+      "object_type": "Symptom"
+    }
+  ]
+}

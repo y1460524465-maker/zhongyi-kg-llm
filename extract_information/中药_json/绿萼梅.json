@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "绿萼梅",
+      "type": "Herb",
+      "attributes": {
+        "effect": "疏肝解郁，开胃生津，化痰",
+        "indication": "用于郁闷心烦，肝胃气痛，梅核气，瘰疬疮毒",
+        "dosage": "内服：煎汤，2~6g；或入丸、散",
+        "property_flavor": "微苦、涩"
+      }
+    }
+  ],
+  "relations": []
+}

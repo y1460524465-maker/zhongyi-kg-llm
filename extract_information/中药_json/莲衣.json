@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "name": "莲衣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，1-2g",
+        "effect": "收涩止血",
+        "indication": "吐血，衄血，下血",
+        "origin": "睡莲科植物莲的种皮"
+      }
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "下血",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "莲衣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收涩止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "莲衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "莲衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "莲衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下血",
+      "object_type": "Symptom"
+    }
+  ]
+}

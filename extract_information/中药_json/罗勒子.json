@@ -1,0 +1,145 @@
+{
+  "entities": [
+    {
+      "name": "罗勒子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "兰香子、光明子",
+        "effect": "清热明目",
+        "indication": "目赤肿痛，目翳，走马牙疳",
+        "dosage": "3～5g",
+        "usage": "内服，煎汤",
+        "traits": "略呈卵形，长约2mm,直径约1mm。表面灰褐色至黒色，微带光泽，用放大镜观察，可见细密的小突起，基部有果柄痕，一端有色稍淡的疤痕，有的中央稍凹陷。质坚硬。气微，味淡。横切面呈三角形，子叶肥厚，乳白色，富油性。含口中有滑润感；用水浸泡，表面形成乳白色黏液质层。",
+        "origin": "唇形科植物罗勒Ocimum basilicum L.的干燥成熟果实",
+        "processing": null,
+        "property_flavor": null,
+        "meridian": null,
+        "place": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目翳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "走马牙疳",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "目昏浮翳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "赤眼后生翳膜",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "崩砂",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "溃槽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "宣露",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腐根",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《海上名方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《活幼口议》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "罗勒子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗勒子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "走马牙疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗勒子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目昏浮翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤眼后生翳膜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗勒子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《海上名方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "罗勒子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮片新参》",
+      "object_type": "Source"
+    }
+  ]
+}

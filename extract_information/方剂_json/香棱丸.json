@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "香棱丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服20丸，炒生姜盐汤下，温酒亦得，不拘时候"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "丁香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "京三棱",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "川楝子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茴香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "蓬术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "巴豆",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香棱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香棱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香棱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "京三棱",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香棱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香棱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香棱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川楝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香棱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香棱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蓬术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香棱丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    }
+  ]
+}

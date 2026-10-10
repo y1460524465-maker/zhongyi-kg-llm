@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "玉芙蓉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "煎汤，3-9g；或入丸、散。",
+        "effect": "清热凉血，养心安神",
+        "indication": "痔血，便血，疔肿，烫伤，怔忡，小儿急惊风",
+        "taboo": "阳虚、寒症及小儿慢惊均忌用"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "玉芙蓉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玉芙蓉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玉芙蓉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉芙蓉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉芙蓉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉芙蓉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉芙蓉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "怔忡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉芙蓉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿急惊风",
+      "object_type": "Disease"
+    }
+  ]
+}

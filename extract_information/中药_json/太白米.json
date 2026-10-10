@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "太白米",
+      "type": "Herb",
+      "attributes": {
+        "effect": "宽胸利气，健胃，止呕，镇痛，止咳",
+        "indication": "胃痛腹胀，胸闷，呕吐反胃，风寒咳嗽，小儿惊风",
+        "usage": "内服：煎汤，1.5-6g；研末，1.2-2.4g"
+      }
+    },
+    {
+      "name": "假百合",
+      "type": "Herb",
+      "attributes": {
+        "effect": "宽胸利气，健胃，止呕，镇痛，止咳",
+        "indication": "胃痛腹胀，胸闷，呕吐反胃，风寒咳嗽，小儿惊风"
+      }
+    },
+    {
+      "name": "朱砂七",
+      "type": "Herb"
+    },
+    {
+      "name": "八爪龙",
+      "type": "Herb"
+    },
+    {
+      "name": "太羌活",
+      "type": "Herb"
+    },
+    {
+      "name": "祖师麻",
+      "type": "Herb"
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "太白米",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宽胸利气，健胃，止呕，镇痛，止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "太白米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太白米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太白米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太白米",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "太白米",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "假百合",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛腹胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "假百合",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "假百合",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "朱砂七",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "假百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "八爪龙",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "假百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "太羌活",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "假百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "祖师麻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "假百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "陈皮",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "假百合",
+      "object_type": "Herb"
+    }
+  ]
+}

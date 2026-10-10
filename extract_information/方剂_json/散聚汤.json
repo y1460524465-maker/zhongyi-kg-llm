@@ -1,0 +1,237 @@
+{
+  "entities": [
+    {
+      "name": "散聚汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "除湿化痰，消结散瘕",
+        "indication": "气机郁结，痰湿内阻，血行不畅，致生积聚，随气上下，发作有时，心腹绞痛，攻刺腰胁，上气室塞，喘咳满闷，小腹腆胀，大小便不利",
+        "usage": "每服12克，用水220毫升，煎至160毫升，去滓，空腹时服"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "22克",
+        "processing": "汤洗七次"
+      }
+    },
+    {
+      "name": "槟榔",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "22克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "22克"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "processing": "麸炒，去皮、尖"
+      }
+    },
+    {
+      "name": "桂心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炮，去皮、脐"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "麸炒，去瓤"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "姜汁制"
+      }
+    },
+    {
+      "name": "吴茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "汤洗"
+      }
+    },
+    {
+      "name": "《三因极一病证方论》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《三因极一病证方论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槟榔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "吴茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "积聚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "除湿化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "散聚汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "消结散瘕",
+      "object_type": "Effect"
+    }
+  ]
+}

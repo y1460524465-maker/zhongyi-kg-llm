@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "name": "龟血",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养血和络",
+        "indication": "闭经，跌打损伤，脱肛",
+        "usage": "内服适量，和酒饮或煮食"
+      }
+    },
+    {
+      "name": "闭经",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脱肛",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "龟血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血和络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龟血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "闭经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龟血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龟血",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    }
+  ]
+}

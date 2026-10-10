@@ -1,0 +1,153 @@
+{
+  "entities": [
+    {
+      "name": "清肠饮",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热活血消痈；解毒、滋阴",
+        "indication": "肠痈屡发，毒甚且伴口干、舌红少津等阴伤表现者"
+      }
+    },
+    {
+      "name": "银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "地榆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "元参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "薏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "大黄牡丹汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热活血消痈；泻下破瘀",
+        "indication": "肠痈初起，少腹肿痞伴便秘或大便涩滞不畅者"
+      }
+    },
+    {
+      "name": "肠痈",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清肠饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肠饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肠饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地榆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肠饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肠饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "元参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肠饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肠饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肠饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肠饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    }
+  ]
+}

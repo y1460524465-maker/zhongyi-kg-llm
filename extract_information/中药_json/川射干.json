@@ -1,0 +1,308 @@
+{
+  "entities": [
+    {
+      "name": "川射干",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乌园, 乌鸢, 扁竹, 蓝蝴蝶, 亦利麻, 扇把草, 土知母, 冷水丹, 蛤蟆跳缺, 铁扁担",
+        "effect": "消积, 破瘀, 行水, 解毒",
+        "indication": "治食滞胀满，癥瘕积聚，臌胀，肿毒，痔瘘，跌打损伤",
+        "processing": "夏、秋采收",
+        "property_flavor": "辛，苦，寒。有毒",
+        "meridian": "肺经",
+        "dosage": "内服：煎汤，6~15g；或绞汁，或研末。外用：适量，捣敷；或煎汤洗",
+        "origin": "鸢尾科植物鸢尾的根茎",
+        "place": "广东、广西、四川、贵州等地"
+      }
+    },
+    {
+      "name": "川射干根",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "山豆根",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "萱草根",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "食滞胀满",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "癥瘕积聚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "臌胀",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肿毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痔瘘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喉痹不通",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "二便不通",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹部积水",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "阴疝肿刺",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "乳痈初起",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "食积饱胀",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "喉症",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血积",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《植物名实图考》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《广州植物志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《广西中兽医药植》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《民间常用草药汇编》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《中草药学》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《中草药手册》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《贵阳民间药草》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "川射干",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "川射干",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "川射干",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "川射干",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "川射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食滞胀满",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "川射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕积聚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "川射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "臌胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "川射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "川射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔瘘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "川射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "川射干根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川射干根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川射干根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "二便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川射干根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹部积水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川射干根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴疝肿刺",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川射干根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈初起",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土知母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食积饱胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸢尾根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸢尾根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸢尾根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸢尾根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    }
+  ]
+}

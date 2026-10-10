@@ -1,0 +1,463 @@
+{
+  "entities": [
+    {
+      "name": "拨云退翳丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "散风清热，退翳明目",
+        "indication": "风热上扰所致的目翳外障、视物不清、隐痛流泪",
+        "taboo": null,
+        "usage": "口服，大蜜丸"
+      }
+    },
+    {
+      "name": "密蒙花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": "清肝散风，明目退翳",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "蒺藜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g",
+        "effect": "清肝散风，明目退翳",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "盐炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "菊花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "effect": "疏散风邪，清障退翳明目",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "木贼",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": "疏散风邪，清障退翳明目",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "蛇蜕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "疏散风邪，清障退翳明目",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "蝉蜕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "effect": "疏散风邪，清障退翳明目",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "荆芥穗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "effect": "疏散风邪，清障退翳明目",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "蔓荆子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "effect": "疏散风邪，清障退翳明目",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "effect": "疏散风邪，清障退翳明目",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g",
+        "effect": "养血滋肝补肾",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g",
+        "effect": "行气活血",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "effect": "清热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "地骨皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g",
+        "effect": "清热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "花椒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "28g",
+        "effect": "疏散风邪",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "楮实子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "effect": "养血滋肝补肾",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "天花粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24g",
+        "effect": "清热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "协调诸药",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "风热上扰",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "目翳外障",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "视物不清",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "隐痛流泪",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "散风清热，退翳明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风热上扰",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "风热上扰",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "目翳外障",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风热上扰",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "视物不清",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风热上扰",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "隐痛流泪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "密蒙花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒺藜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木贼",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蛇蜕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蝉蜕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥穗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蔓荆子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地骨皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "花椒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "楮实子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天花粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "拨云退翳丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    }
+  ]
+}

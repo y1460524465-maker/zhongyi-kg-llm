@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "name": "朱砂根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，活血散瘀，止痛",
+        "indication": "上感，扁桃体炎，急性咽峡炎，白喉，丹毒，淋巴结炎，劳伤吐血，心胃气痛，风湿骨痛，跌打损伤",
+        "property_flavor": "微苦、辛，平",
+        "meridian": "肺，肝经",
+        "dosage": "煎汤，3～9克；或研末为丸、浸酒"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "朱砂根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，活血散瘀，止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "朱砂根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "上感",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "朱砂根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "朱砂根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性咽峡炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "朱砂根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白喉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "朱砂根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "朱砂根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴结炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "朱砂根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "劳伤吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "朱砂根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心胃气痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "朱砂根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿骨痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "朱砂根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    }
+  ]
+}

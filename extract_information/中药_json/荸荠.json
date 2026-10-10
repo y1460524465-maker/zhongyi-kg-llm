@@ -1,0 +1,175 @@
+{
+  "entities": [
+    {
+      "name": "荸荠",
+      "type": "Herb",
+      "attributes": {
+        "alias": "凫茈、葃菇、水芋、乌芋、乌茨、葧脐、黑山棱、地栗、铁葧脐、马蹄、红慈菇、马薯、地梨、苾荠",
+        "effect": "清热生津，化痰，消积",
+        "indication": "温病口渴，咽喉肿痛，痰热咳嗽，目赤，消渴，痢疾，黄疸，热淋，食积，赘疣",
+        "usage": "内服：煎汤，60-120g；或嚼食；或捣汁；或浸酒，或澄粉。外用：适量，煅存性研末撒；或澄粉点目，或生用涂擦",
+        "traits": "味甜",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "莎草科植物荸荠的球茎",
+        "place": "我国大部分地区有栽培",
+        "processing": "冬季采挖，洗净泥土，鲜用或风干",
+        "dosage": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "温病口渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰热咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目赤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "消渴",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "热淋",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "食积",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "赘疣",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "五汁饮",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "雪羹",
+      "type": "Formula",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "荸荠",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热生津，化痰，消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荸荠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "温病口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荸荠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荸荠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荸荠",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荸荠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荸荠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荸荠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荸荠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荸荠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荸荠",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赘疣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五汁饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荸荠",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "雪羹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荸荠",
+      "object_type": "Herb"
+    }
+  ]
+}

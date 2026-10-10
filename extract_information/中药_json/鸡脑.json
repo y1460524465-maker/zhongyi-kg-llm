@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "鸡脑",
+      "type": "Herb",
+      "attributes": {
+        "effect": "止痉熄风",
+        "indication": "惊痫，夜啼，妇人难产",
+        "usage": "内服：适量，烧灰，酒下",
+        "origin": "雉科动物家鸡的脑髓"
+      }
+    },
+    {
+      "name": "惊痫",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "夜啼",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇人难产",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小儿鸡痫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "难产",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡脑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痉熄风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡脑",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡脑",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夜啼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡脑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人难产",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡脑",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿鸡痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡脑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "难产",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    }
+  ]
+}

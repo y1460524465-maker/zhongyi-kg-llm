@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "画眉草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9-15g",
+        "effect": "利尿通淋，清热活血",
+        "indication": "热淋，石淋，目赤痒痛，跌打损伤",
+        "origin": "为禾本科植物画眉草的全草",
+        "processing": "夏、秋采收，去净泥土，晒干",
+        "usage": "内服：煎汤，9-15g。外用：适量，烧存性研末调搽或煎水洗"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "画眉草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿通淋，清热活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "画眉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "画眉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "石淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "画眉草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤痒痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "画眉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "画眉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿路感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "画眉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾盂肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "画眉草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《植物名实图考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "画眉草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《东北常用中草药手册》",
+      "object_type": "Source"
+    }
+  ]
+}

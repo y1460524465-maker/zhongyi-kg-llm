@@ -1,0 +1,131 @@
+{
+  "entities": [
+    {
+      "name": "雷公藤",
+      "type": "Herb",
+      "attributes": {
+        "origin": "卫矛科植物雷公藤的木质部",
+        "effect": "祛风除湿，活血通络，消肿止痛，解毒杀虫",
+        "indication": "类风湿性关节炎，风湿性关节炎，肾小球肾炎，肾病综合征，红斑狼疮，口眼干燥综合征，白塞病，湿疹，银屑病，麻风病，疥疮，顽癣",
+        "taboo": "本品有大毒。内服宜慎。敷药时间不可超过半小时，否则起泡",
+        "dosage": "内服：煎汤，去皮根木质部分15~25g；带皮根10~12g。均需文火煎1~2h。也可制成糖浆、浸膏片等。岩研粉装胶囊服，每次0.5~1.5g，每日3次。外用：适量，研粉或捣烂或；或制成酊剂、软膏涂擦",
+        "property_flavor": "味苦徽辛",
+        "traits": "有大毒"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "类风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾小球肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾病综合征",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "红斑狼疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口眼干燥综合征",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白塞病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "银屑病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麻风病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "顽癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雷公藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒杀虫",
+      "object_type": "Effect"
+    }
+  ]
+}

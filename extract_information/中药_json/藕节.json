@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "藕节",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，10~30g；鲜用捣汁，可用60g左右取汁冲服；或入散剂。",
+        "effect": "止血，散瘀",
+        "indication": "主治咳血，吐血，衄血，尿血，便血，血痢，血崩。",
+        "origin": "睡莲科植物莲Nelumbo nucifera Gaertn. 的干燥根茎节部",
+        "processing": "藕节：除去杂质，洗净，干燥。藕节炭：取净藕节置锅内炒至外面呈黑色，内部呈老黄色，稍洒清水，取出，干燥即成。",
+        "property_flavor": "味甘、涩",
+        "traits": "生用：止血化瘀，炒炭用收涩止血。"
+      }
+    }
+  ],
+  "relations": []
+}

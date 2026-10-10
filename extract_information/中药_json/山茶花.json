@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "山茶花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5-10g",
+        "effect": "凉血止血，散瘀，消瘀肿",
+        "indication": "吐血；衄血；咳血；便血；痔血；赤血痢；血淋；血崩；带下；烫伤；跌扑损伤",
+        "property_flavor": "甘、微辛，寒",
+        "meridian": "归肝、肺、大肠经",
+        "origin": "为山茶科植物山茶的花",
+        "place": "产江苏、浙江、云南、四川等地"
+      }
+    }
+  ],
+  "relations": []
+}

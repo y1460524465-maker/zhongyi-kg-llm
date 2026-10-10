@@ -1,0 +1,172 @@
+{
+  "entities": [
+    {
+      "name": "金慈姑",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血止痛，解毒，止血",
+        "indication": "风湿痹痛，胃脘痛，腹痛泄泻，跌打损伤，骨折，疮疖肿毒，毒蛇咬伤，外伤出血",
+        "dosage": "内服：煎汤，3-6g，宜炮制后用",
+        "property_flavor": "味辛、麻、性温，有毒",
+        "processing": "炮制",
+        "origin": "金慈姑",
+        "traits": "天南星科植物金慈姑的块茎"
+      }
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "胃脘痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹痛泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "骨折",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疖肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃溃疡",
+      "type": "Disease"
+    },
+    {
+      "name": "《新华本草纲要》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃脘痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹痛泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《新华本草纲要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金慈姑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃溃疡",
+      "object_type": "Disease"
+    }
+  ]
+}

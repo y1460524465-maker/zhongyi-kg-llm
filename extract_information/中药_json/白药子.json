@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "name": "白药子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，祛风止痛，凉血止血",
+        "indication": "咽喉肿痛，热毒痈肿，风湿痹痛，腹痛，泻痢，吐血，衄血，外伤出血",
+        "usage": "内服：煎汤，9-15g；或入丸、散。外用：适量，捣敷或研末敷",
+        "dosage": "9-15g",
+        "property_flavor": "味苦",
+        "origin": "金线吊乌龟",
+        "processing": "用水浸泡，捞出，焖透，切片，晒干"
+      }
+    },
+    {
+      "name": "金线吊乌龟",
+      "type": "Herb",
+      "attributes": {
+        "origin": "植物名实图考"
+      }
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "热毒痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "泻痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白药子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白药子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白药子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白药子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白药子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热毒痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白药子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白药子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白药子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白药子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白药子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白药子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

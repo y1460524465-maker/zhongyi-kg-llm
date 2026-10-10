@@ -1,0 +1,23 @@
+{
+  "entities": [
+    {
+      "name": "麻秸",
+      "type": "Herb",
+      "attributes": {
+        "alias": "脂麻秸、芝麻秸、芝麻荄、油麻稿",
+        "effect": "治咳嗽哮喘，浮肿，聤耳出脓",
+        "processing": "将原药除去杂质,洗净，略润，切长段，干燥，筛去灰屑",
+        "dosage": "内服：煎汤，15～30g；或烧存性研末"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麻秸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "治咳嗽哮喘，浮肿，聤耳出脓",
+      "object_type": "Effect"
+    }
+  ]
+}

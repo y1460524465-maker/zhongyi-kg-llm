@@ -1,0 +1,185 @@
+{
+  "entities": [
+    {
+      "name": "柳白皮",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "味苦，寒，无毒",
+        "dosage": "内服：煎汤，15-30g。外用：适量，煎水洗、酒煮或炒热温熨。",
+        "effect": "祛风利湿，消肿止痛",
+        "indication": "风湿骨痛，风肿瘙痒，黄疸，淋浊，乳痈，牙痛，汤火烫伤",
+        "origin": "杨柳科植物垂柳的树枝或根部的韧皮"
+      }
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "《姚僧坦集验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "《古今录验方》",
+      "type": "Source"
+    },
+    {
+      "name": "内蒙古《中草药新医疗法资料选编》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风利湿，消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿骨痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风肿瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "汤火烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《姚僧坦集验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《肘后方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《古今录验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "内蒙古《中草药新医疗法资料选编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "走注气痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风毒卒肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风虫牙痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柳白皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中耳炎",
+      "object_type": "Disease"
+    }
+  ]
+}

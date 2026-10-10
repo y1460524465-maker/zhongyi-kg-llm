@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "金莲花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "旱金莲, 金梅草, 旱地莲, 金芙蓉, 金疙瘩",
+        "effect": "清热解毒",
+        "indication": "用于咽喉疼痛，目赤肿痛，痰热结核，瘰疬口疮，耳内肿痛。",
+        "origin": "本品为毛茛科植物金莲花Trollius chinensis Bge.的干燥花。",
+        "place": "分布东北及内蒙古、河北、山西等地。",
+        "processing": "干燥",
+        "property_flavor": "苦，微寒。归肺、胃经。",
+        "dosage": "内服：煎汤，3-6g，或泡水当茶饮。外用：适量，煎水含漱。"
+      }
+    },
+    {
+      "name": "慢性扁桃体炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性中耳炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性鼓膜炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性结膜炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性淋巴管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "菊花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金莲花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金莲花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性中耳炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金莲花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性鼓膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金莲花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性结膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金莲花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性淋巴管炎",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "艾纳香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "大风艾、牛耳艾、大风叶、紫再枫、再风艾、大艾、大枫草、大骨风、大黄草、大毛药、冰片艾",
+        "effect": "祛风消肿，活血散瘀",
+        "indication": "用于感冒，风湿性关节炎，产后风痛，痛经；外用治跌打损伤，疮疖痈肿，湿疹，皮炎",
+        "processing": "全年可采，但以秋季采的质量较好。采后晒干",
+        "place": "生于山坡草地或灌木丛中。分布广东、广西、云南等地。广西及贵州有栽培"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "产后风痛",
+      "type": "Disease"
+    },
+    {
+      "name": "痛经",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疖痈肿",
+      "type": "Disease"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "皮炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肿胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "蛇伤口不合",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤瘙痒",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后风痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇伤口不合",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "艾纳香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀",
+      "object_type": "Effect"
+    }
+  ]
+}

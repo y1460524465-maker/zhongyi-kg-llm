@@ -1,0 +1,228 @@
+{
+  "entities": [
+    {
+      "name": "羚角钩藤汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "俞氏羚角钩藤汤",
+        "effect": "清热凉肝熄风",
+        "indication": "肝热生风证。高热不退，烦闷躁扰，手足抽搐，发为惊厥，甚则神昏，舌绛而干，或舌焦起刺，脉弦而数。"
+      }
+    },
+    {
+      "name": "羚羊角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5g",
+        "effect": "清热凉肝熄风"
+      }
+    },
+    {
+      "name": "钩藤",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "清热凉肝熄风"
+      }
+    },
+    {
+      "name": "霜桑叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "辛凉疏散外风"
+      }
+    },
+    {
+      "name": "滁（白）菊花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "凉肝"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": "滋阴增液养血"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "滋阴增液养血、舒筋"
+      }
+    },
+    {
+      "name": "贝母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "清热化痰"
+      }
+    },
+    {
+      "name": "竹茹",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": "清热化痰"
+      }
+    },
+    {
+      "name": "茯神木",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "宁心安神"
+      }
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": "和诸药"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羚羊角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "钩藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "霜桑叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滁（白）菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹茹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯神木",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉肝熄风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝热生风证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "高热不退",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦闷躁扰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊厥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神昏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌绛而干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羚角钩藤汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉弦而数",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "entities": [
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "effect": "发汗解肌，温经通脉",
+        "indication": "风寒表证，肩背肢节酸疼，胸痹痰饮，经闭癥瘕",
+        "dosage": "煎汤1.5~6g，大剂量，可用至15~30g；或入丸、散",
+        "taboo": "热病高热，阴虚火旺，血热妄行者禁服",
+        "processing": "8～7月间剪取嫩枝，截成长约15或30～100厘米的小段，晒干",
+        "traits": "枝长圆柱形，多分枝，长30~70cm，粗端直径0.3~1cm。表面棕色或红棕色，有细皱纹及小疙瘩状叶痕、枝痕和芽痕，皮孔点状或点状椭圆形。制裁硬而脆，易折断，断面皮部红棕色，可见一淡黄色石细胞环带，木部黄白色至浅黄棕色，髓部略呈方形。有特异香气，味甜、微辛，皮部味较浓。以枝条嫩细均匀，色红棕，香气浓者为佳。"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为樟科植物肉桂的嫩枝"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "生姜",
+      "type": "Herb"
+    },
+    {
+      "name": "大枣",
+      "type": "Herb"
+    },
+    {
+      "name": "附子",
+      "type": "Herb"
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb"
+    },
+    {
+      "name": "白术",
+      "type": "Herb"
+    },
+    {
+      "name": "知母",
+      "type": "Herb"
+    },
+    {
+      "name": "防风",
+      "type": "Herb"
+    },
+    {
+      "name": "枳实",
+      "type": "Herb"
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb"
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb"
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb"
+    },
+    {
+      "name": "牡丹",
+      "type": "Herb"
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb"
+    },
+    {
+      "name": "胶饴",
+      "type": "Herb"
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "桂枝汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以水七升，微火煮取三升，去滓，适寒温，服一升；服巳须臾，吸热稀粥一升余，以助药力，温覆令一时许，遍身漐漐微似有汗者益佳",
+        "indication": "太阳中风，阳浮而阴弱，阳浮者，热自发，阴弱者，汗自出，啬啬恶寒，渐渐恶风，翕翕发热，鼻鸣干呕"
+      }
+    },
+    {
+      "name": "桂枝附子汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以水六升，煮取二升，去滓，分温三服",
+        "indication": "伤寒八九日，风湿相搏，身体疼烦，不能自转侧，不呕不渴，脉浮虚而涩"
+      }
+    },
+    {
+      "name": "桂枝芍药知母汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以水七升，煮取二升，温服七合，日三服",
+        "indication": "诸肢节疼痛，身体尪羸，脚肿如脱，头眩短气，温温欲吐"
+      }
+    },
+    {
+      "name": "桂枝生姜枳实汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以水六升，煮取三升，分温三服",
+        "indication": "心中痞，诸逆，心悬痛"
+      }
+    },
+    {
+      "name": "茯苓桂枝甘草大枣汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以甘澜水一斗，先煮茯苓，减二升；纳诸药，煮取三升，去滓，温服一升，日三服",
+        "indication": "伤寒发汗后，其人脐下悸者，欲作奔豚"
+      }
+    },
+    {
+      "name": "黄芪桂枝五物汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以水六升，煮取二升，温服七合，日三服",
+        "indication": "血痹阴阳俱微，寸口关上微，尺中小紧，外证身体不仁，如风痹状"
+      }
+    },
+    {
+      "name": "桂枝龙骨牡蛎汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以水七升，煮取三升，分温三服",
+        "indication": "失精家少腹弦急，阴头寒，目眩，发落，脉极虚、芤迟，为清谷亡血失精，脉得诸芤动微紧"
+      }
+    },
+    {
+      "name": "小建中汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "以水七升，煮取三升，去滓，内胶饴，更上微火消解，温服一升，日三服",
+        "indication": "虚劳里急悸衄，腹中痛，梦失精，四肢酸疼，手足烦热，咽干口燥"
+      }
+    },
+    {
+      "name": "桂枝茯苓丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "末之，炼蜜和丸如兔屎大。每日食前服一丸，不知，加至三丸",
+        "indication": "妇人宿有癥病，经断未及三月而得漏下不止，胎动在脐上者，为癥痼害"
+      }
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source"
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source"
+    },
+    {
+      "name": "风寒表证",
+      "type": "Disease"
+    },
+    {
+      "name": "肩背肢节酸疼",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸痹痰饮",
+      "type": "Disease"
+    },
+    {
+      "name": "经闭癥瘕",
+      "type": "Disease"
+    },
+    {
+      "name": "太阳中风",
+      "type": "Disease"
+    },
+    {
+      "name": "奔豚",
+      "type": "Disease"
+    },
+    {
+      "name": "血痹",
+      "type": "Disease"
+    },
+    {
+      "name": "失精",
+      "type": "Disease"
+    },
+    {
+      "name": "虚劳",
+      "type": "Disease"
+    },
+    {
+      "name": "冻疮",
+      "type": "Disease"
+    },
+    {
+      "name": "心阳不足",
+      "type": "Disease"
+    },
+    {
+      "name": "头晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "精神困倦",
+      "type": "Symptom"
+    },
+    {
+      "name": "四肢无力",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "发汗解肌，温经通脉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒表证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肩背肢节酸疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胸痹痰饮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "太阳中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝附子汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝芍药知母汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝芍药知母汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝芍药知母汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝芍药知母汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝芍药知母汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝芍药知母汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝芍药知母汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝芍药知母汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝芍药知母汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝芍药知母汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝生姜枳实汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝生姜枳实汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝生姜枳实汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝生姜枳实汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "茯苓桂枝甘草大枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓桂枝甘草大枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓桂枝甘草大枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓桂枝甘草大枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓桂枝甘草大枣汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "奔豚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓桂枝甘草大枣汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄芪桂枝五物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪桂枝五物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪桂枝五物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪桂枝五物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪桂枝五物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪桂枝五物汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪桂枝五物汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "失精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胶饴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小建中汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "经闭癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "冻疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心阳不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "精神困倦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢无力",
+      "object_type": "Symptom"
+    }
+  ]
+}

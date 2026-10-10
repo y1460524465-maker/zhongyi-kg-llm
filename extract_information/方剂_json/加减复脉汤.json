@@ -1,0 +1,143 @@
+{
+  "entities": [
+    {
+      "name": "加减复脉汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴养液",
+        "indication": "温热病后期，邪热久羁，阴液亏虚证。身热面赤，口干舌燥，脉虚大，手足心热甚于手足背者。",
+        "taboo": null,
+        "usage": "上以水八杯，煮取三杯，分三次服。"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "干地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "生白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "麻仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴养液",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴液亏虚证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身热面赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口干舌燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉虚大",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "加减复脉汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足心热甚于手足背",
+      "object_type": "Symptom"
+    }
+  ]
+}

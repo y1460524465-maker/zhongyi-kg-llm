@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "忍冬藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "老翁须，金钗股，大薜荔，水杨藤，千金藤，鸳鸯草，鹭鸶藤，忍冬草，左缠藤，忍寒草，通灵草，蜜桶藤，金银花藤，金银藤，金银花杆，甜藤，右篆藤，右旋藤，二花秧，银花秧，金银藤，金银花藤，净制忍冬藤，忍冬草，银花秧，二花藤",
+        "effect": "清热，解毒，通络",
+        "indication": "温病发热，热毒血痢，传染性肝炎，痈肿疮毒，筋骨疼痛",
+        "taboo": "脾胃虚寒，泄泻不止者禁用",
+        "usage": "内服：煎汤，10~30g；或入丸、散；或浸酒。外用：适量，煎水熏洗，或熬膏贴，或研末调敷衍，赤可用鲜品捣敷",
+        "dosage": "10~30g",
+        "processing": "拣去杂质，用水浸泡，润透，切片，晒干"
+      }
+    },
+    {
+      "name": "清热",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "通络",
+      "type": "Effect"
+    },
+    {
+      "name": "温病发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "热毒血痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "传染性肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿疮毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "筋骨疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "毒草中毒",
+      "type": "Disease"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "细菌性痢疾",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "温病发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热毒血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "传染性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疮毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒草中毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "忍冬藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "细菌性痢疾",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "entities": [
+    {
+      "name": "狗肝菜",
+      "type": "Herb",
+      "attributes": {
+        "alias": "金龙棒,猪肝菜,路边青,麦穗红,青蛇仔,野辣椒,羊肝菜,土羚羊,假米针,紫燕草,假红蓝,野青仔,六角英",
+        "effect": "清热凉血，利尿解毒",
+        "indication": "热病斑疹，便血，溺血，小便不利，肿毒疔疮",
+        "usage": "内服：煎汤，30-60g；或鲜品捣汁。外用：适量，鲜品捣敷；或煎汤洗。"
+      }
+    },
+    {
+      "name": "感冒高热",
+      "type": "Symptom"
+    },
+    {
+      "name": "斑痧",
+      "type": "Symptom"
+    },
+    {
+      "name": "溺血",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便淋沥",
+      "type": "Symptom"
+    },
+    {
+      "name": "无名肿毒及痰核",
+      "type": "Symptom"
+    },
+    {
+      "name": "疯狗咬伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿痢疾",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮疡",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疔疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "带状疱疹",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒高热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "斑痧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "溺血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便淋沥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无名肿毒及痰核",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疯狗咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带状疱疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "狗肝菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

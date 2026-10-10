@@ -1,0 +1,149 @@
+{
+  "entities": [
+    {
+      "name": "向日葵花盘",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，平肝，止痛，止血",
+        "indication": "高血压，头痛，头晕，耳鸣，脘腹痛，痛经，子宫出血，疮肿",
+        "processing": "秋季采收，去净果实，鲜用或晒干",
+        "place": "菊科植物向日葵的花盘",
+        "dosage": "内服：煎汤，15-60g；外用：适量，捣敷；或研粉敷"
+      }
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "头晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "耳鸣",
+      "type": "Symptom"
+    },
+    {
+      "name": "脘腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痛经",
+      "type": "Symptom"
+    },
+    {
+      "name": "子宫出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "清热",
+      "type": "Effect"
+    },
+    {
+      "name": "平肝",
+      "type": "Effect"
+    },
+    {
+      "name": "止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "止血",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳鸣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "子宫出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "向日葵花盘",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

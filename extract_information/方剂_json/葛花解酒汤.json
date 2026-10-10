@@ -1,0 +1,274 @@
+{
+  "entities": [
+    {
+      "name": "葛花解酒汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "散酒积毒",
+        "indication": "宿食酒伤，胸膈满闷，口吐酸水，恶食呕逆；及年远日久，酒疸面眼俱黄，不思饮食",
+        "taboo": null,
+        "usage": "每服2钱，临卧沸汤调服。汗出立效，不损元气"
+      }
+    },
+    {
+      "name": "葛花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "白豆蔻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "神曲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "干葛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "青皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "猪苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱5分"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱5分"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱"
+      }
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "散酒积毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "宿食酒伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "酒疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸膈满闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口吐酸水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶食呕逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不思饮食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葛花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干葛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葛花解酒汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    }
+  ]
+}

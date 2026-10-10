@@ -1,0 +1,368 @@
+{
+  "entities": [
+    {
+      "name": "至宝丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "开窍安神，清热解毒",
+        "indication": "昏厥而痰盛气粗，舌红苔黄，脉滑数；中暑、中风、温病痰热内闭、神昏谵语、身热烦躁、痰盛气粗、舌赤苔黄、小儿急惊、心热烦躁、风涎抽搐",
+        "taboo": null,
+        "usage": "研末为丸，每丸重3克，每服一丸，研碎开水和服，小儿半丸"
+      }
+    },
+    {
+      "name": "生乌犀屑",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生玳瑁屑",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "琥珀",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "龙脑",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "安息香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "金箔",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "银箔",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "犀角",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "人参汤",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "芳香开窍",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "镇心安神",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "劫痰解毒",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生乌犀屑",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生玳瑁屑",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "琥珀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙脑",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "安息香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金箔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银箔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玳瑁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙脑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "芳香开窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "芳香开窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "安息香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "芳香开窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "朱砂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "琥珀",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金箔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银箔",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "劫痰解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "昏厥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰盛气粗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神昏谵语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身热烦躁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风涎抽搐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脑血管意外",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝昏迷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "乙脑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "温病痰热内闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿急惊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "开窍安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "至宝丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/至宝丹",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "一朵云叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "消肿解毒，止血",
+        "indication": "毒蛇咬伤，痈肿疮疖，水火烫伤，外伤出血",
+        "usage": "外用：适量，鲜品捣敷；或煎水洗；或干品研末撒"
+      }
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿疮疖",
+      "type": "Symptom"
+    },
+    {
+      "name": "水火烫伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "消肿解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "止血",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "一朵云叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒蛇咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一朵云叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疮疖",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一朵云叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水火烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一朵云叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "一朵云叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "一朵云叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    }
+  ]
+}

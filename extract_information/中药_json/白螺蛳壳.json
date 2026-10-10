@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "白螺蛳壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化痰，止痛，散结，敛疮",
+        "indication": "热痰咳嗽，反胃，胃痛，吐酸，瘰疬，溃疡久不收口，汤火伤",
+        "dosage": "内服：研末，3～9g；或入丸剂"
+      }
+    }
+  ],
+  "relations": []
+}

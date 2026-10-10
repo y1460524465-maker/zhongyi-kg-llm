@@ -1,0 +1,180 @@
+{
+  "entities": [
+    {
+      "name": "猪靥",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煮食，适量；或焙干研开，每日0.15g",
+        "effect": "散结消瘿",
+        "indication": "主治气瘿，气瘤",
+        "taboo": "内服用量不宜过大。心脏病患者慎服",
+        "origin": "为猪科动物猪的甲状腺体"
+      }
+    },
+    {
+      "name": "气瘿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气瘤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "猪靥散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": "上三味，捣罗为散，每服温酒调一钱匕，临卧吃"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "开结散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": "共为末，临卧冷酒徐徐服二钱"
+      }
+    },
+    {
+      "name": "沉香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "真朱砂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "橘红",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《医林集要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草纲目》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪靥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气瘿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪靥",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪靥",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散结消瘿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪靥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪靥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪靥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪靥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪靥散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "开结散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪靥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开结散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开结散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "真朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开结散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘红",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "开结散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医林集要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪靥",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

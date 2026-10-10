@@ -1,0 +1,202 @@
+{
+  "entities": [
+    {
+      "name": "龟板胶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "滋阴，补血，止血",
+        "indication": "阴虚血亏，劳热骨蒸，吐血，衄血，烦热惊悸，肾虚腰痛，脚膝痿弱，崩漏，带下",
+        "taboo": "脾胃虚寒，真精冷滑，二者禁用",
+        "usage": "开水或黄酒化服，3～9g"
+      }
+    },
+    {
+      "name": "阴虚血亏",
+      "type": "Disease"
+    },
+    {
+      "name": "劳热骨蒸",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "烦热惊悸",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾虚腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚膝痿弱",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source"
+    },
+    {
+      "name": "《浙扛中药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草从新》",
+      "type": "Source"
+    },
+    {
+      "name": "《得配本草》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚血亏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳热骨蒸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦热惊悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚膝痿弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林纂要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙扛中药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草从新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龟板胶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《得配本草》",
+      "object_type": "Source"
+    }
+  ]
+}

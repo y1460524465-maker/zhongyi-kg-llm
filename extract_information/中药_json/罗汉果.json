@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "罗汉果",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肺利咽，化痰止咳，润肠通便",
+        "indication": "肺热痰火咳嗽，扁挑体炎，急性胃炎，咽痛失音，肠燥便秘",
+        "dosage": "内服：煎汤，15~30g，或炖肉；或开水泡",
+        "origin": "《岭南采药录》《广西中药志》"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "罗汉果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺利咽，化痰止咳，润肠通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "罗汉果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热痰火咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗汉果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁挑体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗汉果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗汉果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛失音",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "罗汉果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠燥便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "罗汉果",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "罗汉果",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    }
+  ]
+}

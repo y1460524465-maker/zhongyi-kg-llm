@@ -1,0 +1,137 @@
+{
+  "entities": [
+    {
+      "name": "防己地黄汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴凉血，祛风通络",
+        "indication": "风入心经，阴虚血热，病如狂状，妄行，独语不休，无寒热，脉浮；或血虚风胜，手足蠕动，瘈疭，舌红少苔，脉虚神倦，阴虚风湿化热，肌肤红斑疼痛，状如游火。现用于风湿性关节炎、类风湿性关节炎、癔病、癫痫等证属阴虚热伏者",
+        "taboo": null,
+        "usage": "上四味药，以酒200毫升，渍12小时，绞取汁；用生地黄1千克哎咀，蒸1小时，绞取汁；以铜器将上二种药汁和匀，分二次服"
+      }
+    },
+    {
+      "name": "防己",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "类风湿性关节炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "癔病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "癫痫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "滋阴凉血",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "祛风通络",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "防己地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防己",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己地黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防己地黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "类风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防己地黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "癔病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防己地黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防己地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "防己地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛风通络",
+      "object_type": "Effect"
+    }
+  ]
+}

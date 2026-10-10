@@ -1,0 +1,117 @@
+{
+  "entities": [
+    {
+      "name": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "伤寒脉浮，误用火迫发汗，以致心阳外亡，心悸，惊狂，卧起不安者。",
+        "usage": "上七味，以水1.2升，先煮蜀漆至1升，纳诸药，煮取300毫升，去滓，温服100毫升。"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "processing": "去皮"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12枚",
+        "processing": "擘"
+      }
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "processing": "熬"
+      }
+    },
+    {
+      "name": "蜀漆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "processing": "去腥"
+      }
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜀漆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝去芍药加蜀漆牡蛎龙骨救逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    }
+  ]
+}

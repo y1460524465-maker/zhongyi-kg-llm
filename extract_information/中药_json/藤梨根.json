@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "藤梨根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，祛风利湿，活血消肿",
+        "indication": "肝炎，痢疾，消化不良，淋浊，带下，风湿关节痛，水肿，跌打损伤，疮疖，瘰疬结核，胃肠道肿瘤及乳腺癌",
+        "taboo": "孕妇不宜服",
+        "usage": "内服：煎汤，30-60g",
+        "origin": "为猕猴桃科植物猕猴桃Actinidia chinensis Planch.的根。全年均可采，洗净，切段，晒干或鲜用。宜在栽种10年后轮流适当采挖。"
+      }
+    }
+  ],
+  "relations": []
+}

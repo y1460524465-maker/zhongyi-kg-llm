@@ -1,0 +1,138 @@
+{
+  "entities": [
+    {
+      "name": "海桐皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风湿，舒筋通络，杀虫止痒",
+        "indication": "风湿麻木，腰腿筋骨疼痛，跌打损伤；外用治各种顽癣",
+        "property_flavor": "味苦",
+        "dosage": "内服：煎汤，6~12g；或浸酒。外用：适量，煎水熏洗；或浸酒搽；或研末调敷",
+        "taboo": "腰痛非风湿者不宜用；痢疾、痹盟谐证非关风湿者不宜用；血少火炽者禁用"
+      }
+    },
+    {
+      "name": "风湿麻木",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰腿筋骨疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "顽癣",
+      "type": "Disease"
+    },
+    {
+      "name": "《海药本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "《南宁市药物志》",
+      "type": "Source"
+    },
+    {
+      "name": "《贵州草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海桐皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海桐皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰腿筋骨疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海桐皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海桐皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "顽癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海桐皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《海药本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海桐皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海桐皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海桐皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海桐皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海桐皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《南宁市药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海桐皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵州草药》",
+      "object_type": "Source"
+    }
+  ]
+}

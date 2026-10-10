@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "黑面叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "黑面神、暗鬼木、青凡木、田中逵、四眼叶、夜兰茶、铁甲将军、老鸦写字、庙公仔、鸡肾叶、锅盖仔",
+        "effect": "清热祛湿，活血解毒",
+        "indication": "腹痛吐泻，湿疹，缠腰火丹，皮炎，漆疮，风湿痹痛，乳汁不通，阴痒",
+        "usage": "内服：煎汤，15-30g；或捣汁。外用：适量，捣敷；或煎水洗；或研末撒。"
+      }
+    },
+    {
+      "name": "腹痛吐泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疹",
+      "type": "Symptom"
+    },
+    {
+      "name": "缠腰火丹",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮炎",
+      "type": "Symptom"
+    },
+    {
+      "name": "漆疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳汁不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴痒",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黑面叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑面叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑面叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "缠腰火丹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑面叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮炎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑面叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "漆疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑面叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑面叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑面叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑面叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热祛湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黑面叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

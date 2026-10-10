@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "冰糖",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补中益气，健脾和胃，润肺止咳",
+        "indication": "脾胃气虚，肺燥咳嗽，或痰中带血",
+        "dosage": "内服：入汤，10-15g；或含化；或入丸、膏剂"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "冰糖",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾胃气虚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰糖",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺燥咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰糖",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰中带血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰糖",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补中益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冰糖",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾和胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冰糖",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺止咳",
+      "object_type": "Effect"
+    }
+  ]
+}

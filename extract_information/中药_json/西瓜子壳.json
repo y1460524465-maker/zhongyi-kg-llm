@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "西瓜子壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "煎汤，60-90g",
+        "effect": "主治呕血，便血",
+        "indication": "肠风下血",
+        "origin": "葫芦科植物西瓜的种皮"
+      }
+    },
+    {
+      "name": "地榆",
+      "type": "Herb"
+    },
+    {
+      "name": "白薇",
+      "type": "Herb"
+    },
+    {
+      "name": "蒲黄",
+      "type": "Herb"
+    },
+    {
+      "name": "桑白皮",
+      "type": "Herb"
+    },
+    {
+      "name": "《中国医学大辞典》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "西瓜子壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "西瓜子壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "西瓜子壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风下血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "西瓜子壳",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "地榆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "西瓜子壳",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "白薇",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "西瓜子壳",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "西瓜子壳",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑白皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "西瓜子壳",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国医学大辞典》",
+      "object_type": "Source"
+    }
+  ]
+}

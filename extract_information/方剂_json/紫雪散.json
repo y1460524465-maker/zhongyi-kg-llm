@@ -1,0 +1,198 @@
+{
+  "entities": [
+    {
+      "name": "紫雪散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清心脾积热，解毒",
+        "indication": "重腭，心脾有热，上腭生疮，形如梅子，外无寒热，内时作烦；舌疔，心脾火毒，舌生紫疱，其形如豆，坚硬寒热，疼痛应心，咽喉肿痛",
+        "usage": "大人每用3克，小儿0.6克，十岁者1.5克，徐徐咽之。或用淡竹叶、灯心煎汤化服。咽喉肿痛，吹患处"
+      }
+    },
+    {
+      "name": "犀角",
+      "type": "Herb"
+    },
+    {
+      "name": "羚羊角",
+      "type": "Herb"
+    },
+    {
+      "name": "石膏",
+      "type": "Herb"
+    },
+    {
+      "name": "寒水石",
+      "type": "Herb"
+    },
+    {
+      "name": "升麻",
+      "type": "Herb"
+    },
+    {
+      "name": "元参",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "沉香",
+      "type": "Herb"
+    },
+    {
+      "name": "木香",
+      "type": "Herb"
+    },
+    {
+      "name": "朴消",
+      "type": "Herb"
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb"
+    },
+    {
+      "name": "冰片",
+      "type": "Herb"
+    },
+    {
+      "name": "金箔",
+      "type": "Herb"
+    },
+    {
+      "name": "重腭",
+      "type": "Disease"
+    },
+    {
+      "name": "舌疔",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羚羊角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "寒水石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "元参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朴消",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金箔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清心脾积热，解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "重腭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "舌疔",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "紫雪散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

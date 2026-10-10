@@ -1,0 +1,145 @@
+{
+  "entities": [
+    {
+      "name": "白接骨",
+      "type": "Herb",
+      "attributes": {
+        "alias": "玉龙盘、无骨苧麻、玉梗半枝莲、玉按骨、血见愁、玉钱草、麒麟草、玉连环、接骨丹、接骨草、猢狲节根、金不换、橡皮草",
+        "effect": "散瘀止血，清热解毒",
+        "indication": "用于肺结核，咽喉肿痛，糖尿病，腹水；外用治外伤出血，扭伤，疖肿",
+        "property_flavor": "味甘淡；味淡，性平",
+        "usage": "内服：煎汤，9-15g，鲜品30-60g；或捣烂绞汁；或研末。外用：适量，适品捣敷或研末撒"
+      }
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《浙江民间常用草药》",
+      "type": "Source"
+    },
+    {
+      "name": "江西《中草药学》",
+      "type": "Source"
+    },
+    {
+      "name": "《浙江民间草药》",
+      "type": "Source"
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "糖尿病",
+      "type": "Disease"
+    },
+    {
+      "name": "腹水",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "扭伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "疖肿",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀止血，清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "扭伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疖肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江民间常用草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "江西《中草药学》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白接骨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江民间草药》",
+      "object_type": "Source"
+    }
+  ]
+}

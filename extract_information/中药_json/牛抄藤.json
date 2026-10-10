@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "牛抄藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "长叶海金沙、驳筋藤、介指藤、缠藤、柳叶海金沙",
+        "origin": "为海金沙科植物曲轴海金沙的全草",
+        "processing": "夏、秋采收",
+        "property_flavor": "甘微苦，寒",
+        "effect": "舒筋活络，清热利湿，止血",
+        "indication": "风湿麻木，跌打损伤，尿路感染，泌尿系结石，水肿，痢疾，疮痈肿毒，小儿口疮，火眼，癣疾，外伤出血",
+        "dosage": "内服：煎汤，10-15g",
+        "taboo": null
+      }
+    }
+  ],
+  "relations": []
+}

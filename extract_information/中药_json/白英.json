@@ -1,0 +1,529 @@
+{
+  "entities": [
+    {
+      "name": "白英",
+      "type": "Herb",
+      "attributes": {
+        "alias": "彀菜, 鬼目草, 白草, 白幕, 排风, 排风草, 天灯笼, 和尚头草, 望冬红, 酸尖菜, 排风藤, 土防风, 耳坠风, 金线绿毛龟草, 葫芦草, 毛见藤, 毛老人, 红道士, 毛和尚, 野猫耳朵, 胡毛藤, 羊仔耳, 生毛稍, 龙毛龟, 毛燕仔, 红麦禾, 蜀羊泉, 毛相公, 望风藤, 毛千里光, 毛秀才, 鹰咬豆子, 毛道士, 毛葫芦, 葫芦藤",
+        "effect": "清热，利湿，祛风，解毒",
+        "indication": "主治疟疾，黄疸，水肿，淋病，风湿关节痛，丹毒，疔疮",
+        "taboo": "体虚无湿热者忌用",
+        "usage": "内服：煎汤，15~30g，鲜者30~60g；或浸酒。外用：适量，煎水洗、捣敷涂。"
+      }
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "淋病",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿关节痛",
+      "type": "Disease"
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease"
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "头秃恶疮热气",
+      "type": "Symptom"
+    },
+    {
+      "name": "疥瘙痂癣虫",
+      "type": "Symptom"
+    },
+    {
+      "name": "烦热",
+      "type": "Symptom"
+    },
+    {
+      "name": "风疹",
+      "type": "Symptom"
+    },
+    {
+      "name": "疟瘴",
+      "type": "Disease"
+    },
+    {
+      "name": "寒热",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿结热",
+      "type": "Symptom"
+    },
+    {
+      "name": "骨节风湿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "鬼箭",
+      "type": "Disease"
+    },
+    {
+      "name": "血淋",
+      "type": "Symptom"
+    },
+    {
+      "name": "疟",
+      "type": "Disease"
+    },
+    {
+      "name": "疝气",
+      "type": "Disease"
+    },
+    {
+      "name": "耳脓",
+      "type": "Symptom"
+    },
+    {
+      "name": "疬癖",
+      "type": "Disease"
+    },
+    {
+      "name": "黄疸水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿蛔结腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "惊风",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "漆疮",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "妇女白带",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿肝热",
+      "type": "Symptom"
+    },
+    {
+      "name": "风火赤眼",
+      "type": "Symptom"
+    },
+    {
+      "name": "疔疮肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "疥疮",
+      "type": "Disease"
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《百草镜》",
+      "type": "Source"
+    },
+    {
+      "name": "《采药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《植物名实图考》",
+      "type": "Source"
+    },
+    {
+      "name": "《分类草药性》",
+      "type": "Source"
+    },
+    {
+      "name": "《药材学》",
+      "type": "Source"
+    },
+    {
+      "name": "《闽东本草》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头秃恶疮热气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疥瘙痂癣虫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟瘴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿结热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨节风湿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鬼箭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳脓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疬癖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿蛔结腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "漆疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿肝热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风火赤眼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《百草镜》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《采药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《植物名实图考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《分类草药性》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药材学》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《闽东本草》",
+      "object_type": "Source"
+    }
+  ]
+}

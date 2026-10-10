@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "name": "双花堇菜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9-15g",
+        "effect": "活血散瘀，止血",
+        "indication": "跌打损伤，吐血，急性肺炎，肺出血",
+        "origin": "为堇菜科植物双花堇菜的全草",
+        "processing": "夏季采收全草，洗净，鲜用或晒干",
+        "usage": "内服：煎汤"
+      }
+    },
+    {
+      "name": "《新华本草纲要》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "双花堇菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "双花堇菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "双花堇菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "双花堇菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "双花堇菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "双花堇菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《新华本草纲要》",
+      "object_type": "Source"
+    }
+  ]
+}

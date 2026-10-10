@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "仙桃草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "英桃草,小头红,蟠桃草,接骨仙桃,无风自动草,小伤力草,小虫草,地胡椒,病疳草,八卦仙桃草,旱仙桃草,小将军",
+        "effect": "化瘀止血，清热消肿，止痛",
+        "indication": "跌打损伤，咽喉肿痛，痈疽疮疡，咳血，吐血，衄血，肚胃气痛，疝气痛，痛经",
+        "usage": "内服：煎汤，10-30g；或研末；或捣汁服。外用：鲜品适量，捣敷或煎水洗",
+        "taboo": "孕妇忌服",
+        "traits": "须根丛生，细而卷曲，表面棕灰色至棕色，折断面白色。茎圆柱形，直径约1mm，表面枯黄色或棕色，老茎微带紫色，有纵纹；质柔软，折断面中空。叶大多脱落，残卵的叶片淡棕色或棕黑色，皱缩卷曲。蒴果棕色，有多数细小而扁的种子。种子淡棕色，有虫瘿的果实膨大为肉质桃形。气微，味淡。以虫瘿多、内有小虫者为佳",
+        "processing": "春夏间花后采集带虫瘿的全草（小虫未逸出之前），立即在烈日下晒干或烘干"
+      }
+    },
+    {
+      "name": "《贵阳民间药草》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "仙桃草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化瘀止血，清热消肿，止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "仙桃草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙桃草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙桃草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "仙桃草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙桃草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙桃草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙桃草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肚胃气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙桃草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙桃草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "仙桃草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵阳民间药草》",
+      "object_type": "Source"
+    }
+  ]
+}

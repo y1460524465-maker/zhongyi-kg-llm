@@ -1,0 +1,134 @@
+{
+  "entities": [
+    {
+      "name": "鸡骨草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "黄头草、黄仔强、大黄草、假牛甘子、红母鸡草、猪腰草、黄食草、小叶龙鳞草",
+        "effect": "清热解毒，利湿，舒肝散瘀止痛",
+        "indication": "黄疸肝炎，胃痛，乳痈，瘰疬，跌打伤瘀血疼痛",
+        "meridian": "心经；肺经；肝经；胃经；肾经",
+        "place": "广东、广西",
+        "property_flavor": "味微苦",
+        "taboo": "凡虚寒体弱者慎用。本品种子有毒，不能入药，用时必须把豆荚全部摘除。",
+        "traits": "根粗、茎、叶全者为佳",
+        "processing": "全年可采收，一般在11-12月或清明后连根挖起，除去荚果（种子有毒）去净根部泥土，将茎藤扎成束，晒至八成干发汗再晒足干即成",
+        "dosage": "内服：煎汤，15~30g；或入丸、散。外用：适量，鲜品捣敷"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打伤瘀血疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿骨痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "传染性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝硬化腹水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒肝散瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《南宁市药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国药植图鉴》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南草药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡骨草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广州部队《常用中草药手册》",
+      "object_type": "Source"
+    }
+  ]
+}

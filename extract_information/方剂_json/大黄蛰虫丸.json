@@ -1,0 +1,289 @@
+{
+  "entities": [
+    {
+      "name": "大黄蛰虫丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "活血破瘀，通经消症瘕",
+        "indication": "瘀血内停所致的症瘕、闭经，症见腹部肿块、肌肤甲错、面色黯黑、潮热羸瘦、经闭不行"
+      }
+    },
+    {
+      "name": "熟大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "300g"
+      }
+    },
+    {
+      "name": "土鳖虫",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "水蛭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g",
+        "processing": "制"
+      }
+    },
+    {
+      "name": "虻虫",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45g",
+        "processing": "去翅足，炒"
+      }
+    },
+    {
+      "name": "蛴螬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45g",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "干漆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "processing": "煅"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120g"
+      }
+    },
+    {
+      "name": "炒苦杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120g"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "300g"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120g"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90g"
+      }
+    },
+    {
+      "name": "症瘕",
+      "type": "Disease"
+    },
+    {
+      "name": "闭经",
+      "type": "Disease"
+    },
+    {
+      "name": "腹部肿块",
+      "type": "Symptom"
+    },
+    {
+      "name": "肌肤甲错",
+      "type": "Symptom"
+    },
+    {
+      "name": "面色黯黑",
+      "type": "Symptom"
+    },
+    {
+      "name": "潮热羸瘦",
+      "type": "Symptom"
+    },
+    {
+      "name": "经闭不行",
+      "type": "Symptom"
+    },
+    {
+      "name": "血瘀",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "土鳖虫",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "水蛭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "虻虫",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蛴螬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干漆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炒苦杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "活血破瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "通经消症瘕",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "症瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "闭经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹部肿块",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肌肤甲错",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面色黯黑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "潮热羸瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭不行",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大黄蛰虫丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "血瘀",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "entities": [
+    {
+      "name": "樟木",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风散寒，温中理气，活血通络",
+        "indication": "风寒感冒，胃寒胀痛，寒湿吐泻，风湿痹痛，脚气，跌打伤痛，疥癣风痒",
+        "dosage": "内服：煎汤，10-20g；研末，3-6g；或泡酒饮",
+        "property_flavor": "辛",
+        "traits": "块大、香气浓郁者为佳",
+        "origin": "樟科植物樟的木材",
+        "place": "广东、广西、云南、贵州、江苏、浙江、安徽、福建、台湾、江西、湖北、湖南、四川等地",
+        "processing": "定植5-6年成材后，通常于冬季砍收树干，锯段，劈成小块，晒干"
+      }
+    },
+    {
+      "name": "风寒感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "胃寒胀痛",
+      "type": "Disease"
+    },
+    {
+      "name": "寒湿吐泻",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打伤痛",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣风痒",
+      "type": "Disease"
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "痰壅呕逆",
+      "type": "Symptom"
+    },
+    {
+      "name": "心胸满闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "痛风",
+      "type": "Disease"
+    },
+    {
+      "name": "手足冷痛如虎咬",
+      "type": "Symptom"
+    },
+    {
+      "name": "蜈蚣咬伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中理气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃寒胀痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒湿吐泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打伤痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣风痒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰壅呕逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心胸满闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "手足冷痛如虎咬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "樟木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蜈蚣咬伤",
+      "object_type": "Disease"
+    }
+  ]
+}

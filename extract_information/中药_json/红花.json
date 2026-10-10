@@ -1,0 +1,485 @@
+{
+  "entities": [
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "红蓝花，刺红花，草红花，黄蓝，红蓝，红花草，红花菜",
+        "effect": "活血通经，去瘀止痛",
+        "indication": "经闭，癥瘕，难产，死胎，产后恶露不行、瘀血作痛，痈肿，跌扑损伤",
+        "property_flavor": "味微苦",
+        "usage": "内服：煎汤，3~10g。入散剂或浸酒，鲜者捣汁。养血和血宜少用，活血祛瘀宜多用。"
+      }
+    },
+    {
+      "name": "经闭",
+      "type": "Symptom"
+    },
+    {
+      "name": "癥瘕",
+      "type": "Symptom"
+    },
+    {
+      "name": "难产",
+      "type": "Symptom"
+    },
+    {
+      "name": "死胎",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后恶露不行",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘀血作痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌扑损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "口噤不语",
+      "type": "Symptom"
+    },
+    {
+      "name": "血结",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后诸疾",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后血运口噤",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹内恶血不尽",
+      "type": "Symptom"
+    },
+    {
+      "name": "绞痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胎死腹中",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛊毒下血",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉痹噎塞不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "痘疮血热难出",
+      "type": "Symptom"
+    },
+    {
+      "name": "斑疹血滞不消",
+      "type": "Symptom"
+    },
+    {
+      "name": "女子经脉不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "血膈",
+      "type": "Symptom"
+    },
+    {
+      "name": "热病胎死",
+      "type": "Symptom"
+    },
+    {
+      "name": "胎衣不下",
+      "type": "Symptom"
+    },
+    {
+      "name": "妇人六十二种风",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹中血气刺痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "一切肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "聤耳",
+      "type": "Symptom"
+    },
+    {
+      "name": "褥疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "痛经",
+      "type": "Symptom"
+    },
+    {
+      "name": "关节炎肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "噎膈",
+      "type": "Symptom"
+    },
+    {
+      "name": "子宫颈癌",
+      "type": "Disease"
+    },
+    {
+      "name": "肿毒初起",
+      "type": "Symptom"
+    },
+    {
+      "name": "肿痛不可忍",
+      "type": "Symptom"
+    },
+    {
+      "name": "气血虚弱型闭经",
+      "type": "Disease"
+    },
+    {
+      "name": "气郁型月经滞后症",
+      "type": "Disease"
+    },
+    {
+      "name": "经期延后",
+      "type": "Symptom"
+    },
+    {
+      "name": "精神郁闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸痞不舒",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳胀胁痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癥瘕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "难产",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "死胎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后恶露不行",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘀血作痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌扑损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口噤不语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后诸疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后血运口噤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹内恶血不尽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "绞痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎死腹中",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛊毒下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹噎塞不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痘疮血热难出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "斑疹血滞不消",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "女子经脉不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血膈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病胎死",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎衣不下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇人六十二种风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹中血气刺痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "一切肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "聤耳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "褥疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "关节炎肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噎膈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫颈癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿毒初起",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿痛不可忍",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气血虚弱型闭经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气郁型月经滞后症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "气郁型月经滞后症",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "经期延后",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气郁型月经滞后症",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "精神郁闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气郁型月经滞后症",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸痞不舒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气郁型月经滞后症",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "乳胀胁痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "去瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气养血通经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开郁行气",
+      "object_type": "Effect"
+    }
+  ]
+}

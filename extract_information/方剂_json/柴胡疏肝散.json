@@ -1,0 +1,227 @@
+{
+  "entities": [
+    {
+      "name": "柴胡疏肝散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "疏肝行气兼活血",
+        "indication": "肝气郁滞证。胁肋疼痛，或寒热往来，嗳气太息，脘腹胀满，脉弦。",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柴胡疏肝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡疏肝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡疏肝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡疏肝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡疏肝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡疏肝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡疏肝散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡疏肝散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "疏肝行气兼活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柴胡疏肝散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝气郁滞证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肝气郁滞证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胁肋疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝气郁滞证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "寒热往来",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝气郁滞证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "嗳气太息",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝气郁滞证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脘腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肝气郁滞证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉弦",
+      "object_type": "Symptom"
+    }
+  ]
+}

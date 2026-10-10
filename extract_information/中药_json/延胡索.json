@@ -1,0 +1,348 @@
+{
+  "entities": [
+    {
+      "name": "延胡索",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血，散瘀，理气，止痛。治心腹腰膝诸痛，月经不调，癥瘕，崩中，产后血晕，恶露不尽，跌打损伤。",
+        "indication": "心腹腰膝诸痛，月经不调，癥瘕，崩中，产后血晕，恶露不尽，跌打损伤",
+        "meridian": "肝经；胃经；心经；肺经；脾经",
+        "processing": "1.延胡索：拣去杂质，用水浸泡，洗净，晒晾，润至内外湿度均匀，切片或打碎。\n2.醋延胡索：取净延胡索，用醋拌匀，浸润，至醋吸尽，置锅内用文火炒至微干，取出，放凉；或取净延胡索，加醋置锅内共煮，至醋吸净，烘干，取出，放凉。（每延胡索100斤，用醋20斤）。\n3.酒延胡索：取净延胡索片或碎块，加黄酒拌匀，闷透，置锅内用文火加热，炒干，取出放凉。每延胡索100kg，黄酒20kg。",
+        "dosage": "内服：煎汤，5~9克；或入丸、散。",
+        "taboo": "1.《品汇精要》:妊娠不可服。\n2.《本草经疏》：经事先期及一切血热为病，法所应禁。\n3.《本草正》：产后血虚或经血枯少不利，气虚作痛者，皆大非所宜。"
+      }
+    },
+    {
+      "name": "活血",
+      "type": "Effect"
+    },
+    {
+      "name": "散瘀",
+      "type": "Effect"
+    },
+    {
+      "name": "理气",
+      "type": "Effect"
+    },
+    {
+      "name": "止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "心腹腰膝诸痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "月经不调",
+      "type": "Symptom"
+    },
+    {
+      "name": "癥瘕",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩中",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后血晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶露不尽",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "心痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "热瓢心痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "下痢腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹中刺痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后恶露下不尽",
+      "type": "Symptom"
+    },
+    {
+      "name": "筋骨疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疝气",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿盘肠气痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后恶血不尽",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "冷气流注腰疼",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮下气痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮无头",
+      "type": "Symptom"
+    },
+    {
+      "name": "血痢疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "经来小腹有块痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后诸病",
+      "type": "Disease"
+    },
+    {
+      "name": "偏正头风",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹腰膝诸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癥瘕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩中",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后血晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶露不尽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热瓢心痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下痢腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹中刺痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后恶露下不尽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿盘肠气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后恶血不尽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "冷气流注腰疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮下气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮无头",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经来小腹有块痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后诸病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "延胡索",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏正头风",
+      "object_type": "Symptom"
+    }
+  ]
+}

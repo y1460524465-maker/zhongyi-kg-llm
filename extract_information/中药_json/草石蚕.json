@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "草石蚕",
+      "type": "Herb",
+      "attributes": {
+        "alias": "地蚕、甘露子、滴露、甘露儿、土蛹、宝塔菜、蜗儿菜、土虫草、地牯牛草、地纽",
+        "effect": "解表清肺，利湿解毒，补虚健脾",
+        "indication": "风热感冒，虚劳咳嗽，黄疸，淋证，疮毒肿痛，毒蛇咬伤",
+        "property_flavor": "甘，平，无毒；性平，味甘微辛",
+        "usage": "内服:煎汤，全草15-30g，根30-60g；浸酒或焙干研末",
+        "taboo": "因虚劳引致瘫痪者不可用；脏寒者忌用。多服令人泻",
+        "origin": "为唇形科植物草石蚕的块茎或全草。春、秋采收。挖取块茎，洗净，晒干",
+        "place": "生于湿润地或近水边。分布河北、山西、江苏、安徽、四川，浙江等地"
+      }
+    },
+    {
+      "name": "风热感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "虚劳咳嗽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "淋证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疮毒肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "毒蛇咬伤",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "草石蚕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草石蚕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草石蚕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草石蚕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "草石蚕",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮毒肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "草石蚕",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒蛇咬伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

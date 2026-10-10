@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "name": "牛鼻栓",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气，止血",
+        "indication": "虚劳乏力，创伤出血",
+        "usage": "内服：煎汤，10-24g；大剂量单用60-90g。外用：适量，捣烂敷患处。",
+        "origin": "金缕梅科植物牛鼻栓的枝叶或根"
+      }
+    },
+    {
+      "name": "虚劳乏力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "创伤出血",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛鼻栓",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛鼻栓",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "创伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛鼻栓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛鼻栓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    }
+  ]
+}

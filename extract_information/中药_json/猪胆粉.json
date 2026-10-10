@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "name": "猪胆粉",
+      "type": "Herb",
+      "attributes": {
+        "origin": "猪科动物猪胆汁的干燥品",
+        "property_flavor": "苦，寒",
+        "meridian": "归肝、胆、肺、大肠经",
+        "effect": "清热润燥，止咳平喘，解毒",
+        "indication": "用于顿咳，哮喘，热病燥渴，目赤，喉痹，黄疸，泄泻，痢疾，便秘，痈疮肿毒",
+        "dosage": "0.3～0.6g，冲服或入丸散",
+        "taboo": "青鱼胆有毒，不宜服用"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "顿咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "哮喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病燥渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胆粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疮肿毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

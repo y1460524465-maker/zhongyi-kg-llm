@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "name": "铁棒锤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "铁牛七、雪上一枝蒿、八百棒",
+        "effect": "活血祛瘀，祛风除湿，消肿止痛",
+        "indication": "跌打损伤，骨折瘀肿疼痛，风湿腰痛，痈肿恶疮，无名肿毒，瘰疬未溃者，毒蛇咬伤，冻疮",
+        "usage": "外用：适量，研末调敷；或磨汁涂；或煎水洗。内服：煎汤，1.5-3g；或研末冲服，0.06-0.15g",
+        "taboo": "服药后忌热饮食、烟、酒二小时；孕妇忌服",
+        "processing": "用清水浸漂7日，每日换水2次，待中心软透后切片，置蒸笼中蒸2～3小时，取出晒干，再用熟猪油拌炒后入药，或用湿纸包裹煨透，去纸，浸入童便中一昼夜，取出漂净晒干",
+        "traits": "味辛苦麻，有毒"
+      }
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "骨折瘀肿疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿腰痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "铁棒锤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁棒锤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨折瘀肿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁棒锤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿腰痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

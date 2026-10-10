@@ -1,0 +1,198 @@
+{
+  "entities": [
+    {
+      "name": "蒲公英",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，10~30g，大剂量60g；或捣汁；或入散剂。",
+        "effect": "清热解毒，利尿散结。",
+        "indication": "主治急性乳腺炎，淋巴腺炎，瘰疬，疔毒疮肿，急性结膜炎，感冒发热，急性扁桃体炎，急性支气管炎，胃炎，肝炎，胆囊炎，尿路感染。",
+        "taboo": "阳虚外寒、脾胃虚弱者忌用。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性乳腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔毒疮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性结膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒发热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胆囊炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿路感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "唐本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草图经",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草衍义补遗",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "滇南本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "纲目",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "医林纂要",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "纲目拾遗",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "随息居饮食谱",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "岭南采药录",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "山东中药",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "常用中草药手册",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蒲公英",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "上海常用中草药",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {
+      "name": "滚山虫",
+      "type": "Herb",
+      "attributes": {
+        "alias": "滚山珠、地罗汉",
+        "effect": "祛风通络，散瘀止痛",
+        "indication": "风湿痹痛，筋脉拘挛，跌打损伤，骨折肿痛",
+        "dosage": "内服：干粉，1.5~3 g；或鲜品3～5个。外用：干粉调涂或鲜品捣敷",
+        "property_flavor": "味辛咸，性温",
+        "origin": "《云南中草药》",
+        "place": "云南"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "滚山虫",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风通络，散瘀止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

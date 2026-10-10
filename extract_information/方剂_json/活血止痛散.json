@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "name": "活血止痛散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "活血散瘀，消肿止痛",
+        "indication": "跌打损伤，瘀血肿痛",
+        "usage": "用温黄酒或温开水送服，一次1.5g，一日2次"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "400g"
+      }
+    },
+    {
+      "name": "三七",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g"
+      }
+    },
+    {
+      "name": "乳香（制）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g"
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "土鳖虫",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200g"
+      }
+    },
+    {
+      "name": "自然铜（煅）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "活血止痛散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "活血止痛散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "三七",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "活血止痛散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香（制）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "活血止痛散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "活血止痛散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "土鳖虫",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "活血止痛散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "自然铜（煅）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "活血止痛散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀，消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "活血止痛散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "活血止痛散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘀血肿痛",
+      "object_type": "Disease"
+    }
+  ]
+}

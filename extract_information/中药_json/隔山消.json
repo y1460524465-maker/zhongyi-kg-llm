@@ -1,0 +1,117 @@
+{
+  "entities": [
+    {
+      "name": "隔山消",
+      "type": "Herb",
+      "attributes": {
+        "alias": "隔山撬、隔山牛皮消、白首乌、白何首乌、山瓜蒌",
+        "effect": "补肝肾，强筋骨，健脾胃，解毒",
+        "indication": "肝肾两虚，头昏眼花，失眠健忘，须发早白，阳痿，遗精，腰膝酸软，脾虚不运，脘腹胀满，食欲不振，泄泻，产后乳少，鱼口疮毒",
+        "dosage": "内服：煎汤，9~15g。外用：鲜品适量，捣敷",
+        "origin": "萝藦科植物耳叶牛皮消的块根",
+        "taboo": null,
+        "processing": "秋季采收，洗净，晒干"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾，强筋骨，健脾胃，解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾两虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰膝酸软",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚不运",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鱼口疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头昏眼花",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠健忘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "须发早白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "隔山消",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后乳少",
+      "object_type": "Symptom"
+    }
+  ]
+}

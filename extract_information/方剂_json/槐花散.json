@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "槐花散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "凉血止血，清肠泄热",
+        "usage": "为末，米饮下"
+      }
+    },
+    {
+      "name": "肠风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脏毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "槐花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "泻热清肠，凉血止血"
+      }
+    },
+    {
+      "name": "侧柏叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热凉血，燥湿收敛"
+      }
+    },
+    {
+      "name": "荆芥炭",
+      "type": "Herb",
+      "attributes": {
+        "effect": "疏风理血"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "宽肠下气"
+      }
+    },
+    {
+      "name": "便血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔疮出血",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "槐花散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "槐花散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脏毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "槐花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "槐花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "槐花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "侧柏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "槐花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "槐花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "槐花散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "槐花散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

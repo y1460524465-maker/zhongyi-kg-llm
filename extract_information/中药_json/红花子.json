@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "红花子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "红蓝子 白平子",
+        "effect": "活血解毒",
+        "indication": "痘出不快，妇女血气瘀滞腹痛",
+        "property_flavor": "辛，温",
+        "meridian": "心经，肝经",
+        "usage": "内服：煎汤，3~9 g,或入丸、散"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痘出不快",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女血气瘀滞腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红花子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

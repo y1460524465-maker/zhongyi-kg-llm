@@ -1,0 +1,334 @@
+{
+  "entities": [
+    {
+      "name": "射干",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乌扇，乌蒲，黄远，乌萐，夜干，乌翣，乌吹，草姜，鬼扇，凤翼、扁竹根，野萱花、扁竹、地萹竹、较剪草、黄花扁蓄、开喉箭，黄知母，冷水丹，冷水花，扁竹兰，金蝴蝶，金绞剪，紫良姜，铁扁担，六甲花，扇把草，鱼翅草，山蒲扇，剪刀草，老君扇，高搜山",
+        "effect": "降火，解毒，散血，消痰",
+        "indication": "喉痹咽痛，咳逆上气，痰涎壅盛，瘰疬结核，疟母，妇女经闭，痈肿疮毒",
+        "taboo": "无实火及脾虚便溏者不宜。孕妇忌服。",
+        "dosage": "5~10g",
+        "processing": "拣去杂质，水洗净，稍浸泡，捞出，润透，切片，晒干，筛去须、屑。",
+        "property_flavor": "味苦、微辛",
+        "traits": "本品呈不规则结节状，长3～10cm，直径1～2cm。表面黄褐色、棕褐色或黑褐色，皱缩，有较密的环纹。上面有数个圆盘状凹陷的茎痕，偶有茎基残存；下面有残留细根及根痕。质硬，断面黄色，颗粒性。"
+      }
+    },
+    {
+      "name": "射干麻黄汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "上九味，以水一斗二升，先煮麻黄两沸，去上沫，纳诸药，煮取三升。分温三服。"
+      }
+    },
+    {
+      "name": "射干汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "射干，细锉。每服五饯匕，水一盏半，煎至八分，去滓，入蜜少许，旋旋服。"
+      }
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease"
+    },
+    {
+      "name": "咽痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳逆上气",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰涎壅盛",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疬结核",
+      "type": "Disease"
+    },
+    {
+      "name": "疟母",
+      "type": "Disease"
+    },
+    {
+      "name": "妇女经闭",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿疮毒",
+      "type": "Disease"
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease"
+    },
+    {
+      "name": "白喉",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿疝",
+      "type": "Disease"
+    },
+    {
+      "name": "恶核肿结",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿焮赤",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌本强直",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃热停痰",
+      "type": "Disease"
+    },
+    {
+      "name": "伤寒热病",
+      "type": "Disease"
+    },
+    {
+      "name": "喉中闭塞不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳而上气",
+      "type": "Symptom"
+    },
+    {
+      "name": "水蛊",
+      "type": "Disease"
+    },
+    {
+      "name": "关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "风痰吐沫",
+      "type": "Symptom"
+    },
+    {
+      "name": "气喘咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "肚腹膨胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺胀",
+      "type": "Disease"
+    },
+    {
+      "name": "马脾风",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降火，解毒，散血，消痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹咽痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咳逆上气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰涎壅盛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟母",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干麻黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "咳而上气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白喉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "恶核肿结",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿焮赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌本强直",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃热停痰",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒热病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉中闭塞不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水蛊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风痰吐沫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气喘咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肚腹膨胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "射干",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "马脾风",
+      "object_type": "Disease"
+    }
+  ]
+}

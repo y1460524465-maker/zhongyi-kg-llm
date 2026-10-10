@@ -1,0 +1,149 @@
+{
+  "entities": [
+    {
+      "name": "桂枝茯苓丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温通经脉，化瘀消癥，散血行瘀，清退瘀热，消痰利水，渗湿健脾",
+        "indication": "妇人素有癥块，妊娠胎动不安，漏下不止；瘀阻胞宫证，腹痛拒按，或漏下不止，血色紫黑晦暗，或妊娠胎动不安",
+        "usage": "口服，一次1丸，一日1～2次",
+        "alias": "金匮桂枝茯苓丸"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温通经脉而行瘀滞"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "effect": "消痰利水，渗湿健脾"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散血行瘀，清退瘀久所化之热"
+      }
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb"
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化瘀消癥"
+      }
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source"
+    },
+    {
+      "name": "癥块",
+      "type": "Disease"
+    },
+    {
+      "name": "妊娠胎动不安",
+      "type": "Symptom"
+    },
+    {
+      "name": "漏下不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹痛拒按",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘀阻胞宫证",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "癥块",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘀阻胞宫证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妊娠胎动不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "漏下不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝茯苓丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛拒按",
+      "object_type": "Symptom"
+    }
+  ]
+}

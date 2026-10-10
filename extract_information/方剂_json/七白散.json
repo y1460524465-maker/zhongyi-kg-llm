@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "七白散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "养血柔肝, 缓中消炎",
+        "indication": "面肤黯斑，青春痘",
+        "taboo": null,
+        "usage": "加蛋清或蜂蜜牛奶调成糊敷面用"
+      }
+    },
+    {
+      "name": "白蔹",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白牵牛",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白附子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白芍药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白僵蚕",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "七白散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养血柔肝, 缓中消炎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "七白散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "面肤黯斑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "七白散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "青春痘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "七白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蔹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白牵牛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "七白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白僵蚕",
+      "object_type": "Herb"
+    }
+  ]
+}

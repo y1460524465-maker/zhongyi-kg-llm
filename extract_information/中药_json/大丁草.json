@@ -1,0 +1,174 @@
+{
+  "entities": [
+    {
+      "name": "大丁草",
+      "type": "Herb",
+      "attributes": {
+        "aliases": "烧金草、豹子药、苦马菜、米汤菜、鸡毛蒿、白小米菜、踏地香、龙根草、翻白叶",
+        "effect": "清热利湿，解毒消肿",
+        "indication": "肺热咳嗽，湿热泻痢，热淋，风湿关节痛，痈疖肿毒，臁疮，蛇咬伤，烧烫伤，外伤出血",
+        "dosage": "内服：煎汤，15-30g；或泡酒",
+        "processing": "夏、秋采收，洗净。晒干",
+        "traits": "多年生草本，有春、秋二型。春型植株较矮小，高8～19厘米；花茎直立，初有白色蛛丝毛密生，后渐脱落，上具线形苞片数枚；基部叶丛生，呈莲座状，椭圆状广卵形，长2～5.5厘米，宽1.5～4.5厘米，先端圆钝，基部心脏形。秋型植株高大，高30～60厘米，基部叶倒技针状长椭圆形，或椭圆状广卵形，长5～16厘米，宽3～5.5厘米，先端圆钝，基部逐渐狭窄成柄，边缘提琴状羽状分裂，顶端裂片卵形，边缘具不规则的圆齿，齿端凸头，上面绿色，下面密具白色蛛丝毛。头状花序单生，直径约2厘米；总苞简状钟形，长8～10毫米，宽5～10毫米；苞片约3层，外层苞片较短，线形，内层苞片线状披针形；舌状花紫红色，长10～12毫米；管状花长约7毫米。瘦果长4.5～6毫米，两端收缩；冠毛长4.5～5毫米"
+      }
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿热泻痢",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热淋",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "风湿关节痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痈疖肿毒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "臁疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "蛇咬伤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "风湿麻木",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疔疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "兽咬伤",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大丁草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大丁草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大丁草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大丁草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿关节痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大丁草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疖肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大丁草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "臁疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大丁草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大丁草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烧烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大丁草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豹子药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豹子药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豹子药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "豹子药",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "兽咬伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

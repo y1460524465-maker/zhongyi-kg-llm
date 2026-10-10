@@ -1,0 +1,366 @@
+{
+  "entities": [
+    {
+      "name": "藿朴夏苓汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热化湿，理气和中",
+        "indication": "湿温初起，身热恶寒，肢体困倦，胸闷口腻，舌苔薄白，脉濡缓",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "藿香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二钱（6g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱（3g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "姜半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱半（4.5g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "赤茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱（9g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱（9g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "生苡仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "四钱（12g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白蔻仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱（3g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "猪苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱（9g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "淡香豉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱（9g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱半（4.5g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "通草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱（3g）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "感证辑要",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "医原",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "湿温",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "身热恶寒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肢体困倦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸闷口腻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔薄白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉濡缓",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "感证辑要",
+      "object_type": "Source"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "医原",
+      "object_type": "Source"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿温",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "湿温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身热恶寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "肢体困倦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸闷口腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌苔薄白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉濡缓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藿香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "姜半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蔻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淡香豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿朴夏苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "通草",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "name": "菜子油",
+      "type": "Herb",
+      "attributes": {
+        "effect": "润燥杀虫，散火丹，消肿毒",
+        "indication": "用于治无名肿毒，风疹，便秘，皮肤瘙痒，湿疹，风疮不愈，治汤火伤灼，食物性肠梗阻",
+        "usage": "内服：10-15ml",
+        "dosage": "10-15ml"
+      }
+    },
+    {
+      "name": "姚可成《食物本草》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "菜子油",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润燥杀虫，散火丹，消肿毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菜子油",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菜子油",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菜子油",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食物性肠梗阻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菜子油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菜子油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菜子油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菜子油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疮不愈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菜子油",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "汤火伤灼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菜子油",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "姚可成《食物本草》",
+      "object_type": "Source"
+    }
+  ]
+}

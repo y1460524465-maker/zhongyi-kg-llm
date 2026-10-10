@@ -1,0 +1,395 @@
+{
+  "entities": [
+    {
+      "name": "通窍活血汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "活血化瘀,通窍活络",
+        "indication": "用于血瘀所致的斑秃,酒渣鼻,荨麻疹,白癜风,油风等",
+        "taboo": null,
+        "usage": "用黄酒250毫升，将前七味煎至150毫升，去滓，将麝香入酒内，再煎二沸，临卧服"
+      }
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "行血活血",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "行血活血",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克(研泥)",
+        "effect": "活血通络",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "红枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7个(去核)",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "活血通络",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "老葱",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3根(切碎)",
+        "effect": "通阳",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "鲜姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克(切碎)",
+        "effect": "通阳",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.15克(绢包)",
+        "effect": "开窍通闭，解毒活血",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "味辛性温",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "斑秃",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "酒渣鼻",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "荨麻疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "白癜风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "油风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血瘀",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头面淤血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头发脱落",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "眼疼白珠红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "久聋",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "紫白癜风",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "牙疳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇女干血劳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿疳证",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《医林改错评注》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "老葱",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "活血化瘀,通窍活络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "斑秃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "酒渣鼻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "荨麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "白癜风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "油风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头面淤血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头发脱落",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眼疼白珠红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "酒渣鼻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久聋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "紫白癜风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙疳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女干血劳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿疳证",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血瘀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "通窍活血汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医林改错评注》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "entities": [
+    {
+      "name": "桑螵蛸",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蜱蛸、桑蛸、冒焦、螵蛸、致神、螳螂子、桑上螳螂窠、野狐鼻涕、赖尿郎、刀螂子、老鸹芯脐、螳螂蛋、尿唧唧、流尿狗、猴儿包、螳螂壳",
+        "effect": "补肾助阳，固精缩尿",
+        "indication": "治肾虚遗精，白浊，小便频数，遗尿，赤白带下，阳痿，早泄",
+        "taboo": "阴虚火旺或膀胱有热者慎服",
+        "dosage": "内服：煎汤，5~10g；研末，3~5g；或入丸剂。外用：适量，研末撒或油调敷",
+        "processing": "炒桑螵蛸：将净螵蛸和麸皮同炒至老黄色，取出筛去麸皮，放凉即可。盐炒桑螵蛸：取净螵蛸，用盐水拌匀，稍闷，入锅炒至微黄，取出晾干。（每桑螵蛸10斤，用盐5两，加水适量溶化）",
+        "origin": "本品为螳螂科昆虫大刀螂Tenodera sinensis Saussure 、小刀螂Statilia maculata （Thunberg）或巨斧螳螂Hierodula patellifera （Serville）的干燥卵鞘。以上三种分别习称团螵蛸、长螵蛸及黑螵蛸。深秋至次春采收，除去杂质，蒸至虫卵死后，干燥。",
+        "traits": "1.团螵蛸：略呈圆柱形或半圆形，由多层膜状薄片叠成，长2.5～4cm，宽2～3cm。表面浅黄褐色，上面带状隆起不明显，底面平坦或有凹沟。体轻，质松而 韧，横断面可见外层为海绵状，内层为许多放射状排列的小室，室内各有一细小椭圆形卵，深棕色，有光泽。气微腥，味淡或微咸。\n2.长螵蛸：略呈长条形，一端较细，长2.5～5cm，宽1～1.5cm。表面灰黄色，上面带状隆起明显，带的两侧各有一条暗棕色浅沟及斜向纹理。质硬而脆。\n3.黑螵蛸：略呈平行四边形，长2～4cm，宽1.5～2cm。表面灰褐色，上面带状隆起明显，两侧有斜向纹理，近尾端微向上翘。质硬而韧。"
+      }
+    },
+    {
+      "name": "肾虚遗精",
+      "type": "Disease"
+    },
+    {
+      "name": "白浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便频数",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗尿",
+      "type": "Symptom"
+    },
+    {
+      "name": "赤白带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "阳痿",
+      "type": "Symptom"
+    },
+    {
+      "name": "早泄",
+      "type": "Symptom"
+    },
+    {
+      "name": "补肾助阳",
+      "type": "Effect"
+    },
+    {
+      "name": "固精缩尿",
+      "type": "Effect"
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source"
+    },
+    {
+      "name": "《玉楸药解》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桑螵蛸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗尿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤白带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑螵蛸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "早泄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑螵蛸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾助阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑螵蛸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "固精缩尿",
+      "object_type": "Effect"
+    }
+  ]
+}

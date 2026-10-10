@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "name": "四逆汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "四逆加人参汤",
+        "effect": "回阳救逆",
+        "indication": "四肢厥逆，恶寒倦卧，神疲欲寐，下利清谷，腹中冷痛，口淡不渴，舌淡苔白，脉沉弱；大汗所致的亡阳证；泄泻不止，大汗或大出血后的手足厥冷、脉细欲绝；阳虚寒盛的休克期；虚脱所致的手足厥冷、心悸气短、脉沉弱；急性胃肠炎、小儿消化不良等剧烈吐泻所引起的末梢循环衰竭",
+        "taboo": "四肢厥逆因于阳气内郁，不能外达四肢者，非本方所宜",
+        "usage": "水煎服"
+      }
+    },
+    {
+      "name": "熟附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "property_flavor": "大辛大热",
+        "effect": "温发阳气、祛散寒邪"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "温中散寒"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": "温养阳气，缓和姜、附之过于燥烈"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "回阳救逆",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四逆加人参汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四逆加人参汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "回阳复阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四逆加人参汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四逆加人参汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足厥冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四逆加人参汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉细欲绝",
+      "object_type": "Symptom"
+    }
+  ]
+}

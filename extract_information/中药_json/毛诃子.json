@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "毛诃子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，利咽，止咳止痢，养血止血",
+        "indication": "咽喉肿痛，咳嗽，泻痢，痔疮出血，黄水病，崩漏，病后体虚",
+        "dosage": "内服：煎汤，3-10g；或研末。外用：适量，烧灰为末撒，或调涂",
+        "origin": "本品系藏族习用药材。为使君子科植物毗黎勒Termz-naLia bellirica (Gaertn.) Roxb．的干燥成熟果实",
+        "place": "云南"
+      }
+    }
+  ],
+  "relations": []
+}

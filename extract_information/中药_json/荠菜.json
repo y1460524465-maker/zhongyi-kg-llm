@@ -1,0 +1,273 @@
+{
+  "entities": [
+    {
+      "name": "荠菜",
+      "type": "Herb",
+      "attributes": {
+        "alias": "Shepherdspurse Herb, Herb of Shepherdspurse, 荠、靡草、护生草、羊菜、鸡心菜、净肠草、菱角菜、清明菜、香田芥、枕头草、地米菜、鸡脚菜、假水菜、地地菜、烟盒草",
+        "effect": "和脾，清热利水，凉肝止血，平肝明目",
+        "indication": "痢疾，水肿，淋病，乳糜尿，吐血，便血，血崩，月经过多，目赤疼痛",
+        "dosage": "内服：煎汤，15~30g；鲜品60~120g；或入丸、散。外用：适量，捣汁点眼",
+        "processing": "为十字花科植物荠菜的全草。3~5月采收，洗净，晒干",
+        "traits": "主根圆柱形或圆锥形，有的有分枝，长4-10cm；表面类白色或淡褐色，有许多须状侧根。茎纤细，黄绿色，易折断。根出叶羽状分裂，多卷缩，展平后呈披针形，顶端裂片较大，边缘有粗齿；表面灰绿色或枯黄色，有的棕褐色，纸质，易碎；茎生叶长圆形或线状被外形，基部耳状抱茎。果实倒三角形，扁平，顶端微凹，具残存短花往。种子细小倒卵圆形，着生在假隔膜上，成2行排列。搓之有清香气，味淡",
+        "origin": "全国各地均有分布或栽培",
+        "place": "生长于田野、路边及庭园"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "淋病",
+      "type": "Disease"
+    },
+    {
+      "name": "乳糜尿",
+      "type": "Disease"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血崩",
+      "type": "Symptom"
+    },
+    {
+      "name": "月经过多",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "和脾",
+      "type": "Effect"
+    },
+    {
+      "name": "清热利水",
+      "type": "Effect"
+    },
+    {
+      "name": "凉肝止血",
+      "type": "Effect"
+    },
+    {
+      "name": "平肝明目",
+      "type": "Effect"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《千金·食治》",
+      "type": "Source"
+    },
+    {
+      "name": "《食经》",
+      "type": "Source"
+    },
+    {
+      "name": "《日用本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    },
+    {
+      "name": "《陆川本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《南宁市药物志》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉肝止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳糜尿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经过多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《千金·食治》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《食经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日用本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陆川本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《南宁市药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "荠菜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    }
+  ]
+}

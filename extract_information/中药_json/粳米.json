@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "粳米",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白米，粳粟米，稻米，大米，硬米",
+        "effect": "补气健脾，除烦渴，止泻痢",
+        "indication": "脾胃气虚，食少纳呆，倦怠乏力，心烦口渴，泻下痢疾",
+        "origin": "为禾本科植物稻(粳稻)去壳的种仁。秋季颖果成熟时，采收，脱下果实，晒干，除去稻壳即可。",
+        "property_flavor": "味甘",
+        "processing": "内服：煎汤，9-30g",
+        "traits": "呈扁椭圆形，长3-4mm，宽2-3mm。一端圆钝；另端有胚脱落而稍歪斜。表面浅白色，半透明，光滑。质坚硬，断面粉性。气微，味甘。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "粳米",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补气健脾，除烦渴，止泻痢",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "粳米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食少纳呆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "粳米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "倦怠乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "粳米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "粳米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻下痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "粳米",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "霍乱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粳米",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "粳米",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "粳米",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "entities": [
+    {
+      "name": "菊花茶调散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清头明目，解表退热",
+        "indication": "伤风感冒，偏正头痛，鼻塞声哑",
+        "taboo": null,
+        "usage": "每服2钱，食后茶清调下"
+      }
+    },
+    {
+      "name": "《丹溪心法附余》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "菊花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "荆芥穗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1两半"
+      }
+    },
+    {
+      "name": "蝉蜕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "僵蚕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《丹溪心法附余》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清头明目，解表退热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤风感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏正头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻塞声哑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥穗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蝉蜕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "僵蚕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "菊花茶调散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    }
+  ]
+}

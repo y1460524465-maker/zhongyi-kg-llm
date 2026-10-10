@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "厚朴大黄汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "理气逐饮，荡涤实邪通腹",
+        "indication": "饮阻气逆，胸满闷，腹气不通，心下时痛，可兼腹满便秘",
+        "taboo": null,
+        "usage": "上三味，以水1升，煮取200毫升，分二次温服"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "厚朴大黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴大黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴大黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴大黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "理气逐饮，荡涤实邪通腹",
+      "object_type": "Effect"
+    }
+  ]
+}

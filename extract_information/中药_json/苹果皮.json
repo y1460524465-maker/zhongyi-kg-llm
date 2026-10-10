@@ -1,0 +1,26 @@
+{
+  "entities": [
+    {
+      "name": "苹果皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "煎汤，15-30g；或沸汤泡服",
+        "indication": "反胃",
+        "origin": "蔷薇科植物苹果的果皮"
+      }
+    },
+    {
+      "name": "反胃",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苹果皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃",
+      "object_type": "Symptom"
+    }
+  ]
+}

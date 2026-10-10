@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "鲨鱼皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解鱼毒，消食积，杀痨虫",
+        "indication": "主食鱼中毒，食鱼成积不消，肺痨",
+        "usage": "内服：煮食，适量；或研末"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鲨鱼皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解鱼毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鲨鱼皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鲨鱼皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀痨虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鲨鱼皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食鱼中毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲨鱼皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食鱼成积不消",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲨鱼皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痨",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲨鱼皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鲨鱼皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鲨鱼皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《随息居饮食谱》",
+      "object_type": "Source"
+    }
+  ]
+}

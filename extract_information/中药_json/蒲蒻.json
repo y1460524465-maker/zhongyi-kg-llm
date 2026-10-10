@@ -1,0 +1,229 @@
+{
+  "entities": [
+    {
+      "name": "蒲蒻",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蒲黄根、蒲笋、蒲儿根、蒲包草根",
+        "effect": "清热凉血，利水消肿",
+        "indication": "孕妇劳热，胎动下血，消渴，口疮，热痢，淋病，白带，水肿，瘰疬",
+        "property_flavor": "味甘，平；苦，凉",
+        "dosage": "煎汤，1～3钱；或绞汁"
+      }
+    },
+    {
+      "name": "本经",
+      "type": "Source"
+    },
+    {
+      "name": "日用本草",
+      "type": "Source"
+    },
+    {
+      "name": "食物本草",
+      "type": "Source"
+    },
+    {
+      "name": "随息居饮食谱",
+      "type": "Source"
+    },
+    {
+      "name": "开宝本草",
+      "type": "Source"
+    },
+    {
+      "name": "四川中药志",
+      "type": "Source"
+    },
+    {
+      "name": "产乳集验方",
+      "type": "Source"
+    },
+    {
+      "name": "圣济总录",
+      "type": "Source"
+    },
+    {
+      "name": "浙江民间常用草药",
+      "type": "Source"
+    },
+    {
+      "name": "纲目拾遗",
+      "type": "Source"
+    },
+    {
+      "name": "上海常用中草药",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "去热燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利小便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止消渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痈",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利咽喉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通二便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "治淋沥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "湿肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消水肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止牙痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "孕妇劳热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎动下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋病",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲蒻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘰疬",
+      "object_type": "Symptom"
+    }
+  ]
+}

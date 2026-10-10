@@ -1,0 +1,247 @@
+{
+  "entities": [
+    {
+      "name": "冰硼散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热解毒，消肿止痛",
+        "indication": "热毒蕴结所致的咽喉疼痛，牙龈肿痛，口舌生疮，喉癣，喉痹，乳蛾，重舌，木舌，紫舌，咽喉糜烂，舌干唇裂",
+        "taboo": null,
+        "usage": "吹敷患处，每次少量，一日数次"
+      }
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "硼砂（煅）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "500g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "玄明粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "500g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "咽喉疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "牙龈肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "口舌生疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉癣",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳蛾",
+      "type": "Symptom"
+    },
+    {
+      "name": "重舌",
+      "type": "Symptom"
+    },
+    {
+      "name": "木舌",
+      "type": "Symptom"
+    },
+    {
+      "name": "紫舌",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉糜烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌干唇裂",
+      "type": "Symptom"
+    },
+    {
+      "name": "热毒蕴结",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "硼砂（煅）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄明粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热毒蕴结",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙龈肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳蛾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "重舌",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "木舌",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "紫舌",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉糜烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冰硼散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌干唇裂",
+      "object_type": "Symptom"
+    }
+  ]
+}

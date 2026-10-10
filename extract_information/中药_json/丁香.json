@@ -1,0 +1,164 @@
+{
+  "entities": [
+    {
+      "name": "丁香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2~5g",
+        "effect": "温中降逆，温肾助阳",
+        "indication": "呃逆，脘腹冷痛，食少吐泻，肾虚阳痿，腰膝酸冷，阴疽",
+        "meridian": "脾经、胃经、肺经、肾经",
+        "origin": "桃金娘科植物丁香Eugenia caryophllata Thunb.的干燥花蕾",
+        "place": "坦桑尼亚、马来西亚、印度尼西亚等地",
+        "processing": "当花蕾由绿色转红时采摘，晒干",
+        "property_flavor": "辛",
+        "taboo": "不宜与郁金同用。热病及阴虚内热者忌服",
+        "traits": null
+      }
+    },
+    {
+      "name": "丁子香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "丁香"
+      }
+    },
+    {
+      "name": "支解香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "丁香"
+      }
+    },
+    {
+      "name": "雄丁香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "丁香"
+      }
+    },
+    {
+      "name": "公丁香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "丁香"
+      }
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《海药本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草正》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草汇》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《药材学》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《雷公炮炙论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丁香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中降逆，温肾助阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丁香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "呃逆",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脘腹冷痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食少吐泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰膝酸冷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丁香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴疽",
+      "object_type": "Disease"
+    }
+  ]
+}

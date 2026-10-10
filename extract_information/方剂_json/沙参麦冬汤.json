@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "name": "沙参麦冬汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热生津，滋阴润肺，养胃",
+        "usage": "用水1升，煮取400毫升，日服二次"
+      }
+    },
+    {
+      "name": "沙参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "玉竹",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "冬桑叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生扁豆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "花粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "地骨皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "咽干口渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "干咳痰少而粘",
+      "type": "Symptom"
+    },
+    {
+      "name": "发热",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热生津，滋阴润肺，养胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽干口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "干咳痰少而粘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沙参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玉竹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冬桑叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生扁豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "沙参麦冬汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "花粉",
+      "object_type": "Herb"
+    }
+  ]
+}

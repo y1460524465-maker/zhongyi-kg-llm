@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "name": "鹿角霜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肾助阳，收敛止血",
+        "indication": "主治肾阳不足，腰脊酸痛，脾胃虚寒，呕吐，食少便溏，子宫虚冷，崩漏带下",
+        "usage": "内服：煎汤，5~10g；或入丸、散",
+        "dosage": "5~10g",
+        "property_flavor": "味淡"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾助阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收敛止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阳不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫虚冷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰脊酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食少便溏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学入门》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草新编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹿角霜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    }
+  ]
+}

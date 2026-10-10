@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "name": "半夏散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "通阳散寒，涤痰开结",
+        "indication": "用于咽痛，但咽部一般无红肿，或伴见恶寒，舌淡苔白，脉浮者",
+        "taboo": null,
+        "usage": "白饮和服方寸匙，日三服"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "咽痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "半夏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "白花丹",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，行气活血，解毒消肿",
+        "indication": "风湿痹痛，心胃气痛，肝脾肿大，血瘀经闭，跌打扭伤，痈肿瘰疬，疥癣瘙痒，毒蛇咬伤",
+        "dosage": "内服：煎汤，9-15g。外用：适量，煎水洗；或捣敷；或涂擦",
+        "taboo": "孕妇禁服",
+        "origin": "为白花丹科植物白花丹的全草或根",
+        "property_flavor": "味辛辣",
+        "traits": "气微"
+      }
+    },
+    {
+      "name": "《常用中草药手册》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白花丹",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿，行气活血，解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白花丹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白花丹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胃气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白花丹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肝脾肿大",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白花丹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血瘀经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白花丹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打扭伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白花丹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿瘰疬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白花丹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疥癣瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白花丹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒蛇咬伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

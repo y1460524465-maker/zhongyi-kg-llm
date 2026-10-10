@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "银翘汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "透表清热",
+        "indication": "阳明温病，下后无汗脉浮者",
+        "taboo": "下后脉浮而洪，或不浮而数者，忌用"
+      }
+    },
+    {
+      "name": "银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱"
+      }
+    },
+    {
+      "name": "竹叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱"
+      }
+    },
+    {
+      "name": "细生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱"
+      }
+    },
+    {
+      "name": "阳明温病",
+      "type": "Disease"
+    },
+    {
+      "name": "《方剂学》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "银翘汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳明温病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "银翘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《方剂学》",
+      "object_type": "Source"
+    }
+  ]
+}

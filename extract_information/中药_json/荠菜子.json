@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "荠菜子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风，明目",
+        "indication": "目痛，青盲，翳障，黄疸",
+        "usage": "内服:煎汤，9~15克",
+        "dosage": "9~15克",
+        "traits": "干燥的种子细小，长约0.8毫米，棕褐色，以放大镜观察，呈扁长形，一端钝圆，一端略狭而有白色种脐，两面有长环形的沟，形成中央长形隆起",
+        "origin": "为十字花科植物荠菜的种子",
+        "place": "全国各地均有分布或栽培",
+        "processing": "夏至果实成热时，采下果枝，晒干后将种子揉出",
+        "alias": "荠子、蒫、荠实（《尔雅》），菥蓂子（《食性本草》），蒫实（《纲目》）"
+      }
+    },
+    {
+      "name": "目痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "青盲",
+      "type": "Disease"
+    },
+    {
+      "name": "翳障",
+      "type": "Disease"
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "大青根",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "荠菜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荠菜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "青盲",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "翳障",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荠菜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荠菜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荠菜子",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "大青根",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "水晶鱼",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，30-90g",
+        "effect": "健脾补虚，润肺止咳",
+        "indication": "用于营养不良，脾虚泄泻，消化不良，小儿疳积，咳嗽",
+        "processing": "3-5月汛期捕捉，捕后洗净鲜用或加工成鱼干",
+        "taboo": "水晶鱼，不可多食，动湿生疮"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水晶鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾补虚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水晶鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水晶鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水晶鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "营养不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水晶鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水晶鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消化不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水晶鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水晶鱼",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "食物本草",
+      "object_type": "Source"
+    }
+  ]
+}

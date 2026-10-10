@@ -1,0 +1,150 @@
+{
+  "entities": [
+    {
+      "name": "柴胡陷胸汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "和解兼开降",
+        "indication": "少阳证，胸膈痞满，按之痛，用柴胡枳桔汤未效者。现用于慢性胆囊炎急性发作、急性支气管炎。",
+        "taboo": null,
+        "usage": "柴胡3克 姜半夏9克 小川连2.4克 苦桔梗3克 黄芩4.5克 栝楼仁15克(杵) 小枳实4.5克 生姜汁4滴(冲服)"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "姜半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "小川连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.4克"
+      }
+    },
+    {
+      "name": "苦桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "栝楼仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克(杵)"
+      }
+    },
+    {
+      "name": "小枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "生姜汁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4滴(冲服)"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柴胡陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "姜半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小川连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栝楼仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜汁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡陷胸汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "和解兼开降",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柴胡陷胸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性胆囊炎急性发作",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "柴胡陷胸汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性支气管炎",
+      "object_type": "Disease"
+    }
+  ]
+}

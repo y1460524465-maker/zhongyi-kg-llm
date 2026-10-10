@@ -1,0 +1,395 @@
+{
+  "entities": [
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蚳母, 连母, 野蓼, 地参, 水参, 水浚, 货母, 蝭母, 芪母, 提母, 女雷, 女理, 鹿列, 韭逢, 儿踵草, 东根, 苦心, 儿草, 水须, 昌支, 蒜瓣子草, 兔子油草, 山韭菜, 羊胡子根, 穿地龙, 虾草, 马马草, 淮知母",
+        "effect": "滋阴降火, 润燥滑肠, 清热泻火, 滋阴润燥, 生津止渴",
+        "indication": "烦热消渴, 骨蒸劳热, 肺热咳嗽, 大便燥结, 小便不利, 温热病邪热亢盛壮热烦渴脉洪大等肺胃实热证, 肺热咳嗽或阴虚燥咳痰稠, 阴虚火旺肺肾亏所致的骨节蒸潮热盗汗心烦, 阴虚消渴症见口渴饮多尿多",
+        "processing": "1.知母：拣净杂质，用水撞洗，捞出，润软，切片晒干。2.盐知母：取知母片置锅中用文火微炒，喷淋盐水，炒干取出，放凉。（每知母片100斤，用盐2斤8两加适量开水化开）；先于槐砧上细锉，焙干，木臼杵捣，勿令犯铁器；拣肥润里白者，去毛切，引经上行则用酒浸焙干，下行则用盐水润焙。",
+        "property_flavor": "味微甜、略苦",
+        "taboo": "脾胃虚寒，大便溏泄者忌服。①《别录》：多服令人泄。②《医学入门》：凡肺中寒嗽，肾气虚脱，无火症而尺脉微弱者禁用。③《本草经疏》：阳痿及易举易痿，泄泻脾弱，饮食不消化，胃虚不思食，肾虚溏泄等证，法并禁用。④《本经逢原》：外感表证未除、泻痢燥渴忌之。脾胃虚热人误服，令人作泻减食，故虚损大忌。",
+        "usage": "内服：煎汤，6~12g，或入丸、散。清热泻火，滋阴润燥宜生用；入肾降火滋阴宜盐水炒。"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "贝母",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "天花粉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白虎汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "伤寒脉浮滑，表有热，里有寒；或三阳合病，腹满，身重，难以转侧，口不仁，面垢，谵语，遗尿；发汗则谵语甚，下之则额上生汗，手足逆冷；自汗出者。或伤寒脉滑而厥，里有热"
+      }
+    },
+    {
+      "name": "二母散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "肺劳有热，不能服补气之剂者"
+      }
+    },
+    {
+      "name": "知柏地黄丸",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "玉液汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "消渴"
+      }
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便燥结",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "烦热消渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "骨蒸劳热",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴虚燥咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴虚消渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴虚火旺",
+      "type": "Symptom"
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "心烦",
+      "type": "Symptom"
+    },
+    {
+      "name": "口渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "壮热",
+      "type": "Symptom"
+    },
+    {
+      "name": "烦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉洪大",
+      "type": "Symptom"
+    },
+    {
+      "name": "伤寒",
+      "type": "Disease"
+    },
+    {
+      "name": "温疟",
+      "type": "Disease"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "肺劳",
+      "type": "Disease"
+    },
+    {
+      "name": "百合病",
+      "type": "Disease"
+    },
+    {
+      "name": "梦泄遗精",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴降火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润燥滑肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦热消渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸劳热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便燥结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "壮热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴虚燥咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴虚火旺",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉洪大",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "温疟",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百合病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "知母",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梦泄遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二母散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二母散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二母散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺劳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "知柏地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉液汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉液汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天花粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉液汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "name": "獭皮毛",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利水，解毒，止血",
+        "indication": "水饮，痔疮，烧烫伤，外伤出血",
+        "usage": "内服：煎汤，6-15g；或烧灰研末，3-6g",
+        "origin": "《本草拾遗》"
+      }
+    },
+    {
+      "name": "水饮",
+      "type": "Disease"
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Disease"
+    },
+    {
+      "name": "利水",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "止血",
+      "type": "Effect"
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "獭皮毛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水饮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "獭皮毛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "獭皮毛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "獭皮毛",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "獭皮毛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "獭皮毛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "獭皮毛",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "獭皮毛",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    }
+  ]
+}

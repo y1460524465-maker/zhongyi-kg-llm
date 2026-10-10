@@ -1,0 +1,264 @@
+{
+  "entities": [
+    {
+      "name": "足精丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "肝肾气虚，外应目不荣者",
+        "usage": "每服50丸，空心浓煎糯米汤，入盐少许送下"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    },
+    {
+      "name": "白芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    },
+    {
+      "name": "茄茸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7钱"
+      }
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6钱"
+      }
+    },
+    {
+      "name": "川椒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱半"
+      }
+    },
+    {
+      "name": "青木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱"
+      }
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱"
+      }
+    },
+    {
+      "name": "甘菊",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3钱"
+      }
+    },
+    {
+      "name": "白蒺藜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    },
+    {
+      "name": "杜仲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    },
+    {
+      "name": "黄耆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4铢"
+      }
+    },
+    {
+      "name": "肉苁蓉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4铢"
+      }
+    },
+    {
+      "name": "肝肾气虚",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾气虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茄茸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川椒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘菊",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蒺藜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜仲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄耆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "足精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉苁蓉",
+      "object_type": "Herb"
+    }
+  ]
+}

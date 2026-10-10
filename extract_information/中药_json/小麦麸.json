@@ -1,0 +1,294 @@
+{
+  "entities": [
+    {
+      "name": "小麦麸",
+      "type": "Herb",
+      "attributes": {
+        "effect": "用于虚汗，盗汗，泄泻，糖尿病，口腔炎，热疮，折伤，风湿痹痛，脚气",
+        "indication": "治虚汗，盗汗，泄利，糖尿病，口腔炎，热疮，折伤，风湿痹痛，脚气",
+        "meridian": "入手阳明经"
+      }
+    },
+    {
+      "name": "麸皮",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《本草蒙筌》"
+      }
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《得配本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《胡氏妇人方》",
+      "type": "Source"
+    },
+    {
+      "name": "《生生编》",
+      "type": "Source"
+    },
+    {
+      "name": "《集玄方》",
+      "type": "Source"
+    },
+    {
+      "name": "虚汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "糖尿病",
+      "type": "Disease"
+    },
+    {
+      "name": "口腔炎",
+      "type": "Disease"
+    },
+    {
+      "name": "热疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "折伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "泄利",
+      "type": "Symptom"
+    },
+    {
+      "name": "时疾热疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "汤火疮烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "扑损伤折",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘀血",
+      "type": "Symptom"
+    },
+    {
+      "name": "寒湿脚气",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后虚汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "走气作痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿眉疮",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "折伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "时疾热疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汤火疮烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "扑损伤折",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘀血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒湿脚气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后虚汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "走气作痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿眉疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麸皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草蒙筌》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《得配本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小麦麸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    }
+  ]
+}

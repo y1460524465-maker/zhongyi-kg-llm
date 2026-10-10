@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "name": "龙葵",
+      "type": "Herb",
+      "attributes": {
+        "alias": "苦葵、老鸦眼睛草、天茄子、天茄苗儿、天天茄、救儿草、后红子、水茄、老鸦酸浆草、七粒扣、乌疔草、野茄子、黑姑娘、乌归菜、野海椒、黑茄、地泡子、地戎草、山辣椒、山海椒、野茄菜、耳坠菜、野辣角、天茄菜、狗钮子、野辣椒、野葡萄、酸浆草、水苦菜、野伞子、飞天龙",
+        "effect": "清热解毒，活血消肿",
+        "indication": "疔疮，痈肿，丹毒，跌打扭伤，慢性气管炎，急性肾炎",
+        "usage": "内服：煎汤，15~30g。外用：适量，捣敷或煎水洗。"
+      }
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease"
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打扭伤",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "急性肾炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "龙葵",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙葵",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙葵",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙葵",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打扭伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙葵",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙葵",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙葵",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙葵",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "name": "泡桐果",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化痰，止咳，平喘",
+        "indication": "慢性支气管炎，咳嗽咯痰",
+        "usage": "内服：煎汤，15-30g",
+        "origin": "玄参科植物泡桐或毛泡桐的果实"
+      }
+    },
+    {
+      "name": "慢性支气管炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽咯痰",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泡桐果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性支气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "泡桐果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽咯痰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "泡桐果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰，止咳，平喘",
+      "object_type": "Effect"
+    }
+  ]
+}

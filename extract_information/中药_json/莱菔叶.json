@@ -1,0 +1,157 @@
+{
+  "entities": [
+    {
+      "name": "莱菔叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "萝卜叶、萝卜杆叶、莱菔菜、萝卜缨、莱菔甲、莱菔英、萝卜英",
+        "effect": "消食，理气",
+        "indication": "胸膈痞满作呃，食滞不消，泻痢，喉痛，妇女乳肿，乳汁不通",
+        "dosage": "内服：煎汤，10~15g；研末或鲜叶捣汁。外用：适量，鲜叶捣敷；或干叶研末调敷",
+        "taboo": "气虚血弱者禁用"
+      }
+    },
+    {
+      "name": "莱菔",
+      "type": "Herb",
+      "attributes": {
+        "origin": "原产我国，全国各地均有栽培"
+      }
+    },
+    {
+      "name": "《食经》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source"
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source"
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    },
+    {
+      "name": "《医界春秋》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胸膈痞满作呃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食滞不消",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泻痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女乳肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳汁不通",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《食经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《随息居饮食谱》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮片新参》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "莱菔叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医界春秋》",
+      "object_type": "Source"
+    }
+  ]
+}

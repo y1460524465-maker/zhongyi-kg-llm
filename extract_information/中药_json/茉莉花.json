@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {
+      "name": "茉莉花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "理气，开郁，和中，辟秽",
+        "indication": "胸膈不舒，泻痢腹痛，头晕头痛，目赤，疮毒",
+        "usage": "内服：煎汤，1～3g；或泡茶。外用：煎水洗目或菜油浸滴耳"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茉莉花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气，开郁，和中，辟秽",
+      "object_type": "Effect"
+    }
+  ]
+}

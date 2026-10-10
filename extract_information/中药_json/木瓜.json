@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "name": "木瓜",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为蔷薇科植物皱皮木瓜的果实",
+        "property_flavor": "味酸",
+        "meridian": "肝经；肺经；肾经；脾经",
+        "effect": "平肝和胃，去湿舒筋",
+        "indication": "主治吐泻转筋，湿痹，脚气，水肿，痢疾",
+        "dosage": "内服：煎汤，5~10g；或入丸、散",
+        "taboo": "1.《食疗本草》：不可多食，损齿及骨。2.《医学入门》：忌铅、铁。3.《本草经疏》：下部腰膝无力，由于精血虚、真阴不足者不宜用。伤食脾胃未虚、积滞多者，不宜用。"
+      }
+    },
+    {
+      "name": "吐泻转筋",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿痹",
+      "type": "Disease"
+    },
+    {
+      "name": "脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "木瓜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐泻转筋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木瓜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木瓜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木瓜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木瓜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    }
+  ]
+}

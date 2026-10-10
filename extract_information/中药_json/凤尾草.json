@@ -1,0 +1,194 @@
+{
+  "entities": [
+    {
+      "name": "凤尾草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，凉血止血，消肿解毒",
+        "indication": "黄疸型肝炎，肠炎，菌痢，淋浊，带下，吐血，衄血，便血，尿血，扁桃体炎，腮腺炎，痈肿疮毒，湿疹",
+        "dosage": "内服：煎汤，9~15g，鲜品30~60g；或捣汁",
+        "taboo": "老人不可多服，其性冷故也；孕妇、冷痢、休息痢不宜服",
+        "alias": "井口边草，小金星凤尾，铁脚鸡，山鸡尾，井茜，井阑草，石长生，凤凰草，井边茜，旋鸡头，阉鸡尾，凤尾蕨，野鸡尾，青蕨，鸡脚草，百脚草，金鸡尾，腊肾草、百脚鸡，金鸡爪，井口鸡胶舌，井栏茜，小叶凤尾草，小凤尾，小金星凤尾草，乌脚鸡，线鸡尾，双凤尾，金鸡尾，小凤尾草，九把连环剑，鸡爪莲，背阴草",
+        "origin": "凤尾蕨科植物凤尾草Pteris multifida Poir."
+      }
+    },
+    {
+      "name": "黄疸型肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "菌痢",
+      "type": "Disease"
+    },
+    {
+      "name": "淋浊",
+      "type": "Disease"
+    },
+    {
+      "name": "带下",
+      "type": "Disease"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "腮腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿疮毒",
+      "type": "Disease"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "清热利湿",
+      "type": "Effect"
+    },
+    {
+      "name": "凉血止血",
+      "type": "Effect"
+    },
+    {
+      "name": "消肿解毒",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸型肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "菌痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤尾草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    }
+  ]
+}

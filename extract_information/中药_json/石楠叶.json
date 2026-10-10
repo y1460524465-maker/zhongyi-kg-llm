@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "石楠叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "石眼树叶、老少年叶、凿树、石纲",
+        "property_flavor": "性平，味辛、苦；有小毒",
+        "effect": "祛风，通络，益肾",
+        "indication": "风痹，腰背酸痛，肾虚脚弱，偏头痛，风疹。祛风补肾。用于风湿筋骨痛、阳痿遗精。",
+        "dosage": "内服：煎汤，6～12克；或入丸、散。",
+        "taboo": "恶小蓟",
+        "origin": "《本经》",
+        "processing": "全年可采收，晒干。",
+        "place": "河南、江苏、安徽、浙江、福建、江西、广东、广西、云南、湖北、四川、湖南等地。主产于江苏、浙江等地。",
+        "traits": "干燥叶呈长椭圆形，长8～16厘米，宽3～6厘米，具叶柄；边缘有细密尖锐的锯齿，上面红棕色或暗棕色，下面色稍浅，主脉突起极明显，两面均平滑无毛。叶较厚，革质而脆。气无，味苦而涩。以棕黄色、无杂质者为佳。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石楠叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石楠叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰背酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石楠叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚脚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石楠叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石楠叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石楠叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石楠叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石楠叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石楠叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿筋骨痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石楠叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿遗精",
+      "object_type": "Disease"
+    }
+  ]
+}

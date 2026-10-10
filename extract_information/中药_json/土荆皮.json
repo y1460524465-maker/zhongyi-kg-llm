@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "name": "土荆皮",
+      "type": "Herb",
+      "attributes": {
+        "alias": "罗汉松皮、土槿皮、荆树皮、金钱松皮",
+        "effect": "祛风除湿；杀虫止痒。",
+        "indication": "用于疥癣瘙痒。",
+        "usage": "外用适量，醋或酒浸涂擦，或研末调涂患处。",
+        "dosage": "30g, 15g, 1斤",
+        "property_flavor": "味苦而涩"
+      }
+    },
+    {
+      "name": "《药材资料汇编》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "土荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣瘙痒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癣疥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤癣疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "干癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "体癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土荆皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "局限性神经性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "土荆皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "土荆皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "土荆皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药材资料汇编》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "entities": [
+    {
+      "name": "生铁落饮",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "重镇降逆，清涤痰浊，宣窍安神，养阴清热",
+        "indication": "狂症",
+        "taboo": "服药后不可惊骇叫醒，犯之则病复作",
+        "usage": "用生铁落煎熬三炷线香，取此水煎药"
+      }
+    },
+    {
+      "name": "《医学心悟》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "天冬",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "三钱"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "三钱"
+      }
+    },
+    {
+      "name": "贝母",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "三钱"
+      }
+    },
+    {
+      "name": "胆星",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "橘红",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "远志肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "石菖蒲",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "茯神",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "一钱"
+      }
+    },
+    {
+      "name": "元参",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "一钱五分"
+      }
+    },
+    {
+      "name": "钩藤",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "一钱五分"
+      }
+    },
+    {
+      "name": "丹参",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "一钱五分"
+      }
+    },
+    {
+      "name": "辰砂",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "property_flavor": null,
+        "dosage": "三分"
+      }
+    },
+    {
+      "name": "生铁落",
+      "type": "Herb",
+      "attributes": {
+        "effect": "重镇降逆",
+        "indication": null,
+        "property_flavor": null,
+        "dosage": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医学心悟》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "狂症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胆星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘红",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石菖蒲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯神",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "元参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "钩藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "辰砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生铁落饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生铁落",
+      "object_type": "Herb"
+    }
+  ]
+}

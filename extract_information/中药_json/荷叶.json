@@ -1,0 +1,367 @@
+{
+  "entities": [
+    {
+      "name": "荷叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解暑，升发清阳，凉血止血",
+        "indication": "暑热烦渴，暑湿泄泻，脾虚泄泻，眩晕，血热吐衄，便血，崩漏",
+        "meridian": "心经；肝经；脾经；胆经；肺经",
+        "property_flavor": "微苦",
+        "dosage": "3~10g（鲜品15~30g）；荷叶炭3~6g"
+      }
+    },
+    {
+      "name": "暑湿泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "眩晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "水气浮肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "雷头风",
+      "type": "Disease"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后血晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "暑热烦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "脾虚泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "血热吐衄",
+      "type": "Symptom"
+    },
+    {
+      "name": "荷叶炭",
+      "type": "Herb",
+      "attributes": {
+        "effect": "收涩化瘀止血",
+        "indication": "多种出血症及产后血晕"
+      }
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《日用本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《品汇精要》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草通玄》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《太苹再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草从新》",
+      "type": "Source"
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source"
+    },
+    {
+      "name": "《时病论》",
+      "type": "Source"
+    },
+    {
+      "name": "《证治要诀》",
+      "type": "Source"
+    },
+    {
+      "name": "《内经类编试效方》",
+      "type": "Source"
+    },
+    {
+      "name": "《妇人良方》",
+      "type": "Source"
+    },
+    {
+      "name": "《肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "《经验后方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《三因方》",
+      "type": "Source"
+    },
+    {
+      "name": "《经验良方》",
+      "type": "Source"
+    },
+    {
+      "name": "《摘元方》",
+      "type": "Source"
+    },
+    {
+      "name": "《单方验方新医疗法选编》",
+      "type": "Source"
+    },
+    {
+      "name": "《证治准绳》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《濒湖集简方》",
+      "type": "Source"
+    },
+    {
+      "name": "连翘",
+      "type": "Herb"
+    },
+    {
+      "name": "苦杏仁",
+      "type": "Herb"
+    },
+    {
+      "name": "瓜蒌壳",
+      "type": "Herb"
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb"
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "制半夏",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "佩兰叶",
+      "type": "Herb"
+    },
+    {
+      "name": "升麻",
+      "type": "Herb"
+    },
+    {
+      "name": "苍术",
+      "type": "Herb"
+    },
+    {
+      "name": "生荷叶",
+      "type": "Herb"
+    },
+    {
+      "name": "生艾叶",
+      "type": "Herb"
+    },
+    {
+      "name": "生侧柏叶",
+      "type": "Herb"
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb"
+    },
+    {
+      "name": "蒲黄",
+      "type": "Herb"
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb"
+    },
+    {
+      "name": "蚌粉花",
+      "type": "Herb"
+    },
+    {
+      "name": "藁本",
+      "type": "Herb"
+    },
+    {
+      "name": "山楂",
+      "type": "Herb"
+    },
+    {
+      "name": "决明子",
+      "type": "Herb"
+    },
+    {
+      "name": "鲜藿香",
+      "type": "Herb"
+    },
+    {
+      "name": "鲜扁豆",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暑湿泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水气浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "雷头风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后血晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暑热烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾虚泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荷叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血热吐衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荷叶炭",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收涩化瘀止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荷叶炭",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后血晕",
+      "object_type": "Symptom"
+    }
+  ]
+}

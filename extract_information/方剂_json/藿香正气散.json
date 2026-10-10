@@ -1,0 +1,604 @@
+{
+  "entities": [
+    {
+      "name": "藿香正气散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "芳香化湿，和中止呕，行气解表",
+        "indication": "外感风寒，内伤湿滞所致的恶寒发热，头痛，胸膈满闷，脘腹疼痛，恶心呕吐，肠鸣腹泻、口淡，舌苔白腻等",
+        "taboo": null,
+        "usage": "作丸剂、散剂及煎剂均可"
+      }
+    },
+    {
+      "name": "藿香",
+      "type": "Herb",
+      "attributes": {
+        "effect": "芳香化湿、理气和中兼能解表",
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "紫苏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "大腹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2枚"
+      }
+    },
+    {
+      "name": "苏叶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "神曲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "莱菔子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "鸡内金",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炒扁豆",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炒薏苡仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "外感风寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "内伤湿滞",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃肠型感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性胃肠炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "水土不服",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "恶寒发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脘腹闷痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕恶泄泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔白腻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸膈满闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脘腹疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "恶心呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肠鸣腹泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口淡",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸闷腹胀",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便短少",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕吐泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "寒热无汗",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "芳香化湿，和中止呕，行气解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藿香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大腹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "内伤湿滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃肠型感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胃肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "水土不服",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶寒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹闷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕恶泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔白腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸膈满闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶心呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠鸣腹泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口淡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿香正气散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "藿香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "芳香化湿、理气和中兼能解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苏叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解表散寒而兼化湿滞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "去湿消滞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大腹皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "去湿消滞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "半夏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气和胃、降逆止呕",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "陈皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气和胃、降逆止呕",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桔梗",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宣肺利膈",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茯苓",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气健脾，以助运化",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白术",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气健脾，以助运化",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气健脾，以助运化",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气健脾，以助运化",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苏叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "神曲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积导滞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "莱菔子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积导滞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡内金",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积导滞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苍术",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "增强化湿作用",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "炒扁豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛湿健脾止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "炒薏苡仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛湿健脾止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木通",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛湿利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "泽泻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛湿利水",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "name": "芦笋",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热生津,利水通淋",
+        "indication": "热病，口渴心烦，肺痈，肺痿，淋病，小便不利",
+        "dosage": "内服：煎汤，30-60g，或鲜品捣汁"
+      }
+    },
+    {
+      "name": "热病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "口渴心烦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肺痿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "淋病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芦笋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热生津,利水通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芦笋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芦笋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴心烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芦笋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芦笋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芦笋",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芦笋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    }
+  ]
+}

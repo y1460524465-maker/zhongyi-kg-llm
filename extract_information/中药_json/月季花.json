@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "月季花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血调经，消肿解毒",
+        "indication": "月经不调，经来腹痛，跌打损伤，血瘀肿痛，痈疽肿毒",
+        "dosage": "内服：煎汤或开水泡服，3~6g，鲜品9~15g",
+        "property_flavor": "微苦、涩",
+        "traits": "气清香",
+        "taboo": "不宜久服；脾胃虚寒者及孕妇慎用",
+        "origin": "蔷薇科植物月季花的花",
+        "processing": "净制：取原材料，除去杂质。炮炙：取净制材料晾干，或微火烘干"
+      }
+    }
+  ],
+  "relations": []
+}

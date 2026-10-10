@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "name": "麻黄细辛附子汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "发汗解表，温经助阳，通彻表里，内散阴寒",
+        "indication": "少阴病始得，反发热，脉沉者；素体阳虚，复感风寒之证"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克（二两）",
+        "processing": "去节",
+        "effect": "发汗解表"
+      }
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克（二两）",
+        "effect": "通彻表里，助麻黄发汗解表，协附子内散阴寒"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克（一枚）",
+        "processing": "炮，去皮，破八片",
+        "effect": "温经助阳"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麻黄细辛附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄细辛附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄细辛附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄细辛附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "少阴病",
+      "object_type": "Disease"
+    }
+  ]
+}

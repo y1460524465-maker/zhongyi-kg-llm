@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "茯苓四逆汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "回阳除烦益津",
+        "indication": "用于伤寒，发汗或下后，病仍不解，烦躁者",
+        "usage": "上五味，以水1升，煮取600毫升，去滓，温服150毫升，一日二次"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克(炙)"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "伤寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "烦躁",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茯苓四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "回阳除烦益津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茯苓四逆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茯苓四逆汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦躁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茯苓四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茯苓四逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "entities": [
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": {
+        "effect": "镇惊安神，敛汗固精，止血涩肠，生肌敛疮",
+        "indication": "惊痫癫狂，怔忡健忘，失眠多梦，自汗盗汗，遗精淋浊，吐衄便血，崩漏带下，泻痢脱肛，溃疡久不收口",
+        "meridian": "心经、肝经、肾经、大肠经",
+        "dosage": "15～30g",
+        "processing": "煅龙骨：取刷净的龙骨，在无烟的炉火上或坩埚内煅红透，取出，放凉，碾碎",
+        "property_flavor": null,
+        "origin": "为古代大型哺乳类动物象类、三趾马类、犀类、鹿类、牛类等骨骼的化石",
+        "taboo": "①《本草经集注》：得人参、牛黄良；畏石膏",
+        "traits": null,
+        "place": null
+      }
+    },
+    {
+      "name": "惊痫癫狂",
+      "type": "Disease"
+    },
+    {
+      "name": "怔忡健忘",
+      "type": "Symptom"
+    },
+    {
+      "name": "失眠多梦",
+      "type": "Symptom"
+    },
+    {
+      "name": "自汗盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗精淋浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐衄便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "泻痢脱肛",
+      "type": "Symptom"
+    },
+    {
+      "name": "溃疡久不收口",
+      "type": "Symptom"
+    },
+    {
+      "name": "桂枝去芍药加蜀漆龙骨牡蛎救逆汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "桂枝加龙骨牡蛎汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "龙骨丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "龙骨散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "神仙止血散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "龙骨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇惊安神，敛汗固精，止血涩肠，生肌敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫癫狂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "怔忡健忘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠多梦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "自汗盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐衄便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻痢脱肛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龙骨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "溃疡久不收口",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝去芍药加蜀漆龙骨牡蛎救逆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龙骨丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龙骨散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神仙止血散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝去芍药加蜀漆龙骨牡蛎救逆汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "伤寒论",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂枝加龙骨牡蛎汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "金匮要略",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龙骨丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "魏氏家藏方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龙骨散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "景岳全书",
+      "object_type": "Source"
+    },
+    {
+      "subject": "神仙止血散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "普济方",
+      "object_type": "Source"
+    }
+  ]
+}

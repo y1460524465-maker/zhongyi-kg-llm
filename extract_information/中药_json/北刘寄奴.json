@@ -1,0 +1,202 @@
+{
+  "entities": [
+    {
+      "name": "北刘寄奴",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "苦，寒",
+        "meridian": "归脾、胃、肝、胆经",
+        "effect": "活血祛瘀，通经止痛，凉血止血，清热利湿",
+        "indication": "跌打损伤，外伤出血，瘀血经闭，月经不调，产后瘀痛，癥瘕积聚，血痢，血淋，湿热黄疸，水肿腹胀，白带过多",
+        "dosage": "6～9g",
+        "processing": "秋季采收，除去杂质，晒干",
+        "place": "玄参科植物阴行草Siphonostegia chinensis Benth.的干燥全草"
+      }
+    },
+    {
+      "name": "阴行草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血祛瘀，通经止痛，凉血止血，清热利湿",
+        "indication": "跌打损伤，外伤出血，瘀血经闭，月经不调，产后瘀痛，癥瘕积聚，血痢，血淋，湿热黄疸，水肿腹胀，白带过多",
+        "dosage": "一至二两"
+      }
+    },
+    {
+      "name": "阴行草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两至两半"
+      }
+    },
+    {
+      "name": "阴行草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一至二钱"
+      }
+    },
+    {
+      "name": "阴行草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一至三两"
+      }
+    },
+    {
+      "name": "阴行草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五钱"
+      }
+    },
+    {
+      "name": "阴行草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两"
+      }
+    },
+    {
+      "name": "阴行草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三至五钱"
+      }
+    },
+    {
+      "name": "湿热黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "遍身发黄",
+      "type": "Symptom"
+    },
+    {
+      "name": "热闭小便不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "瘀血作痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "血痢",
+      "type": "Disease"
+    },
+    {
+      "name": "血淋",
+      "type": "Disease"
+    },
+    {
+      "name": "小腹胀满",
+      "type": "Symptom"
+    },
+    {
+      "name": "白带",
+      "type": "Disease"
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遍身发黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热闭小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘀血作痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小腹胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白带",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阴行草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    }
+  ]
+}

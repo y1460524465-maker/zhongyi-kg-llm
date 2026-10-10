@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "木槿花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，凉血解毒",
+        "indication": "肠风泻血，赤白下痢，痔疮出血，肺热咳嗽，咳血，白带，疮疖痈肿，烫伤",
+        "property_flavor": "甘、淡，凉",
+        "meridian": "脾、肺经",
+        "usage": "内服，煎汤，3～9g。外用鲜品适量，捣烂敷患处"
+      }
+    }
+  ],
+  "relations": []
+}

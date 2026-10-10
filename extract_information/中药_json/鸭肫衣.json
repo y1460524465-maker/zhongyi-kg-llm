@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "name": "鸭肫衣",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸭肶胵、鸭肫内皮、鸭肫皮、鸭内金",
+        "dosage": "内服：煎服，3-6g；研末，1.5-3g",
+        "effect": "消食，化积",
+        "indication": "用于食积胀满，嗳腐吞酸，噎膈翻胃，诸骨哽喉"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸭肫衣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸭肫衣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸭肫衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭肫衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "嗳腐吞酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭肫衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "噎膈翻胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭肫衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "诸骨哽喉",
+      "object_type": "Symptom"
+    }
+  ]
+}

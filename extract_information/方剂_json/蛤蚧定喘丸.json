@@ -1,0 +1,246 @@
+{
+  "entities": [
+    {
+      "name": "蛤蚧定喘丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "滋阴清肺，止咳定喘",
+        "indication": "用于虚劳久咳，年老哮喘，气短发热，胸满郁闷，自汗盗汗，不思饮食",
+        "usage": "口服，水蜜丸一次5～6g，小蜜丸一次9g，大蜜丸一次1丸，一日2次"
+      }
+    },
+    {
+      "name": "蛤蚧",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "11g"
+      }
+    },
+    {
+      "name": "瓜蒌子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "紫菀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "75g"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "45g"
+      }
+    },
+    {
+      "name": "鳖甲（醋制）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "百合",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "75g"
+      }
+    },
+    {
+      "name": "紫苏子（炒）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "苦杏仁（炒）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "50g"
+      }
+    },
+    {
+      "name": "石膏（煅）",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蛤蚧",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫菀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鳖甲（醋制）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏子（炒）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦杏仁（炒）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏（煅）",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴清肺，止咳定喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳久咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "年老哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气短发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸满郁闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "自汗盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧定喘丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不思饮食",
+      "object_type": "Symptom"
+    }
+  ]
+}

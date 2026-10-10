@@ -1,0 +1,311 @@
+{
+  "entities": [
+    {
+      "name": "樟脑",
+      "type": "Herb",
+      "attributes": {
+        "alias": "韶脑、潮脑、脑子、油脑、树脑",
+        "effect": "通窍辟秽，温中止痛，利湿杀虫",
+        "indication": "寒湿吐泻，胃腹疼痛，脚气，跌打损伤，疥癣，龋齿作痛",
+        "taboo": "气虚者内服不宜过量，气虚及孕妇禁服。皮肤过敏者慎用",
+        "usage": "内服：入丸、散，0.06~0.15g，不入煎剂。外用：适量，研末，或溶于酒中，或入软膏敷搽",
+        "origin": "为樟科植物樟的根、干、枝、叶经蒸馏精制而成的颗粒状结晶",
+        "property_flavor": "味初辛辣而后清凉",
+        "traits": "白色的结晶性粉末或为无色透明的硬块，粗制品则略带黄色，有光亮，在常温中易挥发，火试能发生有烟的红色火焰而燃烧"
+      }
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《品汇精要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草正义》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医林集要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《不知医必要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《简便单方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《贵州中医验方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《中医杂志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《经验广集》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《洞天奥旨》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《健康报》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《神效方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《余居士选奇方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《药性集要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《心医集》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《疡科选粹》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《全国中草药汇编》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《品汇精要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草正义》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林集要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《不知医必要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《简便单方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵州中医验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中医杂志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《经验广集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《洞天奥旨》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《健康报》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《神效方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《余居士选奇方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性集要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《心医集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《疡科选粹》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《全国中草药汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒湿吐泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃腹疼痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "龋齿作痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通窍辟秽",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "樟脑",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利湿杀虫",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "独一味",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血化瘀，止血，祛风止痛",
+        "indication": "跌打损伤，外伤出血，风湿痹痛，黄水病",
+        "origin": "唇形科植物独一味的根及根茎或全草",
+        "place": "甘肃、青海、四川、云南西藏等地",
+        "property_flavor": "味微涩、苦",
+        "usage": "内服：浸酒或作散剂，3-6g。外用：适量，鲜品捣烂敷患处",
+        "taboo": "无瘀滞及孕妇勿服"
+      }
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "黄水病",
+      "type": "Disease"
+    },
+    {
+      "name": "活血化瘀",
+      "type": "Effect"
+    },
+    {
+      "name": "止血",
+      "type": "Effect"
+    },
+    {
+      "name": "祛风止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "四川中药志",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "独一味",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血化瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "独一味",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "独一味",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "独一味",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独一味",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "独一味",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独一味",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄水病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "独一味",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "四川中药志",
+      "object_type": "Source"
+    }
+  ]
+}

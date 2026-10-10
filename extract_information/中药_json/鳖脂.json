@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "name": "鳖脂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "滋阴养血，乌须发",
+        "indication": "主体弱虚赢，须发早白"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鳖脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "乌须发",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鳖脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "体弱虚赢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鳖脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "须发早白",
+      "object_type": "Disease"
+    }
+  ]
+}

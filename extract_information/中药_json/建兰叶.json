@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "建兰叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "理气解郁，清利湿热，凉血",
+        "indication": "胸闷，胃纳呆滞，咳嗽，咯血，白浊，白带，疮毒",
+        "property_flavor": "辛、平",
+        "meridian": "归心、脾、肺经",
+        "dosage": "内服:煎汤，9～15g；或研末"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "建兰叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气解郁",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "建兰叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清利湿热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "建兰叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "建兰叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "建兰叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃纳呆滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "建兰叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "建兰叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "建兰叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "建兰叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "建兰叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

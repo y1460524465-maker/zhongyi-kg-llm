@@ -1,0 +1,169 @@
+{
+  "entities": [
+    {
+      "name": "桑菊饮",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清宣肺卫",
+        "indication": "风温初起，但咳，身热不甚，口微咳",
+        "taboo": null,
+        "usage": "水二杯，煮取一杯，日二服"
+      }
+    },
+    {
+      "name": "桑叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7.5克"
+      }
+    },
+    {
+      "name": "菊花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.5克"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.5克"
+      }
+    },
+    {
+      "name": "芦根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "风温",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芦根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清宣肺卫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风温",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "风温",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    }
+  ]
+}

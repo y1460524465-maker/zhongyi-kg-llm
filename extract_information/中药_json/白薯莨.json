@@ -1,0 +1,130 @@
+{
+  "entities": [
+    {
+      "name": "白薯莨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null,
+        "effect": "散热，消肿，解毒",
+        "indication": "痈疽肿毒，梅毒，下疳，跌打损伤",
+        "meridian": null,
+        "origin": "薯蓣科植物白薯莨的块茎",
+        "place": "福建、广东、海南、广西、云南、西藏",
+        "processing": "秋、冬季采挖，除去茎叶及须根，洗净，切片晒干或鲜用",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "痈疽肿毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "梅毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "下疳",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "散热",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "消肿",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "解毒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白薯莨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白薯莨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梅毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白薯莨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白薯莨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白薯莨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白薯莨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白薯莨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白薯莨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药性备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白薯莨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    }
+  ]
+}

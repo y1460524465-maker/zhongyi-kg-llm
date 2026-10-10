@@ -1,0 +1,98 @@
+{
+  "entities": [
+    {
+      "name": "萆薢",
+      "type": "Herb",
+      "attributes": {
+        "alias": "百枝、竹木、赤节、白菝葜、川萆薢、粉萆薢、山田薯、土薯蓣、蔴甲头",
+        "effect": "祛风，利湿",
+        "indication": "主治风湿顽痹，腰膝疼痛，小便不利，淋浊，遗精，湿热疮毒",
+        "meridian": "入肝经、胃经、膀胱经",
+        "taboo": "肾虚阴亏者忌服；《本草经疏》：下部无湿，阴虚火炽，以致溺有余沥，茎中痛，及肾虚腰痛，并不宜服。《本草备要》：忌茗、醋。《本经逢原》：阴虚精滑及元气下陷不能摄精，小便频数，大便引急者，误用病必转剧。",
+        "usage": "内服，煎汤，9~15g，或入丸、散",
+        "dosage": "9~15g"
+      }
+    },
+    {
+      "name": "风湿顽痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腰膝疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "淋浊",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿热疮毒",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "萆薢",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风，利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "萆薢",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿顽痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "萆薢",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "萆薢",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "萆薢",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "萆薢",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "萆薢",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热疮毒",
+      "object_type": "Disease"
+    }
+  ]
+}

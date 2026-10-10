@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "地苏木",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蕨萁钻石黄、鸡血莲、散血莲、凤尾七",
+        "effect": "散瘀血，除湿",
+        "indication": "跌打腰痛，血凝气滞；劳伤，痢疾",
+        "property_flavor": "苦涩，凉",
+        "usage": "内服：煎汤，3～6钱；或浸酒",
+        "origin": "《四川常用中草药》",
+        "place": "云南、贵州、四川、湖北、湖南、江西及广东、广西等地"
+      }
+    },
+    {
+      "name": "披针新月蕨",
+      "type": "Herb",
+      "attributes": {
+        "origin": "金星蕨科"
+      }
+    },
+    {
+      "name": "跌打腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "血凝气滞",
+      "type": "Symptom"
+    },
+    {
+      "name": "劳伤",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "地苏木",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地苏木",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血凝气滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地苏木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "劳伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地苏木",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地苏木",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀血，除湿",
+      "object_type": "Effect"
+    }
+  ]
+}

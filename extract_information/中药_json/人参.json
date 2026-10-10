@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "大补元气，固脱生津，安神",
+        "indication": "劳伤虚损，食少，倦怠，反胃吐食，大便滑泄，虚咳喘促，自汗暴脱，惊悸，健忘，眩晕头痛，阳痿，尿频，消渴，妇女崩漏，小儿慢惊，及久虚不复，一切气血津液不足之证",
+        "taboo": "不宜与藜芦同用；反藜芦；畏五灵脂；恶皂荚、黑豆；动紫石英；阴虚火嗽吐血者慎用；忌铁器；若脾胃热实，肺受火邪，喘嗽痰盛，失血初起，胸膈痛闷，噎膈便秘，有虫有积，皆不可用",
+        "dosage": "3～9g，另煎兑入汤剂服；野山参若研粉吞服，一次2g，一日2次",
+        "origin": "为五加科人参属植物人参Panax ginseng C. A. Mey.[P. schin-seng Nees]的根",
+        "traits": "主根呈圆柱形，表面淡黄色，上部有断续的横纹；根茎（芦头）长约2～6厘米，直径约0.5～1.6厘米，有稀疏的碗状茎痕（芦碗）及一至数条不定根（参艼）；支根2～6条，末端多分歧，有许多细长的须状根，其上生有细小疣状突起（珍珠点）"
+      }
+    },
+    {
+      "name": "四君子汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "温和脾胃，进益饮食，辟寒邪瘴雾气",
+        "indication": "营卫气虚，脏腑怯弱，心腹胀满，全不思食，肠鸣泄泻，呕哕吐逆",
+        "usage": "上为细末，每服二钱，水一盏，煎至七分，通口服，不拘时，入盐少许，白汤点亦得"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "人参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "大补元气，固脱生津，安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四君子汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    }
+  ]
+}

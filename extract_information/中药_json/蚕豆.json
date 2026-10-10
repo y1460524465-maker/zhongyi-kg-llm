@@ -1,0 +1,234 @@
+{
+  "entities": [
+    {
+      "name": "蚕豆",
+      "type": "Herb",
+      "attributes": {
+        "alias": "佛豆,胡豆,南豆,马齿豆,竖豆,秬豆,罗汉豆,川豆,仙豆,寒豆,湾豆,罗泛豆,夏豆",
+        "effect": "健脾利水；解毒消肿",
+        "indication": "主治膈食；水肿；疮毒",
+        "usage": "内服：煎汤，30-60g；或研末；或作食品。外用：适量，捣敷；或烧灰敷。",
+        "place": "全国各地广为栽培",
+        "processing": "夏季豆荚成熟呈黑褐色时拔取全株，晒干，打下种子，扬净后再晒干",
+        "traits": "种子扁矩圆形，长1.2-1.5cm，直径约1cm，厚7mm。种皮表面浅棕褐色，光滑，做有光泽，两面凹陷；种脐位于较大端，褐色或黑褐色。质坚硬，内有子叶2枚，肥厚，黄色。气微，味谈，嚼之有豆腥气。",
+        "origin": "为豆科植物蚕豆的种子",
+        "taboo": "《本经逢原》：性滞，中气虚者食之，令人腹胀。"
+      }
+    },
+    {
+      "name": "膈食",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "疮毒",
+      "type": "Disease"
+    },
+    {
+      "name": "健脾利水",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒消肿",
+      "type": "Effect"
+    },
+    {
+      "name": "黄牛肉",
+      "type": "Herb"
+    },
+    {
+      "name": "冬瓜皮",
+      "type": "Herb"
+    },
+    {
+      "name": "菠菜",
+      "type": "Herb"
+    },
+    {
+      "name": "红糖",
+      "type": "Herb"
+    },
+    {
+      "name": "《益部方物略记》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《蒙化府志》",
+      "type": "Source"
+    },
+    {
+      "name": "《台湾植物名录》",
+      "type": "Source"
+    },
+    {
+      "name": "《中国药植志》",
+      "type": "Source"
+    },
+    {
+      "name": "《上海常用中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    },
+    {
+      "name": "《指南方》",
+      "type": "Source"
+    },
+    {
+      "name": "《民间常用草药汇编》",
+      "type": "Source"
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source"
+    },
+    {
+      "name": "《秘方集验》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "膈食",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "膈食",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《益部方物略记》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《蒙化府志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《台湾植物名录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国药植志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《上海常用中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《指南方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《民间常用草药汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《湖南药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《秘方集验》",
+      "object_type": "Source"
+    }
+  ]
+}

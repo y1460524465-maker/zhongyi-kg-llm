@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "蕤仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3-10g。外用：适量，去油研膏点眼；或煎水洗。",
+        "effect": "疏风散热，养肝明目",
+        "indication": "目赤肿痛，睑弦赤烂，目暗羞明",
+        "origin": "蔷薇科植物蕤核或齿叶扁核木的干燥成熟果核",
+        "processing": "除去杂质，洗净，干燥。用时捣碎。",
+        "property_flavor": "味微苦",
+        "traits": "本品呈类卵圆形，稍扁，长7～10mm，宽6～8mm，厚3～5mm。表面淡黄棕色或深棕色，有明显的网状沟纹，间有棕褐色果肉残留，顶端尖，两侧略不对称。质坚硬。种子扁平卵圆形，种皮薄，浅棕色或红棕色，易剥落；子叶2，乳白色，有油脂。气微"
+      }
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "睑弦赤烂",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目暗羞明",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蕤仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蕤仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "睑弦赤烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蕤仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目暗羞明",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蕤仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风散热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蕤仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养肝明目",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "entities": [
+    {
+      "name": "小罗伞",
+      "type": "Herb",
+      "attributes": {
+        "alias": "血党、活血眙、腺点紫金牛、斑叶朱砂根、小凉伞、珍珠盖凉伞",
+        "effect": "活血调经，祛风除湿",
+        "indication": "经闭，痛经，风湿痹痛，跌打损伤",
+        "processing": "全年可采",
+        "property_flavor": "苦甘微辛，平，无毒（《广西实用中草药新选》）；苦辛，温（广州空军《常用中草药手册》）",
+        "usage": "内服：煎汤，0.5～1两",
+        "origin": "紫金牛科植物小罗伞的根或全株",
+        "place": "分布广东、广西等地"
+      }
+    },
+    {
+      "name": "《广西实用中草药新选》",
+      "type": "Source"
+    },
+    {
+      "name": "广州空军《常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "经闭",
+      "type": "Symptom"
+    },
+    {
+      "name": "痛经",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "月经不调",
+      "type": "Symptom"
+    },
+    {
+      "name": "不孕症",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后风痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘫痪",
+      "type": "Symptom"
+    },
+    {
+      "name": "贫血",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "口腔炎",
+      "type": "Disease"
+    },
+    {
+      "name": "萎黄病",
+      "type": "Disease"
+    },
+    {
+      "name": "活血调经",
+      "type": "Effect"
+    },
+    {
+      "name": "祛风除湿",
+      "type": "Effect"
+    },
+    {
+      "name": "通经补血",
+      "type": "Effect"
+    },
+    {
+      "name": "祛风散瘀",
+      "type": "Effect"
+    },
+    {
+      "name": "消肿止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "血党",
+      "type": "Herb"
+    },
+    {
+      "name": "姜黄",
+      "type": "Herb"
+    },
+    {
+      "name": "茜草",
+      "type": "Herb"
+    },
+    {
+      "name": "槟榔钻",
+      "type": "Herb"
+    },
+    {
+      "name": "黄花倒水莲",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血调经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西实用中草药新选》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广州空军《常用中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通经补血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不孕症",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后风痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘫痪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "贫血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小罗伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "血党",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "血党",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "萎黄病",
+      "object_type": "Disease"
+    }
+  ]
+}

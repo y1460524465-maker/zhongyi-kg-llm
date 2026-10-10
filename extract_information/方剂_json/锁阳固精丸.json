@@ -1,0 +1,403 @@
+{
+  "entities": [
+    {
+      "name": "锁阳固精丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温肾壮阳，滋阴填精，涩精止遗",
+        "indication": "肾虚滑精，腰膝酸软，眩晕耳鸣，四肢无力",
+        "usage": "每100g粉末用炼蜜30～40g，加适量的水泛丸，干燥，用玉米朊包衣，晾干，制成水蜜丸；或加炼蜜110～130g 制成大蜜丸"
+      }
+    },
+    {
+      "name": "锁阳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "肉苁蓉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g",
+        "processing": "蒸"
+      }
+    },
+    {
+      "name": "巴戟天",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "processing": "制"
+      }
+    },
+    {
+      "name": "补骨脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g",
+        "processing": "盐炒"
+      }
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "杜仲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g",
+        "processing": "炭"
+      }
+    },
+    {
+      "name": "八角茴香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "韭菜子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "芡实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "processing": "炒"
+      }
+    },
+    {
+      "name": "莲子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "莲须",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "processing": "煅"
+      }
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g",
+        "processing": "煅"
+      }
+    },
+    {
+      "name": "鹿角霜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "56g"
+      }
+    },
+    {
+      "name": "山茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "17g",
+        "processing": "制"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "11g"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "56g"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "11g"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "11g"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4g"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4g"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "大青盐",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "肾虚滑精",
+      "type": "Disease"
+    },
+    {
+      "name": "腰膝酸软",
+      "type": "Symptom"
+    },
+    {
+      "name": "眩晕耳鸣",
+      "type": "Symptom"
+    },
+    {
+      "name": "四肢无力",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚滑精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眩晕耳鸣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "锁阳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉苁蓉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴戟天",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "补骨脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜仲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "八角茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "韭菜子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲须",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿角霜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "锁阳固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大青盐",
+      "object_type": "Herb"
+    }
+  ]
+}

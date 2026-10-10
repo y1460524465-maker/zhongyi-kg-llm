@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "name": "侧耳",
+      "type": "Herb",
+      "attributes": {
+        "alias": "北风菌、蚝菌、平菇、桐子菌、粗皮侧耳、水风菌、冻菌、青蘑、灰蘑",
+        "effect": "追风散寒，舒筋活络，补肾壮阳",
+        "indication": "腰腿疼痛，手足麻木，筋络不舒，阳痿遗精，腰膝无力",
+        "origin": "为白蘑科真菌糙皮侧耳的子实体",
+        "place": "东北、华北、西南及陕西、新疆、江苏、福建、台湾、广东、湖北、湖南、西藏等地",
+        "processing": "夏、秋季采收子实体，除去杂质，晒干",
+        "dosage": "内服：煎汤，6~9g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "侧耳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "追风散寒，舒筋活络，补肾壮阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "侧耳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰腿疼痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧耳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "手足麻木",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧耳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋络不舒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧耳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "侧耳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰膝无力",
+      "object_type": "Disease"
+    }
+  ]
+}

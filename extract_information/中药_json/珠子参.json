@@ -1,0 +1,167 @@
+{
+  "entities": [
+    {
+      "name": "珠子参",
+      "type": "Herb",
+      "attributes": {
+        "origin": "五加科植物珠子参的干燥根茎",
+        "place": "四川、贵州、云南等地",
+        "property_flavor": "苦、甘，微寒",
+        "meridian": "归肝、肺、胃经",
+        "effect": "补肺养阴，祛瘀止痛，止血",
+        "indication": "气阴两虚，烦热口渴，虚劳咳嗽，跌扑损伤，关节痹痛，咳血，吐血，衄血，崩漏，外伤出血",
+        "dosage": "内服：煎汤，3～9g。外用：适量，研末敷患处",
+        "processing": "秋季采挖，除去粗皮和须根，干燥；或蒸(煮)透后干燥"
+      }
+    },
+    {
+      "name": "鸡腰参",
+      "type": "Herb",
+      "attributes": {
+        "origin": "五加科植物珠子参的干燥根茎",
+        "place": "四川、贵州、云南等地",
+        "property_flavor": "苦、甘，微寒",
+        "meridian": "归肝、肺、胃经",
+        "effect": "补肺养阴，祛瘀止痛，止血",
+        "indication": "气阴两虚，烦热口渴，虚劳咳嗽，跌扑损伤，关节痹痛，咳血，吐血，衄血，崩漏，外伤出血",
+        "dosage": "内服：煎汤，3～9g。外用：适量，研末敷患处",
+        "processing": "秋季采挖，除去粗皮和须根，干燥；或蒸(煮)透后干燥"
+      }
+    },
+    {
+      "name": "大金线吊葫芦",
+      "type": "Herb",
+      "attributes": {
+        "origin": "五加科植物珠子参的干燥根茎",
+        "place": "四川、贵州、云南等地",
+        "property_flavor": "苦、甘，微寒",
+        "meridian": "归肝、肺、胃经",
+        "effect": "补肺养阴，祛瘀止痛，止血",
+        "indication": "气阴两虚，烦热口渴，虚劳咳嗽，跌扑损伤，关节痹痛，咳血，吐血，衄血，崩漏，外伤出血",
+        "dosage": "内服：煎汤，3～9g。外用：适量，研末敷患处",
+        "processing": "秋季采挖，除去粗皮和须根，干燥；或蒸(煮)透后干燥"
+      }
+    },
+    {
+      "name": "珠儿参",
+      "type": "Herb",
+      "attributes": {
+        "origin": "五加科植物珠子参的干燥根茎",
+        "place": "四川、贵州、云南等地",
+        "property_flavor": "苦、甘，微寒",
+        "meridian": "归肝、肺、胃经",
+        "effect": "补肺养阴，祛瘀止痛，止血",
+        "indication": "气阴两虚，烦热口渴，虚劳咳嗽，跌扑损伤，关节痹痛，咳血，吐血，衄血，崩漏，外伤出血",
+        "dosage": "内服：煎汤，3～9g。外用：适量，研末敷患处",
+        "processing": "秋季采挖，除去粗皮和须根，干燥；或蒸(煮)透后干燥"
+      }
+    },
+    {
+      "name": "白地瓜",
+      "type": "Herb",
+      "attributes": {
+        "origin": "五加科植物珠子参的干燥根茎",
+        "place": "四川、贵州、云南等地",
+        "property_flavor": "苦、甘，微寒",
+        "meridian": "归肝、肺、胃经",
+        "effect": "补肺养阴，祛瘀止痛，止血",
+        "indication": "气阴两虚，烦热口渴，虚劳咳嗽，跌扑损伤，关节痹痛，咳血，吐血，衄血，崩漏，外伤出血",
+        "dosage": "内服：煎汤，3～9g。外用：适量，研末敷患处",
+        "processing": "秋季采挖，除去粗皮和须根，干燥；或蒸(煮)透后干燥"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肺养阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛瘀止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气阴两虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦热口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "关节痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珠子参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

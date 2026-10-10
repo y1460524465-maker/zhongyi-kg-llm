@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "葫芦壳",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "甘，平",
+        "meridian": "心、小肠经",
+        "effect": "利水消肿",
+        "indication": "面目浮肿，腹水肿胀，脚气",
+        "origin": "葫芦科植物瓠瓜 Lagenaria siceraria（Molina）Standl.的干燥成熟果皮",
+        "processing": "除去杂质，敲成块状；或洗净，润透，切厚片，干燥，筛去灰屑"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葫芦壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "葫芦壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面目浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葫芦壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹水肿胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葫芦壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚气",
+      "object_type": "Symptom"
+    }
+  ]
+}

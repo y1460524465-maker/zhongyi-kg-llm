@@ -1,0 +1,157 @@
+{
+  "entities": [
+    {
+      "name": "复原活血汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "复元活血汤",
+        "effect": "活血祛瘀，疏肝通络",
+        "indication": "跌打损伤。瘀血留于胁下，痛不可忍。",
+        "usage": "除桃仁外，锉如麻豆大，每服一两，水一盏半，酒半盏，同煎至七分，去滓，大温服之，食前，以利为度。"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    },
+    {
+      "name": "瓜蒌根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱"
+      }
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二钱"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二钱"
+      }
+    },
+    {
+      "name": "穿山甲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二钱",
+        "processing": "炮"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两",
+        "processing": "酒浸"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五十个",
+        "processing": "酒浸，去皮尖，研如泥"
+      }
+    },
+    {
+      "name": "《医学发明·中风同堕坠论》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "复原活血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "复原活血汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛不可忍",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "复原活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复原活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒌根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复原活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复原活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复原活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复原活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "穿山甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复原活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复原活血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "复原活血汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医学发明·中风同堕坠论》",
+      "object_type": "Source"
+    }
+  ]
+}

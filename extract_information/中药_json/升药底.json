@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "name": "升药底",
+      "type": "Herb",
+      "attributes": {
+        "effect": "杀虫止痒，收湿生肌",
+        "indication": "疥癣，湿疹，黄水疮，皮肤溃烂",
+        "traits": "不规则厚片状，通常直径3-7cm，厚0.3-0.7cm。白色至淡黄色；条痕白色，微带黄色调。一面较平坦或具极细小也，另一面粗糙或呈蜂窝状。质硬脆，可折断，断面多数为淡黄色，有的散有红色点或线。气微臭。以厚片状、淡黄色、纯净者为佳",
+        "taboo": "有毒，均作外用，不可内服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "升药底",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫止痒，收湿生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "升药底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升药底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升药底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄水疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升药底",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤溃烂",
+      "object_type": "Disease"
+    }
+  ]
+}

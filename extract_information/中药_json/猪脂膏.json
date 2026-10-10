@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "猪脂膏",
+      "type": "Herb",
+      "attributes": {
+        "alias": "猪膏、猪脂、猪肪膏、猪脂肪",
+        "effect": "补虚，润燥，解毒",
+        "indication": "主治脏腑枯涩，大便不利，燥咳，皮肤皲裂",
+        "property_flavor": "味甘",
+        "origin": "为猪科动物猪的脂肪油",
+        "taboo": "猪脂不可合梅子食之；外感诸病，大便滑泄者均忌",
+        "processing": null,
+        "dosage": null,
+        "meridian": null,
+        "place": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "燥咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤皲裂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脏腑枯涩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补虚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "金匮要略",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "别录",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "千金·食治",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "滇南本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪脂膏",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "纲目",
+      "object_type": "Source"
+    }
+  ]
+}

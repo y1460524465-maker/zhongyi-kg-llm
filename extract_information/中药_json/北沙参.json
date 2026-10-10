@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "北沙参",
+      "type": "Herb",
+      "attributes": {
+        "alias": "莱阳沙参,海沙参,辽沙参,条沙参",
+        "effect": "养阴清肺，祛痰止咳，益胃生津",
+        "indication": "肺热燥咳，虚痨久咳，阴伤咽干、口渴",
+        "usage": "内服：煎汤，5~10g；或入丸、散、膏剂",
+        "taboo": "风寒作嗽及肺胃虚寒者忌服",
+        "origin": "伞形科植物珊瑚菜Glehnia littoralis Fr. Schmidt ex Miq.的干燥根"
+      }
+    }
+  ],
+  "relations": []
+}

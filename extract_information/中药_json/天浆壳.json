@@ -1,0 +1,89 @@
+{
+  "entities": [
+    {
+      "name": "天浆壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肺化痰，止咳平喘，散瘀止血",
+        "indication": "咳嗽痰多，气喘，百日咳，惊痫，麻疹不透，跌打损伤，外伤出血",
+        "origin": "萝藦科植物萝藦的果壳",
+        "place": "江苏、上海、浙江",
+        "processing": "将原药除去果柄及带毛种子，筛去灰屑;或整理后，切粗丝(5～10mm)，筛去灰屑。",
+        "property_flavor": "微咸而后微酸",
+        "dosage": "内服：煎汤，6-9g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天浆壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天浆壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽痰多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天浆壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天浆壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天浆壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "麻疹不透",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天浆壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天浆壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天浆壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天浆壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天浆壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀止血",
+      "object_type": "Effect"
+    }
+  ]
+}

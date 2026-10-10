@@ -1,0 +1,89 @@
+{
+  "entities": [
+    {
+      "name": "白苏子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "消痰，下气，润肺，宽肠",
+        "indication": "用于咳逆，痰喘，气滞便秘",
+        "property_flavor": "辛，平",
+        "meridian": "归肺、胃、大肠经",
+        "dosage": "内服：煎汤，3～9g",
+        "processing": "蜜炙白苏子",
+        "taboo": "久虚咳嗽，脾虚便滑者不宜"
+      }
+    },
+    {
+      "name": "白苏",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《本草图经》"
+      }
+    },
+    {
+      "name": "荏",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《别录》"
+      }
+    },
+    {
+      "name": "南苏",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《滇南本草》"
+      }
+    },
+    {
+      "name": "白紫苏",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《生草药性备要》"
+      }
+    },
+    {
+      "name": "假紫苏",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《生草药性备要》"
+      }
+    },
+    {
+      "name": "家苏",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《植物名实图考》"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白苏子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痰，下气，润肺，宽肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白苏子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咳逆",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白苏子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白苏子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气滞便秘",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "entities": [
+    {
+      "name": "三拗汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "疏风宣肺，止咳平喘",
+        "indication": "感冒风邪，鼻塞声重，语音不出，咳嗽胸闷",
+        "usage": "上为粗末，每服五钱（15克），水一盏半，姜五片，同煎至一盏，去滓，通口服。以衣被盖覆睡，取微汗为度",
+        "taboo": "风热表证及气阴不足者，不宜使用"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "发汗散寒，宣肺平喘"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "宣降肺气，止咳化痰"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "清热解毒，利气祛痰"
+      }
+    },
+    {
+      "name": "《太平惠民和剂局方》",
+      "type": "Source"
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "鼻塞",
+      "type": "Symptom"
+    },
+    {
+      "name": "声重",
+      "type": "Symptom"
+    },
+    {
+      "name": "语音不出",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸闷",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三拗汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平惠民和剂局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "三拗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三拗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三拗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三拗汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "疏风宣肺，止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三拗汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "鼻塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "声重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "语音不出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸闷",
+      "object_type": "Symptom"
+    }
+  ]
+}

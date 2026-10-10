@@ -1,0 +1,309 @@
+{
+  "entities": [
+    {
+      "name": "花蕊石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5～9g，多研末服",
+        "effect": "化瘀，止血",
+        "indication": "主治吐血、衄血、便血、崩漏，产妇血晕，死胎、胞衣不下，金疮出血",
+        "traits": "为变质岩类岩石含蛇纹石大理岩的石块。采挖后，敲去杂石，选取有淡黄色或黄绿色彩晕的小块。产陕西、河南、河北、扛苏、浙江、湖南、山西、四川等地。本品为粒状和致密块状集合体，呈不规则块状，大小不一。表面较粗糙，具棱角而不锋利。白色或淡灰白色；对光照之具闪星样光泽。其中夹有点状或条状的花纹（蛇纹石），呈淡黄绿色，蜡样光泽，习称彩晕。体重，质硬，砸碎后，断面粗糙；可用小刀刻划成痕。无臭，无味。以块整齐、夹有黄绿色斑纹者为佳。",
+        "taboo": "凡无瘀滞及孕妇忌服。无瘀血停留者不宜内服。不由内伤血凝胸膈板痛，而因火炎血溢以致吐血者，忌之。"
+      }
+    },
+    {
+      "name": "花蕊石散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "花蕊石散",
+        "effect": "使瘀血化为黄水",
+        "usage": "花蕊石火煅存性，研为末，用童便一盅，炖温，调末三钱，甚者五钱，食后服下，男子用酒一半，女人用醋一半，与童便和药服"
+      }
+    },
+    {
+      "name": "花蕊石散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "花蕊石散",
+        "effect": "外伤掺伤处。内损用童便或酒调服一钱",
+        "usage": "花蕊石（捣为粗末）一两，硫黄（上色明净者，捣为粗末）四两。上二味相拌令匀，固济，瓦罐内煅，取出细研。瓷合内盛。外伤掺伤处。内损用童便或酒调服一钱。"
+      }
+    },
+    {
+      "name": "化血丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治咳血，兼治吐衄，理瘀血，及二便下血",
+        "usage": "花蕊石三钱（煅存性），三七二钱，血余一钱（煅存性）。共研细。分两次，开水送服。"
+      }
+    },
+    {
+      "name": "立应散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "止痛不作脓，干贴生肌定痛",
+        "usage": "花蕊石、龙骨、铅丹、没药各五钱，黄药子七钱五分，寒水石（煅）一两五钱。上为末。一切金刃伤，以药敷之，绢帛扎定。"
+      }
+    },
+    {
+      "name": "《嘉祐本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《玉楸药解》",
+      "type": "Source"
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "《十药神书》",
+      "type": "Source"
+    },
+    {
+      "name": "《局方》",
+      "type": "Source"
+    },
+    {
+      "name": "《卫生家宝方》",
+      "type": "Source"
+    },
+    {
+      "name": "《谈野箱试验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《衷中参西录》",
+      "type": "Source"
+    },
+    {
+      "name": "《疡科选粹》",
+      "type": "Source"
+    },
+    {
+      "name": "《鲁府禁方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "花蕊石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化瘀，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "花蕊石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血、衄血、便血、崩漏，产妇血晕，死胎、胞衣不下，金疮出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "花蕊石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "一切失血伤损，内漏，目翳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "花蕊石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐衄崩漏胎产，刀杖一切诸血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "花蕊石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泻肝行瘀血，敛肺生皮肉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "花蕊石散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "五脏崩损，涌喷血成升斗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "花蕊石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "花蕊石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "花蕊石散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《十药神书》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "花蕊石散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "金刃箭镞伤中，及打扑伤损，猫狗咬伤，内损血入脏腑，妇人产后败血不尽，血迷血晕，恶血奔心，胎死腹中，胎衣不下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "花蕊石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "花蕊石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "花蕊石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "硫黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "花蕊石散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "化血丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "咳血，兼治吐衄，理瘀血，及二便下血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "化血丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "花蕊石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化血丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "三七",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化血丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "血余",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "化血丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "立应散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "诸疮出血不止，井久不生肌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "立应散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "花蕊石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "立应散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "立应散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "铅丹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "立应散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "立应散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄药子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "立应散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "寒水石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "立应散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《疡科选粹》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "花蕊石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《嘉祐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "花蕊石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "花蕊石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《玉楸药解》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "花蕊石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林纂要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "花蕊石",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    }
+  ]
+}

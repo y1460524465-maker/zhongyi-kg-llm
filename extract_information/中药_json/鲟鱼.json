@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "name": "鲟鱼",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气补虚，活血通淋",
+        "indication": "久病体虚，贫血，血淋，前列腺炎",
+        "dosage": "内服：煮食，50-100g"
+      }
+    },
+    {
+      "name": "久病体虚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "贫血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血淋",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "前列腺炎",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鲟鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久病体虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲟鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "贫血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲟鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲟鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "前列腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲟鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气补虚，活血通淋",
+      "object_type": "Effect"
+    }
+  ]
+}

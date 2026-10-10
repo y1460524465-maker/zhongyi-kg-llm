@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "name": "韭根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温中行气，散瘀解毒",
+        "indication": "主里寒腹痛，食积腹胀，胸痹疼痛，赤白带下，衄血，吐血，漆疮，疮癣，跌打损伤",
+        "usage": "内服：煎汤，鲜者 30-60g；或捣汁。外用：捣敷；或温熨；或研末调敷",
+        "taboo": "阴虚内热及疮疡、目疾患者忌服",
+        "origin": "为百合科植物韭的根"
+      }
+    },
+    {
+      "name": "里寒腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食积腹胀",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸痹疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "赤白带下",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "漆疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疮癣",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "韭根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中行气，散瘀解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "韭根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "里寒腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸痹疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤白带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "漆疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "韭根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

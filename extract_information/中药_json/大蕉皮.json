@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "大蕉皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，降血压",
+        "indication": "痢疾，霍乱，皮肤瘙痒，高血压病",
+        "dosage": "内服：煎汤，30-60g。外用：适量煎水洗；或研末调敷。"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "霍乱",
+      "type": "Disease"
+    },
+    {
+      "name": "皮肤瘙痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "高血压病",
+      "type": "Disease"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "降血压",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大蕉皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大蕉皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "霍乱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大蕉皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "大蕉皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大蕉皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大蕉皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降血压",
+      "object_type": "Effect"
+    }
+  ]
+}

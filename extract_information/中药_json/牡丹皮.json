@@ -1,0 +1,459 @@
+{
+  "entities": [
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "alias": "丹皮、粉丹皮、木芍药、条丹皮、洛阳花",
+        "effect": "清热凉血，和血消瘀",
+        "indication": "热入血分，发斑，惊痫，吐、衄、便血，骨蒸劳热，经闭，癥瘕，痈疡，扑损",
+        "taboo": "血虚有寒，孕妇及月经过多者慎服",
+        "dosage": "内服：煎汤，6~9g；或入丸、散",
+        "origin": "为毛茛科植物牡丹的根皮",
+        "property_flavor": "气芳香，味微苦而涩",
+        "processing": "丹皮：拣去杂质，除去木心，洗净，润透，切片，晾干。炒丹皮：将丹皮片入热锅内，不断翻炒至略有黄色焦斑时，取山，凉透。丹皮炭：取牡丹皮片入锅内，以武火炒至焦黑色，存性为度，喷淋清水，取出，凉透。"
+      }
+    },
+    {
+      "name": "牡丹",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为毛茛科植物牡丹的根皮"
+      }
+    },
+    {
+      "name": "大黄牡丹汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "下血"
+      }
+    },
+    {
+      "name": "犀角地黄汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "消瘀血"
+      }
+    },
+    {
+      "name": "牡丹汤",
+      "type": "Formula",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和血消瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发斑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐、衄、便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸劳热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癥瘕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "扑损",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "过敏性鼻炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人恶血攻聚上面",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒热毒发疮如豌豆",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "悬痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下部生疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "金疮内漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腕折瘀血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤损瘀血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "刀伤后内出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "通经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人骨蒸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒及温病应发汗而不发汗之内蓄血者",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胎前衄血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《珍珠囊》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医学入门》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经集注》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《古今录验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《得配本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冬瓜子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀角地黄汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《千金方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山栀子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牡丹汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒热毒发疮如豌豆",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牡丹汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    }
+  ]
+}

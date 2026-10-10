@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "name": "腹水草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3～9g",
+        "effect": "行水，散瘀，消肿，解毒",
+        "indication": "水肿，小便不利，肝炎，月经不调，疗疮痈肿，跌打损伤，汤火伤",
+        "property_flavor": "苦、辛、凉；有小毒",
+        "meridian": "归肝、肺、肾经"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "腹水草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "腹水草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "腹水草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "腹水草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "腹水草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "腹水草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "腹水草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "腹水草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "腹水草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疗疮痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "腹水草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "腹水草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "汤火伤",
+      "object_type": "Disease"
+    }
+  ]
+}

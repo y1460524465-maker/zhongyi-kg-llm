@@ -1,0 +1,316 @@
+{
+  "entities": [
+    {
+      "name": "竹叶柳蒡汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "透疹清热",
+        "usage": "水煎服"
+      }
+    },
+    {
+      "name": "西河柳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "荆芥穗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "干葛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "蝉蜕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "薄荷叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "鼠粘子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "麦门冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "竹叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "升麻葛根汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "解肌透疹"
+      }
+    },
+    {
+      "name": "痧疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "喘嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "鼻塞流涕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "恶寒轻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "发热重",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烦闷躁乱",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "唇干口渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔薄黄而干",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉浮数",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "透疹清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "西河柳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥穗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干葛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蝉蜕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鼠粘子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦门冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "竹叶柳蒡汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痧疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解肌透疹",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "升麻葛根汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痧疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "痧疹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "喘嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痧疹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "鼻塞流涕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痧疹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "恶寒轻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痧疹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "发热重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痧疹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "烦闷躁乱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痧疹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痧疹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "唇干口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痧疹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔薄黄而干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痧疹",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉浮数",
+      "object_type": "Symptom"
+    }
+  ]
+}

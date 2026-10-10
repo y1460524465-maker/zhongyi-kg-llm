@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "name": "菠萝皮",
+      "type": "Herb",
+      "attributes": {
+        "origin": "凤梨科植物凤梨的果皮",
+        "effect": "解毒，止咳，止痢",
+        "indication": "咳嗽，痢疾",
+        "dosage": "内服：煎汤，9-15g"
+      }
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "菠萝皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菠萝皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "菠萝皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菠萝皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菠萝皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痢",
+      "object_type": "Effect"
+    }
+  ]
+}

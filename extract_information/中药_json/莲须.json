@@ -1,0 +1,31 @@
+{
+  "entities": [
+    {
+      "name": "莲须",
+      "type": "Herb",
+      "attributes": {
+        "alias": "金樱草、莲花须、莲花蕊、莲蕊须、佛座须",
+        "effect": "清心，益肾，涩精，止血",
+        "indication": "梦遗滑泄，吐、衄、崩、带，泻痢",
+        "taboo": "忌地黄、葱、蒜。小便不利者勿服。",
+        "usage": "内服：煎汤，3~9g；或入丸、散。",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "traits": null,
+        "dosage": "3~9g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "莲须",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清心，益肾，涩精，止血",
+      "object_type": "Effect"
+    }
+  ]
+}

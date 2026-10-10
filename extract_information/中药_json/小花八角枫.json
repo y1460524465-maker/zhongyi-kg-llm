@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "小花八角枫",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，活血止痛",
+        "indication": "风湿痹痛，胃脘痛，跌打损伤",
+        "usage": "内服：煎汤，6-15g。外用：适量，捣敷；或研末调敷"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小花八角枫",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小花八角枫",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小花八角枫",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小花八角枫",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃脘痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小花八角枫",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

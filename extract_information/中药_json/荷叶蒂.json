@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "荷叶蒂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清暑祛湿，祛瘀止血，和胃安胎",
+        "indication": "暑湿泄泻，血痢，妊娠胎动不安，崩漏带下，久泻脱肛",
+        "dosage": "5~10克",
+        "traits": "气清香，味涩、微苦",
+        "property_flavor": "涩、微苦"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "荷叶蒂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清暑祛湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荷叶蒂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛瘀止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荷叶蒂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和胃安胎",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荷叶蒂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "暑湿泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荷叶蒂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荷叶蒂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠胎动不安",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荷叶蒂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荷叶蒂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久泻脱肛",
+      "object_type": "Disease"
+    }
+  ]
+}

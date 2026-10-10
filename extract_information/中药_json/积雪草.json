@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "积雪草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "地钱草，老公根，葵蓬菜，崩口碗，落得打，地棠草，大马蹄草，土细辛，崩大碗，雷公根，刚果龙，缺碗草，芋子草，马脚迹，芽黄草，草如意，蚶壳草，含壳草，乞食碗，老豺碗，大水钱，破铜钱草，铜钱草，铁灯盏，半边碗，跳破碗，雷公碗，地细辛，地排草",
+        "effect": "清热利湿，消肿解毒",
+        "indication": "痧气腹痛，暑泻，痢疾，湿热黄疸，砂淋，血淋，吐、衄、咳血，目赤，喉肿，风疹，疥癣，疔痈肿毒，跌打损伤",
+        "meridian": "归肺经,脾经,肾经,膀胱经",
+        "property_flavor": "气特异，叶淡微辛",
+        "dosage": "内服：煎汤，9~15g（鲜者15~30g）；或捣汁。外用：适量，捣敷或绞汁涂。",
+        "taboo": "虚寒者不宜",
+        "origin": "Asiatic Pennywort Herb",
+        "processing": "干燥全草或带根全草"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痧气腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暑泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "砂淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疥癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔痈肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "积雪草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

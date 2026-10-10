@@ -1,0 +1,148 @@
+{
+  "entities": [
+    {
+      "name": "甘木通",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，9-15g。外用：适量，捣烂塞患牙。",
+        "effect": "清肝火，宁心神，降血压，通络止痛",
+        "indication": "高血压病，失眠，头痛，四肢麻木，肝经风热，目赤肿痛，风火牙痛，风湿痹痛",
+        "origin": "为毛茛科植物丝铁线莲的叶、根"
+      }
+    },
+    {
+      "name": "高血压病",
+      "type": "Disease"
+    },
+    {
+      "name": "失眠",
+      "type": "Disease"
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "四肢麻木",
+      "type": "Symptom"
+    },
+    {
+      "name": "肝经风热",
+      "type": "Disease"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风火牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "清肝火",
+      "type": "Effect"
+    },
+    {
+      "name": "宁心神",
+      "type": "Effect"
+    },
+    {
+      "name": "降血压",
+      "type": "Effect"
+    },
+    {
+      "name": "通络止痛",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "失眠",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝经风热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风火牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肝火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宁心神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降血压",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘木通",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通络止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

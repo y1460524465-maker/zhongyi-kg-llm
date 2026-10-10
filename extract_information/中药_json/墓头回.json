@@ -1,0 +1,265 @@
+{
+  "entities": [
+    {
+      "name": "墓头回",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "辛，性温",
+        "effect": "敛肝燥湿，止血；祛瘀，消肿",
+        "indication": "主治温疟，妇女崩中，赤白带下，跌打损伤。治伤寒，温疟。洗脚，治脚痛。治妇人髋疽，赤白带下。治跌打。",
+        "dosage": "内服：煎汤，9~15g",
+        "origin": "为败酱科植物糙叶败酱或异叶败酱的根"
+      }
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "异叶败酱",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "糙叶败酱",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "艾氏腹水癌",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "艾氏实体癌",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "温疟",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "崩中",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "赤白带下",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "伤寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脚痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇人髋疽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "赤痢",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痛经",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃癌",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "白血病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "马齿苋",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "延胡索",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "羊蹄根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红糖",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛肝燥湿，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛瘀，消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "温疟",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩中",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤白带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人髋疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤白带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白血病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "艾氏腹水癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "墓头回",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "艾氏实体癌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "异叶败酱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    }
+  ]
+}

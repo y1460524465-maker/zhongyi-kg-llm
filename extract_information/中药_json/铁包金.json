@@ -1,0 +1,89 @@
+{
+  "entities": [
+    {
+      "name": "铁包金",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化瘀血，祛风湿，消肿毒",
+        "indication": "肺痨久咳，咯血，吐血，跌打损伤，风湿疼痛，痈肿，荨麻疹",
+        "dosage": "内服：煎汤，30～90g",
+        "origin": "本品为鼠李科植物铁包金Berchemia lineata (L.)DC.的干燥根",
+        "property_flavor": "味微苦",
+        "processing": "将原药除去杂质，洗净，略润，切厚片，干燥，筛去灰屑。来货为片子，除去杂质，筛去灰屑",
+        "traits": "藤状灌木，高1～4米。小枝被毛。叶互生，具短柄，卵圆形或近圆形，长5～10毫米，先端钝而有小凸点，基部浑圆或微心形，边全缘，纸质，上面深绿色，下面苍白色，侧脉5对，直而平行。花两性或杂性，2至多朵簇生于叶腋内或枝的顶端，有3～6毫米长的短柄；萼片5，长2～3毫米，狭披针形或线形；花瓣5，线状披针形；雄蕊5，有时6；子房上位，2室。果肉质，长卵状，长4～6毫米，熟时紫色。花期秋季。生于山野、矮林或杂草丛中，路旁、坡地、小丘陵。分布我国南部。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "铁包金",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化瘀血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁包金",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁包金",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁包金",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痨久咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁包金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁包金",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铁包金",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁包金",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿疼痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁包金",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁包金",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "荨麻疹",
+      "object_type": "Disease"
+    }
+  ]
+}

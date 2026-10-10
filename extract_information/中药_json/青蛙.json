@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "name": "青蛙",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利水消肿，清热解毒，补虚",
+        "indication": "水肿，膨胀，黄疸，虾蟆瘟，小儿热疮，痢疾，疳疾，劳热，产后体弱",
+        "usage": "内服：煎汤或煮食，1-3只；或入丸、散。外用：适量，捣敷或调敷。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "青蛙",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿，清热解毒，补虚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青蛙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青蛙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "膨胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青蛙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青蛙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虾蟆瘟",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青蛙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿热疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青蛙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青蛙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青蛙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "劳热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青蛙",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后体弱",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "entities": [
+    {
+      "name": "水白蜡",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，解毒消肿",
+        "indication": "感冒发热，肺热咳嗽，咽喉肿痛，口舌生疮，湿热黄疸，痢疾，痈肿疮毒，湿疹，皮炎，跌打损伤，烫伤",
+        "usage": "内服：煎汤，10-15g，鲜者加倍。外用：适量，煎水含漱；或熬膏涂；捣烂或绞汁涂敷。"
+      }
+    },
+    {
+      "name": "感冒发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口舌生疮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿热黄疸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痈肿疮毒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "湿疹",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "皮炎",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烫伤",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿热黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿疮毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮炎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水白蜡",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿，解毒消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

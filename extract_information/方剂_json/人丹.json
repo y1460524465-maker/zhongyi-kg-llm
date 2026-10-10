@@ -1,0 +1,276 @@
+{
+  "entities": [
+    {
+      "name": "人丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热解暑，避秽止呕，驱风健胃",
+        "indication": "中暑呕吐，胸中满闷，头目眩晕，水土不服，消化不良，恶心呕吐，晕船，轻度中暑酒醉饱滞",
+        "taboo": null,
+        "usage": "口服或含服，一次0.1~0.2克"
+      }
+    },
+    {
+      "name": "生石膏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "儿茶",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "薄荷水",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "丁香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "小茴香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "中暑呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸中满闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头目眩晕",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "水土不服",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "消化不良",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "恶心呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "晕船",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "轻度中暑",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "酒醉饱滞",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解暑，避秽止呕，驱风健胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中暑呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中满闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头目眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水土不服",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消化不良",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶心呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "晕船",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "酒醉饱滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "轻度中暑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "儿茶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷水",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "人丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    }
+  ]
+}

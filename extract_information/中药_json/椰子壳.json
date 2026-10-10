@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "name": "椰子壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风止痛，利湿止痒",
+        "indication": "杨梅疮筋骨痛，心胃疼痛，体癣，脚癣",
+        "dosage": "内服：烧存性浸酒，6-10g；或研末，每次2-3g。外用：适量，熬膏或制油外涂",
+        "origin": "《本草纲目》《纲目拾遗》《本草求原》"
+      }
+    },
+    {
+      "name": "杨梅疮筋骨痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心胃疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "体癣",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脚癣",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "夹阴风寒寒热",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "椰子壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风止痛，利湿止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "椰子壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "杨梅疮筋骨痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "椰子壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胃疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "椰子壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "椰子壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "椰子壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夹阴风寒寒热",
+      "object_type": "Symptom"
+    }
+  ]
+}

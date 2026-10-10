@@ -1,0 +1,127 @@
+{
+  "entities": [
+    {
+      "name": "羊肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气补虚，温中暖下",
+        "indication": "虚劳羸瘦，腰膝酸软，产后虚冷，腹疼，寒疝，中虚反胃",
+        "dosage": "内服：煮食或煎汤，125-250g；或入丸剂",
+        "taboo": "外感时邪或有宿热者禁服。孕妇不宜多食",
+        "origin": "为牛科动物山羊或绵羊的肉"
+      }
+    },
+    {
+      "name": "当归生姜羊肉汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治产后腹中疞痛及腹中寒疝，虚劳不足",
+        "usage": "当归三两，生姜五两，羊肉一斤。上三味，以水八升，煮取三升，日三服"
+      }
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "羊肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气补虚，温中暖下",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羊肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳羸瘦",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羊肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰膝酸软",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羊肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后虚冷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羊肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹疼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羊肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羊肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中虚反胃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "产后腹中疞痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "腹中寒疝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羊肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "当归生姜羊肉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    }
+  ]
+}

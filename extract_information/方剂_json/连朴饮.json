@@ -1,0 +1,366 @@
+{
+  "entities": [
+    {
+      "name": "连朴饮",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热化湿，理气和中",
+        "indication": "湿热霍乱，上吐下泻，胸脘痞闷，心烦躁扰，小便短赤，舌苔黄腻，脉滑",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "湿热霍乱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "制厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "姜汁炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "石菖蒲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "制半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "香豉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "焦栀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芦根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "急性胃肠炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肠伤寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "副伤寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸脘痞闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心烦躁扰",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便短赤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔黄腻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉滑",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热霍乱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胃肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "副伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸脘痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦躁扰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便短赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔黄腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉滑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "制厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石菖蒲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "制半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "焦栀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芦根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "湿热霍乱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热霍乱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热霍乱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸脘痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热霍乱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心烦躁扰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热霍乱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小便短赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热霍乱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌苔黄腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热霍乱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉滑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "连朴饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/连朴饮",
+      "object_type": "Source"
+    }
+  ]
+}

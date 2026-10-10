@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {
+      "name": "鸡冠花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸡髻花、鸡公花、鸡角枪、鸡冠头、鸡骨子花、老来少",
+        "effect": "收敛止血，止带，止痢",
+        "indication": "主治痔漏下血，赤白下痢，吐血，咳血，血淋，妇女崩中，赤白带下",
+        "dosage": "内服：煎汤，6~12克；或入丸、散",
+        "origin": "为苋科植物鸡冠花的花序",
+        "property_flavor": null,
+        "meridian": null,
+        "place": "全国大部地区有栽培",
+        "processing": "拣净杂质，除去茎及种子，剪成小块",
+        "taboo": null,
+        "traits": "以朵大而扁、色泽鲜艳的白鸡冠花较佳，色红者次之"
+      }
+    }
+  ],
+  "relations": []
+}

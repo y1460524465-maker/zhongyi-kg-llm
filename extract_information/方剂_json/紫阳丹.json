@@ -1,0 +1,201 @@
+{
+  "entities": [
+    {
+      "name": "紫阳丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "taboo": null,
+        "usage": "上药研极细末，每用少许搽患处，用膏药贴之。"
+      }
+    },
+    {
+      "name": "水银",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "等分",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "银朱",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "等分",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "生铅",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "等分",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "百草霜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "等分",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "轻粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "等分",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "杭粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "等分",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "等分",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "少许",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫阳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "水银",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫阳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银朱",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫阳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生铅",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫阳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "百草霜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫阳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "轻粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫阳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杭粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫阳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "紫阳丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    }
+  ]
+}

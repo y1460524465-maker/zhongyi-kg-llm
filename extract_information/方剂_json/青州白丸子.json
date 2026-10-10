@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "青州白丸子",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治男子妇人手足瘫痪，风痰壅盛，呕吐涎沫，及小儿惊风",
+        "usage": "每服二三十丸，生姜汤送下。不拘时服。如瘫痪风湿，酒送下；小儿惊风薄荷汤下三五丸"
+      }
+    },
+    {
+      "name": "南星",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两"
+      }
+    },
+    {
+      "name": "白附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两"
+      }
+    },
+    {
+      "name": "川乌头",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "七两"
+      }
+    },
+    {
+      "name": "瘫痪",
+      "type": "Disease"
+    },
+    {
+      "name": "风痰壅盛",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕吐涎沫",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿惊风",
+      "type": "Disease"
+    },
+    {
+      "name": "《奇效良方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "青州白丸子",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘫痪",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青州白丸子",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风痰壅盛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青州白丸子",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐涎沫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青州白丸子",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青州白丸子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青州白丸子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青州白丸子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川乌头",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青州白丸子",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青州白丸子",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《奇效良方》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "name": "藏红花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "撒法即、西红花、番红花、洎夫蓝、番栀子蕊、撒馥兰",
+        "effect": "活血化瘀，散郁开结",
+        "indication": "忧思郁结，胸膈痞闷，吐血，伤寒发狂，惊怖恍惚，妇女经闭，产后瘀血腹痛，跌扑肿痛",
+        "property_flavor": "味微苦",
+        "processing": "拣去杂质，并除去黄色毛须",
+        "taboo": "忌食油荤、盐，宜食淡粥",
+        "dosage": "内服：煎汤，l~3g；冲泡或浸酒炖",
+        "origin": "为鸢尾科植物番红花花柱的上部及柱头"
+      }
+    },
+    {
+      "name": "《饮膳正要》",
+      "type": "Source"
+    },
+    {
+      "name": "《品汇精要》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《医林集要》",
+      "type": "Source"
+    },
+    {
+      "name": "《青岛中草药手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮膳正要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《品汇精要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林集要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《青岛中草药手册》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "忧思郁结",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胸膈痞闷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒发狂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊怖恍惚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后瘀血腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血化瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "藏红花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散郁开结",
+      "object_type": "Effect"
+    }
+  ]
+}

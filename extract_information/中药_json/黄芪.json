@@ -1,0 +1,137 @@
+{
+  "entities": [
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补气固表，利尿托毒，排脓，敛疮生肌",
+        "indication": "气虚乏力，食少便溏，中气下陷，久泻脱肛，便血崩漏，表虚自汗，气虚水肿，痈疽难溃，久溃不敛，血虚痿黄，内热消渴；慢性肾炎蛋白尿，糖尿病",
+        "dosage": "煎汤，9～30g",
+        "property_flavor": "味微甜",
+        "origin": "为豆科黄芪属植物膜荚黄芪Astragalus membranaceus （Fisch.） Bunge 及内蒙古黄芪A. mongholicus Bunge的根",
+        "traits": "嚼之微有豆腥味"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补气固表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿托毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "排脓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛疮生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气虚乏力",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "食少便溏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中气下陷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久泻脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便血崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "表虚自汗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气虚水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽难溃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久溃不敛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血虚痿黄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "内热消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肾炎蛋白尿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    }
+  ]
+}

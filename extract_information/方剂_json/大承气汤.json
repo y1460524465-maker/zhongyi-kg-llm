@@ -1,0 +1,296 @@
+{
+  "entities": [
+    {
+      "name": "大承气汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "峻下热结",
+        "indication": "阳明腑实证（大便不通，频转矢气，脘腹痞满，腹通拒按，按之硬，甚或潮热谵语，手足濈然汗出，舌苔黄燥起刺，或焦黑燥裂，脉沉实）；热结旁流（下利清水，色纯青，其气臭秽，脐腹疼痛，按之坚鞕有块，口舌干燥，脉滑数）；里热实证之热厥、痉病或发狂等",
+        "taboo": null,
+        "usage": "水煎服，大黄后下，芒硝溶服"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "阳明腑实证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "热结旁流",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "热厥",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痉病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "发狂",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "大便不通",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "频转矢气",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脘腹痞满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹通拒按",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "潮热谵语",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "手足濈然汗出",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔黄燥起刺",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "焦黑燥裂",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉沉实",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "下利清水",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脐腹疼痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口舌干燥",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉滑数",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大承气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳明腑实证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大承气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热结旁流",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大承气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热厥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大承气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痉病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大承气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "发狂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大承气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "峻下热结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "阳明腑实证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "大便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳明腑实证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "频转矢气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳明腑实证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脘腹痞满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳明腑实证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹通拒按",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳明腑实证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "潮热谵语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳明腑实证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "手足濈然汗出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳明腑实证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌苔黄燥起刺",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳明腑实证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "焦黑燥裂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "阳明腑实证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉沉实",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "热结旁流",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "下利清水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "热结旁流",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脐腹疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "热结旁流",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口舌干燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "热结旁流",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉滑数",
+      "object_type": "Symptom"
+    }
+  ]
+}

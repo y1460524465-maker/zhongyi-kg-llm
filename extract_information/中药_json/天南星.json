@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "name": "天南星",
+      "type": "Herb",
+      "attributes": {
+        "effect": "燥湿化痰，祛风止痉，散结消肿",
+        "indication": "用于顽痰咳嗽，风痰眩晕，中风痰壅，口眼歪斜，半身不遂，癫痫，惊风，破伤风。生用外治痈肿，蛇虫咬伤",
+        "processing": "1.天南星：拣去杂质，洗净灰屑，晒干。\n2.制南星：取拣净的天南星，用凉水浸漂，避免日晒，每日换 水2～3次，根据其产地、质量及大小，适当掌握浸漂日数。至起白沫时，每南星100斤加白矾2斤，浸泡一月后，继续换水，直至口尝无麻辣感为止，捞出，与 鲜姜片及白矾粉层层均匀铺入容器内，加水淹没，约经3～4星期，复倒入锅内煮至内无白心，取出，拣去姜片，晾至六成干，闷润后切片，晒干（每天南星100 斤，用鲜姜25斤，白矾12.5～25斤）。",
+        "property_flavor": "辛气，味辣而麻",
+        "dosage": "内服：煎汤，3~9g，一般制后用；或入丸散。\n外用：生品适量，研末以醋或酒调敷",
+        "taboo": "①《本草经集注》：蜀漆为之使。恶莽草。\n②《日华子本草》：畏附子、干姜、生姜。\n③《本草备要》：阴虚燥痰禁用。\n④《会约医镜》：孕妇忌之"
+      }
+    },
+    {
+      "name": "顽痰咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "风痰眩晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "中风痰壅",
+      "type": "Symptom"
+    },
+    {
+      "name": "口眼歪斜",
+      "type": "Symptom"
+    },
+    {
+      "name": "半身不遂",
+      "type": "Symptom"
+    },
+    {
+      "name": "癫痫",
+      "type": "Disease"
+    },
+    {
+      "name": "惊风",
+      "type": "Disease"
+    },
+    {
+      "name": "破伤风",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛇虫咬伤",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿化痰，祛风止痉，散结消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "顽痰咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风痰眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风痰壅",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口眼歪斜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "半身不遂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天南星",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇虫咬伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

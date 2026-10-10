@@ -1,0 +1,189 @@
+{
+  "entities": [
+    {
+      "name": "皂角化痰丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "用于心脾壅滞，痰涎盛多，喉中不利，涕唾稠粘，嗌塞吐逆，不思饮食，或时昏愤",
+        "usage": "每服30丸，食后温水送下"
+      }
+    },
+    {
+      "name": "皂角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "木白皮，酥炙"
+      }
+    },
+    {
+      "name": "白附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炮"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "汤洗七次"
+      }
+    },
+    {
+      "name": "天南星",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炮"
+      }
+    },
+    {
+      "name": "白矾",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "枯"
+      }
+    },
+    {
+      "name": "赤茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "去皮"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "processing": "炒"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "皂角化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "皂角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂角化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂角化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂角化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天南星",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂角化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白矾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂角化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂角化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂角化痰丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂角化痰丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "劳风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "劳风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心脾壅滞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "劳风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "痰涎盛多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "劳风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "喉中不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "劳风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "涕唾稠粘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "劳风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "嗌塞吐逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "劳风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "不思饮食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "劳风",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "时或昏愤",
+      "object_type": "Symptom"
+    }
+  ]
+}

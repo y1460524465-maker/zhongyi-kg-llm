@@ -1,0 +1,256 @@
+{
+  "entities": [
+    {
+      "name": "苏子降气汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "降气化痰，止咳平喘",
+        "indication": "上实下虚之喘咳",
+        "taboo": "肺肾两虚的喘咳或肺热痰喘不宜使用",
+        "usage": "水煎服"
+      }
+    },
+    {
+      "name": "苏子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": "降气化痰，止咳平喘"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": "降气化痰，止咳平喘"
+      }
+    },
+    {
+      "name": "前胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "下气祛痰"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": "下气祛痰"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "下气祛痰"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "养血润燥"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "温肾纳气"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克",
+        "effect": "调和诸药"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3片"
+      }
+    },
+    {
+      "name": "喘咳",
+      "type": "Disease"
+    },
+    {
+      "name": "上实下虚",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "喘咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "上实下虚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "降气化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苏子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "前胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苏子降气汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苏子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降气化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苏子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "半夏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降气化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "半夏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "前胡",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "下气祛痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "陈皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "下气祛痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "厚朴",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "下气祛痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "当归",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养血润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肉桂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温肾纳气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "炙甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调和诸药",
+      "object_type": "Effect"
+    }
+  ]
+}

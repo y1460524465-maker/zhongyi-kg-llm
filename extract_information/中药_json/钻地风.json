@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "name": "钻地风",
+      "type": "Herb",
+      "attributes": {
+        "effect": "舒筋活络，祛风活血",
+        "indication": "风湿脚气，风寒痹症，四肢关节酸痛",
+        "usage": "内服；煎汤，9-15g；或浸酒",
+        "origin": "为虎耳草科植物钻地风的根皮",
+        "place": "浙江、安徽、湖南、湖北、四川、广西、广东、贵州、云南等地",
+        "property_flavor": "性凉，味淡",
+        "traits": "干燥的根皮呈半卷筒状，厚而宽阔，内层有网纹。以皮质松呢、不含木心、色红棕、味清香微带樟脑气者为佳",
+        "processing": "全年可采，挖取根部，剥取根皮，晒干"
+      }
+    },
+    {
+      "name": "追地枫",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《药材资料汇编》"
+      }
+    },
+    {
+      "name": "桐叶藤",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《浙江天目山药植志》"
+      }
+    },
+    {
+      "name": "虎耳草科",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "钻地风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿脚气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "钻地风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风寒痹症",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "钻地风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢关节酸痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

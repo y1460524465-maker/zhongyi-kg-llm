@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "芋儿七",
+      "type": "Herb",
+      "attributes": {
+        "alias": "玉儿七、佛手七、头顶一颗珠、黄花三七、鱼儿七、狮儿七、尸儿七",
+        "effect": "祛风止痛，舒肝，活血，止血",
+        "indication": "高血压，头昏头痛，跌打骨折，腰腿疼痛，外伤出血",
+        "usage": "内服：煎汤，6-9g；研末3g。外用：适量，研末敷；或鲜品捣敷",
+        "taboo": "反枇杷芋、金背枇杷叶及猪油",
+        "origin": "百合科植物延龄草或白花延龄草的根茎"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芋儿七",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芋儿七",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芋儿七",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芋儿七",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芋儿七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芋儿七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头昏头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芋儿七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芋儿七",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰腿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芋儿七",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Disease"
+    }
+  ]
+}

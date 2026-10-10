@@ -1,0 +1,243 @@
+{
+  "entities": [
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "alias": "铜芸、回云、回草、百枝、百种、屏风、风肉",
+        "origin": "伞形科植物防风的根",
+        "effect": "发表，祛风，胜湿，止痛",
+        "indication": "外感风寒，头痛，目眩，项强，风寒湿痹，骨节酸痛，四肢挛急，破伤风",
+        "meridian": "膀胱经、肝经、脾经",
+        "processing": "1.防风：除去残茎，用水浸泡，捞出，润透切片，晒干。2.炒防风：取防风片，置锅内微炒至深黄色，取出放凉。3.炭制：取防风片置锅内，用中火炒至外呈黑色，内呈黄褐色为度。喷洒清水适量，灭尽火星，取出，晾一夜。4.蜜炙：取防风，加蜜炒至蜜被吸尽，放冷即可。每防风片1kg，蜂蜜0.3kg。",
+        "property_flavor": null,
+        "dosage": "内服：煎汤，5~10g；或入丸、散。外用：适量，煎水熏洗。",
+        "taboo": "血虚痉急或头痛不因风邪者忌服。",
+        "traits": null,
+        "place": null
+      }
+    },
+    {
+      "name": "外感风寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目眩",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "项强",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "骨节酸痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢挛急",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "破伤风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草经集注》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《珍珠囊》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《药类法象》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《长沙药解》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "项强",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨节酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢挛急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "发表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "胜湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "防风",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "《本经》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《本草经集注》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《别录》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《日华子本草》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《珍珠囊》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《药类法象》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《长沙药解》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "《本草求原》",
+      "subject_type": "Source",
+      "relation": "FROM_SOURCE",
+      "object": "防风",
+      "object_type": "Herb"
+    }
+  ]
+}

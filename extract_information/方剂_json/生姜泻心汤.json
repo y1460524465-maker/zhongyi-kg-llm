@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "生姜泻心汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "伤寒汗后，胃阳虚弱，水饮内停，心下痞硬，肠鸣下利；妊娠恶阻，噤口痢。现用于胃下垂、胃扩张、慢性胃炎等属胃阳虚弱，水饮内停者。",
+        "taboo": null,
+        "usage": "上八味，以水2升，煮取1.2升，去滓，再煎取600毫升。每次温服200毫升，一日三次。"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb"
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "人参",
+      "type": "Herb"
+    },
+    {
+      "name": "干姜",
+      "type": "Herb"
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb"
+    },
+    {
+      "name": "半夏",
+      "type": "Herb"
+    },
+    {
+      "name": "黄连",
+      "type": "Herb"
+    },
+    {
+      "name": "大枣",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "生姜泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生姜泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生姜泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生姜泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生姜泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生姜泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生姜泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "生姜泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    }
+  ]
+}

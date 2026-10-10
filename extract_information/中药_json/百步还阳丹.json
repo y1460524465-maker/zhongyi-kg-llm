@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "百步还阳丹",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血散瘀，接骨生肌",
+        "indication": "跌打损伤，骨折，外伤性昏迷",
+        "usage": "内服：研末，1.5-3g。外用：适量，研末调敷；或捣敷。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "百步还阳丹",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀，接骨生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "百步还阳丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百步还阳丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百步还阳丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤性昏迷",
+      "object_type": "Disease"
+    }
+  ]
+}

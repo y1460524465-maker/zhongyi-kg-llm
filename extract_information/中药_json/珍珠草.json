@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "name": "珍珠草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "叶下珠、叶下珍珠、叶后珠、十字珍珠草、夜合草、夜合珍珠",
+        "effect": "平肝清热，利水解毒",
+        "indication": "肠炎，痢疾，传染性肝炎，肾炎水肿，尿路感染，小儿疳积，火眼目翳，口疮头疮，无名肿毒",
+        "meridian": "肝经、肺经",
+        "processing": "夏、秋间采收，晒干",
+        "dosage": "9~15g",
+        "origin": "《生草药性备要》《临证指南》《植物名实图考》《福建民间草药》《贵州民间药物》《常用中草药手册》"
+      }
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "传染性肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肾炎水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "尿路感染",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "火眼目翳",
+      "type": "Symptom"
+    },
+    {
+      "name": "口疮头疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "无名肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "平肝清热",
+      "type": "Effect"
+    },
+    {
+      "name": "利水解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "《泉州本草》",
+      "type": "Source"
+    },
+    {
+      "name": "肝经",
+      "type": "Effect"
+    },
+    {
+      "name": "肺经",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "传染性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿路感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "火眼目翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮头疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无名肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平肝清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "珍珠草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《泉州本草》",
+      "object_type": "Source"
+    }
+  ]
+}

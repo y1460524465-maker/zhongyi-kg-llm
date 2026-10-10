@@ -1,0 +1,465 @@
+{
+  "entities": [
+    {
+      "name": "蟾蜍",
+      "type": "Herb",
+      "attributes": {
+        "alias": "苦蠪,蟾,虾蟆,蚵蚾,癞虾蟆,石蚌,癞格宝,癞巴子,癞蛤蟆,癞蛤蚆,蚧蛤蟆,蚧巴子",
+        "effect": "破癥结，行水湿，化毒，杀虫，定痛",
+        "indication": "疔疮，发背，阴疽瘰疬，恶疮，癥瘕癖积，臌胀，水肿，小儿疳积，慢性气管炎",
+        "meridian": "心、肝、脾、肺四经",
+        "taboo": "表热、虚脱的人忌用",
+        "usage": "外用：适量，烧存性研末敷或调涂；或活蟾蜍捣敷。内服：煎汤，1只；或入丸、散，1-3g"
+      }
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source"
+    },
+    {
+      "name": "《全婴方论》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草蒙筌》",
+      "type": "Source"
+    },
+    {
+      "name": "《贵州民间方药集》",
+      "type": "Source"
+    },
+    {
+      "name": "《吉林中药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《药材资料汇编》",
+      "type": "Source"
+    },
+    {
+      "name": "《山东中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西药用动物》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "蟾蜍膏",
+      "type": "Formula"
+    },
+    {
+      "name": "《医林集要》",
+      "type": "Source"
+    },
+    {
+      "name": "广西《中草药新医疗法处方集》",
+      "type": "Source"
+    },
+    {
+      "name": "《吉林中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "辽宁《中草药新医疗法资料选编》",
+      "type": "Source"
+    },
+    {
+      "name": "《绛囊撮要》",
+      "type": "Source"
+    },
+    {
+      "name": "蟾砂散",
+      "type": "Formula"
+    },
+    {
+      "name": "《补缺肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "《奇效良方》",
+      "type": "Source"
+    },
+    {
+      "name": "五疳保童丸",
+      "type": "Formula"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "田酥散",
+      "type": "Formula"
+    },
+    {
+      "name": "《僧深集方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "蟾矾散",
+      "type": "Formula"
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "发背",
+      "type": "Disease"
+    },
+    {
+      "name": "阴疽瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "恶疮",
+      "type": "Disease"
+    },
+    {
+      "name": "癥瘕癖积",
+      "type": "Disease"
+    },
+    {
+      "name": "臌胀",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性气管炎",
+      "type": "Disease"
+    },
+    {
+      "name": "一切疮肿",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "冷瘘",
+      "type": "Disease"
+    },
+    {
+      "name": "早期瘰疽",
+      "type": "Disease"
+    },
+    {
+      "name": "疔毒",
+      "type": "Disease"
+    },
+    {
+      "name": "胸壁结核和淋巴结结核破溃成漏孔",
+      "type": "Disease"
+    },
+    {
+      "name": "气臌",
+      "type": "Disease"
+    },
+    {
+      "name": "腹中冷癖",
+      "type": "Disease"
+    },
+    {
+      "name": "水谷阴结",
+      "type": "Disease"
+    },
+    {
+      "name": "心下停痰",
+      "type": "Disease"
+    },
+    {
+      "name": "两胁痞满",
+      "type": "Disease"
+    },
+    {
+      "name": "破伤风",
+      "type": "Disease"
+    },
+    {
+      "name": "五疳八痢",
+      "type": "Disease"
+    },
+    {
+      "name": "面黄肌瘦",
+      "type": "Symptom"
+    },
+    {
+      "name": "好食泥土",
+      "type": "Symptom"
+    },
+    {
+      "name": "不思乳食",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿疳瘦成癖",
+      "type": "Disease"
+    },
+    {
+      "name": "大肠痔疾",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿走马疳",
+      "type": "Disease"
+    },
+    {
+      "name": "牙斵臭烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "侵蚀唇鼻",
+      "type": "Symptom"
+    },
+    {
+      "name": "身上肥疮",
+      "type": "Disease"
+    },
+    {
+      "name": "癣",
+      "type": "Disease"
+    },
+    {
+      "name": "舌口生疮",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蟾蜍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破癥结，行水湿，化毒，杀虫，定痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蟾蜍",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "发背",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴疽瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕癖积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "臌胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "一切疮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "冷瘘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾蜍膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蟾砂散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气臌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾砂散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《绛囊撮要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "五疳保童丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "五疳八痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "五疳保童丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面黄肌瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五疳保童丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "好食泥土",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五疳保童丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不思乳食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "五疳保童丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《全婴方论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "田酥散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿走马疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "田酥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙斵臭烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "田酥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "侵蚀唇鼻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "田酥散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "身上肥疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "田酥散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《全婴方论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蟾矾散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌口生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蟾矾散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    }
+  ]
+}

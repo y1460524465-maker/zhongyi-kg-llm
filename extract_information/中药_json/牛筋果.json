@@ -1,0 +1,76 @@
+{
+  "entities": [
+    {
+      "name": "牛筋果",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，截疟",
+        "indication": "肝热目赤肿痛，羞明，多眵多泪及目生翳膜等证；外感风热、咳嗽、咯痰及咽喉肿痛；根用于疟疾",
+        "dosage": "内服：煎汤，10-15g，鲜品加倍",
+        "property_flavor": "叶：味苦、性寒"
+      }
+    },
+    {
+      "name": "《新华本草纲要》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牛筋果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，截疟",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛筋果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝热目赤肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛筋果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛筋果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛筋果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯痰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛筋果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牛筋果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛筋果",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《新华本草纲要》",
+      "object_type": "Source"
+    }
+  ]
+}

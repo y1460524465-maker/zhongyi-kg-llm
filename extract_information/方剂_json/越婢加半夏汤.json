@@ -1,0 +1,178 @@
+{
+  "entities": [
+    {
+      "name": "越婢加半夏汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "肺胀，咳嗽上气，胸满气喘，目如脱状，脉浮大者",
+        "taboo": null,
+        "usage": "上药六味，以水1.2升，先煮麻黄，去上沫，纳诸药，煮取600毫升，分三次温服"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15枚"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "肺胀",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "上气",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸满",
+      "type": "Symptom"
+    },
+    {
+      "name": "气喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "目如脱状",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉浮大",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "越婢加半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越婢加半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越婢加半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越婢加半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越婢加半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越婢加半夏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越婢加半夏汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肺胀",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺胀",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "上气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺胀",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺胀",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "气喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺胀",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "目如脱状",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺胀",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉浮大",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "皂角散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热解毒，化痰散结",
+        "indication": "哺乳期患乳痈，结硬疼痛，乳汁不通",
+        "usage": "用热酒调服1～1.5克，并以手揉患处，取软为度"
+      }
+    },
+    {
+      "name": "皂角",
+      "type": "Herb",
+      "attributes": {
+        "processing": "烧，细研"
+      }
+    },
+    {
+      "name": "蛤粉",
+      "type": "Herb",
+      "attributes": {
+        "processing": "研"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "皂角散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "皂角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂角散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蛤粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "皂角散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "皂角散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "化痰散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "皂角散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "皂角散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "结硬疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皂角散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不通",
+      "object_type": "Symptom"
+    }
+  ]
+}

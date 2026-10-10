@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "name": "米碎花根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，敛疮",
+        "indication": "疮疡肿毒，烧伤，烫伤",
+        "usage": "内服：煎汤，15-30g。外用：适量，煎水洗；或研粉麻油调涂",
+        "origin": "为山茶科植物米碎花EuryachinensisR.Br.的根"
+      }
+    },
+    {
+      "name": "疮疡肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "烧伤",
+      "type": "Disease"
+    },
+    {
+      "name": "烫伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "米碎花根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "米碎花根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "米碎花根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "米碎花根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，敛疮",
+      "object_type": "Effect"
+    }
+  ]
+}

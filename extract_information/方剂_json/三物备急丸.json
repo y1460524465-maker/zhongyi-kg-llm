@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "三物备急丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "峻下寒结，温中散寒，攻积导滞",
+        "indication": "食停肠胃，卒然心腹胀痛，痛如锥刺，四肢厥逆，苔白而润，脉象沉紧或迟者",
+        "usage": "大黄30克，巴豆(炒研如脂或用霜)30克，干姜30克"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "攻积导滞，推陈致新，并能监制巴豆辛热之毒"
+      }
+    },
+    {
+      "name": "巴豆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "峻下寒结，以通其闭"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": "温中散寒，以顾脾阳"
+      }
+    },
+    {
+      "name": "食停肠胃，卒然心腹胀痛，痛如锥刺，四肢厥逆，苔白而润，脉象沉紧或迟",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三物备急丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三物备急丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三物备急丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三物备急丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食停肠胃，卒然心腹胀痛，痛如锥刺，四肢厥逆，苔白而润，脉象沉紧或迟",
+      "object_type": "Symptom"
+    }
+  ]
+}

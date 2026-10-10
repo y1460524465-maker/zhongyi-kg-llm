@@ -1,0 +1,162 @@
+{
+  "entities": [
+    {
+      "name": "行军散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "武候行军散、诸葛行军散",
+        "effect": "开窍、辟秽",
+        "indication": "暑秽痧胀。吐泻腹痛，烦闷欲绝，头目昏晕，不省人事。并治口疮咽痛。点目去风热障翳；搐鼻可避时疫之气。",
+        "taboo": "孕妇慎服",
+        "usage": "每服三分至五分（0.3g～0.9g），凉开水调下，或点眼、搐鼻。"
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "硼砂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "硝石",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "珍珠",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "金箔",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "暑秽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐泻腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦闷欲绝",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头目昏晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不省人事",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "硼砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "硝石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "珍珠",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金箔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "开窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "行军散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "辟秽",
+      "object_type": "Effect"
+    }
+  ]
+}

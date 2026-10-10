@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {
+        "effect": "理气解郁，止痛调经",
+        "indication": "肝胃不和，气郁不舒，胸腹胁肋胀痛，痰饮痞满，月经不调，崩漏带下",
+        "meridian": "肝经、脾经、三焦经",
+        "property_flavor": "味微苦",
+        "usage": "内服：煎汤，5~10g；或入丸、散。外用：适量，研末撒，调敷",
+        "taboo": "凡气虚无滞、阴虚血热者忌服",
+        "processing": "生香附、制香附、醋香附、香附炭等"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,481 @@
+{
+  "entities": [
+    {
+      "name": "蛤蚧",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肺益肾，纳气定喘，助阳益精",
+        "indication": "虚劳，肺痿，喘嗽，咯血，消渴，阳痿",
+        "dosage": "煎汤，3~6g；研末，1~1.5g；或入丸、散",
+        "taboo": "外感风寒喘嗽及阳虚火旺者禁服",
+        "property_flavor": "气腥，味微咸",
+        "origin": "分布广东、广西、云南、贵州等地",
+        "processing": "蛤蚧：除去竹片，截去头足及鳞(无尾者拣去不用)，切成小方块。酒蛤蚧：取蛤蚧块用黄酒浸渍后微火焙干。焙干后，但剪取尾部供用者，称为蛤蚧尾。(每蛤阶10对，用黄酒半斤)",
+        "traits": "形如壁虎而大，全长20余厘米。头部较大，呈三角形；吻端凸圆；鼻孔近吻端；耳孔椭圆形；眼大，突出；口中有许多小齿。全身生密鳞，上唇鳞12～14，第1片达鼻孔；吻鳞宽，其后缘有3片较大的鳞，头及背面鳞细小，成多角形；尾鳞不甚规则，近长方形，排成环状；大而突起的鳞片成行的镶嵌在小鳞片中，行距间约有3排小鳞，分布在躯干部的有10～12纵行左右；在尾部的有6行；尾侧有3对隆起的鳞；胸腹部鳞较大，均匀排列成覆瓦状。指、趾间具蹼；指、趾膨大，底部具有单行褶襞皮瓣，除第1指、趾外，末端均具小爪。雄性有股孔20余枚，左右相连。尾基部较粗，肛后囊孔明显。体背紫灰色，有砖红色及蓝灰色斑点；浸液标本成为深浅相间的横斑，背部约有7～8条，头部、四肢及尾部亦有散在；尾部有深浅相间的环纹7条，色深者较宽；腹面近白色，散有粉红色斑点。尾易断，能再生。"
+      }
+    },
+    {
+      "name": "肾阳虚衰",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阳痿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "早泄",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "少精不育",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "精神疲惫",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腰酸膝冷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺肾两虚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "呼吸喘促",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呼多吸少",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "动则加重",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "形体消瘦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "精神衰疲",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肢冷汗出",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肾阳虚衰型女子性欲低下",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "虚劳羸瘦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "动则气喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽少气",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "失眠健忘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "夜多小便",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身体虚弱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "食欲不振",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺虚咳喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "久咳肺痨",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽面浮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "老人肺虚咳喘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "虚劳咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺壅上气",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺劳咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "面浮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢浮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺痿咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "久嗽不愈",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺间积虚热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "嗽出脓血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喉中气塞",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸膈噎痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "产后气喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "气血两脱",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蛤蚧",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肺益肾，纳气定喘，助阳益精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛤蚧",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喘嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧2对，淫羊藿250g，红参50g",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温肾补虚，壮阳生精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛤蚧2对，淫羊藿250g，红参50g",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阳虚衰",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧2对，淫羊藿250g，红参50g",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧2对，淫羊藿250g，红参50g",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "早泄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧2对，淫羊藿250g，红参50g",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "少精不育",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧2对，淫羊藿250g，红参50g",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "精神疲惫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧2对，淫羊藿250g，红参50g",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰酸膝冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧1对，冬虫夏草50g",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补肺益肾，纳气平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛤蚧1对，冬虫夏草50g",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺肾两虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧1对，冬虫夏草50g",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呼吸喘促",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧1对，冬虫夏草50g",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呼多吸少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧1对，冬虫夏草50g",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "动则加重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧1对，冬虫夏草50g",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "形体消瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧1对，冬虫夏草50g",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "精神衰疲",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧1对，冬虫夏草50g",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢冷汗出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧15g，人参15g，淫羊藿30g，枸杞子30g，益智仁20g，上等白酒1500ml",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "助肾阳，益精血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛤蚧15g，人参15g，淫羊藿30g，枸杞子30g，益智仁20g，上等白酒1500ml",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阳虚衰型女子性欲低下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧1对，黄酒500毫升",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补肺益肾，纳气定喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛤蚧1对，黄酒500毫升",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳羸瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧1对，黄酒500毫升",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "动则气喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧1对，黄酒500毫升",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽少气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人参蛤蚧酒",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补肾壮阳，益气安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人参蛤蚧酒",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "身体虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "人参蛤蚧酒",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人参蛤蚧酒",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠健忘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人参蛤蚧酒",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿早泄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "人参蛤蚧酒",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺虚咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "人参蛤蚧酒",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夜多小便",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧焙干10克，党参、山药、麦冬、百合各30克",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "久咳肺痨",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛤蚧一对连尾，涂以蜜、酒，放火上烤脆，研细末，加东北红参等量，共研匀，蜂蜜炼为丸如小豆大",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽面浮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蛤蚧一对连尾，涂以蜜、酒，放火上烤脆，研细末，加东北红参等量，共研匀，蜂蜜炼为丸如小豆大",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "老人肺虚咳喘",
+      "object_type": "Disease"
+    }
+  ]
+}

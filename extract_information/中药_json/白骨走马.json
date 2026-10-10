@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "白骨走马",
+      "type": "Herb",
+      "attributes": {
+        "effect": "杀虫，燥湿，止痒，止血",
+        "indication": "蛔虫腹痛，下肢溃疡，疥疮，湿疹瘙痒，外伤出血",
+        "usage": "内服：煎汤，9-15g。外用：适量，煎水洗；或捣烂敷；研末撒或调涂。"
+      }
+    },
+    {
+      "name": "《广西药植志》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白骨走马",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫，燥湿，止痒，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白骨走马",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白骨走马",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下肢溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白骨走马",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白骨走马",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹瘙痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白骨走马",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白骨走马",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西药植志》",
+      "object_type": "Source"
+    }
+  ]
+}

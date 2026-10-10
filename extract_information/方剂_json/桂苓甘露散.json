@@ -1,0 +1,320 @@
+{
+  "entities": [
+    {
+      "name": "桂苓甘露散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "桂苓白术散",
+        "effect": null,
+        "indication": "中暑受湿，头痛发热，烦渴引饮，小便不利，以及霍乱吐泻，小儿吐泻惊风等",
+        "taboo": null,
+        "usage": "上药研末。每服9克，温汤调下，生姜汤尤良。小儿每服3克。"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克(炙)",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "官桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克(去皮)",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "寒水石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "猪苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《宜明论方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《伤寒直格》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "中暑",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头痛发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烦渴引饮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "霍乱吐泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿吐泻惊风",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《宜明论方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒直格》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "官桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "寒水石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂苓甘露散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "中暑",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头痛发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中暑",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "烦渴引饮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中暑",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中暑",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "霍乱吐泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "中暑",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "小儿吐泻惊风",
+      "object_type": "Symptom"
+    }
+  ]
+}

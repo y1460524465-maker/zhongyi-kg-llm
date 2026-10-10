@@ -1,0 +1,159 @@
+{
+  "entities": [
+    {
+      "name": "蝴蝶花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "铁扁担、燕子花、蓝花铰剪、紫燕、豆豉叶、下搜山虎",
+        "effect": "消肿止痛，清热解毒",
+        "indication": "肝炎，肝肿大，肝区痛，胃痛，咽喉肿痛，便血",
+        "usage": "内服：煎汤，6~15g"
+      }
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肝肿大",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肝区痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽喉肿痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "便血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《上海常用中草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《浙江民间常用草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《贵州草药》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蝴蝶花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蝴蝶花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肝肿大",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝴蝶花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肝区痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝴蝶花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝴蝶花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝴蝶花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蝴蝶花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蝴蝶花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁扁担",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《上海常用中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "燕子花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江民间常用草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蓝花铰剪",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江民间常用草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫燕",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江民间常用草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "豆豉叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵州草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "下搜山虎",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵州草药》",
+      "object_type": "Source"
+    }
+  ]
+}

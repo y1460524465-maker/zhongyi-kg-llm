@@ -1,0 +1,327 @@
+{
+  "entities": [
+    {
+      "name": "苦丁茶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "毛叶黄牛木、黄浆果、土茶、茶盖、角刺茶",
+        "effect": "散风热，清头目，除烦渴",
+        "indication": "头痛，齿痛，目赤，聤耳，热病烦渴，痢疾",
+        "usage": "内服：煎汤，3~9g；或入丸剂。外用：适量，煎水熏洗，或涂搽。",
+        "processing": "去除杂质，阴干，备用",
+        "origin": "主要为冬青科植物枸骨和大叶冬青的叶"
+      }
+    },
+    {
+      "name": "枸骨叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "角刺茶",
+        "origin": "产江苏、浙江等地",
+        "traits": "叶片呈卵圆形，先端短尖，基部圆形，上面光滑，革质而厚"
+      }
+    },
+    {
+      "name": "大叶冬青叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "苦灯茶",
+        "origin": "产浙江、福建、广西等地",
+        "traits": "呈卵状长椭圆形，革质，不皱缩，有的纵向微卷曲，上面黄绿色或灰绿色，有光泽，下面黄绿色，味微苦"
+      }
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "齿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤",
+      "type": "Symptom"
+    },
+    {
+      "name": "聤耳",
+      "type": "Symptom"
+    },
+    {
+      "name": "热病烦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "肺痨",
+      "type": "Disease"
+    },
+    {
+      "name": "腰及关节痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    },
+    {
+      "name": "《医林纂要》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source"
+    },
+    {
+      "name": "《中国医学大辞典》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《湖南药物志》",
+      "type": "Source"
+    },
+    {
+      "name": "散风热",
+      "type": "Effect"
+    },
+    {
+      "name": "清头目",
+      "type": "Effect"
+    },
+    {
+      "name": "除烦渴",
+      "type": "Effect"
+    },
+    {
+      "name": "止痢",
+      "type": "Effect"
+    },
+    {
+      "name": "治天行狂热",
+      "type": "Effect"
+    },
+    {
+      "name": "逐风",
+      "type": "Effect"
+    },
+    {
+      "name": "活血",
+      "type": "Effect"
+    },
+    {
+      "name": "绝孕",
+      "type": "Effect"
+    },
+    {
+      "name": "消食化痰",
+      "type": "Effect"
+    },
+    {
+      "name": "除烦止渴",
+      "type": "Effect"
+    },
+    {
+      "name": "利二便",
+      "type": "Effect"
+    },
+    {
+      "name": "去油腻",
+      "type": "Effect"
+    },
+    {
+      "name": "清肺脾",
+      "type": "Effect"
+    },
+    {
+      "name": "散肝风",
+      "type": "Effect"
+    },
+    {
+      "name": "治耳鸣",
+      "type": "Effect"
+    },
+    {
+      "name": "活血脉",
+      "type": "Effect"
+    },
+    {
+      "name": "凉子宫",
+      "type": "Effect"
+    },
+    {
+      "name": "清热散风",
+      "type": "Effect"
+    },
+    {
+      "name": "除烦解渴",
+      "type": "Effect"
+    },
+    {
+      "name": "治食滞有痰",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "齿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "聤耳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热病烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散风热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清头目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除烦渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林纂要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国医学大辞典》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《湖南药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枸骨叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痨",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枸骨叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰及关节痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸骨叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苦丁茶",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "大叶冬青叶",
+      "object_type": "Herb"
+    }
+  ]
+}

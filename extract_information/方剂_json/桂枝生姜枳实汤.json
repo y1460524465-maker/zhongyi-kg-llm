@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "桂枝生姜枳实汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "通阳散寒，开结下气",
+        "indication": "寒邪或水饮停留于胃，向上冲逆，心下痞闷，并向上牵引疼痛者",
+        "usage": "上三味，以水600毫升，煮取300毫升，分三次温服"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5枚"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝生姜枳实汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝生姜枳实汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝生姜枳实汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    }
+  ]
+}

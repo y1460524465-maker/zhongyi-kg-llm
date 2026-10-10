@@ -1,0 +1,172 @@
+{
+  "entities": [
+    {
+      "name": "红参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "大补元气，复脉固脱，益气摄血",
+        "indication": "用于体虚欲脱，肢冷脉微，气不摄血，崩漏下血；心力衰竭，心原性休克",
+        "origin": "五加科植物人参Panax ginseng C.A.Mey.的栽培品（习称圆参）经蒸制后的干燥根",
+        "property_flavor": "味甘、微苦",
+        "traits": "质硬而脆，断面平坦，角质样"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "巴戟天",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "山茱萸",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "柏子仁",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "远志",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "枸杞",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "乌药",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "何首乌",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "蛤蚧",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "淫羊藿",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "阳痿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肾阳虚衰",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "红参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "大补元气，复脉固脱，益气摄血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "体虚欲脱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢冷脉微",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气不摄血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "红参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心力衰竭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心原性休克",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温肾补虚，壮阳生精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阳虚衰",
+      "object_type": "Disease"
+    }
+  ]
+}

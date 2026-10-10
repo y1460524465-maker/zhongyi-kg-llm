@@ -1,0 +1,339 @@
+{
+  "entities": [
+    {
+      "name": "荆防败毒散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "荆防败毒二活梗，柴前枳壳配川芎，茯苓薄荷甘草使，风寒夹湿有奇功。荆防败毒草苓芎，羌独柴前枳桔同，外感身痛头项重，散寒祛湿并祛风。",
+        "effect": "发散风寒，解表祛湿",
+        "indication": "用于“流感”、感冒等病证初起，出现恶寒、发热、无汗、剧烈头痛、肌肉关节酸痛，舌苔白腻，脉浮或浮数者。本方亦可用于痢疾、疮痈初起而有表寒证者。",
+        "taboo": "素体实热者不适用",
+        "usage": "上药用水300毫升，煎至240毫升，温服。"
+      }
+    },
+    {
+      "name": "荆芥",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "防风",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "前胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "流感",
+      "type": "Disease"
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "疮痈",
+      "type": "Disease"
+    },
+    {
+      "name": "恶寒",
+      "type": "Symptom"
+    },
+    {
+      "name": "发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "无汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "剧烈头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肌肉关节酸痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌苔白腻",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉浮或浮数",
+      "type": "Symptom"
+    },
+    {
+      "name": "发散风寒",
+      "type": "Effect"
+    },
+    {
+      "name": "解表祛湿",
+      "type": "Effect"
+    },
+    {
+      "name": "《摄生众妙方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "前胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流感",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疮痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "剧烈头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肌肉关节酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔白腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉浮或浮数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "发散风寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "解表祛湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "荆防败毒散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《摄生众妙方》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "清心莲子饮",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清心火，益气阴，止淋浊",
+        "indication": "心火偏旺，气阴两虚，湿热下注证。症见遗精淋浊，血崩带下，遇劳则发；或肾阴不足，口舌干燥，烦躁发热等"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地骨皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "车前子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "石莲肉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "炙黄芪",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清心莲子饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清心莲子饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清心莲子饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地骨皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清心莲子饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "车前子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清心莲子饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清心莲子饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石莲肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清心莲子饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清心莲子饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清心莲子饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清心莲子饮",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清心火，益气阴，止淋浊",
+      "object_type": "Effect"
+    }
+  ]
+}

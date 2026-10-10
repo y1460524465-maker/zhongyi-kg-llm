@@ -1,0 +1,254 @@
+{
+  "entities": [
+    {
+      "name": "蟾酥丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "蟾酥解毒丸",
+        "effect": "清热解毒，消肿定痛",
+        "indication": "热毒内蕴，致患疔疮、发背、脑疽、乳痈、附骨疽、臀腿等疽及一切恶疮",
+        "usage": "每服3丸，用葱白17厘米，患者自嚼烂，包药在内，用热黄酒50毫升送下，盖被约一小时出汗为效。甚者再进一服。外用制成药条插疮口中，或做药饼贴盖疮口"
+      }
+    },
+    {
+      "name": "蟾酥",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "processing": "酒化"
+      }
+    },
+    {
+      "name": "轻粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "枯矾",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "寒水石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "processing": "煅"
+      }
+    },
+    {
+      "name": "铜绿",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "胆矾",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "蜗牛",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "21个"
+      }
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "<医林绳墨大全>",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蟾酥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "轻粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枯矾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "寒水石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "铜绿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胆矾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雄黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蜗牛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "消肿定痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "发背",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脑疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "附骨疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟾酥丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "<医林绳墨大全>",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "海蜇皮",
+      "type": "Herb",
+      "attributes": {
+        "alias": "白皮子、白皮纸、秋风子、罗皮",
+        "effect": "化痰，消积，祛风，除湿",
+        "indication": "痞块，头风，白带，膝髌风湿，无名肿毒",
+        "usage": "内服：煎汤，30-60g，或浸酒或以姜、醋拌食"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海蜇皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痞块",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海蜇皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海蜇皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海蜇皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "膝髌风湿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海蜇皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无名肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海蜇皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海蜇皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海蜇皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海蜇皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除湿",
+      "object_type": "Effect"
+    }
+  ]
+}

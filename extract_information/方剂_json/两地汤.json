@@ -1,0 +1,186 @@
+{
+  "entities": [
+    {
+      "name": "两地汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "滋阴清热",
+        "indication": "肾水不足，虚热内炽，月经先期，量少色红，质稠粘，伴有潮热、盗汗，咽干口燥，舌红苔少，脉细数无力"
+      }
+    },
+    {
+      "name": "大生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "元参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "白芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "麦冬肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "地骨皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "肾水不足",
+      "type": "Disease"
+    },
+    {
+      "name": "月经先期",
+      "type": "Symptom"
+    },
+    {
+      "name": "潮热",
+      "type": "Symptom"
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽干口燥",
+      "type": "Symptom"
+    },
+    {
+      "name": "滋阴补血",
+      "type": "Effect"
+    },
+    {
+      "name": "凉血清热",
+      "type": "Effect"
+    },
+    {
+      "name": "滋阴清热",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "元参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地骨皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴补血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "凉血清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾水不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经先期",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "潮热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "两地汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽干口燥",
+      "object_type": "Symptom"
+    }
+  ]
+}

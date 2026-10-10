@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "name": "麻油",
+      "type": "Herb",
+      "attributes": {
+        "alias": "胡麻油、乌麻油、脂麻油、香油、生油、清油",
+        "effect": "润燥通便，解毒，生肌",
+        "indication": "肠燥便秘，蛔虫、食积腹痛，疮肿，溃疡，疥癣，皮肤皲裂",
+        "meridian": "入手阳明经",
+        "origin": "为胡麻科植物脂麻的种子榨取之脂肪油",
+        "property_flavor": "淡黄或棕黄色澄明液体；气微或带熟芝麻香气，味淡"
+      }
+    },
+    {
+      "name": "肠燥便秘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "蛔虫食积腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疮肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "溃疡",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疥癣",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "皮肤皲裂",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "得配本草",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麻油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠燥便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛔虫食积腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "溃疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疥癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤皲裂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麻油",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润燥通便，解毒，生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麻油",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "得配本草",
+      "object_type": "Source"
+    }
+  ]
+}

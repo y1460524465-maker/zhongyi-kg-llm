@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "牵正散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "祛风化痰止痉",
+        "indication": "风中经络，口眼㖞斜",
+        "taboo": "气虚血瘀或肝风内动引起的口眼㖞斜或半身不遂者不宜应用",
+        "usage": "共为细末，每服3g，温开水送下。亦可水煎服，用量按原方比例酌减"
+      }
+    },
+    {
+      "name": "白附子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风化痰",
+        "property_flavor": "温燥",
+        "taboo": "有毒，用量宜慎"
+      }
+    },
+    {
+      "name": "僵蚕",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "全蝎",
+      "type": "Herb",
+      "attributes": {
+        "taboo": "有毒，用量宜慎"
+      }
+    },
+    {
+      "name": "口眼㖞斜",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "面部肌肉抽动",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "颜面神经麻痹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "三叉神经痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "偏头痛",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "牵正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牵正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "僵蚕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牵正散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "全蝎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "牵正散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "颜面神经麻痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牵正散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "三叉神经痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牵正散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "偏头痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牵正散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口眼㖞斜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "牵正散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面部肌肉抽动",
+      "object_type": "Symptom"
+    }
+  ]
+}

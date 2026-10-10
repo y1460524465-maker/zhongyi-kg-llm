@@ -1,0 +1,301 @@
+{
+  "entities": [
+    {
+      "name": "阑尾清解汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热解毒、攻下散结、行气活血",
+        "indication": "急性阑尾炎热毒期"
+      }
+    },
+    {
+      "name": "金银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25克"
+      }
+    },
+    {
+      "name": "冬瓜仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "蒲公英",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "川楝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "急性阑尾炎热毒期",
+      "type": "Disease"
+    },
+    {
+      "name": "发热恶寒",
+      "type": "Symptom"
+    },
+    {
+      "name": "面红目赤",
+      "type": "Symptom"
+    },
+    {
+      "name": "唇干舌燥",
+      "type": "Symptom"
+    },
+    {
+      "name": "口渴欲饮",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶心呕吐",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹痛拒按",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹肌紧张",
+      "type": "Symptom"
+    },
+    {
+      "name": "反跳痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便秘结",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌质红",
+      "type": "Symptom"
+    },
+    {
+      "name": "苔黄燥",
+      "type": "Symptom"
+    },
+    {
+      "name": "苔黄腻",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉洪大滑数",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性阑尾炎热毒期",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "攻下散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冬瓜仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲公英",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川楝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "阑尾清解汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "发热恶寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "面红目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "唇干舌燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口渴欲饮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "恶心呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹痛拒按",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹肌紧张",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "反跳痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "大便秘结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌质红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔黄燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔黄腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "急性阑尾炎热毒期",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉洪大滑数",
+      "object_type": "Symptom"
+    }
+  ]
+}

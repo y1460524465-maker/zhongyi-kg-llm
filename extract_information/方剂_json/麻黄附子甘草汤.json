@@ -1,0 +1,117 @@
+{
+  "entities": [
+    {
+      "name": "麻黄附子甘草汤",
+      "type": "Formula",
+      "attributes": {
+        "source": "https://zhongyibaike.com/wiki/麻黄附子甘草汤",
+        "indication": "少阴病，恶寒身疼，无汗，微发热，脉沉微者",
+        "usage": "上三味，用水700毫升，先煮麻黄一二沸，去上沫，纳诸药，煮取300毫升，去滓，分二次温服"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克(去节)"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克(炙)"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克(炮)"
+      }
+    },
+    {
+      "name": "少阴病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "恶寒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身疼",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "无汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "微发热",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麻黄附子甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄附子甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄附子甘草汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麻黄附子甘草汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "少阴病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "少阴病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "恶寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阴病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阴病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阴病",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "微发热",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "entities": [
+    {
+      "name": "木贼",
+      "type": "Herb",
+      "attributes": {
+        "alias": "木贼草、锉草、节节草、节骨草、响草、接骨叶、笔杆草、笔筒草、擦草、无心草、笔头草、笔管草",
+        "effect": "疏风散热，解肌，退翳",
+        "indication": "目生云翳，迎风流泪，肠风下血，血痢，疟疾，喉痛，痈肿",
+        "taboo": "目疾由于怒气及暑热伤血、暴赤肿痛者，非其所任。多服损肝，不宜久服。多用令人目肿，若久翳及血虚者非所宜。",
+        "usage": "内服，煎汤，3~9g，或入丸、散；外用研末撒",
+        "property_flavor": "甘，微苦涩",
+        "processing": "除去枯茎及残根，喷淋清水，稍润，切段，干燥"
+      }
+    },
+    {
+      "name": "目生云翳",
+      "type": "Symptom"
+    },
+    {
+      "name": "迎风流泪",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠风下血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "喉痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "《嘉祜本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草正》",
+      "type": "Source"
+    },
+    {
+      "name": "《玉楸药解》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "《本经逢原》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "木贼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目生云翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木贼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "迎风流泪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木贼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木贼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木贼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木贼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木贼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "木贼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏风散热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木贼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木贼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "退翳",
+      "object_type": "Effect"
+    }
+  ]
+}

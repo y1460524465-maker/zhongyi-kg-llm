@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "狼把草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乌阶、乌杷、郎耶草、小鬼叉、豆渣草、针包草、引线包、大狼把草、接力草、针线包、一包针",
+        "effect": "清热解毒，养阴敛汗",
+        "indication": "感冒，扁桃体炎，咽喉炎，肠炎，痢疾，肝炎，泌尿系感染，肺结核盗汗，闭经；外用治疖肿，湿疹，皮癣",
+        "dosage": "内服：煎汤，6~9 g (鲜品15~30 g)；研末成捣汁。外用：研末撒或捣汁涂",
+        "origin": "菊科刺针草属植物狼把草Bidens tripartita L.的全草",
+        "processing": "将原药除去杂质，上半段喷潮，下半段略浸，润透，切长段。干燥，筛去灰屑",
+        "property_flavor": "味微苦"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "泌尿系感染",
+      "type": "Disease"
+    },
+    {
+      "name": "肺结核盗汗",
+      "type": "Disease"
+    },
+    {
+      "name": "闭经",
+      "type": "Disease"
+    },
+    {
+      "name": "疖肿",
+      "type": "Disease"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "皮癣",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泌尿系感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核盗汗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "闭经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疖肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "狼把草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮癣",
+      "object_type": "Disease"
+    }
+  ]
+}

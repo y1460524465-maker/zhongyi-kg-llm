@@ -1,0 +1,210 @@
+{
+  "entities": [
+    {
+      "name": "防己黄芪汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "益气固表，利水消肿",
+        "indication": "风水或风湿，汗出恶风，身重，小便不利，舌淡苔白，脉浮",
+        "taboo": "水湿壅盛，汗不出者，虽有脉浮恶风，亦非本方所宜",
+        "usage": "上锉麻豆大，每抄五钱匕（15g），生姜四片，大枣一枚，水盏半，煎八分，去滓温服，良久再服"
+      }
+    },
+    {
+      "name": "防己",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两一分去芦"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半两炒"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "七钱半"
+      }
+    },
+    {
+      "name": "风水",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "风湿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "表虚证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性肾小球肾炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "心脏性水肿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "汗出恶风",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉浮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身重",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌淡",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "表虚证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肾小球肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心脏性水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汗出恶风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防己",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益气固表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "防己黄芪汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "利水消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

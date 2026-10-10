@@ -1,0 +1,98 @@
+{
+  "entities": [
+    {
+      "name": "赤小豆当归散",
+      "type": "Formula",
+      "attributes": {
+        "alias": "赤小豆散、当归赤小豆散",
+        "effect": "清热利湿，和营解毒",
+        "indication": "湿热下注，大便下血，先血后便者",
+        "usage": "上二味，杵为散。浆水调服2克，日三服"
+      }
+    },
+    {
+      "name": "赤小豆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "150克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "《医心方》",
+      "type": "Source"
+    },
+    {
+      "name": "《小品方》",
+      "type": "Source"
+    },
+    {
+      "name": "《三因极一病证方论》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "赤小豆当归散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤小豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赤小豆当归散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赤小豆当归散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿，和营解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤小豆当归散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤小豆当归散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "先血后便",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "赤小豆当归散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医心方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "赤小豆当归散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《小品方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "赤小豆当归散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《三因极一病证方论》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "大陷胸丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "上四味，捣筛二味，纳杏仁、芒硝，合研如脂，和散，取如弹丸1枚；别捣甘遂末1克，白蜜20毫升，用水200毫升，煮取100毫升，温顿服之。一宿乃下。如不下，再服，取下为效。"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25克"
+      }
+    },
+    {
+      "name": "葶苈子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "17克",
+        "processing": "熬"
+      }
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "17克"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "17克",
+        "processing": "去皮、尖，熬黑"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大陷胸丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大陷胸丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葶苈子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大陷胸丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大陷胸丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "肥皂荚",
+      "type": "Herb",
+      "attributes": {
+        "effect": "涤痰除垢，解毒杀虫",
+        "indication": "咳嗽痰壅，风湿肿痛，痢疾，肠风，便毒，疥癣",
+        "usage": "内服：煎汤，1.5-3g；或入丸、散。外用：适量，捣敷、研末撒或调涂。",
+        "taboo": "胃弱少食、不食之疾，忌用之。",
+        "origin": "豆科植物肥皂荚的果实"
+      }
+    },
+    {
+      "name": "咳嗽痰壅",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "肠风",
+      "type": "Disease"
+    },
+    {
+      "name": "便毒",
+      "type": "Disease"
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "涤痰除垢",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒杀虫",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "肥皂荚",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽痰壅",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肥皂荚",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肥皂荚",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肥皂荚",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肥皂荚",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肥皂荚",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肥皂荚",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "涤痰除垢",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肥皂荚",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒杀虫",
+      "object_type": "Effect"
+    }
+  ]
+}

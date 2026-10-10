@@ -1,0 +1,133 @@
+{
+  "entities": [
+    {
+      "name": "防己茯苓汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "益气健脾，温阳利水",
+        "indication": "皮水",
+        "usage": "上五味药，以水1.2升，煮取400毫升，分三次温服"
+      }
+    },
+    {
+      "name": "防己",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "黄耆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "皮水",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "四肢肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "水气在皮肤中",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢肌肉晌动",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "防己茯苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防己",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己茯苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄耆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己茯苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己茯苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己茯苓汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "防己茯苓汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "皮水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "皮水",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "四肢肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皮水",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "水气在皮肤中",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "皮水",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "四肢肌肉晌动",
+      "object_type": "Symptom"
+    }
+  ]
+}

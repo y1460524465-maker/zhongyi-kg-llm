@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "茉莉叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，6～10g。外用：适量，煎水洗或捣敷",
+        "effect": "疏风解表，消肿止痛",
+        "indication": "外感发热，泻痢腹胀，脚气肿痛，毒虫螫伤"
+      }
+    }
+  ],
+  "relations": []
+}

@@ -1,0 +1,312 @@
+{
+  "entities": [
+    {
+      "name": "秦皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热燥湿，平喘止咳，明目",
+        "indication": "细菌性痢疾，肠炎，白带，慢性气管炎，目赤肿痛，迎风流泪，牛皮癣",
+        "property_flavor": "味苦",
+        "dosage": "6～12克",
+        "taboo": "胃虚少食者禁用",
+        "origin": "木犀科植物苦枥白蜡树Fraxinus rhynchophylla Hance、白蜡树Fraxinus chinensis Roxb.、尖叶白蜡树Fraxinus szaboana Lingelsh.或宿柱白蜡树Fraxinus stylosa Lingelsh.的干燥枝皮或干皮",
+        "processing": "拣去杂质，洗净，润透后切块或切段，晒干"
+      }
+    },
+    {
+      "name": "白头翁",
+      "type": "Herb"
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb"
+    },
+    {
+      "name": "黄连",
+      "type": "Herb"
+    },
+    {
+      "name": "白头翁汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "治热痢下重",
+        "usage": "以水七升，煮取二升，去滓，温服一升。不愈，更服一升"
+      }
+    },
+    {
+      "name": "生地榆",
+      "type": "Herb"
+    },
+    {
+      "name": "椿根皮",
+      "type": "Herb"
+    },
+    {
+      "name": "大黄",
+      "type": "Herb"
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb"
+    },
+    {
+      "name": "当归身",
+      "type": "Herb"
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "灯心草",
+      "type": "Herb"
+    },
+    {
+      "name": "苦参",
+      "type": "Herb"
+    },
+    {
+      "name": "炒莱菔子",
+      "type": "Herb"
+    },
+    {
+      "name": "广木香",
+      "type": "Herb"
+    },
+    {
+      "name": "鼠尾草",
+      "type": "Herb"
+    },
+    {
+      "name": "蔷薇根",
+      "type": "Herb"
+    },
+    {
+      "name": "茵陈",
+      "type": "Herb"
+    },
+    {
+      "name": "蒲公英",
+      "type": "Herb"
+    },
+    {
+      "name": "蚌粉",
+      "type": "Herb"
+    },
+    {
+      "name": "滑石",
+      "type": "Herb"
+    },
+    {
+      "name": "川贝母",
+      "type": "Herb"
+    },
+    {
+      "name": "Aconitum carmichaeli Debx.",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热燥湿，平喘止咳，明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "细菌性痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白带",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性气管炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "迎风流泪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牛皮癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "麦粒肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩中",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风下血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "天蛇毒疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤眼及眼睛上疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "迎风流泪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿惊痫发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "秦皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "变蒸发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白头翁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秦皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白头翁汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热痢下重",
+      "object_type": "Disease"
+    }
+  ]
+}

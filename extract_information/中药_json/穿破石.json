@@ -1,0 +1,150 @@
+{
+  "entities": [
+    {
+      "name": "穿破石",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风通络，清热除湿，解毒消肿",
+        "indication": "风湿痹痛，跌打损伤，黄疸，腮腺炎，肺结核，胃和十二指肠溃疡，淋浊，蛊胀，闭经，劳伤咳血，疗疮痈肿",
+        "dosage": "内服：煎汤，9～30 g,鲜者可用至120g；或浸酒",
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "桑科植物小柘树或柘树的根",
+        "processing": null,
+        "taboo": null,
+        "traits": null,
+        "place": null
+      }
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "腮腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease"
+    },
+    {
+      "name": "胃和十二指肠溃疡",
+      "type": "Disease"
+    },
+    {
+      "name": "淋浊",
+      "type": "Disease"
+    },
+    {
+      "name": "蛊胀",
+      "type": "Disease"
+    },
+    {
+      "name": "闭经",
+      "type": "Disease"
+    },
+    {
+      "name": "劳伤咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "疗疮痈肿",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风通络，清热除湿，解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃和十二指肠溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛊胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "闭经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳伤咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "穿破石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疗疮痈肿",
+      "object_type": "Symptom"
+    }
+  ]
+}

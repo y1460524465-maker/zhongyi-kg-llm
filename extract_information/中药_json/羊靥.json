@@ -1,0 +1,227 @@
+{
+  "entities": [
+    {
+      "name": "羊靥",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化痰消瘿",
+        "usage": "内服：炙熟含咽汁，1具，或入丸剂。",
+        "origin": "为牛科动物山羊或绵羊的甲状腺体。",
+        "traits": "为牛科动物山羊或绵羊的甲状腺体。"
+      }
+    },
+    {
+      "name": "治疗气瘿气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气瘿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "昆布丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治气瘿气，胸膈满塞，咽喉项颈渐粗",
+        "taboo": null,
+        "usage": "蜜丸如弹子，细缅含咽汁"
+      }
+    },
+    {
+      "name": "昆布",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "通草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "海蛤",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "马尾海藻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "猪靥",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "海藻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "海带",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛蒡子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《广济方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《杂病治例》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "羊靥",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰消瘿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羊靥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气瘿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "治疗气瘿气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "昆布丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "昆布",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "昆布丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "通草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "昆布丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羊靥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "昆布丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海蛤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "昆布丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "马尾海藻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "昆布丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《广济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "羊靥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气瘿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪靥",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气瘿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羊靥",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪靥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气瘿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海藻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气瘿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海带",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气瘿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "牛蒡子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气瘿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪靥",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "羊靥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "昆布",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "海藻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "海带",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛蒡子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "猪靥",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《杂病治例》",
+      "object_type": "Source"
+    }
+  ]
+}

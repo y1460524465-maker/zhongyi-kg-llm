@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "大黄牡丹汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "泻热破瘀，散结消肿",
+        "indication": "肠痈初起，右下腹疼痛拒按，时时发热，自汗恶寒，舌苔薄腻而黄，脉滑数",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "苦寒攻下，活血祛瘀，泻肠中之湿热，去肠中稽留之淤血",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "苦寒",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12g",
+        "effect": "苦平，性善破血，与大黄为伍破瘀泻热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": "苦平",
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "冬瓜子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芒硝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g",
+        "effect": "泻热导滞，软坚散结",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "肠痈",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冬瓜子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芒硝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肠痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大黄牡丹汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "泻热破瘀，散结消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

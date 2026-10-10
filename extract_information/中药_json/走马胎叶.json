@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "name": "走马胎叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒去腐，生肌活血",
+        "indication": "痈疽疮疖，下肢溃疡，跌打损伤",
+        "usage": "外用：适量，鲜品捣敷或煎水洗"
+      }
+    },
+    {
+      "name": "痈疽疮疖",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "下肢溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "走马胎叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮疖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "走马胎叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下肢溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "走马胎叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "走马胎叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒去腐，生肌活血",
+      "object_type": "Effect"
+    }
+  ]
+}

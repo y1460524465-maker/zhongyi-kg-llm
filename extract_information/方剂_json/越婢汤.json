@@ -1,0 +1,161 @@
+{
+  "entities": [
+    {
+      "name": "越婢汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "宣肺泄热，散水消肿",
+        "usage": "上药以水1.2升，先煮麻黄，去上沫，纳诸药，煮取600毫升，分三次温服"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15枚"
+      }
+    },
+    {
+      "name": "宣肺泄热",
+      "type": "Effect"
+    },
+    {
+      "name": "散水消肿",
+      "type": "Effect"
+    },
+    {
+      "name": "风水恶风",
+      "type": "Symptom"
+    },
+    {
+      "name": "一身悉肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "自汗不渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "无大热",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉浮",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "宣肺泄热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "散水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风水恶风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "一身悉肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "自汗不渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无大热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "越婢汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉浮",
+      "object_type": "Symptom"
+    }
+  ]
+}

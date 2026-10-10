@@ -1,0 +1,146 @@
+{
+  "entities": [
+    {
+      "name": "桑叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风清热，凉血明目",
+        "indication": "治风温发热，头痛，目赤，口渴，肺热咳嗽，风痹，瘾疹，下肢象皮肿",
+        "dosage": "内服：煎汤，4.5～9g；或入丸、散。外用：适量，煎水洗或捣敷"
+      }
+    },
+    {
+      "name": "桑菊饮",
+      "type": "Formula",
+      "attributes": {
+        "usage": "水二杯，煮取一杯，日二服",
+        "indication": "治太阴风温，但咳，身不甚热，微渴者"
+      }
+    },
+    {
+      "name": "桑麻丸",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服三钱，空腹时盐汤、临卧时温酒送下",
+        "indication": "治肝阴不足，眼目昏花，咳久不愈，肌肤甲错，麻痹不仁"
+      }
+    },
+    {
+      "name": "独圣散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "每服三钱匕，冷腊茶调如膏，入麝香少许，夜卧含化咽津",
+        "indication": "治吐血"
+      }
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《医级》",
+      "type": "Source"
+    },
+    {
+      "name": "《温病条辨》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风清热，凉血明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风温发热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘾疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下肢象皮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑菊饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《温病条辨》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桑麻丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医级》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "独圣散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    }
+  ]
+}

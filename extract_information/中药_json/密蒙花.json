@@ -1,0 +1,721 @@
+{
+  "entities": [
+    {
+      "name": "密蒙花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蒙花、蒙花珠、老蒙花、羊耳朵朵尖、水锦花、黄花醉鱼草",
+        "effect": "祛风，凉血，润肝，明目",
+        "indication": "主治目赤肿痛，多泪羞明，青盲翳障，风弦烂眼。",
+        "usage": "内服：煎汤，3～9克；或入丸、散。",
+        "dosage": "3～9克（煎汤）；或入丸、散",
+        "property_flavor": "甘而微苦辛",
+        "processing": "除去枝梗等杂质，晒干",
+        "traits": "花蕾密聚、色灰黄、有茸毛、质柔软"
+      }
+    },
+    {
+      "name": "石决明",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木贼",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "蒺藜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "菊花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄柏根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "蔓荆子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "青葙子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枸杞子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "玉竹",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "使君子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白芜荑",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "胡黄连",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "芦荟",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘菊花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归身",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "楮实子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木瓜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "秦皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "草决明",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "决明子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "车前子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "乌贼骨",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "海螵蛸",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "夜明砂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "密蒙花散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治风气攻注，两眼昏暗，眵泪羞明，睑生风粟，隐涩难开，或痒或痛，渐生翳膜，视物不明，及久患偏头痛，牵引两眼，渐觉细小，昏涩隐痛，并暴赤肿痛",
+        "from_source": "《局方》"
+      }
+    },
+    {
+      "name": "密蒙花丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治眼障翳",
+        "from_source": "《圣济总录》"
+      }
+    },
+    {
+      "name": "密蒙花散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治眼羞明，肝胆虚损，瞳人不清",
+        "from_source": "《银海精微》"
+      }
+    },
+    {
+      "name": "密蒙花",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治目畏日羞明",
+        "from_source": "《本草汇言》"
+      }
+    },
+    {
+      "name": "密蒙花",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治目胞湿烂，浸淫多泪",
+        "from_source": "《本草汇言》"
+      }
+    },
+    {
+      "name": "密蒙花",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治小儿疳积，攻眼不明，目将瞎者",
+        "from_source": "《本草汇言》"
+      }
+    },
+    {
+      "name": "密蒙花",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治一切目病，因积视久，专睛著视，有劳目睛，以致昏胀，肿痛不明者",
+        "from_source": "《本草汇言》"
+      }
+    },
+    {
+      "name": "密蒙花",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治肝虚，视力减退",
+        "from_source": "《四川中药志》1982年"
+      }
+    },
+    {
+      "name": "密蒙花",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治夜盲",
+        "from_source": "《甘肃中医验方集锦》"
+      }
+    },
+    {
+      "name": "密蒙花",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治头晕",
+        "from_source": "《苗族药物集》"
+      }
+    },
+    {
+      "name": "密蒙花",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治百日咳",
+        "from_source": "《昆明民间常用草药》"
+      }
+    },
+    {
+      "name": "杜蒺藜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "密蒙花散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "密蒙花丸",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "密蒙花散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "羊耳朵朵尖",
+      "type": "Herb",
+      "attributes": {
+        "alias": "密蒙花"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "密蒙花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风，凉血，润肝，明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目赤肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "青盲翳障",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风弦烂眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "多泪羞明",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肝明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "密蒙花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石决明",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木贼",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杜蒺藜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密蒙花丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "密蒙花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "密蒙花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蔓荆子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青葙子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木贼",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石决明",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒺藜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《银海精微》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "密蒙花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "密蒙花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玉竹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "密蒙花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "使君子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芜荑",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "胡黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芦荟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "密蒙花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归身",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玉竹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "密蒙花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "楮实子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木瓜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秦皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "密蒙花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青葙子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "决明子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "车前子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海螵蛸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "夜明砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《甘肃中医验方集锦》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《苗族药物集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "密蒙花",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《昆明民间常用草药》",
+      "object_type": "Source"
+    }
+  ]
+}

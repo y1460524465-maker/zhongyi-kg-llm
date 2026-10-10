@@ -1,0 +1,161 @@
+{
+  "entities": [
+    {
+      "name": "地肤子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "地葵, 地麦, 落帚子, 独扫子, 竹帚子, 千头子, 帚菜子, 铁扫把子, 扫帚子",
+        "effect": "利小便，清湿热",
+        "indication": "小便不利，淋病，带下，疝气，风疹，疮毒，疥癣，阴部湿痒",
+        "dosage": "内服：煎汤，6～15g；或入丸、散。",
+        "taboo": "恶螵蛸。",
+        "origin": "藜科植物地肤的果实。"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草原始》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《玉楸药解》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学衷中参西录》",
+      "type": "Source"
+    },
+    {
+      "name": "《子母秘录》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《僧深集方》",
+      "type": "Source"
+    },
+    {
+      "name": "《广济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《补缺肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "《肘后方》",
+      "type": "Source"
+    },
+    {
+      "name": "《简便单方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《经验广集》",
+      "type": "Source"
+    },
+    {
+      "name": "《寿域神方》",
+      "type": "Source"
+    },
+    {
+      "name": "内蒙古《中草药新医疗法资料选编》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "地肤子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利小便，清湿热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地肤子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地肤子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地肤子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地肤子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地肤子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地肤子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地肤子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地肤子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴部湿痒",
+      "object_type": "Symptom"
+    }
+  ]
+}

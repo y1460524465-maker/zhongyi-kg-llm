@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "洋金花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "曼罗花、蔓陀罗花、千叶蔓陀罗花、层台蔓陀罗花、山茄花、押不芦、胡茄花、大闹杨花、马兰花、风茄花、佛花、天茄弥陀花、洋大麻子花、关东大麻子花、虎茄花、风麻花、酒醉花、羊惊花、枫茄花、广东闹羊花、大嗽叭花",
+        "effect": "止咳，定喘，祛风，麻醉止痛",
+        "indication": "哮喘，惊痫，风湿痹痛，脚气，疮疡疼痛。并作外科手术麻醉剂",
+        "taboo": "本品有巨毒，应控制剂量，以免中毒。青光眼、眼压增高者忌用。患心脏病、高血压以及体弱者、孕妇均当慎用。因本品服后妨害出汗，故表证未解者忌用。热咳痰稠、咳痰不利者亦慎用。",
+        "dosage": "内服：煎汤，0.3~0.5g，宜入丸、散用。如作卷烟分次烯吸，每日量不超过0.5g。外用：适量，煎水洗；或研末调敷。"
+      }
+    },
+    {
+      "name": "哮喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "惊痫",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮疡疼痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "洋金花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "哮喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "洋金花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "洋金花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "洋金花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "洋金花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疡疼痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

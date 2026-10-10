@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "name": "苦竹叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热除烦，明目，利窍，解毒，杀虫",
+        "indication": "消渴，烦热不眠，目痛，口疮，失音，烫火伤",
+        "property_flavor": "味苦，寒",
+        "dosage": "内服：煎汤，6~12克；外用：适量，烧存性研末涂敷",
+        "origin": "《日华子本草》"
+      }
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "烦热不眠",
+      "type": "Symptom"
+    },
+    {
+      "name": "目痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "口疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "失音",
+      "type": "Symptom"
+    },
+    {
+      "name": "烫火伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苦竹叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦竹叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦热不眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦竹叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦竹叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦竹叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失音",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦竹叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫火伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦竹叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    }
+  ]
+}

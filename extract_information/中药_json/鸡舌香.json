@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "name": "鸡舌香",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温中散寒，理气止痛",
+        "indication": "暴心气痛，胃寒呕逆，风冷齿痛，牙宣，口臭，妇人阴冷，小儿疝气",
+        "usage": "内服：煎汤，1-3g，或研末。外用：适量，研末调敷或作栓剂。",
+        "taboo": "热证及阴虚内热者忌服。不可见火。畏郁金。一切有火热证者忌之。非属虚寒，概勿施用。",
+        "origin": "为桃金娘科植物丁香的果实",
+        "property_flavor": "味辛辣",
+        "traits": "气微香"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡舌香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中散寒，理气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡舌香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "暴心气痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡舌香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃寒呕逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡舌香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风冷齿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡舌香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "牙宣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡舌香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口臭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡舌香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇人阴冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡舌香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿疝气",
+      "object_type": "Symptom"
+    }
+  ]
+}

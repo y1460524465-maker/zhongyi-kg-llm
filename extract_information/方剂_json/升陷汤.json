@@ -1,0 +1,228 @@
+{
+  "entities": [
+    {
+      "name": "升陷汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "升阳举陷",
+        "indication": "胸中大气下陷证",
+        "taboo": null,
+        "usage": "生黄芪（18克） 知母（9克） 柴胡（4.5克） 桔梗（4.5克） 升麻（3克）"
+      }
+    },
+    {
+      "name": "生黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "凉润",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "effect": "载药上行",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "升麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《医学衷中参西录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "胸中大气下陷",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "气短",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "寒热往来",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽干作渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "满闷怔仲",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "神昏健忘",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "升陷汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医学衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "升陷汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升陷汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升陷汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升陷汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升陷汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "升陷汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胸中大气下陷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胸中大气下陷",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "气短",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸中大气下陷",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸中大气下陷",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "寒热往来",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸中大气下陷",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽干作渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸中大气下陷",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "满闷怔仲",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胸中大气下陷",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "神昏健忘",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "entities": [
+    {
+      "name": "白花菜子",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "苦辛，温",
+        "dosage": "内服：煎汤，9-15g",
+        "effect": "祛风散寒，活血止痛",
+        "indication": "用于风湿疼痛，腰痛，跌打损伤，痔疮",
+        "origin": "白花菜科植物白花菜的种子",
+        "place": "河北"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白花菜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风散寒，活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白花菜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿疼痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白花菜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白花菜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白花菜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "entities": [
+    {
+      "name": "理冲汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补气化瘀，消癥散结",
+        "indication": "妇女经闭不行，或产后恶露不尽，结为症瘕，以致阴虚作热，阳虚作冷，食少劳嗽，室女月闭血枯，男子劳瘵，脏腑症瘕积聚，气郁脾弱，满闷痞胀，不能饮食",
+        "taboo": null,
+        "usage": "用水600毫升，煎至将成，加好醋少许，滚数沸服"
+      }
+    },
+    {
+      "name": "《医学衷中参西录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "生黄耆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "党参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "于术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "生山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "天花粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "三棱",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "莪术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生鸡内金",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医学衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生黄耆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "党参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "于术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天花粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "三棱",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莪术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生鸡内金",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "症瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "劳瘵",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "积聚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭不行",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶露不尽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴虚作热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳虚作冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月闭血枯",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "满闷痞胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "理冲汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不能饮食",
+      "object_type": "Symptom"
+    }
+  ]
+}

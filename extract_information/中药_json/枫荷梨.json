@@ -1,0 +1,319 @@
+{
+  "entities": [
+    {
+      "name": "枫荷梨",
+      "type": "Herb",
+      "attributes": {
+        "alias": "偏荷枫、鸭脚木、梨荷枫、半荷枫、梨枫桃、木荷枫、疯气树、鸭脚板、半边枫、边荷枫、鸭掌柴、白山鸡骨、金鸡趾",
+        "effect": "祛风除湿，舒筋活血",
+        "indication": "偏头痛，臂丛神经炎，风湿性关节炎，类风湿关节炎，腰肌劳损，慢性腰腿痛，半身不遂，跌打损伤，扭挫伤",
+        "property_flavor": "性温，味甘",
+        "usage": "内服：煎汤，15-30g，大剂量可至45g；或浸酒。外用：适量，捣敷；或煎水洗",
+        "taboo": "孕妇忌用",
+        "origin": "五加科植物树参的根及茎",
+        "processing": "秋、冬采收",
+        "dosage": "内服煎汤15-30g，大剂量可至45g；外用适量"
+      }
+    },
+    {
+      "name": "《江西草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《浙江民间常用草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "江西《中草药学》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "钩藤根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛膝根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红糖",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "米酒",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "风湿性关节炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "虎杖根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红楤木根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "菝葜根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木通",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "风湿酒",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "偏瘫",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "偏头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿，舒筋活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "臂丛神经炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "类风湿关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰肌劳损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性腰腿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "半身不遂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扭挫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江西草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《浙江民间常用草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "江西《中草药学》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫荷梨根",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "钩藤根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枫荷梨根",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枫荷梨根",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枫荷梨根",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "红糖",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枫荷梨根",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "米酒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "陈伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "风湿酒",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枫荷梨根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风湿酒",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "虎杖根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风湿酒",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红楤木根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风湿酒",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菝葜根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "风湿酒",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "枫荷梨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "偏瘫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "枫荷梨茎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "枫荷梨根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    }
+  ]
+}

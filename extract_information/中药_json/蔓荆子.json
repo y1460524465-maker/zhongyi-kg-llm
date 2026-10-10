@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "蔓荆子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，6~10g；或浸酒；或入丸、散。外用：适量，煎汤外洗。",
+        "effect": "疏散风热，清利头目。",
+        "indication": "主治风热感冒，正、偏头痛，齿痛，赤眼，目睛内痛，昏暗多泪，湿痹拘挛。",
+        "taboo": "血虚有火之头痛目眩及胃虚者慎服。",
+        "property_flavor": "味淡微辛",
+        "origin": "《本经》"
+      }
+    },
+    {
+      "name": "风热感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "偏头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "齿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "赤眼",
+      "type": "Symptom"
+    },
+    {
+      "name": "目睛内痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "昏暗多泪",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿痹拘挛",
+      "type": "Symptom"
+    },
+    {
+      "name": "疏散风热",
+      "type": "Effect"
+    },
+    {
+      "name": "清利头目",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蔓荆子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风热感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔓荆子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔓荆子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔓荆子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "齿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔓荆子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤眼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔓荆子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目睛内痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔓荆子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "昏暗多泪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔓荆子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿痹拘挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔓荆子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏散风热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蔓荆子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清利头目",
+      "object_type": "Effect"
+    }
+  ]
+}

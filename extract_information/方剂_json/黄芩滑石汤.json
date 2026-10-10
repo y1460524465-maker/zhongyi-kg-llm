@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "name": "黄芩滑石汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热利湿",
+        "indication": "湿温病，身疼痛，口不渴，或渴不多饮，汗出热解，继而复热，舌苔淡黄而滑，脉缓",
+        "taboo": null,
+        "usage": "用水1.2升，煮取400毫升，滓再煮取200毫升。分三次温服"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "滑石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "茯苓皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "猪苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "大腹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "白蔻仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "通草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "三仁汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "湿温初起，湿重热清之证",
+        "taboo": null,
+        "usage": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄芩滑石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芩滑石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芩滑石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芩滑石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芩滑石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大腹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芩滑石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蔻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芩滑石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "通草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芩滑石汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芩滑石汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿温病",
+      "object_type": "Disease"
+    }
+  ]
+}

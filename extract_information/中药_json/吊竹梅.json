@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "name": "吊竹梅",
+      "type": "Herb",
+      "attributes": {
+        "alias": "水竹草、金瓢羹、白带草、吊竹菜、紫背金牛、血见愁、鸡舌黄、红舌草、红竹仔草、花叶竹夹菜、二打不死、百毒散、鸭舌红、红鸭跖草",
+        "effect": "清热利湿，凉血解毒",
+        "indication": "水肿，小便不利，淋证，痢疾，带下，咯血，目赤肿痛，咽喉肿痛，疮痈肿毒，烧烫伤，毒蛇咬伤",
+        "property_flavor": "甘，寒",
+        "taboo": "孕妇忌服",
+        "usage": "内服：煎汤，15-30g，鲜品60-90g；或捣汁"
+      }
+    },
+    {
+      "name": "《福建民间草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《南宁市药物志》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "吊竹梅",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "吊竹梅",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《南宁市药物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "吊竹梅",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "吊竹梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "吊竹梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "吊竹梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "吊竹梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "吊竹梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "吊竹梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疗带",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "吊竹梅",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

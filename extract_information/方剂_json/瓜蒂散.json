@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "瓜蒂散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "涌吐痰食",
+        "indication": "痰涎宿食填塞上脘，胸中痞硬，烦懊不安，气上冲咽喉不得息，舌苔厚腻，寸脉微浮",
+        "taboo": "素体血虚及出血患者忌服",
+        "usage": "每服3克，以香豉9克，用热汤700毫升，煮作稀糜，去滓，取汁和散，温顿服之。不吐者，少少加，得快吐乃止"
+      }
+    },
+    {
+      "name": "瓜蒂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "赤小豆",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "香豉",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "瓜蒂散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜蒂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "瓜蒂散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤小豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "瓜蒂散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "瓜蒂散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "涌吐痰食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "瓜蒂散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痰涎宿食填塞上脘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "瓜蒂散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中痞硬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓜蒂散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦懊不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓜蒂散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气上冲咽喉不得息",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "瓜蒂散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔厚腻",
+      "object_type": "Symptom"
+    }
+  ]
+}

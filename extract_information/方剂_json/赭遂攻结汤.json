@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "赭遂攻结汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "攻结",
+        "indication": "宿食结于肠间不能下行，大便多日不通",
+        "taboo": null,
+        "usage": "前二味煎汤送甘遂末服。热多者，去干姜；寒多者，酌加干姜6～15克；呕多者，可先用赭石30克、干姜1.5克煎服，以止其呕吐，呕吐止后，再按原方煎汤送甘遂末服之。"
+      }
+    },
+    {
+      "name": "生赭石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "轧细",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "朴消",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘遂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "轧细",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《医学衷中参西录》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "赭遂攻结汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生赭石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赭遂攻结汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朴消",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赭遂攻结汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘遂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "赭遂攻结汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "宿食结于肠间不能下行",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "赭遂攻结汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医学衷中参西录》",
+      "object_type": "Source"
+    }
+  ]
+}

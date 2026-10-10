@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "干姜附子汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "回阳",
+        "indication": "伤寒下之后，复发汗。昼日烦躁不得眠，夜而安静，不呕不渴；无表证，脉沉微，身无大热者。",
+        "usage": "上二味，以水300毫升，煮取100毫升，去滓，顿服。"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克（生用）"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "干姜附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "干姜附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "干姜附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "回阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "干姜附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    }
+  ]
+}

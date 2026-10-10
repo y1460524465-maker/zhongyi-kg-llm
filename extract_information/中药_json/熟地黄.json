@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "滋阴补血，益精填髓",
+        "indication": "阴虚血少，腰膝痿弱，劳嗽骨蒸，遗精，崩漏，月经不调，消渴，溲数，耳聋，目昏",
+        "property_flavor": "味甜",
+        "dosage": "内服：煎汤，10~30g；或入丸散；或熬膏，或浸酒",
+        "taboo": "脾胃虚弱，气滞痰多，腹满便溏者忌服"
+      }
+    }
+  ],
+  "relations": []
+}

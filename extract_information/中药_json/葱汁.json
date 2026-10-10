@@ -1,0 +1,200 @@
+{
+  "entities": [
+    {
+      "name": "葱汁",
+      "type": "Herb",
+      "attributes": {
+        "alias": "葱苒, 葱涕, 空亭液, 葱涎, 葱油",
+        "effect": "散瘀止血，通窍，驱虫，解毒",
+        "indication": "衄血，尿血，头痛，耳聋，虫积，外伤出血，跌打损伤，疮痈肿痛",
+        "dosage": "5-10ml",
+        "usage": "内服：5-10ml，单饮；和酒服，或泛丸。外用：适量，涂搽或滴鼻、滴耳。"
+      }
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "耳聋",
+      "type": "Symptom"
+    },
+    {
+      "name": "虫积",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮痈肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "鼻衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿蛔虫性不全肠梗阻",
+      "type": "Disease"
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease"
+    },
+    {
+      "name": "火焰丹毒",
+      "type": "Disease"
+    },
+    {
+      "name": "外痔",
+      "type": "Disease"
+    },
+    {
+      "name": "打扑损伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "金疮出血不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "钩吻毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳聋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虫积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮痈肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿蛔虫性不全肠梗阻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "火焰丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外痔",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "打扑损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "金疮出血不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "钩吻毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葱汁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀止血，通窍，驱虫，解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

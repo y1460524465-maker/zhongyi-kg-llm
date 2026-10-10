@@ -1,0 +1,218 @@
+{
+  "entities": [
+    {
+      "name": "马兰",
+      "type": "Herb",
+      "attributes": {
+        "alias": "紫菊、阶前菊、鸡儿肠、马兰头、竹节草、马兰菊、蟛蜞菊、鱼鳅串、红梗菜、田边菊、田菊、毛蜞菜、红马兰、马兰青、路边菊、螃蜞头草、蓑衣莲、灯盏细辛",
+        "effect": "凉血止血，清热利湿，解毒消肿",
+        "indication": "吐血，衄血，血痢，崩漏，创伤出血，黄疸，水肿，淋浊，感冒，咳嗽，咽痛喉痹，痔疮，痈肿，丹毒，小儿疳积",
+        "dosage": "内服：煎汤，10-30g，鲜品30-60g；或捣汁。外用：适量，捣敷；或煎水熏洗。",
+        "origin": "菊科植物马兰的全草及根",
+        "place": "全国各地",
+        "property_flavor": "味淡微涩",
+        "traits": "多年生草本，高30-70cm。根茎有匍枝。茎直立，上部有短毛，上部或从下部起有分枝。叶互生；基部渐狭成具翅的长柄；叶片倒披针形或倒卵状长圆形，长3-6cm，稀达10cm，宽0.8-2cm，稀达5cm，先端钝或尖，边缘从中部以上具有小尖头的钝或尖齿，或有羽关裂片，两面或上面具疏微毛或近无毛，薄质；上面叶小，无柄，全缘。头状花序单生于枝端并排列成疏伞房状；总苞半球形，径6-9mm，长4-5mm；总苞片2-3层，覆瓦状排列，外层倒披针形，长约2mm，内层倒披针长圆形，长达4mm，先端钝或稍尖，上部草质，有疏短毛，边缘膜质，具缘毛；舌状花1层，15-20个，管部长1.5-1.7mm；舌片浅紫色，长达10mm，宽1.5-2mm；管状花长3.5mm，管部长约1.5mm，被短毛。瘦果倒卵状长圆形，极扁，长1.5-2mm，宽约1mm，褐色，边缘浅色而有厚肋，上部被腺毛及短柔毛，冠毛长0.1-0.8mm，易脱落，不等长。花期5-9月，果期8-10月。"
+      }
+    },
+    {
+      "name": "凉血止血",
+      "type": "Effect"
+    },
+    {
+      "name": "清热利湿",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒消肿",
+      "type": "Effect"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "创伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "黄疸",
+      "type": "Symptom"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "淋浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽痛喉痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "创伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "淋浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马兰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    }
+  ]
+}

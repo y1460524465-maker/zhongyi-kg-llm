@@ -1,0 +1,168 @@
+{
+  "entities": [
+    {
+      "name": "黍米",
+      "type": "Herb",
+      "attributes": {
+        "alias": "稷米、粢米、穄米、糜子米、大黄米",
+        "effect": "益气补中，除烦止渴，解毒",
+        "indication": "泻痢，烦渴，吐逆，咳嗽，胃痛，小儿鹅口疮，烫伤",
+        "usage": "内服：煎汤，30-90g；煮粥或淘取泔汁。外用：适量，研末调敷",
+        "origin": "为禾本植物黍的种子。秋季采收，碾去壳用"
+      }
+    },
+    {
+      "name": "泻痢",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "烦渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "吐逆",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿鹅口疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "烫伤",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "益气补中",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "除烦止渴",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "解毒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "千金方",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "肘后方",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黍米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黍米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黍米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黍米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黍米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黍米",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿鹅口疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黍米",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黍米",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气补中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黍米",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除烦止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黍米",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黍米汁",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿鹅口疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黍米汁",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "千金方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黍米",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "黍米",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "entities": [
+    {
+      "name": "葶苈大枣泻肺汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "葶苈大枣汤",
+        "source": "《医宗金鉴》卷六十七",
+        "effect": "泻肺去痰，利水平喘",
+        "indication": "肺痈，胸中胀满，痰涎壅塞，喘咳不得卧，甚则一身面目浮肿，鼻塞流涕，不闻香臭酸辛；亦抬支饮不得息者",
+        "usage": "先以水600毫升，煮枣取400毫升，去枣，纳葶苈，煮取200毫升，顿服"
+      }
+    },
+    {
+      "name": "葶苈子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "processing": "熬令黄色，捣丸"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12枚"
+      }
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease"
+    },
+    {
+      "name": "胸中胀满",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰涎壅塞",
+      "type": "Symptom"
+    },
+    {
+      "name": "喘咳不得卧",
+      "type": "Symptom"
+    },
+    {
+      "name": "一身面目浮肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "鼻塞流涕",
+      "type": "Symptom"
+    },
+    {
+      "name": "不闻香臭酸辛",
+      "type": "Symptom"
+    },
+    {
+      "name": "支饮不得息",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "葶苈大枣泻肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葶苈子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葶苈大枣泻肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "葶苈大枣泻肺汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "葶苈大枣泻肺汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葶苈大枣泻肺汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰涎壅塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葶苈大枣泻肺汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喘咳不得卧",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葶苈大枣泻肺汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "一身面目浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葶苈大枣泻肺汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻塞流涕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葶苈大枣泻肺汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "不闻香臭酸辛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "葶苈大枣泻肺汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "支饮不得息",
+      "object_type": "Symptom"
+    }
+  ]
+}

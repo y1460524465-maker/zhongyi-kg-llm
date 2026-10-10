@@ -1,0 +1,13 @@
+{
+  "entities": [
+    {
+      "name": "姜汁",
+      "type": "Herb",
+      "attributes": {
+        "effect": "化痰、止呕",
+        "indication": "恶心呕吐及咳嗽痰多"
+      }
+    }
+  ],
+  "relations": []
+}

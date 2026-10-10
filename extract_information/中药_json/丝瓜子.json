@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "丝瓜子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "乌牛子（《纲目拾遗》）",
+        "effect": "清热利水，通便，驱虫",
+        "indication": "水肿，石淋，肺热咳嗽，肠风下血，痔漏，便秘，蛔虫病",
+        "dosage": "内服：煎汤，6~9 g，或炒焦研末",
+        "taboo": "若患脚气、虚胀、冷气人食之病增；脾虚者禁用；孕妇忌用",
+        "origin": "葫芦科植物丝瓜的干燥成熟种子",
+        "processing": "秋季采收，洗净，晒干",
+        "traits": "干燥种子呈扁平的椭圆形，长约1.2厘米，宽约7毫米，厚约2毫米。种皮灰罴色至黑色，边缘有极狭的翅，翅灼一端有种脊，上方有一对呈叉状的突起。种皮稍硬，剥开后可见有膜状灰绿色的内种皮包于子叶之外。子叶2片，黄白色",
+        "property_flavor": "味微苦"
+      }
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "石淋",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠风下血",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛔虫病",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丝瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "石淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "丝瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丝瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丝瓜子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "驱虫",
+      "object_type": "Effect"
+    }
+  ]
+}

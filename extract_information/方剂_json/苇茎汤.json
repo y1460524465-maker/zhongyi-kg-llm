@@ -1,0 +1,190 @@
+{
+  "entities": [
+    {
+      "name": "苇茎汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "千金苇茎汤",
+        "effect": "化浊排脓",
+        "indication": "肺痈，热毒壅滞，痰瘀互结证。身有微热，咳嗽痰多，甚则咳吐腥臭脓血，胸中隐隐作痛，舌红苔黄腻，脉滑数",
+        "usage": "研末，内苇汁中，煮取二升，服一升，再服，当吐如胶（现代用法：水煎服）"
+      }
+    },
+    {
+      "name": "苇茎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "薏苡仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "瓜瓣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克"
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "芦根",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "冬瓜子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "热毒壅滞",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痰瘀互结证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳吐腥臭脓血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸中隐隐作痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《外台秘要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《古今录验方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《金匮要略》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《外台秘要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《古今录验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苇茎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "瓜瓣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热毒壅滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痰瘀互结证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳吐腥臭脓血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苇茎汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中隐隐作痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

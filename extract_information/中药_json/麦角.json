@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "麦角",
+      "type": "Herb",
+      "attributes": {
+        "effect": "收缩子宫，止血，止痛",
+        "indication": "子宫出血，偏头痛",
+        "usage": "内服：制成流浸膏，每次0.5～2ml，每日3～4次；大剂量1次4ml，每日12ml；或制成片剂、针剂用。",
+        "taboo": "分娩时只可用于压出期，在开口期当避免使用。",
+        "origin": "《国药的药理学》"
+      }
+    },
+    {
+      "name": "子宫出血",
+      "type": "Disease"
+    },
+    {
+      "name": "偏头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "《国药的药理学》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麦角",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麦角",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "偏头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "麦角",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《国药的药理学》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "麦角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收缩子宫，止血，止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

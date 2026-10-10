@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "name": "首乌藤",
+      "type": "Herb",
+      "attributes": {
+        "alias": "夜交藤",
+        "effect": "养心，安神，通络，祛风",
+        "indication": "主治失眠，劳伤，多汗，血虚身痛，痈疽，瘰疬，风疮疥癣",
+        "origin": "为蓼科植物何首乌的藤茎或带叶藤茎",
+        "place": "分布于华东、中南及河北、山西、陕西、甘肃、台湾、四川、贵州、云南等地",
+        "processing": "清水洗净，稍浸泡，捞出，润透后，切段，晒干",
+        "property_flavor": "味微苦涩",
+        "dosage": "内服：煎汤，10～20g。外用：适量，煎水洗；或捣烂敷"
+      }
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom"
+    },
+    {
+      "name": "劳伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "多汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "血虚身痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Symptom"
+    },
+    {
+      "name": "风疮疥癣",
+      "type": "Symptom"
+    },
+    {
+      "name": "养心",
+      "type": "Effect"
+    },
+    {
+      "name": "安神",
+      "type": "Effect"
+    },
+    {
+      "name": "通络",
+      "type": "Effect"
+    },
+    {
+      "name": "祛风",
+      "type": "Effect"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草正义》",
+      "type": "Source"
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source"
+    },
+    {
+      "name": "《安徽药材》",
+      "type": "Source"
+    },
+    {
+      "name": "《陕西中草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "首乌藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "首乌藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "首乌藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "多汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "首乌藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血虚身痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "首乌藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "首乌藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘰疬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "首乌藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风疮疥癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "首乌藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养心",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "首乌藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "首乌藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "首乌藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    }
+  ]
+}

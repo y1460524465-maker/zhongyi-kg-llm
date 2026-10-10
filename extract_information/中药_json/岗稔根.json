@@ -1,0 +1,588 @@
+{
+  "entities": [
+    {
+      "name": "岗稔根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "除湿祛风，止血，止痛",
+        "indication": "肝炎，血崩，胃痛，风湿关节痛，疝气，腰肌劳损，痔疮，烫伤",
+        "property_flavor": "甘、涩，平",
+        "meridian": "肝，脾经",
+        "dosage": "内服：煎汤，15-60g；或酒水各半煎，或炖肉。外用：适量，烧存性研末涂",
+        "processing": "将原药除去杂质,洗净,打丝，或润透,切厚片,干燥，筛去灰屑",
+        "origin": "桃金娘科植物桃金娘的干燥根",
+        "alias": "山稔根，当梨根，刀莲头，多年片，哆呢根，多年头，哆啤子根，哆唉头，桃金娘根"
+      }
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血崩",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "风湿关节痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疝气",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腰肌劳损",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "烫伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "除湿祛风",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "止血",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "止痛",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "心痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "伤寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "热入血室",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "久热不退",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "虚寒哮喘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃气痈",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疟母",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "关节风湿痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "久伤痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "劳伤出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "糖尿病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "癥瘕",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "汤火伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "黄疸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "无黄疸型传染性肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性黄疸型传染性肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "便秘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹胀",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃部刺激感",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇女血崩症",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "功能性子宫出血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "子宫肌瘤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "盆腔炎症",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "月经过多",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《岭南草药志》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《福建中草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《泉州本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《福建民间草药》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《闽东本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "田基黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茵陈",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白花蛇舌草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "鸡骨草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "女贞子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "旱莲草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地棯根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五月艾叶",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除湿祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血崩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿关节痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰肌劳损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热入血室",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久热不退",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚寒哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃气痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟母",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "关节风湿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久伤痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "汤火伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无黄疸型传染性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性黄疸型传染性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃部刺激感",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女血崩症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "功能性子宫出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫肌瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "盆腔炎症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经过多",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药性备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南草药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《泉州本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "岗稔根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《闽东本草》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "entities": [
+    {
+      "name": "八角茴香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "舶上茴香、舶茴香、八角珠、八角香、八角大茴、八角、原油茴、八月珠、大料、五香八角",
+        "effect": "温阳散寒，理气止痛",
+        "indication": "寒疝腹痛，肾虚腰痛，胃寒呕吐，脘腹冷痛",
+        "meridian": "归肝、肾、脾、胃经",
+        "processing": "筛去泥屑种子，拣去果柄杂质；《本草蒙筌》：盐酒炒用",
+        "property_flavor": "辛，温",
+        "dosage": "内服：煎汤，3~6g；或入丸、散。外用：适量，研末调敷",
+        "origin": "木兰科植物八角茴香Illicium verum Hook.f．的干燥成熟果实",
+        "place": "分布于福建、台湾、广西、广东、贵州、云南等地"
+      }
+    },
+    {
+      "name": "寒疝腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肾虚腰痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃寒呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脘腹冷痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "八角茴香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温阳散寒，理气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "八角茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "寒疝腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八角茴香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "八角茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃寒呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "八角茴香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹冷痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

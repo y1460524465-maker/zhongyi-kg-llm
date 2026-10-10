@@ -1,0 +1,152 @@
+{
+  "entities": [
+    {
+      "name": "马宝",
+      "type": "Herb",
+      "attributes": {
+        "effect": "镇惊化痰，清热解毒",
+        "indication": "惊痫癫狂，痰热内盛，神志昏迷，吐血衄血，恶疮肿毒",
+        "dosage": "研末，0.3~3 g",
+        "processing": "取出的结石用清水洗净，或用开水煮沸数分钟，晾干或晒干",
+        "traits": "呈球形、卵圆形或扁圆形，大小不等，一般直径约6～20厘米，重250～2500公分，表面蛋青色、灰白色至油褐色，光滑有光泽，质坚体重，剖面灰白色而有同心层纹",
+        "meridian": "心、肝二经",
+        "taboo": "中寒痰湿者忌用",
+        "origin": "马科动物马Equus caballus （L.）的胃肠中的结石"
+      }
+    },
+    {
+      "name": "惊痫癫狂",
+      "type": "Disease"
+    },
+    {
+      "name": "痰热内盛",
+      "type": "Symptom"
+    },
+    {
+      "name": "神志昏迷",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶疮肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "镇惊化痰",
+      "type": "Effect"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    },
+    {
+      "name": "《吉林中草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇惊化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊痫癫狂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰热内盛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神志昏迷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶疮肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮片新参》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马宝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《吉林中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

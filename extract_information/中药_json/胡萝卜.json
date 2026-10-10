@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "胡萝卜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "健脾宽中，化滞",
+        "indication": "消化不良，久痢，咳嗽",
+        "usage": "内服：煎汤，30-120g；或生吃；或捣汁；或煮食；外用：适量，煮熟捣敷；或切片烧热敷。",
+        "taboo": "宜熟食，多食损肝难消，生食伤胃",
+        "property_flavor": "味辛则散，味甘则和，质重则降",
+        "processing": "冬季采挖根部，除去茎叶、须根，洗净",
+        "origin": "《本草求原》《随息居饮食谱》《现代实用中药》《广州植物志》《岭南草药志》"
+      }
+    },
+    {
+      "name": "消化不良",
+      "type": "Symptom"
+    },
+    {
+      "name": "久痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source"
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source"
+    },
+    {
+      "name": "《现代实用中药》",
+      "type": "Source"
+    },
+    {
+      "name": "《广州植物志》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南草药志》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "胡萝卜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消化不良",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡萝卜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡萝卜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡萝卜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "胡萝卜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《随息居饮食谱》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "胡萝卜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《现代实用中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "胡萝卜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广州植物志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "胡萝卜",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南草药志》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "entities": [
+    {
+      "name": "海参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肾益精，养血润燥，止血",
+        "indication": "精血亏损，虚弱劳怯，阳痿，梦遗，肠燥便秘，肺虚咳嗽咯血，肠风便血，外伤出血",
+        "dosage": "内服：煎汤，煮食，15-30g；9-15g",
+        "taboo": "泻痢遗滑人忌之，宜配涩味而用。脾弱不运，痰多便滑，客邪未尽者，均不可食。",
+        "origin": "刺参科动物刺参或其他种海参的全体",
+        "place": "浅海中岩石底及细沙泥底、海藻繁茂、波流静稳而无淡水注入处",
+        "processing": "除去内脏，洗净腔内泥沙、血污，在盐水中煮约1小时，捞起放冷。经曝晒或烘焙至八九成干时，再加蓬叶汁中略煮，至颜色转黑时取出晒干。",
+        "property_flavor": null,
+        "traits": null,
+        "meridian": null
+      }
+    },
+    {
+      "name": "《本草从新》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草害利》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "刺参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "海参丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "腰痛、梦遗、泄精",
+        "taboo": null,
+        "usage": "共研细末，鹿角胶和丸。每服四钱，温酒送下。"
+      }
+    },
+    {
+      "name": "《中国医学大辞典》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《药性考》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "精血亏损",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "虚弱劳怯",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阳痿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "梦遗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肠燥便秘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肺虚咳嗽咯血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肠风便血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "虚火燥结",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "休息痢",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾益精，养血润燥，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "精血亏损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚弱劳怯",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "梦遗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠燥便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺虚咳嗽咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草从新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "刺参",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草从新》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海参丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海参丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "梦遗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海参丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海参丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《中国医学大辞典》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚火燥结",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "休息痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "海参",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草害利》",
+      "object_type": "Source"
+    }
+  ]
+}

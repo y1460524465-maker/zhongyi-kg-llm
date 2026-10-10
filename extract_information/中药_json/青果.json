@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "青果",
+      "type": "Herb",
+      "attributes": {
+        "alias": "橄榄子、橄棪、忠果、青子、谏果、青橄榄、白榄、黄榄、甘榄、橄榄",
+        "effect": "清肺，利咽，生津，解毒",
+        "indication": "主治咽喉肿痛，烦渴，咳嗽吐血，菌痢，癫痫，解河豚毒及酒毒",
+        "taboo": "本品味甘、性涩，表证初起者慎用",
+        "usage": "内服：煎汤，6~12g；或熬膏；或入丸剂。外用：适量，研末撒或油调敷",
+        "dosage": "6~12g",
+        "property_flavor": "味甘、性涩",
+        "origin": "为橄榄科植物橄榄Canarium album Raeusch.的果实"
+      }
+    },
+    {
+      "name": "青龙白虎汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "鲜青果、鲜莱菔，水煎服"
+      }
+    },
+    {
+      "name": "橄榄散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "橄榄不拘多少。烧灰，上为细末。以猪脂和，涂患处"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "青果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利咽",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "青果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "青果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "菌痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "青龙白虎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青果",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青龙白虎汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜莱菔",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "青龙白虎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "时行风火喉痛",
+      "object_type": "Disease"
+    }
+  ]
+}

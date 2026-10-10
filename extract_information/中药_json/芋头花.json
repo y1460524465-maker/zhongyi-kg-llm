@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "芋头花",
+      "type": "Herb",
+      "attributes": {
+        "alias": "芋苗花",
+        "effect": "理气止痛，散瘀止血",
+        "indication": "胃痛，吐血，子宫脱垂，痔疮，脱肛",
+        "dosage": "内服：煎汤，15-30g",
+        "taboo": "无炎症及出血者忌用",
+        "origin": "《生草药性备要》",
+        "processing": "鲜用或晒干"
+      }
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芋头花",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药性备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "芋头花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气止痛，散瘀止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芋头花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芋头花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芋头花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫脱垂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芋头花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芋头花",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    }
+  ]
+}

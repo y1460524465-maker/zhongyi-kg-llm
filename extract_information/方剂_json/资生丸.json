@@ -1,0 +1,322 @@
+{
+  "entities": [
+    {
+      "name": "资生丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "保胎资生丸，补益资生丸，人参资生丸",
+        "effect": "健脾开胃，消食止泻",
+        "indication": "脾虚不适，胃虚不纳，神倦力乏，腹满泄泻",
+        "usage": "用白汤或清米汤、橘皮汤、炒砂仁汤嚼化",
+        "taboo": "忌桃、李、雀、蛤、生冷"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两"
+      }
+    },
+    {
+      "name": "白茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两半"
+      }
+    },
+    {
+      "name": "广陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两"
+      }
+    },
+    {
+      "name": "山楂肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五钱"
+      }
+    },
+    {
+      "name": "怀山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两五钱"
+      }
+    },
+    {
+      "name": "川黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱"
+      }
+    },
+    {
+      "name": "薏苡仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两半"
+      }
+    },
+    {
+      "name": "白扁豆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两半"
+      }
+    },
+    {
+      "name": "白豆蔻仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱五分"
+      }
+    },
+    {
+      "name": "藿香叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五钱"
+      }
+    },
+    {
+      "name": "莲肉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两五钱"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三钱半"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五钱"
+      }
+    },
+    {
+      "name": "芡实粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两五钱"
+      }
+    },
+    {
+      "name": "麦芽",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一两"
+      }
+    },
+    {
+      "name": "脾虚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃虚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "神倦力乏",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹满泄泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《先醒斋医学广笔记》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "广陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山楂肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "怀山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白扁豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白豆蔻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藿香叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦芽",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "健脾开胃，消食止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胃虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神倦力乏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹满泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "资生丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《先醒斋医学广笔记》",
+      "object_type": "Source"
+    }
+  ]
+}

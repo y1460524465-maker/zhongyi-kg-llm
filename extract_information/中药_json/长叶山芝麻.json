@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "name": "长叶山芝麻",
+      "type": "Herb",
+      "attributes": {
+        "effect": "消炎解表，截疟，止泻",
+        "indication": "感冒，扁桃体炎，喉炎，肠炎，疟疾，腹泻",
+        "property_flavor": "苦微甘，寒",
+        "usage": "内服：煎汤，3～5钱"
+      }
+    },
+    {
+      "name": "山芝麻",
+      "type": "Herb",
+      "attributes": {
+        "alias": "野芝麻、野芝麻棵、牙呼领"
+      }
+    },
+    {
+      "name": "草果",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "长叶山芝麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶山芝麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶山芝麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶山芝麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶山芝麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶山芝麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶山芝麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶山芝麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虫蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "长叶山芝麻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消炎解表",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "长叶山芝麻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "截疟",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "长叶山芝麻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山芝麻",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山芝麻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "草果",
+      "object_type": "Herb"
+    }
+  ]
+}

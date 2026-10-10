@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "name": "苇茎",
+      "type": "Herb",
+      "attributes": {
+        "alias": "嫩芦梗",
+        "effect": "清肺解毒，止咳排脓",
+        "indication": "肺痈吐脓，肺热咳嗽，痈疽",
+        "usage": "内服：煎汤，15-30g，鲜品可用至60-120g。外用：适量，烧灰淋汁；熬膏敷"
+      }
+    },
+    {
+      "name": "《千金方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苇茎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺解毒，止咳排脓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苇茎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苇茎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苇茎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苇茎",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《千金方》",
+      "object_type": "Source"
+    }
+  ]
+}

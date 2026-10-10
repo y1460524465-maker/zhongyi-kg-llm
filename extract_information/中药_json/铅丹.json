@@ -1,0 +1,176 @@
+{
+  "entities": [
+    {
+      "name": "铅丹",
+      "type": "Herb",
+      "attributes": {
+        "alias": "黄丹、真丹、铅华、丹粉、黄龙肝、红丹、虢丹、国丹、铅黄、黄虢丹、朱粉、松丹、东丹、朱丹、陶丹、障丹、桃丹粉",
+        "effect": "解毒祛腐，收湿敛疮，坠痰镇惊",
+        "indication": "痈疽，溃疡，金疮出血，口疮，目翳，汤火灼伤，惊痫癫狂，疟疾，痢疾，吐逆反胃",
+        "property_flavor": "金属性辛味",
+        "origin": "为用铅加工制成的四氧化三铅",
+        "place": "河南、广东、福建、湖南、云南",
+        "processing": "将纯铅放在铁锅中加热，炒动，利用空气使之氧化，然后放在石臼中研成粉末。用水漂洗，将粗细粉末分开，漂出之细粉，再经氧化24小时，研成细粉过筛即得。",
+        "taboo": "虚寒吐逆忌服。本品有毒不可过量或持续服用，以防蓄积中毒。",
+        "dosage": "外用：适量；内服每次0.3~0.6g"
+      }
+    },
+    {
+      "name": "《本草纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease"
+    },
+    {
+      "name": "溃疡",
+      "type": "Disease"
+    },
+    {
+      "name": "金疮出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "口疮",
+      "type": "Disease"
+    },
+    {
+      "name": "目翳",
+      "type": "Disease"
+    },
+    {
+      "name": "汤火灼伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "惊痫癫狂",
+      "type": "Disease"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "吐逆反胃",
+      "type": "Symptom"
+    },
+    {
+      "name": "解毒祛腐",
+      "type": "Effect"
+    },
+    {
+      "name": "收湿敛疮",
+      "type": "Effect"
+    },
+    {
+      "name": "坠痰镇惊",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "金疮出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目翳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汤火灼伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊痫癫狂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐逆反胃",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒祛腐",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收湿敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铅丹",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "坠痰镇惊",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "entities": [
+    {
+      "name": "百草霜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "止血，止泻，消积",
+        "indication": "吐血，衄血，便血，血崩，带下，泻痢，食积，咽喉口舌诸疮",
+        "usage": "内服：煎汤，3-9g；或入丸、散，1-3g。外用：适量，研末撒，或调敷",
+        "taboo": "阴虚火燥，咳嗽肺损者，勿用"
+      }
+    },
+    {
+      "name": "《本草汇言》",
+      "type": "Source"
+    },
+    {
+      "name": "《刘长春经验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《濒湖集简方》",
+      "type": "Source"
+    },
+    {
+      "name": "《妇人良方》",
+      "type": "Source"
+    },
+    {
+      "name": "《永类钤方》",
+      "type": "Source"
+    },
+    {
+      "name": "《外台秘要方》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《灊江切要》",
+      "type": "Source"
+    },
+    {
+      "name": "《方脉正宗》",
+      "type": "Source"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血崩",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "泻痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "食积",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉口舌诸疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "止血",
+      "type": "Effect"
+    },
+    {
+      "name": "止泻",
+      "type": "Effect"
+    },
+    {
+      "name": "消积",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "百草霜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "百草霜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "百草霜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "百草霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百草霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百草霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百草霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百草霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百草霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百草霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百草霜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉口舌诸疮",
+      "object_type": "Symptom"
+    }
+  ]
+}

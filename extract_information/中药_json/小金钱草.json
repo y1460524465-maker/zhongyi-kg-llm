@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "小金钱草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "荷包草、肉馄饨草、金锁匙、黄疸草、小马蹄草、螺丕草、小铜钱草、酒杯窝、金挖耳、鸡眼草、小灯盏菜、小迎风草、小碗碗草、小元宝草、落地金钱、小蛤蟆碗、九连环",
+        "effect": "清热，解毒，利水，活血",
+        "indication": "黄疸，痢疾，砂石淋痛，白浊，水肿，疔疮肿毒，跌打损伤",
+        "meridian": "入肺、肝二经",
+        "origin": "旋花科植物马蹄金的全草",
+        "place": "四川、浙江、福建、广西、湖南等地",
+        "processing": "4～6月收采，晒干，去净泥杂",
+        "property_flavor": "辛",
+        "taboo": null,
+        "traits": null,
+        "dosage": "内服：煎汤，6-15g,鲜品30-60g"
+      }
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "砂石淋痛",
+      "type": "Disease"
+    },
+    {
+      "name": "白浊",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "疔疮肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "砂石淋痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金钱草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小金钱草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血",
+      "object_type": "Effect"
+    }
+  ]
+}

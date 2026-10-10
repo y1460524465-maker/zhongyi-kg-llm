@@ -1,0 +1,181 @@
+{
+  "entities": [
+    {
+      "name": "蟅虫散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "跌打损伤，腹内有瘀血",
+        "taboo": null,
+        "usage": "每服9克，以酒、水各取200毫升，煎至240毫升，去滓，空腹时温服"
+      }
+    },
+    {
+      "name": "蟅虫",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "微炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "虻虫",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "去翅、足，微炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "水蛭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "微炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桂心",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桃仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "汤浸，去皮、尖、双仁，麸炒微黄",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "川大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "锉碎，微炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "《太平圣惠方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蟅虫散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蟅虫散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蟅虫散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹内有瘀血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蟅虫散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蟅虫",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟅虫散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "虻虫",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟅虫散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "水蛭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟅虫散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂心",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟅虫散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蟅虫散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川大黄",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "entities": [
+    {
+      "name": "神犀丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清营开窍，凉血解毒",
+        "indication": "温热暑疫，邪入营血证。高热昏谵，斑疹色紫，口咽糜烂，目赤烦躁，舌紫绛等。",
+        "taboo": null,
+        "usage": "各生晒研细，以水牛角、地黄汁、金汁和捣为丸，每重（3克），凉开水化服，日二次，小儿减半。"
+      }
+    },
+    {
+      "name": "犀角",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "石菖蒲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "真怀生地",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "银花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "金汁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "板蓝根",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "香豉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "元参",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "花粉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "紫草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "水牛角",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《温热经纬》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《温热经纬》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "犀角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石菖蒲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "真怀生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金汁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "板蓝根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "元参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "花粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "神犀丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "水牛角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "犀角",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清心凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "生地",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清心凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "元参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "花粉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "银花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "连翘",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芩",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "紫草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "板蓝根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金汁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石菖蒲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "芳香开窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "豆豉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宣泄透邪",
+      "object_type": "Effect"
+    }
+  ]
+}

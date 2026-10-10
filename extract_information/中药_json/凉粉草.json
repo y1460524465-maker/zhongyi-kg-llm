@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "name": "凉粉草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，凉血解暑",
+        "indication": "急性风湿性关节炎，高血压，中暑，感冒，黄疸，急性肾炎，糖尿病",
+        "dosage": "内服：煎汤，15~30g。作冷饮或浸酒",
+        "processing": "将原药除去残根等杂质，快洗，润软，切长段，干燥，筛去灰屑",
+        "traits": "本品呈段状。茎段方柱形，具四棱（有的压扁），宽1.5～3mm；表面褐色，有细纵纹，被棕色绒毛，有的可见节，节上具对生叶痕、断枝或须状不定根；切面浅灰黄色，中心有圆形髓或中空。叶较多，皱缩、破碎或切断；完整叶长1.5～4cm,宽1～1.5cm，黄绿色至棕绿色，长卵形，先端渐尖，基部渐收缩成叶柄，边缘有锯齿，两面密被长毛。花少见。质轻脆，嚼之有胶性。气微，味淡",
+        "origin": "本品为唇形科植物凉粉草Mesona chinensis Benth.的干燥地上部分",
+        "place": "分布于浙江、江西、台湾、广东、广西等地"
+      }
+    },
+    {
+      "name": "急性风湿性关节炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "高血压",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "中暑",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "感冒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性肾炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "糖尿病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "仙人冻",
+      "type": "Formula",
+      "attributes": {
+        "usage": "治花柳毒入骨：仙人冻六两，蒸数次，加生麻雀八只，连毛，浸双料酒四斤，浸二十天。每次服三两为度",
+        "source": "《岭南采药录》"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "凉粉草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿，凉血解暑",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "凉粉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凉粉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凉粉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中暑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凉粉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凉粉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凉粉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凉粉草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凉粉草",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "凉粉草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "仙人冻",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    }
+  ]
+}

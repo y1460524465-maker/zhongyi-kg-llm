@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "水栀根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10-30g",
+        "effect": "清热除湿，祛风止痛",
+        "indication": "湿热黄疸，风湿关节痛，风火牙痛"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水栀根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热除湿，祛风止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水栀根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水栀根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水栀根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风火牙痛",
+      "object_type": "Disease"
+    }
+  ]
+}

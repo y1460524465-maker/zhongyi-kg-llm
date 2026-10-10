@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "大叶马尾连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3-10g。外用：适量，研末，调敷。",
+        "effect": "清热，泻火，解毒",
+        "indication": "痢疾，腹泻，目赤肿痛，湿热黄疸。主治痢疾，腹泻，目赤肿痛，湿热黄疸。"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "腹泻",
+      "type": "Disease"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Disease"
+    },
+    {
+      "name": "湿热黄疸",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大叶马尾连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大叶马尾连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大叶马尾连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目赤肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大叶马尾连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大叶马尾连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热，泻火，解毒",
+      "object_type": "Effect"
+    }
+  ]
+}

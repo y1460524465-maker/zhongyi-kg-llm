@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "name": "灰贯众",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血止血，清热解毒",
+        "indication": "感冒，跌打损伤，外伤出血，蛇咬伤，预防感冒",
+        "usage": "内服：煎汤，15-30g。外用：适量，捣敷或研末撒。"
+      }
+    },
+    {
+      "name": "对生耳蕨",
+      "type": "Herb",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": null,
+        "usage": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "灰贯众",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灰贯众",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "灰贯众",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灰贯众",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灰贯众",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灰贯众",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇咬伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "灰贯众",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "预防感冒",
+      "object_type": "Symptom"
+    }
+  ]
+}

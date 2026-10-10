@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "四逆加人参汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "四顺汤、回阳饮、人参四顺汤",
+        "indication": "阳气衰微，阴液内竭，四肢厥逆，恶寒脉微，下利而利忽自止者。",
+        "usage": "上四味，以水600毫升，煮取240毫升，去滓，分温再服。"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克(炙)"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克(生，去皮)"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四逆加人参汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四逆加人参汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四逆加人参汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四逆加人参汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    }
+  ]
+}

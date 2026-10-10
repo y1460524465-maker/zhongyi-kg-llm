@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "name": "黄蜀葵子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，6~9 g；或入散剂",
+        "effect": "利水，通乳消肿",
+        "indication": "大便秘结，小便不利，尿路结石，水肿，热淋，乳汁不通，痈肿，跌扑损伤"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄蜀葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便秘结",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄蜀葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄蜀葵子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿路结石",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄蜀葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄蜀葵子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄蜀葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄蜀葵子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄蜀葵子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄蜀葵子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄蜀葵子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通乳消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

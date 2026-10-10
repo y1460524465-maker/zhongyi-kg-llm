@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "柏子仁",
+      "type": "Herb",
+      "attributes": {
+        "alias": "柏实、柏子、柏仁、侧柏子",
+        "effect": "养心安神，润肠通便",
+        "indication": "惊悸，失眠，遗精，盗汗，便秘",
+        "taboo": "肠滑作泻者勿服，膈间多痰者勿服，阳道数举、肾家有热、暑湿什泻，法咸忌之",
+        "dosage": "10~15g",
+        "origin": "为柏科植物侧柏的种仁",
+        "place": "分布于东北南部，经华北向南过广东、广西北部，西至陕西、甘肃、西南至四川、云南、贵州等地",
+        "processing": "柏子仁：拣净杂质，除去残留的外壳和种皮。柏子霜：取拣净的柏子仁，碾碎，用吸油纸包裹，加热微炕，压榨去油，研细。",
+        "property_flavor": "气微香，味淡而有油腻感"
+      }
+    },
+    {
+      "name": "惊悸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "便秘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "养心安神",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "润肠通便",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柏子仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养心安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柏子仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肠通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "柏子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柏子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柏子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柏子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柏子仁",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    }
+  ]
+}

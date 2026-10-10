@@ -1,0 +1,181 @@
+{
+  "entities": [
+    {
+      "name": "三仁汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清利湿热，宣畅三焦气机",
+        "indication": "湿温初起，头痛恶寒，面色淡黄，身重疼痛，午后身热，胸闷不饥等症",
+        "taboo": "杏仁用量不宜过大，常用量为15g，过量后易出现呼吸困难甚至窒息，死亡",
+        "usage": "以甘澜水八碗，煮取三碗，服一碗，日三服"
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五钱",
+        "effect": "宣利上焦肺气，气化则湿化",
+        "property_flavor": "苦辛",
+        "taboo": "用量不宜过大，常用量为15g，过量后易出现呼吸困难甚至窒息，死亡"
+      }
+    },
+    {
+      "name": "飞滑石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "六钱",
+        "effect": "甘寒淡渗，利湿清热"
+      }
+    },
+    {
+      "name": "白通草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二钱",
+        "effect": "甘寒淡渗，利湿清热"
+      }
+    },
+    {
+      "name": "白蔻仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二钱",
+        "effect": "芳香化湿，行气，调中"
+      }
+    },
+    {
+      "name": "竹叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二钱",
+        "effect": "甘寒淡渗，利湿清热"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二钱",
+        "effect": "辛开苦降，化湿行气，散满消痞"
+      }
+    },
+    {
+      "name": "生薏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "六钱",
+        "effect": "甘淡，渗利下焦湿热，健脾"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五钱",
+        "effect": "辛开苦降，化湿行气，散满消痞"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "飞滑石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白通草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蔻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生薏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清利湿热，宣畅三焦气机",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛恶寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面色淡黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身重疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "午后身热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "三仁汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸闷不饥",
+      "object_type": "Symptom"
+    }
+  ]
+}

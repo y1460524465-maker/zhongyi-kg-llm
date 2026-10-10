@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": {
+        "effect": "开窍醒神，辟秽，活血通络，散瘀",
+        "indication": "治中风，痰厥，惊痫，中恶烦闷，心腹暴痛，癥瘕癖积，跌打损伤，痈疽肿毒",
+        "dosage": "内服：入丸、散，0.03~0.1g，一般不入汤剂。外用：适量，研末掺、调敷或入膏药中敷贴",
+        "property_flavor": "味微辣、微苦带咸",
+        "traits": "气香浓烈而特异",
+        "origin": "鹿科动物林麝Moschus berezovskii Flerov 、马麝Moschus sifanicus Przewalski或原麝Moschus moschiferus Linnaeus 成熟雄体香囊中的干燥分泌物",
+        "processing": "野麝多在冬季至次春猎取，猎获后，割取香囊，阴干，习称毛壳麝香；剖开香囊，除去囊壳，习称麝香仁。家麝直接从其香囊中取出麝香仁，阴干或用干燥器密闭干燥。取毛壳麝香，除去囊壳，取出麝香仁，除去杂质，用时研碎",
+        "alias": "原麝香、香脐子、寸草、麝脐香、臭子"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开窍醒神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "辟秽",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰厥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中恶烦闷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心腹暴痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕癖积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "name": "猫儿屎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风除湿，清肺止咳",
+        "indication": "风湿痹痛，肛门湿烂，阴痒，肺痨咳嗽",
+        "dosage": "内服：煎汤，15-30g；或浸酒",
+        "origin": "木通科植物猫儿屎的根或茎"
+      }
+    },
+    {
+      "name": "肺痨咳嗽",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿关节痛",
+      "type": "Disease"
+    },
+    {
+      "name": "疮痈肿毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猫儿屎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痨咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猫儿屎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猫儿屎",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮痈肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

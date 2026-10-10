@@ -1,0 +1,512 @@
+{
+  "entities": [
+    {
+      "name": "巴豆",
+      "type": "Herb",
+      "attributes": {
+        "alias": "巴菽、刚子、江子、老阳子、双眼龙、猛子仁、巴果、双眼虾、红子仁、巴贡、巴米、毒鱼子、銮豆、贡仔、八百力、巴仁、芒子、药子仁、芦麻子、腊盘子、泻果",
+        "effect": "泻寒积，通关窍，逐痰，行水，杀虫。治冷积凝滞，胸腹胀满急痛，血瘕，痰癖，泻痢，水肿，外用治喉风，喉痹，恶疮疥癣。",
+        "indication": "治冷积凝滞，胸腹胀满急痛，血瘕，痰癖，泻痢，水肿，外用治喉风，喉痹，恶疮疥癣。",
+        "taboo": "无寒实积滞、孕妇及体弱者忌服；不宜与牵牛子同用。",
+        "dosage": "内服：巴豆霜多入丸、散，0.1-0.3g。外用：适量，捣膏涂；或以纱包擦患处。",
+        "meridian": "归胃经、大肠经。",
+        "processing": "巴豆仁：拣净杂质，用粘稠的米汤或面汤浸拌，置日光下曝晒或烘裂，搓去皮，簸取净仁。巴豆霜：取净巴豆仁，碾碎，用多层吸油纸包裹，加热微炕，压榨去油，每隔2天取出复研和换纸1次，如上法压榨六、七次至油尽为度，取出，碾细，过筛。",
+        "property_flavor": "种子：辛，热；有大毒。根、叶：辛、温。有毒。",
+        "traits": "干燥种子呈椭圆形或卵形，略扁，长约1～1.5厦米，直径约6～9毫米，厚约4～7毫米，表面灰棕色至棕色，平滑而少光泽。种阜在种脐的-端，为一细小突起，易脱落。合点在另一端，合点与种阜间有种脊，为一略隆起的纵棱线。横断面略呈方形，种皮薄而坚脆，剥去后，可见种仁，外包膜状银白色的外胚乳。内胚乳肥厚，淡黄色，油质。中央有菲薄的子叶2枚。胚根细小，朝向种阜的一端。气无，味微涩，而后有持久辛辣感。以个大、饱满、种仁色白者佳。粒较空、种仁泛油变色者质次。",
+        "origin": "多为栽培植物；野生于山谷、溪边、旷野，有时亦见于密林中。分布四川、湖南、湖北、云南、贵州、广西、广东、福建、台湾、浙江、江苏。主产四川、广西、云南、贵州。以四川产量最大，质量较佳。此外，广东、福建等地亦产。"
+      }
+    },
+    {
+      "name": "白散",
+      "type": "Formula",
+      "attributes": {
+        "source": "《伤寒论》"
+      }
+    },
+    {
+      "name": "三物备急丸",
+      "type": "Formula",
+      "attributes": {
+        "source": "《金匮要略》"
+      }
+    },
+    {
+      "name": "针头丸",
+      "type": "Formula",
+      "attributes": {
+        "source": "《世医得效方》"
+      }
+    },
+    {
+      "name": "水浸丹",
+      "type": "Formula",
+      "attributes": {
+        "source": "《局方》"
+      }
+    },
+    {
+      "name": "巴豆朱砂膏",
+      "type": "Formula",
+      "attributes": {
+        "source": "《江苏中医》"
+      }
+    },
+    {
+      "name": "乌金膏",
+      "type": "Formula",
+      "attributes": {
+        "source": "《痈疽神秘验方》"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb"
+    },
+    {
+      "name": "贝母",
+      "type": "Herb"
+    },
+    {
+      "name": "大黄",
+      "type": "Herb"
+    },
+    {
+      "name": "干姜",
+      "type": "Herb"
+    },
+    {
+      "name": "红曲",
+      "type": "Herb"
+    },
+    {
+      "name": "小麦麸皮",
+      "type": "Herb"
+    },
+    {
+      "name": "青皮",
+      "type": "Herb"
+    },
+    {
+      "name": "百草霜",
+      "type": "Herb"
+    },
+    {
+      "name": "黄丹",
+      "type": "Herb"
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb"
+    },
+    {
+      "name": "轻粉",
+      "type": "Herb"
+    },
+    {
+      "name": "白矾",
+      "type": "Herb"
+    },
+    {
+      "name": "朱砂",
+      "type": "Herb"
+    },
+    {
+      "name": "雄黄",
+      "type": "Herb"
+    },
+    {
+      "name": "寒实结胸",
+      "type": "Disease"
+    },
+    {
+      "name": "心腹诸卒暴百病",
+      "type": "Disease"
+    },
+    {
+      "name": "中恶客忤",
+      "type": "Disease"
+    },
+    {
+      "name": "寒癖宿食，久饮不消，大便秘",
+      "type": "Disease"
+    },
+    {
+      "name": "痞结癥瘕",
+      "type": "Disease"
+    },
+    {
+      "name": "阴毒伤寒心结",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿痰喘",
+      "type": "Disease"
+    },
+    {
+      "name": "寒痰气喘",
+      "type": "Disease"
+    },
+    {
+      "name": "夏月水泻不止",
+      "type": "Disease"
+    },
+    {
+      "name": "气痢",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿下痢赤白",
+      "type": "Disease"
+    },
+    {
+      "name": "伏暑伤冷，冷热不调，霍乱吐利，口干烦渴",
+      "type": "Disease"
+    },
+    {
+      "name": "腹大动摇水声，皮肤黑，名曰水臌",
+      "type": "Disease"
+    },
+    {
+      "name": "肝硬化腹水",
+      "type": "Disease"
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease"
+    },
+    {
+      "name": "白喉",
+      "type": "Disease"
+    },
+    {
+      "name": "耳卒聋",
+      "type": "Disease"
+    },
+    {
+      "name": "风虫牙痛",
+      "type": "Disease"
+    },
+    {
+      "name": "一切恶疮",
+      "type": "Disease"
+    },
+    {
+      "name": "一切疮毒及腐化瘀肉",
+      "type": "Disease"
+    },
+    {
+      "name": "荷钱癣疮",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "zhongyibaike.com",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒实结胸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "三物备急丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三物备急丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三物备急丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三物备急丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心腹诸卒暴百病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三物备急丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "中恶客忤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三物备急丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《金匮要略》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒癖宿食，久饮不消，大便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痞结癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴毒伤寒心结",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿痰喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒痰气喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "夏月水泻不止",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿下痢赤白",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伏暑伤冷，冷热不调，霍乱吐利，口干烦渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腹大动摇水声，皮肤黑，名曰水臌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝硬化腹水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白喉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "耳卒聋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风虫牙痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "一切恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "一切疮毒及腐化瘀肉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "荷钱癣疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "针头丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "针头丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《世医得效方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "针头丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "夏月水泻不止",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水浸丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "水浸丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄丹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "水浸丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伏暑伤冷，冷热不调，霍乱吐利，口干烦渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水浸丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "巴豆朱砂膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "巴豆朱砂膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "朱砂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "巴豆朱砂膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "白喉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "巴豆朱砂膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《江苏中医》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "乌金膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴豆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌金膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "一切疮毒及腐化瘀肉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "乌金膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《痈疽神秘验方》",
+      "object_type": "Source"
+    }
+  ]
+}

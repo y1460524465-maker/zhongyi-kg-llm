@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": {
+        "alias": "木芍药、赤芍药、红芍药、草芍药",
+        "effect": "行瘀，止痛，清热凉血，消肿",
+        "indication": "瘀滞经闭，疝瘕积聚，腹痛，胁痛，衄血，血痢，肠风下血，目赤，痈肿",
+        "processing": "1.赤芍：取原药材，除去杂质，分开大小条，洗净，润透，切薄片，干燥。\n2.炒赤芍：取赤芍片置锅内，用文火加热，炒至颜色加深，偶有焦斑，取出放凉。\n3.酒赤芍：取赤芍片,加黄酒拌匀,闷润,置锅内,用文火炒至微黄色,取出,放冷。每赤芍100kg,用黄酒15kg。酒炒制其寒。",
+        "property_flavor": null,
+        "dosage": "内服：煎汤，4~10g；或入丸、散。",
+        "taboo": "不宜与藜芦同用。血虚无瘀之症及痈疽已溃者慎服。",
+        "origin": "本品为毛茛科植物芍药Paeonia lactiflora Pall.或川赤芍Paeonia veitchii Lynch 的干燥根",
+        "place": null,
+        "meridian": null,
+        "traits": "干燥根呈圆柱形，两端粗细近于相等，稍弯曲，长10～36厘米，径约6～19毫米。表面暗褐色或暗棕色，粗糙，有横向凸起的皮孔及根痕，具粗而深的纵皱纹，手搓之则外皮易脱落，显出白色或淡棕色的皮层。质硬而脆，易折断。断面平坦，粉白色或黄白色，皮层窄，呈类粉红色，中央髓部小，木质部射线明显，有时具有裂隙。气微香，味微苦涩。以根条粗长，外皮易脱落，皱纹粗而深，断面白色，粉性大者为佳。"
+      }
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source"
+    },
+    {
+      "name": "《经效产宝》",
+      "type": "Source"
+    },
+    {
+      "name": "《三因方》",
+      "type": "Source"
+    },
+    {
+      "name": "《妇人良方》",
+      "type": "Source"
+    },
+    {
+      "name": "《扁鹊心书》",
+      "type": "Source"
+    },
+    {
+      "name": "《汤液本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《济阴纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《药品化义》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经集注》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草衍义》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "《博济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《事林广记》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《局方》",
+      "type": "Source"
+    },
+    {
+      "name": "《卫生易简方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    },
+    {
+      "name": "《重订严氏济生方》",
+      "type": "Source"
+    },
+    {
+      "name": "《百一选方》",
+      "type": "Source"
+    },
+    {
+      "name": "《传信适用方》",
+      "type": "Source"
+    },
+    {
+      "name": "《单方验方调查资料选编》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "赤芍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤芍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤芍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "赤芍",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

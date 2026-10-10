@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "name": "水獭肝",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养阴，除热，宁嗽，止血",
+        "indication": "虚劳，骨蒸潮热，盗汗，咳嗽，气喘、咯血，夜盲，痔疮下血",
+        "dosage": "内服：煎汤，3~6 g；或入丸、散",
+        "origin": "《本草经疏》"
+      }
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水獭肝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴，除热，宁嗽，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水獭肝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水獭肝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸潮热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水獭肝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水獭肝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水獭肝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水獭肝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水獭肝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "夜盲",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水獭肝",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水獭肝",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "马钱子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "番木鳖、苦实把豆儿、火失刻把都、苦实、马前、马前子、牛银",
+        "effect": "通络止痛，散结消肿",
+        "indication": "咽喉痹痛，痈疽肿毒，风痹疼痛，骨折。并治面神经麻痹，重症肌无力",
+        "processing": "马钱子粉：取砂子，置锅内炒热，加入拣净的马钱子，炒至呈深黄色并鼓起，取出，筛去砂子，刮去毛，研粉。\n油马钱子：取拣净的马钱子，加水煮沸，取出，再用水浸泡，捞出，刮去皮毛，微晾，切成薄片。另取麻油少许，置锅内烧热，加入马钱子片，炒至微黄色，取出，放凉。",
+        "dosage": "内服：炮制后入丸、散，每次0.2~0.6g。大剂量0.9g。\n外用：适量，研末撒，浸水，醋磨、煎油涂敷或熬膏摊贴。内服，如按其成分番鳖碱（士的宁）计算，一次量控制在6mg为宜。",
+        "origin": "为马钱科植物马钱的成熟种子",
+        "place": "主产印度、越南、缅甸等地",
+        "property_flavor": "味极苦",
+        "taboo": "马钱子毒性大，内服必须炮制。如服过量中毒，出现颈项僵硬，瞳孔散大，呼吸急促与困难，甚至抽搐，角弓反张，痉笑等症状出现。\n（1）立即给乙醚吸入作轻度麻醉，或用中、短时或超短时作用的巴比妥类药物，如戊巴比妥钠0.1～0.3克、环已巴比妥钠0.2克或硫喷妥钠0.2克作经脉注射，以制止惊厥。亦可用10％水合氯醛20毫升保留灌肠。禁用吗啡，因其能引起惊厥。\n（2）吞服的毒物在数分钟内未完全吸收时，可于麻醉情况下，用1:2000高锰酸钾溶液洗胃。吞服过久或已发生惊厥者，不应洗胃。\n（3）置暗室，防止外冷刺激，减少诱发惊厥的因素。"
+      }
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "马钱科",
+      "type": "Source"
+    },
+    {
+      "name": "Symptom",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马钱子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通络止痛，散结消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马钱子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马钱子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马钱子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风痹疼痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马钱子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马钱子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面神经麻痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马钱子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "重症肌无力",
+      "object_type": "Disease"
+    }
+  ]
+}

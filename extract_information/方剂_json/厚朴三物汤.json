@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "name": "厚朴三物汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "行气泄满",
+        "indication": "实热内积，气滞不行，腹部胀满疼痛，大便不通",
+        "usage": "上三味，以水1.2升，先煮厚朴、枳实二味，取500毫升，纳大黄，煮取300毫升，温服100毫升。以利为度。"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "24克",
+        "effect": "行气消满"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克",
+        "effect": "泻热导滞"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "泻热导滞"
+      }
+    },
+    {
+      "name": "小承气汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "荡积攻实"
+      }
+    },
+    {
+      "name": "伤寒论",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "厚朴三物汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "实热内积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "厚朴三物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹部胀满疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴三物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "厚朴三物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴三物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴三物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴三物汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "伤寒论",
+      "object_type": "Source"
+    }
+  ]
+}

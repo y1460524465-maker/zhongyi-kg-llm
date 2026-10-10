@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "黄连解毒汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "火剂汤",
+        "effect": "清热解毒",
+        "indication": "一切实热火毒，三焦热盛之证。大热烦躁，口燥咽干，错语，不眠；或热病吐血、衄血；或热甚发斑，身热下痢，湿热黄疸；外科痈疽疔毒，小便赤黄，舌红苔黄，脉数有力",
+        "taboo": "本方为大苦大寒之剂，久服或过量易伤脾胃，非火盛者以及津液受损严重者均不宜食用",
+        "usage": "上四味切，以水六升，煮取二升，分二服"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "栀子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄连解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连解毒汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄连解毒汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《脉因证治》",
+      "object_type": "Source"
+    }
+  ]
+}

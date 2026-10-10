@@ -1,0 +1,175 @@
+{
+  "entities": [
+    {
+      "name": "桂附理中丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补肾助阳，温中健脾",
+        "indication": "肾阳衰弱，脾胃虚寒，脘腹冷痛，呕吐泄泻，四肢厥冷",
+        "taboo": null,
+        "usage": "用姜汤或温开水送服。一次1丸，一日2次"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "附片",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30g"
+      }
+    },
+    {
+      "name": "党参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90g"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90g"
+      }
+    },
+    {
+      "name": "炮姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90g"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "90g"
+      }
+    },
+    {
+      "name": "肾阳衰弱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脾胃虚寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脘腹冷痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕吐泄泻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢厥冷",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/桂附理中丸",
+      "object_type": "Source"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "党参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炮姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "补肾助阳，温中健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阳衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾胃虚寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂附理中丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢厥冷",
+      "object_type": "Symptom"
+    }
+  ]
+}

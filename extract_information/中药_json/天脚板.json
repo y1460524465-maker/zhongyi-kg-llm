@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "天脚板",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，消肿止痛",
+        "dosage": "内服：煎汤，9-15克。外用：适量，捣敷；或绞汁搽；或研末调涂",
+        "indication": "痈疽肿毒，痔疮，水火烫伤，冻伤，跌打损伤",
+        "origin": "为山茱萸科植物桃叶珊瑚的叶",
+        "place": "湖北，四川、云南、贵州、福建、广东及台湾等地",
+        "alias": "桃叶珊瑚、植楠树",
+        "processing": ""
+      }
+    },
+    {
+      "name": "《中国药植图鉴》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天脚板",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天脚板",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疽肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天脚板",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天脚板",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水火烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天脚板",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "冻伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天脚板",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天脚板",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国药植图鉴》",
+      "object_type": "Source"
+    }
+  ]
+}

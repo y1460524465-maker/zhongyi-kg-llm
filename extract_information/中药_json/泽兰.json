@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {
+      "name": "泽兰",
+      "type": "Herb",
+      "attributes": {
+        "alias": "地瓜儿苗、地笋、方梗泽兰",
+        "effect": "活血痛经，利水消肿",
+        "indication": "经闭，癥瘕，产后瘀滞腹痛，身面浮肿，跌扑损伤，金疮，痈肿",
+        "origin": "唇形科植物地瓜儿苗Lycopus lucidus Turcz. var.hirtus Regel的干燥地上部分",
+        "place": "全国大部地区均产",
+        "processing": "除去杂质，略洗，润透，切段，干燥",
+        "property_flavor": "味淡",
+        "dosage": "6~12g",
+        "taboo": "血虚枯秘者禁用"
+      }
+    }
+  ],
+  "relations": []
+}

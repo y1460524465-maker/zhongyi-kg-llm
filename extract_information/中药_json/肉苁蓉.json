@@ -1,0 +1,212 @@
+{
+  "entities": [
+    {
+      "name": "肉苁蓉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肾，益精，润燥，滑肠",
+        "indication": "主治男子阳痿，女子不孕，带下，血崩，腰膝冷痛，血枯便秘",
+        "usage": "内服：煎汤，10~15g；或入丸、散；或浸酒",
+        "taboo": "胃弱便溏，相火旺者忌服",
+        "property_flavor": "味甜，略苦",
+        "origin": "为列当科植物肉苁蓉的肉质茎"
+      }
+    },
+    {
+      "name": "肉苁蓉",
+      "type": "Herb",
+      "attributes": {
+        "alias": "肉松蓉、黑司令、纵蓉、地精、马足、马芝、大芸、寸芸"
+      }
+    },
+    {
+      "name": "阳痿",
+      "type": "Disease"
+    },
+    {
+      "name": "女子不孕",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "血崩",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰膝冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "血枯便秘",
+      "type": "Symptom"
+    },
+    {
+      "name": "补肾",
+      "type": "Effect"
+    },
+    {
+      "name": "益精",
+      "type": "Effect"
+    },
+    {
+      "name": "润燥",
+      "type": "Effect"
+    },
+    {
+      "name": "滑肠",
+      "type": "Effect"
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "胃弱便溏",
+      "type": "Symptom"
+    },
+    {
+      "name": "相火旺",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滑肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "女子不孕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血枯便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃弱便溏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉苁蓉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "相火旺",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,597 @@
+{
+  "entities": [
+    {
+      "name": "续断",
+      "type": "Herb",
+      "attributes": {
+        "alias": "龙豆、属折、接骨、南草、接骨草、鼓锤草、和尚头、川断、川萝卜根、马蓟、黑老鸦头、小续断、山萝卜",
+        "effect": "补肝肾，续筋骨，调血脉，续折伤，止崩漏",
+        "indication": "主治腰背酸痛，足膝无力，胎漏，崩漏，带下，遗精，跌打损伤，金疮，痔漏，痈疽疮肿",
+        "dosage": "内服：煎汤，6~15g；或入丸、散。外用：鲜品适量，捣敷",
+        "property_flavor": "味苦，微甜而后涩",
+        "processing": "续断：洗净泥沙，除去残留根头，润透后切片晒干，筛去屑。炒续断：取续断片入锅内以文火炒至微焦为度。盐续断：取续断片入锅内，加入盐水拌炒至干透为度。(每续断片100斤，用食盐20斤加开水适量化水)酒续断：取续断片用酒拌匀吸干，入锅内以文火炒干为度。(每续断片100斤，用黄酒20斤)",
+        "origin": "为川续断科植物川续断的根",
+        "taboo": "1.《本草经集注》：地黄为之使。恶雷丸。2.《得配本草》：初痢勿用，怒气郁者禁用。"
+      }
+    },
+    {
+      "name": "腰背酸痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "足膝无力",
+      "type": "Symptom"
+    },
+    {
+      "name": "胎漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "金疮",
+      "type": "Disease"
+    },
+    {
+      "name": "痔漏",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疽疮肿",
+      "type": "Disease"
+    },
+    {
+      "name": "补肝肾",
+      "type": "Effect"
+    },
+    {
+      "name": "续筋骨",
+      "type": "Effect"
+    },
+    {
+      "name": "调血脉",
+      "type": "Effect"
+    },
+    {
+      "name": "续折伤",
+      "type": "Effect"
+    },
+    {
+      "name": "止崩漏",
+      "type": "Effect"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "腰膝酸软",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚酸腿软",
+      "type": "Symptom"
+    },
+    {
+      "name": "妊娠胎动",
+      "type": "Symptom"
+    },
+    {
+      "name": "滑胎",
+      "type": "Disease"
+    },
+    {
+      "name": "打扑伤损",
+      "type": "Disease"
+    },
+    {
+      "name": "产后血晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳汁不行",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳痈",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "气滞腰卒痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌扑折伤",
+      "type": "Disease"
+    },
+    {
+      "name": "精滑",
+      "type": "Symptom"
+    },
+    {
+      "name": "下元虚冷",
+      "type": "Disease"
+    },
+    {
+      "name": "疝气",
+      "type": "Disease"
+    },
+    {
+      "name": "妇人经脉不调",
+      "type": "Disease"
+    },
+    {
+      "name": "妊娠风入胞门",
+      "type": "Disease"
+    },
+    {
+      "name": "下血久不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "绝伤",
+      "type": "Disease"
+    },
+    {
+      "name": "诸温毒",
+      "type": "Disease"
+    },
+    {
+      "name": "癥结瘀血",
+      "type": "Disease"
+    },
+    {
+      "name": "肠风",
+      "type": "Disease"
+    },
+    {
+      "name": "痔瘘",
+      "type": "Disease"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "扑损",
+      "type": "Disease"
+    },
+    {
+      "name": "面黄虚肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "泄精",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "子宫冷",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "赤白便浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "一切无名肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "杨梅",
+      "type": "Disease"
+    },
+    {
+      "name": "天泡诸疮",
+      "type": "Disease"
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰背酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "足膝无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "金疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "续筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调血脉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "续折伤",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止崩漏",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "酒续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "盐续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚酸腿软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妊娠胎动",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "滑胎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "打扑伤损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后血晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不行",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气滞腰卒痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌扑折伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "精滑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下元虚冷",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人经脉不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠风入胞门",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下血久不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "绝伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "诸温毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥结瘀血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔瘘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扑损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面黄虚肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泄精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "子宫冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤白便浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "一切无名肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "杨梅",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "续断",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "天泡诸疮",
+      "object_type": "Disease"
+    }
+  ]
+}

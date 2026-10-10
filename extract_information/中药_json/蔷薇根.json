@@ -1,0 +1,238 @@
+{
+  "entities": [
+    {
+      "name": "蔷薇根",
+      "type": "Herb",
+      "attributes": {
+        "property_flavor": "苦、涩，凉",
+        "meridian": "脾、胃、肾经",
+        "effect": "祛除风湿，活血通络，缩尿，敛疮",
+        "indication": "风湿痹痛，半身不遂，尿频，遗尿，烫伤",
+        "usage": "内服：煎汤，10-15g；研末，1.5-3g；或鲜品捣，绞汁。外用：适量，研粉敷；或煎水含漱"
+      }
+    },
+    {
+      "name": "关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "半身瘫痪",
+      "type": "Disease"
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease"
+    },
+    {
+      "name": "小便失禁",
+      "type": "Symptom"
+    },
+    {
+      "name": "白带",
+      "type": "Symptom"
+    },
+    {
+      "name": "口腔糜烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿遗尿",
+      "type": "Disease"
+    },
+    {
+      "name": "老人尿频",
+      "type": "Disease"
+    },
+    {
+      "name": "妇女月经过多",
+      "type": "Disease"
+    },
+    {
+      "name": "习惯性鼻衄",
+      "type": "Disease"
+    },
+    {
+      "name": "夏天热疖",
+      "type": "Disease"
+    },
+    {
+      "name": "烫伤",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打劳伤",
+      "type": "Disease"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔疮出血",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛除风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血通络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "缩尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "半身不遂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿频",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遗尿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "半身瘫痪",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便失禁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口腔糜烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿遗尿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "老人尿频",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女月经过多",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "习惯性鼻衄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "夏天热疖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打劳伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蔷薇根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

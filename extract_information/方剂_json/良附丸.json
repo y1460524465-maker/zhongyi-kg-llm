@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "良附丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "行气疏肝，散寒止痛",
+        "indication": "气滞寒凝证。胃脘疼痛，胸闷胁痛，畏寒喜热，以及妇女痛经",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "高良姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "香附子",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "良附丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "高良姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "良附丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "良附丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "行气疏肝，散寒止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "良附丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气滞寒凝证",
+      "object_type": "Disease"
+    }
+  ]
+}

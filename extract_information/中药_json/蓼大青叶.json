@@ -1,0 +1,102 @@
+{
+  "entities": [
+    {
+      "name": "蓼大青叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，凉血消斑",
+        "indication": "温病发热，发斑发疹，肺热咳喘，喉痹，痄腮，丹毒，痈肿",
+        "dosage": "内服:煎汤，9～15g，鲜品15~30g;外用:鲜品适量，捣烂敷患处",
+        "origin": "蓼科植物蓼蓝的干燥叶",
+        "place": "辽宁、河北、陕西、山东等地，现东北至广东均有野生或少有种植",
+        "traits": "叶片多皱缩或破碎，蓝绿色或蓝黑色，中脉土黄色至淡黄棕色。完整叶片椭圆形，长3-10cm，宽2-5cm，先端钝，基部渐窄，全缘，叶脉背面较突出，侧脉明显，色较浅；叶柄扁平，长约1cm，基部抱茎，具膜质托叶鞘。质脆，易碎。气微弱，味淡微苦。以身干、叶厚、色蓝绿，无枝梗者为佳"
+      }
+    },
+    {
+      "name": "温病发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "发斑发疹",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺热咳喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "喉痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "痄腮",
+      "type": "Disease"
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蓼大青叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒，凉血消斑",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蓼大青叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "温病发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓼大青叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发斑发疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓼大青叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓼大青叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蓼大青叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痄腮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓼大青叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蓼大青叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    }
+  ]
+}

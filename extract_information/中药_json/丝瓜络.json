@@ -1,0 +1,113 @@
+{
+  "entities": [
+    {
+      "name": "丝瓜络",
+      "type": "Herb",
+      "attributes": {
+        "effect": "通经活络，清热化痰",
+        "indication": "胸胁疼痛，腹痛，腰痛，睾丸肿痛，肺热痰咳，妇女经闭，乳汁不通，痈肿，痔漏",
+        "taboo": null,
+        "dosage": "内服：煎汤，5~15g；或烧存性研末，每次1.5~3g。外用：适量，煅存性研末调敷",
+        "property_flavor": "味淡",
+        "processing": "1.丝瓜络：洗净晒干，切段。2.炒丝瓜络：取切成小段的丝瓜络，用麸皮拌炒至黄色为度，取出，筛去麸皮。3.丝瓜络炭：取切成小段的丝瓜络，盛锅内（装满为度），上覆同样大小的锅一只，两锅结合处以黄泥封严，然后用微火烧煅约4~5小时停火（一般用白纸贴在上面锅底上，纸呈焦黄色时为煅透），候冷取出。",
+        "meridian": null,
+        "origin": "本品为葫芦科植物丝瓜Luffa cylindrica （L.）Roem. 的干燥成熟果实的维管束。",
+        "place": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通经活络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "睾丸肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热痰咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "丝瓜络",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    }
+  ]
+}

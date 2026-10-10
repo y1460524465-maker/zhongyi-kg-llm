@@ -1,0 +1,173 @@
+{
+  "entities": [
+    {
+      "name": "济生肾气丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温肾化气，利水消肿",
+        "usage": "口服，水蜜丸一次6g，小蜜丸一次9g，大蜜丸一次1丸，一日2～3次"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "160g"
+      }
+    },
+    {
+      "name": "山茱萸 (制)",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "120g"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "附子(制)",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20g"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g"
+      }
+    },
+    {
+      "name": "车前子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "40g"
+      }
+    },
+    {
+      "name": "肾虚水肿",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温肾化气，利水消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸 (制)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子(制)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "济生肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "车前子",
+      "object_type": "Herb"
+    }
+  ]
+}

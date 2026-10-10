@@ -1,0 +1,197 @@
+{
+  "entities": [
+    {
+      "name": "肾气丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "八味肾气丸、崔氏八味丸、金匮肾气丸、桂附八味丸、桂附地黄丸",
+        "effect": "温补肾气",
+        "indication": "肾气不足，腰酸脚软，肢体畏寒，少腹拘急，小便不利或频数，舌质淡胖，尺脉沉细；及痰饮喘咳，水肿脚气，消渴，久泄。现用于糖尿病、甲状腺功能低下、慢性肾炎、肾上腺皮质功能减退及支气管哮喘等属于肾气不足者",
+        "taboo": "如有咽干、口燥、舌红、少苔等肾阴不足，肾火上炎症状者不宜用",
+        "usage": "每服15丸，用酒送下，加至20丸，一日三次"
+      }
+    },
+    {
+      "name": "金匮要略",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "金匮要略·中风历节篇",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "内科摘要",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "医方集解",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "医宗金鉴",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "干地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "128克"
+      }
+    },
+    {
+      "name": "薯蓣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "64克"
+      }
+    },
+    {
+      "name": "山茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "64克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48克"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48克"
+      }
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "48克"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "16克",
+        "processing": "炮"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "金匮要略",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "金匮要略·中风历节篇",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "内科摘要",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "医方集解",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "医宗金鉴",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温补肾气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薯蓣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "肾气丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    }
+  ]
+}

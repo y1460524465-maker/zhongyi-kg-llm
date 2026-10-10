@@ -1,0 +1,522 @@
+{
+  "entities": [
+    {
+      "name": "棕榈皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "收涩止血",
+        "indication": "治吐血，衄血，便血，血淋，尿血，下痢，血崩，带下，金疮，疥癣",
+        "dosage": "内服：煎汤，9~15 g；研末,3~6 g",
+        "taboo": "《本草经疏》：暴得吐血，瘀滞方动；暴得崩中，恶霉未竭；湿热下痢初发；肠风带下方炽，悉不宜遽用。即用亦无效。",
+        "meridian": "肝、脾二经"
+      }
+    },
+    {
+      "name": "棕榈炭",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈棕皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "棕骨",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "陈棕",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "棕榈散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "棕榈皮散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "棕毛散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "棕灰散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "棕艾散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《要药分剂》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《简易方论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《鸡峰普济方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《百一选方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《妇人良方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《近效方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《卫生家宝方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《摄生众妙方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《江西草药》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收涩止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血崩",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "金疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻血不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久鼻衄不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇人崩中",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇人经血不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤白带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妊娠胎动",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠风泻血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水谷痢下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血淋不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕榈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "刺蓟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕榈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桦皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕榈散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕榈散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《鸡峰普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈皮散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕榈皮散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕榈皮散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕毛散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕毛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕毛散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒲黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕毛散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "原蚕沙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕灰散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕灰散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕艾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "棕榈灰",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕艾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟艾",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕艾散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "棕艾散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕毛",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《要药分剂》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈灰",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《简易方论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《百一选方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《妇人良方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《近效方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕榈皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《卫生家宝方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "棕树皮毛",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《摄生众妙方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鲜棕榈皮",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江西草药》",
+      "object_type": "Source"
+    }
+  ]
+}

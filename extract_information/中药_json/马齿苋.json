@@ -1,0 +1,219 @@
+{
+  "entities": [
+    {
+      "name": "马齿苋",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，10~15g，鲜品30~60g；或绞汁。外用：适量，捣敷；烧灰研末调敷；或煎水洗。",
+        "effect": "清热利湿，凉血解毒，止痢，止血",
+        "indication": "热痢脓血，热淋，血淋，带下，痈肿恶疮，丹毒，痕疬。用于湿热所致的腹泻、痢疾，亦用于便血、子宫出血。",
+        "meridian": null,
+        "origin": "马齿苋科植物马齿苋Portulaca oleracea L.的干燥地上部分",
+        "place": null,
+        "processing": "夏、秋二季采收，除去残根及杂质，洗净，略蒸或烫后晒干",
+        "property_flavor": "味微酸，气微",
+        "taboo": "《本草经疏》：凡脾胃虚寒，肠滑作泄者勿用；煎饵方中不得与鳖甲同入。",
+        "traits": "本品多皱缩卷曲，常结成团。茎圆柱形，长可达30cm，表面黄褐色，有明显纵沟纹。叶对生或互生，易破碎，完整叶片倒卵形，绿褐色。"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日用本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热痢脓血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿恶疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "丹毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "子宫出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": null,
+      "object_type": "Herb"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日用本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药性备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "马齿苋",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    }
+  ]
+}

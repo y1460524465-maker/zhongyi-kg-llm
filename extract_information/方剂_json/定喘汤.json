@@ -1,0 +1,232 @@
+{
+  "entities": [
+    {
+      "name": "定喘汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "降气平喘，化痰止咳，清热化痰",
+        "indication": "哮喘。咳嗽痰多气急，痰稠色黄，微恶风寒，舌苔黄腻，脉滑数。",
+        "taboo": "寒痰用小青龙",
+        "usage": null
+      }
+    },
+    {
+      "name": "白果",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "苏子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "款冬花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桑白皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "哮喘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽痰多气急",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰稠色黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "微恶风寒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔黄腻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉滑数",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽痰多气急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰稠色黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "微恶风寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔黄腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉滑数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白果",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苏子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "款冬花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桑白皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "定喘汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "哮喘",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽痰多气急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "哮喘",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "痰稠色黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "哮喘",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "微恶风寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "哮喘",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌苔黄腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "哮喘",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉滑数",
+      "object_type": "Symptom"
+    }
+  ]
+}

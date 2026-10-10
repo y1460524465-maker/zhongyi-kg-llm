@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "猫人参",
+      "type": "Herb",
+      "attributes": {
+        "alias": "猫气藤，痈草，沙梨藤，糯米饭藤",
+        "effect": "清热解毒，消肿",
+        "indication": "用于呼吸道感染，夏季热，白带，痈肿疮疖，麻风病",
+        "dosage": "内服：煎汤，30-60g"
+      }
+    }
+  ],
+  "relations": []
+}

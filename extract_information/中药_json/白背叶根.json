@@ -1,0 +1,191 @@
+{
+  "entities": [
+    {
+      "name": "白背叶根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15-30g",
+        "effect": "清热祛湿，收涩，消瘀",
+        "indication": "肝炎，肠炎，淋浊，带下，脱肛，子宫下垂，肝脾肿大，跌打扭伤",
+        "taboo": null,
+        "property_flavor": null,
+        "meridian": null,
+        "origin": "《岭南草药志》",
+        "place": "陕西、江苏、安徽、浙江、江西、福建、河南、湖南、广西、广东、海南、贵州、云南",
+        "processing": "夏、秋季采收，洗净，鲜用，或切片晒干",
+        "traits": null
+      }
+    },
+    {
+      "name": "白膜根",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《岭南草药志》"
+      }
+    },
+    {
+      "name": "白朴根",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《岭南草药志》"
+      }
+    },
+    {
+      "name": "野桐根",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《闽南民间草药》"
+      }
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肠炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "淋浊",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "带下",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脱肛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "子宫下垂",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肝脾肿大",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "跌打扭伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "茯神",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "子宫下垂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝脾肿大",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打扭伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热祛湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "收涩",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南草药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯神",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白背叶根",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    }
+  ]
+}

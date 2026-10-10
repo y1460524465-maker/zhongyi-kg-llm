@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "胡桃壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "止血止痢，散结消痈，杀虫止痒",
+        "indication": "主妇女崩漏，痛经，久痢，疟母，乳痈，疥癣，鹅掌风",
+        "usage": "内服：煎汤，9-15g；或煅存性研末，每次3-6g",
+        "dosage": "内服：煎汤，9-15g；或煅存性研末，每次3-6g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "胡桃壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血止痢，散结消痈，杀虫止痒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胡桃壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡桃壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡桃壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡桃壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疟母",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡桃壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳痈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡桃壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疥癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡桃壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鹅掌风",
+      "object_type": "Symptom"
+    }
+  ]
+}

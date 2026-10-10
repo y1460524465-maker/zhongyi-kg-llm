@@ -1,0 +1,102 @@
+{
+  "entities": [
+    {
+      "name": "披麻草根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "散瘀消肿，镇痛止血，祛痰，开窍",
+        "indication": "跌打损伤，骨折，截瘫，癫痫，风湿疼痛，创伤出血",
+        "property_flavor": "麻苦，凉，剧毒",
+        "dosage": "研末，每次0.03-0.06g；或浸酒",
+        "taboo": "忌与人参、玄参、丹参、沙参、党参、苦参、细辛、芍药等配伍使用",
+        "origin": "《云南中草药》"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇痛止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "开窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "截瘫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿疼痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "创伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "披麻草根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "云南中草药",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "高丽参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "大补元气、滋补强壮、生津止渴、宁神益智",
+        "indication": "惊悸失眠，体虚，心力衰竭、心源性休克",
+        "taboo": "畏五灵脂,反藜芦。禁与萝卜同食",
+        "property_flavor": "味微苦后甘甜",
+        "origin": "五加科植物人参带根茎的根，经加工蒸制而成",
+        "place": "北朝鲜，南朝鲜",
+        "processing": "蒸制"
+      }
+    }
+  ],
+  "relations": []
+}

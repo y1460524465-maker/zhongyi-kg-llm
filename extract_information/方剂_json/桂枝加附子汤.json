@@ -1,0 +1,205 @@
+{
+  "entities": [
+    {
+      "name": "桂枝加附子汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "调和营卫，固表扶阳",
+        "indication": "太阳病发汗太过致汗出不止，恶风小便少而不畅，四肢微急，难以屈伸者；表虚漏汗，顽固性盗汗，窦性心动过缓，小儿虚脱，乙型肝炎等",
+        "usage": "上六味，以水700毫升，煮取300毫升，去滓，每次，100毫升，温服。调养如桂枝汤法"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3枚"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "汗出不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶风",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便少而不畅",
+      "type": "Symptom"
+    },
+    {
+      "name": "四肢微急",
+      "type": "Symptom"
+    },
+    {
+      "name": "表虚漏汗",
+      "type": "Disease"
+    },
+    {
+      "name": "顽固性盗汗",
+      "type": "Disease"
+    },
+    {
+      "name": "窦性心动过缓",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿虚脱",
+      "type": "Disease"
+    },
+    {
+      "name": "乙型肝炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "调和营卫，固表扶阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "表虚漏汗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "顽固性盗汗",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "窦性心动过缓",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿虚脱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "乙型肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "汗出不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便少而不畅",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桂枝加附子汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢微急",
+      "object_type": "Symptom"
+    }
+  ]
+}

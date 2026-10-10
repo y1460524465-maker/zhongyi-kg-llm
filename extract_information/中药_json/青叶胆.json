@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {
+      "name": "青叶胆",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肝利胆，清热利湿",
+        "indication": "肝胆湿热，黄疸尿赤，胆胀胁痛，热淋涩痛",
+        "property_flavor": "苦、甘，寒",
+        "meridian": "归肝、胆、膀胱经",
+        "dosage": "内服：煎汤，10～15g\n外用：适量，鲜品捣敷或煎水洗",
+        "origin": "龙胆科植物青叶胆的干燥全草",
+        "processing": "除去杂质，喷淋清水，稍润，切段，干燥"
+      }
+    }
+  ],
+  "relations": []
+}

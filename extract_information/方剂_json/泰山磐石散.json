@@ -1,0 +1,266 @@
+{
+  "entities": [
+    {
+      "name": "泰山磐石散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "气血虚弱所致的堕胎、滑胎。胎动不安，或屡有堕胎宿疾，面色淡白，倦怠乏力，不思饮食，舌淡苔薄白，脉滑无力。",
+        "usage": "上用水一盅半，煎至七分，食远服。但觉有孕，三五日常用一服，四月之后，方无虑也。"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2克"
+      }
+    },
+    {
+      "name": "白芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "川续断",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "糯米",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.5克"
+      }
+    },
+    {
+      "name": "堕胎",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "滑胎",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胎动不安",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "面色淡白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "倦怠乏力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "不思饮食",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "气血虚弱",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川续断",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "糯米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "泰山磐石散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气血虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "气血虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "堕胎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气血虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "滑胎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气血虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胎动不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气血虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "面色淡白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气血虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "倦怠乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气血虚弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "不思饮食",
+      "object_type": "Symptom"
+    }
+  ]
+}

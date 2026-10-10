@@ -1,0 +1,199 @@
+{
+  "entities": [
+    {
+      "name": "黄连阿胶汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴降火安神",
+        "indication": "心肾不足，阴虚火旺较重的心烦失眠，舌红苔燥，脉细数者",
+        "taboo": null,
+        "usage": "上5味，以水6升，先煮3物，取2升，去滓，纳胶烊尽，小冷，纳鸡子黄，搅令相得"
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "鸡子黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3两（1云3挺）",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "心烦失眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红苔燥",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉细数",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心肾不足",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阴虚火旺",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴降火安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心肾不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚火旺",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌红苔燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄连阿胶汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉细数",
+      "object_type": "Symptom"
+    }
+  ]
+}

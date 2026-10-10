@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "name": "甘草梢",
+      "type": "Herb",
+      "attributes": {
+        "effect": "泻火解毒，利尿通淋",
+        "indication": "热淋，小便短少，阴茎中疼痛，胸中积热",
+        "dosage": "内服：煎汤，1.5-4.5g",
+        "origin": "豆科植物甘草的根的末梢部分或细根"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甘草梢",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻火解毒，利尿通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘草梢",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘草梢",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便短少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘草梢",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴茎中疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘草梢",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中积热",
+      "object_type": "Symptom"
+    }
+  ]
+}

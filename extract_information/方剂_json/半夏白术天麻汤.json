@@ -1,0 +1,103 @@
+{
+  "entities": [
+    {
+      "name": "半夏白术天麻汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "燥湿化痰，平肝熄风",
+        "indication": "风痰上扰证。眩晕头痛，胸闷呕恶，舌苔白腻，脉弦滑等。",
+        "alias": null,
+        "taboo": "热盛阴亏切莫尝",
+        "usage": null
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "天麻",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "橘红",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "半夏白术天麻汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏白术天麻汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏白术天麻汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏白术天麻汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘红",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏白术天麻汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏白术天麻汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏白术天麻汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿化痰，平肝熄风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "半夏白术天麻汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风痰上扰证",
+      "object_type": "Disease"
+    }
+  ]
+}

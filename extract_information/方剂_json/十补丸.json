@@ -1,0 +1,185 @@
+{
+  "entities": [
+    {
+      "name": "十补丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": "大补丸",
+        "effect": "温阳补肾，益精髓，进饮食",
+        "indication": "肾阳亏损，下焦虚寒，脐腹强急，腰脚疼痛，遗泄白浊，大便滑泻，小便频数；或三消渴疾，饮食倍常，肌肉消瘦，阳事不举",
+        "usage": "上药研为细末，酒糊为丸，如梧桐子大。每服30～50丸，温酒或盐汤送下"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "巴戟",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "破故纸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "远志",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "赤石脂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "川椒",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克"
+      }
+    },
+    {
+      "name": "肾阳亏损",
+      "type": "Disease"
+    },
+    {
+      "name": "《太平惠民和剂局方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "巴戟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "破故纸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤石脂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川椒",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阳亏损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温阳补肾，益精髓，进饮食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "十补丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平惠民和剂局方》",
+      "object_type": "Source"
+    }
+  ]
+}

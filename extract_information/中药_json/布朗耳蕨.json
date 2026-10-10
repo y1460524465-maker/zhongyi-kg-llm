@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "name": "布朗耳蕨",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，10-15g；研末，3g。外用：适量，研末调搽。",
+        "effect": "清热解毒，止血，杀虫",
+        "indication": "流感，乙脑，痄腮，鼻衄，崩漏，蛲虫病，头疮，白秃",
+        "origin": "为鳞毛蕨种植物布朗耳蕨的全草",
+        "place": "陕西、四川、云南等地",
+        "processing": "8～9月采挖，切段，晒干"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "布朗耳蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "布朗耳蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "布朗耳蕨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "布朗耳蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "流感",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "布朗耳蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乙脑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "布朗耳蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痄腮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "布朗耳蕨",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "布朗耳蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "崩漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "布朗耳蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛲虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "布朗耳蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "布朗耳蕨",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白秃",
+      "object_type": "Disease"
+    }
+  ]
+}

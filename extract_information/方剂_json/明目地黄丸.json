@@ -1,0 +1,263 @@
+{
+  "entities": [
+    {
+      "name": "明目地黄丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋肾，养肝，明目",
+        "indication": "肝肾阴虚，目涩畏光，视物模糊，迎风流泪",
+        "taboo": null,
+        "usage": "口服，水蜜丸一次6g，小蜜丸一次9g，大蜜丸一次1丸，一日2次"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "160g"
+      }
+    },
+    {
+      "name": "山茱萸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "processing": "制"
+      }
+    },
+    {
+      "name": "牡丹皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "山药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "泽泻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "枸杞子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "菊花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "蒺藜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60g"
+      }
+    },
+    {
+      "name": "石决明",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "80g",
+        "processing": "煅"
+      }
+    },
+    {
+      "name": "肝肾阴虚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "目涩畏光",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "视物模糊",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "迎风流泪",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山茱萸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "泽泻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菊花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蒺藜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石决明",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾阴虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目涩畏光",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "视物模糊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "迎风流泪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "明目地黄丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/明目地黄丸",
+      "object_type": "Source"
+    }
+  ]
+}

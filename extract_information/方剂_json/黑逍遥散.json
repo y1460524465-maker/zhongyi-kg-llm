@@ -1,0 +1,257 @@
+{
+  "entities": [
+    {
+      "name": "黑逍遥散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "养血疏肝，健脾和中",
+        "indication": "肝郁血虚，胁痛头眩，或胃脘当心而痛，或肩胛绊痛，或时眼赤痛，连及太阳；及妇人郁怒伤肝，致血妄行，赤白淫闭，沙淋崩浊",
+        "taboo": null,
+        "usage": "生姜、大枣为引，水煎服。血热，加丹皮；阴虚，加牡蛎"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "归身",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "熟地",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "逍遥散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "肝郁血虚",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胁痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头眩",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胃脘当心而痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肩胛绊痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "时眼赤痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "妇人郁怒伤肝",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "血妄行",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "赤白淫闭",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "沙淋",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "崩浊",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "《局方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "归身",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养血疏肝，健脾和中",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝郁血虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胁痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃脘当心而痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肩胛绊痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "时眼赤痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妇人郁怒伤肝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血妄行",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤白淫闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "沙淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑逍遥散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩浊",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "豨莶草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "粘金强子、粘为扎、珠草、棉苍狼",
+        "effect": "祛风湿，利筋骨，降血压",
+        "indication": "治四肢麻痹，筋骨疼痛，腰膝无力，疟疾，急性肝炎，高血压病，疔疮肿毒，外伤出血",
+        "origin": "菊科植物豨莶Siegesbeckia orientalis L.、腺梗豨莶Siegesbeckia pubescens Makino或毛梗豨莶Siegesbeckia glabrescens Makino的干燥地上部分",
+        "taboo": "凡病人患四肢麻痹，骨间疼，腰膝无力，由于肿、肾两亏，阴血不足，不因风湿所中而得者，不宜服之。"
+      }
+    }
+  ],
+  "relations": []
+}

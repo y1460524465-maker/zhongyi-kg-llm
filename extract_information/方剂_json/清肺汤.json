@@ -1,0 +1,173 @@
+{
+  "entities": [
+    {
+      "name": "清肺汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热化痰",
+        "indication": "肺经实热内壅，发热汗出若露，咳嗽气喘，咽中塞如呕状，或唾脓血",
+        "taboo": null,
+        "usage": "上锉为散。每服12克，先以苇叶半握切碎，用水300毫升，煎至230毫升，入药同煎至七分，去滓，空腹时服"
+      }
+    },
+    {
+      "name": "薏苡仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "防己",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "冬瓜子仁",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "鸡子白皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "《三因极一病证方论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "肺经实热内壅",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "汗出",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "气喘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "咽中塞如呕状",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "唾脓血",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清肺汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《三因极一病证方论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "清肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防己",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冬瓜子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肺汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子白皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清肺汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺经实热内壅",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肺经实热内壅",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺经实热内壅",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "汗出",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺经实热内壅",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺经实热内壅",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "气喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺经实热内壅",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咽中塞如呕状",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺经实热内壅",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "唾脓血",
+      "object_type": "Symptom"
+    }
+  ]
+}

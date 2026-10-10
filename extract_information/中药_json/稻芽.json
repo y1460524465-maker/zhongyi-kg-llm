@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "name": "稻芽",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蘖米、谷蘖、稻蘖、稻芽",
+        "effect": "健脾开胃，和中消食",
+        "indication": "宿食不化，胀满，泄泻，不思饮食",
+        "usage": "内服：煎汤，10~15g，大剂量30g；或研末。 炒用长于和中；生用偏于消食",
+        "origin": "本品为禾本植物稻Oryza sativa L.的成熟果实，经加工而发芽者。我国各地均产",
+        "property_flavor": "味微甘"
+      }
+    }
+  ],
+  "relations": []
+}

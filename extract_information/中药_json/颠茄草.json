@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "name": "颠茄草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解痉止痛，抑制分泌",
+        "indication": "胃及十二指溃疡，胆绞痛，恶心呕吐，盗汗，流涎",
+        "origin": "https://zhongyibaike.com/wiki/颠茄草"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "颠茄草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解痉止痛，抑制分泌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "颠茄草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃及十二指溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "颠茄草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胆绞痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "颠茄草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶心呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "颠茄草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "颠茄草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "流涎",
+      "object_type": "Symptom"
+    }
+  ]
+}

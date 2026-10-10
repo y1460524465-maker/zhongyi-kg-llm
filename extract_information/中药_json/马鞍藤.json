@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "马鞍藤",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风，除湿，消痈，散结",
+        "taboo": null,
+        "property_flavor": "辛苦，微寒",
+        "meridian": "肝、脾二经",
+        "indication": "风湿痹痛，痈疽，肿毒，疗疮，痔漏",
+        "dosage": "内服：煎汤，鲜者30-60g",
+        "traits": null,
+        "processing": null,
+        "origin": null,
+        "place": null
+      }
+    },
+    {
+      "name": "二叶红薯",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "taboo": null,
+        "property_flavor": null,
+        "meridian": null,
+        "indication": null,
+        "dosage": null,
+        "traits": null,
+        "processing": null,
+        "origin": null,
+        "place": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马鞍藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞍藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈疽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞍藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞍藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疗疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞍藤",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马鞍藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马鞍藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马鞍藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消痈",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马鞍藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "二叶红薯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二叶红薯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二叶红薯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二叶红薯",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮漏血",
+      "object_type": "Disease"
+    }
+  ]
+}

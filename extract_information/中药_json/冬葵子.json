@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "name": "冬葵子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利尿通淋，滑肠，下乳",
+        "indication": "二便不通，淋病，水肿，妇女乳汁不行，乳房肿痛，大便干燥",
+        "meridian": "大肠经；小肠经；肝经；肺经；胃经；膀胱经",
+        "taboo": "脾虚肠滑者忌服，孕妇慎服",
+        "dosage": "内服：煎汤，6~15g；或入散剂",
+        "origin": "锦葵科植物冬葵的种子",
+        "processing": "生用或捣碎用",
+        "property_flavor": null
+      }
+    },
+    {
+      "name": "冬葵",
+      "type": "Herb",
+      "attributes": {
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "taboo": null,
+        "dosage": null,
+        "origin": null,
+        "processing": null,
+        "property_flavor": null
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "冬葵子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿通淋，滑肠，下乳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "冬葵子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "二便不通",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冬葵子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冬葵子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冬葵子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "大便干燥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "冬葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇女乳汁不行",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "冬葵子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳房肿痛",
+      "object_type": "Symptom"
+    }
+  ]
+}

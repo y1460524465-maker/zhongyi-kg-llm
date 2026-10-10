@@ -1,0 +1,123 @@
+{
+  "entities": [
+    {
+      "name": "蚬肉",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，解毒",
+        "indication": "消渴，目黄，湿毒脚气，疔疮痈肿",
+        "dosage": "内服：煎汤，15-30g；或煮食",
+        "property_flavor": "甘咸，冷，无毒",
+        "origin": "为蚬科动物河蚬等的肉。全年均可捕采，捕后置沸水中烫死，待壳张开，取肉，晒干。",
+        "processing": "全年均可捕采，捕后置沸水中烫死，待壳张开，取肉，晒干。",
+        "traits": "贝壳中等大小，略呈正三角形。壳质稍厚而对硬。成体一般壳长40mm，壳高37mm，壳宽20mm。左、右两壳相等。壳顶被有暗褐色的壳皮，有时稍带黄色。表面生长纹轮状，较老个体壳顶常脱落而露出石灰质。壳内面紫白色。铰合部有主齿3枚，中央者最大。足大，呈舌状。",
+        "place": "我国大部分地区均有分布",
+        "taboo": "多食发嗽及冷气，消肾。遗浊勿食。"
+      }
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "目黄",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿毒脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "疔疮痈肿",
+      "type": "Disease"
+    },
+    {
+      "name": "疔疽恶毒",
+      "type": "Disease"
+    },
+    {
+      "name": "时气",
+      "type": "Disease"
+    },
+    {
+      "name": "暴热",
+      "type": "Symptom"
+    },
+    {
+      "name": "饮食中毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚬肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚬肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚬肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿毒脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚬肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚬肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疽恶毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚬肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚬肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚬肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "时气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚬肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "暴热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚬肉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "饮食中毒",
+      "object_type": "Disease"
+    }
+  ]
+}

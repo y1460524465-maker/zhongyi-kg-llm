@@ -1,0 +1,235 @@
+{
+  "entities": [
+    {
+      "name": "柴葛解肌汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "陶氏柴葛解肌汤",
+        "effect": "辛凉解肌，兼清里热",
+        "usage": "柴胡6g、葛根9g、甘草3g、黄芩6g、羌活3g、白芷3g、芍药6g、桔梗3g"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "葛根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9g"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g"
+      }
+    },
+    {
+      "name": "白芷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g"
+      }
+    },
+    {
+      "name": "感冒风寒，郁而化热证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "恶寒渐轻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身热增盛略有寒热往来之意",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "无汗头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目疼鼻干",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心烦不眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "眼眶痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔薄黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉浮微洪",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柴葛解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴葛解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葛根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴葛解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴葛解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴葛解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "羌活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴葛解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴葛解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴葛解肌汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴葛解肌汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒风寒，郁而化热证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "感冒风寒，郁而化热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "恶寒渐轻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒风寒，郁而化热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身热增盛略有寒热往来之意",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒风寒，郁而化热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "无汗头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒风寒，郁而化热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "目疼鼻干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒风寒，郁而化热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "心烦不眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒风寒，郁而化热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "眼眶痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒风寒，郁而化热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌苔薄黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "感冒风寒，郁而化热证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉浮微洪",
+      "object_type": "Symptom"
+    }
+  ]
+}

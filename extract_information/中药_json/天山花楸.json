@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "name": "天山花楸",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肺止咳，补脾生津",
+        "indication": "肺结核，哮喘咳嗽，胃炎，胃痛，维生素甲、丙缺乏症",
+        "dosage": "煎汤，果实30-60g；嫩枝9-15g",
+        "property_flavor": "嫩枝和皮：味苦，性寒，无毒；果实：味甘苦，性平，无毒",
+        "origin": "蔷薇科",
+        "place": "新疆、青海、甘肃"
+      }
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease"
+    },
+    {
+      "name": "哮喘咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃炎",
+      "type": "Disease"
+    },
+    {
+      "name": "胃痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "维生素甲、丙缺乏症",
+      "type": "Disease"
+    },
+    {
+      "name": "《新疆中草药手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "天山花楸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天山花楸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "哮喘咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天山花楸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天山花楸",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "天山花楸",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "维生素甲、丙缺乏症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "天山花楸",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺止咳，补脾生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "天山花楸",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《新疆中草药手册》",
+      "object_type": "Source"
+    }
+  ]
+}

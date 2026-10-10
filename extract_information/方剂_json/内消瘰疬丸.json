@@ -1,0 +1,276 @@
+{
+  "entities": [
+    {
+      "name": "内消瘰疬丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热解毒，燥湿泻火。软坚散结，利尿通淋",
+        "indication": "目齿肿痛，头痛眩晕及瘰疬瘿瘤",
+        "taboo": "孕妇忌用。大便稀溏者慎用",
+        "usage": "口服，一次8丸，一日3次"
+      }
+    },
+    {
+      "name": "夏枯草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200g"
+      }
+    },
+    {
+      "name": "玄参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "125g"
+      }
+    },
+    {
+      "name": "大青盐",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "海藻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "浙贝母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "天花粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "蛤壳(煅)",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "白蔹",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "熟大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "地黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    },
+    {
+      "name": "玄明粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "25g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "夏枯草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大青盐",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海藻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "浙贝母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天花粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蛤壳(煅)",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蔹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄明粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "软坚散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬痰核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "内消瘰疬丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "颈项瘿瘤",
+      "object_type": "Disease"
+    }
+  ]
+}

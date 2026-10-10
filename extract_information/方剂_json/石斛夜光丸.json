@@ -1,0 +1,273 @@
+{
+  "entities": [
+    {
+      "name": "石斛夜光丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴补肾，清肝明目",
+        "indication": "肝肾两亏，阴虚火旺引起的内障目暗，视物昏花",
+        "taboo": null,
+        "usage": "口服，水蜜丸一次6g，小蜜丸一次9g，大蜜丸一次1丸，一日2次"
+      }
+    },
+    {
+      "name": "石斛",
+      "type": "Herb"
+    },
+    {
+      "name": "人参",
+      "type": "Herb"
+    },
+    {
+      "name": "山药",
+      "type": "Herb"
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "肉苁蓉",
+      "type": "Herb"
+    },
+    {
+      "name": "枸杞子",
+      "type": "Herb"
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb"
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb"
+    },
+    {
+      "name": "生地黄",
+      "type": "Herb"
+    },
+    {
+      "name": "麦冬",
+      "type": "Herb"
+    },
+    {
+      "name": "五味子",
+      "type": "Herb"
+    },
+    {
+      "name": "天冬",
+      "type": "Herb"
+    },
+    {
+      "name": "苦杏仁",
+      "type": "Herb"
+    },
+    {
+      "name": "防风",
+      "type": "Herb"
+    },
+    {
+      "name": "川芎",
+      "type": "Herb"
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb"
+    },
+    {
+      "name": "黄连",
+      "type": "Herb"
+    },
+    {
+      "name": "肝肾两亏",
+      "type": "Disease"
+    },
+    {
+      "name": "阴虚火旺",
+      "type": "Disease"
+    },
+    {
+      "name": "内障目暗",
+      "type": "Symptom"
+    },
+    {
+      "name": "视物昏花",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝肾两亏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚火旺",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "内障目暗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "视物昏花",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴补肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清肝明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石斛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉苁蓉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "防风",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "石斛夜光丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    }
+  ]
+}

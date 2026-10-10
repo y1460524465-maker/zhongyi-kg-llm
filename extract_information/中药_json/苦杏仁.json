@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "苦杏仁",
+      "type": "Herb",
+      "attributes": {
+        "effect": "降气，祛痰止咳，平喘，润肠",
+        "indication": "外感咳嗽，喘满，喉痹，肠燥便秘",
+        "dosage": "煎汤，3~10g；或入丸、散",
+        "taboo": "内服不宜过量，以免中毒。阴虚咳嗽及大便溏泄者忌服",
+        "property_flavor": "味苦"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苦杏仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦杏仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛痰止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦杏仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平喘",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦杏仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦杏仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外感咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦杏仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喘满",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦杏仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦杏仁",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠燥便秘",
+      "object_type": "Disease"
+    }
+  ]
+}

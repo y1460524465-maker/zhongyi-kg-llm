@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {
+      "name": "蟋蟀",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蛬、蜻蛚、蚟孙、促织、吟蛩、将军、叫鸡、唧唧、斗鸡、蛐蛐、夜鸣虫、将军干、将军虫、屈屈、蛆蛆、秋虫",
+        "effect": "利尿消肿，破血",
+        "indication": "水肿，小便不通，尿路结石，肝硬化腹水，小儿遗尿，肾虚阳痿",
+        "property_flavor": "辛、咸，温",
+        "meridian": "肾、膀胱经",
+        "origin": "蟋蟀科昆虫蟋蟀Gryllulus chinensis Weber",
+        "taboo": "有毒",
+        "dosage": "2～6只，水煎或焙干研粉服"
+      }
+    }
+  ],
+  "relations": []
+}

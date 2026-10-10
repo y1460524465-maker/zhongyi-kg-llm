@@ -1,0 +1,180 @@
+{
+  "entities": [
+    {
+      "name": "倒触伞",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，止咳，收敛止血，解毒，接骨",
+        "indication": "肺热咳嗽，小儿百日咳，咯血，小儿惊风，月经不调，痢疾，跌打损伤，外伤出血，烧烫伤",
+        "origin": "蔷薇科植物蔷薇莓的根",
+        "place": "福建、广东、广西、湖南、贵州等地",
+        "processing": "夏、秋采收",
+        "property_flavor": "涩微辛苦，平，无毒",
+        "usage": "内服：煎汤，9-15g；或浸酒。外用：适量，鲜用捣敷；或煎水洗"
+      }
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿百日咳",
+      "type": "Disease"
+    },
+    {
+      "name": "咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿惊风",
+      "type": "Disease"
+    },
+    {
+      "name": "月经不调",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Disease"
+    },
+    {
+      "name": "倒经",
+      "type": "Disease"
+    },
+    {
+      "name": "喘咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "脱肛",
+      "type": "Disease"
+    },
+    {
+      "name": "红白痢",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺热咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热，止咳，收敛止血，解毒，接骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "倒经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喘咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "倒触伞",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "红白痢",
+      "object_type": "Disease"
+    }
+  ]
+}

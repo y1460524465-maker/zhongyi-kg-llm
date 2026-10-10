@@ -1,0 +1,221 @@
+{
+  "entities": [
+    {
+      "name": "四妙丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "燥湿健脾，清热燥湿，补肝肾，强筋骨，祛湿热，利筋络。四味合用，为治湿热痿证之妙剂",
+        "indication": "湿热下注，两足麻木，筋骨酸痛等。用于治疗丹毒，急慢性肾炎，湿疹，骨髓炎，关节炎等",
+        "taboo": "忌食酒、肥甘之品，阴虚者禁用",
+        "usage": "水泛丸，每次6-9g，日2次口服，小儿酌减。规格1g/15粒"
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "125g"
+      }
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "125g"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "250g"
+      }
+    },
+    {
+      "name": "薏苡仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "250g"
+      }
+    },
+    {
+      "name": "二妙散",
+      "type": "Formula",
+      "attributes": null
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急慢性肾炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "骨髓炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "关节炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "湿热痿证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "湿热下注",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "两足麻木",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "筋骨酸痛",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四妙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四妙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四妙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四妙丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薏苡仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍术",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄柏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牛膝",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾，强筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "薏苡仁",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛湿热，利筋络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四妙丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热痿证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四妙丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四妙丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急慢性肾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四妙丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四妙丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "骨髓炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四妙丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "湿热痿证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "湿热下注",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热痿证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "两足麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "湿热痿证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "筋骨酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四妙丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/四妙丸",
+      "object_type": "Source"
+    }
+  ]
+}

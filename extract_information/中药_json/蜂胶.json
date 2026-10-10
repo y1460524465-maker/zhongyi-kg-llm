@@ -1,0 +1,179 @@
+{
+  "entities": [
+    {
+      "name": "蜂胶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补虚弱，化浊脂，止消渴；外用解毒消肿，收敛生肌",
+        "indication": "胃溃疡，口腔溃疡，宫颈糜烂，带状疱疹，牛皮屑，银屑病，皮肤裂痛，鸡眼，烧烫伤，胼胝，寻常疣",
+        "property_flavor": "苦、辛、寒",
+        "meridian": "归脾、胃经",
+        "usage": "内服：制成片剂或醇浸液，1-2g。外用：适量，制成酊剂或软膏涂敷",
+        "processing": "酒制蜂胶：取蜂胶粉碎，用乙醇浸泡溶解，滤过，滤液收回乙醇，晾干"
+      }
+    },
+    {
+      "name": "胃溃疡",
+      "type": "Disease"
+    },
+    {
+      "name": "口腔溃疡",
+      "type": "Disease"
+    },
+    {
+      "name": "宫颈糜烂",
+      "type": "Disease"
+    },
+    {
+      "name": "带状疱疹",
+      "type": "Disease"
+    },
+    {
+      "name": "牛皮屑",
+      "type": "Disease"
+    },
+    {
+      "name": "银屑病",
+      "type": "Disease"
+    },
+    {
+      "name": "皮肤裂痛",
+      "type": "Disease"
+    },
+    {
+      "name": "鸡眼",
+      "type": "Disease"
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Disease"
+    },
+    {
+      "name": "胼胝",
+      "type": "Disease"
+    },
+    {
+      "name": "寻常疣",
+      "type": "Disease"
+    },
+    {
+      "name": "恶性肿瘤",
+      "type": "Disease"
+    },
+    {
+      "name": "创伤",
+      "type": "Disease"
+    },
+    {
+      "name": "皲裂",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口腔溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "宫颈糜烂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带状疱疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牛皮屑",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "银屑病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤裂痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鸡眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胼胝",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寻常疣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "恶性肿瘤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "创伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皲裂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蜂胶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补虚弱，化浊脂，止消渴；外用解毒消肿，收敛生肌",
+      "object_type": "Effect"
+    }
+  ]
+}

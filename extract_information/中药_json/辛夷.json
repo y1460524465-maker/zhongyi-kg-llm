@@ -1,0 +1,258 @@
+{
+  "entities": [
+    {
+      "name": "辛夷",
+      "type": "Herb",
+      "attributes": {
+        "alias": "木笔花、望春花、春花、木兰、紫玉兰、白玉兰、二月花、广玉兰",
+        "effect": "祛风，通窍",
+        "indication": "治头痛，鼻渊，鼻塞不通，齿痛",
+        "dosage": "内服：煎汤，3~10g，宜包煎；或入丸、散。外用：适量，研末搐鼻；或以其蒸馏水滴鼻",
+        "property_flavor": "气芳香，味辛凉而稍苦",
+        "taboo": "气虚人忌，头脑痛属血虚火炽者忌，齿痛属胃火者忌；气虚之人，虽偶感风寒，致诸窍不通者，不宜用",
+        "origin": "为木兰科植物望春玉兰、玉兰、武当玉兰等的干燥花蕾",
+        "processing": "拣净枝梗杂质，捣碎用；入药微炙，已开者劣，谢者不佳"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《玉楸药解》",
+      "type": "Source"
+    },
+    {
+      "name": "《江西中药》",
+      "type": "Source"
+    },
+    {
+      "name": "苍耳散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治鼻渊"
+      }
+    },
+    {
+      "name": "苍耳子",
+      "type": "Herb"
+    },
+    {
+      "name": "香白芷",
+      "type": "Herb"
+    },
+    {
+      "name": "薄荷叶",
+      "type": "Herb"
+    },
+    {
+      "name": "芎藭散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "治鼻内窒塞不通，不得喘息"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb"
+    },
+    {
+      "name": "细辛",
+      "type": "Herb"
+    },
+    {
+      "name": "木通",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻渊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻塞不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "齿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《玉楸药解》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "辛夷",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《江西中药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苍耳散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻渊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苍耳散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "辛夷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍耳子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香白芷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "苍耳散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芎藭散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻内窒塞不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芎藭散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "辛夷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芎藭散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芎藭散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芎藭散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    }
+  ]
+}

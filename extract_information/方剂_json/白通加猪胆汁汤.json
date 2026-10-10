@@ -1,0 +1,139 @@
+{
+  "entities": [
+    {
+      "name": "白通加猪胆汁汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "少阴病，利不止，厥逆无脉，干呕而烦者",
+        "taboo": null,
+        "usage": "上五味，以水600毫升，煮取200毫升，去滓，纳胆汁、人尿，和令相得，分温再服。若无胆，亦可用"
+      }
+    },
+    {
+      "name": "葱白",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4茎",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "人尿",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15毫升",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "猪胆汁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3毫升",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白通加猪胆汁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葱白",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白通加猪胆汁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白通加猪胆汁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白通加猪胆汁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人尿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白通加猪胆汁汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "猪胆汁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白通加猪胆汁汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "少阴病",
+      "object_type": "Disease"
+    }
+  ]
+}

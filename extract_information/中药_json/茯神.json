@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "茯神",
+      "type": "Herb",
+      "attributes": {
+        "effect": "宁心，安神，利水",
+        "indication": "心虚惊悸，健忘，失眠，惊痫，小便不利",
+        "dosage": "9~15g",
+        "taboo": "肾虚小便不利或不禁、虚寒滑精者慎"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茯神",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "宁心",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茯神",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茯神",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茯神",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心虚惊悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茯神",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "健忘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茯神",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茯神",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "惊痫",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茯神",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    }
+  ]
+}

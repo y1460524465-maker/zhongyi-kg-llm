@@ -1,0 +1,129 @@
+{
+  "entities": [
+    {
+      "name": "蚕蛹",
+      "type": "Herb",
+      "attributes": {
+        "effect": "杀虫疗疳，生津止渴",
+        "indication": "肺痨，小儿疳积，发热，蛔虫病，消渴",
+        "usage": "内服：炒食或煎汤，酌量；研末，3-6g",
+        "taboo": "患脚气者忌之。獭犬咬者，终身勿犯，误食必难免也"
+      }
+    },
+    {
+      "name": "肺痨",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛔虫病",
+      "type": "Disease"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "《泉州本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《随息居饮食谱》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚕蛹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痨",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚕蛹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚕蛹",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚕蛹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚕蛹",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蚕蛹",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫疗疳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚕蛹",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蚕蛹",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《泉州本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕蛹",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕蛹",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "蚕蛹",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《随息居饮食谱》",
+      "object_type": "Source"
+    }
+  ]
+}

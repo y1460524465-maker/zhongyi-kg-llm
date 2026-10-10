@@ -1,0 +1,169 @@
+{
+  "entities": [
+    {
+      "name": "固经丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "滋阴清热，固经止带",
+        "indication": "阴虚血热，月经先期，经血量多、色紫黑，赤白带下",
+        "taboo": null,
+        "usage": "口服，一次6g，一日2次"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "300g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "盐炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "酒炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "椿皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "150g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "150g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "醋制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "300g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "龟甲",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "400g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "固经丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固经丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固经丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "椿皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固经丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固经丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固经丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "固经丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴清热，固经止带",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "固经丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚血热",
+      "object_type": "Disease"
+    }
+  ]
+}

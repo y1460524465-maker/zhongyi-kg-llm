@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "name": "玳玳花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "疏肝，和胃，理气",
+        "indication": "胸中痞闷，脘腹胀痛，呕吐、少食",
+        "usage": "内服：煎汤，1.5~2.5g；或泡茶"
+      }
+    },
+    {
+      "name": "胸中痞闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脘腹胀痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "呕吐",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "少食",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "玳玳花",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "疏肝，和胃，理气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "玳玳花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸中痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玳玳花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脘腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玳玳花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玳玳花",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "少食",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "猪胆",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，润燥，解毒",
+        "meridian": "肝、胆、肺、大肠经",
+        "dosage": "内服：煎汤，6-9g；或取汁冲服，每次3-6g；或入丸、散。外用：适量，涂敷、点眼或灌肠。"
+      }
+    }
+  ],
+  "relations": []
+}

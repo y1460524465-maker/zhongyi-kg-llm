@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "name": "猫爪草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "解毒，化痰散结，消肿",
+        "indication": "肺结核，淋巴结结核，淋巴结炎，咽喉炎",
+        "dosage": "内服：煎汤，9~15g",
+        "property_flavor": "味微甘"
+      }
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease"
+    },
+    {
+      "name": "淋巴结结核",
+      "type": "Disease"
+    },
+    {
+      "name": "淋巴结炎",
+      "type": "Disease"
+    },
+    {
+      "name": "咽喉炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猫爪草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猫爪草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴结结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猫爪草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴结炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猫爪草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猫爪草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猫爪草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猫爪草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "entities": [
+    {
+      "name": "蒿芩清胆汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "蒿芩清胆枳竹茹，陈夏茯苓碧玉途",
+        "effect": "清透少阳邪热，清胆热，燥湿，清热利湿，理气化痰，宽胸畅膈，下气宽中，除痰消痞",
+        "indication": "寒轻热重，口苦膈闷，胸胁胀痛，吐酸苦水，舌苔腻，脉数",
+        "usage": "青蒿6克，竹茹9克，法半夏5克，赤茯苓9克，黄芩9克，枳壳5克，碧玉散9克"
+      }
+    },
+    {
+      "name": "青蒿",
+      "type": "Herb",
+      "attributes": {
+        "effect": "燥湿，清热，避秽，清透少阳邪热"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清胆热，燥湿"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "effect": "燥湿化痰，和胃降逆"
+      }
+    },
+    {
+      "name": "竹茹",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清胆胃之热，化痰止呕"
+      }
+    },
+    {
+      "name": "碧玉散",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，导邪从小便而出"
+      }
+    },
+    {
+      "name": "赤茯苓",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利湿，导邪从小便而出"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "effect": "理气化痰，宽胸畅膈"
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "effect": "下气宽中，除痰消痞"
+      }
+    },
+    {
+      "name": "流行性感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "急性胃炎",
+      "type": "Disease"
+    },
+    {
+      "name": "急性胆囊炎",
+      "type": "Disease"
+    },
+    {
+      "name": "少阳湿热",
+      "type": "Disease"
+    },
+    {
+      "name": "痰浊内阻",
+      "type": "Disease"
+    },
+    {
+      "name": "寒热如疟",
+      "type": "Symptom"
+    },
+    {
+      "name": "寒轻热重",
+      "type": "Symptom"
+    },
+    {
+      "name": "口苦膈闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐酸苦水",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕黄粘涎",
+      "type": "Symptom"
+    },
+    {
+      "name": "干呕呃逆",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸胁胀满",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌质红",
+      "type": "Symptom"
+    },
+    {
+      "name": "苔白腻",
+      "type": "Symptom"
+    },
+    {
+      "name": "脉滑数",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青蒿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹茹",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "碧玉散",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胃炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性胆囊炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "少阳湿热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蒿芩清胆汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痰浊内阻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "少阳湿热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "寒热如疟",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阳湿热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "寒轻热重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阳湿热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口苦膈闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阳湿热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "吐酸苦水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阳湿热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "呕黄粘涎",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阳湿热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "干呕呃逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阳湿热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸胁胀满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阳湿热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌质红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阳湿热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔白腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "少阳湿热",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉滑数",
+      "object_type": "Symptom"
+    }
+  ]
+}

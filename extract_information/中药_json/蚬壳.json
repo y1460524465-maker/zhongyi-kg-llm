@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "蚬壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15-20g；或入散剂。",
+        "effect": "化痰止嗽，祛湿和胃。",
+        "indication": "痰喘咳嗽，反胃吐食，胃痛吞酸，湿疮，溃疡，脚气。",
+        "origin": "为蚬科动物河蚬或其近缘动物的贝壳。",
+        "processing": "全年可捕。捕得后，入沸水中，壳即张开，去肉，取壳，洗净晒干。"
+      }
+    },
+    {
+      "name": "河蚬",
+      "type": "Herb",
+      "attributes": {
+        "alias": "扁螺"
+      }
+    },
+    {
+      "name": "痰喘咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "反胃吐食",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃痛吞酸",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "溃疡",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚬壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰喘咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚬壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "反胃吐食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚬壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛吞酸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚬壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚬壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "溃疡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚬壳",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蚬壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "化痰止嗽，祛湿和胃。",
+      "object_type": "Effect"
+    }
+  ]
+}

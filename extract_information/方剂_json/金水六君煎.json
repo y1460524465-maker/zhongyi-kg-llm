@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "name": "金水六君煎",
+      "type": "Formula",
+      "attributes": {
+        "effect": "养阴化痰",
+        "indication": "治肺肾虚寒，水泛为痰，或年迈阴虚，血气不足，外受风寒，咳嗽呕恶，喘逆多痰",
+        "usage": "用水400毫升，加生姜3～7片，煎至280或320毫升，空腹时温服"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "熟地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9～15克"
+      }
+    },
+    {
+      "name": "陈皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5克"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "肺肾虚寒",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "呕恶",
+      "type": "Symptom"
+    },
+    {
+      "name": "喘逆",
+      "type": "Symptom"
+    },
+    {
+      "name": "多痰",
+      "type": "Symptom"
+    },
+    {
+      "name": "养阴化痰",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金水六君煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金水六君煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金水六君煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金水六君煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金水六君煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金水六君煎",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金水六君煎",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "养阴化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金水六君煎",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺肾虚寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肺肾虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺肾虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "呕恶",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺肾虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "喘逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肺肾虚寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "多痰",
+      "object_type": "Symptom"
+    }
+  ]
+}

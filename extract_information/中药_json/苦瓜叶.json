@@ -1,0 +1,168 @@
+{
+  "entities": [
+    {
+      "name": "苦瓜叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒",
+        "indication": "疮痈肿毒，梅毒，痢疾",
+        "dosage": "内服：煎汤，10-15g，鲜品30-60g；或研末。外用：适量，煎水洗、捣敷成捣汁涂",
+        "origin": "葫芦科植物苦瓜的叶片",
+        "processing": "夏、秋采收，洗净，鲜用或晒干"
+      }
+    },
+    {
+      "name": "疮痈肿毒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "梅毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疔毒",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "热毒疮肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "杨霉疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "狗咬",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "鹅掌风",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《泉州本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《陆川本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《福州台江验方汇集》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梅毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮痈肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热毒疮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "杨霉疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "狗咬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鹅掌风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《泉州本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陆川本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "苦瓜叶",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福州台江验方汇集》",
+      "object_type": "Source"
+    }
+  ]
+}

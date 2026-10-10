@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "榧子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "彼子、榧实、柀子、玉山果、赤果、玉榧、香榧、野杉子",
+        "effect": "杀虫，消积，润燥。治虫积腹痛，小儿疳积，燥咳，便秘，痔疮。",
+        "indication": "主治虫积腹痛，小儿疳积，燥咳，便秘，痔疮。",
+        "taboo": "脾虚泄泻及肠滑大便不实者慎服。",
+        "dosage": "内服：煎汤，15~50g；连壳生用，打碎入煎；或10~40枚，炒熟去壳，取种仁嚼服；或入丸、散。驱虫宜用较大剂量，顿服；治便秘、痔疮宜小量常服。",
+        "origin": "为红豆杉科植物榧的种子。",
+        "processing": "1.榧子：拣净杂质，或去壳取仁，用时捣碎。\n2.炒榧子：将净仁微炒至外表褐黑，内仁黄黑，发出焦香味为度。或用砂拌炒至熟透，内呈黄色，外具焦斑，取出，筛去砂，放冷。",
+        "property_flavor": "气微，味微甜涩。炒熟后具香气。"
+      }
+    },
+    {
+      "name": "虫积腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "小儿疳积",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "燥咳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "便秘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "杀虫",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "消积",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "润燥",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "榧子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "榧子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "榧子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "榧子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虫积腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "榧子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "榧子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "燥咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "榧子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便秘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "榧子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    }
+  ]
+}

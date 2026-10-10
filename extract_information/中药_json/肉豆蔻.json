@@ -1,0 +1,379 @@
+{
+  "entities": [
+    {
+      "name": "肉豆蔻",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温中行气，消食，涩肠止泻",
+        "indication": "用于心腹胀痛，虚泻，冷痢，呕吐，宿食不消，食少呕吐",
+        "property_flavor": "味辛辣、微苦",
+        "processing": "煨肉豆蔻、蒸制、炒制、土制、制霜",
+        "dosage": "内服：煎汤，1.5~6g；或入丸、散",
+        "taboo": "大肠素有火热及中暑热泄暴注，肠风下血，胃火齿痛及湿热积滞方盛，滞下初起，皆不宜服"
+      }
+    },
+    {
+      "name": "四神丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温补脾肾，涩肠止泻",
+        "indication": "脾肾虚弱，大便不实，饮食不思"
+      }
+    },
+    {
+      "name": "纯阳真人养脏汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "泻痢日久，脾肾虚寒，日夜无度，腹痛喜温喜按，倦怠食少，及脱肛坠下"
+      }
+    },
+    {
+      "name": "肉豆蔻丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "水湿胀如鼓、脾脏久冷滑泄不止、留饮宿食不消、妇人白带下腹内冷痛"
+      }
+    },
+    {
+      "name": "肉豆蔻散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "脾虚泄泻、水泻无度肠鸣腹痛、脾胃虚滑泄泻不止下痢赤白"
+      }
+    },
+    {
+      "name": "豆蔻汤",
+      "type": "Formula",
+      "attributes": {
+        "indication": "一切冷气，心腹胀满，胸膈痞滞，哕逆呕吐，泄泻虚滑，水谷不消，困倦少力，不思饮食"
+      }
+    },
+    {
+      "name": "一字汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温中焦，治宿食"
+      }
+    },
+    {
+      "name": "人参散",
+      "type": "Formula",
+      "attributes": {
+        "indication": "一切血痢腹痛"
+      }
+    },
+    {
+      "name": "止泻方",
+      "type": "Formula",
+      "attributes": {
+        "indication": "泻"
+      }
+    },
+    {
+      "name": "豆蔻丸",
+      "type": "Formula",
+      "attributes": {
+        "indication": "泻痢日久，肠胃虚寒，肠滑，糟粕不聚"
+      }
+    },
+    {
+      "name": "《药性论》",
+      "type": "Source"
+    },
+    {
+      "name": "《海药本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经读》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source"
+    },
+    {
+      "name": "《雷公炮炙论》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草经疏》",
+      "type": "Source"
+    },
+    {
+      "name": "《宣明论方》",
+      "type": "Source"
+    },
+    {
+      "name": "《杨氏家藏方》",
+      "type": "Source"
+    },
+    {
+      "name": "《内科摘要》",
+      "type": "Source"
+    },
+    {
+      "name": "《续传信方》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source"
+    },
+    {
+      "name": "《医学正传》",
+      "type": "Source"
+    },
+    {
+      "name": "《婴童类萃》",
+      "type": "Source"
+    },
+    {
+      "name": "《卫生家宝》",
+      "type": "Source"
+    },
+    {
+      "name": "《局方》",
+      "type": "Source"
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中行气，消食，涩肠止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心腹胀痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "冷痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "宿食不消",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食少呕吐",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《药性论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《海药本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经读》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《雷公炮炙论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经疏》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉豆蔻丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《宣明论方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉豆蔻丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "水湿胀如鼓",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肉豆蔻散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《杨氏家藏方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "肉豆蔻散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四神丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《内科摘要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "四神丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾肾虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "四神丸",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "纯阳真人养脏汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉豆蔻丸",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉豆蔻散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "豆蔻汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "一字汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "止泻方",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "肉豆蔻",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "豆蔻丸",
+      "object_type": "Formula"
+    }
+  ]
+}

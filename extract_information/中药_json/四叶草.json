@@ -1,0 +1,93 @@
+{
+  "entities": [
+    {
+      "name": "四叶草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "米拉拉藤, 冷水丹, 风车草, 四方草, 四叶葎, 四角金, 蛇舌癀, 小锯锯藤, 地胡椒, 四叶蛇舌草, 天良草, 四角金, 蛇舌癀, 小锯锯藤",
+        "effect": "清热利尿，解毒消肿",
+        "indication": "尿路感染，癌肿，赤白带下，痢疾，跌打损伤，咳血，妇女赤白带下，小儿疳积，痈肿疔毒；毒蛇咬伤",
+        "dosage": "内服：煎汤，15-30g；外用：适量，鲜品捣敷"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四叶草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四叶草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四叶草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿路感染",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四叶草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癌肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四叶草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四叶草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四叶草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四叶草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咳血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四叶草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四叶草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疔毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四叶草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒蛇咬伤",
+      "object_type": "Disease"
+    }
+  ]
+}

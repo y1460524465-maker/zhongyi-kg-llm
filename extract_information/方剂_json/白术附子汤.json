@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "name": "白术附子汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "补真阳而祛寒和温化水饮",
+        "indication": "风湿相搏，身体疼烦，不能自转侧，不呕不渴，脉浮虚而涩，大便坚，小便自利者",
+        "usage": "上五味，以水1.2升，煮取400毫升，去滓，分三次温服。一服觉身痹半日许，再服、三服都尽。其人如冒状，勿怪"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb"
+    },
+    {
+      "name": "附子",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "生姜",
+      "type": "Herb"
+    },
+    {
+      "name": "大枣",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白术附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白术附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白术附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白术附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白术附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白术附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿相搏",
+      "object_type": "Disease"
+    }
+  ]
+}

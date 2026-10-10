@@ -1,0 +1,131 @@
+{
+  "entities": [
+    {
+      "name": "蛇蜕",
+      "type": "Herb",
+      "attributes": {
+        "alias": "龙子衣、蛇符、龙子单衣、弓皮、龙皮、龙单衣、蛇筋、蛇附、蛇皮、龙子皮、蛇退、蛇壳、龙退、龙衣、青龙衣、长虫皮、白龙衣",
+        "effect": "祛风，定惊，退翳，消肿，杀虫",
+        "indication": "小儿惊痫，喉风口疮，木舌重舌，目翳内障，疔疮，痈肿，瘰疬，腮腺炎，痔漏，疥癣",
+        "origin": "游蛇科动物黑眉锦蛇Elaphe taeniura Cope 、锦蛇Elaphe carinata （Guenther）或乌梢蛇Zaocys dhumnades （Cantor）等蜕下的干燥表皮膜",
+        "dosage": "内服：煎汤，3~6g；研末，每次1.5~3g。外用：适量，煎汤洗；研末撒或调敷",
+        "taboo": "孕妇忌用",
+        "processing": "用甘草水洗过，晒干，再用黄酒喷匀，置锅内微炒至黄色。(每蛇蜕100斤，用酒5斤)"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "定惊",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "退翳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿惊痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "木舌重舌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目翳内障",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "蛇蜕",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    }
+  ]
+}

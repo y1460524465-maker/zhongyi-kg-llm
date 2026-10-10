@@ -1,0 +1,116 @@
+{
+  "entities": [
+    {
+      "name": "海带",
+      "type": "Herb",
+      "attributes": {
+        "alias": "海马蔺,海草,大叶藻,海带草",
+        "effect": "清热化痰，软坚散结，利水",
+        "indication": "治瘿瘤结核，疝瘕，水肿，脚气",
+        "dosage": "煎汤，5~10g；或入丸、散",
+        "property_flavor": "咸",
+        "origin": "大叶藻科植物大叶藻的全草",
+        "place": "辽宁、山东",
+        "processing": "拣去杂质，清水漂净，切成宽丝，晾干",
+        "traits": "干燥全草，呈细长带状，全缘，常皱缩或卷曲，多碎断，直径约2～8毫米，薄如纸，表面棕绿色至棕色，上有类白色盐霜。质脆如纸，折断面有细毛样纤维。臭微弱；味咸。"
+      }
+    },
+    {
+      "name": "瘿瘤结核",
+      "type": "Disease"
+    },
+    {
+      "name": "疝瘕",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "赘",
+      "type": "Disease"
+    },
+    {
+      "name": "三种瘿",
+      "type": "Disease"
+    },
+    {
+      "name": "比瘿丹",
+      "type": "Formula"
+    },
+    {
+      "name": "玉壶散",
+      "type": "Formula"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海带",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘿瘤结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海带",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疝瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海带",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海带",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海带",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海带",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "软坚散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "海带",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "比瘿丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海带",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉壶散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海带",
+      "object_type": "Herb"
+    }
+  ]
+}

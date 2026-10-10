@@ -1,0 +1,148 @@
+{
+  "entities": [
+    {
+      "name": "眼睛草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "退翳明目，清热解毒，散瘀消肿",
+        "indication": "角膜云翳，风火赤眼，烧烫伤，跌打损伤，骨折，无名肿毒，皮肤溃疡",
+        "processing": "全年均可采收，洗净，鲜用",
+        "traits": "草本，全株无毛。茎基部肉质，生根"
+      }
+    },
+    {
+      "name": "角膜云翳",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "风火赤眼",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "烧烫伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "骨折",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "无名肿毒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "皮肤溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性结膜炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "退翳明目",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "散瘀消肿",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "眼睛草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "退翳明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "眼睛草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "眼睛草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "眼睛草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "角膜云翳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "眼睛草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风火赤眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "眼睛草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烧烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "眼睛草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "眼睛草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨折",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "眼睛草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "眼睛草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "眼睛草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性结膜炎",
+      "object_type": "Disease"
+    }
+  ]
+}

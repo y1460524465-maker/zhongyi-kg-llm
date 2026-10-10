@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "浮小麦",
+      "type": "Herb",
+      "attributes": {
+        "effect": "除虚热，止汗",
+        "indication": "骨蒸劳热，止自汗盗汗",
+        "dosage": "内服：煎汤，15~30g；或研末。止汗，宜微炒用",
+        "taboo": "无汗而烦躁或虚脱汗出者忌用",
+        "processing": "夏至前后，成熟果实采收后，取瘪瘦轻浮与未脱净皮的麦粒，筛去灰屑，用水漂洗，晒干。止汗，宜微炒用",
+        "traits": "干瘪颖果呈长圆形，两端略尖。长约7mm，直径经2.6mm。表面黄白色，皱缩。有时尚带有未脱净的外稃志人稃。腹面有一深陷的纵沟，顶端钝形，带有浅黄棕色柔毛，另一端成斜尖形，有脐。质硬而脆，易断，断面白色，四化建设性差。无臭，味淡。以粒均匀、轻浮、无杂质为佳",
+        "origin": "《本草蒙筌》《纲目》《现代实用中药》《四川中药志》1960年版"
+      }
+    },
+    {
+      "name": "骨蒸劳热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "自汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "低热盗汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "桑叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10g",
+        "effect": "清热止汗"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "浮小麦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸劳热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "浮小麦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "浮小麦",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "浮小麦",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "除虚热，止汗",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热止汗",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "低热盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "桑叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    }
+  ]
+}

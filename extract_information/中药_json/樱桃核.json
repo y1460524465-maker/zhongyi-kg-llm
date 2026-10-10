@@ -1,0 +1,45 @@
+{
+  "entities": [
+    {
+      "name": "樱桃核",
+      "type": "Herb",
+      "attributes": {
+        "effect": "发表透疹，解毒",
+        "indication": "麻疹初起，透发不畅症",
+        "dosage": "内服，煎汤，4.5～9g，用时捣碎",
+        "property_flavor": "味微苦",
+        "taboo": "痘症阳症忌服"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "樱桃核",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "发表透疹",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "樱桃核",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "樱桃核",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "麻疹初起，透发不畅症",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "樱桃核",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "滇南本草图说",
+      "object_type": "Source"
+    }
+  ]
+}

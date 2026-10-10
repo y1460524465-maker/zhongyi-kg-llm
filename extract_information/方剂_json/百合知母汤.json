@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "百合知母汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "百合病，误用汗法，更伤津液，燥热加重，发汗后，心烦口渴者",
+        "taboo": null,
+        "usage": "先以水洗百合，渍一宿，当白沫出，去其水，再以泉水400毫升，煎取200毫升，去滓；另以泉水400毫升，煎知母，取200毫升，去滓。将两次药汁混和煎，取300毫升，分温二服"
+      }
+    },
+    {
+      "name": "百合",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7枚(擘)",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克(切)",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "百合知母汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "百合知母汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "百合知母汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "百合知母汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "百合病",
+      "object_type": "Disease"
+    }
+  ]
+}

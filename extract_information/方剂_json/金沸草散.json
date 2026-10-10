@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "name": "金沸草散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "伤风咳嗽，恶寒发热，咳嗽痰多，鼻塞流涕，舌苔白腻，脉浮者"
+      }
+    },
+    {
+      "name": "旋覆花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "前胡",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "荆芥穗",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "枣",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金沸草散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "旋覆花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金沸草散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金沸草散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "前胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金沸草散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥穗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金沸草散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金沸草散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金沸草散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金沸草散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金沸草散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枣",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "蚱蜢",
+      "type": "Herb",
+      "attributes": {
+        "effect": "止咳平喘，定惊，消积",
+        "indication": "支气管哮喘，百日咳，小儿惊风，疳积",
+        "usage": "内服：煎汤，5～10只；或煅存性研末"
+      }
+    }
+  ],
+  "relations": []
+}

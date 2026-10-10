@@ -1,0 +1,251 @@
+{
+  "entities": [
+    {
+      "name": "香苏葱豉汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": null,
+        "indication": "妊娠伤寒。恶寒发热，无汗，头身痛，胸脘痞闷，苔薄白，脉浮",
+        "usage": null,
+        "alias": null,
+        "taboo": null
+      }
+    },
+    {
+      "name": "制香附",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5-6克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "新会皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5-6克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "鲜葱白",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3枚",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "紫苏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4.5-9克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "炙草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2-2.5克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "淡豆豉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9-12克",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "妊娠伤寒",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "恶寒发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "无汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头身痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸脘痞闷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔薄白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉浮",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "zhongyibaike.com",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "香苏葱豉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "制香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香苏葱豉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "新会皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香苏葱豉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜葱白",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香苏葱豉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "紫苏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香苏葱豉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香苏葱豉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淡豆豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "香苏葱豉汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "妊娠伤寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "恶寒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "妊娠伤寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "妊娠伤寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头身痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "妊娠伤寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸脘痞闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "妊娠伤寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔薄白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "妊娠伤寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉浮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "香苏葱豉汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "zhongyibaike.com",
+      "object_type": "Source"
+    }
+  ]
+}

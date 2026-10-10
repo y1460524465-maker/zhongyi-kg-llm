@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "棕榈子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "涩肠止血，固精",
+        "indication": "泻痢，便血，吐血，尿血，遗精",
+        "dosage": "内服：煎汤，10-15g；或研末，6-9g",
+        "property_flavor": "苦、涩，平",
+        "meridian": "归肺、肝经"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "棕榈子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "涩肠止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "棕榈子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "固精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "棕榈子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泻痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "棕榈子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "多梦遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "棕榈子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《云南中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

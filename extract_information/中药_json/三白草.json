@@ -1,0 +1,112 @@
+{
+  "entities": [
+    {
+      "name": "三白草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "水木通、五路白、白水鸡、水伴深乌、白面姑、过塘莲、三点白、水牛草、水九节莲、白花莲、白叶莲、一白二白、田三白、土玉竹、白黄脚、五叶白、白桔朝、白花照水莲、天性草",
+        "effect": "清利湿热，消肿，解毒",
+        "indication": "水肿，脚气，黄疸，淋浊，带下，痈肿，疗毒",
+        "property_flavor": "味甘辛，寒，有小毒；苦辛，凉",
+        "usage": "内服：煎汤，9~15克；或捣汁饮。外用：外用鲜品适量，捣敷或煎水洗"
+      }
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "脚气",
+      "type": "Disease"
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "淋浊",
+      "type": "Disease"
+    },
+    {
+      "name": "带下",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Disease"
+    },
+    {
+      "name": "疗毒",
+      "type": "Disease"
+    },
+    {
+      "name": "《唐本草》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三白草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清利湿热，消肿，解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疗毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "三白草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《唐本草》",
+      "object_type": "Source"
+    }
+  ]
+}

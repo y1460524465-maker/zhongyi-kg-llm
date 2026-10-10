@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "name": "铁锈",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，镇心平肝",
+        "indication": "治疗疮肿毒，口疮，重舌，疥癣，烫伤，毒虫螫伤，痫病",
+        "origin": "为铁露置空气中氧化后生成的红褐色锈衣",
+        "property_flavor": "入手太阴肺、足阳明胃",
+        "traits": "粉末状或片状，红褐色或棕褐色，不透明，无金属光泽，体较重，片状者易碎，无臭，无味，触之染手，以色深、片块大者为佳"
+      }
+    },
+    {
+      "name": "铁衣",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《普济方》"
+      }
+    },
+    {
+      "name": "铁线粉",
+      "type": "Herb",
+      "attributes": {
+        "origin": "《养生经验合集》"
+      }
+    },
+    {
+      "name": "铁生衣",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "镇心平肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "口疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "重舌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "毒虫螫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草经解》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草汇言》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本经逢原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "铁锈",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《医林纂要》",
+      "object_type": "Source"
+    }
+  ]
+}

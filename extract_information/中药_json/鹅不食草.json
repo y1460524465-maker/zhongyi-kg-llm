@@ -1,0 +1,203 @@
+{
+  "entities": [
+    {
+      "name": "鹅不食草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "食胡荽、野园荽、鸡肠草、鹅不食、地芫荽、沙飞草、地胡椒、三节剑、山胡椒、连地稗、球子草、二郎戟、杜网草、猪屎草、砂药草、白地茜、猪屎潺、通天窍、雾水沙、猫沙、小拳头、铁拳头、散星草、地杨梅、三牙钻、蚊子草、白珠子草、二郎剑",
+        "effect": "祛风散寒，胜湿去翳，通鼻塞。",
+        "indication": "治感冒，寒哮，喉痹，百日咳，痧气腹痛，阿米巴痢，疟疾，疳泻，鼻渊，鼻息肉，目翳涩痒，疥癣，跌打损伤，风湿性腰腿痛。",
+        "dosage": "内服：煎汤，5~9g；或捣汁。外用：适量，捣敷；或捣烂塞鼻；或研末搐鼻。"
+      }
+    },
+    {
+      "name": "感冒",
+      "type": "Disease"
+    },
+    {
+      "name": "寒哮",
+      "type": "Disease"
+    },
+    {
+      "name": "喉痹",
+      "type": "Disease"
+    },
+    {
+      "name": "百日咳",
+      "type": "Disease"
+    },
+    {
+      "name": "痧气腹痛",
+      "type": "Disease"
+    },
+    {
+      "name": "阿米巴痢",
+      "type": "Disease"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "疳泻",
+      "type": "Disease"
+    },
+    {
+      "name": "鼻渊",
+      "type": "Disease"
+    },
+    {
+      "name": "鼻息肉",
+      "type": "Disease"
+    },
+    {
+      "name": "目翳涩痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "疥癣",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿性腰腿痛",
+      "type": "Disease"
+    },
+    {
+      "name": "祛风散寒",
+      "type": "Effect"
+    },
+    {
+      "name": "胜湿去翳",
+      "type": "Effect"
+    },
+    {
+      "name": "通鼻塞",
+      "type": "Effect"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "胜湿去翳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通鼻塞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "寒哮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痧气腹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阿米巴痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻渊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻息肉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目翳涩痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅不食草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿性腰腿痛",
+      "object_type": "Disease"
+    }
+  ]
+}

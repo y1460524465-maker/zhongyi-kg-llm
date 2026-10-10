@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "name": "马勃",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肺利咽，解毒，止血",
+        "indication": "喉痹咽痛，咳嗽失音，吐血，衄血，外伤出血",
+        "dosage": "内服：1.5~6g，或入丸、散；外用：研末撒；或调敷、或作吹药",
+        "taboo": "风寒劳咳失音者忌用",
+        "processing": "7～9月，当子实体刚成热时采收，拔起后，去净泥沙，晒干",
+        "traits": "完整子实体呈扁圆形，不完整子实体呈杯形，直径5~12cm，不孕基部发达，基部有柄。包被薄，紫褐色，粗皱，有圆形凹陷，上部包被脱落后，露出紫色孢体。全轻泡，有弹性，用手捻后有大量孢子飞扬。气味微弱。",
+        "alias": "马疕、马庀菌、灰菇、马屁包、香末菇、乌龙菌、牛屎菇、灰包菌、药包、人头菌、牛屎菌、大气菌、灰菌、鸡肾菌、地烟",
+        "origin": "马勃科植物脱皮马勃、大颓马勃、紫颓马勃的干燥子实体",
+        "place": null,
+        "property_flavor": null,
+        "meridian": null
+      }
+    },
+    {
+      "name": "普济消毒饮",
+      "type": "Formula",
+      "attributes": {
+        "usage": "为末，汤调，时时服之。或蜜拌为丸，噙化。",
+        "indication": "治大头天行，初觉憎寒体重，次传头面肿盛，口不能开，上喘，咽喉不利，口渴舌燥"
+      }
+    },
+    {
+      "name": "马勃散",
+      "type": "Formula",
+      "attributes": {
+        "usage": "制散，清水调服",
+        "indication": "治聤耳"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "马勃",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺利咽，解毒，止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "马勃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "喉痹咽痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马勃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽失音",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马勃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马勃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "马勃",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "大头天行",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "普济消毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "马勃",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "马勃散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "聤耳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "马勃散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "马勃",
+      "object_type": "Herb"
+    }
+  ]
+}

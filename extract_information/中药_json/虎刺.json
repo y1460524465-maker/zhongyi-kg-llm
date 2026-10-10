@@ -1,0 +1,372 @@
+{
+  "entities": [
+    {
+      "name": "虎刺",
+      "type": "Herb",
+      "attributes": {
+        "effect": "祛风利湿，活血消肿",
+        "indication": "痛风，风湿痹痛，痰饮咳嗽，肺痈，水肿，痞块，黄疸，妇女经闭，小儿疳积，荨麻疹，跌打损伤",
+        "usage": "内服：煎汤，3～5钱（鲜用1～2两）；或入散剂。外用：捣敷、捣汁潦或研末撒。"
+      }
+    },
+    {
+      "name": "刺虎",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "寿星草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "寿庭木",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "雀不踏",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "绣花针",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "黄脚鸡",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "天针",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "老鼠刺",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "虎牙刺",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "千金刺",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "鹅嘴花根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "黄鸡兰",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "千口针",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "针上叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "顺茶风",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "脚不踏",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "土鸡爪黄连",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "猫儿刺",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "小黄连",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "两面针",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "细花针",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "鸟不踏",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "蛇不过",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "朝天刺",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "钢针木",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "虎叶",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "老鼠枪",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "老虎刺",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "小叶刺风",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "高骨老虎刺",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "红老鼠刺",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "红远志",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    },
+    {
+      "name": "白凤珠",
+      "type": "Herb",
+      "attributes": {
+        "alias": "虎刺"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰饮咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痞块",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "妇女经闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "荨麻疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "虎刺",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绣花针",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绣花针",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肌肉痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绣花针",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚浮肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绣花针",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痞块",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "绣花针",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳积",
+      "object_type": "Disease"
+    }
+  ]
+}

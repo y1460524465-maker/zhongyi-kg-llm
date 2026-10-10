@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "name": "鲈鱼",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为鮨科动物鲈鱼的肉",
+        "effect": "益脾胃，补肝肾",
+        "indication": "主脾虚泻痢，消化不良，疳积，百日咳，水肿，筋骨萎弱，胎动不安，疮疡久不愈",
+        "usage": "内服：煮食，60-240g，或作鲙食",
+        "taboo": "多食发痃癖及疮肿，不可与乳酪同食",
+        "traits": "味甘淡气平"
+      }
+    },
+    {
+      "name": "脾虚泻痢",
+      "type": "Disease"
+    },
+    {
+      "name": "消化不良",
+      "type": "Disease"
+    },
+    {
+      "name": "疳积",
+      "type": "Disease"
+    },
+    {
+      "name": "百日咳",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "筋骨萎弱",
+      "type": "Disease"
+    },
+    {
+      "name": "胎动不安",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疡久不愈",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鲈鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚泻痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲈鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消化不良",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲈鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疳积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲈鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲈鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲈鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋骨萎弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲈鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胎动不安",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲈鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡久不愈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鲈鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益脾胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鲈鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肝肾",
+      "object_type": "Effect"
+    }
+  ]
+}

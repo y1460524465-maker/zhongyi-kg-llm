@@ -1,0 +1,162 @@
+{
+  "entities": [
+    {
+      "name": "胡黄连",
+      "type": "Herb",
+      "attributes": {
+        "effect": "退虚热，消疳热，清热燥湿，泻火解毒",
+        "indication": "阴虚骨蒸，潮热盗汗，小儿疳疾，湿热泻痢，黄疸，吐血，衄血，目赤肿痛，痈肿疮疡，痔疮肿毒",
+        "origin": "为玄参科植物胡黄连或西藏胡黄连的根茎",
+        "dosage": "内服：煎汤，6~12g；或入丸、散。外用：适量，研末调敷；或浸汁点眼",
+        "property_flavor": "味极苦"
+      }
+    },
+    {
+      "name": "西藏胡黄连",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为玄参科植物胡黄连或西藏胡黄连的根茎"
+      }
+    },
+    {
+      "name": "阴虚骨蒸",
+      "type": "Disease"
+    },
+    {
+      "name": "潮热盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿疳疾",
+      "type": "Disease"
+    },
+    {
+      "name": "湿热泻痢",
+      "type": "Disease"
+    },
+    {
+      "name": "黄疸",
+      "type": "Disease"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿疮疡",
+      "type": "Disease"
+    },
+    {
+      "name": "痔疮肿毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "退虚热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消疳热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻火解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "潮热盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚骨蒸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿疳疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热泻痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胡黄连",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮肿毒",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "name": "凤凰衣",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸡卵中白皮、鸡子白皮、凤凰退、鸡蛋膜衣、鸡蛋衣",
+        "effect": "养阴清肺，敛疮，去翳",
+        "indication": "咽痛失音，久咳，淋巴结核，溃疡不敛，目生翳障，头目眩晕",
+        "taboo": "脾胃虚弱，有湿滞者慎用",
+        "usage": "内服：煎汤，3~9g；或入散剂。外用：适量，敷贴或研末撒"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "凤凰衣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋巴结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤凰衣",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "目生翳障",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "凤凰衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛失音",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤凰衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤凰衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "溃疡不敛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤凰衣",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头目眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "凤凰衣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "养阴清肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "凤凰衣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "凤凰衣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "去翳",
+      "object_type": "Effect"
+    }
+  ]
+}

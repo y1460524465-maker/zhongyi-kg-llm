@@ -1,0 +1,20 @@
+{
+  "entities": [
+    {
+      "name": "石燕",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清湿热，利小便，退目翳",
+        "indication": "目生障翳，小便不利，淋病，白带，肠风痔漏",
+        "property_flavor": "咸，凉",
+        "meridian": "归肾、膀胱经",
+        "dosage": "内服：煎汤，3～9g，先煎；外用：适量，水磨点眼",
+        "origin": "本品为古代腕足类石燕科动物中华弓石燕Cyrtiospirifer sinensis Grabau.与戴维逊穹石燕Cyrtiopsis davidsoni Grabau及多种近缘动物的化石",
+        "place": "产于湖南、广西、四川、山西、江西等地",
+        "processing": "将原药除去杂质，洗净，干燥，敲成小于1cm块，50目筛筛去灰屑",
+        "taboo": "体虚、无湿热及孕妇忌服"
+      }
+    }
+  ],
+  "relations": []
+}

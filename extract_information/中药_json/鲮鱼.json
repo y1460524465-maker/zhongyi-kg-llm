@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "鲮鱼",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热利水除湿",
+        "indication": "膀胱结热，水臌，黄疸",
+        "origin": "鲤科动物鲮鱼的肉"
+      }
+    },
+    {
+      "name": "膀胱结热",
+      "type": "Symptom"
+    },
+    {
+      "name": "水臌",
+      "type": "Symptom"
+    },
+    {
+      "name": "黄疸",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鲮鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "膀胱结热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鲮鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水臌",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鲮鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄疸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鲮鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热利水除湿",
+      "object_type": "Effect"
+    }
+  ]
+}

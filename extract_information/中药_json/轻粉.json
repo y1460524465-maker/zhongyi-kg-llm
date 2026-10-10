@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "轻粉",
+      "type": "Herb",
+      "attributes": {
+        "alias": "汞粉、峭粉、水银粉、腻粉、银粉、扫盆",
+        "effect": "外用杀虫，攻毒，敛疮；内服祛痰消积，逐水通便",
+        "indication": "外治用于疥疮，顽癣，臁疮，梅毒，疮疡，湿疹；内服用于痰涎积滞，水肿膨胀，二便不利",
+        "taboo": "内服宜慎，体弱及孕妇忌服。畏磁石、石黄。忌一切血。虚人不宜服。凡闭结由于血虚不能润泽；小儿疳病，脾胃两虚；小儿慢惊，痰涎壅上；杨梅结毒，发于气虚久病之人，咸不宜服",
+        "dosage": "外用：适量，研末掺敷患处；内服：每次0.1～0.2g,一日1～2次，多入丸剂或装胶囊服，服后漱口",
+        "origin": "湖北武汉、湖南湘潭、四川重庆、天津、河北安国、云南昆明等",
+        "processing": "用砖砌一炉灶，上有10个炉眼，每一炉眼放一平底锅。先将胆矾3.5斤、食盐3斤放于盆内，加水约3斤混合，放入水银6.25斤，搅拌成粥状，再加入红土约10大碗，拌和成半干半湿的软泥块，分成10份，捏成馒头形。另在平底锅中央撒一层沙土，将馒头状物分别放在沙土上，并用陶碗或瓷盆盖上，再用泥封固，以防泄气。先放在炉旁。每炉约用上等木炭47斤，先在炉外烧之全红，再装入各炉眼内，略烧片刻，即行通火，将炉眼中央摆成空型，若见有火苗之处，用炭压盖不使上燃，再将炉门关闭，开始闷火。等到炭已烧透，至无火苗，且外被一层白灰时，将已封固的平底锅放在每个炉眼上，将炉门关闭。22小时后开锅，则见锅内出现多数多角形片状雪花样结晶，用鸡翎扫下，拣去杂质，遮光密闭保存。红土与沙仍可继续使用。"
+      }
+    },
+    {
+      "name": "疥疮",
+      "type": "Disease"
+    },
+    {
+      "name": "顽癣",
+      "type": "Disease"
+    },
+    {
+      "name": "臁疮",
+      "type": "Disease"
+    },
+    {
+      "name": "梅毒",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疡",
+      "type": "Disease"
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "痰涎积滞",
+      "type": "Disease"
+    },
+    {
+      "name": "水肿膨胀",
+      "type": "Disease"
+    },
+    {
+      "name": "二便不利",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "轻粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "轻粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "顽癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "轻粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "臁疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "轻粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梅毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "轻粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "轻粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "轻粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痰涎积滞",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "轻粉",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿膨胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "轻粉",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "二便不利",
+      "object_type": "Symptom"
+    }
+  ]
+}

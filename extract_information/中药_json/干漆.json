@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "干漆",
+      "type": "Herb",
+      "attributes": {
+        "alias": "漆渣，漆底，漆脚",
+        "property_flavor": "辛，温；有毒",
+        "effect": "破瘀血，消积，杀虫",
+        "indication": "用于妇女闭经，瘀血，癥瘕，虫积腹痛",
+        "dosage": "内服：入丸、散，2-4.5g",
+        "usage": "外用：烧烟熏。内服宜炒或煅后用",
+        "taboo": "孕妇及体虚无瘀者慎用",
+        "origin": "漆树科植物漆树树脂经加工后的干燥品",
+        "traits": "不规则小块，不超过2cm，黑褐色或棕褐色，表面粗糙，有蜂窝状细小孔洞或呈颗粒状，质坚硬，不易折断，断面不平坦，具特殊臭气",
+        "processing": "干漆炭：将原药除去杂质，敲成小于2cm的块，置锅中清炒见焦枯并至黑烟尽，筛去灰屑"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "闭经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "积聚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破瘀血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "癥瘕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "本草纲目",
+      "object_type": "Source"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "中药材手册",
+      "object_type": "Source"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "蜀本草",
+      "object_type": "Source"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "经验方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "补缺肘后方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "圣济总录",
+      "object_type": "Source"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "简要济众方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "圣惠方",
+      "object_type": "Source"
+    },
+    {
+      "subject": "干漆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "千金方",
+      "object_type": "Source"
+    }
+  ]
+}

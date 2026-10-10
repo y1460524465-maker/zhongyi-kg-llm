@@ -1,0 +1,939 @@
+{
+  "entities": [
+    {
+      "name": "芡实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，15~30g；或入丸、散，亦可适量煮粥食。",
+        "effect": "益肾固精，补脾止泻，祛湿止带。",
+        "indication": "用于梦遗滑精，遗尿尿频，脾虚久泻，白浊，带下。",
+        "meridian": null,
+        "origin": null,
+        "place": "主产江苏、湖南、湖北、山东。此外，福建、河北、河南、江西、浙江、四川等地亦产。",
+        "processing": "1.炒制：取净芡实放置锅内，宜用文火加热炒至微黄色时，将其取出，放凉后收藏即可。\n2.麸制；先将麸皮放热锅内炒至烟起，再将净芡实倒入，拌炒至微黄色，取出，筛净麸皮，放凉。每芡实100kg，用皮10kg。\n3.土制：取伏龙肝粉置锅内，用文火加热炒至松时，放入净芡实，炒至微黄色，取出，筛去伏龙肝粉，晾凉，每净芡实100kg，用伏龙肝粉20kg。\n4.盐制：取芡实加盐水润1夜后蒸透，每芡实10kg，用食盐120g，水适量。盂诜：凡用（芡实），蒸熟，烈日晒裂取仁。亦可春取粉用。",
+        "property_flavor": null,
+        "taboo": "大小便不利者禁服；食滞不化者慎服。",
+        "traits": null
+      }
+    },
+    {
+      "name": "梦遗滑精",
+      "type": "Disease"
+    },
+    {
+      "name": "遗尿尿频",
+      "type": "Disease"
+    },
+    {
+      "name": "脾虚久泻",
+      "type": "Disease"
+    },
+    {
+      "name": "白浊",
+      "type": "Disease"
+    },
+    {
+      "name": "带下",
+      "type": "Disease"
+    },
+    {
+      "name": "湿痹腰脊膝痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便不禁",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "精滑不禁",
+      "type": "Symptom"
+    },
+    {
+      "name": "浊病",
+      "type": "Disease"
+    },
+    {
+      "name": "肾虚热",
+      "type": "Disease"
+    },
+    {
+      "name": "久痢",
+      "type": "Disease"
+    },
+    {
+      "name": "肾虚盗汗腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "思虑、色欲过度",
+      "type": "Symptom"
+    },
+    {
+      "name": "损伤精气",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便数",
+      "type": "Symptom"
+    },
+    {
+      "name": "膏淋",
+      "type": "Disease"
+    },
+    {
+      "name": "黄带下",
+      "type": "Disease"
+    },
+    {
+      "name": "风湿足膝疼痛不能步履",
+      "type": "Symptom"
+    },
+    {
+      "name": "虚损羸瘦",
+      "type": "Symptom"
+    },
+    {
+      "name": "皮肤粗糙",
+      "type": "Symptom"
+    },
+    {
+      "name": "耳目不聪",
+      "type": "Symptom"
+    },
+    {
+      "name": "心阴血虚",
+      "type": "Disease"
+    },
+    {
+      "name": "心悸",
+      "type": "Symptom"
+    },
+    {
+      "name": "怔忡",
+      "type": "Symptom"
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom"
+    },
+    {
+      "name": "健忘",
+      "type": "Symptom"
+    },
+    {
+      "name": "神倦",
+      "type": "Symptom"
+    },
+    {
+      "name": "糖尿病",
+      "type": "Disease"
+    },
+    {
+      "name": "脾虚水肿",
+      "type": "Disease"
+    },
+    {
+      "name": "肾虚遗精",
+      "type": "Disease"
+    },
+    {
+      "name": "早泄",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗精白浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "玉锁丹",
+      "type": "Formula"
+    },
+    {
+      "name": "金锁固精丸",
+      "type": "Formula"
+    },
+    {
+      "name": "分清丸",
+      "type": "Formula"
+    },
+    {
+      "name": "四精丸",
+      "type": "Formula"
+    },
+    {
+      "name": "秋石四糖丸",
+      "type": "Formula"
+    },
+    {
+      "name": "水陆二仙丹",
+      "type": "Formula"
+    },
+    {
+      "name": "膏淋汤",
+      "type": "Formula"
+    },
+    {
+      "name": "易黄汤",
+      "type": "Formula"
+    },
+    {
+      "name": "山药芡实韭菜粥",
+      "type": "Formula"
+    },
+    {
+      "name": "龙眼芡实饮",
+      "type": "Formula"
+    },
+    {
+      "name": "芡实老鸭汤",
+      "type": "Formula"
+    },
+    {
+      "name": "芡实粥",
+      "type": "Formula"
+    },
+    {
+      "name": "《杨氏家藏方》",
+      "type": "Source"
+    },
+    {
+      "name": "《医方集解》",
+      "type": "Source"
+    },
+    {
+      "name": "《摘元方》",
+      "type": "Source"
+    },
+    {
+      "name": "《方脉正宗》",
+      "type": "Source"
+    },
+    {
+      "name": "《万氏家抄方》",
+      "type": "Source"
+    },
+    {
+      "name": "《洪氏集验方》",
+      "type": "Source"
+    },
+    {
+      "name": "《永类钤方》",
+      "type": "Source"
+    },
+    {
+      "name": "《衷中参西录》",
+      "type": "Source"
+    },
+    {
+      "name": "《傅青主女科》",
+      "type": "Source"
+    },
+    {
+      "name": "《万氏家传方》",
+      "type": "Source"
+    },
+    {
+      "name": "《日用本草》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益肾固精，补脾止泻，祛湿止带。",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "梦遗滑精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗尿尿频",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾虚久泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白浊",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿痹腰脊膝痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不禁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "精滑不禁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "浊病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "久痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚盗汗腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "思虑、色欲过度",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "损伤精气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "膏淋",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "黄带下",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿足膝疼痛不能步履",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚损羸瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "皮肤粗糙",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳目不聪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "心阴血虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "怔忡",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "健忘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神倦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "早泄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "玉锁丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡头肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉锁丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲花蕊",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉锁丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲须",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉锁丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉锁丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌梅肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "玉锁丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《杨氏家藏方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沙苑蒺藜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沙苑子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲须",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医方集解》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "分清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "分清丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "分清丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《摘元方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "四精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秋石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秋石四糖丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "秋石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秋石四糖丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秋石四糖丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秋石四糖丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秋石四糖丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秋石四糖丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《万氏家抄方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡头",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "糖樱子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "水陆二仙丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《洪氏集验方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "膏淋汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膏淋汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膏淋汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膏淋汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膏淋汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膏淋汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膏淋汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "潞党参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膏淋汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生杭芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膏淋汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "膏淋汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "车前子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白果",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "易黄汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《傅青主女科》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "山药芡实韭菜粥",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "山药芡实韭菜粥",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "山药芡实韭菜粥",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "韭菜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "山药芡实韭菜粥",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "粳米",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龙眼芡实饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙眼肉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龙眼芡实饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炒枣仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龙眼芡实饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "酸枣仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龙眼芡实饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芡实老鸭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芡实老鸭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "老鸭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芡实老鸭汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴养胃，健脾利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芡实老鸭汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实老鸭汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实老鸭汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "芡实粥",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "芡实粥",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益肾固精，止遗缩尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芡实粥",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "早泄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实粥",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "梦遗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实粥",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "滑精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "芡实粥",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    }
+  ]
+}

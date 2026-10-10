@@ -1,0 +1,213 @@
+{
+  "entities": [
+    {
+      "name": "蚱蝉汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "用水700毫升，入竹沥240毫升，煎服。"
+      }
+    },
+    {
+      "name": "蚱蝉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2个",
+        "processing": "净炙"
+      }
+    },
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.4克"
+      }
+    },
+    {
+      "name": "柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2.4克"
+      }
+    },
+    {
+      "name": "子芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "升麻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "栀子仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "龙齿",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.2克"
+      }
+    },
+    {
+      "name": "蛇蜕",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1.2克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.6克",
+        "processing": "去节"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.6克",
+        "processing": "炙"
+      }
+    },
+    {
+      "name": "生葛根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.6克"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "钩藤皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "0.2克"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蚱蝉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "子芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升麻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙齿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蛇蜕",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生葛根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "蚱蝉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "钩藤皮",
+      "object_type": "Herb"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "entities": [
+    {
+      "name": "黄芪六一汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "气虚血弱，肢体劳倦，胸中烦悸，时常焦渴，唇口干燥，面色萎黄，不思饮食、或先渴而发疮疖，或病痈疽而后渴者，或卫虚自汗等。",
+        "taboo": null,
+        "usage": "水煎二次作二次服，一日服2剂。"
+      }
+    },
+    {
+      "name": "黄芪",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "炙甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克"
+      }
+    },
+    {
+      "name": "气虚血弱",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肢体劳倦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸中烦悸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "焦渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "唇口干燥",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "面色萎黄",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "不思饮食",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "疮疖",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痈疽",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "卫虚自汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心力衰竭",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄芪六一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芪",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪六一汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芪六一汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "气虚血弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪六一汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪六一汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄芪六一汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心力衰竭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "气虚血弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "肢体劳倦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气虚血弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "胸中烦悸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气虚血弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "焦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气虚血弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "唇口干燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气虚血弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "面色萎黄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气虚血弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "不思饮食",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "气虚血弱",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "卫虚自汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "疮疖",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "焦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "痈疽",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "焦渴",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "entities": [
+    {
+      "name": "胡枝子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "随军茶、扫皮、胡枝条、野花生、过山龙、羊角梢、豆叶柴、夜合草、假花生横条、横笆子、扫条",
+        "effect": "清热润肺，利尿通淋，止血",
+        "indication": "肺热咳嗽，感冒发热，百日咳，淋证，吐血，衄血，尿血，便血",
+        "dosage": "内服：煎汤，9-15g，鲜品30-60g；或泡作茶饮",
+        "origin": "《福建民间草药》",
+        "place": "生于山地灌木林下。分布于东北、华北、及陕西、浙江、江西、福建、河南、湖北、四川等地",
+        "processing": "夏、秋季采收，鲜用或切段晒干"
+      }
+    },
+    {
+      "name": "肺热咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "感冒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "百日咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "淋证",
+      "type": "Disease"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "便血",
+      "type": "Symptom"
+    },
+    {
+      "name": "清热润肺",
+      "type": "Effect"
+    },
+    {
+      "name": "利尿通淋",
+      "type": "Effect"
+    },
+    {
+      "name": "止血",
+      "type": "Effect"
+    },
+    {
+      "name": "冰糖",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "车前草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "《福建民间草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《闽东本草》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热润肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿通淋",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "百日咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《闽东本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻衄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便淋沥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "强筋益肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胡枝子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾祛湿",
+      "object_type": "Effect"
+    }
+  ]
+}

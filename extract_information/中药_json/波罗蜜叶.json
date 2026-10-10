@@ -1,0 +1,53 @@
+{
+  "entities": [
+    {
+      "name": "波罗蜜叶",
+      "type": "Herb",
+      "attributes": {
+        "origin": "桑科植物木波罗的叶",
+        "processing": "夏、秋季枝叶茂盛时采摘叶，晒干",
+        "traits": "叶多纵向内卷，展平后呈椭圆形倒卵形，长7-25cm，宽3-12cm，先端钝或短渐尖，基部楔形稍下延，全缘，上面绿色灰绿色，微具光泽，下面绿色右灰黄色，网脉明显，中脉两面突出；叶柄长2-3cm。革质而脆。气微，味淡",
+        "effect": "活血消肿，解毒敛疮",
+        "indication": "跌打损伤，疮疡疖肿，湿疹",
+        "usage": "外用：适量，研末撒或调敷"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "波罗蜜叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "波罗蜜叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "波罗蜜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "波罗蜜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡疖肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "波罗蜜叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "entities": [
+    {
+      "name": "厚朴七物汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "解表散邪，和肠胃",
+        "usage": "以水一斗，煮取四升，温服八合，日三服"
+      }
+    },
+    {
+      "name": "厚朴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "半斤"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "三两"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10枚"
+      }
+    },
+    {
+      "name": "枳实",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5枚"
+      }
+    },
+    {
+      "name": "桂枝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "二两"
+      }
+    },
+    {
+      "name": "生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "五两"
+      }
+    },
+    {
+      "name": "外感表证",
+      "type": "Disease"
+    },
+    {
+      "name": "腹满",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "发热",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "厚朴七物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "厚朴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴七物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴七物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴七物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴七物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴七物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桂枝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴七物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "厚朴七物汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "外感表证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "外感表证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "外感表证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "大便不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "外感表证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    }
+  ]
+}

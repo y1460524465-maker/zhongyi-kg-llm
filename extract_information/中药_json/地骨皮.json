@@ -1,0 +1,725 @@
+{
+  "entities": [
+    {
+      "name": "地骨皮",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为茄科植物枸杞等的根皮",
+        "property_flavor": "味微甘，后苦",
+        "indication": "主治虚劳潮热，骨蒸盗汗，肺热咳喘，吐血，衄血，血淋，消渴，高血压，痈肿，恶疮",
+        "effect": "清虚热，凉血",
+        "traits": "筒状、槽状或不规则卷片，大小不一，一般长3-10cm，直径0.5-2cm，厚1-3mm。外表面土黄色或灰黄色，粗糙，有不规则纵裂纹，易成鳞片状剥落；内表面黄白色，具细纵条纹。质松脆，易折为民，折断面分内外两层；内层灰白色。气微",
+        "alias": "杞根、地骨、地辅、地节、枸杞根、苟起根、枸杞根皮、山杞子根、甜齿牙根、红耳堕根、山枸杞根、狗奶子根皮、红榴根皮、狗地芽皮",
+        "processing": "春初或秋后采挖，洗净泥土，剥下根皮，晒干",
+        "dosage": "内服：煎汤，9~15g；大剂量可用15~30g",
+        "taboo": "《医学入门》：忌铁。《本草汇言》：虚劳火旺而脾胃薄弱，食少泄泻者宜减之。《本草正》：假热者勿用"
+      }
+    },
+    {
+      "name": "虚劳潮热",
+      "type": "Symptom"
+    },
+    {
+      "name": "骨蒸盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺热咳喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血淋",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "清虚热",
+      "type": "Effect"
+    },
+    {
+      "name": "凉血",
+      "type": "Effect"
+    },
+    {
+      "name": "骨蒸肌热",
+      "type": "Symptom"
+    },
+    {
+      "name": "虚烦躁",
+      "type": "Symptom"
+    },
+    {
+      "name": "热劳",
+      "type": "Disease"
+    },
+    {
+      "name": "虚劳口中苦渴",
+      "type": "Symptom"
+    },
+    {
+      "name": "骨节烦热或寒",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿肺盛",
+      "type": "Disease"
+    },
+    {
+      "name": "气急喘嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐、下血",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴日夜饮水不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便利",
+      "type": "Symptom"
+    },
+    {
+      "name": "消渴唇干口燥",
+      "type": "Symptom"
+    },
+    {
+      "name": "时行目暴肿痒痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风虫牙痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "膀胱移热于小肠",
+      "type": "Disease"
+    },
+    {
+      "name": "口糜",
+      "type": "Symptom"
+    },
+    {
+      "name": "生疮溃烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "心胃壅热",
+      "type": "Symptom"
+    },
+    {
+      "name": "水谷不下",
+      "type": "Symptom"
+    },
+    {
+      "name": "耳聋",
+      "type": "Symptom"
+    },
+    {
+      "name": "有脓水不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘭疽",
+      "type": "Disease"
+    },
+    {
+      "name": "肠风痔漏",
+      "type": "Disease"
+    },
+    {
+      "name": "下血不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔疾",
+      "type": "Disease"
+    },
+    {
+      "name": "气瘘疳疮",
+      "type": "Disease"
+    },
+    {
+      "name": "妇人阴肿或生疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾经虚损",
+      "type": "Disease"
+    },
+    {
+      "name": "眼目昏花",
+      "type": "Symptom"
+    },
+    {
+      "name": "云翳遮睛",
+      "type": "Symptom"
+    },
+    {
+      "name": "壮筋骨",
+      "type": "Effect"
+    },
+    {
+      "name": "补精髓",
+      "type": "Effect"
+    },
+    {
+      "name": "骨蒸烦熟",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾虚腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "赤眼肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "小便出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "口舌糜烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "男子下疳",
+      "type": "Disease"
+    },
+    {
+      "name": "痈疽恶疮",
+      "type": "Disease"
+    },
+    {
+      "name": "脓血不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "足趾鸡眼",
+      "type": "Symptom"
+    },
+    {
+      "name": "目涩有翳",
+      "type": "Symptom"
+    },
+    {
+      "name": "五劳七伤",
+      "type": "Disease"
+    },
+    {
+      "name": "房事衰弱",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺结核",
+      "type": "Disease"
+    },
+    {
+      "name": "肺虚咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴虚潮热盗汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴虚湿滞脾虚气弱",
+      "type": "Disease"
+    },
+    {
+      "name": "面浮肢肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾虚精亏",
+      "type": "Disease"
+    },
+    {
+      "name": "头发早白",
+      "type": "Symptom"
+    },
+    {
+      "name": "肌肤干燥易痒",
+      "type": "Symptom"
+    },
+    {
+      "name": "心烦急躁少眠",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳潮热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺热咳喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清虚热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸肌热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚烦躁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热劳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚劳口中苦渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨节烦热或寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿肺盛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气急喘嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐、下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴日夜饮水不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消渴唇干口燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "时行目暴肿痒痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风虫牙痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "膀胱移热于小肠",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口糜",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "生疮溃烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心胃壅热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水谷不下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳聋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "有脓水不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘭疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠风痔漏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下血不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "气瘘疳疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "妇人阴肿或生疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾经虚损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眼目昏花",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "云翳遮睛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "壮筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补精髓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸烦熟",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "赤眼肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口舌糜烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "男子下疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脓血不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "足趾鸡眼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目涩有翳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "五劳七伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "房事衰弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺虚咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴虚潮热盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚湿滞脾虚气弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "面浮肢肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚精亏",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头发早白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肌肤干燥易痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "地骨皮",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦急躁少眠",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "entities": [
+    {
+      "name": "哈蟆油",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肾益精，润肺养阴",
+        "indication": "病后、产后虚弱，肺痨咳嗽吐血，盗汗不止，神疲乏力，心悸失眠",
+        "usage": "5～15g，用水浸泡，炖服，或作丸剂服",
+        "taboo": "外感初起及纳少便溏者慎服",
+        "origin": "为蛙科动物中国林蛙或黑龙江林蛙雌性的干燥输卵管",
+        "place": "辽宁",
+        "property_flavor": "微甘",
+        "traits": "不规则弯曲，相互重叠的厚块，略呈卵形，长约1.5～2厘米，厚约1.5～3毫米，外表黄白色，显脂肪样光泽，手摸之有滑腻感，遇水可膨胀至10～15倍，气特殊，味微甘，嚼之粘滑"
+      }
+    },
+    {
+      "name": "曹炳章",
+      "type": "Source"
+    },
+    {
+      "name": "《饮片新参》",
+      "type": "Source"
+    },
+    {
+      "name": "《辽宁主要药材》",
+      "type": "Source"
+    },
+    {
+      "name": "《中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《中药材手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾益精，润肺养阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "病后、产后虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痨",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神疲乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心悸失眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "曹炳章",
+      "object_type": "Source"
+    },
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《饮片新参》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《辽宁主要药材》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "哈蟆油",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中药材手册》",
+      "object_type": "Source"
+    }
+  ]
+}

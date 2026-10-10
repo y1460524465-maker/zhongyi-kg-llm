@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "name": "番木瓜",
+      "type": "Herb",
+      "attributes": {
+        "alias": "石瓜、万寿果、蓬生果、乳瓜、番瓜、木瓜、广西木瓜、木冬瓜",
+        "effect": "消食下乳，除湿通络，解毒驱虫",
+        "indication": "消化不良，胃、十二指肠溃疡疼痛，乳汁稀少，风湿痹痛，肢体麻木，湿疹，烂疮，肠道寄生虫病",
+        "usage": "内服：煎汤，9-15g；或鲜品适量生食。外用：煎水洗；或研末撒。"
+      }
+    },
+    {
+      "name": "消化不良",
+      "type": "Symptom"
+    },
+    {
+      "name": "胃、十二指肠溃疡疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳汁稀少",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肢体麻木",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿疹",
+      "type": "Symptom"
+    },
+    {
+      "name": "烂疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "肠道寄生虫病",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "番木瓜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消化不良",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "番木瓜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃、十二指肠溃疡疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "番木瓜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁稀少",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "番木瓜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "番木瓜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体麻木",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "番木瓜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "番木瓜",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烂疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "番木瓜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肠道寄生虫病",
+      "object_type": "Disease"
+    }
+  ]
+}

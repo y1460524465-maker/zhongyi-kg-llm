@@ -1,0 +1,193 @@
+{
+  "entities": [
+    {
+      "name": "升药",
+      "type": "Herb",
+      "attributes": {
+        "effect": "搜脓，拔毒，去腐，生肌",
+        "indication": "痈疽，疔疮，梅毒，下疳，一切疮疡肉暗紫黑，疮口坚硬，久不收口",
+        "property_flavor": "辛，热。有大毒。归肺经、脾经",
+        "taboo": "本品有毒，只可外用，不可内服。外用亦不可大量持续使用。外疡腐肉已去或脓水已尽者，不宜用",
+        "origin": "粗制氧化汞。为水银、白矾与火硝的加工品",
+        "usage": "外用。将药物撒于患处，或粘附棉纸上插入脓腔中"
+      }
+    },
+    {
+      "name": "红升",
+      "type": "Herb",
+      "attributes": {
+        "alias": "三仙红升丹，红粉",
+        "effect": "提脓，拔毒，去腐，生肌",
+        "indication": "疮疡痈疽溃后，脓腐未尽，或已渐生新肉的疮口",
+        "taboo": "凡肌薄无肉处不能化脓，或仅有稠水者忌用",
+        "property_flavor": "辛，热。有大毒。归肺经、脾经"
+      }
+    },
+    {
+      "name": "黄升",
+      "type": "Herb",
+      "attributes": {
+        "alias": "黄升丹",
+        "effect": "提脓，拔毒，去腐，生肌",
+        "indication": "疮疡痈疽溃后，脓腐未尽，或已渐生新肉的疮口",
+        "taboo": "凡肌薄无肉处不能化脓，或仅有稠水者忌用",
+        "property_flavor": "辛，热。有大毒。归肺经、脾经"
+      }
+    },
+    {
+      "name": "九一丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "拔毒生肌",
+        "indication": "溃疡后期，脓毒较轻，疮口不敛",
+        "usage": "外用，撒于患处"
+      }
+    },
+    {
+      "name": "五五丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "拔毒排脓",
+        "indication": "溃疡中期，脓毒较盛",
+        "usage": "外用，撒于患处"
+      }
+    },
+    {
+      "name": "九转丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "拔毒化腐排脓",
+        "indication": "痈疽初溃，脓毒盛，腐肉不去",
+        "usage": "外用，撒于患处"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "升药",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "搜脓，拔毒，去腐，生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "升药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梅毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "升药",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "下疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "红升",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "提脓，拔毒，去腐，生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "红升",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄升",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "提脓，拔毒，去腐，生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄升",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疡痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九一丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "煅石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九一丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九一丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "拔毒生肌",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "五五丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "煅石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五五丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "五五丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "拔毒排脓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "九转丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "煅石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九转丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "升药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "九转丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "拔毒化腐排脓",
+      "object_type": "Effect"
+    }
+  ]
+}

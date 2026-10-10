@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "name": "太子参",
+      "type": "Herb",
+      "attributes": {
+        "effect": "益气健脾，生津润肺",
+        "indication": "脾虚体倦，食欲不振，病后虚弱，气阴不足，自汗口渴，肺燥干咳",
+        "property_flavor": "味微甘",
+        "meridian": "心经、脾经、肺经",
+        "dosage": "煎汤，9～30g"
+      }
+    },
+    {
+      "name": "《本草再新》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "脾虚体倦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食欲不振",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "病后虚弱",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "气阴不足",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "自汗口渴",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "肺燥干咳",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "益气健脾",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "生津润肺",
+      "type": "Effect",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "太子参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "太子参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生津润肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "太子参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾虚体倦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太子参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食欲不振",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太子参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "病后虚弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太子参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气阴不足",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太子参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "自汗口渴",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太子参",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺燥干咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "太子参",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草再新》",
+      "object_type": "Source"
+    }
+  ]
+}

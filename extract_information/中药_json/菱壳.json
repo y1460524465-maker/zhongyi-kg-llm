@@ -1,0 +1,190 @@
+{
+  "entities": [
+    {
+      "name": "菱壳",
+      "type": "Herb",
+      "attributes": {
+        "alias": "菱皮、乌菱壳、风菱角",
+        "effect": "涩肠止泻，止血，敛疮，解毒",
+        "indication": "泄泻，痢疾，胃溃疡，便血，脱肛，痔疮，疔疮",
+        "usage": "内服：煎汤，15-30g，大剂量可用至60g。外用：适量，烧存性研末调敷；或煎水洗",
+        "origin": "为菱科植物菱或其同属植物的果皮",
+        "processing": "8-9月收集果皮，鲜用或晒干"
+      }
+    },
+    {
+      "name": "泄泻",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胃溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "便血",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "脱肛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "疔疮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "涩肠止泻",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "止血",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "敛疮",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "解毒",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《医宗汇编》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "菱壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "泄泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菱壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菱壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菱壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菱壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菱壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菱壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "菱壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "涩肠止泻",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菱壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菱壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "菱壳",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "风菱角",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脱肛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "风菱角",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "指生天蛇",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "风菱壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "头面黄水疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老菱壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "无名肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "老菱壳",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "天泡疮",
+      "object_type": "Disease"
+    }
+  ]
+}

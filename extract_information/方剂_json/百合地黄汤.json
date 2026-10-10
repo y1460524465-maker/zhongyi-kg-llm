@@ -1,0 +1,62 @@
+{
+  "entities": [
+    {
+      "name": "百合地黄汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "百合汤",
+        "effect": "滋阴清热",
+        "indication": "津血亏虚导致的阴虚内热，神志恍惚，沉默寡言，如寒无寒，如热无热，时而欲食，时而恶食，口苦，小便赤",
+        "usage": "以水浸洗百合一宿，去其水；再以泉水400毫升，煎取200毫升，去滓；入地黄汁，煎取300毫升，分温再服。中病勿更服。服后大便色黑如漆"
+      }
+    },
+    {
+      "name": "百合",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "7枚(擘)"
+      }
+    },
+    {
+      "name": "生地黄汁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "200毫升"
+      }
+    },
+    {
+      "name": "《伤寒全生集》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "百合地黄汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒全生集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "百合地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "百合地黄汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄汁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "百合地黄汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴虚内热",
+      "object_type": "Disease"
+    }
+  ]
+}

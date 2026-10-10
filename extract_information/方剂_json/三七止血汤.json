@@ -1,0 +1,271 @@
+{
+  "entities": [
+    {
+      "name": "三七止血汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "凉血止血，润肺止咳",
+        "indication": "肺痨大咳血"
+      }
+    },
+    {
+      "name": "参三七粉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5克（分冲）"
+      }
+    },
+    {
+      "name": "白及",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "35克（捣碎）"
+      }
+    },
+    {
+      "name": "藕节",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "茅根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "侧柏炭",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "20克"
+      }
+    },
+    {
+      "name": "川贝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "天冬",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "炙百合",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "元参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "10克"
+      }
+    },
+    {
+      "name": "凉血止血",
+      "type": "Effect"
+    },
+    {
+      "name": "润肺止咳",
+      "type": "Effect"
+    },
+    {
+      "name": "肺痨大咳血",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "参三七粉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白及",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "藕节",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茅根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "侧柏炭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川贝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "天冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙百合",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "元参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "润肺止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "三七止血汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痨大咳血",
+      "object_type": "Disease"
+    }
+  ]
+}

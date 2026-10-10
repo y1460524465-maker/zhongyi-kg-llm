@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "name": "补骨脂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肾助阳",
+        "indication": "肾虚冷泻，遗尿，滑精，小便频数，阳痿，腰膝冷痛，虚寒喘嗽。外用治白癜风。",
+        "property_flavor": "辛、微苦",
+        "meridian": "肾经；心包经；脾经；胃经；肺经",
+        "dosage": "内服：煎汤，6~15g；或入丸、散。外用：适量，酒浸涂患处。",
+        "taboo": "凡病阴虚火动，梦遗，尿血，小便短涩及目亦口苦舌干，大便燥结，内热作渴，火升目赤，易饥嘈杂，湿热成痿，以致骨乏无力者，皆不宜服。阴虚下陷，内热烦渴，眩晕气虚，怀孕心胞热，二便结者禁用。",
+        "origin": "为豆科植物补骨脂的果实。栽培或野生。分布河南、安徽、广东、陕西、山西、江西、四川、云南、贵州等地。主产四川、河南、陕西、安徽等地。",
+        "alias": "胡韭子、婆固脂、破故纸、补骨鸱、黑故子、胡故子、吉固子、黑故子"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "补骨脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚冷泻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补骨脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "遗尿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补骨脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "滑精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补骨脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便频数",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补骨脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补骨脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰膝冷痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补骨脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚寒喘嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补骨脂",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白癜风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "补骨脂",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾助阳",
+      "object_type": "Effect"
+    }
+  ]
+}

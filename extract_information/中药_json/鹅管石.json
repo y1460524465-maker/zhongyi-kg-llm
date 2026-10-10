@@ -1,0 +1,141 @@
+{
+  "entities": [
+    {
+      "name": "鹅管石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，9-15g，打碎先煎；研末，3-15g，或入丸剂",
+        "effect": "温肺壮阳，通乳",
+        "indication": "主治肺寒久嗽；虚劳咳喘；阳痿早泄；梦遗滑精；腰脚冷痹；乳汁不通",
+        "processing": "1.鹅管石：取原药材，除去杂质，洗净，干燥，用时打碎。生品擅于温肺化痰，通利乳汁，多用于肺虚咳喘，乳汁不下。2.煅鹅管石：取净鹅管石，置适宜的容器内，用无烟武火加热，煅至红透，有臭气逸出时取出，放凉，捣碎或研细。3.醋淬鹅管石：取净鹅管石装入罐中，置武火上煅呈红透，趁热倾入醋中淬透，冷后碾碎。每鹅管石100kg，用醋25kg",
+        "property_flavor": "味微咸",
+        "taboo": "实热及阴虚火旺者禁服",
+        "traits": "呈圆管状，有的稍弯曲，一端较细而尖，状如鹅毛管，长3～5厘米，直径4～7毫米。表面乳白色或灰白色，有突起的节状横环纹及多数纵直棱线，其间有细的横棱线交互成小方格状。质硬而脆，可折断，断面有多数中隔，自中心呈放射状排列。气无",
+        "origin": "为腔肠动物树珊瑚科栎珊瑚的石灰质骨骼或矿物钟乳石的细长尖端部分（滴乳石）",
+        "place": "广东、广西"
+      }
+    },
+    {
+      "name": "鹅管石",
+      "type": "Herb",
+      "attributes": {
+        "alias": "珊瑚鹅管石"
+      }
+    },
+    {
+      "name": "鹅管石",
+      "type": "Herb",
+      "attributes": {
+        "alias": "钟乳鹅管石"
+      }
+    },
+    {
+      "name": "肺寒久嗽",
+      "type": "Disease"
+    },
+    {
+      "name": "虚劳咳喘",
+      "type": "Disease"
+    },
+    {
+      "name": "阳痿早泄",
+      "type": "Disease"
+    },
+    {
+      "name": "梦遗滑精",
+      "type": "Disease"
+    },
+    {
+      "name": "腰脚冷痹",
+      "type": "Disease"
+    },
+    {
+      "name": "乳汁不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺虚咳喘",
+      "type": "Disease"
+    },
+    {
+      "name": "肾虚气喘",
+      "type": "Disease"
+    },
+    {
+      "name": "阳痿不举",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹅管石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺寒久嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅管石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚劳咳喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅管石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿早泄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅管石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "梦遗滑精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅管石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腰脚冷痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅管石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹅管石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温肺壮阳，通乳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹅管石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺虚咳喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅管石",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚气喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹅管石",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿不举",
+      "object_type": "Symptom"
+    }
+  ]
+}

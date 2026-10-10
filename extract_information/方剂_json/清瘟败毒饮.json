@@ -1,0 +1,405 @@
+{
+  "entities": [
+    {
+      "name": "清瘟败毒饮",
+      "type": "Formula",
+      "attributes": {
+        "effect": "清热泻火，凉血解毒",
+        "indication": "湿热疫毒及一切火热之证。气血两燔，高热狂躁，心烦不眠，或神昏谵语，头痛如劈，大渴引饮，咽痛干呕，发斑吐血，舌绛唇焦，脉沉细而数，或沉数，或浮大而数",
+        "usage": "石膏先煎十余分钟后，再入余药同煎，犀角磨汁和服，或研末，或先煎对入，分二次服。疫证初起，恶寒发热，头痛如裂，烦躁谵妄，身热肢冷，舌刺唇焦，上呕下泄，六脉沉细而数者用大剂，沉而数者用中剂，浮大而数者用小剂"
+      }
+    },
+    {
+      "name": "生石膏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "大剂180～240克，中剂60～120克，小剂24～36克"
+      }
+    },
+    {
+      "name": "小生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "大剂18～30克，中剂9～15克，小剂6～13.5克"
+      }
+    },
+    {
+      "name": "乌犀角",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "大剂18～24克，中剂9～12克，小剂6～12克"
+      }
+    },
+    {
+      "name": "真川连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "大剂12～18克，中剂6～12克，小剂3～4.5克"
+      }
+    },
+    {
+      "name": "生栀子",
+      "type": "Herb"
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb"
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb"
+    },
+    {
+      "name": "知母",
+      "type": "Herb"
+    },
+    {
+      "name": "赤芍",
+      "type": "Herb"
+    },
+    {
+      "name": "玄参",
+      "type": "Herb"
+    },
+    {
+      "name": "连翘",
+      "type": "Herb"
+    },
+    {
+      "name": "鲜竹叶",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "丹皮",
+      "type": "Herb"
+    },
+    {
+      "name": "流行性乙型脑炎",
+      "type": "Disease"
+    },
+    {
+      "name": "流行性脑脊髓膜炎",
+      "type": "Disease"
+    },
+    {
+      "name": "败血症",
+      "type": "Disease"
+    },
+    {
+      "name": "高热",
+      "type": "Symptom"
+    },
+    {
+      "name": "狂躁",
+      "type": "Symptom"
+    },
+    {
+      "name": "心烦不眠",
+      "type": "Symptom"
+    },
+    {
+      "name": "神昏谵语",
+      "type": "Symptom"
+    },
+    {
+      "name": "头痛如劈",
+      "type": "Symptom"
+    },
+    {
+      "name": "大渴引饮",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽痛干呕",
+      "type": "Symptom"
+    },
+    {
+      "name": "发斑吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌绛唇焦",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶寒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "头痛如裂",
+      "type": "Symptom"
+    },
+    {
+      "name": "烦躁谵妄",
+      "type": "Symptom"
+    },
+    {
+      "name": "身热肢冷",
+      "type": "Symptom"
+    },
+    {
+      "name": "舌刺唇焦",
+      "type": "Symptom"
+    },
+    {
+      "name": "上呕下泄",
+      "type": "Symptom"
+    },
+    {
+      "name": "白虎汤",
+      "type": "Formula"
+    },
+    {
+      "name": "芍药地黄汤",
+      "type": "Formula"
+    },
+    {
+      "name": "黄连解毒汤",
+      "type": "Formula"
+    },
+    {
+      "name": "大青叶",
+      "type": "Herb"
+    },
+    {
+      "name": "升麻",
+      "type": "Herb"
+    },
+    {
+      "name": "生军",
+      "type": "Herb"
+    },
+    {
+      "name": "天花粉",
+      "type": "Herb"
+    },
+    {
+      "name": "川连",
+      "type": "Herb"
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb"
+    },
+    {
+      "name": "瓜蒌霜",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生石膏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "小生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌犀角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "真川连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "赤芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "玄参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜竹叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丹皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热泻火",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "凉血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性乙型脑炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "流行性脑脊髓膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "败血症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "高热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "狂躁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心烦不眠",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "神昏谵语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛如劈",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大渴引饮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽痛干呕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发斑吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌绛唇焦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "伤寒论",
+      "object_type": "Source"
+    },
+    {
+      "subject": "清瘟败毒饮",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "外台秘要",
+      "object_type": "Source"
+    }
+  ]
+}

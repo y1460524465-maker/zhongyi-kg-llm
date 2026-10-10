@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "小蓟",
+      "type": "Herb",
+      "attributes": {
+        "alias": "猫蓟、青刺蓟、千针草、刺蓟菜、刺儿菜、青青菜、萋萋菜、枪刀菜、野红花、刺角菜、木刺艾、刺杆菜、刺刺芽、刺杀草、荠荠毛、小恶鸡婆、刺萝卜、小蓟姆、刺儿草、牛戳刺、刺尖头草、小刺盖",
+        "effect": "凉血止血，祛瘀消肿",
+        "indication": "吐血，衄血，尿血，血淋，便血，血崩，急性传染性肝炎，创伤出血，疔疮，痈毒",
+        "taboo": "脾胃虚寒而无瘀滞者忌服。忌犯铁器。不利于胃弱泄泻及血虚极、脾胃弱不思饮食之证。不利于气虚。",
+        "dosage": "内服：煎汤，5~10g；鲜品可用30~60g，或捣汁",
+        "origin": "菊科刺儿菜属植物刺儿菜Cephalanoplos segetum （Bunge）Kitam.[Cirsium segetum Bunge]的干燥地上部分（带花全草），根状茎亦可入药",
+        "traits": "本品茎呈圆柱形，有的上部分枝，长5～30cm，直径0.2～0.5cm；表面灰绿色或带紫色，具纵棱及白色柔毛；质脆，易折断，断面中空。叶互生，无柄或 有短柄；叶片皱缩或破碎，完整者展平后呈长椭圆形或长圆状披针形，长3～12cm，宽0.5～3cm；全缘或微齿裂至羽状深裂，齿尖具针刺；上表面绿褐色，下表面灰绿色，两面均具白色柔毛。头状花序单个或数个顶生；总苞钟状，苞片5～8层，黄绿色；花紫红色。气微，味微苦。",
+        "processing": "小蓟：拣净杂质，去根，水洗润透，切段，晒干。小蓟炭：取净小蓟，置锅内用武火炒至七成变黑色，但须存性，过铁丝筛，喷洒清水，取出，晒干。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "小蓟",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血，祛瘀消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "小蓟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "急性传染性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小蓟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "创伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小蓟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小蓟",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "小蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血淋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "便血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "小蓟",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血崩",
+      "object_type": "Symptom"
+    }
+  ]
+}

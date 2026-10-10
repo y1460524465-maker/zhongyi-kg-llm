@@ -1,0 +1,257 @@
+{
+  "entities": [
+    {
+      "name": "柴胡枳桔汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "往来寒热，两头角痛，耳聋目眩，胸胁满痛，舌苔白滑，脉右弦滑，左弦而浮大",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "川柴胡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱至钱半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "枳壳",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "钱半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "鲜生姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "青子芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱至钱半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "新会皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "钱半",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "雨前茶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "一钱",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "往来寒热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "两头角痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "耳聋",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "目眩",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸胁满痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔白滑",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川柴胡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枳壳",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鲜生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "青子芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "新会皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "雨前茶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "往来寒热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "两头角痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳聋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁满痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔白滑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "柴胡枳桔汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/柴胡枳桔汤",
+      "object_type": "Source"
+    }
+  ]
+}

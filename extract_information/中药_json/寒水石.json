@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "name": "寒水石",
+      "type": "Herb",
+      "attributes": {
+        "alias": "凝水石、白水石、凌水石、盐精、水石、冰石、鹊石、盐精石、泥精、盐枕、盐根",
+        "dosage": "内服：煎汤，9～15克；或入丸、散。",
+        "effect": "清热降火，利窍，消肿",
+        "indication": "时行热病，积热烦渴，吐泻，水肿，尿闭，齿衄，丹毒，烫伤",
+        "taboo": "畏地输；凡阴虚火旺，咳嗽吐血，多痰，潮热骨蒸，并脾胃作泄者不宜服；虚人热浮，切忌",
+        "processing": "多呈规则的块状结晶，常呈斜方柱形，有棱角，无色或黄白色，透明、略透明或不透明，表面平滑，有玻璃样光泽。质坚硬，易砸碎，碎块为方形或长方形。无臭，味淡。",
+        "property_flavor": null,
+        "origin": "为硫酸盐类矿物芒硝的晶体。",
+        "place": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "寒水石",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热降火，利窍，消肿",
+      "object_type": "Effect"
+    }
+  ]
+}

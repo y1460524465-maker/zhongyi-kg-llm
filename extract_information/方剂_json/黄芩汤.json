@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "黄芩汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "黄芩芍药汤",
+        "effect": "清热止利，和中止痛",
+        "indication": "伤寒，太阳与少阳合病，身热口苦，腹痛下利",
+        "usage": "以水1升，煮取600毫升，去滓，温服200毫升，日二服"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "property_flavor": "苦寒",
+        "effect": "清热止利"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克",
+        "effect": "敛阴和营止痛"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12枚",
+        "effect": "和中缓急"
+      }
+    },
+    {
+      "name": "《痘疹世医心法》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄芩汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《痘疹世医心法》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄芩汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芩汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芩汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芩汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黄芩汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热止利，和中止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芩汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "伤寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身热口苦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "伤寒",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腹痛下利",
+      "object_type": "Symptom"
+    }
+  ]
+}

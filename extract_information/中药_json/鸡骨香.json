@@ -1,0 +1,145 @@
+{
+  "entities": [
+    {
+      "name": "鸡骨香",
+      "type": "Herb",
+      "attributes": {
+        "effect": "理气止痛，祛风除湿，舒筋活络",
+        "indication": "胃痛，胃肠气胀，风湿痹痛，跌打损伤",
+        "property_flavor": "味辛苦，性温",
+        "dosage": "内服：煎汤，6-15g；研末0.9-1.5g；或浸酒。外用：适量，研末调敷",
+        "place": "广东、广西、福建"
+      }
+    },
+    {
+      "name": "木沉香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸡骨香"
+      }
+    },
+    {
+      "name": "土沉香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸡骨香"
+      }
+    },
+    {
+      "name": "驳骨消",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸡骨香"
+      }
+    },
+    {
+      "name": "滚地龙",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸡骨香"
+      }
+    },
+    {
+      "name": "黄牛香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸡骨香"
+      }
+    },
+    {
+      "name": "过山香",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸡骨香"
+      }
+    },
+    {
+      "name": "《生草药性备要》",
+      "type": "Source"
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source"
+    },
+    {
+      "name": "广州部队《常用中草药手册》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草求原》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸡骨香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡骨香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃肠气胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡骨香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡骨香",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸡骨香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡骨香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡骨香",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "舒筋活络",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸡骨香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《生草药性备要》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡骨香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草求原》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鸡骨香",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "广州部队《常用中草药手册》",
+      "object_type": "Source"
+    }
+  ]
+}

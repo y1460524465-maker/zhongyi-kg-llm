@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "白果",
+      "type": "Herb",
+      "attributes": {
+        "effect": "敛肺气，定喘嗽，止带浊，缩小便",
+        "indication": "哮喘，痰嗽，白带，白浊，遗精，淋病，小便频数",
+        "property_flavor": "甘；苦；涩；性平；小毒",
+        "dosage": "内服：煎汤，3~9g；或捣汁。外用：适量，捣敷；或切片涂。",
+        "origin": "为银杏科植物银杏的种子"
+      }
+    },
+    {
+      "name": "哮喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "白带",
+      "type": "Symptom"
+    },
+    {
+      "name": "白浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "淋病",
+      "type": "Disease"
+    },
+    {
+      "name": "小便频数",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "白果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "哮喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白果",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便频数",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "敛肺气，定喘嗽，止带浊，缩小便",
+      "object_type": "Effect"
+    }
+  ]
+}

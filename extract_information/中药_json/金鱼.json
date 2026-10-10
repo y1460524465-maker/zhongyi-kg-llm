@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "name": "金鱼",
+      "type": "Herb",
+      "attributes": {
+        "effect": "利尿清热，解毒",
+        "indication": "水臌，黄疸，水肿，小便不利，肺炎，咳嗽，百日咳",
+        "usage": "内服：煎汤，1-3条；或捣烂绞汁，或煅存性研末，每次1条",
+        "origin": "为鲤科动物金鱼的肉或全体"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金鱼",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水臌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金鱼",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金鱼",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    }
+  ]
+}

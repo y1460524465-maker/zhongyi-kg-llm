@@ -1,0 +1,366 @@
+{
+  "entities": [
+    {
+      "name": "水红花子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "水荭子、荭草实、河蓼子、川蓼子、水红子、爆花子、水泻花",
+        "effect": "消瘀破积，健脾利湿。治胁腹癥积，水臌，胃疼，食少腹胀，火眼，疮肿，瘰疬。",
+        "indication": "主治胁腹癥积，水臌，胃疼，食少腹胀，火眼，疮肿，瘰疬。",
+        "taboo": "凡血分无瘀滞及脾胃虚寒者忌服。",
+        "usage": "内服：煎汤，3~10g；研末、熬膏或浸酒。外用：适量，熬膏；或捣烂外敷。",
+        "property_flavor": "味微辛",
+        "processing": "8～10月间割取果穗，晒干，打落果实，除去杂质。"
+      }
+    },
+    {
+      "name": "胁腹癥积",
+      "type": "Disease"
+    },
+    {
+      "name": "水臌",
+      "type": "Disease"
+    },
+    {
+      "name": "胃疼",
+      "type": "Symptom"
+    },
+    {
+      "name": "食少腹胀",
+      "type": "Symptom"
+    },
+    {
+      "name": "火眼",
+      "type": "Disease"
+    },
+    {
+      "name": "疮肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疬",
+      "type": "Disease"
+    },
+    {
+      "name": "消渴",
+      "type": "Disease"
+    },
+    {
+      "name": "小儿痞块积聚",
+      "type": "Disease"
+    },
+    {
+      "name": "石瘕症",
+      "type": "Disease"
+    },
+    {
+      "name": "颈淋巴腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痰嗽喘咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "大小便不利",
+      "type": "Symptom"
+    },
+    {
+      "name": "麻疹不透",
+      "type": "Symptom"
+    },
+    {
+      "name": "慢性肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肝硬化腹水",
+      "type": "Disease"
+    },
+    {
+      "name": "颈淋巴结核",
+      "type": "Disease"
+    },
+    {
+      "name": "脾肿大",
+      "type": "Symptom"
+    },
+    {
+      "name": "消化不良",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹胺胃痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿食积",
+      "type": "Disease"
+    },
+    {
+      "name": "结膜炎",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食少腹胀",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰嗽喘咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "麻疹不透",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾肿大",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "消化不良",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胺胃痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胁腹癥积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水臌",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "火眼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿痞块积聚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "石瘕症",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "颈淋巴腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝硬化腹水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "颈淋巴结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿食积",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "结膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消瘀破积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾利湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "去热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "破血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明眼目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消疮毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺化痰",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "降气通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "透疹",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "水红花子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热明目",
+      "object_type": "Effect"
+    }
+  ]
+}

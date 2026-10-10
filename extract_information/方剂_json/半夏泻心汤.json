@@ -1,0 +1,234 @@
+{
+  "entities": [
+    {
+      "name": "半夏泻心汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "和胃降逆，散结消痞",
+        "indication": "寒热中阻，胃气不和，心下痞满不痛，或干呕，或呕吐，肠鸣下利，舌苔薄黄而腻，脉弦数者",
+        "taboo": null,
+        "usage": "上七味，以水1升，煮取600毫升，去滓，再煎取300毫升，分二次温服"
+      }
+    },
+    {
+      "name": "半夏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克（洗）",
+        "effect": "和胃降逆，消痞散结",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "清泄里热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "干姜",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "温中散寒",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克",
+        "effect": "益气健脾",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克（炙）",
+        "effect": "益气健脾",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炙",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "黄连",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3克",
+        "effect": "清泄里热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12枚（擘）",
+        "effect": "益气健脾，和中补虚",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "半夏泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "半夏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄连",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "半夏泻心汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "和胃降逆，散结消痞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "半夏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "和胃降逆，消痞散结",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "干姜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄芩",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清泄里热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄连",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清泄里热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "人参",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "大枣",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气健脾，和中补虚",
+      "object_type": "Effect"
+    }
+  ]
+}

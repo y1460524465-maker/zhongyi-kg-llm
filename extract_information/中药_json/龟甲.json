@@ -1,0 +1,702 @@
+{
+  "entities": [
+    {
+      "name": "龟甲",
+      "type": "Herb",
+      "attributes": {
+        "alias": "龟板、乌龟壳、乌龟板、下甲、血板、烫板",
+        "effect": "滋阴，潜阳，补肾，健骨",
+        "indication": "肾阴不足，骨蒸劳热，吐血，衄血，久咳，遗精，崩漏，带下，腰痛，骨痿，阴虚风动，久痢，久疟，痔疮，小儿囟门不合",
+        "property_flavor": "味微咸",
+        "taboo": "孕妇或胃有寒湿者忌服",
+        "origin": "本品为龟科动物乌龟Chinemys reevesii （Gray）的背甲及腹甲",
+        "dosage": "内服：煎汤宜先煎，9～24克；熬膏或入丸、散"
+      }
+    },
+    {
+      "name": "肾阴不足",
+      "type": "Disease"
+    },
+    {
+      "name": "骨蒸劳热",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "久咳",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "骨痿",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴虚风动",
+      "type": "Symptom"
+    },
+    {
+      "name": "久痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "久疟",
+      "type": "Symptom"
+    },
+    {
+      "name": "痔疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿囟门不合",
+      "type": "Symptom"
+    },
+    {
+      "name": "补肺止血",
+      "type": "Effect"
+    },
+    {
+      "name": "滋阴清热",
+      "type": "Effect"
+    },
+    {
+      "name": "大补丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "降阴火，补肾水",
+        "usage": "服七十丸，空心，盐白汤下"
+      }
+    },
+    {
+      "name": "补肾丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治痿厥，筋骨软，气血俱虚甚者",
+        "usage": "每服七十丸，白汤下"
+      }
+    },
+    {
+      "name": "龟鹿二仙膏",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治虚损精极者，梦泄遗精，瘦削少气，目视不明等证",
+        "usage": "初服一钱五分，渐加至三钱，空心，酒服"
+      }
+    },
+    {
+      "name": "龟柏姜栀丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治赤白带下，或时腹痛",
+        "usage": "白汤下"
+      }
+    },
+    {
+      "name": "龟蜡丹",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治无名肿毒，对口疔疮，发背流注，无论初起、将溃、已溃",
+        "usage": "每服三钱，日服三次，黄酒调下，以醉为度"
+      }
+    },
+    {
+      "name": "大定风珠",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治阴虚动风证。温病后期，脉气虚弱，舌绛苔少，有时时欲脱之势者",
+        "usage": "上以水八杯，煮取三杯，去渣，入阿胶烊化，再入鸡子黄，分三次服"
+      }
+    },
+    {
+      "name": "三甲复脉汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "治温病热邪久羁下焦，热深厥甚，脉细促，心中痛者",
+        "usage": "水煎服"
+      }
+    },
+    {
+      "name": "白及酥龟版",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补肺止血，滋阴清热",
+        "indication": "肺肾阴虚有热所致的咯血、衄血、吐血、尿血等",
+        "usage": "每日2次，每次6g，温开水送服"
+      }
+    },
+    {
+      "name": "龟甲散",
+      "type": "Formula"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "滋阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "潜阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾阴不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨蒸劳热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久咳",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨痿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴虚风动",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久疟",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痔疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小儿囟门不合",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "知母",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大补丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大补丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《丹溪心法》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "补肾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "陈皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "补肾丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《丹溪心法》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龟鹿二仙膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟鹿二仙膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鹿角",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟鹿二仙膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "枸杞子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟鹿二仙膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟鹿二仙膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《摄生秘剖》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龟柏姜栀丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟柏姜栀丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟柏姜栀丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟柏姜栀丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟柏姜栀丸",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医学入门》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龟蜡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟蜡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白蜡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟蜡丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《梅氏验方新编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鸡子黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "鳖甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大定风珠",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《温病条辨》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "炙甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "干地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦冬",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生鳖甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "三甲复脉汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《温病条辨》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "白及酥龟版",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白及",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白及酥龟版",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "白及酥龟版",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肺肾阴虚有热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白及酥龟版",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白及酥龟版",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白及酥龟版",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "白及酥龟版",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "龟甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龟甲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木通",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟甲散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菖蒲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "龟甲散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    }
+  ]
+}

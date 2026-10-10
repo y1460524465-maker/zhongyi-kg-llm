@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "问荆",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，凉血，止咳，利尿",
+        "indication": "用于吐血，衄血，便血，倒经，咳嗽气喘，淋病",
+        "usage": "内服：煎汤，3-15g。外用：适量，鲜品捣敷；或干品研末调敷"
+      }
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "《陕西中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《国药的药理学》",
+      "type": "Source"
+    },
+    {
+      "name": "《中药新编》",
+      "type": "Source"
+    },
+    {
+      "name": "《中医药实验研究》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陕西中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《国药的药理学》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中药新编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中医药实验研究》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利尿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "吐血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "衄血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "倒经",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咳嗽气喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "问荆",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    }
+  ]
+}

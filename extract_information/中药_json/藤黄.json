@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "藤黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "消肿，攻毒，止血，杀虫，祛腐敛疮",
+        "indication": "痈疽肿毒，顽癣恶疮，损伤出血，牙疳蛀齿，汤火伤",
+        "taboo": "体质虚弱者忌服，多量易引起头昏、呕吐、腹痛、泄泻，甚或致死",
+        "usage": "外用：适量，研末调敷、磨汁涂或熬督涂。内服：0.03-0.06g，入丸剂"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "藤黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "藤黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "攻毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "藤黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "藤黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "藤黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛腐敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "藤黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藤黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "顽癣恶疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藤黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "损伤出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藤黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "牙疳蛀齿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "藤黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "汤火伤",
+      "object_type": "Disease"
+    }
+  ]
+}

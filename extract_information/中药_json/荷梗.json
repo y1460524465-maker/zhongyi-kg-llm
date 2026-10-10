@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "荷梗",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解暑，通气行水",
+        "indication": "暑湿胸闷，泄泻，痢疾，淋病，带下",
+        "usage": "内服：煎汤，9~15g",
+        "dosage": "9~15g"
+      }
+    }
+  ],
+  "relations": []
+}

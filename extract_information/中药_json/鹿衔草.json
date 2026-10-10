@@ -1,0 +1,286 @@
+{
+  "entities": [
+    {
+      "name": "鹿衔草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鹿蹄草、小秦王草、破血丹、纸背金牛草、大肺筋草、红肺筋草、鹿寿茶、鹿安茶、鹿含草",
+        "effect": "补虚，益肾，祛风除湿，活血调经",
+        "indication": "虚弱咳嗽，劳伤吐血，风湿关节痛，崩漏，白带，外伤出血",
+        "processing": "拣去杂质，筛去泥沙，洗净，稍润，切细，晒干",
+        "property_flavor": "气无，味微苦",
+        "dosage": "内服：煎汤，15~30g；研末，6~9g；外用：适量，捣敷或研撒；或煎水洗"
+      }
+    },
+    {
+      "name": "鹿蹄草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鹿衔草"
+      }
+    },
+    {
+      "name": "圆叶鹿蹄草",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "鹿衔草膏",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补气补血"
+      }
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《植物名实图考》",
+      "type": "Source"
+    },
+    {
+      "name": "《中国药植志》",
+      "type": "Source"
+    },
+    {
+      "name": "《重庆草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川常用中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《陕西中草药》",
+      "type": "Source"
+    },
+    {
+      "name": "虚弱咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "劳伤吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿关节痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "白带",
+      "type": "Symptom"
+    },
+    {
+      "name": "外伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺结核咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "慢性风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "类风湿性关节炎",
+      "type": "Disease"
+    },
+    {
+      "name": "慢性肠炎",
+      "type": "Disease"
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "肾虚五淋白浊",
+      "type": "Symptom"
+    },
+    {
+      "name": "过敏性皮炎",
+      "type": "Disease"
+    },
+    {
+      "name": "疮痈肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "虫蛇咬伤",
+      "type": "Symptom"
+    },
+    {
+      "name": "蛇咬伤",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚弱咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳伤吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿关节痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补虚，益肾，祛风除湿，活血调经",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《滇南本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《植物名实图考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《中国药植志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《重庆草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川常用中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陕西中草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺结核咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "类风湿性关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚五淋白浊",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "过敏性皮炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮痈肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虫蛇咬伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鹿衔草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "蛇咬伤",
+      "object_type": "Symptom"
+    }
+  ]
+}

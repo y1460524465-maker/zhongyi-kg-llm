@@ -1,0 +1,267 @@
+{
+  "entities": [
+    {
+      "name": "黑锡丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": "医门黑锡丹",
+        "effect": "温壮元阳，镇纳浮阳",
+        "indication": "真阳不足，肾不纳气，浊阴上泛，上盛下虚，痰壅胸中，上气喘促，四肢厥逆，冷汗不止，舌淡苔白，脉沉微；奔豚，气从小腹上冲胸，胸胁脘腹胀痛，或寒疝腹痛，肠鸣滑泄，或男子阳痿精冷，女子血海虚寒，月经不调，带下清稀，不孕",
+        "usage": "每服30～40粒，空腹时用姜、盐汤或枣汤送下，妇人用艾、醋汤送下"
+      }
+    },
+    {
+      "name": "沉香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "炮，去皮、脐"
+      }
+    },
+    {
+      "name": "葫芦巴",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "酒浸，炒"
+      }
+    },
+    {
+      "name": "阳起石",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "研细，水飞"
+      }
+    },
+    {
+      "name": "茴香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "舶上者，炒"
+      }
+    },
+    {
+      "name": "破故纸",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "酒浸，炒"
+      }
+    },
+    {
+      "name": "肉豆蔻",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "面裹，煨"
+      }
+    },
+    {
+      "name": "金铃子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克",
+        "processing": "蒸，去皮、核"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "肉桂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克",
+        "processing": "去皮"
+      }
+    },
+    {
+      "name": "黑锡",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "processing": "去滓"
+      }
+    },
+    {
+      "name": "硫黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "60克",
+        "processing": "透明者，结砂子"
+      }
+    },
+    {
+      "name": "川楝子",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "《太平惠民和剂局方》",
+      "type": "Source",
+      "attributes": {}
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《太平惠民和剂局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温壮元阳，镇纳浮阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "真阳不足",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "上气喘促",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢厥逆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "冷汗不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰壅胸中",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肠鸣滑泄",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "葫芦巴",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阳起石",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茴香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "破故纸",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉豆蔻",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "金铃子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黑锡",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "硫黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "黑锡丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川楝子",
+      "object_type": "Herb"
+    }
+  ]
+}

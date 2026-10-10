@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "长叶柄野扇花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "凉血散瘀，解毒敛疮",
+        "indication": "跌打损伤，外伤出血，无名肿毒，腮腺炎，黄疸",
+        "usage": "内服：煎汤，9-15g，外用：适量，鲜品捣敷",
+        "processing": "全年均可采，洗净，切段，鲜用或晒干"
+      }
+    }
+  ],
+  "relations": []
+}

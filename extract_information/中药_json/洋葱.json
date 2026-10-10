@@ -1,0 +1,205 @@
+{
+  "entities": [
+    {
+      "name": "洋葱",
+      "type": "Herb",
+      "attributes": {
+        "alias": "玉葱",
+        "property_flavor": "味甘、微辛、性温",
+        "meridian": "入肝、脾、胃、肺经",
+        "effect": "润肠，理气和胃，健脾进食，发散风寒，温中通阳，消食",
+        "indication": "主治创伤，溃疡，阴道滴虫病，便秘；外感风寒无汗、鼻塞、食积纳呆、宿食不消、高血压、高血脂、痢疾等症",
+        "dosage": "内服：生食或烹食，1～2两",
+        "origin": "为百合科植物洋葱的鳞茎。6月采收"
+      }
+    },
+    {
+      "name": "《植物学大辞典》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "创伤",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "溃疡",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "阴道滴虫病",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "便秘",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "外感风寒无汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "鼻塞",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "食积纳呆",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "宿食不消",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "高血压",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "高血脂",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《植物学大辞典》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "创伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "溃疡",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阴道滴虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外感风寒无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "鼻塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食积纳呆",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "宿食不消",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血脂",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肠",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "理气和胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾进食",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "发散风寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温中通阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "洋葱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消食",
+      "object_type": "Effect"
+    }
+  ]
+}

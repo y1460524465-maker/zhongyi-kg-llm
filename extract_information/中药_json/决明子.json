@@ -1,0 +1,123 @@
+{
+  "entities": [
+    {
+      "name": "决明子",
+      "type": "Herb",
+      "attributes": {
+        "alias": "草决明、羊明、马蹄决明、还瞳子、狗屎豆、假绿豆、马蹄子、羊角豆、野青豆、大号山土豆、猪骨明、猪屎蓝豆、夜拉子、羊尾豆",
+        "effect": "清肝，明目，利水，通便",
+        "indication": "风热赤眼，青盲，雀目，高血压，肝炎，肝硬化腹水，习惯性便秘",
+        "property_flavor": "味微苦，稍带粘性",
+        "dosage": "内服：煎汤，9~15g",
+        "taboo": "泄泻和血压低者慎用。《本草经集注》：蓍实为之使。恶大麻子。"
+      }
+    },
+    {
+      "name": "风热赤眼",
+      "type": "Symptom"
+    },
+    {
+      "name": "青盲",
+      "type": "Symptom"
+    },
+    {
+      "name": "雀目",
+      "type": "Symptom"
+    },
+    {
+      "name": "高血压",
+      "type": "Disease"
+    },
+    {
+      "name": "肝炎",
+      "type": "Disease"
+    },
+    {
+      "name": "肝硬化腹水",
+      "type": "Disease"
+    },
+    {
+      "name": "习惯性便秘",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "决明子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "决明子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "决明子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肝硬化腹水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "决明子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "习惯性便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "决明子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风热赤眼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "决明子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "青盲",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "决明子",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "雀目",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "决明子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肝",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "决明子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "明目",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "决明子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "决明子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通便",
+      "object_type": "Effect"
+    }
+  ]
+}

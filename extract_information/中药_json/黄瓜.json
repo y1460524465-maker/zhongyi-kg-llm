@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "黄瓜",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，利水，解毒",
+        "indication": "热病口渴，小便短赤，水肿尿少，水火烫伤，汗斑。",
+        "usage": "内服：适量，煮熟或生啖；或绞汁服。外用：适量，生擦或捣汁涂。",
+        "taboo": "动寒痰，胃冷者食之，腹痛吐泻。",
+        "origin": "为葫芦科植物黄瓜的果实。夏季采收果实，鲜用。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄瓜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄瓜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄瓜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄瓜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热病口渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄瓜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小便短赤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄瓜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿尿少",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄瓜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水火烫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄瓜",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "汗斑",
+      "object_type": "Disease"
+    }
+  ]
+}

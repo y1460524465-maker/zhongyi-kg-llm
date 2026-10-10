@@ -1,0 +1,252 @@
+{
+  "entities": [
+    {
+      "name": "十枣汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "清晨空腹调服药粉1.5~3克，泻下后宜服稀粥以和胃气"
+      }
+    },
+    {
+      "name": "大戟",
+      "type": "Herb",
+      "attributes": {
+        "effect": "逐水饮",
+        "property_flavor": "辛苦"
+      }
+    },
+    {
+      "name": "芫花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "逐水饮",
+        "property_flavor": "辛苦"
+      }
+    },
+    {
+      "name": "甘遂",
+      "type": "Herb",
+      "attributes": {
+        "effect": "苦寒，能直达水气所结之处，以攻决为用",
+        "property_flavor": "苦寒"
+      }
+    },
+    {
+      "name": "大枣",
+      "type": "Herb",
+      "attributes": {
+        "effect": "缓峻"
+      }
+    },
+    {
+      "name": "悬饮",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "咳唾胸胁引痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心下痞硬",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "干呕短气",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "头痛目眩",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胸背掣痛不得息",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "一身悉肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腹胀喘满",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "二便不利",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔滑",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉沉弦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "渗出性胸膜炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肝硬化腹水",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "晚期血吸虫病腹",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "肾炎水肿",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大戟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芫花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘遂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大枣",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳唾胸胁引痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "心下痞硬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "干呕短气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛目眩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸背掣痛不得息",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "一身悉肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹胀喘满",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "二便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔滑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脉沉弦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "悬饮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "渗出性胸膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝硬化腹水",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "晚期血吸虫病腹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "十枣汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾炎水肿",
+      "object_type": "Disease"
+    }
+  ]
+}

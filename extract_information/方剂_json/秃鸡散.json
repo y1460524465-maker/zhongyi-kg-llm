@@ -1,0 +1,123 @@
+{
+  "entities": [
+    {
+      "name": "秃鸡散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温补肾阳",
+        "indication": "阳痿、早泄、男子不育",
+        "usage": "每服方寸匕，空腹酒下，每日2次。或以白蜜和丸，如梧桐子大。每服5丸，日2次，以知为度。"
+      }
+    },
+    {
+      "name": "肉苁蓉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "菟丝子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "远志",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "蛇床子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "阳痿",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "早泄",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "男子不育",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "《医心方》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "秃鸡散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉苁蓉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秃鸡散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五味子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秃鸡散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "菟丝子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秃鸡散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "远志",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秃鸡散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "蛇床子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "秃鸡散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秃鸡散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "早泄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秃鸡散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "男子不育",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "秃鸡散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医心方》",
+      "object_type": "Source"
+    }
+  ]
+}

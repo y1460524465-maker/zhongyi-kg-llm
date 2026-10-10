@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "name": "四君子汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "温和脾胃，进益饮食，辟寒邪瘴雾气",
+        "indication": "荣卫气虚，脏腑怯弱，心腹胀满，全不思食，肠鸣泄泻，呕哕吐逆",
+        "taboo": null,
+        "usage": "每服二钱，水一盏，煎至七分，通口服，不拘时，入盐少许，白汤点亦得"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb"
+    },
+    {
+      "name": "甘草",
+      "type": "Herb"
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "白术",
+      "type": "Herb"
+    },
+    {
+      "name": "《宋·太平惠民和剂局方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四君子汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《宋·太平惠民和剂局方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "四君子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温和脾胃，进益饮食，辟寒邪瘴雾气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "四君子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "荣卫气虚，脏腑怯弱，心腹胀满，全不思食，肠鸣泄泻，呕哕吐逆",
+      "object_type": "Disease"
+    }
+  ]
+}

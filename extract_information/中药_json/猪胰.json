@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "name": "猪胰",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "适量",
+        "effect": "益肺止咳，健脾止痢，通乳润燥",
+        "indication": "主肺痿咳嗽，肺胀喘急，咯血，脾虚下痢，乳汁不通，手足皲裂，不孕，糖尿病",
+        "processing": "宰杀后，剖腹，取出胰脏，洗净，鲜用或冷藏备用",
+        "usage": "内服：煮食或煎汤，适量"
+      }
+    },
+    {
+      "name": "肺痿咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺胀喘急",
+      "type": "Symptom"
+    },
+    {
+      "name": "咯血",
+      "type": "Symptom"
+    },
+    {
+      "name": "脾虚下痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "乳汁不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "手足皲裂",
+      "type": "Symptom"
+    },
+    {
+      "name": "不孕",
+      "type": "Disease"
+    },
+    {
+      "name": "糖尿病",
+      "type": "Disease"
+    },
+    {
+      "name": "咳嗽脓血",
+      "type": "Symptom"
+    },
+    {
+      "name": "肺损嗽血",
+      "type": "Symptom"
+    },
+    {
+      "name": "久咳嗽上气",
+      "type": "Symptom"
+    },
+    {
+      "name": "冷痢久不瘥",
+      "type": "Symptom"
+    },
+    {
+      "name": "赤白癜风",
+      "type": "Disease"
+    },
+    {
+      "name": "目生翳膜",
+      "type": "Symptom"
+    },
+    {
+      "name": "食医心镜",
+      "type": "Source"
+    },
+    {
+      "name": "士材三书",
+      "type": "Source"
+    },
+    {
+      "name": "补缺肘后方",
+      "type": "Source"
+    },
+    {
+      "name": "海上集验方",
+      "type": "Source"
+    },
+    {
+      "name": "肘后方",
+      "type": "Source"
+    },
+    {
+      "name": "寿域神方",
+      "type": "Source"
+    },
+    {
+      "name": "孙天仁集效方",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺痿咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺胀喘急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咯血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾虚下痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳汁不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足皲裂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "不孕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "糖尿病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益肺止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾止痢",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通乳润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咳嗽脓血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺损嗽血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "久咳嗽上气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "冷痢久不瘥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "赤白癜风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪胰",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目生翳膜",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "啤酒花",
+      "type": "Herb",
+      "attributes": {
+        "effect": "健胃消食，利尿消肿，抗痨消炎",
+        "indication": "消化不良，腹胀，浮肿，膀胱炎，肺结核，咳嗽，失眠，麻风病",
+        "dosage": "内服：煎汤，3-9g"
+      }
+    }
+  ],
+  "relations": []
+}

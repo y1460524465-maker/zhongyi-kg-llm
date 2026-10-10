@@ -1,0 +1,286 @@
+{
+  "entities": [
+    {
+      "name": "桑杏汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "辛凉甘润",
+        "indication": "外感温燥证轻证",
+        "taboo": null,
+        "usage": null
+      }
+    },
+    {
+      "name": "霜桑叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": "辛凉疏导外邪，润肺",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "杏仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5g",
+        "effect": "宣利肺气，润燥止咳",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "沙参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6g",
+        "effect": "养肺阴，清肺热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "象贝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "香豉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": "辛温而较平和，加强桑叶疏导外邪",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "栀子皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": "清胸膈之热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "梨皮",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "3g",
+        "effect": "养肺阴，清肺热",
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": null,
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "温燥",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "身热不甚",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "口渴咽干鼻燥",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "干咳无痰",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "痰少而粘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔薄白而干",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉浮数而右脉大",
+      "type": "Symptom",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "桑杏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "霜桑叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑杏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "杏仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑杏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沙参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑杏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "象贝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑杏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑杏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "栀子皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑杏汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "梨皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "桑杏汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "温燥",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "温燥",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温燥",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "身热不甚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温燥",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "口渴咽干鼻燥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温燥",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "干咳无痰",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温燥",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "痰少而粘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温燥",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌红",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温燥",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "苔薄白而干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "温燥",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉浮数而右脉大",
+      "object_type": "Symptom"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "entities": [
+    {
+      "name": "控涎丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "一身及两胁走痛，痰挟死血者",
+        "taboo": null,
+        "usage": "每服5-7丸，渐加至10丸，临卧姜汤送下"
+      }
+    },
+    {
+      "name": "甘遂",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各等分",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "面裹煨",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "大戟",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各等分",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "制",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "真白芥子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "各等分",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "桃仁泥",
+      "type": "Herb",
+      "attributes": {}
+    },
+    {
+      "name": "《丹溪心法》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "控涎丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘遂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "控涎丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大戟",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "控涎丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "真白芥子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "控涎丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桃仁泥",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "控涎丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《丹溪心法》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "控涎丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "一身及两胁走痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "控涎丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰挟死血者",
+      "object_type": "Symptom"
+    }
+  ]
+}

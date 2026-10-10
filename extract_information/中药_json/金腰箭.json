@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "金腰箭",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热透疹，解毒消肿",
+        "indication": "感冒发热，癍疹，疮痈肿毒",
+        "usage": "内服：煎汤，15-30g。外用：适量，捣敷；或煎水洗",
+        "origin": "菊科",
+        "place": "台湾、广东、广西、云南等地",
+        "dosage": "15-30g"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金腰箭",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热透疹，解毒消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金腰箭",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金腰箭",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "癍疹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金腰箭",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮痈肿毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

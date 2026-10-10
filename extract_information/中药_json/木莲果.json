@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "木莲果",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，9-30g",
+        "effect": "通便，止咳",
+        "indication": "实热便闭，老人干咳",
+        "processing": "8月（处暑前后）在果实成熟未开裂前摘取，剪除残余果柄，不使碎散，充分晒干",
+        "property_flavor": "气香，味炭",
+        "traits": "干燥果实由多数蓇葖聚合而成，状如松球，长约4厘米，直径3～4厘米，基部膨大；外表紫褐色，内侧棕褐色。基部偶有长果柄，密布淡棕色圆点状物。蓇葖开裂后，可见暗紫红色的种子2枚；破开种皮，有灰白色而富有油质的子叶1枚。以干燥、完整不碎者为佳"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "木莲果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木莲果",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "木莲果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "实热便闭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "木莲果",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "老人干咳",
+      "object_type": "Disease"
+    }
+  ]
+}

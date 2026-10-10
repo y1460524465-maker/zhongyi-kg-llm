@@ -1,0 +1,126 @@
+{
+  "entities": [
+    {
+      "name": "二妙散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "清热燥湿",
+        "indication": "湿热下注之痿、痹、脚气、带下、湿疮",
+        "taboo": null,
+        "usage": "上二味为末，沸汤，入姜汁调服"
+      }
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    },
+    {
+      "name": "苍术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15g",
+        "effect": null,
+        "indication": null,
+        "meridian": null,
+        "origin": null,
+        "place": null,
+        "processing": "米泔浸，炒",
+        "property_flavor": null,
+        "taboo": null,
+        "traits": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "二妙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄柏",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二妙散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苍术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "二妙散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "关节炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二妙散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴囊湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二妙散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "阴道炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "二妙散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二妙散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下肢痿软无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二妙散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "足膝红肿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二妙散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便短赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二妙散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "舌苔黄腻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "二妙散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热燥湿",
+      "object_type": "Effect"
+    }
+  ]
+}

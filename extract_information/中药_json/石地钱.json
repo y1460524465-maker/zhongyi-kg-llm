@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "name": "石地钱",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12-15g",
+        "effect": "清热解毒，消肿止血",
+        "indication": "疮疖肿毒，烧烫伤，跌打肿痛，外伤出血",
+        "processing": "夏、秋季采收，洗净，鲜用或晒干",
+        "property_flavor": "null",
+        "taboo": "null"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石地钱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石地钱",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石地钱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疖肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石地钱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "烧烫伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石地钱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "石地钱",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "外伤出血",
+      "object_type": "Symptom"
+    }
+  ]
+}

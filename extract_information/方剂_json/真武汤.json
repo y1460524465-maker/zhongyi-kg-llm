@@ -1,0 +1,118 @@
+{
+  "entities": [
+    {
+      "name": "真武汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "温阳利水",
+        "indication": "治脾肾阳衰，水气内停，小便不利，四肢沉重疼痛，腹痛下利，或肢体浮肿，苔白不渴，太阳病发汗，汗出不解，其人仍发热，心下悸，头眩，身瞤动，振振欲擗地者。现用于肝、肾性水肿，心性水肿，耳源性眩晕，慢性结肠炎等属于牌肾阳虚者。"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb"
+    },
+    {
+      "name": "芍药",
+      "type": "Herb"
+    },
+    {
+      "name": "白术",
+      "type": "Herb"
+    },
+    {
+      "name": "生姜",
+      "type": "Herb"
+    },
+    {
+      "name": "附子",
+      "type": "Herb"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生姜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "脾肾阳虚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肝性水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾性水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "心性水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "耳源性眩晕",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性结肠炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "真武汤",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "温阳利水",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "entities": [
+    {
+      "name": "金锁固精丸",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "固肾涩精",
+        "indication": "肾虚遗精证",
+        "taboo": "湿热下注所致者禁用",
+        "usage": "为丸剂，每服9克，空腹淡盐汤下；或作汤剂，用量按病情酌定"
+      }
+    },
+    {
+      "name": "沙苑蒺藜",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "芡实",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "莲须",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "龙骨",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牡蛎",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "莲子肉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肾虚遗精证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腰酸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "尿频",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌淡",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "苔白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉沉弱",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "心烦不眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌红少津",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉细数",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "梦遗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "滑精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "遗尿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "失眠",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "腰酸耳鸣",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "四肢无力",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉细弱",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "补骨脂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "山芋肉",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "龟板",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "女贞子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "知母",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "黄柏",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五味子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "龙胆泻肝汤",
+      "type": "Formula",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚遗精证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "固肾涩精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沙苑蒺藜",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芡实",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "莲须",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙骨",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牡蛎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "沙苑蒺藜",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾益精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "莲子肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "固肾涩精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "莲子肉",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾宁神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "固肾涩精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "芡实",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "健脾宁神",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "龙骨",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "潜阳涩精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "牡蛎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "潜阳涩精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "莲须",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "涩精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "肾虚遗精证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾虚遗精证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "腰酸耳鸣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾虚遗精证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "四肢无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "肾虚遗精证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉细弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "梦遗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "滑精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗尿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金锁固精丸",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失眠",
+      "object_type": "Symptom"
+    }
+  ]
+}

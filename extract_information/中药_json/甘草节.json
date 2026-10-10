@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "甘草节",
+      "type": "Herb",
+      "attributes": {
+        "alias": "粉草节",
+        "effect": "清热解毒",
+        "indication": "痈疽疮毒，咽喉肿痛",
+        "usage": "内服：煎汤，3-6g；或研末",
+        "dosage": "3-6g",
+        "processing": "将原药除去杂质，洗净，浸润。切斜片，干燥，筛去灰屑"
+      }
+    },
+    {
+      "name": "《外科精要》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "甘草节",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "甘草节",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "甘草节",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "甘草节",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《外科精要》",
+      "object_type": "Source"
+    }
+  ]
+}

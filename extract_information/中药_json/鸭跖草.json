@@ -1,0 +1,149 @@
+{
+  "entities": [
+    {
+      "name": "鸭跖草",
+      "type": "Herb",
+      "attributes": {
+        "effect": "行水清热，凉血解毒",
+        "indication": "水肿，脚气，小便不利，感冒，丹毒，腮腺炎，黄疸肝炎，热痢，疟疾，鼻衄，尿血，血崩，白带，咽喉肿痛，痈疽疔疮",
+        "dosage": "15~30g（鲜品60~90g）",
+        "traits": "长可达60cm，黄绿色或黄白色，较光滑；茎有纵棱，节稍膨大；叶互生，卵状披针形或披针形；花蓝色；气微，味淡"
+      }
+    },
+    {
+      "name": "《本草拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《滇南本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《品汇精要》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草推陈》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "广州部队《常用中草药手册》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行水清热，凉血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脚气",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "黄疸肝炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热痢",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "鼻衄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血崩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "咽喉肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭跖草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疔疮",
+      "object_type": "Disease"
+    }
+  ]
+}

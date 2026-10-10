@@ -1,0 +1,164 @@
+{
+  "entities": [
+    {
+      "name": "银翘散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "辛凉透表，清热解毒",
+        "indication": null,
+        "taboo": null,
+        "usage": "上杵为散，每服六钱（18克），鲜苇根汤煎，香气大出，即取服，勿过煮。病重者约二时一服，日三服，夜一服；轻者三时一服，日二服，夜一服。现代用法：加入芦根适量，水煎服，用量按原方比例酌情增减。"
+      }
+    },
+    {
+      "name": "连翘",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "银花",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "30克"
+      }
+    },
+    {
+      "name": "苦桔梗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "薄荷",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "竹叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "生甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "荆芥穗",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "12克"
+      }
+    },
+    {
+      "name": "淡豆豉",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "15克"
+      }
+    },
+    {
+      "name": "牛蒡子",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "18克"
+      }
+    },
+    {
+      "name": "芦根",
+      "type": "Herb",
+      "attributes": {
+        "dosage": null
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "银翘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "连翘",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "银花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苦桔梗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "竹叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "荆芥穗",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "淡豆豉",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛蒡子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芦根",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "银翘散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/银翘散",
+      "object_type": "Source"
+    }
+  ]
+}

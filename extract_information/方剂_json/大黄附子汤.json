@@ -1,0 +1,170 @@
+{
+  "entities": [
+    {
+      "name": "大黄附子汤",
+      "type": "Formula",
+      "attributes": {
+        "usage": "大黄9克，附子12克，细辛3克",
+        "indication": "寒积里实证。腹痛便秘，胁下偏痛，发热，手足厥冷，舌苔白腻，脉弦紧",
+        "effect": "寒积里实"
+      }
+    },
+    {
+      "name": "大黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "附子",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "细辛",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "腹痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "便秘",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "胁下偏痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "发热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "手足厥冷",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔白腻",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉弦紧",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "急性阑尾炎",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "急性肠梗阻",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "睾丸肿痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胆绞痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "胆囊术后综合征",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "慢性痢疾",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "尿毒症",
+      "type": "Disease",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大黄附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "大黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "附子",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄附子汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "细辛",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大黄附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性阑尾炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大黄附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "急性肠梗阻",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大黄附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "睾丸肿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大黄附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胆绞痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大黄附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "胆囊术后综合征",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大黄附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "慢性痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "大黄附子汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "尿毒症",
+      "object_type": "Disease"
+    }
+  ]
+}

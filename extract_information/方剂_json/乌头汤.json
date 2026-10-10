@@ -1,0 +1,169 @@
+{
+  "entities": [
+    {
+      "name": "乌头汤",
+      "type": "Formula",
+      "attributes": {
+        "effect": "补表，温经散寒，除湿宣痹",
+        "indication": "寒湿痹证",
+        "usage": "上五味，哎咀四味。以水600毫升，煮取200毫升，去滓，纳蜜煎中，更煎之，服140毫升，不知，尽服之"
+      }
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "芍药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "黄耆",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "9克(炙)"
+      }
+    },
+    {
+      "name": "川乌",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "6克(哎咀，以蜜400毫升，煎取200毫升，即出乌头)"
+      }
+    },
+    {
+      "name": "寒湿痹证",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "关节剧痛",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "不可屈伸",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "畏寒喜热",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "舌苔薄白",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "脉沉弦",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "https://zhongyibaike.com/wiki/乌头汤",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "乌头汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄耆",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "乌头汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "寒湿痹证",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "寒湿痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "关节剧痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "寒湿痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "不可屈伸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "寒湿痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "畏寒喜热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "寒湿痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "舌苔薄白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "寒湿痹证",
+      "subject_type": "Disease",
+      "relation": "HAS_SYMPTOM",
+      "object": "脉沉弦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "乌头汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "https://zhongyibaike.com/wiki/乌头汤",
+      "object_type": "Source"
+    }
+  ]
+}

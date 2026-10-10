@@ -1,0 +1,351 @@
+{
+  "entities": [
+    {
+      "name": "救坤丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": "益气和营，调经养血",
+        "indication": "妇女月经不调，忽多忽少，行经腹痛，崩漏带下",
+        "taboo": null,
+        "usage": "每服2丸，1日2次，温开水送下"
+      }
+    },
+    {
+      "name": "白芍",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "生地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "熟地",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "黄芩",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "茯苓",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "乌药",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "橘红",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "5钱"
+      }
+    },
+    {
+      "name": "阿胶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱"
+      }
+    },
+    {
+      "name": "苏叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱"
+      }
+    },
+    {
+      "name": "砂仁",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱"
+      }
+    },
+    {
+      "name": "香附",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱"
+      }
+    },
+    {
+      "name": "白术",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱"
+      }
+    },
+    {
+      "name": "琥珀",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱"
+      }
+    },
+    {
+      "name": "人参",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "4钱"
+      }
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "沉香",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "1钱"
+      }
+    },
+    {
+      "name": "川牛膝",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "甘草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2钱"
+      }
+    },
+    {
+      "name": "益母草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "2两"
+      }
+    },
+    {
+      "name": "《北京市中药成方选集》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "益气和营，调经养血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "行经腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "黄芩",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茯苓",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "橘红",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "阿胶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苏叶",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "砂仁",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香附",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白术",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "琥珀",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "人参",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "沉香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "甘草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "益母草",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "救坤丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《北京市中药成方选集》",
+      "object_type": "Source"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "entities": [
+    {
+      "name": "鸭血",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补血，解毒",
+        "indication": "劳伤吐血，痢疾，中风，贫血虚弱，药物中毒",
+        "usage": "内服：乘热生饮或隔水蒸熟，100-200ml",
+        "origin": "为鸭科动物家鸭的血"
+      }
+    },
+    {
+      "name": "补血",
+      "type": "Effect"
+    },
+    {
+      "name": "解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "劳伤吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "痢疾",
+      "type": "Symptom"
+    },
+    {
+      "name": "中风",
+      "type": "Symptom"
+    },
+    {
+      "name": "贫血虚弱",
+      "type": "Symptom"
+    },
+    {
+      "name": "药物中毒",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "鸭血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸭血",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "鸭血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "劳伤吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痢疾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "贫血虚弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "鸭血",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "药物中毒",
+      "object_type": "Symptom"
+    }
+  ]
+}

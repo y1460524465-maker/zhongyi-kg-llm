@@ -1,0 +1,248 @@
+{
+  "entities": [
+    {
+      "name": "四物汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": "地髓汤、大川芎汤",
+        "effect": "补血活血，调和营血",
+        "indication": "营血亏虚，血行不畅",
+        "usage": "每服9克，用水220毫升，煎至150毫升，空腹时热服"
+      }
+    },
+    {
+      "name": "白芍药",
+      "type": "Herb",
+      "attributes": {
+        "effect": "养血柔肝和营"
+      }
+    },
+    {
+      "name": "川当归",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补血养肝，和血调经"
+      }
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "滋阴补血"
+      }
+    },
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "effect": "活血行气，畅通气血"
+      }
+    },
+    {
+      "name": "冲任虚损",
+      "type": "Disease"
+    },
+    {
+      "name": "月经不调",
+      "type": "Symptom"
+    },
+    {
+      "name": "脐腹亏痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩中漏下",
+      "type": "Symptom"
+    },
+    {
+      "name": "血瘕块硬",
+      "type": "Symptom"
+    },
+    {
+      "name": "妊娠将理失宜",
+      "type": "Disease"
+    },
+    {
+      "name": "胎动不安",
+      "type": "Symptom"
+    },
+    {
+      "name": "腹痛血下",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后恶露不下",
+      "type": "Symptom"
+    },
+    {
+      "name": "结生瘕聚",
+      "type": "Symptom"
+    },
+    {
+      "name": "少腹坚痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "时作寒热",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "腹内积有瘀血",
+      "type": "Symptom"
+    },
+    {
+      "name": "《圣济总录》",
+      "type": "Source"
+    },
+    {
+      "name": "《鸡峰普济方》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "白芍药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "川芎",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "冲任虚损",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脐腹亏痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩中漏下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血瘕块硬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "妊娠将理失宜",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胎动不安",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹痛血下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后恶露不下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "结生瘕聚",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "少腹坚痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "时作寒热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腹内积有瘀血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣济总录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "四物汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《鸡峰普济方》",
+      "object_type": "Source"
+    }
+  ]
+}

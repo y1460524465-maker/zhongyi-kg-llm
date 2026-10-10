@@ -1,0 +1,209 @@
+{
+  "entities": [
+    {
+      "name": "蒲黄",
+      "type": "Herb",
+      "attributes": {
+        "alias": "蒲厘花粉、蒲花、蒲棒花粉、蒲草黄",
+        "effect": "凉血止血，活血消瘀",
+        "indication": "生用治经闭腹痛，产后瘀阻作痛，跌扑血闷，疮疖肿毒；炒黑止吐血，衄血，崩漏，泻血，尿血，血痢，带下；外治重舌，口疮，聤耳流脓，耳中出血，阴下湿痒",
+        "taboo": "不可多食，令人自利，不益极虚人；妊娠不可生用；一切劳伤发热，阴虚内热，无瘀血者禁用",
+        "dosage": "内服：煎汤，5~10g，须包煎；或入丸散。外用：适量，研末撒或调敷。散瘀止痛多生用，止血每炒用，血瘀出血；生熟各半",
+        "property_flavor": "味淡",
+        "traits": "黄色细粉，质轻松，易飞扬，手捻之有润滑感，入水不沉。无臭。以色鲜黄，润滑感强，纯净者为佳"
+      }
+    },
+    {
+      "name": "经闭",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后瘀阻",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌扑血闷",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮疖肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "衄血",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "泻血",
+      "type": "Symptom"
+    },
+    {
+      "name": "尿血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血痢",
+      "type": "Symptom"
+    },
+    {
+      "name": "带下",
+      "type": "Symptom"
+    },
+    {
+      "name": "重舌",
+      "type": "Symptom"
+    },
+    {
+      "name": "口疮",
+      "type": "Symptom"
+    },
+    {
+      "name": "聤耳流脓",
+      "type": "Symptom"
+    },
+    {
+      "name": "耳中出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "阴下湿痒",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后瘀阻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌扑血闷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮疖肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "衄血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "泻血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "尿血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "血痢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "带下",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "重舌",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口疮",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "聤耳流脓",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳中出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴下湿痒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "蒲黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血消瘀",
+      "object_type": "Effect"
+    }
+  ]
+}

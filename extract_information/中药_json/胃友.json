@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "name": "胃友",
+      "type": "Herb",
+      "attributes": {
+        "effect": "行气活血，祛风止痛",
+        "indication": "胃脘疼痛，风寒湿痹，跌打损伤",
+        "usage": "内服：煎汤，9-15g，鲜品30-60g；或研末，0.9-1.5g"
+      }
+    },
+    {
+      "name": "胃脘疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "胃友",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气活血，祛风止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "胃友",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胃脘疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "胃友",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "胃友",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    }
+  ]
+}

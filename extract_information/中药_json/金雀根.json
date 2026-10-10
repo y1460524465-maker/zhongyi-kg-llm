@@ -1,0 +1,114 @@
+{
+  "entities": [
+    {
+      "name": "金雀根",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清肺益脾，活血通脉",
+        "indication": "虚损劳热、咳嗽，高血压，妇女白带、血崩，关节痛风，跌打损伤",
+        "property_flavor": "甘，微辛，平",
+        "meridian": "归肺、脾经",
+        "dosage": "内服：煎汤，9~15 g"
+      }
+    },
+    {
+      "name": "锦鸡儿",
+      "type": "Herb",
+      "attributes": {
+        "origin": "豆科植物锦鸡儿的根或根皮"
+      }
+    },
+    {
+      "name": "《纲目拾遗》",
+      "type": "Source"
+    },
+    {
+      "name": "《植物名实图考》",
+      "type": "Source"
+    },
+    {
+      "name": "《开宝本草》",
+      "type": "Source"
+    },
+    {
+      "name": "《贵州民间方药集》",
+      "type": "Source"
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "金雀根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目拾遗》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金雀根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《植物名实图考》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金雀根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《开宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金雀根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《贵州民间方药集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金雀根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "金雀根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清肺益脾，活血通脉",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "金雀根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "金雀根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金雀根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "金雀根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头晕",
+      "object_type": "Symptom"
+    }
+  ]
+}

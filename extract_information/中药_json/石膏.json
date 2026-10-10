@@ -1,0 +1,536 @@
+{
+  "entities": [
+    {
+      "name": "石膏",
+      "type": "Herb",
+      "attributes": {
+        "alias": "细石、细理石、软石膏、寒水石、白虎、玉大石、冰石",
+        "effect": "生用解肌清热，除烦止渴。煅敷生肌敛疮。",
+        "indication": "治热病壮热不退，心烦神昏，谵语发狂，口渴咽干，肺热喘急，中暑自汗，胃火头痛、牙痛，热毒壅盛，发斑发疹，口舌生疮。煅敷生肌敛疮。外治痈疽疮疡，溃不收口，汤火烫伤。",
+        "taboo": "脾胃虚寒及血虚、阴虚发热者忌服。",
+        "origin": "为硫酸盐类石膏族矿物石膏。",
+        "processing": "生石膏：去净杂石，洗净泥土，打碎成小块。煅石膏：取净石膏块，置坩埚内，在无烟炉火中煅至酥松状，取出，放凉，碾碎。",
+        "traits": "为长块状或不规则形纤维状的结晶集合体，大小不一。全体白色至灰白色。大块者上下二面平坦，无光泽及纹理。体重质松，易分成小块，纵断面具纤维状纹理，并有绢丝样光泽。无臭，味淡。以块大色白、质松、纤维状、无杂石者为佳。烧之，染火焰为淡红黄色，能熔成白色磁状的碱性小球。烧至120℃时失去部分结晶水即 成白色粉末状或块状的煅石膏。"
+      }
+    },
+    {
+      "name": "白虎汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治三阳合病，腹满身重，难以转侧，口不仁，面垢，谵语遣尿，发汗则谵语，下之则额上生汗，手足默冷，若自汗出者",
+        "usage": "知母六两，石膏一斤（碎），甘草（炙）二两，粳米六合。上四味，以水一斗，煮米热，汤成去滓，温服一升，日三服。"
+      }
+    },
+    {
+      "name": "石膏粳米汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治温病初得，其脉浮而有力，身体壮热，并治感冒初起，身不恶寒而心中发热者",
+        "usage": "生石膏二两（轧细），生粳米二两半。上二味，用水三大碗，煎至米烂热，约可得清汁两大碗，乘热尽量饮之，使周身皆汗出，病无不愈者，若阳明腑热巳实，不必乘热顿饮之，徐徐温饮下，以消其热可也。"
+      }
+    },
+    {
+      "name": "化斑汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治太阴温病，不可发汗，发汗而汗不出者，必发斑疹，汗出过多者，必神昏谵语，发斑者",
+        "usage": "石膏一两，知母四钱，生甘草三钱，元参(玄参)三钱，犀龟二钱，白粳米一合。水八杯，煮取三杯，日三服，渣再煮一钟，夜一服。"
+      }
+    },
+    {
+      "name": "麻黄杏仁甘草石膏汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治发汗后，不可行桂枝汤，仟出而喘，无大热者",
+        "usage": "麻黄四两（去节），苦杏仁五十个（去皮、尖），甘草一两（炙），石膏半斤（碎，绵裹）。上四味，以水七升，煮麻黄，减二升，去上沫，内诸药，煮取三升，去滓，温服一升。"
+      }
+    },
+    {
+      "name": "双玉散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治痰热而喘，痰涌如泉",
+        "usage": "寒水石、石膏各等分。上为细末。煎人参汤，调下三钱，食后服。"
+      }
+    },
+    {
+      "name": "石膏散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治热嗽喘甚者，久不愈",
+        "usage": "石膏二两，甘草半两（炙）。上为末。每服三钱，新汲水调下，残生姜汁、蜜调下。"
+      }
+    },
+    {
+      "name": "石膏粥",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治风邪癫痫，口干舌焦，心烦头痛，暴热闷乱",
+        "usage": "石膏半斤，粳米一（三）合。上以水五大盏，煮石膏，取二大盏，去石膏，用米煮粥，入葱白二茎，豉汁二合，更同煮，侯热，空心食之。石膏可三度用之。"
+      }
+    },
+    {
+      "name": "石膏鼠粘子散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治偏正头疼，连睛疼",
+        "usage": "石膏、鼠粘子(牛蒡子)（炒）各等分。上为细末。每服二钱，食后用温酒或茶清调服。"
+      }
+    },
+    {
+      "name": "龙石散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治上膈壅毒，口舌生疮，咽嗌肿痛",
+        "usage": "寒水石（煅）三两，辰砂(朱砂)三钱半（别研），生脑子半字。上为末，以少许掺患处，咽津，日夜数次用。"
+      }
+    },
+    {
+      "name": "石膏汤",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治喉风",
+        "usage": "石膏一两，知母三钱，甘草一钱，元参(玄参)五钱，天花粉三钱。水煎服。"
+      }
+    },
+    {
+      "name": "玉露散",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治小儿伤热吐泻黄瘦",
+        "usage": "寒水石、石膏各半两，甘草（生）一钱。上同为细末。每服一字，或半钱、一钱，食后，温汤调下。"
+      }
+    },
+    {
+      "name": "一醉膏",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治乳痈",
+        "usage": "石膏不以多少，煅通赤，取于地上，碗覆出火毒，细研。每服三钱，温酒下，添酒尽醉，睡觉再进一服。"
+      }
+    },
+    {
+      "name": "九一丹",
+      "type": "Formula",
+      "attributes": {
+        "alias": null,
+        "effect": null,
+        "indication": "治疔疮渍破，能搜脓清热生肌",
+        "usage": "石膏（煅）九钱，黄灵药一钱。共研极细末，瓷瓶收贮。每用少许，撒于患处。"
+      }
+    },
+    {
+      "name": "《伤寒论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医学衷中参西录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《伤寒总病论》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《温病条辨》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《素问病机保命集》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《普济方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《外台》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《圣惠方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《奇效良方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《三因方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《喉科秘诀》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《保寿堂经验方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《明目方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《小儿药证直诀》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《卫生杂兴》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《小儿卫生总微论方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《肘后方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《仁斋直指方》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《医宗金鉴》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《全国中草药汇编》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解肌清热，除烦止渴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "生肌敛疮",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "三阳合病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "白虎汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石膏粳米汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "温病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石膏粳米汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医学衷中参西录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "化斑汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "太阴温病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "化斑汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《温病条辨》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "麻黄杏仁甘草石膏汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "发汗后喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麻黄杏仁甘草石膏汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《伤寒论》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "双玉散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "痰热而喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "双玉散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《素问病机保命集》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石膏散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "热嗽喘甚",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石膏散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《普济方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石膏粥",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风邪癫痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石膏粥",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《圣惠方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石膏鼠粘子散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "偏正头疼",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石膏鼠粘子散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《奇效良方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "龙石散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "上膈壅毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "龙石散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《三因方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "喉风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "石膏汤",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《喉科秘诀》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "玉露散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿伤热吐泻黄瘦",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "玉露散",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《小儿药证直诀》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "一醉膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "乳痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "一醉膏",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《仁斋直指方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "九一丹",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "疔疮渍破",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "九一丹",
+      "subject_type": "Formula",
+      "relation": "FROM_SOURCE",
+      "object": "《医宗金鉴》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "白虎汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏粳米汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "化斑汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄杏仁甘草石膏汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "双玉散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏粥",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏鼠粘子散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "龙石散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "石膏汤",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "玉露散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "一醉膏",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "石膏",
+      "subject_type": "Herb",
+      "relation": "HAS_INGREDIENT",
+      "object": "九一丹",
+      "object_type": "Formula"
+    }
+  ]
+}

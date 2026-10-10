@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "name": "麻雀脑",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补肾兴阳，润肤生肌",
+        "indication": "肾虚阳痿，耳聋，聤耳，冻疮",
+        "usage": "外用：适量，塞耳；外涂或烧研调敷"
+      }
+    }
+  ],
+  "relations": []
+}

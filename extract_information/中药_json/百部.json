@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "name": "百部",
+      "type": "Herb",
+      "attributes": {
+        "effect": "温润肺气，止咳，杀虫。润肺止咳，灭虱杀虫",
+        "indication": "风寒咳嗽，百日咳，肺结核，老年咳喘，蛔虫、蛲虫病，皮肤疥癣、湿疹；新久咳嗽，急、慢性支气管炎，头虱、体虱",
+        "dosage": "内服：煎汤，3~10g；外用：适量，煎水洗；或研末外敷；或浸酒涂擦",
+        "taboo": "热嗽，水亏火炎者禁用；服用过量中毒，常引起呼吸中枢麻痹",
+        "property_flavor": "气微，味甘、苦",
+        "origin": "百部科植物直立百部Stemona sessilifolia （Miq.） Miq.、蔓生百部Stemona japonica （Bl.） Miq. 或对叶百部Stemona tuberosa Lour. 的干燥块根",
+        "processing": "1.百部：拣净杂质，除去须根，洗净，润透后切段，晒干。2.蜜制：取百部段，用炼蜜（百部段100斤用蜜12斤8两）加入适量开水烊化，拌匀，稍闷，俟蜜水吸收，置锅内文火炒至微黄色不粘手为度，取出，放凉。3.甘草制：取甘草加水煎汤，加入百部片浸泡后捞出晒干，每百部片100kg，用甘草8kg。4.炒制：取百部用火炒至微黄色。《雷公炮炙论》:凡使百部，用竹刀劈破，去心皮，花作数十条，于檐下悬令风吹，待上干后，却用酒浸一宿，滤出，焙干，细锉用。",
+        "traits": "块根纺锤形或长纺锤形或长条形",
+        "place": "山东、安徽、江苏、浙江、福建、江西、湖南、湖北、四川、陕西等地；山东、河南、安徽、江苏、浙江、福建、江西等地；台湾、福建、广东、广西、湖南、湖北、四川、贵州、云南等地"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "百日咳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "老年咳喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛲虫病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "皮肤疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "温润肺气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止咳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "百部",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    }
+  ]
+}

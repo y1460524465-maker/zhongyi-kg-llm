@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "猪肾",
+      "type": "Herb",
+      "attributes": {
+        "alias": "猪腰子",
+        "origin": "《医学入门》",
+        "effect": "补肾益阳，利水",
+        "indication": "肾虚腰痛，身面水肿，遗精，盗汗，老人耳聋",
+        "taboo": "不可久食；不与吴茱萸、白花菜合食",
+        "dosage": "15-150g",
+        "usage": "煎汤或煮食"
+      }
+    },
+    {
+      "name": "肾虚腰痛",
+      "type": "Disease",
+      "attributes": null
+    },
+    {
+      "name": "身面水肿",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "遗精",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "盗汗",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "老人耳聋",
+      "type": "Symptom",
+      "attributes": null
+    },
+    {
+      "name": "补肾益阳",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "利水",
+      "type": "Effect",
+      "attributes": null
+    },
+    {
+      "name": "《别录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《食疗本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《本草图经》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾益阳",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肾虚腰痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身面水肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "盗汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "老人耳聋",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《别录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《日华子本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《食疗本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "猪肾",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草图经》",
+      "object_type": "Source"
+    }
+  ]
+}

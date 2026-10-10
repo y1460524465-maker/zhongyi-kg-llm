@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "name": "茵陈五苓散",
+      "type": "Formula",
+      "attributes": {
+        "effect": "润燥，清热，祛湿",
+        "indication": "湿热黄疸，湿重于热，小便不利者",
+        "usage": "每次6克，空腹时用米饮送服，一日三次"
+      }
+    },
+    {
+      "name": "茵陈蒿",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "五苓散",
+      "type": "Formula",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "茵陈五苓散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "茵陈蒿",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "茵陈五苓散",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "五苓散",
+      "object_type": "Formula"
+    },
+    {
+      "subject": "茵陈五苓散",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "湿热黄疸",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "茵陈五苓散",
+      "subject_type": "Formula",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "小便不利",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "茵陈五苓散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "润燥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茵陈五苓散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "茵陈五苓散",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛湿",
+      "object_type": "Effect"
+    }
+  ]
+}

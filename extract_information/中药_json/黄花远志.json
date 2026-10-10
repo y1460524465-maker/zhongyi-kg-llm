@@ -1,0 +1,151 @@
+{
+  "entities": [
+    {
+      "name": "黄花远志",
+      "type": "Herb",
+      "attributes": {
+        "alias": "黄金卵、吊吊黄、黄花鸡骨、鸡根、小荷苞、鸡肚子果、荷苞山桂花",
+        "effect": "祛风除湿，补虚消肿，调经活血",
+        "indication": "感冒，风湿疼痛，肺痨，水肿，产后虚弱，月经不调，跌打损伤",
+        "property_flavor": "甘辛，平",
+        "usage": "内服：煎汤15~30克（鲜者40~60克）"
+      }
+    },
+    {
+      "name": "江西草药",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "云南中草药",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "云南中草药选",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痨",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后虚弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "月经不调",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌打损伤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风除湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补虚消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "调经活血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛痰利窍",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安神益智",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消炎止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "江西草药",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "云南中草药",
+      "object_type": "Source"
+    },
+    {
+      "subject": "黄花远志",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "云南中草药选",
+      "object_type": "Source"
+    }
+  ]
+}

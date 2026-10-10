@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "雄黄",
+      "type": "Herb",
+      "attributes": {
+        "origin": "硫化物类矿物雄黄的矿石",
+        "place": "湖南、湖北、贵州、云南、四川等地",
+        "processing": "碾成极细粉。残水飞，晾干。",
+        "property_flavor": "深红色或橙红色，条痕淡橘红色，晶面有金刚石样光泽",
+        "effect": "燥湿，祛风，杀虫，解毒",
+        "indication": "主治疥癣，秃疮，痈疽，走马牙疳，缠腰蛇丹，破伤风，蛇虫蟹伤，腋臭，臁疮，哮喘，喉痹，惊痫，痔瘘",
+        "dosage": "内服：0.05～0.1g，入丸散用。外用：适量，研末撒、调敷或烧烟熏。",
+        "taboo": "内服宜慎；不可久用；阴亏血虚及孕妇忌服"
+      }
+    },
+    {
+      "name": "《本经》",
+      "type": "Source"
+    },
+    {
+      "name": "《别录》",
+      "type": "Source"
+    },
+    {
+      "name": "《日华子本草》",
+      "type": "Source"
+    },
+    {
+      "name": "王好古",
+      "type": "Source"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草正》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "杀虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疥癣",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "秃疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "走马牙疳",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "缠腰蛇丹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛇虫蟹伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腋臭",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "臁疮",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "哮喘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "喉痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "惊痫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "雄黄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痔瘘",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "name": "川芎",
+      "type": "Herb",
+      "attributes": {
+        "origin": "为伞形科植物川芎的根茎",
+        "effect": "行气开郁，祛风燥湿，活血止痛",
+        "indication": "用于月经不调，经闭痛经，瘕腹痛，胸胁刺痛，跌扑肿痛，头痛，风湿痹痛",
+        "dosage": "内服：煎汤，3~10g；研末，每次1~1.5g；或入丸、散。外用：适量，研末撒；或煎汤漱口",
+        "taboo": "阴虚火旺，上盛下虚及气弱之人忌服",
+        "property_flavor": "气香，味苦",
+        "traits": null,
+        "meridian": null,
+        "place": "主要栽培于四川、云南、贵州、广西、湖北、湖南、江西、浙江、江苏、陕西、甘肃等地均有引种栽培",
+        "processing": "川芎：拣去杂质，分开大、小个，用水浸泡，晒晾，闷润后切片，干燥。酒川芎：取川芎片用黄酒喷洒均匀，稍闷，置锅内炒至微焦为度，取出放凉"
+      }
+    },
+    {
+      "name": "月经不调",
+      "type": "Symptom"
+    },
+    {
+      "name": "经闭痛经",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘕腹痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "胸胁刺痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "跌扑肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿痹痛",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "月经不调",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "经闭痛经",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "瘕腹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "胸胁刺痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "跌扑肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿痹痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "行气开郁",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风燥湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "川芎",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    }
+  ]
+}

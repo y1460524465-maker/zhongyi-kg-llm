@@ -1,0 +1,15 @@
+{
+  "entities": [
+    {
+      "name": "透骨草",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，9~15g；外用：适量，煎水熏洗；或捣敷",
+        "effect": "祛风，除湿，舒筋，活血，止痛",
+        "indication": "风湿痹痛，筋骨挛缩，寒湿脚气，疮癣肿毒",
+        "taboo": "孕妇忌服"
+      }
+    }
+  ],
+  "relations": []
+}

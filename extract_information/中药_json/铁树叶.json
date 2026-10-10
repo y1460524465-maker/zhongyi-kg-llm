@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {
+      "name": "铁树叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，止血，散瘀",
+        "indication": "痢疾，吐血，便血，胃痛，尿血，月经过多，跌打肿痛",
+        "dosage": "内服：煎汤，15~30g，鲜品30~60g；或绞汁",
+        "origin": "龙舌兰科植物朱蕉的叶",
+        "place": "我国南部热带地区"
+      }
+    }
+  ],
+  "relations": []
+}

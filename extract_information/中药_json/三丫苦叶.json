@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {
+      "name": "三丫苦叶",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热，解毒，祛风，除湿",
+        "indication": "咽喉肿痛，疟疾，黄疸型肝炎，风湿骨痛，湿疹，皮炎，疮疡",
+        "dosage": "内服：煎汤，0.6～1两",
+        "origin": "《岭南采药录》",
+        "alias": "三叉虎、斑鸠花、三枝枪、三叉苦、三丫虎、三拜苦、小黄散、消黄散",
+        "processing": "随时可采",
+        "property_flavor": null,
+        "meridian": null,
+        "traits": null,
+        "taboo": null,
+        "place": "生山谷，溪边，林下。分布我国南部各地"
+      }
+    }
+  ],
+  "relations": []
+}

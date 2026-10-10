@@ -1,0 +1,297 @@
+{
+  "entities": [
+    {
+      "name": "黄精",
+      "type": "Herb",
+      "attributes": {
+        "alias": "龙衔、兔竹、垂珠、鸡格、米脯、菟竹、鹿竹、重楼、救穷、戊已芝、萎蕤、苟格、马箭、仙人余粮、气精、生姜、野生姜、米餔、野仙姜、山生姜、玉竹黄精、白及黄精、阳誉蕻、土灵芝、老虎姜、山捣臼、鸡头参、赖姜",
+        "effect": "养阴润肺，补脾益气，滋肾填精",
+        "indication": "阴虚劳嗽，肺燥咳嗽，脾虚乏力，食少口干，消渴，肾亏腰膝酸软，阳痿遗精，耳鸣目暗，须发早白，体虚赢瘦，风癞癣疾",
+        "taboo": "中寒泄泻，痰湿痞满气滞者忌服",
+        "dosage": "内服：煎汤，10~15g，鲜品30~60g；或入丸、散熬膏。外用：适量，煎汤洗；熬膏涂；或浸酒搽"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补中益气",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "安五脏",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补五劳七伤",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "助筋骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止饥",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "耐寒暑",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益脾胃",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润心肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补虚添精",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补诸虚",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止寒热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "填精髓",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "下三尸虫",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "平补气血而润",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "间歇热",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痛风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "骨膜炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "蛔虫",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "高血压",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾润肺",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "益气滋阴",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "脾虚面黄",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺虚咳嗽",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋骨酸痹无力",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后气血衰弱",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "补肾健脾",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "强筋壮骨",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "润肺生津",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阴虚劳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肺燥咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾虚乏力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "食少口干",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "消渴",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾亏腰膝酸软",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿遗精",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳鸣目暗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "须发早白",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "体虚赢瘦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "黄精",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风癞癣疾",
+      "object_type": "Disease"
+    }
+  ]
+}

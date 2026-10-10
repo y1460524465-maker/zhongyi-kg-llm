@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "name": "千年健",
+      "type": "Herb",
+      "attributes": {
+        "aliases": [
+          "一包针",
+          "千年见",
+          "千颗针",
+          "丝棱线"
+        ],
+        "property_flavor": "味微辛辣",
+        "traits": "气芳香，久闻有不悦感",
+        "effect": "祛风湿，壮筋骨，消肿止痛",
+        "indication": "风湿痹痛，肢节酸痛，筋骨痿软，胃痛，痈疽疮肿",
+        "dosage": "煎汤，9~15g；或浸酒",
+        "taboo": "忌莱菔；阴虚内热者慎用",
+        "origin": "《柑园小识》《纲目拾遗》《本草再新》《饮片新参》《中药材手册》",
+        "place": "广东、海南、广西云南等地"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "千年健",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿，壮筋骨，消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "千年健",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痹痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千年健",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肢节酸痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千年健",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "筋骨痿软",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千年健",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "千年健",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮肿",
+      "object_type": "Disease"
+    }
+  ]
+}

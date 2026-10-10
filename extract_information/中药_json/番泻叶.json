@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "name": "番泻叶",
+      "type": "Herb",
+      "attributes": {
+        "dosage": "内服：煎汤，3~6g，后下；或泡茶；或研末，1.5~3g。",
+        "effect": "泻热通便，消积导滞，止血。",
+        "indication": "热结便秘，习惯性便秘，积滞腹胀，水肿臌胀，胃、十二指肠溃疡出血。",
+        "taboo": "体虚、妇女哺乳期、月经期及孕妇忌用。《饮片新参》：中寒泄泻者忌用。",
+        "processing": "狭叶番泻，在开花前摘取叶，阴干，按叶片大小和品质优劣分级，用水压机打包。尖叶番泻，在果实成熟时，剪下枝条，摘取叶片，晒干，按完整叶与破碎叶分别包装。",
+        "property_flavor": "味微苦而稍有粘性",
+        "origin": "为豆科植物狭叶番泻或尖叶番泻的干燥小叶。",
+        "place": "产于热带，东非洲的近海及岛屿上，阿拉伯南部及印度西北部、南部均有。现海南、云南已从国外引种栽培。",
+        "traits": "小叶片多完整平坦。卵状披针形至线状披针形，长2~6cm，宽0.4~1.5cm；主脉突出，叶端尖突出成棘尖，全缘，基部略不对称，上面黄绿色，下面浅黄绿色，两面均有稀毛茸，下表面主脉突出，羽状网脉。叶片革质。气微弱而特异，味微苦而稍有粘性。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "番泻叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "热结便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "番泻叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "习惯性便秘",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "番泻叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "积滞腹胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "番泻叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿臌胀",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "番泻叶",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "胃、十二指肠溃疡出血",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "番泻叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "泻热通便",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "番泻叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消积导滞",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "番泻叶",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止血",
+      "object_type": "Effect"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "entities": [
+    {
+      "name": "山药藤",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清利湿热，凉血解毒",
+        "indication": "主湿疹；丹毒",
+        "usage": "外用适量。煎水熏洗或捣敷",
+        "origin": "薯蓣科植物薯蓣的茎藤",
+        "place": "分布于华北、西北、华东和华中地区",
+        "processing": "将原药除去杂质，洗净，略润，切长段，干燥，筛去灰屑",
+        "property_flavor": "味微涩",
+        "traits": "茎呈圆柱形的段状，稍扭曲，直径1.5～4mm；表面棕黄色至黄褐色，具纵沟纹，有的具分枝及叶痕，切面淡黄棕色，疏松而见有空隙，中空。叶占大部分，多已切断，皱缩和破碎，黄绿色至棕绿色，展平后，完整者呈三角状卵形或三角状广卵形，或耳状3浅裂至深裂，基部戟状心形，顶端渐尖或长尖。质软。气微"
+      }
+    },
+    {
+      "name": "湿疹",
+      "type": "Disease"
+    },
+    {
+      "name": "丹毒",
+      "type": "Disease"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "山药藤",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清利湿热，凉血解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "山药藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "湿疹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "山药藤",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "丹毒",
+      "object_type": "Disease"
+    }
+  ]
+}

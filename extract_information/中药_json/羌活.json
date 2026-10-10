@@ -1,0 +1,1090 @@
+{
+  "entities": [
+    {
+      "name": "羌活",
+      "type": "Herb",
+      "attributes": {
+        "alias": "羌青、护羌使者、胡王使者、羌滑、退风使者、黑药",
+        "effect": "解表散寒，祛风胜湿，止痛",
+        "indication": "阳痿遗精，遗尿尿频，腰膝冷痛，肾虚作喘，五更泄泻；外用治白癜风，斑秃",
+        "usage": "内服：煎汤，3~10g；或入丸、散",
+        "property_flavor": "味微苦而辛",
+        "processing": "栽培3~4年秋季倒苗后至早春萌芽前割除地上部分，挖取根茎，抖净泥沙，砍去芦头，除须根，切成10~13cm长的短节，晒干或烘干"
+      }
+    },
+    {
+      "name": "阳痿遗精",
+      "type": "Symptom"
+    },
+    {
+      "name": "遗尿尿频",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰膝冷痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肾虚作喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "五更泄泻",
+      "type": "Symptom"
+    },
+    {
+      "name": "白癜风",
+      "type": "Disease"
+    },
+    {
+      "name": "斑秃",
+      "type": "Disease"
+    },
+    {
+      "name": "感冒风寒",
+      "type": "Disease"
+    },
+    {
+      "name": "头痛无汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "风寒湿痹",
+      "type": "Disease"
+    },
+    {
+      "name": "项强筋急",
+      "type": "Symptom"
+    },
+    {
+      "name": "骨节酸疼",
+      "type": "Symptom"
+    },
+    {
+      "name": "风水浮肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈疽疮毒",
+      "type": "Disease"
+    },
+    {
+      "name": "外感风寒",
+      "type": "Disease"
+    },
+    {
+      "name": "恶寒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "头痛身痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "贼风",
+      "type": "Disease"
+    },
+    {
+      "name": "失音不语",
+      "type": "Symptom"
+    },
+    {
+      "name": "多痒血癞",
+      "type": "Symptom"
+    },
+    {
+      "name": "手足不遂",
+      "type": "Symptom"
+    },
+    {
+      "name": "口面歪邪",
+      "type": "Symptom"
+    },
+    {
+      "name": "遍身顽痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "筋骨拳挛",
+      "type": "Symptom"
+    },
+    {
+      "name": "四肢羸劣",
+      "type": "Symptom"
+    },
+    {
+      "name": "头旋眼目赤疼",
+      "type": "Symptom"
+    },
+    {
+      "name": "伏梁水气",
+      "type": "Symptom"
+    },
+    {
+      "name": "五劳七伤",
+      "type": "Disease"
+    },
+    {
+      "name": "虚损冷气",
+      "type": "Symptom"
+    },
+    {
+      "name": "太阳经头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风湿相搏",
+      "type": "Symptom"
+    },
+    {
+      "name": "脊强而厥",
+      "type": "Symptom"
+    },
+    {
+      "name": "刚痉柔痉",
+      "type": "Disease"
+    },
+    {
+      "name": "中风不语",
+      "type": "Symptom"
+    },
+    {
+      "name": "头旋目赤",
+      "type": "Symptom"
+    },
+    {
+      "name": "邪闭憎寒",
+      "type": "Symptom"
+    },
+    {
+      "name": "壮热无汗",
+      "type": "Symptom"
+    },
+    {
+      "name": "感冒发热",
+      "type": "Symptom"
+    },
+    {
+      "name": "扁桃体炎",
+      "type": "Disease"
+    },
+    {
+      "name": "伤寒",
+      "type": "Disease"
+    },
+    {
+      "name": "头痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "客寒犯脑",
+      "type": "Symptom"
+    },
+    {
+      "name": "脑痛连齿",
+      "type": "Symptom"
+    },
+    {
+      "name": "手足厥冷",
+      "type": "Symptom"
+    },
+    {
+      "name": "口鼻气冷",
+      "type": "Symptom"
+    },
+    {
+      "name": "身体疼烦",
+      "type": "Symptom"
+    },
+    {
+      "name": "掣痛不可屈伸",
+      "type": "Symptom"
+    },
+    {
+      "name": "身微肿不仁",
+      "type": "Symptom"
+    },
+    {
+      "name": "肩背痛不可回顾",
+      "type": "Symptom"
+    },
+    {
+      "name": "脊痛项强",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰似折",
+      "type": "Symptom"
+    },
+    {
+      "name": "项似拔",
+      "type": "Symptom"
+    },
+    {
+      "name": "小儿伤风",
+      "type": "Disease"
+    },
+    {
+      "name": "产后伤寒",
+      "type": "Disease"
+    },
+    {
+      "name": "眉骨痛不可忍",
+      "type": "Symptom"
+    },
+    {
+      "name": "头风眩晕",
+      "type": "Symptom"
+    },
+    {
+      "name": "闷起欲倒",
+      "type": "Symptom"
+    },
+    {
+      "name": "手太阳气郁不行",
+      "type": "Symptom"
+    },
+    {
+      "name": "足太阳经不通",
+      "type": "Symptom"
+    },
+    {
+      "name": "身体烦疼",
+      "type": "Symptom"
+    },
+    {
+      "name": "项臂痛重",
+      "type": "Symptom"
+    },
+    {
+      "name": "举动艰难",
+      "type": "Symptom"
+    },
+    {
+      "name": "手足冷痹",
+      "type": "Symptom"
+    },
+    {
+      "name": "腰腿沉重",
+      "type": "Symptom"
+    },
+    {
+      "name": "筋脉无力",
+      "type": "Symptom"
+    },
+    {
+      "name": "湿气流于四肢",
+      "type": "Symptom"
+    },
+    {
+      "name": "肢节肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风寒湿邪客留肌体",
+      "type": "Symptom"
+    },
+    {
+      "name": "手足缓弱",
+      "type": "Symptom"
+    },
+    {
+      "name": "麻痹不仁",
+      "type": "Symptom"
+    },
+    {
+      "name": "气血失顺",
+      "type": "Symptom"
+    },
+    {
+      "name": "痹滞不仁",
+      "type": "Symptom"
+    },
+    {
+      "name": "脚气肿痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "水气肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "咽喉闭塞",
+      "type": "Symptom"
+    },
+    {
+      "name": "口噤",
+      "type": "Symptom"
+    },
+    {
+      "name": "产后中风口噤",
+      "type": "Symptom"
+    },
+    {
+      "name": "四肢顽痹不仁",
+      "type": "Symptom"
+    },
+    {
+      "name": "角弓张",
+      "type": "Symptom"
+    },
+    {
+      "name": "破伤风",
+      "type": "Disease"
+    },
+    {
+      "name": "肝脏壅实",
+      "type": "Symptom"
+    },
+    {
+      "name": "目赤昏涩",
+      "type": "Symptom"
+    },
+    {
+      "name": "热泪不止",
+      "type": "Symptom"
+    },
+    {
+      "name": "筋脉拘急",
+      "type": "Symptom"
+    },
+    {
+      "name": "背膊劳倦",
+      "type": "Symptom"
+    },
+    {
+      "name": "头昏项颈紧急疼痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "风热毒气结瘰疬",
+      "type": "Symptom"
+    },
+    {
+      "name": "耳内出脓水",
+      "type": "Symptom"
+    },
+    {
+      "name": "中风",
+      "type": "Disease"
+    },
+    {
+      "name": "颈项强直",
+      "type": "Symptom"
+    },
+    {
+      "name": "肩背酸痛",
+      "type": "Symptom"
+    },
+    {
+      "name": "肢体拘急",
+      "type": "Symptom"
+    },
+    {
+      "name": "恶风",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "阳痿遗精",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遗尿尿频",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝冷痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肾虚作喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "五更泄泻",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "白癜风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "斑秃",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "风寒湿痹",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "项强筋急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "骨节酸疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风水浮肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽疮毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "感冒风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散表寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利关节",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解表散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "祛风胜湿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶寒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛身痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "外感风寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "贼风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "失音不语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "多痒血癞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足不遂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口面歪邪",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "遍身顽痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋骨拳挛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢羸劣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头旋眼目赤疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "伏梁水气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "五劳七伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "虚损冷气",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "太阳经头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风湿相搏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脊强而厥",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "刚痉柔痉",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "中风不语",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头旋目赤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "邪闭憎寒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "壮热无汗",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "感冒发热",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "扁桃体炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "客寒犯脑",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脑痛连齿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足厥冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口鼻气冷",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身体疼烦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "掣痛不可屈伸",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身微肿不仁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肩背痛不可回顾",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脊痛项强",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰似折",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "项似拔",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "小儿伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "产后伤寒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "眉骨痛不可忍",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头风眩晕",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "闷起欲倒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手太阳气郁不行",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "足太阳经不通",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "身体烦疼",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "项臂痛重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "举动艰难",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足冷痹",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰腿沉重",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋脉无力",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "湿气流于四肢",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢节肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风寒湿邪客留肌体",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "手足缓弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "麻痹不仁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "气血失顺",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痹滞不仁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脚气肿痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "水气肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咽喉闭塞",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "口噤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "产后中风口噤",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "四肢顽痹不仁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "角弓张",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "破伤风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肝脏壅实",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "目赤昏涩",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "热泪不止",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "筋脉拘急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "背膊劳倦",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "头昏项颈紧急疼痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "风热毒气结瘰疬",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "耳内出脓水",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "中风",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "颈项强直",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肩背酸痛",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "肢体拘急",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "恶风",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "羌活",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "发热",
+      "object_type": "Symptom"
+    }
+  ]
+}

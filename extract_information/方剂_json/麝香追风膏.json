@@ -1,0 +1,427 @@
+{
+  "entities": [
+    {
+      "name": "麝香追风膏",
+      "type": "Formula",
+      "attributes": {
+        "effect": "祛风散寒，活血止痛",
+        "indication": "风湿痛、关节痛、筋骨痛、神经痛、腰背酸痛、四肢麻木、扭伤、挫伤及类风湿肿痛"
+      }
+    },
+    {
+      "name": "麝香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "独活",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "香加皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "海风藤",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "苏木",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "海桐皮",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "延胡索",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生川乌",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "生草乌",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "威灵仙",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "血竭",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "木香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "乳香",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "没药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "乌药",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "红花",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "当归",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "熟地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "地黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麻黄",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "牛膝",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "薄荷脑",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "冰片",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "樟脑",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "桉油",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "肉桂油",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "丁香罗勒油",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "水杨酸甲酯",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麝香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "独活",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "香加皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海风藤",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "苏木",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "海桐皮",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "延胡索",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生川乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "生草乌",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "威灵仙",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "血竭",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "木香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乳香",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "没药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "乌药",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "红花",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "当归",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "熟地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "地黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麻黄",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "牛膝",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "薄荷脑",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "冰片",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "樟脑",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "桉油",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "肉桂油",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "丁香罗勒油",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "水杨酸甲酯",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "祛风散寒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "HAS_EFFECT",
+      "object": "活血止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "风湿痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "关节痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "筋骨痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "神经痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "腰背酸痛",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "四肢麻木",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "扭伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "挫伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "麝香追风膏",
+      "subject_type": "Formula",
+      "relation": "TREATS_DISEASE",
+      "object": "类风湿肿痛",
+      "object_type": "Disease"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "name": "猪蹄",
+      "type": "Herb",
+      "attributes": {
+        "effect": "补气血，润肌肤，通乳汁，托疮毒",
+        "indication": "虚伤赢瘦，产后乳少，面皱少华，痈疽疮毒",
+        "usage": "内服：煎汤或煮食，适量"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "猪蹄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "乳无汁",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪蹄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽发背或发乳房初起微赤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "猪蹄",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "毒攻手足肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "猪蹄",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈疽等毒溃烂",
+      "object_type": "Disease"
+    }
+  ]
+}

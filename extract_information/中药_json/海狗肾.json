@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "name": "海狗肾",
+      "type": "Herb",
+      "attributes": {
+        "effect": "暖肾壮阳，益精补髓。治虚损劳伤，阳痿精衰，腰膝痿弱。",
+        "indication": "主治虚损劳伤，阳痿精衰，腰膝痿弱。",
+        "taboo": "1.《本草经硫》：阴虚火炽及骨蒸劳嗽等侯，威在所忌。2.《本草求真》：脾胃挟有寒湿者，亦忌。",
+        "usage": "内服：煎汤，3~9g；或研末；或浸酒。"
+      }
+    },
+    {
+      "name": "虚损劳伤",
+      "type": "Disease"
+    },
+    {
+      "name": "阳痿精衰",
+      "type": "Disease"
+    },
+    {
+      "name": "腰膝痿弱",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "海狗肾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "虚损劳伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海狗肾",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阳痿精衰",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "海狗肾",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "腰膝痿弱",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "海狗肾",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "暖肾壮阳，益精补髓",
+      "object_type": "Effect"
+    }
+  ]
+}

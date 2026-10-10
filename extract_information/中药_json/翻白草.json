@@ -1,0 +1,376 @@
+{
+  "entities": [
+    {
+      "name": "翻白草",
+      "type": "Herb",
+      "attributes": {
+        "alias": "鸡腿儿、天藕儿、湖鸡腿、鸡脚草、鸡脚爪、鸡距草、独脚草、鸡腿子、乌皮浮儿、天青地白、金钱吊葫芦、老鸹枕、老鸦爪、山萝卜、土菜、结梨、大叶铡草、白头翁、鸡爪莲、郁苏参、土人参、野鸡坝、兰溪白头翁、黄花地丁、千锤打、叶下白、茯苓草",
+        "origin": "为蔷薇科植物翻白草的全草",
+        "effect": "清热，解毒，凉血止血，消肿",
+        "indication": "治痢疾，疟疾，肺痈，咳血，吐血，下血，崩漏，痈肿，疮癣，瘰疬结核",
+        "taboo": "阳虚有寒、脾胃虚寒等少用",
+        "dosage": "内服：煎汤，10~15g；或浸酒服。外用：适量，煎水熏洗或鲜品捣敷"
+      }
+    },
+    {
+      "name": "痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "疟疾",
+      "type": "Disease"
+    },
+    {
+      "name": "肺痈",
+      "type": "Disease"
+    },
+    {
+      "name": "咳血",
+      "type": "Symptom"
+    },
+    {
+      "name": "吐血",
+      "type": "Symptom"
+    },
+    {
+      "name": "下血",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩漏",
+      "type": "Symptom"
+    },
+    {
+      "name": "痈肿",
+      "type": "Symptom"
+    },
+    {
+      "name": "疮癣",
+      "type": "Symptom"
+    },
+    {
+      "name": "瘰疬结核",
+      "type": "Disease"
+    },
+    {
+      "name": "《纲目》",
+      "type": "Source"
+    },
+    {
+      "name": "《本草原始》",
+      "type": "Source"
+    },
+    {
+      "name": "《草木便方》",
+      "type": "Source"
+    },
+    {
+      "name": "《福建民间草药》",
+      "type": "Source"
+    },
+    {
+      "name": "《民间常用草药汇编》",
+      "type": "Source"
+    },
+    {
+      "name": "《广西中药志》",
+      "type": "Source"
+    },
+    {
+      "name": "细菌性痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "阿米巴痢疾",
+      "type": "Disease"
+    },
+    {
+      "name": "无名肿毒",
+      "type": "Symptom"
+    },
+    {
+      "name": "咳嗽",
+      "type": "Symptom"
+    },
+    {
+      "name": "痰喘",
+      "type": "Symptom"
+    },
+    {
+      "name": "崩中下血",
+      "type": "Symptom"
+    },
+    {
+      "name": "大便下血",
+      "type": "Symptom"
+    },
+    {
+      "name": "创伤出血",
+      "type": "Symptom"
+    },
+    {
+      "name": "血友病",
+      "type": "Disease"
+    },
+    {
+      "name": "脾胃虚弱白带",
+      "type": "Symptom"
+    },
+    {
+      "name": "腮腺炎",
+      "type": "Disease"
+    },
+    {
+      "name": "疔毒初起",
+      "type": "Symptom"
+    },
+    {
+      "name": "臁疮溃烂",
+      "type": "Symptom"
+    },
+    {
+      "name": "浑身疥癣",
+      "type": "Symptom"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疟疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "肺痈",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "吐血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩漏",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痈肿",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疮癣",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "瘰疬结核",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "凉血止血",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《纲目》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《本草原始》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《草木便方》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《福建民间草药》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《民间常用草药汇编》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《广西中药志》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "细菌性痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "阿米巴痢疾",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "无名肿毒",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "痰喘",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "崩中下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "大便下血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "创伤出血",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "血友病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "脾胃虚弱白带",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "疔毒初起",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "臁疮溃烂",
+      "object_type": "Symptom"
+    },
+    {
+      "subject": "翻白草",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "浑身疥癣",
+      "object_type": "Symptom"
+    }
+  ]
+}

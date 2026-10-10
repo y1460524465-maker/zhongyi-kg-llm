@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "name": "铁筷子",
+      "type": "Herb",
+      "attributes": {
+        "effect": "清热解毒，活血散瘀，消肿止痛",
+        "indication": "膀胱炎，尿道炎，疮疖肿毒，跌打损伤，劳伤",
+        "usage": "内服：煎汤，3~6克；或浸酒。外用：适量，捣烂敷患处",
+        "taboo": "服药后两小时内，忌食热物及荞面"
+      }
+    },
+    {
+      "name": "膀胱炎",
+      "type": "Disease"
+    },
+    {
+      "name": "尿道炎",
+      "type": "Disease"
+    },
+    {
+      "name": "疮疖肿毒",
+      "type": "Disease"
+    },
+    {
+      "name": "跌打损伤",
+      "type": "Disease"
+    },
+    {
+      "name": "劳伤",
+      "type": "Disease"
+    },
+    {
+      "name": "清热解毒",
+      "type": "Effect"
+    },
+    {
+      "name": "活血散瘀",
+      "type": "Effect"
+    },
+    {
+      "name": "消肿止痛",
+      "type": "Effect"
+    },
+    {
+      "name": "《陕西中草药》",
+      "type": "Source"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "铁筷子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "膀胱炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁筷子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "尿道炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁筷子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "疮疖肿毒",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁筷子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "跌打损伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁筷子",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "劳伤",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "铁筷子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "清热解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁筷子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "活血散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁筷子",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿止痛",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "铁筷子",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《陕西中草药》",
+      "object_type": "Source"
+    }
+  ]
+}

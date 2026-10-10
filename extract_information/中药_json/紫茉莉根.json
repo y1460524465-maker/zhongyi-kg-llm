@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "name": "紫茉莉根",
+      "type": "Herb",
+      "attributes": {
+        "alias": "入地老鼠、花粉头、水粉头、粉子头、胭脂花头",
+        "effect": "清热利湿，解毒活血",
+        "indication": "热淋，白浊，水肿，赤白带下，关节肿痛，痈疮肿毒，乳痈，跌打损伤",
+        "dosage": "内服：煎汤，15-30g，鲜品30-60g；外用：适量，鲜品捣敷",
+        "origin": "为紫茉莉科植物紫茉莉的根",
+        "processing": "在播种当年10～11月收获。挖起全根，洗净泥沙，鲜用，或去尽芦头及须根，刮去粗皮，去尽黑色斑点，切片，立即晒干或炕干",
+        "property_flavor": "味淡",
+        "traits": "长圆锥形或圆柱形，有的压扁，有的可见支根，长5-10cm，直径1.5-5cm。表面灰黄色，有纵皱纹及须根痕。顶端有茎基痕。质坚硬，不易折断，断面不整齐，可见环纹。经蒸煮者断面角质样。无臭，味淡，有刺喉感"
+      }
+    },
+    {
+      "name": "《岭南采药录》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《修订增补天宝本草》",
+      "type": "Source",
+      "attributes": null
+    },
+    {
+      "name": "《四川中药志》",
+      "type": "Source",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "紫茉莉根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《岭南采药录》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫茉莉根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《修订增补天宝本草》",
+      "object_type": "Source"
+    },
+    {
+      "subject": "紫茉莉根",
+      "subject_type": "Herb",
+      "relation": "FROM_SOURCE",
+      "object": "《四川中药志》",
+      "object_type": "Source"
+    }
+  ]
+}

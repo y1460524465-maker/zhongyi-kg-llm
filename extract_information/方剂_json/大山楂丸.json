@@ -1,0 +1,50 @@
+{
+  "entities": [
+    {
+      "name": "大山楂丸",
+      "type": "Formula",
+      "attributes": {
+        "effect": "消食化滞，调和脾胃",
+        "indication": "脾胃失和，饮食不香，停食停水，消化不良"
+      }
+    },
+    {
+      "name": "山楂",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "六神曲",
+      "type": "Herb",
+      "attributes": null
+    },
+    {
+      "name": "麦芽",
+      "type": "Herb",
+      "attributes": null
+    }
+  ],
+  "relations": [
+    {
+      "subject": "大山楂丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "山楂",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大山楂丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "六神曲",
+      "object_type": "Herb"
+    },
+    {
+      "subject": "大山楂丸",
+      "subject_type": "Formula",
+      "relation": "HAS_INGREDIENT",
+      "object": "麦芽",
+      "object_type": "Herb"
+    }
+  ]
+}

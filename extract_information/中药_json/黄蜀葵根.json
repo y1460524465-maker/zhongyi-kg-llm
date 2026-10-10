@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "黄蜀葵根",
+      "type": "Herb",
+      "attributes": {
+        "origin": "锦葵科植物黄蜀葵的根",
+        "effect": "利水，散瘀，消肿，解毒",
+        "indication": "淋病，水肿，乳汁不通，腮腺炎，痈肿",
+        "usage": "内服：煎汤，9-15g；或研末，每次1.5-3g",
+        "dosage": "9-15g（煎汤）；1.5-3g（研末）"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "subject": "黄蜀葵根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "利水",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄蜀葵根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "散瘀",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄蜀葵根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "消肿",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄蜀葵根",
+      "subject_type": "Herb",
+      "relation": "HAS_EFFECT",
+      "object": "解毒",
+      "object_type": "Effect"
+    },
+    {
+      "subject": "黄蜀葵根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "淋病",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄蜀葵根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "水肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄蜀葵根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "乳汁不通",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄蜀葵根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "腮腺炎",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄蜀葵根",
+      "subject_type": "Herb",
+      "relation": "TREATS_DISEASE",
+      "object": "痈肿",
+      "object_type": "Disease"
+    },
+    {
+      "subject": "黄蜀葵根",
+      "subject_type": "Herb",
+      "relation": "ALLEVIATES_SYMPTOM",
+      "object": "咳嗽",
+      "object_type": "Symptom"
+    }
+  ]
+}
